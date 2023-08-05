@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: RushHour4
+Version: 0.0.1
+Summary: Reinforcement Learning Tools
+Home-page: https://github.com/kritikseth/RushHour4
+Author: Kritik Seth, Saahil Jain
+Author-email: sethkritik@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: contourpy (==1.0.7)
+Requires-Dist: cycler (==0.11.0)
+Requires-Dist: fonttools (==4.39.3)
+Requires-Dist: kiwisolver (==1.4.4)
+Requires-Dist: matplotlib (==3.7.1)
+Requires-Dist: numpy (==1.24.3)
+Requires-Dist: opencv-python (==4.7.0.72)
+Requires-Dist: pandas (==2.0.1)
+Requires-Dist: Pillow (==9.5.0)
+Requires-Dist: pygame (==2.3.0)
+Requires-Dist: pyparsing (==3.0.9)
+Requires-Dist: pytz (==2023.3)
+Requires-Dist: tqdm (==4.65.0)
+Requires-Dist: tzdata (==2023.3)
+

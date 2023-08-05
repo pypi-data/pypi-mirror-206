@@ -1,0 +1,10 @@
+numpy
+tqdm
+
+[all]
+matplotlib
+ffmpeg-python
+pytest
+
+[test]
+pytest

@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+q_random_number_generator.egg-info/PKG-INFO
+q_random_number_generator.egg-info/SOURCES.txt
+q_random_number_generator.egg-info/dependency_links.txt
+q_random_number_generator.egg-info/top_level.txt

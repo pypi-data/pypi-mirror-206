@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: afloat
+Version: 0.0.8
+Summary: A Fairly useful Library of Ocean Analysis Tools
+Author: Andrew Zulberti
+Author-email: andrew.zulberti@gmail.com
+License: unlicensed to all but author
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: netcdf4
+Requires-Dist: scipy
+Requires-Dist: xarray
+

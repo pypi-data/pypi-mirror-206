@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mdyx
+Version: 0.1.0
+Summary: molecular dynamics with jax
+License: MIT
+Author: Marcel Langer
+Author-email: dev@marcel.science
+Requires-Python: >=3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# mdyx
+## molecular dynamics with JAX
+
+[The best is yet to come!](https://www.youtube.com/watch?v=B-Jq26BCwDs)

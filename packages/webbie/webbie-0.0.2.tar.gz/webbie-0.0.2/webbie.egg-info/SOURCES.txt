@@ -1,0 +1,8 @@
+README.md
+setup.py
+webbie/__init__.py
+webbie.egg-info/PKG-INFO
+webbie.egg-info/SOURCES.txt
+webbie.egg-info/dependency_links.txt
+webbie.egg-info/requires.txt
+webbie.egg-info/top_level.txt

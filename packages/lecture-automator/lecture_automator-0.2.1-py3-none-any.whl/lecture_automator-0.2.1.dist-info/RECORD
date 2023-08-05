@@ -1,0 +1,14 @@
+lecture_automator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lecture_automator/cli.py,sha256=7igI_vdJPsZssCfndL5uLdHKguwCVootOUFkKrUMTcw,1284
+lecture_automator/command_handler.py,sha256=lhYtUgRhH_IfTxPbo_0XrhxjRxzfQBuKnW93YMpQPIA,1393
+lecture_automator/gen_speech/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lecture_automator/gen_speech/gen_speech.py,sha256=Sg8MVpgBp5r2xVoLElvKcOnY9ZkWkgf9_aPV3gZAhfI,7098
+lecture_automator/gen_speech/utils.py,sha256=hB0idfnuZzJEbP756-O2YDExrHwu7nGKsfU7XiprZnU,1953
+lecture_automator/gen_video.py,sha256=GpTOwRiYO64WZPfQCxABd-gV3pUgl7CgqRpr1IxdayU,1995
+lecture_automator/marp_api.py,sha256=j1bcuX4hgr0tsvbyF6NzrwP88LwajybktYNBRabKJwU,1089
+lecture_automator/parser.py,sha256=0bCnMMZd52rPFgFCNdHFCvvzPOFzz-YkKpYwnkvU1FY,4492
+lecture_automator/settings.py,sha256=xbervFxiz-0Ac7Owz5_Of6wQONhs3IzlKHniAxO3vF0,192
+lecture_automator-0.2.1.dist-info/entry_points.txt,sha256=3dgo-tX4-NCNLLBdIJxlzobdt1qdip5zj3cCbauieLE,77
+lecture_automator-0.2.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+lecture_automator-0.2.1.dist-info/METADATA,sha256=cxp4OH06Auy39yZD5VDX7O0u3p31vXEW7w6cJqT-NI8,2846
+lecture_automator-0.2.1.dist-info/RECORD,,

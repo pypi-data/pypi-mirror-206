@@ -1,0 +1,35 @@
+{
+    "name": "McDonald's Philippines",
+    "description": "McDonald's is an American fast-food company, serving millions of customers worldwide with a variety of burgers, fries, beverages, and more.",
+    "products": [
+      "Big Mac",
+      "Quarter Pounder",
+      "French Fries",
+      "Happy Meal",
+      "Chicken McNuggets",
+      "McFlurry",
+      "Apple Pie"
+    ],
+    "services": [
+      "Dine-in",
+      "Drive-thru",
+      "Delivery",
+      "Mobile Order & Pay",
+      "Catering"
+    ],
+    "faqs": [
+      {
+        "question": "What are your operating hours?",
+        "answer": "Our operating hours vary by location. Please check the McDonald's website or app for the hours of your nearest restaurant."
+      },
+      {
+        "question": "Do you offer a vegetarian menu?",
+        "answer": "Yes, we offer a variety of vegetarian options. Please check our menu on the McDonald's website or app for more information."
+      },
+      {
+        "question": "How can I apply for a job at McDonald's?",
+        "answer": "You can apply for a job at McDonald's through our website or by visiting a local restaurant and filling out an application in person."
+      }
+    ]
+  }
+  

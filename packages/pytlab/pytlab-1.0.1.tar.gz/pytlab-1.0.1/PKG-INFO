@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pytlab
+Version: 1.0.1
+Summary: Make matrix and array mathematics operations easier in python
+Author: Ghellab Abderrahmane (Rhaym)
+Author-email: ghellab.abderrahmane@univ-boumerdes.dz
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License

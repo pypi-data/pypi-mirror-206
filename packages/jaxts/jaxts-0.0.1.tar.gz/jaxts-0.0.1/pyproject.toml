@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "jaxts"
+version = "0.0.1"
+description = "A Jax based python package for time series"
+authors = ["Michael Ellis <michael@mlellis.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/michaelellis003/JaxTS"
+keywords = ["Time Series", "State Space Models", "Dynamic Linear Models"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

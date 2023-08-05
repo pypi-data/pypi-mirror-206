@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+properties/__init__.py
+properties/__main__.py
+properties/functional.py
+properties/properties.py
+properties.py.egg-info/PKG-INFO
+properties.py.egg-info/SOURCES.txt
+properties.py.egg-info/dependency_links.txt
+properties.py.egg-info/top_level.txt

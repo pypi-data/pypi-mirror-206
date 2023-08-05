@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/python/guify.egg-info/PKG-INFO
+src/python/guify.egg-info/SOURCES.txt
+src/python/guify.egg-info/dependency_links.txt
+src/python/guify.egg-info/requires.txt
+src/python/guify.egg-info/top_level.txt

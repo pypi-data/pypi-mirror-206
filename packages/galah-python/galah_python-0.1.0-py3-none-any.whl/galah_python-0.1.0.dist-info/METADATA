@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: galah-python
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Amanda Buyan
+Author-email: amanda.buyan@csiro.au
+License: MPL-2.0
+Keywords: galah
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: urllib3
+Requires-Dist: TIME-python
+Requires-Dist: zip-files
+Requires-Dist: configparser
+Requires-Dist: glob2
+Requires-Dist: bytesbufio
+Requires-Dist: shutils
+
+UNKNOWN
+

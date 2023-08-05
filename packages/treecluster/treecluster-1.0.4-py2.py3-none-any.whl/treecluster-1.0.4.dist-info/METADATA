@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: treecluster
+Version: 1.0.4
+Summary: TreeCluster: a tool for clustering biological sequences using phylogenetic trees.
+Home-page: https://github.com/niemasd/TreeCluster
+Author: Niema Moshiri
+Author-email: niemamoshiri@gmail.com
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: niemads
+Requires-Dist: treeswift
+
+TreeCluster is a tool that, given a tree T (Newick format) and a distance threshold t,          finds the minimum number of clusters of the leaves of T such that some user-specified constraint is met          in each cluster. 

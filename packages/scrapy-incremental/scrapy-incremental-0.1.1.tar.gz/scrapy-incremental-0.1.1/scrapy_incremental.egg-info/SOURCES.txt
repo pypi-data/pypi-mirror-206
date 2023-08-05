@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+scrapy_incremental/__init__.py
+scrapy_incremental/middleware.py
+scrapy_incremental/mixin.py
+scrapy_incremental/pipelines.py
+scrapy_incremental.egg-info/PKG-INFO
+scrapy_incremental.egg-info/SOURCES.txt
+scrapy_incremental.egg-info/dependency_links.txt
+scrapy_incremental.egg-info/requires.txt
+scrapy_incremental.egg-info/top_level.txt

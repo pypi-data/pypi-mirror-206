@@ -1,0 +1,2 @@
+[nbdev]
+pumaplot = pumaplot._modidx:d

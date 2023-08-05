@@ -1,0 +1,6 @@
+pyproject.toml
+setup.cfg
+corenet.egg-info/PKG-INFO
+corenet.egg-info/SOURCES.txt
+corenet.egg-info/dependency_links.txt
+corenet.egg-info/top_level.txt

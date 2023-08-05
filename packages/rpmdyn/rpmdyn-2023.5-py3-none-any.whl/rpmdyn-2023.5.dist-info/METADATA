@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: rpmdyn
+Version: 2023.5
+Project-URL: homepage, https://github.com/rohanpm/rpmdyn
+Requires-Dist: cffi
+

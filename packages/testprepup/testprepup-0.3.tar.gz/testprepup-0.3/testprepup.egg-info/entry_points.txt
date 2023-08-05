@@ -1,0 +1,5 @@
+[console_scripts]
+explore = testprepup.test.explore:main
+impute = testprepup.test.impute:main
+inspect = testprepup.test.inspect:main
+normalize = testprepup.test.normalize:main

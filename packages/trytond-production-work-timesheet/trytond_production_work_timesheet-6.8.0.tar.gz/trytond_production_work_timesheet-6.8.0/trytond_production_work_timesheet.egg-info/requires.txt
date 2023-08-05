@@ -1,0 +1,6 @@
+trytond_production_routing<6.9,>=6.8
+trytond_production_work<6.9,>=6.8
+trytond_timesheet<6.9,>=6.8
+trytond<6.9,>=6.8
+
+[test]

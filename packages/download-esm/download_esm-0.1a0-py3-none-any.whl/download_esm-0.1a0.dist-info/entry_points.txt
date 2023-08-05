@@ -1,0 +1,2 @@
+[console_scripts]
+download-esm = download_esm.cli:cli

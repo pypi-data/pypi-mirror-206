@@ -1,0 +1,9 @@
+LbConfiguration/Platform.py,sha256=oOPTHOgwjRheUdFOHNJNCQiofZo-cIHRijHtQ12YwDQ,31270
+LbConfiguration/__init__.py,sha256=Y7wHH-YXGlUNfCudNaFOLBsYMU4sBUSF5JfjAMJ0-Ks,8481
+LbConfiguration/SP2/__init__.py,sha256=UGUT2TkKRXSw8xAM1iC73E9Av4tVQnBkARQo8G55C84,5765
+LbConfiguration/SP2/lookup.py,sha256=togS4HBnl2cl7M9KR5zPet-CC4qnV3WTYactT2Q01LM,22775
+LbConfiguration/SP2/version.py,sha256=BN1rvBCUrre7TJNqOunWPwzK6tH0oXVlY98CdBs7IdI,3061
+LbConfiguration-0.1.0.dist-info/METADATA,sha256=7GNbqR1mwlp9vSzE5jnL3hqlytQCC1c_u5ptpvWHhBA,452
+LbConfiguration-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+LbConfiguration-0.1.0.dist-info/top_level.txt,sha256=gQnzZyS6-MS-dtZJ2LIj_fP5L0CAOMasV0dSepss6Pc,16
+LbConfiguration-0.1.0.dist-info/RECORD,,

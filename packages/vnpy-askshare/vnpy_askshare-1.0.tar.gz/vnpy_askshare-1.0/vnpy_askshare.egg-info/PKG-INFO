@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: vnpy-askshare
+Version: 1.0
+Summary: vnpy_akshare数据服务
+Home-page: https://github.com/bthuntergg/vnpy_akshare
+Author: <lpf6;jan>
+Author-email: <298092154@qq.com>
+Maintainer: <jan>
+Maintainer-email: <298092154@qq.com>
+License: BSD License
+Keywords: quant,quantitative,investment,trading,algotrading
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+
+│  LICENSE
+│  MANIFEST.in
+│  README.rst
+│  setup.py
+│
+└─vnpy_akshare

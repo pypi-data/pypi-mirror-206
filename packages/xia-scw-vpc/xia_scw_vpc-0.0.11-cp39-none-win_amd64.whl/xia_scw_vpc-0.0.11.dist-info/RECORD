@@ -1,0 +1,11 @@
+xia_scw_vpc/__init__.py,sha256=6QSq1wifUqvNiIwz7lWVR4651gPmw_oxvgggw6M_tNA,88
+xia_scw_vpc/vpc.cp39-win_amd64.pyd,sha256=2RNoB0S2P1-QJ_OO9zrhkb3RylD6gsyKiV34MletktM,260608
+xia_scw_vpc/templates/ScwVpc/main.tf,sha256=_VCRRiquB39fg7rzlQdta2E5N62DBESugd5r5igNt9M,1210
+xia_scw_vpc/templates/ScwVpc/output.tf,sha256=WViElHk7wBXlhLjPHxfaV__I5UELalnX2BgNWMc0mNM,868
+xia_scw_vpc/templates/ScwVpc/provider.tf,sha256=h_zFGas7QtYJPGvufLGuPHtgDhoZa28Qa5t--1dpheI,343
+xia_scw_vpc/templates/ScwVpc/variables.tf,sha256=-qYxcGlWOGcmTQIhkM6HFRnxhd-yMFZ7wG5GtSHoFpE,2295
+xia_scw_vpc-0.0.11.dist-info/LICENSE.txt,sha256=qs2CwS0OVCg5NQzaYPJCSyPQcxH-zEx9Tbq4ptwhgB0,150
+xia_scw_vpc-0.0.11.dist-info/METADATA,sha256=Fw-AsSDBmG-wGk5Wtw8qmsLUQdJ0ZWJxJqrCOkj4OT4,674
+xia_scw_vpc-0.0.11.dist-info/WHEEL,sha256=T8VPDjot1YI5-NaRzS6kIMlJNVl0SSGa_dm-8Fprszg,99
+xia_scw_vpc-0.0.11.dist-info/top_level.txt,sha256=jNt0Wv07qq3bYLKNdao2gLQ4e_U6VYrOuw3Wehup0ts,12
+xia_scw_vpc-0.0.11.dist-info/RECORD,,

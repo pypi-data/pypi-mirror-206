@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pyqt5_auto_translate/TranslatedItems.py
+pyqt5_auto_translate/__init__.py
+pyqt5_auto_translate/example.ui
+pyqt5_auto_translate/translations.yml
+pyqt5_auto_translate.egg-info/PKG-INFO
+pyqt5_auto_translate.egg-info/SOURCES.txt
+pyqt5_auto_translate.egg-info/dependency_links.txt
+pyqt5_auto_translate.egg-info/requires.txt
+pyqt5_auto_translate.egg-info/top_level.txt

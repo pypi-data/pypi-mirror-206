@@ -1,0 +1,159 @@
+Metadata-Version: 2.1
+Name: pyqt5_auto_translate
+Version: 0.1.0
+Summary: A lightweight and easy-to-use library for automating the translation of PyQt5 widgets.
+Home-page: https://github.com/LiRunJi/pyqt5_auto_translate
+Author: RunJi
+Author-email: ryanlee02@foxmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyQt5 Auto Translate 
+
+`pyqt5_auto_translate` 是一个用于 PyQt5 的自动翻译库，使您可以轻松地在 PyQt5 程序中实现多语言支持。您可以在几乎不修改原有代码的情况下增加多语言翻译支持.
+
+ ## 安装 
+
+使用 pip 安装： 
+
+```bash
+pip install pyqt5_auto_translate
+```
+
+## 目前支持翻译的组件
+
+| 原始组件    | 支持翻译的组件        |
+| ----------- | --------------------- |
+| QLabel      | TranslatedQLabel      |
+| QPushButton | TranslatedQPushButton |
+| QCheckBox   | TranslatedQCheckBox   |
+| QMenu       | TranslatedQMenu       |
+| QAction     | TranslatedQAction     |
+
+## 示例
+
+这里是一个没有集成翻译的代码:
+
+```python
+import sys
+from PyQt5.QtCore import Qt, QTimer
+from PyQt5.QtWidgets import (
+    QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QLabel,
+    QLineEdit, QPushButton, QProgressBar, QSlider, QLCDNumber, QGroupBox
+)
+
+class ExampleUI(QWidget):
+    def __init__(self):
+        super().__init__()
+
+        # Initialize main layout
+        self.layout = QVBoxLayout()
+
+        # Add title label
+        self.title_label = QLabel("Example UI")
+        self.layout.addWidget(self.title_label)
+
+        # Add horizontal layout
+        self.hbox_layout = QHBoxLayout()
+        self.layout.addLayout(self.hbox_layout)
+
+        # Add label to horizontal layout
+        self.hbox_layout.addWidget(QLabel("Username: "))
+
+        # Add line edit to horizontal layout
+        self.username_input = QLineEdit()
+        self.hbox_layout.addWidget(self.username_input)
+
+        # Add another horizontal layout
+        self.hbox_layout2 = QHBoxLayout()
+        self.layout.addLayout(self.hbox_layout2)
+
+        # Add label to horizontal layout
+        self.hbox_layout2.addWidget(QLabel("Password: "))
+
+        # Add line edit to horizontal layout
+        self.password_input = QLineEdit()
+        self.password_input.setEchoMode(QLineEdit.Password)
+        self.hbox_layout2.addWidget(self.password_input)
+
+        # Add button
+        self.submit_button = QPushButton("Submit")
+        self.layout.addWidget(self.submit_button)
+
+        # Add progress bar
+        self.progress_bar = QProgressBar()
+        self.progress_bar.setRange(0, 100)
+        self.layout.addWidget(self.progress_bar)
+
+        # Add slider
+        self.slider = QSlider(Qt.Horizontal)
+        self.layout.addWidget(self.slider)
+
+        # Add LCD number
+        self.lcd_number = QLCDNumber()
+        self.lcd_number.setSegmentStyle(QLCDNumber.Flat)
+        self.layout.addWidget(self.lcd_number)
+
+        # Add timer
+        self.timer = QTimer()
+        self.timer.timeout.connect(self.update_progress_bar)
+
+        # Add group box
+        self.group_box = QGroupBox("Options")
+        self.group_box_layout = QVBoxLayout()
+        self.group_box.setLayout(self.group_box_layout)
+
+        # Add checkboxes to group box
+        self.checkbox1 = QPushButton("Option 1")
+        self.checkbox2 = QPushButton("Option 2")
+        self.checkbox3 = QPushButton("Option 3")
+        self.group_box_layout.addWidget(self.checkbox1)
+        self.group_box_layout.addWidget(self.checkbox2)
+        self.group_box_layout.addWidget(self.checkbox3)
+
+        # Add group box to layout
+        self.layout.addWidget(self.group_box)
+
+        # Set layout
+        self.setLayout(self.layout)
+
+    def start_timer(self):
+        self.timer.start(50)
+
+    def stop_timer(self):
+        self.timer.stop()
+
+    def update_progress_bar(self):
+        value = self.progress_bar.value() + 1
+        self.progress_bar.setValue(value)
+        self.lcd_number.display(value)
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    window = QMainWindow()
+    ui = ExampleUI()
+    window.setCentralWidget(ui)
+    window.show()
+    ui.start_timer()
+    sys.exit(app.exec_())
+
+```
+
+集成翻译功能:
+
+
+

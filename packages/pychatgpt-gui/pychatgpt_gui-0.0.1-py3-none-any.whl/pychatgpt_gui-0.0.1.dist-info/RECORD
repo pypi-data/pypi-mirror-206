@@ -1,0 +1,10 @@
+pychatgpt_gui/__init__.py,sha256=bt9ixiIpVTM3qP7jeC6Aibmvd0wFTr8eDoktYsDKioo,527
+pychatgpt_gui/api.py,sha256=aG_-S423_VK1M9DcRSxcTmmTlI-IqAAPXEwBHyJLckY,4458
+pychatgpt_gui/app.py,sha256=WAYn1dl4mglP7WfEJhCwS25LgAqlBbZtwngN-ktGshA,19444
+pychatgpt_gui/pygpt4all_cli.py,sha256=jKLFKLKpE2F4SMQd0gcdTyUfHrcoOe8OI7BO-1d_Kqs,4160
+pychatgpt_gui/utils.py,sha256=Q2ujFNtECbtS-YMkzXd9nyv-KktkLed1vCmO-WfsBII,1134
+pychatgpt_gui/voice_bot.py,sha256=5yB5_3K3hmGFryfYIKxnrmxGJ8YZnQcvl249-dFx-QI,2756
+pychatgpt_gui-0.0.1.dist-info/METADATA,sha256=1y2NNGNv5KFtp1qgnHjBywpMilZEf8E9dh-EIsQZDNQ,7935
+pychatgpt_gui-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pychatgpt_gui-0.0.1.dist-info/top_level.txt,sha256=fU-vnIU5Ezlt746HOOb5iekNF-5PeO7174LncTklv40,14
+pychatgpt_gui-0.0.1.dist-info/RECORD,,

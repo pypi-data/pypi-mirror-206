@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: regenbib
+Version: 0.0.1
+Summary: (Re-)generate tidy .bib files from online sources
+License: GPL-3.0-only
+Author: Joachim Neu
+Author-email: jneu@stanford.edu
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: arxiv (>=1.4.7,<2.0.0)
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: bibtex-dblp (>=0.5,<0.6)
+Requires-Dist: marshmallow-dataclass[enum,union] (==8.5.11)
+Requires-Dist: requests (>=2.29.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# regenbib
+(Re-)generate tidy .bib files from online sources
+

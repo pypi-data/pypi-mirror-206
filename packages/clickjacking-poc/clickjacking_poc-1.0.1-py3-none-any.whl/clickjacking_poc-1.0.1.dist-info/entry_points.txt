@@ -1,0 +1,2 @@
+[console_scripts]
+clickjacking-poc = clickjacking_poc.__main__:main

@@ -1,0 +1,2 @@
+[console_scripts]
+sand = sand.internal.main:main

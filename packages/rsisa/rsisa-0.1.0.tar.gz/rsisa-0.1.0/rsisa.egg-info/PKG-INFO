@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: rsisa
+Version: 0.1.0
+Summary: Remote Sensing Instance Segmentation Algorithms
+Home-page: https://github.com/ZhiangChen/instance_segmentation_remote_sensing
+Author: Zhiang Chen
+Author-email: zxc251@case.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

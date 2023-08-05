@@ -1,0 +1,11 @@
+ferny/__init__.py,sha256=3zILAqyI-c0aNhUItd1QZrgGU4hABQX6LtckTR0rvlc,448
+ferny/_version.py,sha256=VSqUygf_jLef0qd5fY3nCZb3O3KOZx_Hlzo8f3nH_ws,151
+ferny/errors.py,sha256=lOb9YUjaH8qzjp9cJnWLMi3G8ZHDWmvdUg16bbBhHFM,4083
+ferny/interaction_agent.py,sha256=RPuaHO_CmNLG0sA78Te1pY0Ta53fShCZii9cBloo4IM,10156
+ferny/interaction_client.py,sha256=Us6JvwxR-tcNiURU11kavKpDaUrLWHGVNS36Y3yZ-4E,1117
+ferny/session.py,sha256=WWufXqQ6hQigaJTt6pe6VGYtczRDy6uMY2U6gtiWnUU,7967
+ferny-0.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ferny-0.dist-info/METADATA,sha256=HdkWfx5CeeoPiIewdPMsvtYm0xNklFaexo8WT80vGMk,41384
+ferny-0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ferny-0.dist-info/top_level.txt,sha256=yB8YBDcvc6RFpdwg5I7-e8oNksny-2ACR32U8vEZLO4,6
+ferny-0.dist-info/RECORD,,

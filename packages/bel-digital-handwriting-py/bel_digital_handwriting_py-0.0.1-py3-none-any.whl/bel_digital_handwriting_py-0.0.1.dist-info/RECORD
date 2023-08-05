@@ -1,0 +1,13 @@
+BelDigitalHandwriting/BelDHAnalyser.py,sha256=r38pUFZXsoBca-Wa_WFXRdDe-Iay1TLxYgc8BArt2Nk,505
+BelDigitalHandwriting/Symbol.py,sha256=movleT6PZhYQIZGjuc98rerEh9AxwYKItLRDA3k3CEU,1390
+BelDigitalHandwriting/WordSentence.py,sha256=e6RjWTHhunAQSebZNOPWWcZq_4bw_9qjKRRPS7h_fjg,6451
+BelDigitalHandwriting/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+BelDigitalHandwriting/constants.py,sha256=cC6XqckWXJ-W5Nwwt6HDLsIeFgsNf1rxWOYbrwHCjcU,1006
+BelDigitalHandwriting/Models/AnalyzeModels.py,sha256=IY3oMmBlzSi0CvBBmJZ8oKEmfigYZhwe7q02k9AUsvQ,1266
+BelDigitalHandwriting/Models/SymbolModels.py,sha256=My4Gdd639fqwf6VUAGW-1JfGtHZGdyX_kz4aXHUKDYo,3614
+BelDigitalHandwriting/Models/WordSentenceModels.py,sha256=hINRuILi1SO11ENUUEq4Pw9dTjvbTYc5aWhmIX222zo,10391
+bel_digital_handwriting_py-0.0.1.dist-info/LICENSE,sha256=h6mIPHB2POt95a2oHZgt1qukdV7VQpgCx5xd5hu20nE,1073
+bel_digital_handwriting_py-0.0.1.dist-info/METADATA,sha256=pe4VMrjmRN-f3BpEEGXg367cqT6uvaiWIYDaXt32Ou4,5440
+bel_digital_handwriting_py-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+bel_digital_handwriting_py-0.0.1.dist-info/top_level.txt,sha256=d-0zKNUwRT56o0W1i8XfUqbOzk8izu2xXyvLJe2KOZI,22
+bel_digital_handwriting_py-0.0.1.dist-info/RECORD,,

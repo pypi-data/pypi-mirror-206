@@ -1,0 +1,3 @@
+[console_scripts]
+ns-att=netswift_cli.netswift_cli:app
+

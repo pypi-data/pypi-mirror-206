@@ -1,0 +1,8 @@
+[project]
+name = "ml_plugins"
+version = "0.0.2"
+dependencies = [
+    "metaflow"
+]
+requires-python = ">=3.7"
+

@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: mpopt-lulav
+Version: 0.6
+Summary: Optimal control lib modified by Lulav Space
+Home-page: https://github.com/lulav/mpopt_lulav
+Download-URL: https://github.com/lulav/mpopt_lulav/archive/refs/tags/v0.1.tar.gz
+Author: gtep
+Author-email: gleb@lulav.space
+License: MIT
+Keywords: Optimal,Control,Lulav
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# mpopt_lulav
+
+# TODO
+
+## publish CI/CD
+
+pushing the package to [PiPy](https://pypi.org/project/citros/)
+
+```python
+git tag -a "v0.05" -m "beta version testing"
+git push --tags
+```

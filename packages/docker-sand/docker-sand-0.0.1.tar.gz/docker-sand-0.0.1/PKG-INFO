@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: docker-sand
+Version: 0.0.1
+Summary: Sand is a Dockerfile generator based on python that allows you to write your Dockerfile in a more convenient way.
+Home-page: https://github.com/gkpln3/Sand
+Author: Guy Kaplan
+License: MIT
+Keywords: sand docker dockerfile build

@@ -1,0 +1,8 @@
+tree_sitter_languages_lean-1.8.0.dist-info/METADATA,sha256=X4AgBJB4E79E43Tg6SF_0sC5IqxWhKxnciyQeHJPDzI,8475
+tree_sitter_languages_lean-1.8.0.dist-info/top_level.txt,sha256=1WmcNkOJg9xmImRjbeI-XQHXNsQox9gEShuMMeZC3jg,22
+tree_sitter_languages_lean-1.8.0.dist-info/RECORD,,
+tree_sitter_languages_lean-1.8.0.dist-info/WHEEL,sha256=YVAXCacQXnznQ-_lMj8Nvqrs7YPtMP1pHRCw9EcyWRQ,150
+tree_sitter_languages_lean-1.8.0.dist-info/LICENSE,sha256=p-khWTvpo1oB_ZC2zyMlUNxZiIIeYjcaOuy3E7DSdoo,575
+tree_sitter_languages/languages.so,sha256=6_ialQseoZ6cpGAHq35a7NSPOqsxkHib1C4gvjlQUQI,51769064
+tree_sitter_languages/__init__.py,sha256=aql2ilNr7fHNyxHrAotc0U9xKcOGvcLJIHMYuh5F0go,270
+tree_sitter_languages/core.cpython-36m-x86_64-linux-gnu.so,sha256=knOs4JbMxFS708FBbuaVU2jBbgkBVPm3G9Dq-Q8TJv8,161248

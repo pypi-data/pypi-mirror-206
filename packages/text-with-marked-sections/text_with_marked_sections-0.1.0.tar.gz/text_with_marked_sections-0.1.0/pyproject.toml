@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "text-with-marked-sections"
+version = "0.1.0"
+description = "Description text"
+authors = ["Alexandr Boltris"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

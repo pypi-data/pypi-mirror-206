@@ -1,0 +1,17 @@
+Header {
+    background: $panel;
+}
+
+GPUStatsWidget {
+    box-sizing: content-box;
+    background: $panel;
+    height: 100%;
+    width: 100%;
+    min-width: 50;
+}
+
+/* for colors, see: https://textual.textualize.io/guide/design/#theme-reference */
+
+DataTable {
+    width: 100%;
+}

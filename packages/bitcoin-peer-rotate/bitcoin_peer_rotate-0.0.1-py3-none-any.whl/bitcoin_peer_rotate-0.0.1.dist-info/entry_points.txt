@@ -1,0 +1,2 @@
+[console_scripts]
+bitcoin-peer-rotate = bitcoin_peer_rotate:main

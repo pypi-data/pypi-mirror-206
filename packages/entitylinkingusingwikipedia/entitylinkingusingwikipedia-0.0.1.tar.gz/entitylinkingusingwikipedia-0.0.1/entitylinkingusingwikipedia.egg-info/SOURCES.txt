@@ -1,0 +1,9 @@
+README.md
+setup.py
+Sources/__init__.py
+Sources/el_wikipedia.py
+entitylinkingusingwikipedia.egg-info/PKG-INFO
+entitylinkingusingwikipedia.egg-info/SOURCES.txt
+entitylinkingusingwikipedia.egg-info/dependency_links.txt
+entitylinkingusingwikipedia.egg-info/requires.txt
+entitylinkingusingwikipedia.egg-info/top_level.txt

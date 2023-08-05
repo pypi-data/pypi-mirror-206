@@ -1,0 +1,10 @@
+numpy
+torch
+scipy
+pyro-ppl
+pandas
+nltk
+spacy
+
+[dev]
+cython

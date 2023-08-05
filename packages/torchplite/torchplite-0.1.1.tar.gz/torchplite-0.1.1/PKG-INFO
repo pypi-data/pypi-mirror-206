@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: torchplite
+Version: 0.1.1
+Summary: A PyTorch implementation of the Planck 2018 Lite likelihood for the Cosmic Microwave Background (CMB) power spectra
+Author-email: Benjamin Thorne <bn.thorne@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Ben Thorne
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, https://github.com/bthorne93/torch-planck2018-lite
+Project-URL: Source, https://github.com/bthorne93/torch-planck2018-lite
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Torch Planck 2018 Lite
+
+`torchplite` is a PyTorch implementation of the Planck 2018 Lite likelihood for the Cosmic Microwave Background (CMB) power spectra. This package provides a convenient and efficient way to compute the log-likelihood of CMB power spectra given a cosmological model.
+
+## Installation
+
+You can install `torchplite` via pip from PyPI:
+
+```
+pip install torchplite
+```
+
+This package requires Python 3.6 or later and PyTorch 1.7 or later.
+
+## Usage
+
+To use the `torchplite` package, you can import the `PlanckLitePy` class and create an instance with the desired settings:
+
+```python
+from torchplite import PlanckLitePy
+
+# Initialize the PlanckLitePy object
+planck = PlanckLitePy(year=2018, spectra="TTTEEE", use_low_ell_bins=False)
+
+# Load the power spectra
+import numpy as np
+ls, Dltt, Dlte, Dlee = np.genfromtxt("path/to/your/data/Dl_planck2015fit.dat", unpack=True)
+
+# Compute the log-likelihood
+ellmin = int(ls[0])
+loglikelihood = planck.loglike(Dltt, Dlte, Dlee, ellmin)
+```
+
+You can customize the behavior of the `PlanckLitePy` object by changing its constructor parameters:
+
+- `year`: The Planck data release year (2015 or 2018).
+- `spectra`: The CMB power spectra to use ("TTTEEE" for TT, TE, and EE or "TT" for TT only).
+- `use_low_ell_bins`: Whether to include low-ell bins in the likelihood calculation (True or False).
+
+
+## Running Tests 
+
+To run the tests, you can use the `unittest` module: 
+
+```
+python -m unittest discover tests
+```
+
+this will run all the test cases defined in the `tests` directory. 
+
+## Licesnse 
+
+This project is under the MIT License. See the LICENSE file for more details.
+
+## Credit
+
+This is a PyTorch implementation of the `planck-lite-py` code by [Heather Prince](https://github.com/heatherprince/planck-lite-py). 

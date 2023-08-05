@@ -1,0 +1,2 @@
+coloredlogs>=15.0.1
+wikiseriesbrentlib~=0.1.0

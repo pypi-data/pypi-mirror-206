@@ -1,0 +1,7 @@
+trytond_marketing<6.9,>=6.8
+trytond_party<6.9,>=6.8
+trytond_web_user<6.9,>=6.8
+trytond_web_shortener<6.9,>=6.8
+trytond<6.9,>=6.8
+
+[test]

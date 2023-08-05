@@ -1,0 +1,13 @@
+prefix=/Users/giuseppefrattura/Documents/Projects/python/.conda
+exec_prefix=/Users/giuseppefrattura/Documents/Projects/python/.conda
+libdir=/Users/giuseppefrattura/Documents/Projects/python/.conda/lib
+sharedlibdir=/Users/giuseppefrattura/Documents/Projects/python/.conda/lib
+includedir=/Users/giuseppefrattura/Documents/Projects/python/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

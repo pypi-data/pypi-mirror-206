@@ -1,0 +1,8 @@
+src/bow/__about__.py,sha256=uoD-D4PHZNIBn3Eh6S0te5r2tMrl2kwk9_hYr01_rtk,23
+src/bow/__main__.py,sha256=TUUMq729_IH4NZmZ2ILYENI2hpqh8AeOE26WPQDQyY8,6004
+templates/pycord/main.py,sha256=s0R2waw0pzNUOdoiZTGwulftP0UPqyBjdgmkkYC9SPU,300
+templates/pycordv3/main.py,sha256=Edyyu5eehLZ6uE7Qa-4QNCAhP_Js3Bd5_fmIhHcR3uc,295
+bow_cli-1.0.0.7.dist-info/METADATA,sha256=g1LjVD3wP5WaLzQclVAvmcZWrvP0UH8JdfIh5DVE99Q,1484
+bow_cli-1.0.0.7.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+bow_cli-1.0.0.7.dist-info/entry_points.txt,sha256=ynhInmBB70fVIkAwttsaOkNihIos0gN7Ywkp0QD658E,33
+bow_cli-1.0.0.7.dist-info/RECORD,,

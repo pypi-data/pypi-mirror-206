@@ -1,0 +1,14 @@
+sqlitedave_package/.schemawiz_config3,sha256=yqPuJy1pgVZYMCvGklSwM_-Fqctmg1jJUJ_658mIYGk,18
+sqlitedave_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlitedave_package/a.csv,sha256=TNla0fQoml8dOuQ0umYklDDP3jCeHqRFoUZrs0q-Re8,469
+sqlitedave_package/complexdata.csv,sha256=PB-8DZPPtiXGq1Lwh9SjNpnCtEm4_VxtTG-u_3J-kTg,467
+sqlitedave_package/execute.py,sha256=2j2VJ6q8qu3JkOsfbUquOW1XjCa19D0tpKQNHPVSLEU,1006
+sqlitedave_package/postgres_data.tsv,sha256=FUXgOmeOhDyCjhr9KYShHLIT20ZoRSCg0KNVy3nWVJM,48
+sqlitedave_package/query.py,sha256=E-rr941SHw5hfX5M-Q5VqDYboLwhWTykC36CFGX1534,1023
+sqlitedave_package/select.sql,sha256=bM-Yl2olUQpLs_0UE7OtrRK2c1WOvVYQAHJdKxZJfyw,50
+sqlitedave_package/sqlitedave.py,sha256=uWySySOdS167TCpkr_ZFxVcyMUOkOiqGgOwywavIqik,13435
+sqlitedave_package/testcase1.csv,sha256=S41nQYeRNeJmOcbNlg3xz7EaW_beC2eIfFmO1AOX_yo,162
+sqlitedave_package-1.3.0.dist-info/METADATA,sha256=xJgGzBSa42mf5GW-E0roMGUjRQKpyOWK7h1IT-2nYu8,1195
+sqlitedave_package-1.3.0.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+sqlitedave_package-1.3.0.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+sqlitedave_package-1.3.0.dist-info/RECORD,,

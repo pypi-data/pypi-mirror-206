@@ -1,0 +1,1 @@
+from  el_wikipedia import entity_linking

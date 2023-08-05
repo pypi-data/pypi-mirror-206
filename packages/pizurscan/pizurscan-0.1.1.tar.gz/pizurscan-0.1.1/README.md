@@ -1,0 +1,5 @@
+# pizur-scanner
+A library to execute one-dimensional continuous and discrete spatial scan with PI (Physik Intrumente) stepper motor and axis in combination with a lock-in Zurich implifier. In particular, with this library three main applications can be covered:
+- Input processing: input parameters for the axis scan, such as the scan edges and the step size, are processed to return the parameters to be inserted into the DAQ (data acquisition) of the Zurich lock-in. 
+- Scan execution: a connection with the PI controller that controls the stepper motor (and thus the motion of the axis) is established. A 1D continuous/discrete scan can be executed based on the scan parameters. 
+- Output Processing: as Input Processing stage sets the parameters of the DAQ acquisition of the Zurich instrument, post processing of the output Zurich data is performed in this last stage. Output data are "cleaned" from redundancy and the output file is eventually made of two columns; position and acquired signal, in a one-to-one relationship.  

@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "wipypedia"
+version = "0.1.0"
+description = ""
+authors = ["Andrew Gigena <mail@andrewgigena.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pywikibot = "^8.1.2"
+pillow = "^9.5.0"
+librosa = "^0.10.0.post2"
+pydantic = "^1.10.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

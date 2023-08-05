@@ -1,0 +1,92 @@
+## Audio Module
+
+Extracting audio data from a Wikipedia page
+
+```python
+from wipypedia.audio import AudioExtractor
+import librosa
+
+# initialize AudioExtractor object
+audio_extractor = AudioExtractor()
+
+# extract audio data from a page
+page = wikipedia.get_page("Music")
+audio_data = audio_extractor.extract_from_page(page)
+
+# play audio data using librosa
+librosa.output.play(audio_data)
+```
+
+## Core Module
+
+Retrieving a Wikipedia page and its information
+
+```python
+from wipypedia.core import Wikipedia
+
+# initialize Wikipedia object
+wikipedia = Wikipedia()
+
+# retrieve a page by its title
+page = wikipedia.get_page("Python (programming language)")
+
+# print page metadata
+print(f"Page ID: {page.id}")
+print(f"Title: {page.title}")
+print(f"Content: {page.content}")
+print(f"Summary: {page.summary}")
+print(f"HTML: {page.html}")
+print(f"Metadata: {page.metadata}")
+print(f"Images: {page.images}")
+print(f"References: {page.references}")
+print(f"Links: {page.links}")
+print(f"Categories: {page.categories}")
+print(f"Sections: {page.sections}")
+
+# retrieve a page by its ID
+page_by_id = wikipedia.get_page_by_id("27454")
+```
+
+## Image Module
+
+Extracting images from a Wikipedia page
+
+```python
+from wipypedia.image import ImageExtractor
+from PIL import Image
+
+# initialize ImageExtractor object
+image_extractor = ImageExtractor()
+
+# extract image data from a page
+page = wikipedia.get_page("Polar bear")
+image_data = image_extractor.extract_from_page(page)
+
+# display image using PIL
+img = Image.fromarray(image_data)
+img.show()
+```
+
+## Search Module
+
+Building and executing a Wikipedia search query
+
+```python
+from wipypedia.search import SearchBuilder, Search
+
+# initialize SearchBuilder and add keywords and categories
+builder = SearchBuilder()
+builder.add_keyword("Python")
+builder.add_category("Programming languages")
+
+# set namespace and results limit
+builder.set_namespace(0)
+builder.set_results_limit(5)
+
+# execute search query using builder
+search_results = builder.build()
+
+# initialize Search object and execute search by query
+search = Search()
+search_results = search.search_by_builder(builder)
+```

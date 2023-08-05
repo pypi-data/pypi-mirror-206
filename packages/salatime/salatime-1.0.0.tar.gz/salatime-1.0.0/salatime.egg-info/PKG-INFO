@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: salatime
+Version: 1.0.0
+Summary: Package that shuts down (suspend) you computer at salat time
+Author-email: Khabir Abdelhakim <hakim1khabir2@gmail.com>
+Project-URL: Homepage, https://github.com/hakkm/service-timer
+Project-URL: Bug Tracker, https://github.com/hakkm/service-timer/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Salatime
+
+## Authors
+
+- [@hakkm](https://www.github.com/hakkm)
+
+## Installation
+
+```pip install salatime```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

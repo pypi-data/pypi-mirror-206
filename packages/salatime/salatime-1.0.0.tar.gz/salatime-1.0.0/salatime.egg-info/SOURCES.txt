@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+salatime/__init__.py
+salatime/api_fetcher.py
+salatime/prayer.py
+salatime/prayer_scheduler.py
+salatime/prayer_times_parser.py
+salatime/prayers_day.py
+salatime.egg-info/PKG-INFO
+salatime.egg-info/SOURCES.txt
+salatime.egg-info/dependency_links.txt
+salatime.egg-info/top_level.txt

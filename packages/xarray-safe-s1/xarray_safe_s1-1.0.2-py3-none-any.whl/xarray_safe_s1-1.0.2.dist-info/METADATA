@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: xarray-safe-s1
+Version: 1.0.2
+License: MIT
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: geopandas
+Requires-Dist: numpy
+Requires-Dist: xarray
+Requires-Dist: xarray-datatree
+Requires-Dist: lxml
+Requires-Dist: rioxarray
+Requires-Dist: jmespath
+Requires-Dist: fsspec
+Requires-Dist: rasterio
+Requires-Dist: affine
+Requires-Dist: pandas
+Requires-Dist: shapely
+Requires-Dist: pyproj
+Requires-Dist: dask
+

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: polar-api
+Version: 1.0.1
+Summary: API wrapper for POLAR TeamPro
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests (>=2.28.2)
+Requires-Dist: isodate (>=0.6.1)
+Requires-Dist: pandas (>=1.5.3)
+Requires-Dist: beautifulsoup4 (>=4.12.2)
+
+UNKNOWN
+

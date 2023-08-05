@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/clickjacking_poc/__init__.py
+src/clickjacking_poc/__main__.py
+src/clickjacking_poc.egg-info/PKG-INFO
+src/clickjacking_poc.egg-info/SOURCES.txt
+src/clickjacking_poc.egg-info/dependency_links.txt
+src/clickjacking_poc.egg-info/entry_points.txt
+src/clickjacking_poc.egg-info/top_level.txt

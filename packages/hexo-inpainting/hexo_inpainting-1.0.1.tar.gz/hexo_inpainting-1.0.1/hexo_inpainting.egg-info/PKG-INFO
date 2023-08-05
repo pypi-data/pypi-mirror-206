@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: hexo-inpainting
+Version: 1.0.1
+Summary: This is an image editing tool
+Author: Hexo.ai
+Author-email: saurabh@hexo.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

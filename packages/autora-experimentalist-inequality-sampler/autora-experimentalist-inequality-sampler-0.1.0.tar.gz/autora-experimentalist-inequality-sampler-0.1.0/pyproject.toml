@@ -1,0 +1,32 @@
+[project]
+# UPDATE THIS BEFORE PUBLISHING
+name = "autora-experimentalist-inequality-sampler"
+description = "AutoRA Inequality Sampler"
+authors = [
+    { name = "Chad C. Williams", email = "cwilliams.uca@gmail.com" },
+    { name = "Younes Strittmatter", email = "younes_strittmatter@brown.com" }
+]
+version = "0.1.0"
+
+readme = "README.md"
+license = { text = "MIT License" }
+requires-python = ">=3.8,<4"
+
+# ADD NEW DEPENDENCIES HERE
+dependencies = [
+    "autora-core",
+]
+
+[project.optional-dependencies]
+dev = [
+    "autora-core[dev]"
+]
+
+[project.urls]
+homepage = "http://www.empiricalresearch.ai"
+repository = "https://github.com/AutoResearch/autora-experimentalist-inequality-sampler"
+documentation = "https://autoresearch.github.io/autora/"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

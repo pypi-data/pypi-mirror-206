@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: utilspggmdatalab
+Version: 0.4
+Summary: A toolkit module for the Mimir app created in Innovation Data Lab
+Home-page: https://github.com/PGGM-Innovatie/utilspggmdatalab
+Author: Dominique Stoverink
+Author-email: dominique.stoverink@pggm.nl
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+Requires-Dist: azure-core
+Requires-Dist: azure-data-tables
+Requires-Dist: azure-functions
+Requires-Dist: azure-storage-blob
+Requires-Dist: azure-storage-queue
+Requires-Dist: certifi
+Requires-Dist: cffi
+Requires-Dist: charset-normalizer
+Requires-Dist: cryptography
+Requires-Dist: idna
+Requires-Dist: isodate
+Requires-Dist: langdetect
+Requires-Dist: multidict
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pycparser
+Requires-Dist: pyodbc
+Requires-Dist: python-dateutil
+Requires-Dist: python-dotenv
+Requires-Dist: pytz
+Requires-Dist: requests
+Requires-Dist: six
+Requires-Dist: typing-extensions
+Requires-Dist: tzdata
+Requires-Dist: urllib3
+Requires-Dist: yarl
+

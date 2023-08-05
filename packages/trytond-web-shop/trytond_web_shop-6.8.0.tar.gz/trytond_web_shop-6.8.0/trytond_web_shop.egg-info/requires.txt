@@ -1,0 +1,12 @@
+trytond_account<6.9,>=6.8
+trytond_company<6.9,>=6.8
+trytond_currency<6.9,>=6.8
+trytond_product<6.9,>=6.8
+trytond_sale<6.9,>=6.8
+trytond_stock<6.9,>=6.8
+trytond_web_user<6.9,>=6.8
+trytond<6.9,>=6.8
+
+[test]
+trytond_product_attribute<6.9,>=6.8
+trytond_product_image<6.9,>=6.8

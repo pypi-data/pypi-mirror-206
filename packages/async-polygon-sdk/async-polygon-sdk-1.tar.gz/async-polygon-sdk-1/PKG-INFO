@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: async-polygon-sdk
+Version: 1
+Summary: This package is designed to work with the polygon.io service as an async toolkit for analyzing markets in real time.
+Author: chuckdustin12
+Author-email: chuckdustin12@gmail.com
+License: MIT
+Keywords: finance,trading,stocks,analysis,async,polygon.io

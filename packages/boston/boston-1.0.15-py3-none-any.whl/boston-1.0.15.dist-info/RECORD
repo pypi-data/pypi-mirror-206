@@ -1,0 +1,8 @@
+boston/__init__.py,sha256=Aj-3RQ5Z7cak4nfZqz5xRWAyFxd1TtXw6tGfNI710vU,67
+boston/house.py,sha256=Moi9Urcx798_u3DwulORUW1XhErqQ14Cr04qQ3fVmbE,472
+boston/resources/boston_house_prices.csv,sha256=BOo-0KpjaRz-3ziDSer8EhPpHgD45NMXR1NGksDxzgI,35230
+boston-1.0.15.data/data/resources/boston_house_prices.csv,sha256=BOo-0KpjaRz-3ziDSer8EhPpHgD45NMXR1NGksDxzgI,35230
+boston-1.0.15.dist-info/METADATA,sha256=eqEuA2vnVYAxnxrmm_haSG1QYSNP8JYCxUKBfbIoBUk,463
+boston-1.0.15.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+boston-1.0.15.dist-info/top_level.txt,sha256=GM7woffOFOScnMbB3v0ydKKNAX2Z4T8RoQYpz__BXdY,7
+boston-1.0.15.dist-info/RECORD,,

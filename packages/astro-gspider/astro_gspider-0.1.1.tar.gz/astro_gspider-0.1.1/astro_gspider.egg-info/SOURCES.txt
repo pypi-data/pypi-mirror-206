@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+astro_gspider/__init__.py
+astro_gspider/hello.py
+astro_gspider.egg-info/PKG-INFO
+astro_gspider.egg-info/SOURCES.txt
+astro_gspider.egg-info/dependency_links.txt
+astro_gspider.egg-info/top_level.txt
+tests/__init__.py

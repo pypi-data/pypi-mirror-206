@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+autotools/__init__.py
+autotools/mixins.py
+django_filter_autotools.egg-info/PKG-INFO
+django_filter_autotools.egg-info/SOURCES.txt
+django_filter_autotools.egg-info/dependency_links.txt
+django_filter_autotools.egg-info/requires.txt
+django_filter_autotools.egg-info/top_level.txt

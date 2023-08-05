@@ -1,0 +1,40 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='testprepup',
+    version='0.4',
+    packages=find_packages(),
+    entry_points={
+        'console_scripts': [
+            'inspect=inspect:main',
+            'explore=explore:main',
+            'impute=impute:main',
+            "normalize=normalize:main",
+        ],
+    },
+    install_requires=[
+        "argparse",
+        "polars",
+        "termcolor",
+        "pyfiglet",
+        "blessed",
+        "imbalanced_learn",
+        "imblearn",
+        "joblib",
+        "matplotlib",
+        "nbclient",
+        "nbformat",
+        "numpy",
+        "pandas",
+        "plotext",
+        "prefect",
+        "prefect_jupyter",
+        "pydantic",
+        "pyfiglet",
+        "pytest",
+        "scikit_learn",
+        "scipy",
+        "seaborn",
+        "termcolor",
+    ],
+)

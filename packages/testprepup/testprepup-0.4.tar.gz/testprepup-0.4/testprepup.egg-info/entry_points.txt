@@ -1,0 +1,5 @@
+[console_scripts]
+explore = explore:main
+impute = impute:main
+inspect = inspect:main
+normalize = normalize:main

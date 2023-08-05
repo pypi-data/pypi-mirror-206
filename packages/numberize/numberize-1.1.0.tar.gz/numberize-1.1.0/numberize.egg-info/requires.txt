@@ -1,0 +1,3 @@
+pymorphy3[fast]
+pymorphy3-dicts-uk
+nltk

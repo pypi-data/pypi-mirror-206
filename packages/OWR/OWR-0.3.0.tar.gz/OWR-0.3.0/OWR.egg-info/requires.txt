@@ -1,0 +1,8 @@
+fonetika
+huggingsound
+librosaLevenshtein
+logging
+numpy
+playsound
+pylcs
+soundfile

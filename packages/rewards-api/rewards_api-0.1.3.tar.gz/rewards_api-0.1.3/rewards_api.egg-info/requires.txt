@@ -1,0 +1,8 @@
+Flask[async]
+boto3
+flask==2.2.3
+flask_cors
+opencv-python
+rewards-envs
+rewards-experimental
+torch

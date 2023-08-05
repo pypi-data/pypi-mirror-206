@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pygredients
+Version: 0.1.0
+Summary: Pygredients is a Python library for data structures and algorithms.
+Home-page: https://github.com/FBH514/pygredients
+Author: François Boulay-Handfield
+Author-email: fbhworks@icloud.com
+License: MIT
+Keywords: data structures algorithms
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+License-File: LICENSE.txt
+Requires-Dist: twine (>=4.0.0)
+
+UNKNOWN
+

@@ -1,0 +1,4 @@
+__main__
+assets
+classes
+main

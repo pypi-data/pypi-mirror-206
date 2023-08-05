@@ -1,0 +1,9 @@
+numpy
+scipy
+xarray
+pandas
+netcdf4
+geopandas
+shapely
+tables
+cf_xarray>=0.5.1

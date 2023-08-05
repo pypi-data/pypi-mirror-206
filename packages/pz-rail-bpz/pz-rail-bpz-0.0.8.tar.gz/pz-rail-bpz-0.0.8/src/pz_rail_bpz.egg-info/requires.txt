@@ -1,0 +1,11 @@
+desc-bpz
+pandas
+pz-rail
+tables-io[full]
+
+[dev]
+coverage
+pylint
+pytest
+pytest-cov
+yamllint

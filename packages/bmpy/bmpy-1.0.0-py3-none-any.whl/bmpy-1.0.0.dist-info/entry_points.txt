@@ -1,0 +1,2 @@
+[console_scripts]
+bmpy = bmpy.bmpy:main

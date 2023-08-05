@@ -1,0 +1,11 @@
+pytest_testdirectory/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_testdirectory/checkoutput.py,sha256=4DiZoQY1EJGVJWOLupT3BidYdvWcM7E6B3Hin2-uad0,2161
+pytest_testdirectory/runresult.py,sha256=K4PMte9biSJnpUkL4meWneGOs5Loz_XAWoAG2DFyonw,1138
+pytest_testdirectory/runresulterror.py,sha256=czqqy89yml989DBjE8Mtv65Vc9xUw0W4iJkGj38XXP4,207
+pytest_testdirectory/testdirectory.py,sha256=PFmfroDVseg3aU_kBqLQyqx2ZXXUjSA7OdoKA1PU3Jw,14304
+pytest_testdirectory-5.0.0.dist-info/LICENSE.rst,sha256=HArmY8aYqGyVqtLfpBVBWf1vgzJbKUS-QmZfvekTA3Q,1505
+pytest_testdirectory-5.0.0.dist-info/METADATA,sha256=1FLhB7Uda-2HkalEP5xsmHWQtFmKI_OwRq2ZSfYF9mE,4870
+pytest_testdirectory-5.0.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+pytest_testdirectory-5.0.0.dist-info/entry_points.txt,sha256=5D2qPl7g7g3G9YKWwgPjExMirn3mggDb-fsrvew3GWY,63
+pytest_testdirectory-5.0.0.dist-info/top_level.txt,sha256=PEzlu-W8nx0a-74PHHqVmjTOpuCqO2kNYAjGH5_7EH4,21
+pytest_testdirectory-5.0.0.dist-info/RECORD,,

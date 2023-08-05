@@ -1,0 +1,10 @@
+LICENSE
+README.md
+salamemojify
+salamemojify.py
+setup.py
+test_salamemojify
+salamemojify.egg-info/PKG-INFO
+salamemojify.egg-info/SOURCES.txt
+salamemojify.egg-info/dependency_links.txt
+salamemojify.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+LICENSE,sha256=V2H-QpaIgBdYMlZ5eUbIqLOeOQuvYeUl12yEkP1eYGk,1090
+openapi_schema/__init__.py,sha256=sFULMNCu3xuNwFtTifG0lWXKHTF-P8m4UqD-H0cVQ_A,283
+openapi_schema/generator.py,sha256=OtJfvtZ-OPgvgj0xorBlfg93AEoVJx-4Kz8Ek-fgyGA,9990
+openapi_schema/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openapi_schema/schema.py,sha256=xFUjin9pHY6x849lqraYAVhiKXtAxjR98kDxZJGxIQY,19524
+openapi_schema/typing.py,sha256=kbzmwriJXCZMGonX-3tAsD5FBIR8KZs86Nn0vYZ6U3A,41959
+openapi_schema/utils.py,sha256=ZeBpqJwGyA5XzAd3wDrCs98oX4qH-9qh8NaQVgs2pX0,13140
+openapi_schema/views.py,sha256=AOtBqiV48FoufxDHoOPR_Qfel1WSXxcGByI8caUL3kU,4921
+README.md,sha256=r2B_ogZT_b4oAFQueAVRldfHPLxZjQv-EPhEQZUFWIM,2005
+drf_openapi_schema-0.0.1.dist-info/LICENSE,sha256=V2H-QpaIgBdYMlZ5eUbIqLOeOQuvYeUl12yEkP1eYGk,1090
+drf_openapi_schema-0.0.1.dist-info/METADATA,sha256=OoiIA9YqT27XqVeLgE1Ro6Ik7CkVr5PspGNATP3BTtA,3690
+drf_openapi_schema-0.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+drf_openapi_schema-0.0.1.dist-info/RECORD,,

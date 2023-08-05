@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: GptCode
+Version: 1.0.7
+Summary: ChatGpt API接口的封装
+Author: mazhiqiang
+Author-email: mazhiqiang2023@163.com
+Requires: openai
+

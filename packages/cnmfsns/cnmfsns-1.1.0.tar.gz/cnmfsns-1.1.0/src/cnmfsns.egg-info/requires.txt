@@ -1,0 +1,16 @@
+anndata>=0.8.0
+pandas
+numpy
+scipy>=1.9.0
+matplotlib
+upsetplot
+httplib2
+tomli
+tomli-w
+distinctipy
+nancorrmp
+click
+pygraphviz
+igraph
+semantic_version
+pyyaml

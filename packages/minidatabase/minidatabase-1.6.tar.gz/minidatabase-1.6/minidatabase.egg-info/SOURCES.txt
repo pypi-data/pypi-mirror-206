@@ -1,0 +1,12 @@
+LICENSE.txt
+README.rst
+setup.py
+minidatabase/WebMDB.py
+minidatabase/__init__.py
+minidatabase/minidb.py
+minidatabase.egg-info/PKG-INFO
+minidatabase.egg-info/SOURCES.txt
+minidatabase.egg-info/dependency_links.txt
+minidatabase.egg-info/entry_points.txt
+minidatabase.egg-info/requires.txt
+minidatabase.egg-info/top_level.txt

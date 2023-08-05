@@ -1,0 +1,15 @@
+invenio_campusonline/__init__.py,sha256=PDUgrGOCl7qwp8ILSYpKe2ltNZsJwmK-tk5qDVIZvP8,635
+invenio_campusonline/api.py,sha256=KjWd1JTnbVI5Vt7AzSin4bBKNVlUulj897u5VbOX4C4,1515
+invenio_campusonline/cli.py,sha256=RtPeDSp7DE6iYM0W336-ZhDxslFudJfKUFWZGzx15jk,2051
+invenio_campusonline/config.py,sha256=mos4w_Rxk0lfdUNR6OfNIyd1d0CAN_vrleoz4K2UGMY,1228
+invenio_campusonline/ext.py,sha256=z_eR5rpHS0GJLIFNp0t5VOzNHVAhU2O0MiNY31zn3xw,644
+invenio_campusonline/tasks.py,sha256=2pgAmVo9qrMSP5Uxizb7sf7WbyY-hoaeaBh-jP60Q60,1851
+invenio_campusonline/types.py,sha256=tYq6OJ1k3u3eLOW1pSo9LRj3rqeDPioh2acVOfwMVr8,1674
+invenio_campusonline/utils.py,sha256=88F16aLHKUoduR2Idd3pT7ctgt5rdh6d1NB-o62Om7g,4865
+invenio_campusonline-0.1.2.dist-info/AUTHORS.rst,sha256=04ej6dmUc_ZsL1uudVvNF0kx8cn00JuDPG_vs_2cjmM,359
+invenio_campusonline-0.1.2.dist-info/LICENSE,sha256=8w_Lg-twM0AzCWrQBzPhlphSaqiOOX-nXZKZf9284PE,1087
+invenio_campusonline-0.1.2.dist-info/METADATA,sha256=BE3UAqA5aqmV_4nQMkq37t3XxJpFwCAJrnaOi5jQyf0,2798
+invenio_campusonline-0.1.2.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+invenio_campusonline-0.1.2.dist-info/entry_points.txt,sha256=zs8085DGlsQol6uTDh2D2gXhyL8pziquNLboxOHQEQU,230
+invenio_campusonline-0.1.2.dist-info/top_level.txt,sha256=wRwq39HboxT9pKO63ekXb6MkbnsFbRrf6qYHvmew3u0,21
+invenio_campusonline-0.1.2.dist-info/RECORD,,

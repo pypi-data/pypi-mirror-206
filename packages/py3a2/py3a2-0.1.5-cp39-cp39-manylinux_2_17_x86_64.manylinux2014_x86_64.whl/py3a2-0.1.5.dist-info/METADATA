@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: py3a2
+Version: 0.1.5
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Rust implementation for sending APNs push notifications
+
+## Usage
+
+```python
+import py3a2
+
+# Returns integer as request status code
+# * 200 Success
+# * 400 Bad request
+# * 403 There was an error with the certificate or with the provider authentication token
+# * 405 The request used a bad `:method` value. Only `POST` requests are supported.
+# * 410 The device token is no longer active for the topic.
+# * 413 The notification payload was too large.
+# * 429 The server received too many requests for the same device token.
+# * 500 Internal server error.
+# * 503 The server is shutting down and unavailable.
+py3a2.send_notification(cert_file       # Binary p12 file
+                        password,       # Password for the p12 file
+                        device_token,   # Device token
+                        title,          # Title of the message
+                        message,        # Body of message
+                        is_sandbox,     # Is sandbox environment
+                        topic,          # Topic
+                        badge,          # Badge
+                        custom_id,      # APNS-ID
+                        user_id)        # Custom data - user id
+```
+

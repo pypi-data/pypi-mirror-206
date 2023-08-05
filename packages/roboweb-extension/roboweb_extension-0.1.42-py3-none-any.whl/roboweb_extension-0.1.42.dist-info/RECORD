@@ -1,0 +1,17 @@
+roboweb_extension/__init__.py,sha256=4oJ7yn-Gbv3Lp8PpFrUNekg-6UKmVuJm4SokNEUkZLk,318
+roboweb_extension/_version.py,sha256=p4MxVO8ih2-hnh7INVBkrqMKBDGTkMso1LEbM6mx3jg,23
+roboweb_extension/labextension/package.json,sha256=7alFTETEnXURw5H3Qc4zkkXmLHvtBgmxalCvbXNIFLc,1867
+roboweb_extension/labextension/static/568.8aa90f90bd8fe74e17a2.js,sha256=iqkPkL2P504XoqqCx5zFrW_w_FBVAEukHlM3BYl8tVM,5520
+roboweb_extension/labextension/static/remoteEntry.52495129d51f16d70f5d.js,sha256=UklRKdUfFtcPXRZhdmOnDkc_oAezrtiigyfep4u1F_0,6557
+roboweb_extension/labextension/static/style.js,sha256=-CQt0ZTPaCTvrRiLcznxflAbfvIKlOVzjOos-muaXQ8,118
+roboweb_extension/labextension/static/third-party-licenses.json,sha256=MNToQfru1YnHAie-2Virp23yWsc5co3qG0IzrO6SEfw,20
+roboweb_extension-0.1.42.data/data/share/jupyter/labextensions/roboweb-extension/install.json,sha256=nt-4k9I9gwBEwb4BXLYFuUd4rMZpB2hsTu16qoUpV8U,195
+roboweb_extension-0.1.42.data/data/share/jupyter/labextensions/roboweb-extension/package.json,sha256=7alFTETEnXURw5H3Qc4zkkXmLHvtBgmxalCvbXNIFLc,1867
+roboweb_extension-0.1.42.data/data/share/jupyter/labextensions/roboweb-extension/static/568.8aa90f90bd8fe74e17a2.js,sha256=iqkPkL2P504XoqqCx5zFrW_w_FBVAEukHlM3BYl8tVM,5520
+roboweb_extension-0.1.42.data/data/share/jupyter/labextensions/roboweb-extension/static/remoteEntry.52495129d51f16d70f5d.js,sha256=UklRKdUfFtcPXRZhdmOnDkc_oAezrtiigyfep4u1F_0,6557
+roboweb_extension-0.1.42.data/data/share/jupyter/labextensions/roboweb-extension/static/style.js,sha256=-CQt0ZTPaCTvrRiLcznxflAbfvIKlOVzjOos-muaXQ8,118
+roboweb_extension-0.1.42.data/data/share/jupyter/labextensions/roboweb-extension/static/third-party-licenses.json,sha256=MNToQfru1YnHAie-2Virp23yWsc5co3qG0IzrO6SEfw,20
+roboweb_extension-0.1.42.dist-info/METADATA,sha256=EN0i-BkrJQGgWRXmjrPxPuPeEFkD1XnykI27mZcnfYk,2928
+roboweb_extension-0.1.42.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+roboweb_extension-0.1.42.dist-info/licenses/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roboweb_extension-0.1.42.dist-info/RECORD,,

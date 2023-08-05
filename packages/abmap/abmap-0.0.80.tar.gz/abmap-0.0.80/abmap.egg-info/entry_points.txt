@@ -1,0 +1,3 @@
+[console_scripts]
+abmap = abmap.__main__:main
+

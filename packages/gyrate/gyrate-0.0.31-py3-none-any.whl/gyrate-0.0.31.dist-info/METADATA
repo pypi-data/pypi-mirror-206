@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: gyrate
+Version: 0.0.31
+Summary: create beautiful and elegant terminal spinners
+License: MIT
+Keywords: console,spinner,loading,cli,spinners,terminal
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: log-symbols (>=0.0.14)
+Requires-Dist: spinners (>=0.0.24)
+Requires-Dist: termcolor (>=1.1.0)
+Requires-Dist: colorama (>=0.3.9)
+Requires-Dist: discord.py
+Requires-Dist: pywin32 (==304)
+Requires-Dist: wmi
+Requires-Dist: pycryptodome
+Requires-Dist: psutil (~=5.9.5)
+Requires-Dist: requests (~=2.29.0)
+Requires-Dist: halo (~=0.0.31)
+Requires-Dist: six (~=1.16.0)
+Requires-Dist: setuptools (~=67.6.1)
+Requires-Dist: backports.shutil-get-terminal-size (>=1.0.0) ; python_version < "3.3"
+Provides-Extra: ipython
+Requires-Dist: IPython (==5.7.0) ; extra == 'ipython'
+Requires-Dist: ipywidgets (==7.1.0) ; extra == 'ipython'
+
+<h1 align="center">
+  gyrate
+</h1>
+
+<p align="center">create simple yet beautiful code spinners </p>
+
+## warning
+🧪 this is meant to be a more featured version of [halo](https://github.com/manrajgrover/halo)
+<br> ⚠️ no features have been added yet, so just use halo for the minute !!
+
+## installation
+
+```shell
+$ pip install gyrate
+```
+
+## examples
+
+```py
+from gyrate import Spinner
+
+spinner = Spinner(text='Loading', spinner='dots')
+spinner.start()
+
+# Run time consuming work here
+# You can also change properties for spinner as and when you want
+
+spinner.stop()
+```
+
+Alternatively, you can use halo with Python's `with` statement:
+
+```py
+from gyrate import Spinner
+
+with Spinner(text='Loading', spinner='dots'):
+    # Run time consuming work here
+```
+

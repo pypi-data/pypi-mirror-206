@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+MNIST_dir/__init__.py
+MNIST_dir.egg-info/PKG-INFO
+MNIST_dir.egg-info/SOURCES.txt
+MNIST_dir.egg-info/dependency_links.txt
+MNIST_dir.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+polynomiograpy/__init__.py,sha256=ADFXrP7_4iemmu5OLOTZ3SG5VcDyStsrMGkN7N7q0Ns,1998
+polynomiograpy/cli/__init__.py,sha256=e1KYwGU1WPqbQLUDhWI9qTvX_2giKbNWFii29MTOKo8,2444
+polynomiograpy/common/polynomial.py,sha256=jN28jUDsr_MWMSNCOwOuhVrSoqzNf0ObHxm_mi9qCEY,1458
+polynomiograpy/compute_screen.py,sha256=m-cg2aUO1uvfThYI2oLnrGxe96SLVEWNORTpfEFOMGI,1256
+polynomiograpy/methods/iter.py,sha256=A6sEng3z9c1SHinSHMVnda13cLFJZGIzpIr9n2jjXWE,2279
+polynomiograpy-0.1.0a2.dist-info/LICENSE,sha256=EUoSfzRNf5YV5Bnhj0ULi_yLZjBJ8msuX6aTZuSSKI4,1070
+polynomiograpy-0.1.0a2.dist-info/METADATA,sha256=dBGVI-DRpCHsjPq0C7XoYcWzLQth8shMjAPOTiBCORI,738
+polynomiograpy-0.1.0a2.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+polynomiograpy-0.1.0a2.dist-info/entry_points.txt,sha256=K6IFiehOWSD6vgFwWKlIkwMUbwyvRnjruaa76bHsY_c,61
+polynomiograpy-0.1.0a2.dist-info/RECORD,,

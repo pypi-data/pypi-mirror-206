@@ -1,0 +1,7 @@
+setup.py
+testprepup.egg-info/PKG-INFO
+testprepup.egg-info/SOURCES.txt
+testprepup.egg-info/dependency_links.txt
+testprepup.egg-info/entry_points.txt
+testprepup.egg-info/requires.txt
+testprepup.egg-info/top_level.txt

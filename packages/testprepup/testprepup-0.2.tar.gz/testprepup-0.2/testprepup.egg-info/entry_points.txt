@@ -1,0 +1,5 @@
+[console_scripts]
+explore = test.explore:main
+impute = test.impute:main
+inspect = test.inspect:main
+normalize = test.normalize:main

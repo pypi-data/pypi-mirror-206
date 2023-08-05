@@ -1,0 +1,2 @@
+[console_scripts]
+wiki-series = wikiserieswillemcli.wikiserieswillemcli:main

@@ -1,0 +1,5 @@
+trytond_account_payment<6.9,>=6.8
+trytond_sale_promotion_coupon<6.9,>=6.8
+trytond<6.9,>=6.8
+
+[test]

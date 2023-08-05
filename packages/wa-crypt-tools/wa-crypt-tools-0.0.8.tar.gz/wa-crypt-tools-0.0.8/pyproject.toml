@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wa-crypt-tools"
+keywords = ["whatsapp", "crypt12", "crypt14", "crypt15"]
+version = "0.0.8"
+authors = [
+    {name = "Davide Palma", email = "pypi@davidepalma.it"},
+]
+description = "Decrypts WhatsApp .crypt12, .crypt14 and .crypt15 files, given the key."
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "javaobj-py3 ~= 0.4.3",
+    "pycryptodomex ~= 3.17",
+    "protobuf ~= 4.22.3"
+]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+    "Topic :: Security :: Cryptography",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+
+]
+
+[project.scripts]
+decrypt14_15 = "wa_crypt_tools.decrypt14_15:main"

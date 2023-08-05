@@ -1,0 +1,9 @@
+README.md
+setup.py
+Sources/__init__.py
+Sources/el_wikipedia.py
+entitylinkin_wikipedia.egg-info/PKG-INFO
+entitylinkin_wikipedia.egg-info/SOURCES.txt
+entitylinkin_wikipedia.egg-info/dependency_links.txt
+entitylinkin_wikipedia.egg-info/requires.txt
+entitylinkin_wikipedia.egg-info/top_level.txt

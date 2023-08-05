@@ -1,0 +1,39 @@
+# Maharashtra Forts
+
+This Python package provides information about the forts in the state of Maharashtra, India. The data has been collected from various sources and compiled into a convenient package for easy access and use.
+
+## Installation
+
+To install Maharashtra Forts, simply use `pip`:
+
+`pip install maharashtra-forts`
+
+## Usage
+
+To use Maharashtra Forts, first import the package:
+
+`import maharashtra_forts`
+
+Then, you can access the information about the forts using the `get_forts()` function:
+
+`all_forts = maharashtra_forts.all_forts()`
+
+`print(all_forts)`
+
+This will print a list of dictionaries, with each dictionary containing information about a fort, including its name, location, and historical significance.
+
+## Data
+
+The data in Maharashtra Forts has been collected from various sources, including historical texts, government archives, and local historians. We have done our best to ensure the accuracy of the data, but please note that some information may be incomplete or outdated.
+
+## Contributing
+
+If you would like to contribute to Maharashtra Forts, please fork the repository and submit a pull request with your changes. We welcome contributions of all kinds, including bug fixes, new features, and additional data.
+
+## License
+
+Maharashtra Forts is distributed under the MIT license. Please see the LICENSE file for more information.
+
+## Contact
+
+If you have any questions, comments, or concerns about Maharashtra Forts, please feel free to contact us at [maharashtra_forts@gmail.com](mailto:maharashtra_forts@gmail.com)

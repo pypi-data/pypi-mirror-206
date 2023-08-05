@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+light_django.egg-info/PKG-INFO
+light_django.egg-info/SOURCES.txt
+light_django.egg-info/dependency_links.txt
+light_django.egg-info/top_level.txt

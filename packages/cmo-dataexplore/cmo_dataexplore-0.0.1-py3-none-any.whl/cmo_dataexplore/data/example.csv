@@ -1,0 +1,848 @@
+﻿ID,Seks,Age,Education,Work_experience_in_years,Function_level,Name,Visitdate,Religion,Location,Quit_yn
+1,female,27,High School,6,Staff,"Adams, Cherokee",24/11/2019,,Amsterdam,1
+2,female,32,Primary,11,Staff,"Gallegos, Lore",03/11/2019,,Amsterdam,1
+3,female,37,High School,22,Office,"Ogaz-Morales, Dia",12/11/2019,,Amsterdam,0
+4,female,,College,5,Office,"Nicholas, Keiley",11/11/2019,,Amsterdam,0
+5,female,27,Master,6,Staff,"Croy, Caroli",28/09/2019,,Amsterdam,0
+6,female,32,High School,17,Staff,"Adolpho-Rivera, May",25/10/2019,,Amsterdam,0
+7,female,22,High School,4,Office,"Robinson, Sydney",13/12/2019,,Amsterdam,0
+8,male,,,9,Staff,"Nguyen, Il",24/11/2019,,Amsterdam,0
+9,male,52,High School,37,Staff,"Mercado, Farieha",26/12/2019,,Amsterdam,0
+10,male,37,PhD,16,Staff,"Tercero Jr, Paul",23/11/2019,,Amsterdam,
+11,male,52,Elementary,35,Staff,"Lontine, Orlando",08/01/2020,,Amsterdam,0
+12,female,32,High School,19,Staff,"Nunez, Angelica",25/12/2019,,Amsterdam,0
+13,male,37,Master,22,Office,"Cleveland, Sharad",16/10/2019,,Amsterdam,1
+14,female,42,Master,28,Staff,"Marta Ginez, Jessica",03/11/2019,,Amsterdam,0
+15,male,32,,17,Staff,"Wilson, Avian",25/10/2019,,Amsterdam,0
+16,male,32,PhD,12,Staff,"Davis, Liam",23/10/2019,,Amsterdam,0
+17,female,52,Master,33,Staff,"Thomas, Malika",03/12/2019,,Amsterdam,1
+18,male,27,High School,4,Staff,"Qureshi, Keanu",21/10/2019,,Amsterdam,1
+19,female,27,Master,12,Staff,"Ornelas, Lizbeth",22/10/2019,,Amsterdam,0
+20,male,37,College,18,Staff,"Lyashchenko, Jacob",28/12/2019,,Amsterdam,0
+21,male,32,PhD,12,Staff,"Winters, Daniel",28/11/2019,,Amsterdam,0
+22,male,27,College,4,Staff,"Lopez-Cano, Pryce",03/11/2019,,Amsterdam,0
+23,female,32,Master,11,Staff,"Flores Dominguez, Brenda",23/12/2019,,Amsterdam,
+24,male,27,Master,14,Mager,"Pe, Wakiyan",20/11/2019,,Amsterdam,1
+25,male,27,,4,Staff,"Williams, Ja Mil",13/11/2019,,Amsterdam,0
+26,female,22,High School,1,Staff,"Williams, Victoria",04/01/2020,,Amsterdam,0
+27,female,32,High School,12,Staff,"Mcallister, Amanda",19/11/2019,,Amsterdam,0
+28,female,27,Master,14,Office,"Rascon-Baca, Cheyenne",22/10/2019,,Amsterdam,0
+29,female,22,High School,3,Office,"Denny, Terri",27/01/2020,,Amsterdam,0
+30,female,27,Bachelor,5,Office,"Simmons, Meeso",24/10/2019,,Amsterdam,1
+31,male,27,,13,Staff,"Enriquez, Derick",22/01/2020,,Amsterdam,0
+32,female,27,Master,4,Office,"Alexander, Heli",30/01/2020,,Amsterdam,1
+33,male,37,Master,16,Staff,"Law, Quinton",16/01/2020,,Amsterdam,0
+34,male,37,Master,14,Office,"Simok, Evan",28/11/2019,,Amsterdam,0
+35,female,27,Elementary,8,Office,"Martinez, Maribel",18/12/2019,,Amsterdam,0
+36,female,32,Bachelor,9,Staff,"Dadabhoy, Aia",26/01/2020,,Amsterdam,0
+37,female,52,Bachelor,31,Mager,"Gardner, Casady",10/11/2019,,Amsterdam,0
+38,female,27,High School,10,Staff,"Tran, Amy",14/11/2019,,Amsterdam,0
+39,female,22,College,2,Office,"Escobedo Caudillo, Ayla",07/12/2019,,Amsterdam,0
+40,female,32,High School,13,Staff,"Streetman, Chloe",07/02/2020,,Amsterdam,0
+41,female,42,High School,27,Staff,"Delacruz-Pe, Wendy",12/11/2019,,Amsterdam,0
+42,male,37,PhD,16,Staff,"Trujillo, Joshua",08/01/2020,,Amsterdam,0
+43,male,27,PhD,10,Staff,"Chavez, Kevin",27/11/2019,,Amsterdam,0
+44,male,27,Master,8,Office,"Bailey, Qiao Yi",01/02/2020,,Amsterdam,
+45,male,32,PhD,11,Staff,"Merritt, Judah",21/01/2020,,Amsterdam,0
+46,male,27,Master,5,Staff,"Sanchez-Chavez, Marcus",17/12/2019,,Amsterdam,1
+47,male,52,PhD,35,Staff,"Wall, Jeremy",27/12/2019,,Amsterdam,0
+48,male,47,Bachelor,28,Staff,"Oyebi, Jeovanni",21/01/2020,,Amsterdam,0
+49,female,32,Master,19,Staff,"Thao, An Liza",05/02/2020,,Amsterdam,1
+50,male,22,Master,1,Staff,"Garcia, Bowen",29/11/2019,,Amsterdam,0
+51,female,32,Elementary,11,Staff,"Jacobs, Sabra",11/01/2020,,Amsterdam,0
+52,female,22,High School,3,Office,"Rodriguez, talia",29/12/2019,,Amsterdam,0
+53,female,32,High School,15,Staff,"Trujillo, A",05/01/2020,,Amsterdam,0
+54,male,32,Master,17,Staff,"Trevizo, Nestor",03/02/2020,,Amsterdam,0
+55,female,32,College,19,Staff,"Sathe, Jennifer",18/12/2019,,Amsterdam,0
+56,female,27,High School,6,Staff,"Xiong, Madalyn",17/01/2020,,Amsterdam,1
+57,male,32,Elementary,17,Staff,"Cedillo, Ramon",20/11/2019,,Amsterdam,0
+58,female,32,Master,10,Staff,"Liu, Lauren",27/01/2020,,Amsterdam,0
+59,male,37,PhD,20,Staff,"Lisondra, Lars",25/11/2019,,Amsterdam,0
+60,female,32,High School,16,Office,"Walker, Asha",02/12/2019,,Amsterdam,0
+61,female,47,High School,32,Office,"Mendez, Alexis",28/02/2020,,Amsterdam,0
+62,male,32,High School,17,Staff,"Richardson, Skylar",10/02/2020,,Amsterdam,0
+63,male,42,Master,27,Staff,"Vigil, Eduardo",14/02/2020,,Amsterdam,0
+64,male,22,Bachelor,6,Staff,"Adams, John",25/01/2020,,Amsterdam,0
+65,male,32,Master,11,Staff,"Tapia Roblero, Andres",09/02/2020,,Amsterdam,0
+66,male,42,PhD,26,Staff,"Matheson, Shawn",27/02/2020,,Amsterdam,
+67,male,57,PhD,38,Staff,"Lopez, Alexis",23/01/2020,,Amsterdam,0
+68,male,37,High School,24,Staff,"Brown, Gabriel",04/02/2020,,Amsterdam,0
+69,male,,Bachelor,2,Staff,"Fleischman Jr, Dyllan",26/01/2020,,Amsterdam,0
+70,female,22,Elementary,6,Staff,"Wells, Paige",10/12/2019,,Amsterdam,0
+71,male,27,PhD,7,Staff,"Chen, Tian",19/01/2020,,Amsterdam,0
+72,male,22,Elementary,5,Staff,"Zaheer, Xengsu",31/01/2020,,Amsterdam,0
+73,male,37,Master,15,Office,"Thomas, Xavier",05/01/2020,,Amsterdam,1
+74,female,27,Bachelor,8,Staff,"Daugherty, Julynn",25/01/2020,,Amsterdam,0
+75,female,22,High School,3,Staff,"Esparsen, Lori",31/12/2019,,Amsterdam,0
+76,female,32,High School,15,Staff,"Mckee, An",18/01/2020,,Amsterdam,0
+77,male,,Master,6,Staff,"Mason, Adrian",15/01/2020,,Amsterdam,0
+78,male,27,High School,8,Office,"Lynes, Jarod",03/03/2020,,Amsterdam,0
+79,male,27,Master,14,Staff,"Ensz, Geofery",08/03/2020,,Amsterdam,0
+80,male,52,Master,31,Staff,"Mcclendon, Devonte",23/12/2019,,Amsterdam,0
+81,male,32,College,12,Staff,"Strong, Preston",10/01/2020,,Amsterdam,1
+82,male,32,Master,17,Staff,"Park, Andrew",19/02/2020,,Amsterdam,1
+83,male,22,College,2,Staff,"Christensen, Timothy",19/12/2019,,Amsterdam,0
+84,male,22,High School,5,Staff,"Chapa, Jacob",03/02/2020,,Amsterdam,1
+85,female,37,Elementary,21,Staff,"Stubbs, Alejandra",20/02/2020,,Amsterdam,0
+86,female,22,High School,9,Staff,"Cooper, Sele",23/02/2020,,Amsterdam,0
+87,male,42,PhD,20,Staff,"Velarde, Brandon",13/02/2020,,Amsterdam,0
+88,female,32,Master,15,Office,"Grennell, Monique",16/03/2020,,Amsterdam,0
+89,female,22,,2,Staff,"Flores, Bianca",17/01/2020,,Amsterdam,0
+90,male,32,PhD,17,Staff,"Belcher, John",19/01/2020,,Amsterdam,0
+91,male,27,Master,7,Staff,"Fang, Ellis",17/02/2020,,Amsterdam,0
+92,male,27,PhD,6,Staff,"Campilan, Nicholas",19/03/2020,,Amsterdam,0
+93,male,37,PhD,23,Staff,"Williams, Spencer",22/01/2020,,Amsterdam,0
+94,female,52,Primary,38,Office,"Bear-Flores, India",25/03/2020,,Amsterdam,0
+95,male,37,High School,17,Mager,"Quinta, Diego",04/01/2020,,Amsterdam,0
+96,female,22,College,2,Office,"Fergerson, Shaun",13/02/2020,,Amsterdam,1
+97,male,57,PhD,43,Staff,"Smith, Walter",18/03/2020,,Amsterdam,0
+98,female,42,Bachelor,25,Staff,"Vu, Yoonseo Rachael",13/03/2020,,Amsterdam,0
+99,male,27,High School,12,Staff,"Brooks, Blake",29/01/2020,,Amsterdam,0
+100,male,27,PhD,6,Staff,"An, Daniel",15/03/2020,,Amsterdam,1
+101,female,22,Master,1,Staff,"Aldawoodi, Kayla",20/03/2020,,Amsterdam,0
+102,male,37,PhD,24,Mager,"Lewis, Michael",03/01/2020,,Amsterdam,1
+103,female,52,College,33,Office,"Lee, Julia",19/01/2020,,Amsterdam,0
+104,female,42,Elementary,23,Staff,"Turner, Ashleigh",30/01/2020,,Amsterdam,0
+105,female,37,Master,24,Staff,"Thomas, Celeste",24/01/2020,,Amsterdam,0
+106,female,32,Elementary,16,Staff,"David, Millio",23/02/2020,,Amsterdam,0
+107,female,37,Master,22,Office,"Martinez, Mariela",10/03/2020,,Amsterdam,0
+108,male,27,Master,11,Staff,"Hopkins, Jaelen",15/01/2020,,Amsterdam,0
+109,male,42,,19,Staff,"Adams, Shaundre",05/04/2020,,Amsterdam,1
+110,female,22,High School,1,Office,"Parker, Alexandra",25/01/2020,,Amsterdam,0
+111,male,27,Elementary,11,Mager,"Lee, Hyungu",13/02/2020,,Amsterdam,0
+112,male,22,High School,9,Staff,"Duncan, Jamile",29/03/2020,,Amsterdam,0
+113,male,27,Bachelor,14,Staff,"Nguyen, Raymond",14/01/2020,,Amsterdam,0
+114,female,22,College,1,Staff,"Vaughn, Janyka",02/02/2020,,Amsterdam,0
+115,female,37,High School,21,Office,"Garcia, Elizabeth",15/01/2020,,Amsterdam,0
+116,female,27,College,4,Staff,"Nevarez, Seri",24/01/2020,,Amsterdam,0
+117,female,32,College,17,Staff,"ipo, Jessica",06/04/2020,,Amsterdam,0
+118,female,27,High School,4,Office,"Gonzalez, Makaila",08/02/2020,,Amsterdam,0
+119,female,32,High School,10,Mager,"Martin, Ayeisha",19/03/2020,,Amsterdam,0
+120,male,37,,21,Staff,"Landin, Orlando",20/02/2020,,Amsterdam,0
+121,female,37,College,14,Staff,"Pacheco Turner, Gloria",06/03/2020,,Amsterdam,0
+122,male,32,High School,17,Staff,"Lucareli, Charley",27/01/2020,,Amsterdam,0
+123,male,57,Primary,35,Office,"Gallegos, Daniel",04/03/2020,,Amsterdam,0
+124,female,27,,13,Staff,"Herndez, Savan",26/02/2020,,Amsterdam,1
+125,male,37,PhD,15,Office,"Okazaki, Austin",02/03/2020,,Amsterdam,1
+126,female,22,High School,9,Staff,"Choe, Lily'Okalani",27/01/2020,,Amsterdam,0
+127,male,27,PhD,14,Staff,"Routkevitch, Michael",09/04/2020,,Amsterdam,0
+128,female,22,High School,6,Staff,"Cordova, Jazman",03/03/2020,,Amsterdam,0
+129,female,27,Elementary,11,Office,"Nix, Lisa",13/04/2020,,Amsterdam,0
+130,female,22,College,9,Staff,"Harris, Briaun",02/05/2020,,Amsterdam,0
+131,female,47,High School,26,Mager,"Poitra, Jessica",15/04/2020,,Amsterdam,0
+132,male,32,Bachelor,13,Office,"Boyd, Adam",02/03/2020,,Amsterdam,0
+133,female,27,College,8,Staff,"Moreno-Lujan, Lea",21/04/2020,,Amsterdam,0
+134,female,27,High School,11,Staff,"Siriphanh, Kaitlyn",29/02/2020,,Amsterdam,0
+135,male,37,PhD,18,Office,"Macneilly, Alex",01/03/2020,,Amsterdam,0
+136,female,22,High School,1,Office,"Ross, Asian",07/02/2020,,Amsterdam,0
+137,female,57,Master,41,Office,"Han, Melanie",23/04/2020,,Amsterdam,0
+138,male,32,PhD,13,Staff,"Nguyen, Steven",17/03/2020,,Amsterdam,0
+139,male,42,PhD,25,Staff,"Moton, Deiondre",02/04/2020,,Amsterdam,0
+140,female,22,High School,8,Staff,"Heygood, Deidre",18/03/2020,,Amsterdam,0
+141,female,27,High School,11,Staff,"Welch, An",10/03/2020,,Amsterdam,1
+142,female,22,Master,7,Staff,"Glasco, Bonnie",24/02/2020,,Amsterdam,0
+143,female,42,Elementary,26,Mager,"Reyes, Earlene",06/05/2020,,Amsterdam,0
+144,female,32,Bachelor,10,Office,"Hasui, Kendra",25/03/2020,,Amsterdam,1
+145,male,22,Bachelor,5,Office,"Okamatsu, Walter",08/03/2020,,Amsterdam,0
+146,male,42,Bachelor,28,Staff,"Paz-Forbush, Sylvester",07/04/2020,,Amsterdam,0
+147,male,37,Master,20,Staff,"Warnes, Lawrence",12/03/2020,,Amsterdam,0
+148,male,37,PhD,24,Office,"Bolton, Jothan",24/05/2020,,Amsterdam,0
+149,female,27,Bachelor,10,Staff,"Martinez, Sophia",06/03/2020,,Amsterdam,0
+150,male,37,PhD,16,Staff,"Muetz, Colin",27/02/2020,,Amsterdam,0
+151,female,,Bachelor,13,Office,"Diamond, Triay",31/03/2020,,Amsterdam,0
+152,male,37,College,17,Staff,"Morris, Donovan",07/03/2020,,Amsterdam,1
+153,male,27,College,11,Staff,"Dehn, Gage",09/04/2020,,Amsterdam,0
+154,female,42,Master,29,Staff,"Sasaki, Nura",24/02/2020,,Amsterdam,0
+155,male,22,College,6,Staff,"Wilkinson, Colt",26/02/2020,,Amsterdam,0
+156,female,27,Bachelor,8,Staff,"Morales, Sharah",14/05/2020,,Amsterdam,0
+157,male,22,High School,8,Staff,"Varela, Daniel",01/06/2020,,Amsterdam,0
+158,male,42,PhD,29,Staff,"Pelham, Jason",29/05/2020,,Amsterdam,0
+159,female,27,College,14,Office,"Youngquist, Carson",25/03/2020,,Amsterdam,0
+160,female,22,College,9,Office,"Zacevich, Sarah",21/03/2020,,Amsterdam,0
+161,female,32,Master,10,Mager,"Kunzman, Rachel",20/04/2020,,Amsterdam,1
+162,female,22,High School,8,Staff,"Edwards, Maris",04/05/2020,,Amsterdam,0
+163,male,22,,2,Staff,"Webb, Timothy",22/05/2020,,Amsterdam,0
+164,male,22,College,8,Staff,"Fugate, Alexander",08/05/2020,,Amsterdam,0
+165,female,27,Elementary,6,Staff,"Shioshita, Chiahci",21/03/2020,,Amsterdam,0
+166,male,47,College,33,Staff,"Crawford, Jatill",22/03/2020,,Amsterdam,1
+167,male,22,High School,4,Staff,"Sproul, Jose",08/06/2020,,Amsterdam,0
+168,male,22,Primary,7,Mager,"Leegte, Joost v.d.",30/04/2020,,Amsterdam,1
+169,male,22,High School,6,Staff,"Gioia, Monta",01/04/2020,,Amsterdam,0
+170,male,37,Master,23,Staff,"Deo'Compos, Alonzo",06/05/2020,,Amsterdam,0
+171,male,42,PhD,26,Office,"Keltner, Donovan",03/04/2020,,Amsterdam,0
+172,female,27,Bachelor,14,Staff,"Hom, April",01/05/2020,,Amsterdam,0
+173,female,27,Bachelor,14,Staff,"Maher, Kaitlyn",24/05/2020,,Amsterdam,0
+174,male,32,Master,18,Office,"Alexander, Alonzo",19/03/2020,,Amsterdam,1
+175,female,27,College,13,Staff,"Snell, Taelyn",14/04/2020,,Amsterdam,0
+176,male,37,PhD,20,Staff,"Loera, William",23/03/2020,,Amsterdam,0
+177,female,22,High School,3,Staff,"Alcon, Leticia",21/03/2020,,Amsterdam,1
+178,female,22,Bachelor,7,Office,"Belkin, Pamala",30/03/2020,,Amsterdam,0
+179,female,22,College,3,Staff,"Blair, Lean",26/05/2020,,Amsterdam,0
+180,female,22,Elementary,9,Office,"Ngo, Katie",23/06/2020,,Amsterdam,0
+181,male,27,Master,4,Staff,"Sharza, Niraj",03/04/2020,,Amsterdam,0
+182,female,,Elementary,10,Staff,"Niessink, Kimberly",18/05/2020,,Amsterdam,1
+183,female,22,High School,2,Staff,"Stapleton, Alexis",05/04/2020,,Amsterdam,0
+184,male,37,High School,14,Office,"Zaheer, Pratik",17/06/2020,,Amsterdam,1
+185,female,32,High School,11,Staff,"Watson, Laura",06/04/2020,,Amsterdam,0
+186,male,37,,23,Mager,"Chavez, Nico",03/05/2020,,Amsterdam,1
+187,male,27,PhD,12,Staff,"Martinez, Armando",10/05/2020,,Amsterdam,0
+188,male,27,College,13,Staff,"Carabajal III, Brady",10/04/2020,,Amsterdam,0
+189,female,27,Elementary,6,Staff,"Le, Linda",05/06/2020,,Amsterdam,0
+190,female,22,Elementary,5,Office,"Collins, Shawnee",08/05/2020,,Amsterdam,1
+191,female,22,College,1,Office,"Forkell, Kabita",09/05/2020,,Amsterdam,0
+192,female,22,College,7,Staff,"Vasquez, Sierra",26/05/2020,,Amsterdam,0
+193,female,27,College,8,Staff,"Manibusan, Kerani",27/06/2020,,Amsterdam,0
+194,female,22,Elementary,9,Staff,"Hansen, Tre",06/07/2020,,Amsterdam,0
+195,male,32,Master,17,Staff,"Sheriff, Shakiem",07/05/2020,,Amsterdam,0
+196,male,32,College,16,Staff,"Rivera, Gerald",11/05/2020,,Amsterdam,0
+197,female,32,College,11,Staff,"Taei, Jennifer",09/04/2020,,Amsterdam,0
+198,female,22,College,1,Staff,"Awtrey, Angelita",08/04/2020,,Amsterdam,0
+199,male,27,Bachelor,6,Staff,"Ariki, Zong",21/04/2020,,Amsterdam,1
+200,female,47,Master,26,Staff,"Arline, Tiffani",23/06/2020,,Amsterdam,0
+201,male,32,High School,19,Staff,"Littlewhiteman, Isaiah",11/07/2020,,Amsterdam,0
+202,female,27,Bachelor,14,Office,"Kelleher, Elva",13/05/2020,,Amsterdam,1
+203,female,27,College,8,Office,"Padilla, Echo",19/06/2020,,Amsterdam,0
+204,male,42,PhD,26,Office,"Mclaren, Cole",13/06/2020,,Amsterdam,1
+205,male,42,High School,19,Staff,"Lujan, Adam",21/04/2020,,Amsterdam,0
+206,male,32,High School,15,Staff,"Mitta, Gautham",26/05/2020,,Amsterdam,0
+207,female,42,High School,26,Mager,"Schneck, Trishstan",24/07/2020,,Amsterdam,1
+208,male,27,Master,4,Staff,"Haulman, Luke",05/07/2020,,Amsterdam,0
+209,male,27,Bachelor,14,Staff,"Taylor, Isaiah",12/06/2020,,Amsterdam,0
+210,male,47,Bachelor,26,Office,"Treulieb-Kolostyak, Avish",04/05/2020,,Amsterdam,0
+211,male,52,Bachelor,29,Staff,"Raney, Colby",01/07/2020,,Amsterdam,0
+212,female,22,High School,8,Mager,"Remillard, Sierra",28/06/2020,,Amsterdam,0
+213,male,42,Bachelor,23,Staff,"Martinez Bity, Toby",07/06/2020,,Amsterdam,1
+214,female,42,Master,21,Staff,"Nimmons, Shakeara",14/07/2020,,Amsterdam,0
+215,female,32,Master,11,Mager,"Mckinney, Elise",14/06/2020,,Amsterdam,0
+216,male,37,Master,23,Staff,"Miramontes-Terrazas, Edward",13/06/2020,,Amsterdam,1
+217,male,27,,8,Staff,"Young, Tuan",18/06/2020,,Amsterdam,0
+218,female,22,College,5,Staff,"Haasenritter, Noelle",30/07/2020,,Amsterdam,0
+219,male,22,College,3,Staff,"Bowen, Curran",13/06/2020,,Amsterdam,0
+220,female,47,High School,32,Office,"Mulder, Tori",11/06/2020,,Amsterdam,0
+221,female,32,Bachelor,15,Staff,"Hoots, Georgi",17/05/2020,,Amsterdam,0
+222,male,37,Bachelor,24,Staff,"Mascarez, Steven",31/05/2020,,Amsterdam,0
+223,female,27,Master,10,Office,"Salcido, Renee",28/05/2020,,Amsterdam,0
+224,male,22,High School,5,Staff,"Ehrmann, Matthew",18/06/2020,,Amsterdam,0
+225,male,,Primary,11,Staff,Kromme Jeroen,10/07/2020,,Amsterdam,1
+226,male,27,High School,7,Staff,"Cree, Isaiah",08/08/2020,,Amsterdam,0
+227,female,32,Elementary,9,Staff,"Peterson, Sylkin",14/06/2020,,Amsterdam,0
+228,male,47,Bachelor,34,Staff,"Rodriguez, Cody",20/06/2020,,Amsterdam,1
+229,female,42,High School,19,Office,"Flores, Monica",10/05/2020,,Amsterdam,0
+230,female,22,Elementary,1,Staff,"Cho, Victoria",20/06/2020,,Amsterdam,0
+231,female,,Master,7,Staff,"Xiong, Monica",20/05/2020,,Amsterdam,0
+232,male,27,PhD,5,Staff,"Sosa, Russell",10/08/2020,,Amsterdam,0
+233,male,27,PhD,11,Staff,"Simon, Samuel",03/08/2020,,Amsterdam,0
+234,male,27,High School,7,Staff,"Singh, Samuel",22/06/2020,,Amsterdam,0
+235,male,32,College,10,Staff,"Grigsby, Jemal",08/07/2020,,Amsterdam,0
+236,female,27,High School,5,Staff,"Plenty Wolf, Jazmine",16/05/2020,,Amsterdam,0
+237,female,32,Bachelor,10,Office,"Black, Arlisa",09/06/2020,,Amsterdam,1
+238,female,27,High School,6,Staff,"Turner, Brean",18/07/2020,,Amsterdam,0
+239,female,42,Elementary,27,Staff,"Garcia, Cante",09/07/2020,,Amsterdam,1
+240,male,22,College,6,Mager,"Reed, Jacob",01/08/2020,,Amsterdam,0
+241,female,42,High School,29,Staff,"Reilly, Eva",26/07/2020,,Amsterdam,1
+242,female,,Master,5,Staff,"Bailey, Kiersten",01/06/2020,,Amsterdam,0
+243,female,32,High School,11,Staff,"Camacho, Alexis",05/08/2020,,Amsterdam,1
+244,female,27,,6,Staff,"Mathys, Tristan",04/06/2020,,Amsterdam,0
+245,female,27,High School,11,Staff,"Jayachandra, Linh",12/08/2020,,Amsterdam,0
+246,female,32,Master,11,Staff,"Asebedo, ncy",06/07/2020,,Amsterdam,0
+247,female,32,,9,Staff,"Mach, Enguun",17/07/2020,,Amsterdam,0
+248,female,32,Bachelor,15,Office,"Brown, Carter",24/06/2020,,Amsterdam,0
+249,female,22,College,1,Staff,"Chung, Jamie",30/07/2020,,Amsterdam,0
+250,male,57,Bachelor,35,Staff,"Nevarez, Guillermo",13/08/2020,,Amsterdam,1
+251,male,42,Bachelor,28,Staff,"Chapman, Jordan",15/07/2020,,Amsterdam,0
+252,female,37,High School,22,Staff,"Lew, Brittany",26/07/2020,,Amsterdam,0
+253,male,32,Master,13,Staff,"Maestas, Jesus",04/09/2020,,Amsterdam,1
+254,female,22,High School,7,Staff,"Gallegos, Franki",14/08/2020,,Amsterdam,0
+255,female,47,College,27,Staff,"Georgoulias, Melissa",26/07/2020,,Amsterdam,0
+256,female,37,Elementary,15,Staff,"Archuleta, Michelle",05/08/2020,,Amsterdam,0
+257,female,27,Bachelor,7,Staff,"Hayes, Elizabeth",24/08/2020,,Amsterdam,1
+258,female,22,Bachelor,8,Staff,"Ha, Shahida",16/07/2020,,Amsterdam,0
+259,female,22,College,6,Staff,"Juarez Gonzalez, Joha",11/06/2020,,Amsterdam,0
+260,female,37,Bachelor,24,Staff,"Lee, Sarah",05/07/2020,,Amsterdam,0
+261,male,32,Master,16,Staff,"Bueno, Silin",31/08/2020,,Amsterdam,0
+262,female,22,College,5,Staff,"Archelus, Bria",21/07/2020,,Amsterdam,0
+263,female,32,Master,12,Office,"Robinson, Zenovia",28/06/2020,,Amsterdam,0
+264,female,32,Bachelor,15,Staff,"Sorrell, Aerika",28/06/2020,,Amsterdam,1
+265,female,22,High School,1,Staff,"Anderson, Auriel",03/09/2020,,Amsterdam,0
+266,female,37,College,22,Mager,"Wu, Kyleigh",29/06/2020,,Amsterdam,0
+267,male,47,,28,Staff,"Malacara, Salvador",06/07/2020,,Amsterdam,0
+268,female,22,Elementary,9,Staff,"Brown, Deshawn",04/08/2020,,Amsterdam,0
+269,female,57,PhD,37,Staff,"Sumbunu, Caitlin",07/08/2020,,Amsterdam,0
+270,male,42,Bachelor,29,Staff,"Adkins, Abdalla",05/08/2020,,Amsterdam,0
+271,female,37,High School,14,Staff,"Gordon, Tia",08/09/2020,,Amsterdam,0
+272,female,32,College,11,Staff,"Deyapp, Cori",31/07/2020,,Amsterdam,1
+273,female,37,High School,17,Staff,"Gosnell, Joan",07/07/2020,,Amsterdam,0
+274,male,27,Master,11,Staff,"Herndez, Marcos",21/07/2020,,Amsterdam,1
+275,female,32,Bachelor,11,Office,"Iu, Melody",15/08/2020,,Amsterdam,0
+276,female,32,Bachelor,17,Staff,"Hall, Kasual",09/08/2020,,Amsterdam,0
+277,male,27,Master,8,Staff,"Register, Joshua",14/08/2020,,Amsterdam,0
+278,female,27,Master,13,Office,"Rascon, Mariah",23/08/2020,,Amsterdam,0
+279,male,32,Master,19,Staff,"Cooper, Tevin",18/08/2020,,Amsterdam,0
+280,male,37,Master,21,Staff,"Rubio, Marco",25/08/2020,,Amsterdam,0
+281,male,37,PhD,21,Office,"Le, Joshua",29/06/2020,,Amsterdam,0
+282,female,27,High School,12,Staff,"Thompson, Julia",15/09/2020,,Amsterdam,1
+283,male,22,Elementary,7,Staff,"Wall, Arturo",20/07/2020,,Amsterdam,0
+284,male,32,PhD,18,Staff,"Centeno, Martin",06/10/2020,,Amsterdam,0
+285,female,32,High School,18,Staff,"Davidson, Nohely",23/08/2020,,Amsterdam,0
+286,male,,PhD,11,Staff,"Castaneda, Martin",05/09/2020,,Amsterdam,0
+287,female,27,Elementary,8,Office,"Weaver, Jen",08/08/2020,,Amsterdam,1
+288,male,32,Master,10,Office,"Lopez, Isiah",12/07/2020,,Amsterdam,0
+289,male,27,Master,7,Mager,"Toledo, Ruben",10/08/2020,,Amsterdam,1
+290,male,32,College,18,Staff,"Mitchell, Antonio",12/08/2020,,Amsterdam,0
+291,female,37,Bachelor,17,Office,"Lopez, Kayla",30/09/2020,,Amsterdam,1
+292,female,27,High School,6,Staff,"Tran, Nhu",16/08/2020,,Amsterdam,0
+293,female,22,College,0,Staff,"Welsh, Shanta",31/08/2020,,Amsterdam,0
+294,female,22,College,7,Staff,"Gruen, Emma",16/10/2020,,Amsterdam,0
+295,female,22,College,1,Staff,"Poche, Mariel",27/07/2020,,Amsterdam,0
+296,male,37,High School,22,Staff,"Smith, Ty",18/07/2020,,Amsterdam,0
+297,female,,,12,Staff,"Roussell, Kamyria",10/09/2020,,Amsterdam,0
+298,female,42,Primary,21,Staff,"Warren, Brenda",08/10/2020,,Amsterdam,1
+299,female,27,Elementary,13,Staff,"Bobian, Martha",17/10/2020,,Amsterdam,0
+300,female,37,High School,24,Office,"Medi, Melissa",28/09/2020,,Amsterdam,0
+301,male,22,Master,7,Staff,"Barnes, Liam",14/10/2020,,Amsterdam,0
+302,female,22,High School,1,Office,"Bryceland, Annie",04/10/2020,,Amsterdam,0
+303,male,27,Master,4,Office,"Romero, Julio",24/10/2020,,Amsterdam,0
+304,male,37,Master,18,Staff,"Britton, Stephen",27/08/2020,,Amsterdam,0
+305,female,37,Bachelor,21,Staff,"Torres, Lauren",03/10/2020,,Amsterdam,0
+306,female,27,High School,4,Staff,"Johnson, Kia",05/09/2020,,Amsterdam,0
+307,male,27,College,14,Staff,"Alcantar, Jayden",02/10/2020,,Amsterdam,0
+308,male,32,PhD,18,Office,"Arredondo, Damian",16/10/2020,,Amsterdam,0
+309,female,32,High School,11,Office,"Connor, Rubie",13/08/2020,,Amsterdam,1
+310,female,27,,13,Staff,"Miranda Quintero, Jessica",15/09/2020,,Amsterdam,0
+311,male,57,College,43,Staff,"Staton, kai",29/10/2020,,Amsterdam,0
+312,female,22,High School,0,Office,"jjar, Jamie",14/09/2020,,Amsterdam,0
+313,male,57,High School,37,Staff,"Clark, Edward",27/08/2020,,Amsterdam,0
+314,female,27,College,4,Staff,"Briscoe, Clarissa",05/10/2020,,Amsterdam,0
+315,female,22,,7,Staff,"Tefft, Raegene",02/10/2020,,Amsterdam,0
+316,female,27,College,11,Staff,"Kang, Korrie",04/11/2020,,Amsterdam,0
+317,female,27,College,11,Staff,"Hogan, Safia",07/08/2020,,Amsterdam,0
+318,male,42,Master,29,Staff,"White, Dylan",15/09/2020,,Amsterdam,0
+319,male,32,High School,9,Staff,"Carreon, Raul",08/09/2020,,Amsterdam,0
+320,female,27,,14,Staff,"Howard, Taylor",23/08/2020,,Amsterdam,0
+321,male,27,PhD,4,Staff,"Gradilla Reyes, Keith",01/09/2020,,Amsterdam,0
+322,male,57,PhD,38,Staff,"Huynh, Lee",28/08/2020,,Amsterdam,1
+323,female,27,Bachelor,13,Staff,"Glaister, May",01/09/2020,,Amsterdam,0
+324,female,27,College,8,Staff,"Stewart, Destony",25/08/2020,,Amsterdam,0
+325,female,47,Bachelor,32,Office,"Davis, Alexxus",30/10/2020,,Amsterdam,0
+326,male,52,College,36,Staff,"Tipton, Hudson",05/11/2020,,Amsterdam,0
+327,female,47,Bachelor,24,Staff,"Van Patten, Aylin",16/09/2020,,Amsterdam,0
+328,female,32,Elementary,16,Staff,"Hanson, Ashley",26/08/2020,,Amsterdam,0
+329,female,27,College,11,Office,"Chung, Vismaya",08/11/2020,,Amsterdam,0
+330,female,22,College,0,Office,"Mccowan, Ruth",06/10/2020,,Amsterdam,0
+331,female,32,High School,10,Staff,"Meyer, Helen",28/10/2020,,Amsterdam,0
+332,male,22,Master,2,Mager,"Meichtry, Samuel",02/11/2020,,Amsterdam,1
+333,female,37,Master,16,Office,"Myers, talia",12/10/2020,,Amsterdam,0
+334,female,32,College,10,Staff,"Kumar, Kristen",08/10/2020,,Amsterdam,0
+335,female,52,High School,33,Staff,"Lopez, Itzel",28/10/2020,,Amsterdam,0
+336,female,57,College,41,Staff,"Langridge, Maria",11/10/2020,,Amsterdam,0
+337,male,42,College,22,Office,"Culpepper, Rashaan",24/09/2020,,Amsterdam,0
+338,female,22,High School,3,Office,"Lacy, Kassaundra",27/08/2020,,Amsterdam,1
+339,male,37,Bachelor,16,Staff,"Mensah, Ishawn",13/10/2020,,Amsterdam,0
+340,male,42,College,26,Staff,"Kim, Christopher",01/12/2020,,Amsterdam,0
+341,female,27,College,14,Mager,"Batten, Payton",29/08/2020,,Amsterdam,0
+342,female,27,Elementary,13,Office,"Park, Rah Mi",15/09/2020,,Amsterdam,0
+343,female,27,Bachelor,14,Staff,"Mitchell, Ariah",01/09/2020,,Amsterdam,1
+344,female,37,High School,21,Office,"Mahieu, Katherine",12/09/2020,,Amsterdam,0
+345,female,37,PhD,21,Office,"Morales, Alegra",21/10/2020,,Amsterdam,1
+346,female,32,High School,12,Staff,"Ceballos, Denise",14/11/2020,,Amsterdam,0
+347,female,,High School,3,Staff,"Ratzi, Emiko",10/11/2020,,Amsterdam,0
+348,female,32,College,10,Office,"Madera, Maritza",03/10/2020,,Amsterdam,0
+349,male,37,High School,15,Office,"Lund, Joshua",09/12/2020,,Amsterdam,0
+350,female,32,Master,11,Staff,"Yeturu, Kylee",12/12/2020,,Amsterdam,0
+351,female,32,Bachelor,16,Staff,"Watson, Colby",01/12/2020,,Amsterdam,0
+352,male,37,PhD,23,Staff,"Thin-Elk, Wolfgang",10/12/2020,,Amsterdam,1
+353,male,32,Bachelor,16,Staff,"Morrison, Karan",12/09/2020,,Amsterdam,1
+354,female,32,Bachelor,9,Office,"Xatkoun, Kimly",01/10/2020,,Amsterdam,0
+355,female,37,College,18,Staff,"Mccampbel, Kaliyah",27/10/2020,,Amsterdam,0
+356,male,32,PhD,10,Staff,"Warszawski, Tristan",23/09/2020,,Amsterdam,1
+357,female,22,High School,6,Staff,"Maslyk, Catherine",16/11/2020,,Amsterdam,0
+358,female,27,Bachelor,14,Office,"Morales, Amanda",09/12/2020,,Amsterdam,1
+359,male,27,Master,5,Mager,"Braziel, Hector",03/11/2020,,Amsterdam,1
+360,female,32,Bachelor,9,Staff,"Sonoda, Lucy",26/10/2020,,Amsterdam,0
+361,female,42,Bachelor,23,Staff,"Wu, Ashley",21/10/2020,,Amsterdam,1
+362,male,22,High School,1,Office,"Lopez, Marcus",15/11/2020,,Amsterdam,0
+363,male,22,College,3,Staff,"Stevens, Miguel",04/11/2020,,Amsterdam,0
+364,male,27,College,10,Staff,"Sierra, Emiterio",10/11/2020,,Amsterdam,0
+365,female,42,,27,Staff,"Voss, Kendra",07/10/2020,,Amsterdam,0
+366,male,32,PhD,19,Staff,"Shrestha, Andrew",29/12/2020,,Amsterdam,0
+367,female,27,Elementary,6,Staff,"Gutierrez, Kelly",09/10/2020,,Amsterdam,0
+368,female,22,High School,6,Staff,"Jeffery, Asia",24/10/2020,,Amsterdam,0
+369,male,32,PhD,15,Staff,"Barba, Austin",26/09/2020,,Amsterdam,0
+370,female,37,High School,21,Staff,"Thapa, Jenny",20/10/2020,,Amsterdam,0
+371,male,37,PhD,20,Staff,"Middleton, Derrick",01/12/2020,,Amsterdam,1
+372,male,37,PhD,15,Staff,"Mccleerey, Kohl",23/10/2020,,Amsterdam,1
+373,male,,PhD,0,Staff,"Klein, Isaac",02/01/2021,,Amsterdam,0
+374,male,32,PhD,18,Mager,"Campbell, Andres",18/11/2020,,Amsterdam,0
+375,female,27,Bachelor,14,Staff,"Cabael, Julian",20/10/2020,,Amsterdam,0
+376,female,22,High School,6,Staff,"Orozco, Arian",09/12/2020,,Amsterdam,0
+377,male,22,Master,0,Staff,"Bege, Byungchan",25/10/2020,,Amsterdam,0
+378,female,22,College,7,Staff,"Brown, udia",26/12/2020,,Amsterdam,0
+379,female,27,Master,5,Staff,"Costa, Kya",02/11/2020,,Amsterdam,0
+380,male,37,Bachelor,16,Mager,"Ly, Anushkaran",28/12/2020,,Amsterdam,1
+381,female,27,College,5,Staff,"Meza, Melissa",30/10/2020,,Amsterdam,0
+382,male,37,PhD,16,Staff,"Perez, Jose",08/12/2020,,Amsterdam,0
+383,female,,High School,11,Staff,"Perry, Chandel",21/11/2020,,Amsterdam,0
+384,female,22,High School,6,Staff,"Whipple, Domonique",10/11/2020,,Amsterdam,0
+385,female,27,High School,12,Staff,"Ostrow, Colleen",28/11/2020,,Amsterdam,0
+386,male,22,College,3,Staff,"Gallegos, Carlos",18/01/2021,,Amsterdam,0
+387,male,42,Bachelor,27,Office,"Tyson, Tylen",11/11/2020,,Amsterdam,0
+388,male,32,,19,Staff,"Takahashi, Adam",18/11/2020,,Amsterdam,0
+389,male,27,College,8,Staff,"Sanchez, Jeremy",12/12/2020,,Amsterdam,0
+390,male,42,Master,20,Office,"Burns, Jeremy",23/11/2020,,Amsterdam,0
+391,female,37,Master,21,Staff,"Wang, Crysta",28/10/2020,,Amsterdam,0
+392,female,32,High School,10,Staff,"Martinez-Zamora, Claudia",09/12/2020,,Amsterdam,0
+393,male,37,PhD,21,Office,"Sapp, Austin",14/11/2020,,Amsterdam,0
+394,female,,Elementary,3,Office,"Castillo, Jamie",21/12/2020,,Amsterdam,1
+395,female,27,Bachelor,5,Office,"Dow, Alysha",19/12/2020,,Amsterdam,0
+396,male,32,,10,Mager,"Bat-Itgel, Chadron",07/01/2021,,Amsterdam,1
+397,female,47,Elementary,27,Office,"Manzares, Jessica",11/11/2020,,Amsterdam,0
+398,female,22,High School,2,Staff,"Chen, Hyeju",20/11/2020,,Amsterdam,0
+399,female,22,High School,6,Staff,"Roberts, Dallas",17/01/2021,,Amsterdam,0
+400,female,27,Master,12,Staff,"Tran, Alai",27/01/2021,,Amsterdam,0
+401,female,42,Bachelor,19,Office,"Bello, Monica",21/12/2020,,Amsterdam,1
+402,male,27,Master,10,Staff,"Mannino, Neben",23/01/2021,,Amsterdam,1
+403,female,22,College,6,Office,"Sengdara, Thao",23/01/2021,,Amsterdam,0
+404,female,52,Elementary,37,Staff,"Lucas, Kadeja",02/11/2020,,Amsterdam,0
+405,female,27,Bachelor,12,Staff,"Lin, Salome",24/01/2021,,Amsterdam,0
+406,female,22,High School,0,Staff,"Cruz Valdez, Geova",28/01/2021,,Amsterdam,0
+407,male,22,Master,9,Staff,"Montes-Resendiz, Thomas",25/11/2020,,Amsterdam,1
+408,male,42,College,21,Office,"Joy, Dewarren",09/11/2020,,Amsterdam,0
+409,female,22,High School,5,Office,"Saeed, Maggie",30/01/2021,,Amsterdam,0
+410,male,27,Master,11,Staff,"Mestas, Ivan",21/12/2020,,Amsterdam,0
+411,female,27,High School,7,Staff,"Shafi, Marih",27/01/2021,,Amsterdam,0
+412,female,52,High School,36,Office,"Darbin, Devika",23/01/2021,,Amsterdam,0
+413,female,32,College,15,Staff,"Cosby, Ansley",30/12/2020,,Amsterdam,0
+414,male,32,College,13,Staff,"Salazar, Jordan",01/01/2021,,Amsterdam,0
+415,female,22,High School,5,Staff,"Seo, Jenny",03/01/2021,,Amsterdam,0
+416,female,22,High School,5,Office,"Owens, Gabrielle",15/01/2021,,Amsterdam,0
+417,male,47,High School,33,Staff,"Austin, Mohamed",20/11/2020,,Amsterdam,0
+418,female,57,Master,38,Staff,"Gangavelli, Michelle",14/02/2021,,Amsterdam,0
+419,male,57,Primary,35,Office,"Batcheller, Aaron",01/02/2021,,Amsterdam,0
+420,female,27,College,14,Staff,"Subia Soto, Wendy",08/02/2021,,Amsterdam,0
+421,male,47,High School,27,Staff,"Walker, Boyd",26/12/2020,,Amsterdam,0
+422,male,27,PhD,4,Staff,"Medi, Victor",23/12/2020,,Amsterdam,0
+423,female,,High School,6,Staff,"Breckenridge, Zeriah",02/02/2021,,Amsterdam,0
+424,female,22,Bachelor,1,Staff,"Hoodjer, Alecia",14/01/2021,,Amsterdam,0
+425,female,42,Master,22,Staff,"Cruz, Jozette",14/01/2021,,Amsterdam,0
+426,female,27,College,8,Office,"Quinn, Rose",27/02/2021,,Amsterdam,1
+427,female,32,Bachelor,19,Staff,"Ortega, Beljica",21/02/2021,,Amsterdam,0
+428,male,52,PhD,38,Staff,"Banks, Andrew",14/01/2021,,Amsterdam,1
+429,female,27,Bachelor,4,Office,"Barela, Lizette",16/12/2020,,Amsterdam,0
+430,male,37,PhD,14,Staff,"Blumenshine, Joshua",28/02/2021,,Amsterdam,0
+431,female,22,Bachelor,9,Staff,"Rodriguez, Kiera",31/12/2020,,Amsterdam,0
+432,male,37,,17,Office,"Clements, Zakia",07/02/2021,,Amsterdam,0
+433,female,27,Elementary,13,Office,"Evans, Dominique",06/03/2021,,Amsterdam,1
+434,male,57,Master,44,Staff,"Martinez, Luis",12/02/2021,,Amsterdam,0
+435,male,32,PhD,10,Office,"Yang, Tai",19/01/2021,,Amsterdam,1
+436,male,32,Master,15,Office,"Caveza, Carlos",16/12/2020,,Amsterdam,0
+437,male,27,PhD,10,Staff,"Koster, Sam",20/12/2020,,Amsterdam,0
+438,male,27,Master,5,Staff,"Sally, Vandell",20/02/2021,,Amsterdam,0
+439,male,22,High School,2,Staff,"Charlie, Ryan",25/02/2021,,Amsterdam,0
+440,male,32,PhD,19,Staff,"Ahmed, Pierre",03/01/2021,,Amsterdam,0
+441,female,32,High School,12,Staff,"Marquez, Lauren",17/01/2021,,Amsterdam,1
+442,male,27,Bachelor,11,Staff,"Brown, Kendyl",05/02/2021,,Amsterdam,0
+443,male,32,College,9,Office,"Sturdivant, Dominique",30/01/2021,,Amsterdam,0
+444,male,27,High School,11,Staff,"Griggs, Issac",09/12/2020,,Amsterdam,0
+445,male,22,Bachelor,9,Staff,"Ratcliff, William",25/12/2020,,Amsterdam,0
+446,male,37,Master,20,Staff,"Lee, Malakai",14/12/2020,,Amsterdam,1
+447,female,22,College,9,Staff,"Wheaton, Alyssa",28/01/2021,,Amsterdam,0
+448,female,22,College,5,Staff,"Stiens, Victoria",21/02/2021,,Amsterdam,0
+449,male,32,Master,18,Staff,"Lawson, Dandrew",13/02/2021,,Amsterdam,0
+450,female,32,Bachelor,17,Staff,"Otey, John",16/12/2020,,Amsterdam,0
+451,male,37,PhD,22,Staff,"Moon, Aaron",21/03/2021,,Amsterdam,0
+452,male,27,Master,11,Mager,"Lemus, Omar",21/12/2020,,Amsterdam,0
+453,female,27,College,11,Staff,"Moreno, Savanh",08/01/2021,,Amsterdam,0
+454,female,42,College,29,Staff,"Le, Brigitte",24/02/2021,,Amsterdam,1
+455,male,42,PhD,26,Staff,"Williams, Tyler",30/01/2021,,Amsterdam,0
+456,male,42,Master,28,Office,"Hastings Shellman, Maxwell",21/01/2021,,Amsterdam,0
+457,male,27,College,5,Office,"Hicks, Trayvon",16/01/2021,,Amsterdam,0
+458,female,27,High School,11,Staff,"Villasenor, Jeni",10/03/2021,,Amsterdam,0
+459,male,37,Bachelor,14,Staff,"Lucero-Roller, Daniel",01/03/2021,,Amsterdam,0
+460,female,27,Master,12,Office,"Granby, Jacqueline",06/02/2021,,Amsterdam,0
+461,male,27,College,5,Staff,"Myagmarsuren, Eric",02/01/2021,,Amsterdam,0
+462,male,52,PhD,33,Staff,"Tilley, Adan",30/01/2021,,Amsterdam,0
+463,female,37,High School,24,Office,"Ngo, Connie",09/02/2021,,Amsterdam,0
+464,male,37,Bachelor,14,Staff,"Rocha, Daniel",30/12/2020,,Amsterdam,1
+465,male,27,PhD,4,Office,"Fortune, Jason",16/02/2021,,Amsterdam,0
+466,female,42,High School,25,Staff,"Gaddis, Jadavia",23/03/2021,,Amsterdam,0
+467,female,37,Bachelor,24,Office,"Preston, Lanette",04/01/2021,,Amsterdam,0
+468,female,32,Elementary,17,Staff,"Bass, Claire",30/01/2021,,Amsterdam,1
+469,male,37,Bachelor,15,Staff,"Miller, Malik",31/03/2021,,Amsterdam,0
+470,male,42,Bachelor,29,Staff,"Brisbane, Keeman",29/03/2021,,Amsterdam,0
+471,male,37,Master,24,Staff,"Zou, Alan",23/03/2021,,Amsterdam,0
+472,male,27,College,10,Office,"James, Christian",01/03/2021,,Amsterdam,0
+473,female,27,College,13,Staff,"Silva Blanco, Yazmin",24/01/2021,,Amsterdam,0
+474,male,22,High School,8,Office,"Matthews, Daniel",18/01/2021,,Amsterdam,0
+475,male,37,PhD,16,Staff,"Garlick, thaniel",10/02/2021,,Amsterdam,0
+476,female,37,College,16,Staff,"Noorda, Allyson",23/01/2021,,Amsterdam,0
+477,female,32,High School,16,Mager,"Hayes, Jacqueline",17/01/2021,,Amsterdam,0
+478,male,47,PhD,25,Staff,"Pavisook, Charles",19/01/2021,,Amsterdam,1
+479,female,32,Master,9,Office,"Nguyen, Elise",14/01/2021,,Amsterdam,1
+480,male,52,High School,33,Office,"Aggrey, Richard",03/02/2021,,Amsterdam,0
+481,female,32,College,17,Office,"Kurihara, Arissa",21/04/2021,,Amsterdam,1
+482,female,27,Elementary,14,Staff,"Rajopadhye, Ji",29/03/2021,,Amsterdam,0
+483,male,42,College,19,Staff,"Campos, Gary",25/03/2021,,Amsterdam,0
+484,female,32,College,15,Staff,"Ferrell, Erin",16/03/2021,,Amsterdam,0
+485,male,22,Master,8,Staff,"Reynolds, Tyler",03/02/2021,,Amsterdam,0
+486,female,22,College,1,Staff,"Sabey, Shelby",26/04/2021,,Amsterdam,0
+487,female,32,College,13,Staff,"Grosvenor, Michaela",30/04/2021,,Amsterdam,0
+488,female,22,College,3,Office,"Enkuselasse, Giselle",13/04/2021,,Amsterdam,0
+489,male,52,Master,29,Staff,"ding, Joshua",27/02/2021,,Amsterdam,0
+490,female,27,College,8,Staff,"Morley, Leslie",06/04/2021,,Amsterdam,0
+491,female,37,High School,22,Office,"Chi, Monica",04/03/2021,,Amsterdam,0
+492,male,22,College,9,Staff,"Garcia, Braedon",20/04/2021,,Amsterdam,0
+493,male,57,High School,38,Office,"Singh, Kevin",03/03/2021,,Amsterdam,0
+494,male,47,High School,27,Staff,"Senthil than, Arin",26/04/2021,,Amsterdam,0
+495,male,27,Bachelor,12,Staff,"Moreno, Jose",09/03/2021,,Amsterdam,1
+496,female,27,Master,5,Staff,"Verdos, Crystal",20/02/2021,,Amsterdam,0
+497,female,27,College,7,Office,"Yohe-Ironwing, Katherine",05/04/2021,,Amsterdam,0
+498,male,32,Master,13,Staff,"Nguyen, Kenny",03/02/2021,,Amsterdam,0
+499,female,27,High School,14,Staff,"Fukuda, Summer",04/05/2021,,Amsterdam,0
+500,male,42,PhD,21,Office,"Lopez, Jaime",05/05/2021,,Amsterdam,0
+501,female,32,High School,17,Staff,"Delgado, Kaylee",21/02/2021,,Amsterdam,0
+502,female,37,High School,17,Staff,"Brown, Ali",07/03/2021,,Amsterdam,0
+503,male,32,High School,11,Staff,"Jackson, Scott",27/02/2021,,Amsterdam,0
+504,female,42,High School,23,Office,"Cradle, Tatian",19/02/2021,,Amsterdam,1
+505,female,32,Master,10,Office,"Mcclendon, Jade",03/05/2021,,Amsterdam,1
+506,female,22,College,6,Staff,"Barrera jera, Mazrel",16/02/2021,,Amsterdam,0
+507,male,57,Elementary,40,Staff,"Pan, Alexander",12/05/2021,,Amsterdam,0
+508,male,52,High School,36,Staff,"Albani-Burgio, Nelson",11/05/2021,,Amsterdam,0
+509,male,32,Bachelor,17,Mager,"Leblanc, Kevin",22/02/2021,,Amsterdam,1
+510,male,37,PhD,14,Staff,"Carruthers, Justin",09/05/2021,,Amsterdam,1
+511,male,27,PhD,5,Staff,"Solorzano-Pichardo, Austin",19/02/2021,,Amsterdam,0
+512,female,27,High School,14,Staff,"Nguyen, Andrea",01/03/2021,,Amsterdam,0
+513,male,27,College,10,Staff,"Rees, Dylan",05/03/2021,,Amsterdam,0
+514,female,22,Bachelor,5,Staff,"Daniels, Kaylan",07/05/2021,,Amsterdam,0
+515,female,37,High School,23,Staff,"Ho, Brisha",11/04/2021,,Amsterdam,0
+516,female,27,Bachelor,14,Office,"Stavish, Jae",09/04/2021,,Amsterdam,1
+517,male,27,Elementary,10,Staff,"Ishikawa, Michael",09/03/2021,,Amsterdam,0
+518,female,32,Bachelor,15,Staff,"Diaz, Ruby",29/03/2021,,Amsterdam,0
+519,male,37,High School,18,Staff,"Romero, Rory",09/04/2021,,Amsterdam,1
+520,female,52,High School,32,Staff,"Linxwiler, Kyra",15/04/2021,,Amsterdam,0
+521,male,42,Master,23,Staff,"Brooks, Kailon",11/04/2021,,Amsterdam,1
+522,male,42,,28,Staff,"Avorque, Toua",25/02/2021,,Amsterdam,0
+523,male,32,High School,12,Mager,"Moore, Jordan",12/03/2021,,Amsterdam,1
+524,male,47,College,25,Staff,"Quinta, Diego",16/03/2021,,Amsterdam,1
+525,male,32,High School,16,Staff,"Johnson, Montrice",29/05/2021,,Amsterdam,0
+526,female,27,College,7,Office,"Quintanilla, Alison",02/04/2021,,Amsterdam,0
+527,male,47,PhD,27,Staff,"Velasquez, Isaak",03/04/2021,,Amsterdam,0
+528,male,27,PhD,8,Office,"Means, Heriberto",05/05/2021,,Amsterdam,0
+529,male,32,High School,10,Staff,"Washington, Shehab",19/03/2021,,Amsterdam,0
+530,male,,College,3,Office,"Davis, Richard",09/06/2021,,Amsterdam,0
+531,male,27,Bachelor,11,Staff,"Ross-Gaymon, Aaron",19/03/2021,,Amsterdam,0
+532,male,27,Bachelor,7,Mager,"Sherrard, Christopher",04/04/2021,,Amsterdam,0
+533,female,27,College,12,Staff,"Clark, Zayra",24/05/2021,,Amsterdam,0
+534,male,47,Master,33,Staff,"Rezaie-Khodabandelou, Xengsu",22/04/2021,,Amsterdam,1
+535,male,37,Bachelor,22,Mager,"Kim, Nitesh",15/05/2021,,Amsterdam,1
+536,female,,Elementary,9,Staff,"Gutierrez, Leah",13/05/2021,,Amsterdam,0
+537,male,27,College,5,Staff,"Atolani, Travale",21/03/2021,,Amsterdam,0
+538,female,42,Bachelor,26,Office,"Halaseh, Jamie",19/04/2021,,Amsterdam,1
+539,female,22,High School,7,Office,"Mata Davila, Cynthia",19/06/2021,,Amsterdam,0
+540,female,37,Master,21,Staff,"Alvarenga, Destiny",19/03/2021,,Amsterdam,0
+541,male,32,PhD,19,Staff,"Sun, Davis",28/03/2021,,Amsterdam,0
+542,female,42,Master,20,Staff,"Leyva Lerma, Yareli",11/06/2021,,Amsterdam,0
+543,male,22,Bachelor,1,Staff,"Whitecalf, Ryan",03/04/2021,,Amsterdam,1
+544,female,42,Elementary,19,Staff,"Spence, Jae",04/06/2021,,Amsterdam,0
+545,male,27,Master,8,Staff,"Burgess, Denzel",21/06/2021,,Amsterdam,0
+546,male,27,Bachelor,10,Staff,"Young, Everett",20/05/2021,,Amsterdam,0
+547,male,22,Master,8,Staff,"Wilmot, Yutitham",16/06/2021,,Amsterdam,0
+548,male,27,High School,7,Staff,"Kitchens, Adriel",28/03/2021,,Amsterdam,0
+549,female,42,High School,20,Office,"Byrd, Bria",12/06/2021,,Amsterdam,1
+550,male,32,Master,11,Staff,"Elhussen, Tiegen",28/03/2021,,Amsterdam,0
+551,male,22,Bachelor,3,Staff,"Banks, Castroma",26/05/2021,,Amsterdam,0
+552,female,37,Elementary,21,Staff,"Lee, Andrean",13/04/2021,,Amsterdam,0
+553,male,57,PhD,38,Staff,"Thompson, Markus",28/06/2021,,Amsterdam,0
+554,male,37,College,14,Staff,"Giron Lovato, Tecumseh",29/06/2021,,Amsterdam,0
+555,female,32,Bachelor,18,Staff,"Sy-Savane, Nicole",25/04/2021,,Amsterdam,1
+556,male,37,High School,23,Staff,"Baker, Winston",03/07/2021,,Amsterdam,0
+557,male,42,High School,27,Staff,"Yu, thaniel",24/05/2021,,Amsterdam,0
+558,female,47,,27,Staff,"Tran, Yuying",02/06/2021,,Amsterdam,0
+559,female,47,Elementary,30,Staff,"Quiles Jr, A",24/05/2021,,Amsterdam,0
+560,female,37,Bachelor,15,Staff,"Thompson, Lia",01/05/2021,,Amsterdam,0
+561,female,22,High School,2,Office,"Martinez, Brenda",02/05/2021,,Amsterdam,0
+562,male,27,PhD,12,Staff,"Yazzie, Brian",15/06/2021,,Amsterdam,0
+563,female,47,Bachelor,24,Staff,"Vu, Wanting",14/05/2021,,Amsterdam,1
+564,male,27,College,11,Staff,"Fisher, Kale",29/04/2021,,Amsterdam,0
+565,male,37,PhD,22,Staff,"Babcock, Quentin",08/06/2021,,Amsterdam,0
+566,male,57,PhD,35,Staff,"Herrera Parra, Luis",23/06/2021,,Amsterdam,0
+567,male,37,Master,20,Staff,"Owen, Bertie",30/05/2021,,Amsterdam,1
+568,female,22,High School,1,Staff,"Caldera, Paula",21/06/2021,,Amsterdam,0
+569,male,22,Master,6,Staff,"Lovins, Tai",16/06/2021,,Amsterdam,0
+570,female,52,College,30,Office,"Tuano, Jen",30/06/2021,,Amsterdam,1
+571,male,32,High School,16,Staff,"Hargrove, Da'Quan",26/06/2021,,Amsterdam,1
+572,female,27,High School,7,Staff,"Bowman, Carmen",20/07/2021,,Amsterdam,0
+573,female,57,Master,41,Staff,"Anderson, Pamela",01/05/2021,,Amsterdam,1
+574,female,37,Master,16,Staff,"Claudio, Hannia",18/07/2021,,Amsterdam,1
+575,male,27,College,11,Staff,"Hsiao, Michael",22/06/2021,,Amsterdam,0
+576,female,22,Primary,1,Office,"Heideman, Chia",22/06/2021,,Amsterdam,0
+577,male,37,Master,17,Office,"Porco, Michael",13/07/2021,,Amsterdam,1
+578,female,42,Elementary,22,Mager,"Seifert, Pauli",17/07/2021,,Amsterdam,1
+579,female,,High School,13,Staff,"Yu, Katryn",22/05/2021,,Amsterdam,0
+580,female,22,Master,3,Staff,"Sims, Mariah",27/04/2021,,Amsterdam,0
+581,female,,Master,7,Staff,"Herndez, Marisa",26/06/2021,,Amsterdam,0
+582,male,57,,34,Staff,"Ortega, Ricardo",27/05/2021,,Amsterdam,0
+583,female,37,College,14,Staff,"Minor, Hailey",27/04/2021,,Amsterdam,0
+584,male,52,College,39,Staff,"Adhikari, Nicholas",17/05/2021,,Amsterdam,1
+585,male,32,PhD,19,Office,"Aya, Jordan",01/05/2021,,Amsterdam,0
+586,male,22,,1,Staff,"Wedemeyer, Kenny",05/07/2021,,Amsterdam,0
+587,male,27,PhD,13,Staff,"Jackson, Shaquillo",03/06/2021,,Amsterdam,0
+588,female,27,Bachelor,13,Staff,"Downey, Arely",19/06/2021,,Amsterdam,0
+589,female,42,High School,29,Staff,"Sierra, Lore",09/05/2021,,Amsterdam,0
+590,male,37,PhD,20,Mager,"Lam, Danny",02/08/2021,,Amsterdam,0
+591,male,27,College,14,Staff,"Senethong, Brandon",14/05/2021,,Amsterdam,0
+592,female,22,High School,4,Staff,"Gilmore, Rian",16/05/2021,,Amsterdam,0
+593,female,32,High School,17,Office,"Dao, Hui",09/06/2021,,Amsterdam,1
+594,male,57,Bachelor,38,Staff,"Wilson, Tristan",21/05/2021,,Amsterdam,0
+595,female,42,High School,20,Staff,"Solis, Cierra",17/05/2021,,Amsterdam,0
+596,male,22,High School,0,Staff,"Castellanos, Laramie",19/06/2021,,Amsterdam,0
+597,female,22,High School,2,Office,"Phan, Rachel",18/07/2021,,Amsterdam,0
+598,male,57,PhD,38,Staff,"Armbruster, Teran",25/07/2021,,Amsterdam,0
+599,male,22,Master,8,Staff,"Jordan, Tahvian",07/07/2021,,Amsterdam,0
+600,male,27,Master,14,Staff,"Martinez, Juan",10/07/2021,,Amsterdam,0
+601,female,42,Elementary,22,Office,"Vue, Marylyn",05/07/2021,,Amsterdam,1
+602,female,37,Elementary,23,Staff,"Mcgill, Heather",08/06/2021,,Amsterdam,0
+603,male,42,PhD,21,Office,"Pierrie, Ajohn",20/08/2021,,Amsterdam,1
+604,female,27,College,14,Staff,"Marquez, Bethany",23/08/2021,,Amsterdam,1
+605,male,27,PhD,8,Staff,"Slechter, Patrick",02/07/2021,,Amsterdam,0
+606,female,42,Elementary,28,Staff,"Morales, Cruz",24/08/2021,,Amsterdam,1
+607,male,37,PhD,17,Staff,"Ba, Jermaine",25/07/2021,,Amsterdam,1
+608,male,42,Master,20,Staff,"Ervin, Eduardo",26/05/2021,,Amsterdam,0
+609,female,27,College,14,Staff,"Ameyaw, Chamera",06/08/2021,,Amsterdam,0
+610,male,42,Master,21,Staff,"Conley, thin",25/06/2021,,Amsterdam,0
+611,female,37,PhD,14,Office,"Gentry, Katiery",23/07/2021,,Amsterdam,1
+612,female,22,,0,Staff,"Farley, Lakota",28/08/2021,,Amsterdam,0
+613,female,47,Elementary,26,Staff,"Oza, Kirche",05/08/2021,,Amsterdam,0
+614,male,,College,5,Staff,"Prosser, Dylon",12/08/2021,,Amsterdam,0
+615,male,27,Master,5,Staff,"Mondragon, Marcus",21/07/2021,,Amsterdam,0
+616,male,47,Master,34,Staff,"Ceballos, Alejandro",27/06/2021,,Amsterdam,1
+617,male,37,Master,24,Office,"Cronin, Brice",19/06/2021,,Amsterdam,1
+618,female,27,Master,13,Staff,"Pan, Lailanie",26/06/2021,,Amsterdam,0
+619,male,22,College,8,Mager,"Mascares, Daniel",23/07/2021,,Amsterdam,0
+620,female,22,College,3,Staff,"Utu, Katherine",10/06/2021,,Amsterdam,0
+621,female,37,Bachelor,15,Staff,"Mcdowell, Jalen",11/06/2021,,Amsterdam,0
+622,female,22,College,7,Staff,"Irick, Emily",14/08/2021,,Amsterdam,0
+623,female,42,High School,21,Office,"Reza, Feng Wen",21/08/2021,,Amsterdam,1
+624,male,32,PhD,10,Staff,"Ortiz, Tyler",29/08/2021,,Amsterdam,0
+625,female,42,Bachelor,22,Office,"Bejarano, Jasmine",01/07/2021,,Amsterdam,1
+626,female,,Elementary,14,Office,"Butanda, Arius",30/08/2021,,Amsterdam,1
+627,female,27,Bachelor,7,Staff,"Nguyen, Crystal",05/09/2021,,Amsterdam,0
+628,female,37,High School,16,Office,"Aviles, Charita",17/09/2021,,Amsterdam,0
+629,male,22,High School,3,Staff,"Maga-Flores, Alvaro",01/07/2021,,Amsterdam,0
+630,female,32,High School,19,Office,"Trujillo, Chariesa",09/07/2021,,Amsterdam,1
+631,male,27,Master,6,Staff,"Rosas, Adrian",22/08/2021,,Amsterdam,0
+632,male,27,College,4,Staff,"Rojas Chaparro, Stephvon",10/07/2021,,Amsterdam,0
+633,male,37,College,17,Staff,"Mojica, Cesar",30/08/2021,,Amsterdam,0
+634,male,42,PhD,25,Staff,"Marshall, Zane",15/07/2021,,Amsterdam,0
+635,male,27,High School,6,Staff,"Fearce, Dasean",27/06/2021,,Amsterdam,0
+636,male,37,PhD,14,Staff,"Loneeagle, Gabriel",01/08/2021,,Amsterdam,1
+637,female,22,Elementary,1,Staff,"Hatcher, Jennifer",14/08/2021,,Amsterdam,0
+638,female,22,,3,Staff,"Ortega-Aragon, Amber",23/06/2021,,Amsterdam,0
+639,female,37,Elementary,20,Staff,"Chacon, Stacey",29/07/2021,,Amsterdam,0
+640,female,42,High School,25,Staff,"Lowe, Morgan",04/09/2021,,Amsterdam,0
+641,female,27,High School,4,Staff,"Velez, Rachel",15/09/2021,,Amsterdam,0
+642,male,32,High School,16,Staff,"Sandoval, Luis",28/06/2021,,Amsterdam,0
+643,female,27,Master,6,Staff,"Lai, Maya",20/07/2021,,Amsterdam,0
+644,male,57,PhD,36,Staff,"Elfring, Michael",28/06/2021,,Amsterdam,0
+645,female,27,College,8,Staff,"Smith, Tamara",25/09/2021,,Amsterdam,0
+646,male,22,Master,2,Staff,"Gehring, Alec",28/07/2021,,Amsterdam,0
+647,female,22,High School,3,Staff,"Ranjo, Mia",03/10/2021,,Amsterdam,0
+648,female,22,College,5,Office,"Tran, Ti",30/09/2021,,Amsterdam,0
+649,female,22,High School,7,Office,"Quispe, Dallas",05/07/2021,,Amsterdam,0
+650,male,22,Master,1,Staff,"Martinez, Hunter",08/10/2021,,Amsterdam,0
+651,female,22,College,3,Staff,"Maryland, Chaniya",04/08/2021,,Amsterdam,0
+652,male,27,Master,6,Office,"Mondragon, Jothan",05/10/2021,,Amsterdam,0
+653,female,27,College,7,Staff,"Negash, Millio",23/08/2021,,Amsterdam,0
+654,male,42,Bachelor,21,Staff,"Winston, Deric",26/09/2021,,Amsterdam,0
+655,female,47,Bachelor,27,Staff,"Johnson, Adriea",10/07/2021,,Amsterdam,0
+656,female,27,Bachelor,6,Office,"Horan, Lean",24/07/2021,,Amsterdam,1
+657,female,22,High School,1,Staff,"Nguyen, An",21/09/2021,,Amsterdam,0
+658,male,37,High School,14,Staff,"Cox, Jason",15/08/2021,,Amsterdam,0
+659,male,47,,27,Staff,"Nguyen, Inderpal",21/09/2021,,Amsterdam,0
+660,male,32,,11,Staff,"Thompson, Christopher",20/07/2021,,Amsterdam,1
+661,female,32,Bachelor,10,Office,"Nguyen, April",21/08/2021,,Amsterdam,0
+662,male,27,Bachelor,14,Staff,"Parham, Gabriel",02/09/2021,,Amsterdam,0
+663,male,37,PhD,17,Office,"Lui, Phillip",22/09/2021,,Amsterdam,0
+664,female,32,Master,17,Staff,"Li, Lakshmipriya",04/10/2021,,Amsterdam,1
+665,male,22,High School,7,Staff,"Jones, Jeffrey",06/08/2021,,Amsterdam,0
+666,male,32,PhD,18,Office,"Gupta, Matthew",24/07/2021,,Amsterdam,0
+667,male,27,PhD,6,Staff,"Salcido-Beltran, Khalile",10/09/2021,,Amsterdam,0
+668,female,27,Bachelor,14,Office,"Javaid, Sarah",05/08/2021,,Amsterdam,0
+669,female,22,College,2,Staff,"Peterie, Jacklyn",17/09/2021,,Amsterdam,0
+670,female,52,College,36,Office,"Fu, Alissa",01/09/2021,,Amsterdam,0
+671,male,37,Bachelor,24,Mager,"Vang, Brandon",26/09/2021,,Amsterdam,1
+672,male,27,PhD,7,Staff,"Cravens, Joshua",25/07/2021,,Amsterdam,0
+673,male,42,PhD,22,Staff,"Wedgeworth, Jordan",05/08/2021,,Amsterdam,0
+674,male,57,High School,44,Staff,"Estrada Zamudio, Gabriel",16/10/2021,,Amsterdam,0
+675,female,22,High School,8,Staff,"Deleon, Giovan",13/10/2021,,Amsterdam,0
+676,male,27,PhD,13,Staff,"Campanella, Silverio",10/08/2021,,Amsterdam,0
+677,male,52,PhD,37,Staff,"Burk, Thomas",18/08/2021,,Amsterdam,0
+678,female,47,Bachelor,32,Staff,"Rico, Yazmin",20/10/2021,,Amsterdam,1
+679,male,37,Master,16,Staff,"Young, Brenden",02/10/2021,,Amsterdam,1
+680,male,52,PhD,32,Staff,"Asmarzadeh, Sushant",09/11/2021,,Amsterdam,1
+681,male,57,PhD,41,Staff,"Gardner, Thai",31/10/2021,,Amsterdam,0
+682,female,22,,9,Staff,"Rodriguez-Chacon, Denisse",06/08/2021,,Amsterdam,0
+683,male,57,PhD,35,Staff,"Wixom, Luke",21/08/2021,,Amsterdam,1
+684,male,27,College,14,Office,"Waddell, Rold",18/08/2021,,Amsterdam,0
+685,female,27,High School,13,Staff,"Doyle, Jenny",02/09/2021,,Amsterdam,0
+686,male,27,Master,10,Staff,"Laury, Cedrick",12/08/2021,,Amsterdam,0
+687,female,22,High School,1,Office,"Ishizuki, Claire",04/09/2021,,Amsterdam,0
+688,male,57,PhD,43,Staff,"Fortes, Yong Dae",28/10/2021,,Amsterdam,0
+689,male,27,Bachelor,4,Staff,"Jones, Shemar",22/09/2021,,Amsterdam,1
+690,male,37,PhD,18,Staff,"Morton, Tucker",27/10/2021,,Amsterdam,0
+691,female,32,High School,12,Mager,"Miller, Riley",12/10/2021,,Amsterdam,0
+692,female,27,College,12,Office,"Vasquez, Rita",21/10/2021,,Amsterdam,0
+693,male,47,High School,32,Staff,"Hartt, Darien",25/10/2021,,Amsterdam,0
+694,male,27,PhD,11,Staff,"Rivas, Tyler",18/08/2021,,Amsterdam,0
+695,female,37,High School,22,Office,"Horton, Deja",12/11/2021,,Amsterdam,0
+696,male,27,PhD,14,Staff,"Johnson, Marcus",05/10/2021,,Amsterdam,0
+697,female,37,College,15,Staff,"Alvarado, Cipria",20/10/2021,,Amsterdam,0
+698,female,27,Elementary,13,Staff,"Menjivar, Amber",15/10/2021,,Amsterdam,0
+699,male,32,PhD,11,Staff,"Duong, David",25/08/2021,,Amsterdam,0
+700,female,22,,7,Staff,"Manuel, Dia",29/11/2021,,Amsterdam,0
+701,female,32,Bachelor,11,Office,"Sterett, Brian",12/10/2021,,Amsterdam,1
+702,female,22,High School,6,Office,"Hall, Brandi",26/09/2021,,Amsterdam,0
+703,female,42,High School,22,Staff,"Laydon, Maria",07/09/2021,,Amsterdam,0
+704,male,,PhD,16,Staff,"Moline, Angelito",11/09/2021,,Amsterdam,0
+705,male,22,College,1,Staff,"Juarez, Miguel",12/10/2021,,Amsterdam,0
+706,male,27,Master,12,Staff,"Lewis, Robert",07/10/2021,,Amsterdam,1
+707,female,27,College,5,Office,"Songer, Kayla",28/09/2021,,Amsterdam,0
+708,female,27,Elementary,12,Office,"Lee, Melissa",04/11/2021,,Amsterdam,0
+709,female,37,Master,16,Staff,"Makris, Madaline",04/09/2021,,Amsterdam,1
+710,male,37,Master,15,Staff,"Flores, Luis",04/10/2021,,Amsterdam,0
+711,female,32,Master,13,Staff,"Deherrera, Karla",27/10/2021,,Amsterdam,0
+712,female,32,Bachelor,15,Staff,"Carrero, Adria",10/10/2021,,Amsterdam,1
+713,male,32,College,17,Staff,"Pugh, Marquis",30/09/2021,,Amsterdam,1
+714,female,27,Master,8,Staff,"Cade, Brissa",23/10/2021,,Amsterdam,0
+715,female,22,Elementary,3,Staff,"Jara, Rey",06/11/2021,,Amsterdam,0
+716,female,32,Elementary,17,Staff,"Nguyen, Jasmine",04/12/2021,,Amsterdam,0
+717,male,27,,4,Staff,"Frick, Daniel",20/09/2021,,Amsterdam,0
+718,male,52,PhD,37,Staff,"Bateman, Patrick",20/09/2021,,Amsterdam,0
+719,male,22,College,0,Staff,"Vlach, Jack",14/12/2021,,Amsterdam,0
+720,female,22,College,9,Staff,"Lizardo, Zaira",02/12/2021,,Amsterdam,0
+721,male,37,PhD,18,Staff,"Robison, Austin",24/10/2021,,Amsterdam,0
+722,female,32,Bachelor,12,Office,"Kemm, Octavia",21/11/2021,,Amsterdam,1
+723,female,27,College,5,Staff,"Chavez, Andrea",04/10/2021,,Amsterdam,0
+724,female,32,Primary,17,Staff,"Marion, Alyssa",18/11/2021,,Amsterdam,1
+725,female,,Bachelor,11,Office,"Sandoval, Morgan",29/09/2021,,Amsterdam,1
+726,female,32,High School,19,Staff,"Lopez, Chloe",13/11/2021,,Amsterdam,0
+727,male,80,Bachelor,14,Staff,"Blair, Trent",11/10/2021,,Amsterdam,0
+728,male,58,Master,16,Office,"Woods, Tiger",12/11/2021,,Amsterdam,1
+729,male,52,Primary,34,Office,"Diep, Alexander",04/11/2021,,Amsterdam,0
+730,female,52,Bachelor,12,Office,"Zavala-Diaz, Olivia",27/12/2021,,Amsterdam,1
+731,female,52,College,34,Staff,"Thompson, Nia",28/11/2021,,Amsterdam,0
+732,female,52,High School,34,Staff,"Flynn, Taylor",18/10/2021,,Amsterdam,0
+733,female,50,High School,32,Office,"Escobar Ortega, A",30/10/2021,,Amsterdam,0
+734,male,42,Bachelor,15,Staff,"Guyon, Raul",07/11/2021,,Amsterdam,0
+735,male,42,PhD,24,Office,"Graham, Miles",24/10/2021,,Amsterdam,0
+736,male,42,PhD,24,Office,"Likianos, Terrance",28/11/2021,,Amsterdam,1
+737,female,42,High School,24,Office,"Barton, Jessie",25/10/2021,,Amsterdam,1
+738,female,42,Elementary,24,Office,"Richardson, Kennedy",17/11/2021,,Amsterdam,1
+739,female,42,Bachelor,3,Staff,"Thornton, Ashley",18/10/2021,,Amsterdam,0
+740,female,42,Elementary,24,Office,"Decker, Miriam",06/10/2021,,Amsterdam,1
+741,male,37,Master,19,Office,"Oh, Jimmy",03/10/2021,,Amsterdam,1
+742,male,37,Master,19,Staff,"Hobdy, Ahmear",02/01/2022,,Amsterdam,0
+743,male,37,PhD,19,Staff,"Kang, Lance",17/10/2021,,Amsterdam,0
+744,male,37,PhD,12,Staff,"Yang, Nicholas",29/11/2021,,Amsterdam,0
+745,male,37,Master,19,Staff,"Aguirre, Isaac",29/10/2021,,Amsterdam,0
+746,male,37,PhD,12,Staff,"Murfitt, Luke",01/01/2022,,Amsterdam,0
+747,female,37,Bachelor,19,Office,"Singh, Jaspreet",14/01/2022,,Amsterdam,1
+748,female,37,High School,13,Staff,"Irigoyen-Moreno, Lysandra",14/01/2022,,Amsterdam,1
+749,female,37,High School,19,Staff,"Truong, Karissa",15/12/2021,,Amsterdam,0
+750,male,37,PhD,19,Staff,"Dettmann, Sky",02/12/2021,,Amsterdam,0
+751,female,37,Elementary,19,Staff,"Guerette, Jalene",21/11/2021,,Amsterdam,0
+752,female,37,College,19,Staff,"Holland, Alee",15/10/2021,,Amsterdam,0
+753,male,37,College,19,Staff,"Sanchez, Erik",11/12/2021,,Amsterdam,0
+754,male,,Bachelor,14,Staff,"Martinez, Carl",26/12/2021,,Amsterdam,1
+755,male,32,,8,Staff,"Williams, Stephen",19/10/2021,,Amsterdam,0
+756,female,32,High School,14,Office,"Fluellen, Brian",23/10/2021,,Amsterdam,0
+757,male,32,Bachelor,9,Staff,"Barron Rodriguez, Gabriel",31/10/2021,,Amsterdam,0
+758,female,32,High School,14,Staff,"Gama, Sele",25/12/2021,,Amsterdam,0
+759,female,32,High School,14,Staff,"Lapitan, Sylvia",30/11/2021,,Amsterdam,0
+760,female,32,High School,9,Staff,"Diggins, Victoria",26/01/2022,,Amsterdam,0
+761,male,32,PhD,9,Staff,"Yarbrough, Christopher",15/12/2021,,Amsterdam,0
+762,male,32,PhD,14,Office,"varro, than",07/11/2021,,Amsterdam,0
+763,female,32,Elementary,14,Staff,"Yi, Connie",28/12/2021,,Amsterdam,1
+764,male,32,High School,14,Staff,"Vergil, Vincent",26/12/2021,,Amsterdam,0
+765,male,32,Master,8,Staff,"Hadnott, Yaphet",10/12/2021,,Amsterdam,0
+766,male,32,Master,14,Office,"Walters, Kristofer",10/12/2021,,Amsterdam,1
+767,male,32,Master,14,Office,"Christensen, Bryan Lam",11/11/2021,,Amsterdam,0
+768,female,32,College,7,Staff,"Mitchell, Amanda",15/01/2022,,Amsterdam,1
+769,female,32,Bachelor,14,Staff,"Le Beau, Savah",19/01/2022,,Amsterdam,0
+770,male,32,PhD,9,Staff,"Leyerle, Jeremy",20/01/2022,,Amsterdam,0
+771,male,32,College,14,Staff,"Woodward, Richard",08/01/2022,,Amsterdam,0
+772,male,32,College,9,Staff,"Yoon, Bryan",08/11/2021,,Amsterdam,0
+773,female,32,Bachelor,14,Office,"Trujillo, Jocelyn",05/02/2022,,Amsterdam,0
+774,female,32,Bachelor,8,Office,"Williams, Ashley",11/01/2022,,Amsterdam,1
+775,female,32,High School,14,Staff,"Yang, Aisha",21/12/2021,,Amsterdam,0
+776,male,32,College,7,Office,"Auyeung, than",06/12/2021,,Amsterdam,0
+777,female,32,Elementary,14,Staff,"Lockman, Zhojhya",20/11/2021,,Amsterdam,0
+778,female,32,Bachelor,14,Staff,"Gebresellassie, Monicya",19/12/2021,,Amsterdam,0
+779,male,32,PhD,14,Staff,"Jennings, Daniel",04/12/2021,,Amsterdam,0
+780,female,32,High School,14,Staff,"Sam, Brittany",08/02/2022,,Amsterdam,0
+781,male,32,Master,7,Staff,"Gerstmann, Micah",24/11/2021,,Amsterdam,0
+782,male,32,High School,8,Staff,"Lu, Dallas",23/01/2022,,Amsterdam,0
+783,female,32,Elementary,9,Staff,"Mendoza, Shanice",10/01/2022,,Amsterdam,0
+784,male,32,College,14,Mager,"Johnson, Uriah",16/12/2021,,Amsterdam,0
+785,male,32,Master,14,Office,"Lujan, Bret",05/02/2022,,Amsterdam,0
+786,female,32,College,14,Staff,"Otwell, Sierra",03/02/2022,,Amsterdam,0
+787,male,32,PhD,7,Staff,"Vasquez, Rafael",29/01/2022,,Amsterdam,0
+788,male,32,,8,Staff,"Pregnon, Lavaris",04/12/2021,,Amsterdam,0
+789,male,32,High School,9,Staff,"Tatum Clardy, Henry",21/02/2022,,Amsterdam,0
+790,female,32,Primary,14,Office,"Ruzicka, Dallas",21/11/2021,,Amsterdam,0
+791,male,32,High School,14,Staff,"Haileselassie, Temitayo",18/02/2022,,Amsterdam,0
+792,female,,High School,12,Office,"Hobley, Sandra",28/11/2021,,Amsterdam,0
+793,male,27,PhD,9,Staff,"Thomas, Daniel",18/12/2021,,Amsterdam,1
+794,male,27,PhD,9,Staff,"Hicks, Eric",14/12/2021,,Amsterdam,0
+795,male,27,Master,9,Staff,"Vu, Tae",28/12/2021,,Amsterdam,1
+796,male,27,High School,9,Staff,"Kucharek, Assed",01/12/2021,,Amsterdam,0
+797,male,27,,9,Staff,"Pham, Manohar",06/03/2022,,Amsterdam,0
+798,male,27,High School,9,Mager,"Briones, Steven",14/12/2021,,Amsterdam,0
+799,male,27,High School,9,Mager,"Phu, Khashkhuu",01/03/2022,,Amsterdam,0
+800,female,27,High School,9,Staff,"Quezada, Jazmin",07/03/2022,,Amsterdam,0
+801,male,27,High School,9,Office,"Gardner, thaniel",16/01/2022,,Amsterdam,0
+802,female,27,Bachelor,7,Staff,"Lucero, Bethany",10/01/2022,,Amsterdam,0
+803,female,27,Elementary,7,Staff,"Robinson, Elonca",13/02/2022,,Amsterdam,0
+804,male,27,High School,7,Mager,"Wang, Alec",02/02/2022,,Amsterdam,1
+805,female,27,High School,7,Staff,"Bolyard, Alicia",21/01/2022,,Amsterdam,0
+806,female,27,Bachelor,7,Office,"Tran, Savanh",21/01/2022,,Amsterdam,0
+807,male,27,,7,Staff,"Torres, Charles",15/03/2022,,Amsterdam,0
+808,male,27,High School,7,Office,"Ramsey-White, Jahangeer",26/02/2022,,Amsterdam,0
+809,male,27,Master,7,Staff,"Perales Moctezuma, Elias",10/02/2022,,Amsterdam,0
+810,female,27,High School,7,Staff,"Gandara, Leandra",11/03/2022,,Amsterdam,0
+811,female,27,College,9,Staff,"Kim, Samantha",17/01/2022,,Amsterdam,0
+812,male,27,College,9,Staff,"Cash, Fa-Iz",16/02/2022,,Amsterdam,0
+813,female,27,Elementary,9,Staff,"Austin, Breanne",20/03/2022,,Amsterdam,0
+814,male,27,,9,Staff,"Cottle, Jared",31/01/2022,,Amsterdam,0
+815,female,27,College,9,Staff,"Pino, Jocelin",19/03/2022,,Amsterdam,0
+816,male,22,Bachelor,5,Staff,"Wiggins, Dominique",29/01/2022,,Amsterdam,1
+817,female,22,High School,5,Office,"Andrew, Olivia",23/03/2022,,Amsterdam,0
+818,female,22,High School,5,Staff,"Reed, Lydia",02/01/2022,,Amsterdam,0
+819,male,22,PhD,5,Staff,"Theis, Kevin",28/03/2022,,Amsterdam,0
+820,female,22,Bachelor,5,Staff,"Perkins, Marisa",06/03/2022,,Amsterdam,0
+821,male,22,College,5,Staff,"Ford, Johthon",13/01/2022,,Amsterdam,0
+822,male,22,High School,5,Staff,"Suazo, Tyler",22/03/2022,,Amsterdam,1
+823,male,22,,4,Office,"Loflin, Austin",25/12/2021,,Amsterdam,0
+824,male,22,Bachelor,4,Staff,"Overbey, Spencer",07/02/2022,,Amsterdam,1
+825,female,22,College,4,Staff,"Barela, Di",28/03/2022,,Amsterdam,0
+826,female,22,Elementary,4,Staff,"Conley, Imari",01/01/2022,,Amsterdam,0
+827,male,22,College,4,Staff,"Shaver, Chris",19/02/2022,,Amsterdam,0
+828,male,22,Primary,4,Mager,"Nistelrooij, Erik",01/03/2022,,Amsterdam,1
+829,female,22,Master,4,Office,"Cantey, Marissa",07/02/2022,,Amsterdam,0
+830,female,22,Bachelor,4,Office,"Holliday, Deja",03/01/2022,,Amsterdam,0
+831,female,22,Elementary,4,Staff,"Breidt, Kathleen",19/02/2022,,Amsterdam,0
+832,female,22,Elementary,4,Office,"Zhou, Lauren",15/02/2022,,Amsterdam,1
+833,male,22,High School,4,Staff,"Lee, Shane",24/02/2022,,Bunnik,0
+834,female,22,High School,4,Staff,"Ortiz, Vanessa",09/01/2022,,Bunnik,0
+835,male,22,PhD,4,Staff,"Javalera, Jesus",18/02/2022,,Bunnik,0
+836,male,22,High School,4,Staff,"Fortt, Jordan",25/02/2022,,Bunnik,0
+837,male,22,College,4,Staff,"Garcia, Adrian",10/02/2022,,Bunnik,0
+838,female,22,High School,4,Office,"Hoang, Angie",08/02/2022,,Bunnik,1
+839,female,22,College,4,Staff,"Jones Anderson, Sara",21/01/2022,,Bunnik,0
+840,male,,PhD,,Staff,"Aragon, Triston",06/03/2022,,Bunnik,0
+841,female,,High School,,Office,"Zotto, Nila",20/01/2022,,Bunnik,0
+842,male,,Master,,Staff,"Hsiung, Brian",12/01/2022,,Bunnik,1
+843,male,,Master,,Staff,"Li, Gregory",20/04/2022,,Bunnik,0
+844,female,,College,,Staff,"Moland, Kathleen",24/03/2022,,Bunnik,0
+845,female,,College,,Office,"Wagner, Danielle",11/04/2022,,Bunnik,1
+846,female,,High School,,Staff,"Khabir, Mischa",28/01/2022,,Bunnik,1
+847,female,0,High School,,Staff,"Whitehead, Brean",12/04/2022,,Bunnik,0

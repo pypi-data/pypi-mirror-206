@@ -1,0 +1,9 @@
+cmo_dataexplore/__init__.py,sha256=R0H3k2Zi7BKYL4c3lsA0jB7ww-T42iye6nXnWCcSma4,39
+cmo_dataexplore/explore.py,sha256=ybc9sagMPb3RfQrRejBP61GrGdAsvnjuvUCtHHO2dBk,20672
+cmo_dataexplore/resources.py,sha256=TXoDvrVLOAHfqgwcZJzHskqbI7oKNnT_0udr8aiqDxU,1871
+cmo_dataexplore/data/example.csv,sha256=e-VgPP_oz9CYFMR5cZkh04ftorVcJoZEqmZFUYuM_qU,61469
+cmo_dataexplore/notebooks/Cmotions DataExplore tutorial.ipynb,sha256=0ayeo_eQbK__mdEGYzLUDnBP460xn5JzvbbyZZxqU_c,1212707
+cmo_dataexplore-0.0.1.dist-info/METADATA,sha256=X5Cz2nY86OyZePwpVkXt8ZtsISn-SXSjg7oJ_xGr3dg,3654
+cmo_dataexplore-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cmo_dataexplore-0.0.1.dist-info/top_level.txt,sha256=_A4G3iC6-QRSEpa5qr9CViGy7Q-RCwm9b2dWIGh9QkM,16
+cmo_dataexplore-0.0.1.dist-info/RECORD,,

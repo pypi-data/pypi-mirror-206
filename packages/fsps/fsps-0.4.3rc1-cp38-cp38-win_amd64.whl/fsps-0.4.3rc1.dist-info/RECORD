@@ -1,0 +1,10 @@
+fsps-0.4.3rc1.dist-info/METADATA,sha256=KvnSQPUQlB2fFoeWw7x79BoGVQF7_pq-w94m6ZI7cyI,1334
+fsps-0.4.3rc1.dist-info/WHEEL,sha256=vIXzP6jLUy4sdmrQppnovVBqmdfNCkEM0I7EHxeJ-zs,83
+fsps/_fsps.cp38-win_amd64.pyd,sha256=4VPeLnBxc1dOWHfyzH0oTJbmubF6SQxGG64TAtKwjG0,1618718
+fsps/_fsps.cp38-win_amd64.dll.a,sha256=bcHDuvIIanXi1UISKEGZIcax95Y1F1Rt6_LOkZ9GB3M,1516
+fsps/__init__.py,sha256=YlYvNzTuuVP1XZeMmQAVmgOOQhkvbMQjCVlNZuvjxU8,397
+fsps/filters.py,sha256=mi326YlMUuDBMR5rg6-ccP5CTAY3xmSwKNmdVyzu7lE,6006
+fsps/fsps_version.py,sha256=aRTR71eQt5B55-gdG7qVDNsMzXdIB-d26EfIJv8u-pc,167
+fsps/fsps.py,sha256=6S3ypg1sKXo2fb-WBllYDWWz4g2WCd6nMbkx9vpTLu0,52469
+fsps/sps_home.py,sha256=L3-ZdyZdcWq4OEIDyBSXxa4OJJ6DAvRoyfxlI_carlE,581
+fsps-0.4.3rc1.dist-info/RECORD,,

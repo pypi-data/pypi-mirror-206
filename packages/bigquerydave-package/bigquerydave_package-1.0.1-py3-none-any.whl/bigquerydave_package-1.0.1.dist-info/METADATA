@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: bigquerydave_package
+Version: 1.0.1
+Summary: A wrapper for simplified BigQuery using google.cloud
+Project-URL: Homepage, https://github.com/daveskura/bigquerydave
+Project-URL: Author Linkedin, https://www.linkedin.com/in/2166883
+Author-email: Dave Skura <dskura@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# A wrapper on the bigquery libraries for simple access
+
+### Google install
+
+'''
+pip install google
+pip install google-api-python-client
+pip install --upgrade google-api-python-client
+pip3 install --upgrade oauth2client 
+
+pip install --upgrade google-cloud
+pip install --upgrade google-cloud-bigquery
+
+gcloud auth application-default login
+
+gcloud init 
+'''
+
+### Install with pip
+
+pip install bigquerydave
+
+### import to your python script
+
+from bigquerydave_package.bigquerydave import gcp
+
+from bigquerydave_package.bigquerydave import bq
+
+### try methods
+
+  gcp().list_gcp_projects()
+  
+  bq().list_bq_datasets()
+  
+  bq().list_bq_tables('watchful-lotus-364517.dave')
+  
+  bq().estimate_query('SELECT CURRENT_TIMESTAMP')

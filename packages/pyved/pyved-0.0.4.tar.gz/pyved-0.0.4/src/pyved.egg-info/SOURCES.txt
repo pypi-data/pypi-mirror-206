@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/pyved/__init__.py
+src/pyved/__main__.py
+src/pyved/editor.py
+src/pyved/test.py
+src/pyved/ver_info.py
+src/pyved.egg-info/PKG-INFO
+src/pyved.egg-info/SOURCES.txt
+src/pyved.egg-info/dependency_links.txt
+src/pyved.egg-info/entry_points.txt
+src/pyved.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+CHANGELOG.md,sha256=nyL9d9A28VqEtGI4OCLX9P4FN1kAa88uHDPHMlguoiQ,3684
+amarps/__init__.py,sha256=5im1FLD_I3r3KQBW97YfQ3l-6a2Esx-ck9LSm8RIkkA,79
+amarps/__main__.py,sha256=Ipm-KZJB7V1CFJ96iF1-pN8CBfK7qdsykjsmt4hl7LQ,32
+amarps/events.py,sha256=FCDb94e0YTjTIS1puJT-bhpJl_Ywnts2aZoctd_EMuM,476
+amarps/main.py,sha256=fp5ugNwIxotjFWbgRfP-D0wRvSyMXJWsM57i6JvtIYc,3771
+amarps/profile_page_selectors.yml,sha256=iwNwdr40r_6u2gQFp-5MiYwTF9E3_iqWRFoo3HGECAQ,1314
+amarps/review_page_selectors.yml,sha256=kSX_FV18uzimbz_gtdq7vbNYkWDTJxwHnPM9hxKw9jU,1044
+amarps/scraper.py,sha256=dtBawjIQpaWrsf7V__UzsziILfiO4hL7KJqnNIGU9mM,11142
+amarps-0.19.0.dist-info/LICENSE,sha256=nvaX8UQS0ULjXRp-TEATcEu7Wc7Y95ZVD9mD5HfOPoA,1070
+amarps-0.19.0.dist-info/METADATA,sha256=1ss_PRnm3xRnIjB8fTJgJHi6jXS68CoocoiXX5eEXVI,1975
+amarps-0.19.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+amarps-0.19.0.dist-info/entry_points.txt,sha256=tU0zE8O-E_23bsThzpVLrVFnBzR7EeLw59ho2tRW2R4,43
+amarps-0.19.0.dist-info/RECORD,,

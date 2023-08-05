@@ -1,0 +1,5 @@
+mesos_provider/__init__.py,sha256=9xPyVUuCb4bnb15qf_F__hdM6WxIJmbtrmT2jIKk-Os,309
+airflow_provider_mesos-0.1.2.dist-info/METADATA,sha256=x5zdRaklIpqwHbp9nWm0VGRuyUyjwFXEuOBa5vFI2VU,568
+airflow_provider_mesos-0.1.2.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+airflow_provider_mesos-0.1.2.dist-info/top_level.txt,sha256=5R2B-wzFualawDBTUIO2SyCsXF14nhf5JQhNy1tgiR0,15
+airflow_provider_mesos-0.1.2.dist-info/RECORD,,

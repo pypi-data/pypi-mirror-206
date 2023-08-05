@@ -1,0 +1,22 @@
+Screen {
+    layout:grid;
+    grid-size: 2 2;
+}
+
+Input {
+    dock: bottom;
+    margin-top: 1;
+    border: ascii;
+}
+
+ContentSwitcher {
+    border: solid green;
+}
+
+Prompt {
+    /*height: 20%;
+    dock: bottom;*/
+    /*content-align: center middle;*/
+    border: solid green;
+    column-span: 2;
+}

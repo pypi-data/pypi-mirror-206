@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: myfs
+Version: 20230502
+Summary: My File Store - GET/PUT/DELETE operations over HTTPS.
+Home-page: https://github.com/magicray/myfs
+Author: Bhupendra Singh
+Author-email: bhsingh@gmail.com
+License: UNKNOWN
+Description: Fault tolerant and highly available. Uses mTLS for auth.
+Platform: UNKNOWN

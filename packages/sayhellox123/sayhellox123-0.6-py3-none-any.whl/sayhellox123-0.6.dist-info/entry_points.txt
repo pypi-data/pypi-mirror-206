@@ -1,0 +1,2 @@
+[console_scripts]
+helloworld = helloworld.a:say_hello

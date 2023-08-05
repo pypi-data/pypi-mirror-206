@@ -1,0 +1,34 @@
+# Systems Engineering Library (se-lib)
+Version .26.1
+
+Copyright (c) 2022-2023 se-lib Development Team
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+```bash
+r@mac ~/Documents/GitHub/se_lib_package ▶ python3 -m build
+* Creating venv isolated environment...
+* Installing packages in isolated environment... (hatchling)
+* Getting build dependencies for sdist...
+* Building sdist...
+* Building wheel from sdist
+* Creating venv isolated environment...
+* Installing packages in isolated environment... (hatchling)
+* Getting build dependencies for wheel...
+* Building wheel...
+Successfully built se_lib-0.2.tar.gz and se_lib-0.2-py3-none-any.whl
+r@mac ~/Documents/GitHub/se_lib_package ▶ python3 -m twine upload dist/*
+Uploading distributions to https://upload.pypi.org/legacy/
+Enter your username: __token__
+Enter your password: 
+Uploading se_lib-0.2-py3-none-any.whl
+100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.8/18.8 kB • 00:00 • 61.3 MB/s
+Uploading se_lib-0.2.tar.gz
+100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.3/18.3 kB • 00:00 • 60.5 MB/s
+
+View at:
+https://pypi.org/project/se-lib/0.2/```

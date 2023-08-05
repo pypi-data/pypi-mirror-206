@@ -1,0 +1,12 @@
+libsonata/__init__.py,sha256=QCrVaLcAp9GOBQVuxFYWjphLt2fsvXXF4uotG1Yt3-I,975
+libsonata/_libsonata.cpython-38-x86_64-linux-gnu.so,sha256=GlRUhvD3PI-L58x8PmG23e7f7PJaLl8yY_IglAr2sts,2085545
+libsonata-0.1.19.dist-info/RECORD,,
+libsonata-0.1.19.dist-info/METADATA,sha256=m-w1RdAuWI1doGHLMSJYsYZ2VZiIVDjCkg_q-GCE5JE,11990
+libsonata-0.1.19.dist-info/COPYING,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+libsonata-0.1.19.dist-info/COPYING.LESSER,sha256=GkWx0KhgPf4s_GRPnauXCxdi-Sur4qrG6y9dRXLEpoA,7653
+libsonata-0.1.19.dist-info/top_level.txt,sha256=lbZhDOeoJcQjLCSQj5ZIzG9jajJ9P6zb_pPWA8GtkEM,10
+libsonata-0.1.19.dist-info/WHEEL,sha256=5DQRW5VdkIxH8e7ylwa-YBCXLhSZeqHiz1ZmuOscrlo,148
+libsonata-0.1.19.dist-info/AUTHORS.txt,sha256=eehdczPQ0DAae9L02gSMl1H53ahGINL7pf2L5AvJWrs,268
+libsonata.libs/libhdf5-7296f88d.so.200.1.0,sha256=Py2Awn65FjkAhVrCU_lNbQemSR-fM-c7QIH9G3gKkO0,4843817
+libsonata.libs/libaec-8db54129.so.0.0.10,sha256=ZtK17fQEG808214hNracPnAFdW8tFAx0yg7lJaFQVZY,119601
+libsonata.libs/libsz-60c3b967.so.2.0.1,sha256=YSiPUZRzEKpKI8pwuCeakQJq2J8DV9G88spYSrGM0Nk,37209

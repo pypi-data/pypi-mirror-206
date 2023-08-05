@@ -1,0 +1,3 @@
+[console_scripts]
+daemonstatusservice=lockss.soap.daemon_status_service:main
+

@@ -1,0 +1,15 @@
+open_data_pipeline/__init__.py,sha256=32nMcMk-ElxjMSJLRqsBO9lt4q5So2SMLYrf7gu6QxE,36
+open_data_pipeline/Foundation/__init__.py,sha256=cSn4BPRy1QyQ5SRqHk8ywREhcnLkj-WcwiRkgfTa-e8,39
+open_data_pipeline/Foundation/utils.py,sha256=30S3dj4xpuEQiX2foZPiVSJwcehthWNa8JBB-C5S2vU,517
+open_data_pipeline/Foundation/default_pipeline/Iimporter.py,sha256=m7d1Y9dpUPUv34QF78Uim8V2V0D1Jp5NPOLUecsyP3A,527
+open_data_pipeline/Foundation/default_pipeline/Imodel.py,sha256=8K1uhi2ScMcGkBbBug1HSr4mrCeq8pHDJCpjuERcLQA,412
+open_data_pipeline/Foundation/default_pipeline/Ipipeline.py,sha256=vn5jx4YN9rcpjYzU1SpXbdLDk5XgPHAWx10YTD7GcNc,1048
+open_data_pipeline/Foundation/default_pipeline/Iproccess.py,sha256=eEQav2QtrLceguvqRi06htn-D_Z1ntiVts8S0rZnx2w,1151
+open_data_pipeline/Foundation/default_pipeline/IproccessMethod.py,sha256=jVusPN7FqXYu_nY-p0byTLi1kozSYjItVJuhSotDJtU,1297
+open_data_pipeline/Foundation/default_pipeline/Isave.py,sha256=MhkBiWz9qoMdzeZGth-VfqfVac1ouZo8L4PPeETB9Zg,346
+open_data_pipeline/Foundation/default_pipeline/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+open_data_pipeline/Pipeline/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ez_data_pipeline-0.4.dist-info/METADATA,sha256=W04sPY6EIZpa19SfEPxyiqe3zn5w1tQ8K3oKYaPLog0,1771
+ez_data_pipeline-0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ez_data_pipeline-0.4.dist-info/top_level.txt,sha256=oxJkS60yFPbYgtbTO-v0HHvHTddsSnK7KdGc_Ad86KI,19
+ez_data_pipeline-0.4.dist-info/RECORD,,

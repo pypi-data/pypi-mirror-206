@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: xdas
+Version: 0.1a1
+Author-email: Alister Trabattoni <alister.trabattoni@gmail.com>
+License-File: LICENSE.md
+Requires-Dist: dask
+Requires-Dist: h5py
+Requires-Dist: netcdf4
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Requires-Dist: xarray
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: myst-parser ; extra == 'docs'
+Requires-Dist: furo ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+

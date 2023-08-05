@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Functions-Main
+Version: 0.0.1
+Summary: Packages To Avoid Annoying Repettive Task
+Author: Abdus-Samad (Abdus-Samad)
+Author-email: <Samadgame09@gmail.com>
+Keywords: python,Functions,Repettive,DataBase
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: shutil
+
+
+Your Solutions For Annoying Code Lines

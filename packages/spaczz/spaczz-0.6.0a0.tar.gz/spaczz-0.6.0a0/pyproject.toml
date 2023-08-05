@@ -1,0 +1,134 @@
+[tool.poetry]
+name = "spaczz"
+version = "0.6.0a0"
+description = "Adds fuzzy matching and additional regex matching support to spaCy."
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/gandersen101/spaczz"
+repository = "https://github.com/gandersen101/spaczz"
+keywords = ["fuzzy matching", "spacy", "nlp"]
+authors = ["Grant Andersen <gandersen.codes@gmail.com>"]
+documentation = "https://spaczz.readthedocs.io"
+
+[tool.poetry.plugins."spacy_factories"]
+"spaczz_ruler" = "spaczz.pipeline:SpaczzRuler"
+
+# Dependencies
+
+[tool.poetry.dependencies]
+python = "^3.7"
+spacy = "^3.0"
+catalogue = "*"
+srsly = "*"
+numpy = [
+    {version = ">=1.15, <1.22", python = "~3.7"},
+    {version = ">=1.17.3", python = "~3.8"},
+    {version = ">=1.19.3", python = "~3.9"},
+    {version = ">=1.21.2", python = "^3.10"}
+]
+rapidfuzz = ">=1.0.0"
+regex = ">=2020.6.8"
+importlib_metadata = {version = "*", python = "<3.8"}
+typing_extensions = {version = "*", python = "<3.8"}
+
+## Formatting
+
+[tool.poetry.group.black.dependencies]
+black = ">=22.3"
+
+[tool.poetry.group.isort.dependencies]
+isort = ">=5.10"
+
+## Linting
+
+[tool.poetry.group.lint.dependencies]
+darglint = ">=1.8"
+flake8 = ">=5.0"
+flake8-annotations = ">=2.9"
+flake8-bandit = ">=4.0"
+flake8-black = ">=0.3"
+flake8-bugbear = ">=22.4"
+flake8-docstrings = ">=1.6"
+flake8-import-order = ">=0.18"
+
+## Typechecking
+
+[tool.poetry.group.mypy.dependencies]
+mypy = ">=0.9"
+nox = "*"
+pytest = "*"
+
+## Testing
+
+[tool.poetry.group.test.dependencies]
+coverage = {version = "*", extras = ["toml"]}
+pytest = "*"
+pytest-cov = "*"
+
+## Docs
+
+[tool.poetry.group.xdoctest.dependencies]
+xdoctest = ">=1.0"
+
+[tool.poetry.group.readme.dependencies]
+ipykernel = "*"
+nbconvert = "*"
+
+[tool.poetry.group.docs.dependencies]
+sphinx = ">=4.0.2"
+sphinx-autobuild = "*"
+sphinx-autodoc-typehints = "*"
+
+# Other Tools
+
+[tool.black]
+extend-exclude = '''
+(
+  notebooks/
+)
+'''
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 96
+
+[tool.coverage.run]
+branch = true
+source = ["spaczz"]
+
+[tool.isort]
+line_length = 88
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true
+split_on_trailing_comma = true
+force_single_line = true
+force_sort_within_sections = true
+lexicographical = true
+single_line_exclusions = ["typing"]
+order_by_type = false
+group_by_package = true
+reverse_relative = true
+
+[tool.mypy]
+
+[[tool.mypy.overrides]]
+module = [
+    "catalogue",
+    "regex",
+    "rich.*",
+    "srsly",
+]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["poetry>=1.0.0"]
+build-backend = "poetry.masonry.api"

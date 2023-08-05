@@ -1,0 +1,11 @@
+salatime/__init__.py,sha256=CjYjHwz-eslxD_m3Au5vq-VZZSw9sUwJDrJJmvLOJZY,70
+salatime/api_fetcher.py,sha256=Ycl4c-4_gAbuCNIrjvPCk_FjOUxnai2oJIY_oWOef_M,1031
+salatime/prayer.py,sha256=DuonDMDO1du4wrtp2Xszq-OwdZxFoX41fC13wCNSKPk,676
+salatime/prayer_scheduler.py,sha256=XxMZlPwZxp88BRUGSdoYs52hbUiQLg3UwcV0rs78PFs,1486
+salatime/prayer_times_parser.py,sha256=lpPz8MgC3YKujxim_BirPgf9-oRmr5qAEZHN9AwrBl0,2335
+salatime/prayers_day.py,sha256=bfH47huuB7aQvSY1KcN1jYO8H7vwut748gkC1NS5gSE,739
+salatime-1.0.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+salatime-1.0.0.dist-info/METADATA,sha256=MXpCfP9kh8VVyxVwdw46rekT1NSq3AaVR1IVrkNzlLA,707
+salatime-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+salatime-1.0.0.dist-info/top_level.txt,sha256=1eQ6cAYcheWCFoXqW3V2f3OpIVVbpLKPNsPpmK_GKt8,9
+salatime-1.0.0.dist-info/RECORD,,

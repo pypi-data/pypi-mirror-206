@@ -1,0 +1,95 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bow-cli"
+description = 'Generate projects using built-in or custom templates via command-line.'
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+keywords = ["cli", "bow", "utility"]
+authors = [
+  { name = "woidzero", email = "woidzeroo@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+  "Topic :: Software Development :: Build Tools",
+]
+dependencies = [
+    "click>=8.0.0", 
+    "rich>=11.0.0", 
+    "mcfc>=3.0.3", 
+    "GitPython>=3.0.0"
+]
+
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/woidzero/bow#readme"
+Tracker = "https://github.com/woidzero/bow/issues"
+Source = "https://github.com/woidzero/bow"
+
+[project.scripts]
+hatch = "bow.cli:main"
+
+[tool.hatch.version]
+path = "src/bow/__about__.py"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "/.github",
+  "/backend",
+  "/scripts",
+]
+
+[tool.hatch.envs.default]
+dependencies = [
+  "pytest",
+  "pytest-cov",
+]
+[tool.hatch.envs.default.scripts]
+cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=bow --cov=tests {args}"
+no-cov = "cov --no-cov {args}"
+
+[[tool.hatch.envs.test.matrix]]
+python = ["37", "38", "39", "310", "311"]
+
+[tool.coverage.run]
+branch = true
+parallel = true
+omit = [
+  "bow/__about__.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.mypy]
+disallow_untyped_defs = false
+disallow_incomplete_defs = false
+follow_imports = "normal"
+ignore_missing_imports = true
+pretty = true
+show_column_numbers = true
+show_error_codes = true
+warn_no_return = false
+warn_unused_ignores = true

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rcplot
+Version: 2023.1001a0
+Summary: Plot model validation info for a reefcloud project
+Author-email: AIMS <n.boutros@aims.gov.au>
+Keywords: ReefCloud
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: plotly
+
+reefcloud-model-plots version "2023.1001-alpha"
+
+Code to generate plots for the F1 scores and Cover Estimates of a ReefCloud project
+

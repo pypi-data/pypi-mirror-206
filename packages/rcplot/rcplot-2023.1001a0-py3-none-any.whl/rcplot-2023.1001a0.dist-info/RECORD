@@ -1,0 +1,11 @@
+rcplot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rcplot/__main__.py,sha256=jqOvxxRi8Wa8J27tpgptO21FpcYnam68EmHnHgUIitc,1023
+rcplot/cover_error.py,sha256=dpTT5Byh-MkpZJFIcXO1QqLt52J6LVRljKZ5bkw8rE0,1631
+rcplot/f1.py,sha256=bIVbskDRy0VCj7OpmPQEks2Lj8nzd22W6TRIy3itgl8,1322
+rcplot/utils.py,sha256=egGkkxebg-xCOt_JLxPlzKNI_H40ORujw6I2Zd3ILus,10696
+rcplot-2023.1001a0.dist-info/LICENCE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rcplot-2023.1001a0.dist-info/METADATA,sha256=gG579TjuuPEcpm1WIFyHrwG4_-210nzOgFOxCuZNHWk,655
+rcplot-2023.1001a0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+rcplot-2023.1001a0.dist-info/entry_points.txt,sha256=RGcV6Q88-mbwONgFyDGPnWVUTPN-hj8dJlw7l7zOINk,48
+rcplot-2023.1001a0.dist-info/top_level.txt,sha256=kDAPaxd1VRpPT4tinEFiA7XOQDcBxaHN05tVnfWD6J0,7
+rcplot-2023.1001a0.dist-info/RECORD,,

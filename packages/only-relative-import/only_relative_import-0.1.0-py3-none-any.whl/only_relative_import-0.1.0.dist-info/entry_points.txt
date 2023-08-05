@@ -1,0 +1,2 @@
+[console_scripts]
+only-relative-import = only_relative_import.__main__:app

@@ -1,0 +1,5 @@
+openai
+click
+Pillow
+pydub
+opencv-python

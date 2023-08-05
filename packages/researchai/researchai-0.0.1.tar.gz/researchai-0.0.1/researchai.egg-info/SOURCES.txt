@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+researchai/__init__.py
+researchai/_modidx.py
+researchai.egg-info/PKG-INFO
+researchai.egg-info/SOURCES.txt
+researchai.egg-info/dependency_links.txt
+researchai.egg-info/entry_points.txt
+researchai.egg-info/not-zip-safe
+researchai.egg-info/requires.txt
+researchai.egg-info/top_level.txt
+researchai/nn/__init__.py
+researchai/nn/layers.py

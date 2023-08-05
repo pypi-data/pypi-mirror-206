@@ -1,0 +1,5 @@
+numpy
+fastcore
+
+[dev]
+matplotlib

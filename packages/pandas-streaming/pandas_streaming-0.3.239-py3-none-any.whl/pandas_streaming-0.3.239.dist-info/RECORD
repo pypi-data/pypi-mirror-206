@@ -1,0 +1,17 @@
+pandas_streaming/__init__.py,sha256=_QpGvgXiL19q2yNPPgaDQEjlfZxbvTkVm2E0bKjvbtc,1535
+pandas_streaming/data/__init__.py,sha256=xQAJgvSy6gvsOjgzVQQrIW_zkjgaeo9lKM8baKq3ag8,92
+pandas_streaming/data/dummy.py,sha256=WACb-vPJbD15sldfmGr9XsF2VYUS1s0sxYDLf26kgcY,867
+pandas_streaming/df/__init__.py,sha256=MbM8w7xozbCzyJeieqcvJNgHYyZoNbxfh5tZiTQIJkY,393
+pandas_streaming/df/connex_split.py,sha256=p7VUyNyYGg2UG2hdJKumwBBzJwZIzKGUfumYPYP-8_g,20484
+pandas_streaming/df/dataframe.py,sha256=JUuDDQ88J5alH6xiTxo3HMOMe_p5rYN2PG9b-4dzG54,50894
+pandas_streaming/df/dataframe_helpers.py,sha256=G4SChPimHf3VEIWD_WtCPH1XvMpjNhDFjFbkB6Hy-Ng,18909
+pandas_streaming/df/dataframe_io.py,sha256=lqPzfEpdUfk6oi-668THOQqhschcA3x89CFDN0FMgMo,4381
+pandas_streaming/df/dataframe_io_helpers.py,sha256=xk9qYQBCJZemt8lO2CsSC39bhT7vVTkcmU9jy5B5vic,16405
+pandas_streaming/df/dataframe_split.py,sha256=t3nmATynAagIlH2ABGHA-JFmrJlaFjWYNF_y9g54lVQ,10983
+pandas_streaming/exc/__init__.py,sha256=fbQNUtkUHWEabv7XGdYNoryBdV65tuiHowJn6b9J_FI,105
+pandas_streaming/exc/exc_streaming.py,sha256=oXbWLxUJy9XFdKGQPjl6Vi6icUpy3Zs8WaohmIpzOqY,528
+pandas_streaming-0.3.239.dist-info/LICENSE.txt,sha256=MaqRtvTEDhm9YCuPRVr8z2FnBMhnf6Kqy2jdgnEpe3E,1065
+pandas_streaming-0.3.239.dist-info/METADATA,sha256=g5Lzg2wp5DvHnn3-mDfQjmQi6W3LIgZGxqr5lIWIxZE,4559
+pandas_streaming-0.3.239.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pandas_streaming-0.3.239.dist-info/top_level.txt,sha256=q8SxtZ-zpcBrPaAXpy3fSR8JKKscRO_9_alATvcqhkM,17
+pandas_streaming-0.3.239.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+opentrain/__init__.py,sha256=I8bxlq9lPwW5JnhxVm9QqGLiuF7NlONC6_JdY1vxIbg,507
+opentrain/dataset.py,sha256=qhvTZnaw22vmLSM9Iab9spDHU53XpummUUd1CldljCQ,6758
+opentrain/inference.py,sha256=MX1WST4GR0GATO0eUiG2QPifLX-Jy68VrjReqH2pK3o,3083
+opentrain/schemas.py,sha256=G-lpYZ-jpDHnu0j70WgpqAp4PJJ_OOBB6n0tJVxo3zg,1845
+opentrain/train.py,sha256=GBxnu-zuU0X3xJkZtaFE98O0C7-JhR2jFlS3IVFxd60,5446
+opentrain/typing.py,sha256=vFLRCz-cjHU1sehDjHNSF9UPFe_uS-usjgYTM1JE8zg,176
+opentrain-0.1.0.dist-info/METADATA,sha256=ee0sbXQn0oczfGxSmwKszs1LJKdVZ7xc-ZpeP8N9x5o,3650
+opentrain-0.1.0.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+opentrain-0.1.0.dist-info/licenses/LICENSE,sha256=nkFJEfjPNzB1_JxESaRw39WZOVTYBepiZ6j9zKnezpI,1104
+opentrain-0.1.0.dist-info/RECORD,,

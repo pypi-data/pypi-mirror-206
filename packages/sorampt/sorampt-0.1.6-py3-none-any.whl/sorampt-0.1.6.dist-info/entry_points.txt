@@ -1,0 +1,3 @@
+[console_scripts]
+sorampt=sorampt.__main__:main
+

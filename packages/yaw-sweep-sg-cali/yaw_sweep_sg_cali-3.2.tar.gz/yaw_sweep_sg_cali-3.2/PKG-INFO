@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: yaw_sweep_sg_cali
+Version: 3.2
+Summary: Package to generate the strain gauge calibration factors when those are placed on wind turbine towers. Based on idling operations, so called, yaw sweeps.
+Author: Bruno and Zahra
+Author-email: brofa@dtu.dk
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Please Refer To The Gitlab page:
+
+- [V52 Tower Strain Gauges Calibration](https://gitlab.windenergy.dtu.dk/python-at-risoe/spp-2023/group_4_shaking_hands/-/tree/main/Final_Project)

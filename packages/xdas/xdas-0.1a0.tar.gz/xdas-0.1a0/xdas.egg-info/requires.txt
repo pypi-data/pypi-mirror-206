@@ -1,0 +1,16 @@
+dask
+h5py
+netcdf4
+numpy
+scipy
+tqdm
+xarray
+
+[docs]
+sphinx
+myst-parser
+furo
+
+[tests]
+pytest
+pytest-cov

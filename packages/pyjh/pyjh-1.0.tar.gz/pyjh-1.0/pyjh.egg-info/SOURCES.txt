@@ -1,0 +1,5 @@
+setup.py
+pyjh.egg-info/PKG-INFO
+pyjh.egg-info/SOURCES.txt
+pyjh.egg-info/dependency_links.txt
+pyjh.egg-info/top_level.txt

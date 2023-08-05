@@ -1,0 +1,5 @@
+setup.py
+HACKERTBILIB.egg-info/PKG-INFO
+HACKERTBILIB.egg-info/SOURCES.txt
+HACKERTBILIB.egg-info/dependency_links.txt
+HACKERTBILIB.egg-info/top_level.txt

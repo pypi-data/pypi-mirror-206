@@ -1,0 +1,8 @@
+LICENCE.txt
+README.md
+setup.py
+blogutils/__init__.py
+blogutils.egg-info/PKG-INFO
+blogutils.egg-info/SOURCES.txt
+blogutils.egg-info/dependency_links.txt
+blogutils.egg-info/top_level.txt

@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "agent-link"
+version = "0.1.0"
+description = "Perpetual Artificial Intelegence, Create your own, and Deploy."
+authors = ["John Dave Natividad (Jaseunda)"]
+license = "JCL"
+readme = "README.md"
+packages = [{include = "agent_link"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+pubchemTool = "^1.0.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

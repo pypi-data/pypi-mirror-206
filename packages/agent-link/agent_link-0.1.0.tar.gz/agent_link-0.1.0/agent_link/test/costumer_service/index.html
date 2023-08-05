@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Support Bot</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Customer Support Bot</h1>
+    <input type="text" id="userInput" placeholder="Type your message here">
+    <button onclick="sendMessage()">Send</button>
+    <div id="responseContainer"></div>
+
+    <script>
+        async function sendMessage() {
+            const userInput = document.getElementById("userInput");
+            const responseContainer = document.getElementById("responseContainer");
+
+            try {
+                const response = await axios.post("http://127.0.0.1:5000/api/v1/chat", {
+                    content: userInput.value
+                });
+
+                const responseText = response.data.response_text;
+                responseContainer.innerHTML = `<p><strong>Bot:</strong> ${responseText}</p>`;
+            } catch (error) {
+                console.error("Error sending message:", error);
+            }
+        }
+    </script>
+</body>
+</html>

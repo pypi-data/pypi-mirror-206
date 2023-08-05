@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: toxicjasmine
+Version: 0.2.2
+Summary: Toxicjasmine: Nothing interresting here.
+Home-page: 
+Author: Juca Crispim
+Author-email: juca@poraodojuca.net
+License: GPL
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Provides: toxicjasmine
+
+Toxicjasmine: Nothing interresting here.

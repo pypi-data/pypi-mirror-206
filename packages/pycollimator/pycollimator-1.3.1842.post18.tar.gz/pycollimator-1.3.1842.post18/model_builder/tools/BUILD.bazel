@@ -1,0 +1,15 @@
+py_binary(
+    name = "json_to_python",
+    srcs = ["json_to_python.py"],
+    deps = [
+        "//src/lib/pycollimator/model_builder",
+    ],
+)
+
+py_binary(
+    name = "python_to_json",
+    srcs = ["python_to_json.py"],
+    deps = [
+        "//src/lib/pycollimator/model_builder",
+    ],
+)

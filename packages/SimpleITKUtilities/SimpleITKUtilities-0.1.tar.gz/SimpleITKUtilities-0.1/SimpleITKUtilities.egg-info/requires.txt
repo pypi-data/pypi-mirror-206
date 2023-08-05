@@ -1,0 +1,8 @@
+SimpleITK>=2.0
+numpy
+
+[dask]
+dask
+
+[vtk]
+vtk>=9.0

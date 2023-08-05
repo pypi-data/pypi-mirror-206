@@ -1,0 +1,101 @@
+﻿"""_525.py
+
+ToothFlankFractureAnalysisRowN1457
+"""
+from typing import List
+
+from mastapy._internal import constructor, conversion
+from mastapy.gears.rating.cylindrical.iso6336 import _524, _522
+from mastapy._internal.cast_exception import CastException
+from mastapy._internal.python_net import python_net_import
+
+_TOOTH_FLANK_FRACTURE_ANALYSIS_ROW_N1457 = python_net_import('SMT.MastaAPI.Gears.Rating.Cylindrical.ISO6336', 'ToothFlankFractureAnalysisRowN1457')
+
+
+__docformat__ = 'restructuredtext en'
+__all__ = ('ToothFlankFractureAnalysisRowN1457',)
+
+
+class ToothFlankFractureAnalysisRowN1457(_522.ToothFlankFractureAnalysisContactPointN1457):
+    """ToothFlankFractureAnalysisRowN1457
+
+    This is a mastapy class.
+    """
+
+    TYPE = _TOOTH_FLANK_FRACTURE_ANALYSIS_ROW_N1457
+
+    class _Cast_ToothFlankFractureAnalysisRowN1457:
+        """Special nested class for casting ToothFlankFractureAnalysisRowN1457 to subclasses."""
+
+        def __init__(self, parent: 'ToothFlankFractureAnalysisRowN1457'):
+            self._parent = parent
+
+        @property
+        def tooth_flank_fracture_analysis_contact_point_n1457(self):
+            return self._parent._cast(_522.ToothFlankFractureAnalysisContactPointN1457)
+
+        @property
+        def tooth_flank_fracture_analysis_row_n1457(self) -> 'ToothFlankFractureAnalysisRowN1457':
+            return self._parent
+
+        def __getattr__(self, name: str):
+            try:
+                return self.__dict__[name]
+            except KeyError:
+                class_name = ''.join(n.capitalize() for n in name.split('_'))
+                raise CastException(f'Detected an invalid cast. Cannot cast to type "{class_name}"') from None
+
+    def __init__(self, instance_to_wrap: 'ToothFlankFractureAnalysisRowN1457.TYPE'):
+        super().__init__(instance_to_wrap)
+        self._freeze()
+
+    @property
+    def maximum_fatigue_damage(self) -> 'float':
+        """float: 'MaximumFatigueDamage' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.MaximumFatigueDamage
+
+        if temp is None:
+            return 0.0
+
+        return temp
+
+    @property
+    def analysis_point_with_maximum_fatigue_damage(self) -> '_524.ToothFlankFractureAnalysisPointN1457':
+        """ToothFlankFractureAnalysisPointN1457: 'AnalysisPointWithMaximumFatigueDamage' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.AnalysisPointWithMaximumFatigueDamage
+
+        if temp is None:
+            return None
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp) if temp is not None else None
+
+    @property
+    def watch_points(self) -> 'List[_524.ToothFlankFractureAnalysisPointN1457]':
+        """List[ToothFlankFractureAnalysisPointN1457]: 'WatchPoints' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.WatchPoints
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+        return value
+
+    @property
+    def cast_to(self) -> 'ToothFlankFractureAnalysisRowN1457._Cast_ToothFlankFractureAnalysisRowN1457':
+        return self._Cast_ToothFlankFractureAnalysisRowN1457(self)

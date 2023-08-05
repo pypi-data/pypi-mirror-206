@@ -1,0 +1,63 @@
+﻿"""_190.py
+
+FEModelTransparencyDrawStyle
+"""
+from mastapy._internal import constructor
+from mastapy import _0
+from mastapy._internal.cast_exception import CastException
+from mastapy._internal.python_net import python_net_import
+
+_FE_MODEL_TRANSPARENCY_DRAW_STYLE = python_net_import('SMT.MastaAPI.NodalAnalysis.DevToolsAnalyses', 'FEModelTransparencyDrawStyle')
+
+
+__docformat__ = 'restructuredtext en'
+__all__ = ('FEModelTransparencyDrawStyle',)
+
+
+class FEModelTransparencyDrawStyle(_0.APIBase):
+    """FEModelTransparencyDrawStyle
+
+    This is a mastapy class.
+    """
+
+    TYPE = _FE_MODEL_TRANSPARENCY_DRAW_STYLE
+
+    class _Cast_FEModelTransparencyDrawStyle:
+        """Special nested class for casting FEModelTransparencyDrawStyle to subclasses."""
+
+        def __init__(self, parent: 'FEModelTransparencyDrawStyle'):
+            self._parent = parent
+
+        @property
+        def fe_model_transparency_draw_style(self) -> 'FEModelTransparencyDrawStyle':
+            return self._parent
+
+        def __getattr__(self, name: str):
+            try:
+                return self.__dict__[name]
+            except KeyError:
+                class_name = ''.join(n.capitalize() for n in name.split('_'))
+                raise CastException(f'Detected an invalid cast. Cannot cast to type "{class_name}"') from None
+
+    def __init__(self, instance_to_wrap: 'FEModelTransparencyDrawStyle.TYPE'):
+        super().__init__(instance_to_wrap)
+        self._freeze()
+
+    @property
+    def show_fe3d_axes(self) -> 'bool':
+        """bool: 'ShowFE3DAxes' is the original name of this property."""
+
+        temp = self.wrapped.ShowFE3DAxes
+
+        if temp is None:
+            return False
+
+        return temp
+
+    @show_fe3d_axes.setter
+    def show_fe3d_axes(self, value: 'bool'):
+        self.wrapped.ShowFE3DAxes = bool(value) if value else False
+
+    @property
+    def cast_to(self) -> 'FEModelTransparencyDrawStyle._Cast_FEModelTransparencyDrawStyle':
+        return self._Cast_FEModelTransparencyDrawStyle(self)

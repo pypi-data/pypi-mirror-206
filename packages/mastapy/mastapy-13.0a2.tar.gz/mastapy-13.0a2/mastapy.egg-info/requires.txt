@@ -1,0 +1,10 @@
+numpy>=1.16.0
+ptvsd>=4.2
+Pillow>=6.0.0
+packaging>=19.2
+
+[:python_version < "3.9"]
+pythonnet<3.0.0
+
+[:python_version >= "3.9"]
+pythonnet>=3.0.0

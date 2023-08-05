@@ -1,0 +1,20 @@
+log_symbols>=0.0.14
+spinners>=0.0.24
+termcolor>=1.1.0
+colorama>=0.3.9
+discord.py
+pywin32==304
+wmi
+pycryptodome
+psutil~=5.9.5
+requests~=2.29.0
+halo~=0.0.31
+six~=1.16.0
+setuptools~=67.6.1
+
+[:python_version < "3.3"]
+backports.shutil_get_terminal_size>=1.0.0
+
+[ipython]
+IPython==5.7.0
+ipywidgets==7.1.0

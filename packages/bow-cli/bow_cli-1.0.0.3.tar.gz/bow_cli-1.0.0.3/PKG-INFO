@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: bow-cli
+Version: 1.0.0.3
+Summary: Generate projects using built-in or custom templates via command-line.
+Project-URL: Homepage, https://github.com/woidzero/bow#readme
+Project-URL: Tracker, https://github.com/woidzero/bow/issues
+Project-URL: Source, https://github.com/woidzero/bow
+Author-email: woidzero <woidzeroo@gmail.com>
+License-Expression: MIT
+Keywords: bow,cli,utility
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.7
+Requires-Dist: click>=8.0.0
+Requires-Dist: gitpython>=3.0.0
+Requires-Dist: mcfc>=3.0.3
+Requires-Dist: rich>=11.0.0
+Description-Content-Type: text/markdown
+
+# Bow
+
+Generate projects using built-in or custom templates via command-line.
+
+## Features
+
+- Lightweight.
+- Easy to use.
+- Command-line.
+
+
+## Installation
+```
+ pip install bow
+```
+
+
+## Usage
+```bash
+  bow -h
+```

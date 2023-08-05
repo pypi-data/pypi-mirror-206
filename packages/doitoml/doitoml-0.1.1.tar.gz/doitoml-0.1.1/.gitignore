@@ -1,0 +1,12 @@
+__pycache__/
+.doit*
+.hypothesis/
+.ipynb_checkpoints/
+.venv/
+*.log
+build/
+dist/
+untitled*
+Untitled*
+.pnp.cjs
+.yarn/

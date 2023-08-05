@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: vicops-api
+Version: 1.1.1
+Summary: python api wrapper for vicops2
+License: MIT
+Author: Artemy
+Author-email: artegoser@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: certifi (==2022.12.7)
+Requires-Dist: charset-normalizer (==3.1.0)
+Requires-Dist: idna (==3.4)
+Requires-Dist: requests (==2.28.2)
+Requires-Dist: urllib3 (==1.26.15)
+Description-Content-Type: text/markdown
+
+# vicops-api-py
+
+python api wrapper for vicops2
+
+example:
+
+```py
+from vicops_api import VicopsApi
+api = VicopsApi()
+print(api.getCurrencies())
+```
+

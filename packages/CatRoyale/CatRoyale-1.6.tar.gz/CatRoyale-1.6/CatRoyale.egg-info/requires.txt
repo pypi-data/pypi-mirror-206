@@ -1,0 +1,4 @@
+pygame
+webcolors
+PIL
+ordered_set

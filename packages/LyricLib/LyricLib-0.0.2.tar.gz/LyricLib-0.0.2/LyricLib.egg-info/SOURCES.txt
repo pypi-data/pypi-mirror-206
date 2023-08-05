@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.py
+LyricLib/__init__.py
+LyricLib/constants.py
+LyricLib/exceptions.py
+LyricLib/main.py
+LyricLib/subclass.py
+LyricLib.egg-info/PKG-INFO
+LyricLib.egg-info/SOURCES.txt
+LyricLib.egg-info/dependency_links.txt
+LyricLib.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+trytond_product_price_list<6.9,>=6.8
+trytond<6.9,>=6.8
+
+[test]

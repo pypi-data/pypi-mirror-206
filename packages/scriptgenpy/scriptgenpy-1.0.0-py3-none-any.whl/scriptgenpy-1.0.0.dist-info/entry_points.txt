@@ -1,0 +1,2 @@
+[console_scripts]
+scriptgenpy = scriptgenpy.scriptgen:main

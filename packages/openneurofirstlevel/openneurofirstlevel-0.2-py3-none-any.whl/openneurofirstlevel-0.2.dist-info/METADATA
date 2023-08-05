@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: openneurofirstlevel
+Version: 0.2
+Author: Paul Jaffe
+Author-email: pauljaffe7@gmail.com
+Requires-Dist: nilearn
+Requires-Dist: matplotlib
+Requires-Dist: statsmodels
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: pyyaml
+

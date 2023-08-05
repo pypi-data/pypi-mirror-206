@@ -1,0 +1,12 @@
+README.md
+setup.py
+cmo_dataexplore/__init__.py
+cmo_dataexplore/explore.py
+cmo_dataexplore/resources.py
+cmo_dataexplore.egg-info/PKG-INFO
+cmo_dataexplore.egg-info/SOURCES.txt
+cmo_dataexplore.egg-info/dependency_links.txt
+cmo_dataexplore.egg-info/requires.txt
+cmo_dataexplore.egg-info/top_level.txt
+cmo_dataexplore/data/example.csv
+cmo_dataexplore/notebooks/Cmotions DataExplore tutorial.ipynb

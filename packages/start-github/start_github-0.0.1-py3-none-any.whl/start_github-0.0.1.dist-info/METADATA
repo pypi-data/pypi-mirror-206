@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: start-github
+Version: 0.0.1
+Summary: Use Github Token to Access API
+Home-page: https://mv3.dev
+Author: Marcelino G. Veloso III
+Author-email: mars@veloso.one
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Typing :: Typed
+Requires-Dist: httpx (>=0.24.0,<0.25.0)
+Requires-Dist: pydantic (>=1.10.7,<2.0.0)
+Requires-Dist: python-dotenv (>=1.0,<2.0)
+Project-URL: Documentation, https://mv3.dev/start-github
+Project-URL: Repository, https://github.com/justmars/start-github
+Description-Content-Type: text/markdown
+
+# start-github
+
+![Github CI](https://github.com/justmars/start-github/actions/workflows/main.yml/badge.svg)
+
+## Development
+
+See [documentation](https://justmars.github.io/start-github).
+
+1. Run `poetry install`
+2. Run `poetry shell`
+3. Run `pytest`
+

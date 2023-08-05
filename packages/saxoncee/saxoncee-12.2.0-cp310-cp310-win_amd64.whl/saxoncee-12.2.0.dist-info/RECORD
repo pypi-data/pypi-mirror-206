@@ -1,0 +1,12 @@
+saxoncee.cp310-win_amd64.pyd,sha256=Xuhq2ZMNY-RQ3V4PZeAkly1JlFT1g-Szv268Dolwc2E,527360
+saxoncee/setup.py,sha256=bUKnxokuVidpM3L8NIGyE1qaAJ4N0mh8H2C9SnjOAhs,3050
+saxoncee/test_saxonc.py,sha256=lSQgSa2RUp7tgVCD4dbzXwzgba0IFqm8lMXgUZ6HxcM,60718
+saxoncee/test_saxon_schema.py,sha256=Kgg4lSH5bzQ7ac_H00ohYkQ2sHQAv7lisspgpGnZ1r0,4095
+saxoncee-12.2.0.data/platlib/concrt140.dll,sha256=JVa4J2kORZi162VZgtmWpP2FuBvRgqVqohRXabP9TaY,327504
+saxoncee-12.2.0.data/platlib/libsaxon-eec-12.2-6f856b973da496fb5c3d705414a47419.dll,sha256=QbD6nSv4ElhM7Tqsmd7Dfk1i_UCgz06mC8CPHlLoqf0,60588032
+saxoncee-12.2.0.data/platlib/msvcp140.dll,sha256=qdfT8B8P6BcbCQ8j7bFGB4QVERIyysNPrTBxwQNwrdk,621960
+saxoncee-12.2.0.dist-info/DELVEWHEEL,sha256=0CKLqIVzwKcOT5giTZLJHy3I23X8bxSJ14qrQqGdOS8,429
+saxoncee-12.2.0.dist-info/METADATA,sha256=GoFBbV7gOglefRO_aQOdQ79LLxxdaSL5M1SIdOAC5YQ,5162
+saxoncee-12.2.0.dist-info/RECORD,,
+saxoncee-12.2.0.dist-info/top_level.txt,sha256=wUukq_Q-eGXqORVXlotGf6vj6BTA3ZYOgtf9Zd0FFuI,9
+saxoncee-12.2.0.dist-info/WHEEL,sha256=jrOhEbqKwvzRFSJcbYXlJCyVkgVdHg4_7__YHrdTUfw,102

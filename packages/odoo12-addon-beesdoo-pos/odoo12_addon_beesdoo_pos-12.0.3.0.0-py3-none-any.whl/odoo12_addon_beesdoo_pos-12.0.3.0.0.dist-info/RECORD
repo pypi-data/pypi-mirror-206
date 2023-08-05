@@ -1,0 +1,11 @@
+odoo/addons/beesdoo_pos/README.rst,sha256=9FHhug_C1E5c1nvEPz9iKI2bfZwFaavOJxo_cebBxqI,1804
+odoo/addons/beesdoo_pos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/beesdoo_pos/__manifest__.py,sha256=k47heiMXAl5TCyVEXol_6iGknYghQvbG6DjLpOKE_6U,840
+odoo/addons/beesdoo_pos/i18n/beesdoo_pos.pot,sha256=2T_62s-OoonWUW5mCPeLA8WOQV-FszQcdurSAtvuYmA,344
+odoo/addons/beesdoo_pos/readme/CONTRIBUTORS.rst,sha256=D4x8F23did8pNDYQqzs7WlCALV8wCLTvIopg1SCQeIQ,43
+odoo/addons/beesdoo_pos/readme/DESCRIPTION.rst,sha256=FjOwY438bYqS8-ETAtRXK9Cm2ATwQEZQE0i2mPLmCaA,9
+odoo/addons/beesdoo_pos/static/description/index.html,sha256=bDtQRDhH62hqGTmAWNp0iR6rSApOpdAXvydlzdEvRy4,10996
+odoo12_addon_beesdoo_pos-12.0.3.0.0.dist-info/METADATA,sha256=mL221HkM7p1eq6tgfnHWoBqdhg_oNSYaW7dfjfRxUPU,2524
+odoo12_addon_beesdoo_pos-12.0.3.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo12_addon_beesdoo_pos-12.0.3.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_beesdoo_pos-12.0.3.0.0.dist-info/RECORD,,

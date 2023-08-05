@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "fake-coro"
+version = "0.1.0"
+description = "Coroutines emulated with threads."
+authors = ["NKID00 <this@nkid00.name>"]
+readme = "PyPI.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.2"
+pylint = {version = "^2.17.3", python = "^3.7.2"}
+mypy = "^1.2.0"
+pytest = "^7.3.1"
+pytest-timeout = "^2.1.0"
+pytest-cov = "^4.0.0"
+
+[tool.pytest.ini_options]
+timeout = 3
+addopts = "--doctest-modules --cov=fake_coro --cov-report term-missing --cov-report html --cov-report xml"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

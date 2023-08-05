@@ -1,0 +1,14 @@
+LICENCE
+README.md
+pyproject.toml
+src/rcplot/__init__.py
+src/rcplot/__main__.py
+src/rcplot/cover_error.py
+src/rcplot/f1.py
+src/rcplot/utils.py
+src/rcplot.egg-info/PKG-INFO
+src/rcplot.egg-info/SOURCES.txt
+src/rcplot.egg-info/dependency_links.txt
+src/rcplot.egg-info/entry_points.txt
+src/rcplot.egg-info/requires.txt
+src/rcplot.egg-info/top_level.txt

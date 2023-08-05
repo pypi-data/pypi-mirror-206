@@ -1,0 +1,2 @@
+[console_scripts]
+rcplot = rcplot.__main__:main

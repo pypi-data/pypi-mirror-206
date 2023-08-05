@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: prompt-wrangler
+Version: 0.2.0
+Summary: A Python wrapper for the Prompt Wrangler REST API.
+Home-page: https://github.com/exit38/prompt_wrangler
+Author: Max Shaw
+Author-email: max@exit38.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Prompt Wrangler
+
+A Python wrapper for the [Prompt Wrangler](https://prompt-wrangler.com/) REST API.
+
+Easily integrate large language models (LLMs) into your app with Prompt Wrangler! Prompt Wrangler makes it simple to incorporate LLMs into your application and enhance your prompts without updating your code. Best of all, it's 100% free!
+
+## Installation
+
+Install the package using pip:
+
+```bash
+pip install prompt_wrangler
+```
+
+## Usage
+
+```python
+from prompt_wrangler import PromptWrangler
+
+api_key = "<your_api_key>"
+workspace = "<your_workspace_slug>"
+prompt_wrangler = PromptWrangler(api_key, workspace)
+```
+
+Replace <your_api_key> with your actual API key.
+
+To add a new prompt, use the `prompt` method with the prompt slug:
+
+```python
+prompt_slug = "reason-next-web-command"
+prompt = prompt_wrangler.prompt(prompt_slug)
+```
+
+To run the prompt, use the `run` method, optionally passing a dictionary of arguments:
+
+```python
+args = {'input_text': 'some input'}
+result = prompt.run(args=args)
+```
+
+The `run` method returns a `Prediction` object with the prediction value:
+
+```python
+print(result.prediction)  # Output: <prediction_value>
+```
+
+## License
+
+This project is licensed under the MIT License.
+
+

@@ -1,0 +1,8 @@
+setup.py
+helloworld/__init__.py
+helloworld/a.py
+sayhellox123.egg-info/PKG-INFO
+sayhellox123.egg-info/SOURCES.txt
+sayhellox123.egg-info/dependency_links.txt
+sayhellox123.egg-info/entry_points.txt
+sayhellox123.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/scriptgenpy/__init__.py
+src/scriptgenpy/scriptgen.py
+src/scriptgenpy.egg-info/PKG-INFO
+src/scriptgenpy.egg-info/SOURCES.txt
+src/scriptgenpy.egg-info/dependency_links.txt
+src/scriptgenpy.egg-info/entry_points.txt
+src/scriptgenpy.egg-info/top_level.txt

@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: nurtelecom-gras-library
+Version: 1.1.4
+Home-page: https://github.com/beksultantuleev/nurtelecom_gras_library.git
+Author: Beksultan Tuleev
+Author-email: kazamabeks@gmail.com
+License: MIT
+Keywords: NurTelecom
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# nurtelecom_gras_library
+This is official NurTelecom GRAS library
+
+
+from nurtelecom_gras_library import PLSQL_data_importer, etc..
+
+database_connection = PLSQL_data_importer(user = 'test', password = 'testPSWD', host= 'xx.xx.xx.xx', port = 'x')
+
+database_connection.get_data(query = 'select 1 from dual')

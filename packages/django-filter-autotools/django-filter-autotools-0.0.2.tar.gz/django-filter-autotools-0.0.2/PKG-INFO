@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: django-filter-autotools
+Version: 0.0.2
+Summary: Provides some mixins which allow automatic generation of filtersets witha list of lookups, including new lookups not registered into Django.
+Home-page: UNKNOWN
+Author: Carlos Pastor
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# django-filter-autotools
+Some tools for django-filters
+

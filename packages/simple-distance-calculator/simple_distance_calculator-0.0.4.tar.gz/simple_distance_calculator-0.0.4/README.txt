@@ -1,0 +1,88 @@
+Functions
+get_coordinates(address: str) -> tuple
+
+Given an address, returns a tuple with the latitude and longitude of the address, obtained from the OpenStreetMap Nominatim API.
+Parameters
+
+    address (str): The address to get the coordinates of.
+
+Returns
+
+    tuple: A tuple with two floats representing the latitude and longitude of the address, respectively.
+
+get_address(lat: float, lon: float) -> str
+
+Given a latitude and longitude, returns the corresponding address, obtained from the OpenStreetMap Nominatim API.
+Parameters
+
+    lat (float): The latitude of the location.
+    lon (float): The longitude of the location.
+
+Returns
+
+    str: A string representing the address of the location.
+
+haversine_distance(lat1, lon1, lat2, lon2) -> float
+
+Calculates the distance in kilometers between two points on Earth using the Haversine formula.
+Parameters
+
+    lat1 (float): The latitude of the first point.
+    lon1 (float): The longitude of the first point.
+    lat2 (float): The latitude of the second point.
+    lon2 (float): The longitude of the second point.
+
+Returns
+
+    float: A float representing the distance in kilometers between the two points.
+
+spherical_law_of_cosines_distance(lat1, lon1, lat2, lon2) -> float
+
+Calculates the distance in kilometers between two points on Earth using the Spherical Law of Cosines formula.
+Parameters
+
+    lat1 (float): The latitude of the first point.
+    lon1 (float): The longitude of the first point.
+    lat2 (float): The latitude of the second point.
+    lon2 (float): The longitude of the second point.
+
+Returns
+
+    float: A float representing the distance in kilometers between the two points.
+
+equirectangular_approximation(lat1, lon1, lat2, lon2) -> float
+
+Calculates the distance in kilometers between two points on Earth using the Equirectangular Approximation formula.
+Parameters
+
+    lat1 (float): The latitude of the first point.
+    lon1 (float): The longitude of the first point.
+    lat2 (float): The latitude of the second point.
+    lon2 (float): The longitude of the second point.
+
+Returns
+
+    float: A float representing the distance in kilometers between the two points.
+
+***HOW TO USE***
+1. Install library
+pip install simple-distance-calculator
+
+2. import functions
+from simple_distance_calculator.distance import haversine_distance, get_coordinates, spherical_law_of_cosines_distance, get_address, equirectangular_approximation
+
+examples for caculating distances
+haversine_distance(54.9037, 23.9578, 54.9057, 23.9562)
+returns - 0.24478592390463977
+
+spherical_law_of_cosines_distance(54.9037, 23.9578, 54.9057, 23.9562)
+returns - 0.24478591164572538
+
+equirectangular_approximation(54.9037, 23.9578, 54.9057, 23.9562)
+returns - 0.24478592392092405
+
+get_coordinates("Gedimino pilis")
+returns - (54.686758350000005, 25.29068448063221)
+
+get_address(54.686758350000005, 25.29068448063221)
+returns - Gedimino pilis, 5, Arsenalo g., Senamiestis, Senamiesčio seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 01143, Lietuva

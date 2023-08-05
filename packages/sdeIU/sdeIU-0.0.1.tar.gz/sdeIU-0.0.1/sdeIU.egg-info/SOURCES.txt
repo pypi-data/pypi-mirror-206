@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+sde/__init__.py
+sde/__main__.py
+sde/sde_class.py
+sdeIU.egg-info/PKG-INFO
+sdeIU.egg-info/SOURCES.txt
+sdeIU.egg-info/dependency_links.txt
+sdeIU.egg-info/requires.txt
+sdeIU.egg-info/top_level.txt

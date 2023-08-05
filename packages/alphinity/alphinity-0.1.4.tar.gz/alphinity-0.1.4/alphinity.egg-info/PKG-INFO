@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: alphinity
+Version: 0.1.4
+Summary: alphinity encodes integers to alphabetize in ascending order.
+Author-email: Matthew Andres Moreno <m.more500@gmail.com>
+License: MIT
+Project-URL: Documentation, https://github.com/mmore500/alphinity
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+License-File: LICENSE
+
+# alphinity
+
+alphinity encodes integers to alphabetize in ascending order.
+
+```python3
+from alphinity import encode
+
+encode(100)  # -> "ccv"
+
+# passes
+assert sorted(map(encode, range(10**6))) == [*map(encode, range(10**6))]
+```
+
+For stable encoding,
+```python3
+from alphinity.v1 import encode
+```
+
+## Notes
+
+Alphabetization doesn't work strictly infinitely, just through very, very high integers i.e., `1e35`.
+
+Non-negative integers only.

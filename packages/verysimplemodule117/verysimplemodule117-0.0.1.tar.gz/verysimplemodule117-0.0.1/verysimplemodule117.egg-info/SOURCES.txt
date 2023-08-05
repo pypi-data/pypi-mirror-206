@@ -1,0 +1,8 @@
+setup_my_very_awesome_python_package.py
+extras/__init__.py
+extras/divide.py
+extras/multiply.py
+verysimplemodule117.egg-info/PKG-INFO
+verysimplemodule117.egg-info/SOURCES.txt
+verysimplemodule117.egg-info/dependency_links.txt
+verysimplemodule117.egg-info/top_level.txt

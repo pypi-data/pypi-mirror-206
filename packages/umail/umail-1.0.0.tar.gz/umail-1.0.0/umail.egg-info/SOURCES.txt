@@ -1,0 +1,6 @@
+setup.py
+umail.egg-info/PKG-INFO
+umail.egg-info/SOURCES.txt
+umail.egg-info/dependency_links.txt
+umail.egg-info/requires.txt
+umail.egg-info/top_level.txt

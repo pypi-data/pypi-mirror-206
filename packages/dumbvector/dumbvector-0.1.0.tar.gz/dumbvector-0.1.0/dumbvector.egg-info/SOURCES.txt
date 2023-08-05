@@ -1,0 +1,18 @@
+LICENSE
+README.md
+setup.py
+dumbvector/FOR DELETE dumb_vector_s3.py
+dumbvector/__init__.py
+dumbvector/bsonutil.py
+dumbvector/docs.py
+dumbvector/docs_s3.py
+dumbvector/dumb_index.py
+dumbvector/dumb_index_s3.py
+dumbvector/numtypes.py
+dumbvector/search.py
+dumbvector/util.py
+dumbvector.egg-info/PKG-INFO
+dumbvector.egg-info/SOURCES.txt
+dumbvector.egg-info/dependency_links.txt
+dumbvector.egg-info/requires.txt
+dumbvector.egg-info/top_level.txt

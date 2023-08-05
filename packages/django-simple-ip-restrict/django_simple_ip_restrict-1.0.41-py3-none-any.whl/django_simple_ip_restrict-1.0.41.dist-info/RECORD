@@ -1,0 +1,5 @@
+django_simple_ip_restrict/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_simple_ip_restrict/middleware.py,sha256=cFyLhGH-1XZTgOCNPLj9M48IQvO_qsTQrbkpQaN_YwI,1602
+django_simple_ip_restrict-1.0.41.dist-info/METADATA,sha256=cWGxSa3RVAtCOt8VwKhXUXA2YxL-_XnPdtAPP8ltRCk,2325
+django_simple_ip_restrict-1.0.41.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+django_simple_ip_restrict-1.0.41.dist-info/RECORD,,

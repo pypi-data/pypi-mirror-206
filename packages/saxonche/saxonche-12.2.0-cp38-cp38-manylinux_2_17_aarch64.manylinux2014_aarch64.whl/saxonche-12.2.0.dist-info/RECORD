@@ -1,0 +1,9 @@
+saxonche.cpython-38-aarch64-linux-gnu.so,sha256=UB0WM5V-5F1IfYeQVJyK4xY7frmY11zL4WiZNKyQL-8,9595721
+saxonche.libs/libsaxon-hec-12-c208851b.2.so,sha256=F0pIg4n-XBZlywK3LgWgGqABRCApFHsRuD5EvK5USmo,52069473
+saxonche/test_saxon_schema.py,sha256=Vjj0SLRSNMHbzR9Vkcz3xraBRrlIwujjV6-jbayxsIw,3995
+saxonche/setup.py,sha256=6WarfFDFEYyAyrzpn8qWy_AR9D3vDaEIhWBqNlL8H9Q,2967
+saxonche/test_saxonc.py,sha256=HGokp63Zk0p_uNxyocEnsYWyPJumWkwfRfcryRIg8qI,59320
+saxonche-12.2.0.dist-info/METADATA,sha256=9F1y2OUf40Keq9YXUsMicPe3v8JbKfp7qcFo26uZWzA,5021
+saxonche-12.2.0.dist-info/RECORD,,
+saxonche-12.2.0.dist-info/top_level.txt,sha256=6tJxlK8ePmvwmsTmpNkKssbnfExHvDb9UiuTurDdKrU,9
+saxonche-12.2.0.dist-info/WHEEL,sha256=oCBNUxcpJIObB7qxTwklMZvZV19pJGv6x0IkRXaUM7w,150

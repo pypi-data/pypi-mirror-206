@@ -1,0 +1,16 @@
+rsisa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rsisa/annotation_map_split.py,sha256=ZuAqpgVovSbYdvAwg5nOVdlcHYdhY1tdnxVTM1_C9C8,23196
+rsisa/ellipse_instance_generation.py,sha256=XWsdcHv2adAReLpkcL5yoZRL17Twi7-YoqNHXrNe3OQ,5160
+rsisa/evaluation.py,sha256=mSTF647yjKPwGCyC3fhSZlmiPCxy6vwtaHt7wFUjsL8,2567
+rsisa/instance_registration.py,sha256=wNmXefeK6OXLm_S6FbvYy_vrz8GMghbX1jivwKGkz6o,29670
+rsisa/workflow.py,sha256=mP9rfv96B0HU7Dr8Hjcc5RzIq8ICiGiDkoYKeXcGv0s,6291
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_annotation_map_split.py,sha256=2JYDtby-RLob5AJx0y30GQLHb5w8L4cQkd-GK0Tai3A,2469
+tests/test_ellipse_instance_generation.py,sha256=K5HECNVVzzTmy7jxNEUlW09lPUli0eAyNzYOFblTMCg,228
+tests/test_evaluation.py,sha256=foIoCZlcqMskU0BOo7YYHg1iIiHXkBe2ZwoC0_O6OJ0,430
+tests/test_instance_registration.py,sha256=KxtvfPiRoOpa0QLIH5ZEm8BLF55nHsAYqn9JNRToiGg,966
+rsisa-0.1.0.dist-info/LICENSE,sha256=z75xSxWGD9rAqnHFTnOFNWDQvbM6nCLqfWTJqGR08rs,11341
+rsisa-0.1.0.dist-info/METADATA,sha256=2WvxJ3O2El42N0N1VMC0SzG22MZCS3UKtJ6HpfcY82Y,1104
+rsisa-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+rsisa-0.1.0.dist-info/top_level.txt,sha256=Dadd7Iazn5K0TBoyM2wJlyGGo4wpTNFFEGDTqQaAvSQ,12
+rsisa-0.1.0.dist-info/RECORD,,

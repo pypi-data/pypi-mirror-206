@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+ai/__init__.py
+ai/baidu.py
+ai/baidu_demo.py
+jojo_ai.egg-info/PKG-INFO
+jojo_ai.egg-info/SOURCES.txt
+jojo_ai.egg-info/dependency_links.txt
+jojo_ai.egg-info/requires.txt
+jojo_ai.egg-info/top_level.txt

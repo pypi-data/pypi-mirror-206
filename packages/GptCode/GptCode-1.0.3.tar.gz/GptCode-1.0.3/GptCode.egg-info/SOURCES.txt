@@ -1,0 +1,7 @@
+setup.py
+GptCode/__init__.py
+GptCode/gpt.py
+GptCode.egg-info/PKG-INFO
+GptCode.egg-info/SOURCES.txt
+GptCode.egg-info/dependency_links.txt
+GptCode.egg-info/top_level.txt

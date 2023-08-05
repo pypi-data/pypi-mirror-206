@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+scipy
+skyfield
+tkinter
+pytz
+datetime
+tabulate
+ttkwidgets
+pyperclip
+ctypes
+ttkbootstrap
+collections

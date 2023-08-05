@@ -1,0 +1,12 @@
+{
+    "cat": "./cat_royale/assets/images/cat.png",
+    "enemy_cat": "./cat_royale/assets/images/enemy_cat.png",
+    "grass": "./cat_royale/assets/images/grass.png",
+    "inventory_bar": "./cat_royale/assets/images/Inventory_Bar.png",
+    "inventory_slot": "./cat_royale/assets/images/Inventory_Slot.png",
+    "inventory_slot_selected": "./cat_royale/assets/images/Inventory_select.png",
+    "items": "./cat_royale/assets/images/items.png",
+    "level00": "./cat_royale/assets/images/map/level00.png",
+    "loading_screen": "./cat_royale/assets/images/loading_screen.png",
+    "arrow": "./cat_royale/assets/images/arrow.png"
+}

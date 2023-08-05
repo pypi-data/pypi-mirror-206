@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: mkdocs-issue-showcaser
+Version: 0.1.1
+Summary: MkDocs plugin for setting showcasing GitHub Issues on the corresponding pages.
+Home-page: https://github.com/timmeinerzhagen/mkdocs-issue-showcaser
+Author: Tim Jonas Meinerzhagen
+Author-email: tim@meinerzhagen.me
+License: MIT
+Keywords: mkdocs github issues
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Documentation
+Classifier: Topic :: Text Processing
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+Requires-Dist: mkdocs (>=0.17)
+Requires-Dist: jinja2
+Requires-Dist: PyGithub
+
+# mkdocs-issue-showcaser
+
+> ⚠️Work-In-Progress
+
+MkDocs plugin for setting showcasing GitHub Issues on the corresponding pages

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mylib007
+Version: 0.1
+Summary: for calculating cube
+Author: Akshay Nannaware
+Author-email: akshaynannaware2020@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+

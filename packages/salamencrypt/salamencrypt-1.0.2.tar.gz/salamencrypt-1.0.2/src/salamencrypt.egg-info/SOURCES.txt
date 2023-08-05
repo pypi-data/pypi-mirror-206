@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/salamencrypt/__init__.py
+src/salamencrypt/salamencrypt.py
+src/salamencrypt.egg-info/PKG-INFO
+src/salamencrypt.egg-info/SOURCES.txt
+src/salamencrypt.egg-info/dependency_links.txt
+src/salamencrypt.egg-info/top_level.txt

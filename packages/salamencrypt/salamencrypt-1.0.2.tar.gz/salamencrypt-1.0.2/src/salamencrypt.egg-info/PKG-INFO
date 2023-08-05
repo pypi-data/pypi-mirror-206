@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: salamencrypt
+Version: 1.0.2
+Summary: • Encrypt & Run Code Tool Python .
+Home-page: https://t.me/T5B55
+Author: salammzere3
+Author-email: salamhunter@gmail.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<h1 align="center">salamencrypt</h1>
+<p align="center">It is a useful project for developers that includes useful tools for Encrypt & Run Code</p>
+
+![](https://img.shields.io/badge/salammzere3-orange?style=for-the-badge&logo=python.svg) 
+<p align="center">
+<a href="#"><img title="Made in KURDISH" src="https://img.shields.io/badge/MADE%20IN-KURDISH-red.svg?style=for-the-badge&logo=github"></a>
+
+</p>
+<p align="center">
+<img alt="salammzere3' Github Stats" src="https://github-readme-stats.vercel.app/api?username=salammzere3&show_icons=true&include_all_commits=true&hide_border=true" />
+
+</p>
+<p align="center">
+<a href="#"><img title="telegram" src="https://img.shields.io/badge/telegram%20-T5B55-red.svg?style=for-the-badge&logo=telegram"></a>
+</p>
+<p align="center">
+<a href="https://github.com/salammzere3/followers"><img title="Followers" src="https://img.shields.io/github/followers/salammzere3?color=blue&style=flat-square"></a>
+</p>
+
+## Installation :
+```
+pip install salamencrypt
+```
+### Encrypt Usage
+
+``` 
+from salamencrypt import *
+code = '''
+print('Dev : @T5B55')
+'''
+enc = salamencrypt.enc(code)
+print(enc)
+``` 
+### Run Code Usage
+```
+from salamencrypt import *
+runn = salamencrypt.run(b'\xe3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00@\x00\x00\x00s\x0c\x00\x00\x00e\x00d\x00\x83\x01\x01\x00d\x01S\x00)\x02z\x0cDev : @T5B55N)\x01\xda\x05print\xa9\x00r\x02\x00\x00\x00r\x02\x00\x00\x00\xfa\x08<@T5B55>\xda\x08<module>\x02\x00\x00\x00\xf3\x00\x00\x00\x00')
+print(runn)
+```
+
+## Follow us on social media
+[![Github](https://img.shields.io/badge/Github-salammzere3-orange?style=for-the-badge&logo=github)](https://github.com/salammzere3/)
+<br>
+[![Telegram](https://img.shields.io/badge/Telegram-T5B55-orange?style=for-the-badge&logo=Telegram)](https://t.me/T5B55)
+<br>
+[![Instagram](https://img.shields.io/badge/Instagram-n9rj__-orange?style=for-the-badge&logo=Instagram)](https://www.instagram.com/n9rj_)

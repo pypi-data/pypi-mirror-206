@@ -1,0 +1,446 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Grammar
+
+Rule 0     S' -> expression
+Rule 1     expression -> expression expression
+Rule 2     expression -> expression AND expression
+Rule 3     expression -> expression OR expression
+Rule 4     expression -> NOT expression
+Rule 5     expression -> NEGATE token
+Rule 6     expression -> LPAREN expression RPAREN
+Rule 7     expression -> token
+Rule 8     token -> TOKEN
+Rule 9     token -> QUOTE TOKEN QUOTE
+
+Terminals, with rules where they appear
+
+AND                  : 2
+LPAREN               : 6
+NEGATE               : 5
+NOT                  : 4
+OR                   : 3
+QUOTE                : 9 9
+RPAREN               : 6
+TOKEN                : 8 9
+error                : 
+
+Nonterminals, with rules where they appear
+
+expression           : 1 1 2 2 3 3 4 6 0
+token                : 5 7
+
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . expression
+    (1) expression -> . expression expression
+    (2) expression -> . expression AND expression
+    (3) expression -> . expression OR expression
+    (4) expression -> . NOT expression
+    (5) expression -> . NEGATE token
+    (6) expression -> . LPAREN expression RPAREN
+    (7) expression -> . token
+    (8) token -> . TOKEN
+    (9) token -> . QUOTE TOKEN QUOTE
+
+    NOT             shift and go to state 2
+    NEGATE          shift and go to state 3
+    LPAREN          shift and go to state 5
+    TOKEN           shift and go to state 6
+    QUOTE           shift and go to state 7
+
+    expression                     shift and go to state 1
+    token                          shift and go to state 4
+
+state 1
+
+    (0) S' -> expression .
+    (1) expression -> expression . expression
+    (2) expression -> expression . AND expression
+    (3) expression -> expression . OR expression
+    (1) expression -> . expression expression
+    (2) expression -> . expression AND expression
+    (3) expression -> . expression OR expression
+    (4) expression -> . NOT expression
+    (5) expression -> . NEGATE token
+    (6) expression -> . LPAREN expression RPAREN
+    (7) expression -> . token
+    (8) token -> . TOKEN
+    (9) token -> . QUOTE TOKEN QUOTE
+
+    AND             shift and go to state 9
+    OR              shift and go to state 10
+    NOT             shift and go to state 2
+    NEGATE          shift and go to state 3
+    LPAREN          shift and go to state 5
+    TOKEN           shift and go to state 6
+    QUOTE           shift and go to state 7
+
+    expression                     shift and go to state 8
+    token                          shift and go to state 4
+
+state 2
+
+    (4) expression -> NOT . expression
+    (1) expression -> . expression expression
+    (2) expression -> . expression AND expression
+    (3) expression -> . expression OR expression
+    (4) expression -> . NOT expression
+    (5) expression -> . NEGATE token
+    (6) expression -> . LPAREN expression RPAREN
+    (7) expression -> . token
+    (8) token -> . TOKEN
+    (9) token -> . QUOTE TOKEN QUOTE
+
+    NOT             shift and go to state 2
+    NEGATE          shift and go to state 3
+    LPAREN          shift and go to state 5
+    TOKEN           shift and go to state 6
+    QUOTE           shift and go to state 7
+
+    expression                     shift and go to state 11
+    token                          shift and go to state 4
+
+state 3
+
+    (5) expression -> NEGATE . token
+    (8) token -> . TOKEN
+    (9) token -> . QUOTE TOKEN QUOTE
+
+    TOKEN           shift and go to state 6
+    QUOTE           shift and go to state 7
+
+    token                          shift and go to state 12
+
+state 4
+
+    (7) expression -> token .
+
+    AND             reduce using rule 7 (expression -> token .)
+    OR              reduce using rule 7 (expression -> token .)
+    NOT             reduce using rule 7 (expression -> token .)
+    NEGATE          reduce using rule 7 (expression -> token .)
+    LPAREN          reduce using rule 7 (expression -> token .)
+    TOKEN           reduce using rule 7 (expression -> token .)
+    QUOTE           reduce using rule 7 (expression -> token .)
+    $end            reduce using rule 7 (expression -> token .)
+    RPAREN          reduce using rule 7 (expression -> token .)
+
+
+state 5
+
+    (6) expression -> LPAREN . expression RPAREN
+    (1) expression -> . expression expression
+    (2) expression -> . expression AND expression
+    (3) expression -> . expression OR expression
+    (4) expression -> . NOT expression
+    (5) expression -> . NEGATE token
+    (6) expression -> . LPAREN expression RPAREN
+    (7) expression -> . token
+    (8) token -> . TOKEN
+    (9) token -> . QUOTE TOKEN QUOTE
+
+    NOT             shift and go to state 2
+    NEGATE          shift and go to state 3
+    LPAREN          shift and go to state 5
+    TOKEN           shift and go to state 6
+    QUOTE           shift and go to state 7
+
+    expression                     shift and go to state 13
+    token                          shift and go to state 4
+
+state 6
+
+    (8) token -> TOKEN .
+
+    AND             reduce using rule 8 (token -> TOKEN .)
+    OR              reduce using rule 8 (token -> TOKEN .)
+    NOT             reduce using rule 8 (token -> TOKEN .)
+    NEGATE          reduce using rule 8 (token -> TOKEN .)
+    LPAREN          reduce using rule 8 (token -> TOKEN .)
+    TOKEN           reduce using rule 8 (token -> TOKEN .)
+    QUOTE           reduce using rule 8 (token -> TOKEN .)
+    $end            reduce using rule 8 (token -> TOKEN .)
+    RPAREN          reduce using rule 8 (token -> TOKEN .)
+
+
+state 7
+
+    (9) token -> QUOTE . TOKEN QUOTE
+
+    TOKEN           shift and go to state 14
+
+
+state 8
+
+    (1) expression -> expression expression .
+    (1) expression -> expression . expression
+    (2) expression -> expression . AND expression
+    (3) expression -> expression . OR expression
+    (1) expression -> . expression expression
+    (2) expression -> . expression AND expression
+    (3) expression -> . expression OR expression
+    (4) expression -> . NOT expression
+    (5) expression -> . NEGATE token
+    (6) expression -> . LPAREN expression RPAREN
+    (7) expression -> . token
+    (8) token -> . TOKEN
+    (9) token -> . QUOTE TOKEN QUOTE
+
+    AND             reduce using rule 1 (expression -> expression expression .)
+    OR              reduce using rule 1 (expression -> expression expression .)
+    LPAREN          reduce using rule 1 (expression -> expression expression .)
+    TOKEN           reduce using rule 1 (expression -> expression expression .)
+    QUOTE           reduce using rule 1 (expression -> expression expression .)
+    $end            reduce using rule 1 (expression -> expression expression .)
+    RPAREN          reduce using rule 1 (expression -> expression expression .)
+    NOT             shift and go to state 2
+    NEGATE          shift and go to state 3
+
+  ! NOT             [ reduce using rule 1 (expression -> expression expression .) ]
+  ! NEGATE          [ reduce using rule 1 (expression -> expression expression .) ]
+  ! AND             [ shift and go to state 9 ]
+  ! OR              [ shift and go to state 10 ]
+  ! LPAREN          [ shift and go to state 5 ]
+  ! TOKEN           [ shift and go to state 6 ]
+  ! QUOTE           [ shift and go to state 7 ]
+
+    expression                     shift and go to state 8
+    token                          shift and go to state 4
+
+state 9
+
+    (2) expression -> expression AND . expression
+    (1) expression -> . expression expression
+    (2) expression -> . expression AND expression
+    (3) expression -> . expression OR expression
+    (4) expression -> . NOT expression
+    (5) expression -> . NEGATE token
+    (6) expression -> . LPAREN expression RPAREN
+    (7) expression -> . token
+    (8) token -> . TOKEN
+    (9) token -> . QUOTE TOKEN QUOTE
+
+    NOT             shift and go to state 2
+    NEGATE          shift and go to state 3
+    LPAREN          shift and go to state 5
+    TOKEN           shift and go to state 6
+    QUOTE           shift and go to state 7
+
+    expression                     shift and go to state 15
+    token                          shift and go to state 4
+
+state 10
+
+    (3) expression -> expression OR . expression
+    (1) expression -> . expression expression
+    (2) expression -> . expression AND expression
+    (3) expression -> . expression OR expression
+    (4) expression -> . NOT expression
+    (5) expression -> . NEGATE token
+    (6) expression -> . LPAREN expression RPAREN
+    (7) expression -> . token
+    (8) token -> . TOKEN
+    (9) token -> . QUOTE TOKEN QUOTE
+
+    NOT             shift and go to state 2
+    NEGATE          shift and go to state 3
+    LPAREN          shift and go to state 5
+    TOKEN           shift and go to state 6
+    QUOTE           shift and go to state 7
+
+    expression                     shift and go to state 16
+    token                          shift and go to state 4
+
+state 11
+
+    (4) expression -> NOT expression .
+    (1) expression -> expression . expression
+    (2) expression -> expression . AND expression
+    (3) expression -> expression . OR expression
+    (1) expression -> . expression expression
+    (2) expression -> . expression AND expression
+    (3) expression -> . expression OR expression
+    (4) expression -> . NOT expression
+    (5) expression -> . NEGATE token
+    (6) expression -> . LPAREN expression RPAREN
+    (7) expression -> . token
+    (8) token -> . TOKEN
+    (9) token -> . QUOTE TOKEN QUOTE
+
+    AND             reduce using rule 4 (expression -> NOT expression .)
+    OR              reduce using rule 4 (expression -> NOT expression .)
+    LPAREN          reduce using rule 4 (expression -> NOT expression .)
+    TOKEN           reduce using rule 4 (expression -> NOT expression .)
+    QUOTE           reduce using rule 4 (expression -> NOT expression .)
+    $end            reduce using rule 4 (expression -> NOT expression .)
+    RPAREN          reduce using rule 4 (expression -> NOT expression .)
+    NOT             shift and go to state 2
+    NEGATE          shift and go to state 3
+
+  ! NOT             [ reduce using rule 4 (expression -> NOT expression .) ]
+  ! NEGATE          [ reduce using rule 4 (expression -> NOT expression .) ]
+  ! AND             [ shift and go to state 9 ]
+  ! OR              [ shift and go to state 10 ]
+  ! LPAREN          [ shift and go to state 5 ]
+  ! TOKEN           [ shift and go to state 6 ]
+  ! QUOTE           [ shift and go to state 7 ]
+
+    expression                     shift and go to state 8
+    token                          shift and go to state 4
+
+state 12
+
+    (5) expression -> NEGATE token .
+
+    AND             reduce using rule 5 (expression -> NEGATE token .)
+    OR              reduce using rule 5 (expression -> NEGATE token .)
+    NOT             reduce using rule 5 (expression -> NEGATE token .)
+    NEGATE          reduce using rule 5 (expression -> NEGATE token .)
+    LPAREN          reduce using rule 5 (expression -> NEGATE token .)
+    TOKEN           reduce using rule 5 (expression -> NEGATE token .)
+    QUOTE           reduce using rule 5 (expression -> NEGATE token .)
+    $end            reduce using rule 5 (expression -> NEGATE token .)
+    RPAREN          reduce using rule 5 (expression -> NEGATE token .)
+
+
+state 13
+
+    (6) expression -> LPAREN expression . RPAREN
+    (1) expression -> expression . expression
+    (2) expression -> expression . AND expression
+    (3) expression -> expression . OR expression
+    (1) expression -> . expression expression
+    (2) expression -> . expression AND expression
+    (3) expression -> . expression OR expression
+    (4) expression -> . NOT expression
+    (5) expression -> . NEGATE token
+    (6) expression -> . LPAREN expression RPAREN
+    (7) expression -> . token
+    (8) token -> . TOKEN
+    (9) token -> . QUOTE TOKEN QUOTE
+
+    RPAREN          shift and go to state 17
+    AND             shift and go to state 9
+    OR              shift and go to state 10
+    NOT             shift and go to state 2
+    NEGATE          shift and go to state 3
+    LPAREN          shift and go to state 5
+    TOKEN           shift and go to state 6
+    QUOTE           shift and go to state 7
+
+    expression                     shift and go to state 8
+    token                          shift and go to state 4
+
+state 14
+
+    (9) token -> QUOTE TOKEN . QUOTE
+
+    QUOTE           shift and go to state 18
+
+
+state 15
+
+    (2) expression -> expression AND expression .
+    (1) expression -> expression . expression
+    (2) expression -> expression . AND expression
+    (3) expression -> expression . OR expression
+    (1) expression -> . expression expression
+    (2) expression -> . expression AND expression
+    (3) expression -> . expression OR expression
+    (4) expression -> . NOT expression
+    (5) expression -> . NEGATE token
+    (6) expression -> . LPAREN expression RPAREN
+    (7) expression -> . token
+    (8) token -> . TOKEN
+    (9) token -> . QUOTE TOKEN QUOTE
+
+    AND             reduce using rule 2 (expression -> expression AND expression .)
+    OR              reduce using rule 2 (expression -> expression AND expression .)
+    LPAREN          reduce using rule 2 (expression -> expression AND expression .)
+    TOKEN           reduce using rule 2 (expression -> expression AND expression .)
+    QUOTE           reduce using rule 2 (expression -> expression AND expression .)
+    $end            reduce using rule 2 (expression -> expression AND expression .)
+    RPAREN          reduce using rule 2 (expression -> expression AND expression .)
+    NOT             shift and go to state 2
+    NEGATE          shift and go to state 3
+
+  ! NOT             [ reduce using rule 2 (expression -> expression AND expression .) ]
+  ! NEGATE          [ reduce using rule 2 (expression -> expression AND expression .) ]
+  ! AND             [ shift and go to state 9 ]
+  ! OR              [ shift and go to state 10 ]
+  ! LPAREN          [ shift and go to state 5 ]
+  ! TOKEN           [ shift and go to state 6 ]
+  ! QUOTE           [ shift and go to state 7 ]
+
+    expression                     shift and go to state 8
+    token                          shift and go to state 4
+
+state 16
+
+    (3) expression -> expression OR expression .
+    (1) expression -> expression . expression
+    (2) expression -> expression . AND expression
+    (3) expression -> expression . OR expression
+    (1) expression -> . expression expression
+    (2) expression -> . expression AND expression
+    (3) expression -> . expression OR expression
+    (4) expression -> . NOT expression
+    (5) expression -> . NEGATE token
+    (6) expression -> . LPAREN expression RPAREN
+    (7) expression -> . token
+    (8) token -> . TOKEN
+    (9) token -> . QUOTE TOKEN QUOTE
+
+    OR              reduce using rule 3 (expression -> expression OR expression .)
+    LPAREN          reduce using rule 3 (expression -> expression OR expression .)
+    TOKEN           reduce using rule 3 (expression -> expression OR expression .)
+    QUOTE           reduce using rule 3 (expression -> expression OR expression .)
+    $end            reduce using rule 3 (expression -> expression OR expression .)
+    RPAREN          reduce using rule 3 (expression -> expression OR expression .)
+    AND             shift and go to state 9
+    NOT             shift and go to state 2
+    NEGATE          shift and go to state 3
+
+  ! AND             [ reduce using rule 3 (expression -> expression OR expression .) ]
+  ! NOT             [ reduce using rule 3 (expression -> expression OR expression .) ]
+  ! NEGATE          [ reduce using rule 3 (expression -> expression OR expression .) ]
+  ! OR              [ shift and go to state 10 ]
+  ! LPAREN          [ shift and go to state 5 ]
+  ! TOKEN           [ shift and go to state 6 ]
+  ! QUOTE           [ shift and go to state 7 ]
+
+    expression                     shift and go to state 8
+    token                          shift and go to state 4
+
+state 17
+
+    (6) expression -> LPAREN expression RPAREN .
+
+    AND             reduce using rule 6 (expression -> LPAREN expression RPAREN .)
+    OR              reduce using rule 6 (expression -> LPAREN expression RPAREN .)
+    NOT             reduce using rule 6 (expression -> LPAREN expression RPAREN .)
+    NEGATE          reduce using rule 6 (expression -> LPAREN expression RPAREN .)
+    LPAREN          reduce using rule 6 (expression -> LPAREN expression RPAREN .)
+    TOKEN           reduce using rule 6 (expression -> LPAREN expression RPAREN .)
+    QUOTE           reduce using rule 6 (expression -> LPAREN expression RPAREN .)
+    $end            reduce using rule 6 (expression -> LPAREN expression RPAREN .)
+    RPAREN          reduce using rule 6 (expression -> LPAREN expression RPAREN .)
+
+
+state 18
+
+    (9) token -> QUOTE TOKEN QUOTE .
+
+    AND             reduce using rule 9 (token -> QUOTE TOKEN QUOTE .)
+    OR              reduce using rule 9 (token -> QUOTE TOKEN QUOTE .)
+    NOT             reduce using rule 9 (token -> QUOTE TOKEN QUOTE .)
+    NEGATE          reduce using rule 9 (token -> QUOTE TOKEN QUOTE .)
+    LPAREN          reduce using rule 9 (token -> QUOTE TOKEN QUOTE .)
+    TOKEN           reduce using rule 9 (token -> QUOTE TOKEN QUOTE .)
+    QUOTE           reduce using rule 9 (token -> QUOTE TOKEN QUOTE .)
+    $end            reduce using rule 9 (token -> QUOTE TOKEN QUOTE .)
+    RPAREN          reduce using rule 9 (token -> QUOTE TOKEN QUOTE .)
+

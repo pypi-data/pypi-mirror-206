@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+guerrillamail.py
+setup.py
+python_guerrilla_mail_brb.egg-info/PKG-INFO
+python_guerrilla_mail_brb.egg-info/SOURCES.txt
+python_guerrilla_mail_brb.egg-info/dependency_links.txt
+python_guerrilla_mail_brb.egg-info/entry_points.txt
+python_guerrilla_mail_brb.egg-info/requires.txt
+python_guerrilla_mail_brb.egg-info/top_level.txt

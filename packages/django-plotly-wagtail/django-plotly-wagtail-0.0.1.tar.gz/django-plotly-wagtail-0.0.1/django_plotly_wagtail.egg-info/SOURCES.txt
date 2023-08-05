@@ -1,0 +1,7 @@
+README.md
+setup.py
+django_plotly_wagtail.egg-info/PKG-INFO
+django_plotly_wagtail.egg-info/SOURCES.txt
+django_plotly_wagtail.egg-info/dependency_links.txt
+django_plotly_wagtail.egg-info/top_level.txt
+dpwagtail/version.py

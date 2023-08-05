@@ -1,0 +1,57 @@
+﻿"""_696.py
+
+WormGrindingProcessSimulationViewModel
+"""
+from mastapy.gears.manufacturing.cylindrical.hobbing_process_simulation_new import _682, _695
+from mastapy._internal.cast_exception import CastException
+from mastapy._internal.python_net import python_net_import
+
+_WORM_GRINDING_PROCESS_SIMULATION_VIEW_MODEL = python_net_import('SMT.MastaAPI.Gears.Manufacturing.Cylindrical.HobbingProcessSimulationNew', 'WormGrindingProcessSimulationViewModel')
+
+
+__docformat__ = 'restructuredtext en'
+__all__ = ('WormGrindingProcessSimulationViewModel',)
+
+
+class WormGrindingProcessSimulationViewModel(_682.ProcessSimulationViewModel['_695.WormGrindingProcessSimulationNew']):
+    """WormGrindingProcessSimulationViewModel
+
+    This is a mastapy class.
+    """
+
+    TYPE = _WORM_GRINDING_PROCESS_SIMULATION_VIEW_MODEL
+
+    class _Cast_WormGrindingProcessSimulationViewModel:
+        """Special nested class for casting WormGrindingProcessSimulationViewModel to subclasses."""
+
+        def __init__(self, parent: 'WormGrindingProcessSimulationViewModel'):
+            self._parent = parent
+
+        @property
+        def process_simulation_view_model(self):
+            return self._parent._cast(_682.ProcessSimulationViewModel)
+
+        @property
+        def gear_manufacturing_configuration_view_model(self):
+            from mastapy.gears.manufacturing.cylindrical import _623
+            
+            return self._parent._cast(_623.GearManufacturingConfigurationViewModel)
+
+        @property
+        def worm_grinding_process_simulation_view_model(self) -> 'WormGrindingProcessSimulationViewModel':
+            return self._parent
+
+        def __getattr__(self, name: str):
+            try:
+                return self.__dict__[name]
+            except KeyError:
+                class_name = ''.join(n.capitalize() for n in name.split('_'))
+                raise CastException(f'Detected an invalid cast. Cannot cast to type "{class_name}"') from None
+
+    def __init__(self, instance_to_wrap: 'WormGrindingProcessSimulationViewModel.TYPE'):
+        super().__init__(instance_to_wrap)
+        self._freeze()
+
+    @property
+    def cast_to(self) -> 'WormGrindingProcessSimulationViewModel._Cast_WormGrindingProcessSimulationViewModel':
+        return self._Cast_WormGrindingProcessSimulationViewModel(self)

@@ -1,0 +1,3 @@
+recursive-include *.py
+recursive-include assets *
+recursive-include config *

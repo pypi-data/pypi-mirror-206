@@ -1,0 +1,12 @@
+mara_page/__init__.py,sha256=618usug8U-f-ahXoI_FLeTvm05uL978GMEZsKjzE8c0,51
+mara_page/acl.py,sha256=Igoq4uDT8nODTxpAwpXNdq0vGpRVSiTlkagjwc2vpI4,3911
+mara_page/bootstrap.py,sha256=_7SbIFSxfNtEFv9vqYftm83CN3s4NIZg-LRtbsTLd30,3193
+mara_page/html.py,sha256=JA8AQJCuXOWYT4TCGl1_MFBsyAInGj23c897twJWvDM,2703
+mara_page/navigation.py,sha256=-at_-WQGff7QmkVPE2Yns3NlXgWhU500wZ6MYbHfBlE,1950
+mara_page/response.py,sha256=HQbHaZGTvalvvQlDIXm_P4arvG6qFk3FVzfBh2Ov1sM,1156
+mara_page/xml.py,sha256=URj7MjpZbkSiMKZtbThe25TB7em0ilipYpjTyg85y0k,3412
+mara_page-1.7.0.dist-info/LICENSE,sha256=3gotTFnzbkv9IJLSgAOjt4VjUoMWG8ZUgZXLkKUqKLk,1061
+mara_page-1.7.0.dist-info/METADATA,sha256=tm5n7foTC3D0Bp0nUxXgvMivkf0lDMaX2T7U8R804Yk,4322
+mara_page-1.7.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+mara_page-1.7.0.dist-info/top_level.txt,sha256=u_k6frjSjSobHwLc3gLY7ZZ0Dp9ZLY0RH2pcmsT5coE,10
+mara_page-1.7.0.dist-info/RECORD,,

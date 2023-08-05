@@ -1,0 +1,9 @@
+deche/__init__.py,sha256=MdIoZK31s0XonChZsWYTl0f3VI7Mur_93xrvFpshCes,99
+deche/core.py,sha256=mGHEOy39u0gL6iplUeK59O_wBgXgD4cA2VdY6LFxtRY,15628
+deche/inspection.py,sha256=VyelQTaPe12AF_GUmZuzAnPP2hwTohpWsYPXdecamrM,609
+deche/test_utils/__init__.py,sha256=TIiNU4X64B2XOfwlvUNSXitYRIeWh-_qcsQlSIsMSws,1154
+deche/util.py,sha256=gSqMy4n4eY5RlaJgjhEAZM1g4XmJKv9pqUqBFYL3Ce8,2277
+deche/validators.py,sha256=5St6X2JGhJEQtqjozrOzwIhKqemlHtQ3U_XrWd9D9aw,660
+deche-0.7.0.dist-info/METADATA,sha256=ww3sJzGl7suxadx8U9Zm8lWCD9ND09MFeHLfyZdED5M,537
+deche-0.7.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+deche-0.7.0.dist-info/RECORD,,

@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: gpyt
+Version: 0.1.1
+Summary: GPT on the command line.
+Author: Justin Stitt
+Author-email: jstitt007@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: openai (>=0.27.5,<0.28.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# gpyt
+
+Interact with GPT on the command line.
+
+
+
+### Desired Features
+* `copy` to copy GPT's response to clipboard
+* color coded responses
+* add gpt jailbreaks
+* `new` to start a new chat (clear all history and console window)
+* store chat logs somewhere.
+* add special flags like -t (terse) or -v (verbose) or -d (detailed) or -i (informal) or -f (for file input)
+* scrolling text (adjustable speed, or disable all together)
+

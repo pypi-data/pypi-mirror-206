@@ -1,0 +1,8 @@
+pyarmor/cli/core/__init__.py,sha256=oEE-hBsK8-oMw5Te5qrTK87rXnr6S3ItT5WahwOJEcU,3857
+pyarmor/cli/core/fixup.py,sha256=d9lgNUr7Bo0dNSjgrA3k4kKKQhi_uDElaAIyAtIaIjE,2394
+pyarmor/cli/core/pyarmor_runtime.so,sha256=Jf5TvQUNGxvH3FZ3LyU5qgF4qyhKEo5Z3hoca0zKcoc,667136
+pyarmor/cli/core/pytransform3.so,sha256=FComDlwtjMaf41HSt-94nPp22KG30gdSMKN70dvopQw,757600
+pyarmor.cli.core-3.2.dev2.dist-info/METADATA,sha256=6hoesmXSwLNb0zdZbByqM2xQQZQXWm5KQr73gFKuPwA,1892
+pyarmor.cli.core-3.2.dev2.dist-info/WHEEL,sha256=bBtM_GJw8MqzvbDF-7pFLhl3f2vUjGn7MdfAir9TVnU,108
+pyarmor.cli.core-3.2.dev2.dist-info/top_level.txt,sha256=UE1ovZ_90YzwF_lZ3LV7o8HKLe-RgzUaUUvdH5UTUus,8
+pyarmor.cli.core-3.2.dev2.dist-info/RECORD,,

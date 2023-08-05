@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: libcst-mypy
+Version: 0.0.0
+Summary: Infer types to be used for codemods using mypy! :sparkles:
+Project-URL: Homepage, https://github.com/Kludex/libcst-mypy
+Project-URL: Source, https://github.com/Kludex/libcst-mypy
+Project-URL: Twitter, https://twitter.com/marcelotryle
+Project-URL: Funding, https://github.com/sponsors/Kludex
+Author-email: Marcelo Trylesinski <marcelotryle@email.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Requires-Dist: libcst>=0.4.9
+Requires-Dist: mypy>=1.1.1
+Description-Content-Type: text/markdown
+
+<h1 align="center">
+    <strong>libcst-mypy</strong>
+</h1>
+<p align="center">
+    <a href="https://github.com/Kludex/libcst-mypy" target="_blank">
+        <img src="https://img.shields.io/github/last-commit/Kludex/libcst-mypy" alt="Latest Commit">
+    </a>
+        <img src="https://img.shields.io/github/workflow/status/Kludex/libcst-mypy/CI">
+        <a href="https://github.com/Kludex/libcst-mypy/actions?workflow=CI" target="_blank">
+            <img src="https://img.shields.io/badge/Coverage-100%25-success">
+        </a>
+    <br />
+    <a href="https://pypi.org/project/libcst-mypy" target="_blank">
+        <img src="https://img.shields.io/pypi/v/libcst-mypy" alt="Package version">
+    </a>
+    <img src="https://img.shields.io/pypi/pyversions/libcst-mypy">
+    <img src="https://img.shields.io/github/license/Kludex/libcst-mypy">
+</p>
+
+Infer types to be used for codemods using mypy! :sparkles:
+
+The code here was created by [rominf](https://github.com/rominf) on [LibCST#831](https://github.com/Instagram/LibCST/pull/831).
+
+## Installation
+
+```bash
+pip install libcst-mypy
+```
+
+## License
+
+This project is licensed under the terms of the MIT license.

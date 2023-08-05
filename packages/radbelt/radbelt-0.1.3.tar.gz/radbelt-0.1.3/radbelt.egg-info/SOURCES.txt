@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+radbelt/__init__.py
+radbelt/_version.py
+radbelt/core.f
+radbelt/paths.py
+radbelt/util.py
+radbelt.egg-info/PKG-INFO
+radbelt.egg-info/SOURCES.txt
+radbelt.egg-info/dependency_links.txt
+radbelt.egg-info/requires.txt
+radbelt.egg-info/top_level.txt
+radbelt/extern/aep8/trmfun.f
+radbelt/extern/igrf/shellig.f

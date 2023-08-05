@@ -1,0 +1,8 @@
+datasette_annotate/__init__.py,sha256=nVZY7BMzRQ9fKaPE4eP2p0p9GUIBXdPU9I1Riqw42WE,6036
+datasette_annotate/templates/annotate-row.html,sha256=L8oshyjcQsVYyv3n826liMdH25c6c-KXFcyqgB96A7Q,1072
+datasette_annotate-0.2.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_annotate-0.2.1.dist-info/METADATA,sha256=NYcK7tmScf9T_dK84VZtPcn9iu6BdOR5r7HEp8PIumQ,3165
+datasette_annotate-0.2.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+datasette_annotate-0.2.1.dist-info/entry_points.txt,sha256=e7wqoaVksdGVMjbUy-fmZs4vqCwvSCp4lU6xHUxsP4E,42
+datasette_annotate-0.2.1.dist-info/top_level.txt,sha256=6ZXmpDbdyCJuS76texOdoSh1QNm4K5pQyAqJ_SP3_OE,19
+datasette_annotate-0.2.1.dist-info/RECORD,,

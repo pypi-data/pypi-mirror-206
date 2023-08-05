@@ -1,0 +1,2 @@
+[datasette]
+annotate = datasette_annotate

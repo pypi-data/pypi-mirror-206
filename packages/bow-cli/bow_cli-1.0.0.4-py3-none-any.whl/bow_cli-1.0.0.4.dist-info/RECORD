@@ -1,0 +1,17 @@
+src/bow/__about__.py,sha256=gQehCnOQtHHu3QFPnx2NZAsRR2e7DS7fGSfklla8Ars,23
+src/bow/__init__.py,sha256=YGj6eTC5LN7x4NzgeCS1JrSK1tXdeY3pY3Djpq2irMs,774
+src/bow/__main__.py,sha256=E5AOM1iNVrkXGM2HVl1SziaJXnGvs-tRZcNhANia5Ww,160
+src/bow/config.py,sha256=KRq1sKSsOO2AjpZdLQc5jD7oZnPond--zy0e2oRwLZg,175
+src/bow/commands/add.py,sha256=77MTw7NCYBQqDfWyZk5OwymLldEpqTTr5xJkIgwP520,1021
+src/bow/commands/g.py,sha256=X-Wba-iYY3PHvZrebvf1vA2Uj9VWN9yNYcb6QgvhYVw,1901
+src/bow/commands/list.py,sha256=D51WDkaIzAgX8qxDLjSqJ9N6fOZQyoODQBzSpB5_BbQ,575
+src/bow/commands/remove.py,sha256=wMuneQU9P7JoUuK3Ik6G245Va2r58cVMuOlyY7W4_b0,527
+src/bow/utils/fs.py,sha256=qKYpZtgYe7W8kAj2wE5AMh7NO12A0lQpMOqTJca_tYc,353
+src/bow/utils/http.py,sha256=USvoaeueDAD5JFInbOUKOl6avXFF6crsuQGhZdtT5kE,1004
+src/bow/utils/logger.py,sha256=XkXjFhDdCp6znFIgsaniO_pKF15GSHMNuOu7Ohsvme8,277
+templates/pycord/main.py,sha256=s0R2waw0pzNUOdoiZTGwulftP0UPqyBjdgmkkYC9SPU,300
+templates/pycordv3/main.py,sha256=Edyyu5eehLZ6uE7Qa-4QNCAhP_Js3Bd5_fmIhHcR3uc,295
+bow_cli-1.0.0.4.dist-info/METADATA,sha256=AvKygKY_A6aKfzUV8-FQttHXmnLHcsfO7N3WwQrmdrU,1484
+bow_cli-1.0.0.4.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+bow_cli-1.0.0.4.dist-info/entry_points.txt,sha256=A5hwt-klKffq6BkBMa0WR0mpTTz5BQKORxU7PdF6UpI,37
+bow_cli-1.0.0.4.dist-info/RECORD,,

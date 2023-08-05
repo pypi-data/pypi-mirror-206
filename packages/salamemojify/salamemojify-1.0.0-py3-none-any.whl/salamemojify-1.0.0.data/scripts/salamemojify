@@ -1,0 +1,7 @@
+#!python
+# -*- coding: UTF-8 -*-
+
+import salamemojify
+
+args = salamemojify.run_argparse()
+salamemojify.main(args.input, args.output, args.emoji)

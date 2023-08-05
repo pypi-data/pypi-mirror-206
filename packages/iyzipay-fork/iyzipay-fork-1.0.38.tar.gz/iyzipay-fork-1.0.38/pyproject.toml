@@ -1,0 +1,21 @@
+[project]
+name = "iyzipay-fork"
+version = "1.0.38"
+authors = [
+  { name="Iyzico", email="iyzico-ci@iyzico.com" },
+]
+description = "iyzipay api python client"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]

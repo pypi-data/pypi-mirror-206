@@ -1,0 +1,15 @@
+numpy<2,>=1.23.5
+pandas<1.5,>=1.4
+statsmodels<1,>=0.13.5
+pydantic<2,>=1.10.6
+scikit-learn<2,==1.2.2
+
+[:python_version < "3.11"]
+typing_extensions
+
+[dev]
+bumpver>=2022.1120
+pip-tools>=6.12.3
+
+[test]
+pytest>=7.2.2

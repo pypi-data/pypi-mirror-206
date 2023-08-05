@@ -1,0 +1,10 @@
+LICENCE.txt
+README.md
+setup.py
+datehandling/__init__.py
+datehandling/fechas.py
+datehandling/listas.py
+datehandling.egg-info/PKG-INFO
+datehandling.egg-info/SOURCES.txt
+datehandling.egg-info/dependency_links.txt
+datehandling.egg-info/top_level.txt

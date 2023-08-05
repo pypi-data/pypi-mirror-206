@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: optimal-loc
+Version: 0.0.1
+Summary: A python project which finds the optimal N locations in a given area according to the given location inputs. This package can be used for business or individual needs.
+Home-page: https://github.com/sinan-demirhan/optimal-loc
+License: MIT
+Keywords: optimal_loc,optimal-loc,optimal,optimal location,optimal location finder
+Author: Sinan Demirhan
+Author-email: sdemirhan1320@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/sinan-demirhan/optimal-loc
+Description-Content-Type: text/markdown
+
+

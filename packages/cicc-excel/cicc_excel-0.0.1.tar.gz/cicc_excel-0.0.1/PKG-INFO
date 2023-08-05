@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cicc_excel
+Version: 0.0.1
+Summary: Library of export pandas into excel for CICCers
+Home-page: https://github.com/nyuspc/cicc_excel
+Author: Pengcheng Song
+Author-email: smth_spc@hotmail.com
+License: UNKNOWN
+Description: ## Install
+        
+        `pip install cicc_excel`
+        
+        ## How to Use
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

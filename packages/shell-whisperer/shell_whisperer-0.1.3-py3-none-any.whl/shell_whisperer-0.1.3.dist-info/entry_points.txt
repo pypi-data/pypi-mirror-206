@@ -1,0 +1,3 @@
+[console_scripts]
+whisperer=shell_whisperer.main:app
+

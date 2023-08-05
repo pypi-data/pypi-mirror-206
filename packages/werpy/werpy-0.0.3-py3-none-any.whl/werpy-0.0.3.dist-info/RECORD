@@ -1,0 +1,12 @@
+werpy/__init__.py,sha256=UNbCgFXSllasgR3bhYUjA5n-2Dx5COl7Cle7JKlRO8k,310
+werpy/metrics.py,sha256=xKKeSsPgBHeu4s1iPIxw-e-su3Lxh3I1nR6RxXh0c2k,5552
+werpy/normalize.py,sha256=nlB2ed_k6DHV5vuW_M6B9J4QrElO0qjcTc0LZQ9X2FA,5762
+werpy/summary.py,sha256=SRBSO6Iqawx56nSzgZclL2dyWh-YFhqmiNSlrchnhKI,2867
+werpy/wer.py,sha256=XQ5FpoAp2SLjApNB6qPtDZa9VlXZH9LfzdiyNbXSJlY,2766
+werpy/werp.py,sha256=MjsAVup7cuYtAg2NaleszUdL2PvFrtOyQkP7XuA74nQ,3738
+werpy/werps.py,sha256=NuLtWvakzV6eH08EAI_IYQiRBbM-0QOzDJPNN3TwwjQ,3977
+werpy/wers.py,sha256=2Qb1U92nb5HTxen474ERak5ExO47hFCU923wx_BRF6A,2300
+werpy-0.0.3.dist-info/METADATA,sha256=jFlanHH0yiO4k1nWUHKEauw6vOmCyoIx9SSqW-QbAjE,8485
+werpy-0.0.3.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+werpy-0.0.3.dist-info/licenses/LICENSE,sha256=elmEy7XRjVTKQaVBd-CM5NLYucMDve48tl9gyEfnG5E,1534
+werpy-0.0.3.dist-info/RECORD,,

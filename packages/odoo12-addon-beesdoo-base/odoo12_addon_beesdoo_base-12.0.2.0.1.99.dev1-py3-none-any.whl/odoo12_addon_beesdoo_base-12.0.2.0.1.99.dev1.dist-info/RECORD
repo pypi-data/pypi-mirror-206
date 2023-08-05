@@ -1,0 +1,9 @@
+odoo/addons/beesdoo_base/README.rst,sha256=uhWBov5U0mWWQhkuWFc12yH6OhBwy9oxXeMFyHW6nu0,1868
+odoo/addons/beesdoo_base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/beesdoo_base/__manifest__.py,sha256=otyWxlzbwgPIosbuZ3MRxZ3X5nBhQ3WDBIvzI8XueXg,706
+odoo/addons/beesdoo_base/i18n/beesdoo_base.pot,sha256=2T_62s-OoonWUW5mCPeLA8WOQV-FszQcdurSAtvuYmA,344
+odoo/addons/beesdoo_base/i18n/fr_BE.po,sha256=PVIlEkcJYtjp4TW_rFR0-QaDB9mmrv-qGLEv9Qvy1Wg,14408
+odoo12_addon_beesdoo_base-12.0.2.0.1.99.dev1.dist-info/METADATA,sha256=SJWpjv2zLRRlb-N7PHqdMipBnTMRvjxCeh0Ai2IXuS8,2521
+odoo12_addon_beesdoo_base-12.0.2.0.1.99.dev1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo12_addon_beesdoo_base-12.0.2.0.1.99.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_beesdoo_base-12.0.2.0.1.99.dev1.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+datasette_annotate/__init__.py
+datasette_annotate.egg-info/PKG-INFO
+datasette_annotate.egg-info/SOURCES.txt
+datasette_annotate.egg-info/dependency_links.txt
+datasette_annotate.egg-info/entry_points.txt
+datasette_annotate.egg-info/requires.txt
+datasette_annotate.egg-info/top_level.txt
+tests/test_datasette_annotate.py

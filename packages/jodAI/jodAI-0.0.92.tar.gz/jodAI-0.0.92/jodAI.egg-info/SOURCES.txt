@@ -1,0 +1,7 @@
+Licence.txt.txt
+setup.py
+jodAI/__init__.py
+jodAI.egg-info/PKG-INFO
+jodAI.egg-info/SOURCES.txt
+jodAI.egg-info/dependency_links.txt
+jodAI.egg-info/top_level.txt

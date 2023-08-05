@@ -1,0 +1,10 @@
+dbus_client_gen/__init__.py,sha256=pkL8g9HTFvRBtUrCc_qiixgPR82TeRRQWKeRNv9z7Z0,724
+dbus_client_gen/_errors.py,sha256=eETh2DkDleWrBtLjy-NEyPPsyFpLz4RaN3OdYYuDKiE,4619
+dbus_client_gen/_managed_objects.py,sha256=XeJhUOEYYIYrLWqbr9sIFYSuaTvm3dcHYpdCUWtjGTY,4480
+dbus_client_gen/_managed_objects_queries.py,sha256=OHpj1BrUx3pyA_OCpVqIWmJw_Milv1vxl3_4EIf2HgM,5552
+dbus_client_gen/_version.py,sha256=PfOq0qJempXKnC2wywwbE6RkS91xbtxFQ3x0qL5eusc,316
+dbus_client_gen-0.5.1.dist-info/LICENSE,sha256=OT6vK5Kz1JvqE545tv0gW26ZxJmZmYauxVVFhqgw390,16726
+dbus_client_gen-0.5.1.dist-info/METADATA,sha256=aw6DN3P_-paaUkLAXTAS0Izg8Jt4HdHqFfoxX-C52fs,4081
+dbus_client_gen-0.5.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dbus_client_gen-0.5.1.dist-info/top_level.txt,sha256=01_QT6xusadSQ8cnoRHvL7n6xtwYIilGb8N-mghJ86c,16
+dbus_client_gen-0.5.1.dist-info/RECORD,,

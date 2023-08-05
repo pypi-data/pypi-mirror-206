@@ -1,0 +1,12 @@
+pyama/__init__.py,sha256=qj6vK6jho7Ux3BbRygYsiVoU1fi46bCD4odwuVuQGZU,880
+pyama/constants.py,sha256=fElIJ6ocvhAVT_3qfC_WPNzq_Th2ShEAc3ybEkreIHc,25
+pyama/download.py,sha256=NaTLtqgYtTJwUxfyL3B3fDmVVZ7vpbUacj9bkZSHVvc,1495
+pyama/prompt.py,sha256=DGIr4bRk87BmCMcDgdMXz3Ry4coO156boWR2nTseNyU,2819
+pyama/static/style.css,sha256=p1Mz86rfbOaAzv-NA-8-upNPkVvoJxXGvb3veQYwpzs,1784
+pyama/templates/base.html,sha256=uMvR93BFdm3jq3xa2s2PftWom8eESYpJjDlfsA-h8U4,574
+pyama/templates/models.html,sha256=oapOmPVJH1w8OFFGw7DTfdH5dMGmdY2AZaIMsxrS0fo,796
+pyama/templates/prompts.html,sha256=tBzFBbEMx8C-T5oj0w62jkxTOkCO9oHUMNaPLvwIc3o,2820
+pyama-0.1.0.dist-info/entry_points.txt,sha256=rM2Udkm8lFzPOXXDlgD3iim1RBCZkc1ah6loxVYsoJg,42
+pyama-0.1.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+pyama-0.1.0.dist-info/METADATA,sha256=LpMHmbETSIPW11rMOq2lyopi5a6z3Jxtypp-kpbnsj8,533
+pyama-0.1.0.dist-info/RECORD,,

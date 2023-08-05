@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyama
+Version: 0.1.0
+Summary: "Flask frontend for llama.cpp models"
+Author: Jiri Podivin
+Author-email: jpodivin@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Flask (>=2.2.3,<3.0.0)
+Requires-Dist: GitPython (>=3.1.31,<4.0.0)
+Requires-Dist: llama-cpp-python (>=0.1.39,<0.2.0)
+Requires-Dist: pycurl (>=7.45.2,<8.0.0)
+Requires-Dist: requests (>=2.28.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+

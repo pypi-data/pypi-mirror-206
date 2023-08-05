@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+define: &root "$HOME/pyssg/site_example/"
+
+title: "Example site"
+path:
+  src: !join [*root, "src"]
+  dst: !join [*root, "dst"]
+  plt: !join [*root, "plt"]
+  db: !join [*root, ".files"]
+url:
+  main: "https://example.com"
+fmt:
+  date: "%a, %b %d, %Y @ %H:%M %Z"
+dirs:
+  /:
+    cfg:
+      plt: "page.html"
+      tags: False
+      index: False
+      rss: False
+      sitemap: False
+...

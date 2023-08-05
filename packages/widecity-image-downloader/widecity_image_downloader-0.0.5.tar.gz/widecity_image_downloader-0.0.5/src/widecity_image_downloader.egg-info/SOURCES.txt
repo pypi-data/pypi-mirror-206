@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/widecity_image_downloader/Image.py
+src/widecity_image_downloader/__init__.py
+src/widecity_image_downloader.egg-info/PKG-INFO
+src/widecity_image_downloader.egg-info/SOURCES.txt
+src/widecity_image_downloader.egg-info/dependency_links.txt
+src/widecity_image_downloader.egg-info/top_level.txt

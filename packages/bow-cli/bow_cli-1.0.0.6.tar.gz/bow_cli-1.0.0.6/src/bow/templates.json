@@ -1,0 +1,46 @@
+{
+    "web": {
+        "url": "https://github.com/SuffocateFromNegligence/web.git",
+        "requires": []
+    },
+    "electron": {
+        "url": "https://github.com/SuffocateFromNegligence/electron.git",
+        "requires": [
+            "electron"
+        ]
+    },
+    "node": {
+        "url": "https://github.com/SuffocateFromNegligence/node.git",
+        "requires": [
+            "node"
+        ]
+    },
+    "python": {
+        "url": "https://github.com/SuffocateFromNegligence/python.git",
+        "requires": []
+    },
+    "pycord": {
+        "url": "https://github.com/SuffocateFromNegligence/pycord.git",
+        "requires": [
+            "pycord"
+        ]
+    },
+    "pycord-cog": {
+        "url": "https://github.com/SuffocateFromNegligence/pycord-cog.git",
+        "requires": [
+            "pycord"
+        ]
+    },
+    "pycord-v3": {
+        "url": "https://github.com/SuffocateFromNegligence/pycord-v3.git",
+        "requires": [
+            "pycord"
+        ]
+    },
+    "discord.js": {
+        "url": "https://github.com/SuffocateFromNegligence/discord.js.git",
+        "requires": [
+            "discord.js"
+        ]
+    }
+}

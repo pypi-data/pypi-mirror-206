@@ -1,0 +1,8 @@
+pytest_aioworkers/__init__.py,sha256=NxVbGrq83Z9uGGgl1O5QUCJx1MA0BeJf-mFBrG7Lbt8,282
+pytest_aioworkers/plugin.py,sha256=VCjt2U0kBdC96Adz-6xNC7JPel3fk8IfRvlfGymvHe4,1260
+pytest_aioworkers/utils.py,sha256=53Z0-Nfyg8r4Um54kdZ8N6rpDiCS0e9Ks742aZVYhqo,501
+pytest_aioworkers-0.4.0a1.dist-info/METADATA,sha256=fFKtT1LRR-nGdNEIjxgutRoL5ENe3rkNQo_ysCtWIr8,2970
+pytest_aioworkers-0.4.0a1.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+pytest_aioworkers-0.4.0a1.dist-info/entry_points.txt,sha256=T_CQJLK5mkLXtJtF9DhAewaXkKD5HIaC9InLrAZ4p6M,49
+pytest_aioworkers-0.4.0a1.dist-info/licenses/LICENSE,sha256=CUvt2ilcBwKAfRAnoA4RNPTLcdUj3En21LPK9YkFMGg,11358
+pytest_aioworkers-0.4.0a1.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+include keybhook/requirements.txt
+include keybhook/thirdparty.json
+include keybhook/LICENSE
+include keybhook/README.md

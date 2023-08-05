@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: LbReleaseDoxy
+Version: 0.1.3
+Summary: LbRelease. Here only used for creating doxygen configuration
+Home-page: https://gitlab.cern.ch/pinogga/lbutils_doxy
+Author: Piet Nogga
+Author-email: piet.nogga@cern.ch
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+

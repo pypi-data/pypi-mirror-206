@@ -1,0 +1,15 @@
+dumbvector/FOR DELETE dumb_vector_s3.py,sha256=PIcbJ9tab3mLA4FELfC_lj61-eJ_IiTJaBCwwUdz4Gw,30270
+dumbvector/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+dumbvector/bsonutil.py,sha256=kEKWsG05NHXdS8r5etk9Jcsw4A6NiYDxobRykup1TGg,4643
+dumbvector/docs.py,sha256=IUHFuLBL_EshU5ufIYEBQ4LMn8DJNMs479i1Gc1zupk,5793
+dumbvector/docs_s3.py,sha256=-puZlfhdXKKWOL0Ykup8MNCLHTJNWqqP3IeBAX4aB5Y,4520
+dumbvector/dumb_index.py,sha256=J8I-3F4rA8LIEew2FzbKFmbiOffmq-dUDgCzE1VaeSM,7918
+dumbvector/dumb_index_s3.py,sha256=6_wAzmHLray7iBtr5iflSl9B2F5Wbr_UaLdrw-0tAeQ,4380
+dumbvector/numtypes.py,sha256=a0Zr6r0Y0HnCzqVaJZ1UKAXWW_X-BsD4rVC9jcGGs4Y,4539
+dumbvector/search.py,sha256=GMDeNM_OiMc2TA-yXMrgpQqhvPmLaYRA77QLoyfH9Pw,2242
+dumbvector/util.py,sha256=nw7GPSnkTMbOAm16ILdFc00rUTXhd2JslTCn8Gl6xYY,322
+dumbvector-0.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+dumbvector-0.1.0.dist-info/METADATA,sha256=SYTVD3u0l97MOoB4IBlP00H5gDbOGqTX9fSaOIj-NbM,12454
+dumbvector-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dumbvector-0.1.0.dist-info/top_level.txt,sha256=9pz8fEJSvLH9mqiCEivXMMNpuD8gp541K4TLIeb2gUI,11
+dumbvector-0.1.0.dist-info/RECORD,,

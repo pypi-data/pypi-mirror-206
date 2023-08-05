@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: iraqCal
+Version: 1.0
+Summary: simple calculator func is cul()
+Author: slour
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt
+

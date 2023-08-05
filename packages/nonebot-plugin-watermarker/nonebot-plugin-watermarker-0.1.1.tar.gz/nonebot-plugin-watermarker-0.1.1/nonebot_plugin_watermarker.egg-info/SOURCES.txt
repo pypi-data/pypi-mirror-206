@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+nonebot-plugin-watermarker/__init__.py
+nonebot-plugin-watermarker/config.py
+nonebot-plugin-watermarker/fuctions.py
+nonebot_plugin_watermarker.egg-info/PKG-INFO
+nonebot_plugin_watermarker.egg-info/SOURCES.txt
+nonebot_plugin_watermarker.egg-info/dependency_links.txt
+nonebot_plugin_watermarker.egg-info/requires.txt
+nonebot_plugin_watermarker.egg-info/top_level.txt

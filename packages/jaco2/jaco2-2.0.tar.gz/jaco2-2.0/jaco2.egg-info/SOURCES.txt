@@ -1,0 +1,6 @@
+setup.py
+jaco2.egg-info/PKG-INFO
+jaco2.egg-info/SOURCES.txt
+jaco2.egg-info/dependency_links.txt
+jaco2.egg-info/top_level.txt
+robotControl/jaco2.cpp

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: liteindex
+Version: 0.0.1.dev3
+Summary: SQLite based queryable python indexes for dicts and lists
+Home-page: https://github.com/notAI-tech/liteindex
+Author: BEDAPUDI PRANEETH
+Author-email: praneeth@bpraneeth.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# LiteIndex
+ultra fast, thread and process safe, easily queryable Indexes for Python.

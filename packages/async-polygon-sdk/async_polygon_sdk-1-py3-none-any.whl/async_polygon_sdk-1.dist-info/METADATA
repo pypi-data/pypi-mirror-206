@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: async-polygon-sdk
+Version: 1
+Summary: This package is designed to work with the polygon.io service as an async toolkit for analyzing markets in real time.
+Author: chuckdustin12
+Author-email: chuckdustin12@gmail.com
+License: MIT
+Keywords: finance,trading,stocks,analysis,async,polygon.io
+Requires-Dist: numpy (>=1.18)
+Requires-Dist: pandas (>=1.0)
+Requires-Dist: aiohttp (==3.8.4)
+Requires-Dist: aiosignal (==1.3.1)
+Requires-Dist: anyio (==3.6.2)
+Requires-Dist: async-timeout (==4.0.2)
+Requires-Dist: attrs (==23.1.0)
+Requires-Dist: certifi (==2022.12.7)
+Requires-Dist: charset-normalizer (==3.1.0)
+Requires-Dist: frozenlist (==1.3.3)
+Requires-Dist: h11 (==0.14.0)
+Requires-Dist: httpcore (==0.17.0)
+Requires-Dist: httpx (==0.24.0)
+Requires-Dist: idna (==3.4)
+Requires-Dist: multidict (==6.0.4)
+Requires-Dist: numpy (==1.24.3)
+Requires-Dist: polygon (==1.1.0)
+Requires-Dist: polygon-api-client (==1.8.5)
+Requires-Dist: requests (==2.29.0)
+Requires-Dist: scipy (==1.10.1)
+Requires-Dist: sniffio (==1.3.0)
+Requires-Dist: urllib3 (==1.26.15)
+Requires-Dist: websocket-client (==1.5.1)
+Requires-Dist: websockets (==10.4)
+Requires-Dist: yarl (==1.9.2)
+

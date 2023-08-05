@@ -1,0 +1,8 @@
+stubdefaulter/__init__.py,sha256=-IYjN-xmqYTrPfzbJcUJlSe45Ggcpum4g10gYFaFPcc,26650
+stubdefaulter/__main__.py,sha256=fCK-SbVUV8PeSdOc911v_IcZo-LvjKeKBoyaqbFRPhA,70
+stubdefaulter/stdlib-blacklist.txt,sha256=vKyX3ELGfFVjMllcHs7_-kWczrBH1-CVNLJ_uZMhaWw,1889
+stubdefaulter-0.1.0.dist-info/METADATA,sha256=GoEkGIVPZLpAbmxYGCVUghUJmNR5w_6wRzsEOijf3dM,764
+stubdefaulter-0.1.0.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+stubdefaulter-0.1.0.dist-info/entry_points.txt,sha256=OUdcqYcM3wiudOleyBLBP3XVZ2DajZ0SRyR8YIdgMgI,53
+stubdefaulter-0.1.0.dist-info/licenses/LICENSE,sha256=n08RsyLmMn7cjfya2FjDoC3c-zJ_3nwT1v47yt9qVLg,1192
+stubdefaulter-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,12 @@
+napari_sam4is/__init__.py,sha256=UuCjHEC5JF6bYNfPaabY7FzNRKsToGDW5-KP0rsiRAI,85
+napari_sam4is/_utils.py,sha256=n_PXZPEhRcU8Z5Xgk2dPP5nxKdPoex4qqi71p8KaHek,4710
+napari_sam4is/_widget.py,sha256=SNpmQD7MYsdrLkNq2loL6VJO0FT_LtHDziHTGBWynFg,12071
+napari_sam4is/napari.yaml,sha256=k3eMzHn9OKV1R3YdkEsVuRmpUL2wqbw_6BgOtTTcQjk,282
+napari_sam4is/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_sam4is/_tests/test_widget.py,sha256=Xhn3Gjn0JZ1wsU7VEoRWn1Fn2UsrzlnhCsnUaWOTPJ8,1246
+napari_SAM4IS-0.0.4.dist-info/LICENSE,sha256=CUvt2ilcBwKAfRAnoA4RNPTLcdUj3En21LPK9YkFMGg,11358
+napari_SAM4IS-0.0.4.dist-info/METADATA,sha256=JR_Wo1r8eIfY3UEm3UrzbYd1TVrfSeYXTvGZTRr2gHs,7889
+napari_SAM4IS-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+napari_SAM4IS-0.0.4.dist-info/entry_points.txt,sha256=XV3jC2WA-UgUc8Gqdi1GfqxnNFnsVIVDP5aDW3eKb-4,60
+napari_SAM4IS-0.0.4.dist-info/top_level.txt,sha256=qf0loX74SHDsumzSMK_i0uqQS9f1V4YMuMW-pzqusuc,14
+napari_SAM4IS-0.0.4.dist-info/RECORD,,

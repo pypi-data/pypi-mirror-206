@@ -1,0 +1,8 @@
+libtukaan/__init__.py,sha256=YzlJ1H2RCPfce6DvNGl52fw1xKjmOWqarjq9hsVnOc8,54
+libtukaan/serif.py,sha256=m2uZrsR0JPgijMVmsO4oBbHZ2GfqG79agiBLLEwYHDY,1612
+libtukaan/xcursor.py,sha256=heUHveFCBuq65NsLel4t0QMGYNU61mDyebFn36xc5jQ,1843
+libtukaan/mac/libserif_x64.dylib,sha256=Bg48FIg2fzZ74-LE52irQnNGrde9gSO-KcCSFKBKns0,49992
+libtukaan_mac-0.1.5.dist-info/METADATA,sha256=9y2N1CLzgKE_HsAo9ZTTeN4wIIRwb_0jIYkngTzwrXQ,423
+libtukaan_mac-0.1.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+libtukaan_mac-0.1.5.dist-info/top_level.txt,sha256=MKdVQX8fquXGWUngt7lIiHP6PnlcHkJXhBNLNG_heyg,10
+libtukaan_mac-0.1.5.dist-info/RECORD,,

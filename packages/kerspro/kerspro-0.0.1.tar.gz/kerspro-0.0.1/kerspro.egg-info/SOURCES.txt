@@ -1,0 +1,5 @@
+setup.py
+kerspro.egg-info/PKG-INFO
+kerspro.egg-info/SOURCES.txt
+kerspro.egg-info/dependency_links.txt
+kerspro.egg-info/top_level.txt

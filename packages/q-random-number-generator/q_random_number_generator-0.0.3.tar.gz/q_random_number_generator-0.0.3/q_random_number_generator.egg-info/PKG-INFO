@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: q-random-number-generator
+Version: 0.0.3
+Summary: Using qiskit to realize random number generator
+Home-page: https://github.com/allen91wu/q_random_number_generator
+Author: Allen Wu
+Author-email: allen91.wu@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# q_random_number_generator
+Using qiskit to realize quantum number generator.

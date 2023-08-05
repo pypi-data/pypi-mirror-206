@@ -1,0 +1,10 @@
+python_voice_assistant/Helper.py,sha256=BppkJPq3WTejSs7-7MpiQaFSTlIroA073-MNt97rT5Y,2896
+python_voice_assistant/Listener.py,sha256=MCuPhfaUzvqANX_hzWluyUMP3p168z10YrfcqoY9Ji4,5575
+python_voice_assistant/Speaker.py,sha256=ndBjRf25MZY5cW4G4fR8XtPgSiznuHUP85ml-jhg3J0,1053
+python_voice_assistant/__init__.py,sha256=jZrNKIuPsQXkskzXUsbcVb7UGyv_O6-rsOZQqkx76xo,48
+python_voice_assistant/languages/en.json,sha256=r3RNuIOI-cDiFkEF7XcDEJwBsLxvVRk9AUNRvXlUw-s,147
+python_voice_assistant/languages/ru.json,sha256=FfdyLcie1T_lD0CO8L98g-eoBCNUllyJ-Np_zxc6VhQ,234
+python_voice_assistant/settings.py,sha256=gq6FT2H_y_r3cqF4vwCDe8D79X5003kZ9ukaa0O74Ec,636
+python_voice_assistant-1.0.1.dist-info/METADATA,sha256=3CZ59L29CAD8_NRPNe8mLz0a4CZIXuy5n-lDUs_yRfM,1649
+python_voice_assistant-1.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+python_voice_assistant-1.0.1.dist-info/RECORD,,

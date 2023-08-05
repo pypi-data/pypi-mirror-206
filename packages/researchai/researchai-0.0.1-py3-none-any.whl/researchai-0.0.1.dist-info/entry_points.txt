@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[nbdev]
+researchai = researchai._modidx:d
+

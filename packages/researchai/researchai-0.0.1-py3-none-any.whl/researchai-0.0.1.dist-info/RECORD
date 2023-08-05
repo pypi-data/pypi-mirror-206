@@ -1,0 +1,10 @@
+researchai/__init__.py,sha256=ry5O5SW74ugwOUMKSV2_LbWjYa8B0IEvUm7S-lHPA2c,23
+researchai/_modidx.py,sha256=8DW_BbkVhuy3qXX6lV75qoqpVvCuNZSK2OqXrUrRMsw,815
+researchai/nn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+researchai/nn/layers.py,sha256=i9DqlY6dfLbas9lMjamGlhueSlCHbpKCjnomich5TKM,1842
+researchai-0.0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+researchai-0.0.1.dist-info/METADATA,sha256=q_EuDSBK_9Hzp7FOqPB-vbh9d02K9MRArE5FCjRx7XQ,1259
+researchai-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+researchai-0.0.1.dist-info/entry_points.txt,sha256=53j9M5IZeg6pb09jkRWBZQnky-csDiq_R8T0pqRLsAo,63
+researchai-0.0.1.dist-info/top_level.txt,sha256=srMWO477HWBBe6hZwOe81x9U_2zwGlXEGwWtRLIrBYY,11
+researchai-0.0.1.dist-info/RECORD,,

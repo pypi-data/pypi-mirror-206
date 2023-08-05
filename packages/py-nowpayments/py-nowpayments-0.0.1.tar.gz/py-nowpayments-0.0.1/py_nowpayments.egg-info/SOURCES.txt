@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+py_nowpayments.egg-info/PKG-INFO
+py_nowpayments.egg-info/SOURCES.txt
+py_nowpayments.egg-info/dependency_links.txt
+py_nowpayments.egg-info/requires.txt
+py_nowpayments.egg-info/top_level.txt

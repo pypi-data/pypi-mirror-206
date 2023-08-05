@@ -1,0 +1,12 @@
+xagg_no_xesmf_deps/__init__.py,sha256=89jOrtPN6cKyntvNEvDYDwsBEI0pJUpSfUqecOOGmRc,347
+xagg_no_xesmf_deps/_version.py,sha256=OYVqZwtPEoUDMerMUbov7YIQtNq5aiOhhJjI4v7BuRE,44
+xagg_no_xesmf_deps/aux.py,sha256=qgzPEPAJF_oSfl56OvNJBW9kA4WtpfZxA9hgJni6zyQ,15827
+xagg_no_xesmf_deps/classes.py,sha256=PWaROfc0U5swsNQRr4HcvzZCGsy8HyS_D83CGfp39UQ,3435
+xagg_no_xesmf_deps/core.py,sha256=c1rwLJd6pfVIjG0d_Ol0ooAiWzlGZXhP2hE63KQjRyg,29912
+xagg_no_xesmf_deps/export.py,sha256=SeHUfUWgF1706ZAcUN2pGKxU_GtN4Y9v0R-bqCfp7yc,11550
+xagg_no_xesmf_deps/wrappers.py,sha256=rtFv4bqNhNv2oX3SEtZjOCF2nqZtVqCWos7QgyaOcoE,3408
+xagg_no_xesmf_deps-0.3.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+xagg_no_xesmf_deps-0.3.0.3.dist-info/METADATA,sha256=ZEkPrq4w4yssNVEXy2rRkvs_tMGn2ukFoMuxs8z2VoI,6869
+xagg_no_xesmf_deps-0.3.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+xagg_no_xesmf_deps-0.3.0.3.dist-info/top_level.txt,sha256=wOTvKNzR8oWZirkTcb_xDp6ygaN3qG0uZOg6rkzW3f0,19
+xagg_no_xesmf_deps-0.3.0.3.dist-info/RECORD,,

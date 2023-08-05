@@ -1,0 +1,135 @@
+date,days,service_adjustments,in_effect,entity,sched_to_apply
+2022-01-01,Sat. New Year's Day,Sunday Schedules,ALL DIVISIONS,mtabus,Sunday
+2022-01-17,Mon. M. L. King's Birthday*,Reduced Weekday Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-02-01,Tue. Lunar New Year*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-02-21,Mon. President's Day,Saturday Schedules,ALL DIVISIONS EXCEPT CP,mtabus,Saturday
+2022-02-21,Mon. President's Day,"Modified Saturday Schedules (QM5, QM20)",COLLEGE POINT ONLY,mtabus,
+2022-02-21,Mon. President's Day,Reduced Weekday Schedules,-,mtabus,Weekday (school closed
+2022-02-22,Mid Winter Recess*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-02-23,Mid Winter Recess*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-02-24,Mid Winter Recess*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-02-25,Mid Winter Recess*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-03-13,Sun. Daylight Saving Time,Time Patches,ALL DIVISIONS,mtabus,
+2022-04-15,Spring Recess*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-04-16,Spring Recess*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-04-17,Spring Recess*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-04-18,Spring Recess*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-04-19,Spring Recess*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-04-20,Spring Recess*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-04-21,Spring Recess*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-04-22,Spring Recess*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-05-02,Mon. Eid Al Fitr*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-05-30,Mon. Memorial Day,Sunday Schedules,ALL DIVISIONS,mtabus,Sunday
+2022-06-09,Thu. Anniversary Day*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-06-20,Mon. Juneteenth (Observed)*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-06-27,Mon. (End of School Year)*,Early Dismissal - Weekday School Open Schedules,ALL DIVISIONS,mtabus,
+2022-06-28,Tue. - Thu.,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-06-29,Tue. - Thu.,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-06-30,Tue. - Thu.,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-07-01,Fri.,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-07-04,Mon. Independence Day,Saturday Schedules,ALL DIVISIONS,mtabus,Saturday
+2022-08-15,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-08-16,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-08-17,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-08-18,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-08-19,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-08-22,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-08-23,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-08-24,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-08-25,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-08-26,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-08-29,Mon. - Wed.,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-08-30,Mon. - Wed.,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-08-31,Mon. - Wed.,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-09-01,Thu. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-09-02,Thu. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-09-05,Mon. Labor Day,Sunday Schedules,ALL DIVISIONS,mtabus,Sunday
+2022-09-06,Teacher Prep Days*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-09-07,Teacher Prep Days*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-09-26,Mon. - Tue. Rosh Hashanah*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-09-27,Mon. - Tue. Rosh Hashanah*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-10-05,Wed. Yom Kippur,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-10-10,Mon. Indigenous People's Day,Reduced Weekday Schedules,-,mtabus,Weekday (school closed
+2022-10-10,Mon. Indigenous People's Day,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-11-06,Sun. Standard Time,Time Patches,ALL DIVISIONS,mtabus,
+2022-11-08,Tue. Election Day*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-11-11,Fri. Veterans Day*,Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-11-24,Thu. Thanksgiving,Sunday Schedules,ALL DIVISIONS,mtabus,Sunday
+2022-11-25,Fri. Day after Thanksgiving,Reduced Weekday Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-12-25,Sun. Christmas Day,Sunday Schedules,ALL DIVISIONS,mtabus,Sunday
+2022-12-26,Mon. Christmas Day (Observed),Saturday Schedules,ALL DIVISIONS,mtabus,Saturday
+2022-12-27,"Tue. - Fri., Christmas Week",Reduced Weekday Schedules,-,mtabus,Weekday (school closed
+2022-12-28,"Tue. - Fri., Christmas Week",Reduced Weekday Schedules,-,mtabus,Weekday (school closed
+2022-12-29,"Tue. - Fri., Christmas Week",Reduced Weekday Schedules,-,mtabus,Weekday (school closed
+2022-12-30,"Tue. - Fri., Christmas Week",Reduced Weekday Schedules,-,mtabus,Weekday (school closed
+2022-12-27,"Tue. - Fri., Christmas Week",Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-12-28,"Tue. - Fri., Christmas Week",Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-12-29,"Tue. - Fri., Christmas Week",Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-12-30,"Tue. - Fri., Christmas Week",Weekday School Closed Schedules,ALL DIVISIONS,mtabus,Weekday (school closed
+2022-01-01,Sat. New Year's Day,Sunday Schedules,ALL DIVISIONS,nyct,Sunday
+2022-01-17,Mon. M. L. King's Birthday*,Reduced Weekday Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-02-01,Tue. Lunar New Year*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-02-21,Mon. President's Day,Saturday Schedules,"Bk, Bx, Mn, Qns",nyct,Saturday
+2022-02-21,Mon. President's Day,"Modified Saturday Schedules (QM5, QM20)",-,nyct,
+2022-02-21,Mon. President's Day,Reduced Weekday Schedules,Staten Island Only,nyct,Weekday (school closed
+2022-02-22,Mid Winter Recess*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-02-23,Mid Winter Recess*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-02-24,Mid Winter Recess*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-02-25,Mid Winter Recess*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-03-13,Sun. Daylight Saving Time,Time Patches,ALL DIVISIONS,nyct,
+2022-04-15,Spring Recess*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-04-16,Spring Recess*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-04-17,Spring Recess*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-04-18,Spring Recess*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-04-19,Spring Recess*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-04-20,Spring Recess*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-04-21,Spring Recess*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-04-22,Spring Recess*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-05-02,Mon. Eid Al Fitr*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-05-30,Mon. Memorial Day,Sunday Schedules,ALL DIVISIONS,nyct,Sunday
+2022-06-09,Thu. Anniversary Day*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-06-20,Mon. Juneteenth (Observed)*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-06-27,Mon. (End of School Year)*,Early Dismissal - Weekday School Open Schedules,ALL DIVISIONS,nyct,
+2022-06-28,Tue. - Thu.,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-06-29,Tue. - Thu.,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-06-30,Tue. - Thu.,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-07-01,Fri.,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-07-04,Mon. Independence Day,Saturday Schedules,ALL DIVISIONS,nyct,Saturday
+2022-08-15,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-08-16,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-08-17,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-08-18,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-08-19,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-08-22,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-08-23,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-08-24,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-08-25,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-08-26,Mon. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-08-29,Mon. - Wed.,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-08-30,Mon. - Wed.,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-08-31,Mon. - Wed.,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-09-01,Thu. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-09-02,Thu. - Fri.,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-09-05,Mon. Labor Day,Sunday Schedules,ALL DIVISIONS,nyct,Sunday
+2022-09-06,Teacher Prep Days*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-09-07,Teacher Prep Days*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-09-26,Mon. - Tue. Rosh Hashanah*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-09-27,Mon. - Tue. Rosh Hashanah*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-10-05,Wed. Yom Kippur,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-10-10,Mon. Indigenous People's Day,Reduced Weekday Schedules,"Bk, Bx, Mn, Qns",nyct,Weekday (school closed
+2022-10-10,Mon. Indigenous People's Day,Weekday School Closed Schedules,Staten Island Only,nyct,Weekday (school closed
+2022-11-06,Sun. Standard Time,Time Patches,ALL DIVISIONS,nyct,
+2022-11-08,Tue. Election Day*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-11-11,Fri. Veterans Day*,Weekday School Closed Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-11-24,Thu. Thanksgiving,Sunday Schedules,ALL DIVISIONS,nyct,Sunday
+2022-11-25,Fri. Day after Thanksgiving,Reduced Weekday Schedules,ALL DIVISIONS,nyct,Weekday (school closed
+2022-12-25,Sun. Christmas Day,Sunday Schedules,ALL DIVISIONS,nyct,Sunday
+2022-12-26,Mon. Christmas Day (Observed),Saturday Schedules,ALL DIVISIONS,nyct,Saturday
+2022-12-27,"Tue. - Fri., Christmas Week",Reduced Weekday Schedules,"Bk, Bx, Mn, Qns",nyct,Weekday (school closed
+2022-12-28,"Tue. - Fri., Christmas Week",Reduced Weekday Schedules,"Bk, Bx, Mn, Qns",nyct,Weekday (school closed
+2022-12-29,"Tue. - Fri., Christmas Week",Reduced Weekday Schedules,"Bk, Bx, Mn, Qns",nyct,Weekday (school closed
+2022-12-30,"Tue. - Fri., Christmas Week",Reduced Weekday Schedules,"Bk, Bx, Mn, Qns",nyct,Weekday (school closed
+2022-12-27,"Tue. - Fri., Christmas Week",Weekday School Closed Schedules,Staten Island Only,nyct,Weekday (school closed
+2022-12-28,"Tue. - Fri., Christmas Week",Weekday School Closed Schedules,Staten Island Only,nyct,Weekday (school closed
+2022-12-29,"Tue. - Fri., Christmas Week",Weekday School Closed Schedules,Staten Island Only,nyct,Weekday (school closed
+2022-12-30,"Tue. - Fri., Christmas Week",Weekday School Closed Schedules,Staten Island Only,nyct,Weekday (school closed

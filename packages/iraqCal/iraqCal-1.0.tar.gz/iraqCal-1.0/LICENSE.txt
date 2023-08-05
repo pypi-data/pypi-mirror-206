@@ -1,0 +1,3 @@
+copyright = 2023 © Slour
+author = Slour
+namelib = calcul

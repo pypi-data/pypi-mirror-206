@@ -1,0 +1,7 @@
+README.md
+setup.py
+pycep_correios.egg-info/PKG-INFO
+pycep_correios.egg-info/SOURCES.txt
+pycep_correios.egg-info/dependency_links.txt
+pycep_correios.egg-info/requires.txt
+pycep_correios.egg-info/top_level.txt

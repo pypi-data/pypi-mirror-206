@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mongomini
+Version: 0.2.0
+Project-URL: Documentation, https://github.com/rykroon/mongomini#readme
+Project-URL: Issues, https://github.com/rykroon/mongomini/issues
+Project-URL: Source, https://github.com/rykroon/mongomini
+Author-email: Ryan Kroon <rykroon.tech@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.10
+Requires-Dist: motor==3.1.*
+Description-Content-Type: text/markdown
+
+# mongomini
+A minimalistic async MongoDB Object Mapping using Python dataclasses.
+

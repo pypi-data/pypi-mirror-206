@@ -1,0 +1,9 @@
+staplechain/__init__.py,sha256=SN0VXag-HkSeALVwpWCgNr4z3R3gua5g0GCimEq1n8Y,33
+staplechain/encoding.py,sha256=e37hGqrjPSwwJGoXjhrMImCA7RFLgWL66UYEJnSGAoc,1097
+staplechain/shims/openai.py,sha256=mj6WuSURaemuu-e_wby3l_PPsSXfTq8ReqgPw7XF5Rk,2954
+staplechain/staple.py,sha256=PeXLxcLu3LPx6MtpSVALQ9VEiRn58D6UMNGbqmrztv4,831
+staplechain/steganography.py,sha256=xSrf3ZSi6XW06Ujbu_VmXy7lmctCt3s4E4JUM5_DxtQ,2571
+staplechain-0.1.0.dist-info/LICENSE,sha256=TnpsFnMbTas9kbJZxpNgF5M8qZ8MiTrJO7VUy_iRxwI,1066
+staplechain-0.1.0.dist-info/METADATA,sha256=HPeCdfwtx5gw__KTU59IQxNmKA6CP7dohzdFsHHbckI,13469
+staplechain-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+staplechain-0.1.0.dist-info/RECORD,,

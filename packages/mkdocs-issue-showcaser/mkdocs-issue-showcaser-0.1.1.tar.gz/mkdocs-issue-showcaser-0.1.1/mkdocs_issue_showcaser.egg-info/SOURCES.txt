@@ -1,0 +1,10 @@
+README.md
+setup.py
+mkdocs_issue_showcaser/__init__.py
+mkdocs_issue_showcaser/plugin.py
+mkdocs_issue_showcaser.egg-info/PKG-INFO
+mkdocs_issue_showcaser.egg-info/SOURCES.txt
+mkdocs_issue_showcaser.egg-info/dependency_links.txt
+mkdocs_issue_showcaser.egg-info/entry_points.txt
+mkdocs_issue_showcaser.egg-info/requires.txt
+mkdocs_issue_showcaser.egg-info/top_level.txt

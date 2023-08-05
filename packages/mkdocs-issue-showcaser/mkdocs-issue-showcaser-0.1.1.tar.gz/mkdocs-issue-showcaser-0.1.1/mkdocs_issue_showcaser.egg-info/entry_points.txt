@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+issue-showcaser = mkdocs_issue_showcaser.plugin:IssueShowcaserPlugin

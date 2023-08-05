@@ -1,0 +1,3 @@
+mkdocs>=0.17
+jinja2
+PyGithub

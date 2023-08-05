@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/main.py
+src/blacklist_checker.egg-info/PKG-INFO
+src/blacklist_checker.egg-info/SOURCES.txt
+src/blacklist_checker.egg-info/dependency_links.txt
+src/blacklist_checker.egg-info/entry_points.txt
+src/blacklist_checker.egg-info/requires.txt
+src/blacklist_checker.egg-info/top_level.txt
+src/messaging/Mailer.py
+src/messaging/__init__.py
+src/requester/Black_list_checker.py
+src/requester/__init__.py
+test/test_mailer.py

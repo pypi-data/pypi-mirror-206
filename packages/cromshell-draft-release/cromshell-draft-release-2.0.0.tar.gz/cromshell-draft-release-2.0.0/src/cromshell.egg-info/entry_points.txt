@@ -1,0 +1,3 @@
+[console_scripts]
+cromshell-beta = cromshell.__main__:main_entry
+

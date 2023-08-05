@@ -1,0 +1,1 @@
+SLUG = "interactive_cli"

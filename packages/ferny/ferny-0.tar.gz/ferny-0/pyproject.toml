@@ -1,0 +1,42 @@
+[build-system]
+requires = [
+    "setuptools >= 61",
+    "setuptools_scm[toml] >= 6.2",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ferny"
+description = "A Python API wrapped around ssh(1)"
+authors = [{name = "Allison Karlitskaya", email = "allison.karlitskaya@redhat.com"}]
+license = {file = "COPYING"}
+readme = "README.md"
+classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"]
+dynamic = ["version"]
+
+[project.urls]
+Home = "https://github.com/allisonkarlitskaya/ferny/"
+
+[tool.setuptools_scm]
+write_to = "src/ferny/_version.py"
+
+[tool.mypy]
+mypy_path = 'src'
+[[tool.mypy.overrides]]
+module = ["mockssh"]
+ignore_missing_imports = true
+
+[tool.pylint]
+max-line-length = 118
+
+[tool.pytest.ini_options]
+addopts = ["--strict-markers"]
+pythonpath = ["src"]
+log_cli = true
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+source_pkgs = ["ferny"]
+branch = true

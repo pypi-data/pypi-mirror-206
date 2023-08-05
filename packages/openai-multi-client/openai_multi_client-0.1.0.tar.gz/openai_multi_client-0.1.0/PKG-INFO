@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: openai_multi_client
+Version: 0.1.0
+Summary: A parallel client for OpenAI API (and more)
+Author-email: Ziyang Hu <hu.ziyang@cantab.net>
+License: MIT
+Keywords: openai,client
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# A parallel client for OpenAI API (and more)
+
+WIP

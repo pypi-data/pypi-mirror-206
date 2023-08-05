@@ -1,0 +1,16 @@
+automatize-1.0b2.data/scripts/MARC.py,sha256=pAX66DZvELr6Aup3drUdZdhUL5HD8qsd4FTLl3kapIo,5246
+automatize-1.0b2.data/scripts/MAT-CheckRun.py,sha256=2kAG2bh0_93NcnXLkatekgfSPX-ZbHCJ6PER0acsQiQ,1447
+automatize-1.0b2.data/scripts/MAT-ExportMovelets.py,sha256=am1Ev3g0buXyGLJ1f627lbh32oSr5pxkKPn8jAl04tc,2297
+automatize-1.0b2.data/scripts/MAT-ExportResults.py,sha256=qyfFigNQsPB4ayms5dfhpDkovCeS2ggI5Wqh9oqCdqE,2914
+automatize-1.0b2.data/scripts/MAT-MC.py,sha256=rKBApQqntcpNcbL6RUf4Q7FJzl1nDNNGZMOoUYUckp8,2226
+automatize-1.0b2.data/scripts/MAT-MergeDatasets.py,sha256=q0jOcMj-rGxMSSqUQnEpiko1ahsKCYWHgk3ikYwJ-fY,1571
+automatize-1.0b2.data/scripts/MAT-ResultsTo.py,sha256=qeANKx5vzuVE1OvK9V3tHU5ba-l0UBadmcCdFJTzL74,2693
+automatize-1.0b2.data/scripts/MAT-TC.py,sha256=lv_00N43JF7BnkJT9l3D9JERF_8juWeGBn1s7Ld0nYM,2895
+automatize-1.0b2.data/scripts/MAT.py,sha256=cicEDUKawyO0Lyqalb1owBp4iBIOehIBvgLiSwycc7o,1761
+automatize-1.0b2.data/scripts/POIS-TC.py,sha256=k1Es8oYG0BFuaonOXsKGI-_P_-47sZp1p_djAaTcnMA,2946
+automatize-1.0b2.data/scripts/POIS.py,sha256=eNu5nEd-iF48JWJgPSf-9GaQWPmGGMQWagZqQC6zLms,3521
+automatize-1.0b2.dist-info/LICENSE,sha256=O9VvHsUEN2ejJEiQ_p9VAq5ySM8bw5wtCb-y85Wyg1s,35721
+automatize-1.0b2.dist-info/METADATA,sha256=bwq9rmULPw7FJhRwan-s1pDJLBrYiWSK7a-C7fslTBM,14128
+automatize-1.0b2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+automatize-1.0b2.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+automatize-1.0b2.dist-info/RECORD,,

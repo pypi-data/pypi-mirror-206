@@ -1,0 +1,2 @@
+graft nonebot_plugin_starrail_calendar
+prune nonebot_plugin_starrail_calendar/.git

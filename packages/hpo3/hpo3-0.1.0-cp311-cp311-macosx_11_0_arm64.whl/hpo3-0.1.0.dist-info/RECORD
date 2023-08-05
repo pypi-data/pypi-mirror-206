@@ -1,0 +1,7 @@
+hpo3-0.1.0.dist-info/METADATA,sha256=EX7j9jf_HUNypxlh_ObhQYpVtMKhSXYLN-DOe2u528c,5104
+hpo3-0.1.0.dist-info/WHEEL,sha256=kmEa7mwg1I42NcvGTWaaUFRAA5hXBXnQ-H2vvBf-F78,105
+hpo3/__init__.py,sha256=rfcwLAi6Y-0A8WBEAPleVIbizHirx2_VSdUFf0KbxWw,99
+hpo3/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hpo3/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hpo3/hpo3.cpython-311-darwin.so,sha256=krMUl5e7bSQ2VbOOcPELTtHLUZHurTsaTkuUr7PEVd4,1007335
+hpo3-0.1.0.dist-info/RECORD,,

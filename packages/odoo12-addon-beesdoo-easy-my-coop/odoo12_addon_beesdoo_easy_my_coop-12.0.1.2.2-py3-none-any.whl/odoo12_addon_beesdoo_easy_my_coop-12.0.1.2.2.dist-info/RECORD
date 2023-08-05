@@ -1,0 +1,12 @@
+odoo/addons/beesdoo_easy_my_coop/README.rst,sha256=UlJtvqoU-ewIQN-xaqRtM8Vhzf2yEptSSq3-HOWVSiI,1900
+odoo/addons/beesdoo_easy_my_coop/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/beesdoo_easy_my_coop/__manifest__.py,sha256=LGaQmCgLkWgUHoZtOad9bFT-Q9HYVv2HdTAz4dkahUU,394
+odoo/addons/beesdoo_easy_my_coop/i18n/beesdoo_easy_my_coop.pot,sha256=2T_62s-OoonWUW5mCPeLA8WOQV-FszQcdurSAtvuYmA,344
+odoo/addons/beesdoo_easy_my_coop/migrations/12.0.1.2.0/post-migrate.py,sha256=dFoBIRGI81GQ36vVble1TOG9PwBHsaqS13xcmOuK9lU,425
+odoo/addons/beesdoo_easy_my_coop/readme/CONTRIBUTORS.rst,sha256=K2QimJt4RcmOyF3BLlohmkZAOFWfLPxZxIS2w4Exhyc,30
+odoo/addons/beesdoo_easy_my_coop/readme/DESCRIPTION.rst,sha256=IDub0I4wY591nHF0ckFJahuxerM_yH16eLkst2DfGpo,77
+odoo/addons/beesdoo_easy_my_coop/static/description/index.html,sha256=kevKZavc6xsMqDbuIF2AEdDixenoa16Ri4I0DSbQXEo,10748
+odoo12_addon_beesdoo_easy_my_coop-12.0.1.2.2.dist-info/METADATA,sha256=7pLQdGri9ymVJVRtARa0o-zo7MmeFekrCXcl7YrVfw8,2512
+odoo12_addon_beesdoo_easy_my_coop-12.0.1.2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo12_addon_beesdoo_easy_my_coop-12.0.1.2.2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_beesdoo_easy_my_coop-12.0.1.2.2.dist-info/RECORD,,

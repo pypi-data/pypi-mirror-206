@@ -1,0 +1,10 @@
+tree_sitter_languages_lean.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
+tree_sitter_languages_lean.libs/libstdc++-a9383cce.so.6.0.28,sha256=Wy9UCdwS1rwI9GU5e7qE61S0AkRqqwti1q_adWSs-Rk,2447393
+tree_sitter_languages_lean-1.8.0.dist-info/METADATA,sha256=X4AgBJB4E79E43Tg6SF_0sC5IqxWhKxnciyQeHJPDzI,8475
+tree_sitter_languages_lean-1.8.0.dist-info/top_level.txt,sha256=1WmcNkOJg9xmImRjbeI-XQHXNsQox9gEShuMMeZC3jg,22
+tree_sitter_languages_lean-1.8.0.dist-info/RECORD,,
+tree_sitter_languages_lean-1.8.0.dist-info/WHEEL,sha256=rbVfYZzJiOCEiiKDVkaog3MWj3SC9SfTJ-H92vzqnHY,112
+tree_sitter_languages_lean-1.8.0.dist-info/LICENSE,sha256=p-khWTvpo1oB_ZC2zyMlUNxZiIIeYjcaOuy3E7DSdoo,575
+tree_sitter_languages/languages.so,sha256=f8k5rMOlt9ibqu-tLlHtDefHDZqd-KT-3uj6TseueO0,51806401
+tree_sitter_languages/__init__.py,sha256=aql2ilNr7fHNyxHrAotc0U9xKcOGvcLJIHMYuh5F0go,270
+tree_sitter_languages/core.cpython-36m-x86_64-linux-gnu.so,sha256=WjpiXasO4yjQnhEwfCEkwB2tuhHO5USf7yf16lNP3kA,165856

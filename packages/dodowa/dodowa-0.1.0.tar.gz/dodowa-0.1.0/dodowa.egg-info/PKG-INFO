@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: dodowa
+Version: 0.1.0
+Summary: A Python library for test
+Home-page: UNKNOWN
+Author: dodojalil
+Author-email: dodogmaicom@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: Windows
+Platform: Linux
+Platform: Android
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.2

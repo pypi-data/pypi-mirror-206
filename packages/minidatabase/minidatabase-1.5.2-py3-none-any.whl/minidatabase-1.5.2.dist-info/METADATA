@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: minidatabase
+Version: 1.5.2
+Summary: A tiny database system based on  python dictionary.
+Home-page: http://osdn.xyz
+Author: HansenL
+Author-email: hansenl@foxmail.com
+License: GNU GENERAL PUBLIC LICENSE
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: flask
+
+English Version
+
+MiniDB MiniDB is a lightweight database system written in Python, simple
+and easy to use, suitable for small projects and personal use. It
+supports common operations such as data addition, deletion, search, and
+clearing. install To use MiniDB, please download and install Python 3.
+x. Then, run the following command from the command line or terminal to
+install MiniDB: pip install minidatabase usage method Please refer to
+the following usage introduction to learn how to connect to a local
+database or WebMDB service, add/delete/search/empty data, and other
+common operations. Connect to database Firstly, use import minidb to
+import the inventory. Next, use the connect method or web\_ The connect
+method creates a cursor for manipulating data. Connect method: used to
+connect to a local database. It has a parameter, path, which represents
+the path to the local database. web\_ Connect method: used to connect to
+WebMDB services. It requires three parameters, namely password and
+server\_ Address and port, respectively, represent the password,
+address, and port of the WebMDB service. You can start the WebMDB Server
+service by running minidb - w, and create a local database by running
+minidb - c database name. minidb. Example: python from minidatabase
+import minidb #Connect to local database a =
+minidb.connect(鈥渢est.minidb鈥) #Connecting to WebMDB Services b =
+minidb.web\_ connect(鈥減assword鈥, 鈥渓ocalhost鈥, 8000) Operate Database
+After creating the cursor, you can use the following methods to
+manipulate the database: Append method: Append data. Example: a. append
+(tag, value). The above method is used to create a tag in the database
+and assign a value. You can also use this method to update a certain
+item of data. Delete method: Delete data. Example: a. delete (tag). The
+above code is used to delete items labeled as tags from the database.
+Len method: Obtain the database length. Since the database itself is a
+large dictionary, you can obtain the database length through this
+method. Example: print (鈥淒atabase length:% s鈥% str (a.len())). Search
+method: Search data through keywords. Example: result=a. search
+(鈥榢eyword鈥). search\_ Value method: Search for values through keywords.
+Example: result=a.search\_ value(鈥榢eyword鈥)銆 search\_ Tag method:
+Search for keys through keywords. Example: result=a.search\_
+tag(鈥榢eyword鈥)銆 Clean method: Clear the database. Example: a. clean().
+List method: List all database items on the terminal. Example: a.list().
+After editing the database, remember to use the commit method to submit
+the data, so that the changes you make to the database will be
+synchronized to the database. Finally, use the close method to close the
+link to the database. Example: python #Add a piece of data
+a.append(鈥榥ame鈥, 鈥楢lice鈥) #Submit Changes a.commit() #Search all data
+result = a.search(鈥楢lice鈥) #Output Results print(result) #Clear and
+close the database a.clean() a.commit #Commit database transactions
+a.close() Contribution Guidelines Welcome to contribute to MiniDB! If
+you find bugs or have any improvement suggestions, please submit an
+issue or pull request on GitHub and we will handle it promptly. Submit
+Issue: Create a new issue on the Issues page, describing the detailed
+information and recurrence steps of the issue. Submit pull request:
+Modify the code on your local branch, then push the modifications to
+GitHub, create a new pull request, and describe your changes. Before
+submitting the code, please ensure that you have tested your code and
+comply with the PEP8 specification and project coding style

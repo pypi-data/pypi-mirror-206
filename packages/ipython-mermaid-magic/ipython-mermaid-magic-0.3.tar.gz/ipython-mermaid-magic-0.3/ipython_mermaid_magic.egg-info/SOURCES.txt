@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+MermaidMagic/Mermaid.py
+MermaidMagic/__init__.py
+ipython_mermaid_magic.egg-info/PKG-INFO
+ipython_mermaid_magic.egg-info/SOURCES.txt
+ipython_mermaid_magic.egg-info/dependency_links.txt
+ipython_mermaid_magic.egg-info/requires.txt
+ipython_mermaid_magic.egg-info/top_level.txt

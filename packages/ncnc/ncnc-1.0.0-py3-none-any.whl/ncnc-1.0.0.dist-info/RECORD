@@ -1,0 +1,8 @@
+ncnc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ncnc/c_value.py,sha256=-E8GOXrirPBa4sbPeieOhZF976bVDO_E43_b4F-oX_Q,2143
+ncnc/logging.py,sha256=u5SRJfUCKEuR8Xsbk7dKI_wP3s20eIGVImJolPBeGA4,93
+ncnc/nc_value.py,sha256=EjEZJvPXtdJ7WynDdixIETXxNqRql95YZzlJXvQEiL0,2995
+ncnc-1.0.0.dist-info/LICENSE,sha256=uYZc-YvWVpCvKy_yXKin3qub1Ez-ze8_v_gs6NzC1h4,1070
+ncnc-1.0.0.dist-info/METADATA,sha256=drCatQqJ4XXWLeN5aw-23TaQcdsNQpJUcizTbNDlHQw,3264
+ncnc-1.0.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+ncnc-1.0.0.dist-info/RECORD,,

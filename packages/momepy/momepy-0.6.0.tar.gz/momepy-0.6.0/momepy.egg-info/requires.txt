@@ -1,0 +1,7 @@
+geopandas>=0.8.0
+libpysal>=4.6.0
+networkx>=2.3
+packaging
+pandas!=1.5.0
+shapely>=2
+tqdm>=4.27.0

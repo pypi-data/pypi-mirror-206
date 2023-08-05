@@ -1,0 +1,9 @@
+mongomini/__about__.py,sha256=clN3TnyYyt5T_wUJLVBmutS2kYLLBET4JFB2QXnRm2Q,21
+mongomini/__init__.py,sha256=sFMd3Ug7crXG79PIgQ8Y0-UgcSmpZiSiAuf7rnuK1M0,176
+mongomini/dataclasses.py,sha256=-LkdTcTPKiy_bKGESRAHJwpp3StSxpEesHApMm0yTxk,4910
+mongomini/documents.py,sha256=9kyvWjd0k4OKs-po9JlDRqcW63HOG1WcrWiWtqPHpQ4,2032
+mongomini/exceptions.py,sha256=gvuJJCu4Uz4EU659G9ts6QURJiyRy4QUAQd5qkgR-Rc,102
+mongomini-0.2.0.dist-info/METADATA,sha256=b1Qj4RJ_cT4mruaC4PbRthCBMVUrAWtNHrukvC1OdKM,780
+mongomini-0.2.0.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+mongomini-0.2.0.dist-info/licenses/LICENSE,sha256=OSSd1BILGf8iRfs3BcLv_0TQggD-Pz3yurhq9xCoL40,1066
+mongomini-0.2.0.dist-info/RECORD,,

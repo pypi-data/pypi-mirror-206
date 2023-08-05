@@ -1,0 +1,4 @@
+specd>=0.8.2
+backoff>=1.10.0
+structlog>=20.1.0
+flask==1.0.2

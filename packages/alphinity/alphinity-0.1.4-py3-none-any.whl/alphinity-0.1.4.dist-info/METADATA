@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: alphinity
+Version: 0.1.4
+Summary: alphinity encodes integers to alphabetize in ascending order.
+Author-email: Matthew Andres Moreno <m.more500@gmail.com>
+License: MIT
+Project-URL: Documentation, https://github.com/mmore500/alphinity
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: mypy (>=0.910) ; extra == 'dev'
+Requires-Dist: black (>=21.10b0) ; extra == 'dev'
+Requires-Dist: ruff (>=0.0.98) ; extra == 'dev'
+Requires-Dist: pre-commit (>=2.17.0) ; extra == 'dev'
+Requires-Dist: wheel (>=0.37.1) ; extra == 'dev'
+Requires-Dist: setuptools (>=65.6.3) ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest (>=6.2.5) ; extra == 'test'
+Requires-Dist: coverage (>=6.1.1) ; extra == 'test'
+Requires-Dist: pytest-cov (>=3.0.0) ; extra == 'test'
+Requires-Dist: numpy ; extra == 'test'
+
+# alphinity
+
+alphinity encodes integers to alphabetize in ascending order.
+
+```python3
+from alphinity import encode
+
+encode(100)  # -> "ccv"
+
+# passes
+assert sorted(map(encode, range(10**6))) == [*map(encode, range(10**6))]
+```
+
+For stable encoding,
+```python3
+from alphinity.v1 import encode
+```
+
+## Notes
+
+Alphabetization doesn't work strictly infinitely, just through very, very high integers i.e., `1e35`.
+
+Non-negative integers only.

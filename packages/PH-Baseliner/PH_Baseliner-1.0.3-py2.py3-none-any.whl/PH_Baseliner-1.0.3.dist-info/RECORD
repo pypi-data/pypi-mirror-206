@@ -1,0 +1,17 @@
+ph_baseliner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ph_baseliner/codes/ECCCNYS_2020.json,sha256=oiS50yIOru_EotOKzUHa4xc4mRdpjKJfY10FbhOBxQE,12440
+ph_baseliner/codes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ph_baseliner/codes/lighting_space_types.py,sha256=w6jndITad-AlLYSkZ1InNcyWJmBpNpSPYUaJc-2o3v0,2071
+ph_baseliner/codes/model.py,sha256=_bdbGnKYdZ5f7Fnx9uJYaIEtMNN_NQzy1OJr4hzuvSE,7415
+ph_baseliner/codes/options.py,sha256=7d-BCSGcehwTPqurko40lS3jQkryMktpFd_khHbl1Eo,764
+ph_baseliner/phpp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ph_baseliner/phpp/areas.py,sha256=Jq-Rojfkj0gNUGx84TW2bSJ8D1zRq9vPMJzJzQi7Xe0,4264
+ph_baseliner/phpp/components.py,sha256=E-eg3FRTeRCvAjnsmQ2CGRl0Ih44J7j9zHrOe3KZqsA,1776
+ph_baseliner/phpp/lighting.py,sha256=VoHBH-jx7B8nuiQqYG-LMS026LtGY6DJ6_K6d1GQyv0,1664
+ph_baseliner/phpp/u_values.py,sha256=zPTWxlFSzouXYaCPOgRfOJ22plJYBU5TWKS18bG3TNo,5540
+ph_baseliner/phpp/windows.py,sha256=bIow1hhss_TGjZT9maNZE1FpGnjYKUd0MOkc8h5SIZ0,5123
+PH_Baseliner-1.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+PH_Baseliner-1.0.3.dist-info/METADATA,sha256=2wtWLjEcf4msPVeOp_9P27gdh5a4Mphxt8joVSE-ihA,2241
+PH_Baseliner-1.0.3.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+PH_Baseliner-1.0.3.dist-info/top_level.txt,sha256=ykkhuA8VTGv6Ivbz0hau_zZjCLUg038oRj_2Y19Do2Q,13
+PH_Baseliner-1.0.3.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+jamstack = jamstack.__main__:main

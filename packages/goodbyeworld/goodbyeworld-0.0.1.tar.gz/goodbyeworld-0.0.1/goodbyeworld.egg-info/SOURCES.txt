@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+goodbyeworld/__init__.py
+goodbyeworld.egg-info/PKG-INFO
+goodbyeworld.egg-info/SOURCES.txt
+goodbyeworld.egg-info/dependency_links.txt
+goodbyeworld.egg-info/top_level.txt

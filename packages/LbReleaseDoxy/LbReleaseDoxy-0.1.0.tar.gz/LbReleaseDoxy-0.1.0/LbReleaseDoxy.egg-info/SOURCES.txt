@@ -1,0 +1,7 @@
+setup.py
+LbRelease/__init__.py
+LbRelease/_LHCbDocResources/__init__.py
+LbReleaseDoxy.egg-info/PKG-INFO
+LbReleaseDoxy.egg-info/SOURCES.txt
+LbReleaseDoxy.egg-info/dependency_links.txt
+LbReleaseDoxy.egg-info/top_level.txt

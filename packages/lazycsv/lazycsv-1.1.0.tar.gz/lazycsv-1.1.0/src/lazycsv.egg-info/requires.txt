@@ -1,0 +1,10 @@
+
+[benchmarks]
+datatable
+pandas
+pyarrow
+polars
+
+[test]
+pytest
+numpy

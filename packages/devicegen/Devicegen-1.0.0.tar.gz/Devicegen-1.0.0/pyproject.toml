@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Devicegen"
+version = "1.0.0"
+description = "A Gated Heterostructure Device Generator"
+readme = "README.md"
+authors = [{ name = "Felix Beaudoin", email = "fbeaudoin@nanoacademic.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["Heterostructure", "Gmesh"]
+dependencies = [
+    "gmsh >= 4.9.5",
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+
+[project.urls]
+Homepage = "https://github.com/nanoacademic/devicegen"
+
+[project.scripts]

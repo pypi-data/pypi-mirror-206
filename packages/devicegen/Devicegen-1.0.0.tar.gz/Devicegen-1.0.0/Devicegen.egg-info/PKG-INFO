@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Devicegen
+Version: 1.0.0
+Summary: A Gated Heterostructure Device Generator
+Author-email: Felix Beaudoin <fbeaudoin@nanoacademic.com>
+Project-URL: Homepage, https://github.com/nanoacademic/devicegen
+Keywords: Heterostructure,Gmesh
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

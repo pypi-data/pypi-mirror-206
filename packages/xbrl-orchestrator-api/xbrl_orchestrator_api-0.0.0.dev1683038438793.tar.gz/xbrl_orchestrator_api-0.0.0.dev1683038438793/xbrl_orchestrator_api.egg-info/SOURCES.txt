@@ -1,0 +1,6 @@
+module.py
+setup.py
+xbrl_orchestrator_api.egg-info/PKG-INFO
+xbrl_orchestrator_api.egg-info/SOURCES.txt
+xbrl_orchestrator_api.egg-info/dependency_links.txt
+xbrl_orchestrator_api.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+python-dateutil
+aiosow
+aiohttp
+yake
+web3
+playwright-stealth
+fasttext-langdetect
+lxml
+pyyaml
+playwright==1.31.1
+argostranslate

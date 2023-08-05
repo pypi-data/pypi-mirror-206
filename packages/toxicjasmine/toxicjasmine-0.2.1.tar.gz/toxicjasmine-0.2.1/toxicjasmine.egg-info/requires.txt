@@ -1,0 +1,4 @@
+jasmine==3.5.0
+jasmine-core==3.5.0
+Jinja2==2.10.3
+markupsafe==2.0.1

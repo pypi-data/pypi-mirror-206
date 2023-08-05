@@ -1,0 +1,13 @@
+README.rst
+setup.py
+pychatgpt_gui/__init__.py
+pychatgpt_gui/api.py
+pychatgpt_gui/app.py
+pychatgpt_gui/pygpt4all_cli.py
+pychatgpt_gui/utils.py
+pychatgpt_gui/voice_bot.py
+pychatgpt_gui.egg-info/PKG-INFO
+pychatgpt_gui.egg-info/SOURCES.txt
+pychatgpt_gui.egg-info/dependency_links.txt
+pychatgpt_gui.egg-info/requires.txt
+pychatgpt_gui.egg-info/top_level.txt

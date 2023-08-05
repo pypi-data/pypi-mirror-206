@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: jaxts
+Version: 0.0.1
+Summary: A Jax based python package for time series
+Home-page: https://github.com/michaelellis003/JaxTS
+License: MIT
+Keywords: Time Series,State Space Models,Dynamic Linear Models
+Author: Michael Ellis
+Author-email: michael@mlellis.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/michaelellis003/JaxTS
+Description-Content-Type: text/markdown
+
+# JaxTS
+
+A Jax based python package for Time Series
+

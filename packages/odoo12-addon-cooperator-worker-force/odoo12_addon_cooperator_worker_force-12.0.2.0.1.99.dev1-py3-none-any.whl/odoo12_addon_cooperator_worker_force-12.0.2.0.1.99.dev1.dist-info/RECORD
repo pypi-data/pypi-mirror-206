@@ -1,0 +1,17 @@
+odoo/addons/cooperator_worker_force/README.rst,sha256=US6rp01gH1pZgXfW3qHxMnBsqS5yebqEHTlG9yiB23Q,2002
+odoo/addons/cooperator_worker_force/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/cooperator_worker_force/__manifest__.py,sha256=s379kUGxbwZSQ88hKwvHH4EqCyi7oN-kkbzbiboomgM,450
+odoo/addons/cooperator_worker_force/i18n/cooperator_worker_force.pot,sha256=spo_MqUFKz7RfnS91YbquqlfaTVaAQ0-iPqkk6TkIoI,1076
+odoo/addons/cooperator_worker_force/models/__init__.py,sha256=g-Dp2ZwN6oB4CqdQfgRInNSzdMWAVQg1vjWL7S-ZODM,26
+odoo/addons/cooperator_worker_force/models/res_partner.py,sha256=j7CE-8tKhVyZ-whzAg5bHML2E69YFthVFLuzAXgJrz4,1259
+odoo/addons/cooperator_worker_force/readme/CONTRIBUTORS.rst,sha256=7-I7m-DO-DbDZY1RB1jdbe_uoscHLBSxY1snYO-gCEw,35
+odoo/addons/cooperator_worker_force/readme/CREDITS.rst,sha256=0oT9gxt90q9COdabH2ABGTYxpO-yIxz5UYrSenm_V0A,14
+odoo/addons/cooperator_worker_force/readme/DESCRIPTION.rst,sha256=zpLG7OzsqeM2911XhdR5NIaXC_JQ3A6-fzH1tN78jsE,119
+odoo/addons/cooperator_worker_force/static/description/index.html,sha256=EuY8Oqb13wUT7bN2MNp9aNBleelHNYGdDxWp9sq-xd0,11085
+odoo/addons/cooperator_worker_force/tests/__init__.py,sha256=85ueEQ88UPtuR7RDH-M9ZjiKtWjkrj254f1OEX3Yi3s,32
+odoo/addons/cooperator_worker_force/tests/test_worker_store.py,sha256=AQs3M-sRIZshG3a2lazqk2bwEVd22Mdl9q5S9VzEjPQ,575
+odoo/addons/cooperator_worker_force/views/res_partner.xml,sha256=LEH4MjWbqFBINmSrJX90Pdc0iJzCh5fyRknVEY8DiHM,552
+odoo12_addon_cooperator_worker_force-12.0.2.0.1.99.dev1.dist-info/METADATA,sha256=9McL2CNf2l3isu9hYdTiEsjqwhIvdIxxaqeZxpaOTj0,2590
+odoo12_addon_cooperator_worker_force-12.0.2.0.1.99.dev1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo12_addon_cooperator_worker_force-12.0.2.0.1.99.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_cooperator_worker_force-12.0.2.0.1.99.dev1.dist-info/RECORD,,

@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: TrimPypi
+Version: 0.0.2
+Summary: Pypi上传工具本地配套文件初始化管理。
+Home-page: https://github.com/TriM-Organization/TrimPypi
+Author: bgArray
+Author-email: TriM-Organization@hotmail.com
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TrimPypi
+
+#### 介绍
+Pypi上传工具本地配套文件初始化管理。
+
+#### 软件架构
+可以直接在项目目录下运行命令以完成初始化设置。

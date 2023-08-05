@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+TrimPypi/__init__.py
+TrimPypi/main.py
+TrimPypi.egg-info/PKG-INFO
+TrimPypi.egg-info/SOURCES.txt
+TrimPypi.egg-info/dependency_links.txt
+TrimPypi.egg-info/top_level.txt

@@ -1,0 +1,1 @@
+info = "This was the first capital of Shivaji Maharaj's newly created Swaraj"

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lotrsdkbybnelson0
+Version: 1.0.0
+Summary: Python SDK for interacting with The One Ring API
+Home-page: https://github.com/bobnelson0/lotrsdk-package
+Author: Robert (Bobby) Nelson
+Author-email: bob.nelson@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: requests (>=2.29.0)
+
+Python SDK for interacting with The One Ring API
+

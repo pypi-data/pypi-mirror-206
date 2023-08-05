@@ -1,0 +1,2 @@
+include PyTerm_Shell/config.json
+include PyTerm_Shell/styles.css

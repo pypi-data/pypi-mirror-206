@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+PyTerm/__init__.py
+PyTerm/cli_assist.py
+PyTerm_Shell.egg-info/PKG-INFO
+PyTerm_Shell.egg-info/SOURCES.txt
+PyTerm_Shell.egg-info/dependency_links.txt
+PyTerm_Shell.egg-info/entry_points.txt
+PyTerm_Shell.egg-info/top_level.txt

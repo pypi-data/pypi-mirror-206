@@ -1,0 +1,165 @@
+# Everything should land in subdirectories of ~/emc by default
+path_prefix: ${oc.env:HOME}/emc
+
+# Version tag. Please increment when data changes
+v: v15
+
+hydra:
+  run:
+    # Where to write logs and config copies
+    dir: ${path_prefix}/${v}/hydra_outputs/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}
+
+
+# Metadata spreadsheet
+sheet_path: ${path_prefix}/emcapsulin/emcapsulin_data.xlsx
+# Where to write results of splitdataset.py
+isplit_data_path: ${path_prefix}/emcapsulin/isplitdata_${v}
+# Data selection: spreadsheet column name for training and validation subsets
+tr_group: all2
+# Optionally specify different evaluation group (-> cross-domain generalization test).
+# Special value "everything" means every image that belongs to any group is used.
+ev_group: everything
+
+# Minimum particle size. Smaller connected components are removed automatically
+minsize: 60
+
+## Segmentation training
+segtrain:
+  # Where to save training results (model checkpoints, logs, ...)
+  save_root: ${path_prefix}/${v}/seg_trainings/seg_trainings_${v}_tr-${tr_group}
+
+  exp_name:
+  constraintype:
+  max_steps: 300001
+  seed: 0
+
+  # Hyperparams
+  lr: 1e-3
+  lr_stepsize: 1000
+  lr_dec: 0.99
+  batch_size: 8
+
+## Full dataset batch inference
+segment:
+  # Custom image source path override for testing (outside of the main image database).
+  #    Can be a path to an image or to a directory of images.
+  inp_path:
+  # If true and inp_path is set, override results_root path to a path next to inp_path
+  relative_out_path: true
+  # Path to trained segmentation model
+  segmenter: unet_${tr_group}_${v}
+  # Path to trained classifier model (optional)
+  #classifier: auto  # <- not yet possible because models are not ready yet
+  classifier: effnet_${tr_group}_${v}
+  # Threshold for segmentation foreground vs. background decision. Can be between 0 and 255 (127 means ~ 50%)
+  thresh: 127
+  # Where to write results
+  results_root: ${path_prefix}/${v}/seg_results/seg_results_${v}_tr-${tr_group}
+  # Number of test-time augmentation passes to use (can be 0, 1 or 2)
+  tta_num: 2
+  # Types of outputs that should be produced
+  desired_outputs:
+    - raw
+    - thresh
+    - lab
+    - overlays
+    - error_maps
+    - probmaps
+    - cls_overlays
+    - metrics
+  # Minimum circularity measure for segmented particle shapes (4*pi*area / perimeter^2). Value can be between 0 and 1. High values mean more strict filtering. Value 1 will filter out everything that does not have a perfect circle shape. 0 disables filtering.
+  min_circularity: 0.8
+  # Constrained classification: list of allowed classes
+  constrain_classifier_configs:
+    - [1M-Qt, 2M-Qt, 3M-Qt, 1M-Mx, 2M-Mx, 1M-Tm]  # all classes, no constraints
+    - [1M-Qt, 1M-Mx]
+    - [3M-Qt, 1M-Mx]
+    - [1M-Qt, 3M-Qt, 1M-Mx]
+
+## EMcapsulin patch dataset creation based on segmentation
+patchifyseg:
+  # Where to write output patch dataset
+  patch_out_path: ${path_prefix}/${v}/patches/patches_${v}_tr_${tr_group}
+  # Path to trained segmentation model
+  segmenter: unet_${tr_group}_${v}
+  # Threshold for segmentation foreground vs. background decision. Can be between 0 and 255 (127 means ~ 50%)
+  thresh: 100
+  # Radius of the disk footprint by which the binary segmentation will be dilated before processing patches (postprocessing to increase covered area)
+  dilate_masks_by: 5
+  # Minimum circularity measure for segmented particle shapes (4*pi*area / perimeter^2). Value can be between 0 and 1. High values mean more strict filtering. Value 1 will filter out everything that does not have a perfect circle shape. 0 disables filtering.
+  min_circularity: 0.8
+  # Maximum expected radius of particles (in pixels). Determines the patch size around the particle centroid: patch size is (ec_region_radius * 2 + 1)^2
+  ec_region_radius: 24
+  # Number of test-time augmentation passes to use (can be 0, 1 or 2)
+  tta_num: 2
+
+  # If true, use human-annotated GT labels from isplit_data_path instead of doing automatic segmentation on the fly based on a neural network model
+  use_gt: false
+  # Treat all images as validation images, regardless of name
+  all_validation: false
+
+## EMcapsulin patch classification training
+patchtrain:
+  # Where to find the patch dataset to train on
+  patch_ds_sheet: ${path_prefix}/${v}/patches/patches_${v}_tr_${tr_group}/patchmeta_traintest.xlsx
+  # Where to save training results (model checkpoints, logs, ...)
+  save_root: ${path_prefix}/${v}/patch_trainings/patch_trainings_${v}_tr-${tr_group}
+
+  exp_name:
+  constraintype:
+  max_steps: 120001
+  seed: 0
+
+  # Hyperparams
+  lr: 1e-3
+  lr_stepsize: 1000
+  lr_dec: 0.9
+  batch_size: 128
+
+
+## EMcapsulin patch classification evaluation
+patcheval:
+  # Where to find the patch dataset to evaluate
+  patch_ds_sheet: ${path_prefix}/${v}/patches/patches_${v}_tr_${tr_group}/patchmeta_traintest.xlsx
+  # Path to trained classifier model for evaluation
+  classifier: effnet_${tr_group}_${v}
+  # Maximum of patch samples per image for majority vote. 0 means no limit (all patches are used). (default: 1).
+  max_samples: 1
+  # Number of independent draws for majority vote.
+  rdraws: 1000
+  # Where to write eval outputs. Default: Write directly into the patch ds path
+  eval_out_path: ${patchifyseg.patch_out_path}/eval
+  # If true, automatically add a constraint descriptor suffix to the final component of eval_out_path if not all classes are selected. If false, eval_out_path is not changed
+  use_constraint_suffix: false
+
+  # Constrained classification: list of allowed classes
+  constrain_classifier:
+    - 1M-Mx
+    - 1M-Qt
+    - 2M-Mx
+    - 2M-Qt
+    - 3M-Qt
+    - 1M-Tm
+
+
+## Average image creation from patches
+averagepatches:
+  # Where to find the patch dataset in which to look for images to average
+  patch_ds_sheet: ${path_prefix}/${v}/patches/patches_${v}_tr_${tr_group}/patchmeta_traintest.xlsx
+  # Optional. If specified, restrict patche sampling to this one dataset name
+  dataset_name: single_class_HEK
+  # If true, sample by source image. Else, sample per enctype. Default: false
+  by_img: false
+  # Number of patches to randomly sample for averaging
+  max_num_patches_per_avg: 100
+  # If true, exclude patches that were reserved for training.
+  exclude_train_data: true
+  # If true, exclude patches that were reserved for validation.
+  exclude_validation_data: false
+
+  seed: 0
+
+## General constants, not meant to be changed
+dataset_mean: [128.,]  # For normalization. Not the actual mean.
+dataset_std: [128.,]  # For normalization. Not the actual std.
+label_name: encapsulins  # File name suffix of label files

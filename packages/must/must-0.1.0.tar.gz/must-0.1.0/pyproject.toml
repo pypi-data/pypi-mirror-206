@@ -1,0 +1,27 @@
+
+
+[project]
+name = "must"
+version = "0.1.0"
+description = "Multi-Stage Programming for Python"
+authors = []
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["must"]
+classifiers = [
+    "Topic :: Software Development",
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+  "libcst"
+]
+
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
+
+[tool.autopep8]
+indent-size = 4
+max_line_length = 120
+ignore = "E226,E302,E301,E241"
+

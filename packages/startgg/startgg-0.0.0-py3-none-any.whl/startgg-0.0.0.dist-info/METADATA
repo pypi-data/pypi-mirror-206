@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: startgg
+Version: 0.0.0
+Summary: Python wrapper for the start.gg GraphQL API, built using ariadne-codegen
+Author: Charlie Wilson
+Author-email: charles.ep.wilson@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Games/Entertainment
+Requires-Dist: httpx (>=0.24,<0.25)
+Requires-Dist: pydantic (>=1.10,<2.0)
+Project-URL: Bug Tracker, https://github.com/LukeBotFanClub/startgg/issues
+Project-URL: Homepage, https://github.com/LukeBotFanClub/startgg
+Project-URL: repository, https://github.com/LukeBotFanClub/startgg.git
+Description-Content-Type: text/markdown
+
+# startgg
+Python wrapper for the start.gg GraphQL API, built using ariadne-codegen
+

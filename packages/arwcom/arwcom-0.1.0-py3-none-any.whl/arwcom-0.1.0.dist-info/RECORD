@@ -1,0 +1,12 @@
+arwcom/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arwcom/__main__.py,sha256=i3tg0y6BulDZiCmoDUlhCyrveSpPO9WDMQd03Jv9ErM,384
+arwcom/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arwcom/client/client.py,sha256=RLq4sb_P_wMRy_yddnjMDD-ImzipDmykCGa-MgW_JQo,587
+arwcom/combaseapi.py,sha256=VLsfjRfUssz7byXBd8jqfBQzmsX9Fe1aG-EMpiLkcgg,1000
+arwcom/guiddef.py,sha256=62dMNAjwc5NMedFh3y7qjK1GuCFouMrgBp_bvP-pusw,1332
+arwcom/iunknown.py,sha256=QbD9SNF1jDoC6NfJkQVw36y_WmyioF00156AQA1W5As,960
+arwcom/wintypesbase.py,sha256=hZFGTP5_PxXZl8GKQSqaGduKjc_9v-RTJfaAvUlTHls,380
+arwcom-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+arwcom-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+arwcom-0.1.0.dist-info/METADATA,sha256=SDqb5aqRpJx2_c64newBiY7l0THh9Fqe4DOKNZtaNNo,5812
+arwcom-0.1.0.dist-info/RECORD,,

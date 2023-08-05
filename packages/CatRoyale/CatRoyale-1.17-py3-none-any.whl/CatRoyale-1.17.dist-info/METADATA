@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: CatRoyale
+Version: 1.17
+Summary: A cat themed battle royale game
+Home-page: https://github.com/Iseroo/Python-kotprog
+Author: Tarsoly Barnabás
+Author-email: tarsoly.barnabas2002@gmail.com
+Requires-Dist: pygame
+Requires-Dist: webcolors
+Requires-Dist: pillow
+Requires-Dist: ordered-set
+

@@ -1,0 +1,2 @@
+[console_scripts]
+trade-republic-api = trade_republic_api.cli:main

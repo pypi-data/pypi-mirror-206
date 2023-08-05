@@ -1,0 +1,17 @@
+llamabot/__init__.py,sha256=-8CGGt-BDQKGO10MONYUEQMKwD2tHUxzvTCfgceRB7o,339
+llamabot/cli.py,sha256=rPn6sM37-fh4QMgK0gii2F4WUuhZxz440YEQvl6LwRY,652
+llamabot/doc_processor.py,sha256=_qJain70RYTcR8c_3URF0vP9HpuF6XzvkYi3QQ7HeQw,2167
+llamabot/file_finder.py,sha256=LCRbrXPS3sG0w68T4vBBLfOc_6U9vZk8wedbv2wAwb8,1094
+llamabot/panel_utils.py,sha256=ePrZfHvBj47aFHT6t5xsC95faUW-YyqmtaPBYudorfM,2717
+llamabot/recorder.py,sha256=nh6wy8wdm8W0_OufNpr3ljtTAfu7AuIZOcW4Wnq1Yko,2025
+llamabot/schemas.py,sha256=_dYw3aCpotoutfOVwvHkDr_oE1ACMaB0RNpjEwuX8CI,182
+llamabot/utils.py,sha256=l1LvaBoIFhEBcVWht_LNO0jtFYaHu1fj646HaG4nYBs,30
+llamabot/bot/__init__.py,sha256=yWE5Z84UQmVQfQNTPQjHqihtG0I_Mn4TqBbx62d2RA8,371
+llamabot/bot/chatbot.py,sha256=MoedQ5-qOz57loJNq01HESffC7uY57Ulu918ljGoDek,4664
+llamabot/bot/querybot.py,sha256=MN4FrtOH0nGLXpiUvqfzQMpC2BRiJd9UI4YmoMflqs8,6886
+llamabot/bot/simplebot.py,sha256=hs39jVcS8lZqeZBkACEPcF-bKlu9bzWSpp-6oxMKIBo,4110
+llamabot-0.0.11.dist-info/METADATA,sha256=T7HwZzLOCEgED8YNAZDsiM7ZzmBO746eonMDkqhJbTc,373
+llamabot-0.0.11.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+llamabot-0.0.11.dist-info/entry_points.txt,sha256=Zb1vXJlvgR7kK6HzXVgZlhMphkVvk--lqg6gHDqb0LU,46
+llamabot-0.0.11.dist-info/top_level.txt,sha256=_gsoRb8h5xRbEsBN5hGf_sh958mchqHJvg8GTseY5qg,9
+llamabot-0.0.11.dist-info/RECORD,,

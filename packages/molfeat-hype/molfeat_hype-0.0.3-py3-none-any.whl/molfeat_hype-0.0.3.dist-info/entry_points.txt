@@ -1,0 +1,3 @@
+[molfeat.trans.pretrained]
+hyper.InstructLLMTransformer = molfeat_hype.trans.llm_instruct_embeddings:InstructLLMTransformer
+hyper.LLMTransformer = molfeat_hype.trans.llm_embeddings:LLMTransformer

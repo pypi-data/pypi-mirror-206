@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: PyTerm-Shell
+Version: 0.1.0
+Summary: Making an aesthetic minimalist Linux shell in Python
+Home-page: https://github.com/MetalKamina/PyTerm
+Author: Nick Tsiones
+Author-email: ntsiones@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+

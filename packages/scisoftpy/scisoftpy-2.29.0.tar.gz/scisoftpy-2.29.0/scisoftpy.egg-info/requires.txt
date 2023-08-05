@@ -1,0 +1,6 @@
+h5py
+pillow
+six
+
+[:python_version < "3" and os_name == "posix"]
+subprocess32

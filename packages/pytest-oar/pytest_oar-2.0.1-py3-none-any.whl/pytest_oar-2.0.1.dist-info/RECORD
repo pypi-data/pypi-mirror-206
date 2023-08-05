@@ -1,0 +1,11 @@
+setup.py,sha256=oIWhtZR86Ey4tXiYn6HNb7izKCTy3AnmJT9hu7U43tQ,70
+oar/__init__.py,sha256=9V_jU5MJRF8UZq5q90VK-L-anAYSE31JAX8O0nuwW8o,266
+oar/client.py,sha256=0VVjky-kGe5FQuJsNAi1EGfJYOJs1OrrqMpM30530R0,6445
+oar/config.py,sha256=6GcptNsY3GgH9sWjHB-1_cvLvlr180GaPV1U08DN1XM,2438
+oar/consts.py,sha256=T068ElU9owvN4LLzfCdadhZuUfdt7_ng1oikGywwfD0,538
+oar/models.py,sha256=AfhSsWpt0s2ELbLE2X5MLHDlhUyrrePGS-_5Jet4xjI,3352
+oar/plugin.py,sha256=03eCrjBgLVpz_kv6vC3qP-jTteq-fBiyWlp0aoNB6_k,6299
+oar/report.py,sha256=pk0E_mPQ0GXdmPO7HTokny41LnKRrhTwN91_m6wak1Q,757
+pytest_oar-2.0.1.dist-info/METADATA,sha256=IW-3LYjY64ZloCzXd6A0z2wNJRcDWkNjMXQRytCsneA,11721
+pytest_oar-2.0.1.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+pytest_oar-2.0.1.dist-info/RECORD,,

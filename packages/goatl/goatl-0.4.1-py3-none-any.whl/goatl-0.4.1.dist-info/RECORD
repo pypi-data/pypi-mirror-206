@@ -1,0 +1,7 @@
+goatl/__init__.py,sha256=gFgeLrpSJb77tiTt-7QHbKpMgx3fgAsB7unGpqUbHfI,614
+goatl/core.py,sha256=WFl7Ujzi5YoJ1J8JHMmTgp7YrdM4EVPNHqJyzjd6H3w,11739
+goatl/utils.py,sha256=8a1K2GycQDCaFNjDxJowleP9Rz0KJi8BwQst6ORAwzc,1423
+goatl-0.4.1.dist-info/LICENSE,sha256=8PZLZRZrXsyw_hbh0MBgjc1NgmMgoyleO226ezHIphw,1096
+goatl-0.4.1.dist-info/METADATA,sha256=xNt_wXbHy0ZMLZ3_28ce7NCyJFnf4SWW76MNyEvZTiA,2650
+goatl-0.4.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+goatl-0.4.1.dist-info/RECORD,,

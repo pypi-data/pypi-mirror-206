@@ -1,0 +1,12 @@
+README.md
+setup.py
+owo_tools/__init__.py
+owo_tools/autoEDA.py
+owo_tools/encrypt.py
+owo_tools/notify.py
+owo_tools/plot.py
+owo_tools.egg-info/PKG-INFO
+owo_tools.egg-info/SOURCES.txt
+owo_tools.egg-info/dependency_links.txt
+owo_tools.egg-info/top_level.txt
+test/test_encrypt.py

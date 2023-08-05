@@ -1,0 +1,16 @@
+cubepy/__init__.py,sha256=qhY4FF6NQCM9S_l63DHlbyF0B6K7nOC_CjuhElxCimg,309
+cubepy/_version.py,sha256=X614IvhNX7SUr4_ZcCCYzqYK9w1_uXJCpZgOR5iZQug,160
+cubepy/converged.py,sha256=D2w-p1wiMBpF8sQPWPPcD6wB8wc-vCaTO8QDQcvkqQs,781
+cubepy/gauss_kronrod.py,sha256=87pUQ7yXOk-zLwDZlOKoZkOSPjMptGVzMhe91VDtgSw,2889
+cubepy/genz_malik.py,sha256=MHm_-PCyb5bzCbWPpXJF8J2USMnAecg7d-lwmpiotD8,5591
+cubepy/input.py,sha256=JxsuX8KAAqddunMrC__9pzxkBGsFWrFoQH1cQa1VApY,2849
+cubepy/integration.py,sha256=aZ5jpAiL4uygul6pB_xs3R5XdCpXicE3Wb5rlrv8zrM,6263
+cubepy/points.py,sha256=mgMtp_qlgeirHCRy6iz_syzf7st8z2JO2HvtsUsCMiI,5637
+cubepy/region.py,sha256=zpyVKTKVeXj-yJ4ZeC_D5-DV4i3hlJIOExJ8wgAvkpU,1783
+cubepy/type_aliases.py,sha256=zcYet0zJmxDqWI3uuGw66D1pOU9wV8EJNUV2Rz2bqN8,556
+cubepy-1.9.1.dist-info/LICENSE,sha256=QdYgZP5-s62y8W_mIdxCXO8UCTjO3923iO9xBjUbzmM,1074
+cubepy-1.9.1.dist-info/METADATA,sha256=BVBW-vbBoZ468FS5deojiE_KtSCB2yTyQRAVHWU1sfo,4364
+cubepy-1.9.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+cubepy-1.9.1.dist-info/top_level.txt,sha256=MAChqjkJmhWk1w0Jk6qDnas_jvaciaIXnbEvld8iL48,7
+cubepy-1.9.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cubepy-1.9.1.dist-info/RECORD,,

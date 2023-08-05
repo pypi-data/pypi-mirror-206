@@ -1,0 +1,9 @@
+django_pony_express/__init__.py,sha256=IrszeYU584Jtn2ZHwQnM4bSP3RZ-VM2qJsWmqKS_ZWI,85
+django_pony_express/errors.py,sha256=LQwFYvO7hzG5QRd3bFfPZyEwiaSMisi99f-wWLFG_bE,120
+django_pony_express/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_pony_express/services/base.py,sha256=cGc9-RrDL8zCoIfjyevJF0FE6PvqnirOWfFHCkrOxPg,11273
+django_pony_express/services/tests.py,sha256=XzBCRiZ0zvYnGVTfdc0DQEqHMsjep3IOMZFLXu7Fi_A,10121
+django_pony_express-1.0.0.dist-info/LICENSE.md,sha256=loYhyTsjUarGnDSLOQGlDlrs8WhE_i5nHLFxtY9EMr8,1088
+django_pony_express-1.0.0.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+django_pony_express-1.0.0.dist-info/METADATA,sha256=c5Peyia33sF7fxPS-fp0z6Qge4o6SssISxMGUNzPWyM,6114
+django_pony_express-1.0.0.dist-info/RECORD,,

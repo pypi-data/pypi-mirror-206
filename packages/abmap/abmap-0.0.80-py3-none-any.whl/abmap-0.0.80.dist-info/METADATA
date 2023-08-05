@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: abmap
+Version: 0.0.80
+Summary: AbMAP: Antibody Mutagenesis Augmented Processing
+Home-page: UNKNOWN
+Author: Chiho Im, Taylor Sorenson, Abhinav Gupta, Rohit Singh
+Author-email: chihoim@mit.edu
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: torch (>=1.11)
+Requires-Dist: biopython
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: tqdm
+Requires-Dist: scikit-learn
+Requires-Dist: h5py
+Requires-Dist: transformers
+Requires-Dist: positional-encodings
+Requires-Dist: dscript
+
+UNKNOWN
+

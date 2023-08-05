@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: mpopt_lulav
+Version: 0.4
+Summary: Optimal control lib modified by Lulav Space
+Home-page: https://github.com/lulav/mpopt_lulav
+Author: gtep
+Author-email: gleb@lulav.space
+License: MIT
+Download-URL: https://github.com/lulav/mpopt_lulav/archive/refs/tags/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: Optimal,Control,Lulav
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

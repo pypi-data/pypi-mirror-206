@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/wombato.egg-info/PKG-INFO
+src/wombato.egg-info/SOURCES.txt
+src/wombato.egg-info/dependency_links.txt
+src/wombato.egg-info/top_level.txt

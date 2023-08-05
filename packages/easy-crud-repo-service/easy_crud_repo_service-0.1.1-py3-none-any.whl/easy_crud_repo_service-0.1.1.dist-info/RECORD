@@ -1,0 +1,12 @@
+easy_crud_repo_service/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy_crud_repo_service/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy_crud_repo_service/model/player.py,sha256=sLTb3MH6NKmML1wnZu6I3l6dnluM-kpN8-iUgBYgGK0,183
+easy_crud_repo_service/model/team.py,sha256=SspyCaRB81BgwNH_SfSYpBaQwNuNSVdWYVxfJz2OzZE,146
+easy_crud_repo_service/repo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy_crud_repo_service/repo/connections/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy_crud_repo_service/repo/connections/builders.py,sha256=9XKwS4MObihsW4lJZ7iuZJiM0g2azWFgmwLB9D8gG_o,3560
+easy_crud_repo_service/repo/connections/get_connection_pool.py,sha256=dqaqA_tRfai8ViNHfx3zTA6bLRNADGkFhrIli04DeK8,1044
+easy_crud_repo_service/repo/crud_repo.py,sha256=z25WLpOG90eBe5Zg-n-Ywg_e1gKq_fOkQgo0NUDlrWc,5106
+easy_crud_repo_service-0.1.1.dist-info/METADATA,sha256=BbUcnE0cC5rmjsaZ1FN26QKUDdyTuc3dowzmdRteXKY,12991
+easy_crud_repo_service-0.1.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+easy_crud_repo_service-0.1.1.dist-info/RECORD,,

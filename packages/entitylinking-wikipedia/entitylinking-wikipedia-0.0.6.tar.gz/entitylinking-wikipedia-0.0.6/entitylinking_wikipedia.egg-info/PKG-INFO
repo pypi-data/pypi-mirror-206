@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: entitylinking-wikipedia
+Version: 0.0.6
+Summary: Package for Entity Linking using WikiPedia
+Home-page: https://github.com/pypa/sampleproject
+Author: Soumyadipta Maiti
+Author-email: soumya55555@gmail.com
+Keywords: Python,Entity Linking,NER,WikiPedia
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+<h3>Entity Linking via WikiPedia </h3>
+
+This package is used to perform Entity Linking based on Wikipedia based on user's input sentence.
+
+Check out below github page for more details:
+https://github.com/pypa/sampleproject
+
+<h3>Installation of Package</h3>
+
+pip install entitylinking-wikipedia
+
+
+<h3>Sample Coding using this Package</h3>
+
+from  import * <br>
+import pandas as pd <br>
+final_out = pd.DataFrame() <br>
+final_out = Entity_Linking_via_Wikipedia('I stay in Kolkata in India.') <br>
+print(final_out) <br>

@@ -1,0 +1,2 @@
+[console_scripts]
+CatRoyale = cat_royale.main:main_func

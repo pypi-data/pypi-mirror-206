@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+OWR.egg-info/PKG-INFO
+OWR.egg-info/SOURCES.txt
+OWR.egg-info/dependency_links.txt
+OWR.egg-info/requires.txt
+OWR.egg-info/top_level.txt
+owr/__init__.py

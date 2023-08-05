@@ -1,0 +1,1 @@
+from .salamencrypt import *

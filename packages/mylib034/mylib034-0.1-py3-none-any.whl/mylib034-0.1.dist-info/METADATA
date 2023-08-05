@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mylib034
+Version: 0.1
+Summary: for Adding Number
+Author: Sahil
+Author-email: Sahil.Khanvilkar9999@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+

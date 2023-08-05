@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyzconf"
+version = "0.1.2"
+description = ""
+authors = ["Doohoon Kim <invi.dh.kim@gmail.com>"]
+readme = "README.md"
+packages = [{include = "zconf"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydfl = "^0.1.0"
+python-dotenv = "^1.0.0"
+omegaconf = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

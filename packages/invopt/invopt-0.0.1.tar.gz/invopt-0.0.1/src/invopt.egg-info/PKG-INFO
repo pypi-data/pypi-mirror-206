@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: invopt
+Version: 0.0.1
+Summary: Inverse Optimization with Python
+Author-email: Pedro Zattoni Scroccaro <pedroszattoni@gmail.com>
+Project-URL: Homepage, https://github.com/pedroszattoni/invopt
+Project-URL: Bug Tracker, https://github.com/pedroszattoni/inverse-optimization/issues
+Keywords: inverse-optimization
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# invopt - Inverse Optimization with Python

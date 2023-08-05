@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+BelDigitalHandwriting/BelDHAnalyser.py
+BelDigitalHandwriting/Symbol.py
+BelDigitalHandwriting/WordSentence.py
+BelDigitalHandwriting/__init__.py
+BelDigitalHandwriting/constants.py
+BelDigitalHandwriting/Models/AnalyzeModels.py
+BelDigitalHandwriting/Models/SymbolModels.py
+BelDigitalHandwriting/Models/WordSentenceModels.py
+bel_digital_handwriting_py.egg-info/PKG-INFO
+bel_digital_handwriting_py.egg-info/SOURCES.txt
+bel_digital_handwriting_py.egg-info/dependency_links.txt
+bel_digital_handwriting_py.egg-info/top_level.txt

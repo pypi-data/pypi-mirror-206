@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<!-- Copyright 2014 The Flutter Authors. All rights reserved.
+Use of this source code is governed by a BSD-style license that can be
+found in the LICENSE file. -->
+<html>
+    <head>
+        <title>Hello, World</title>
+        <style> 
+            /* #flutter_target {
+              height: 100%;
+              width: 500px;
+              float:left;
+              background-color: powderblue;
+            }
+            #right {
+              height: 100%;
+              width: 500px;
+              float: right; 
+              background-color: powderblue;
+            } */
+            .container {
+            width: 100%;
+          }
+          .left, .right {
+            width: 50%;
+            float: left;
+            height: 100vh;
+          }
+          
+          .left {
+            background-color: blue;
+          }
+          
+          .right {
+            background-color: red;
+          }
+          body {
+            margin: 0;
+            padding: 0;
+          }
+          
+            </style> 
+    </head>
+    <body>
+        <div id="container"> 
+            <div class="left"></div>
+            <div class="right" id="assistant-panel">
+              <script> 
+              
+                //MOCK functions 
+                class NotebookAPI {
+                  getCurrentJupyterTheme() {
+                    return "JupyterLab Dark";
+                  }
+                  changeThemeJupyter(theme) {
+                    return null;
+                  }
+                  run(index) {
+                    return null;
+                  }
+                  runAll() {
+                    return null;
+                  }
+                  insertCellAt(code, index, replace) {
+                    return null;
+                  }
+                  removeAnsiCodes(str) {
+                    return null;
+                  }  
+                  isJupyter() {
+                    return true;
+                  }
+                  currentWindowType() {
+                    return "notebook";
+                  }
+                  getNotebookContext() {
+                    var nc =  {cells: [{input: "print('hello')", output: "hello"}], insertCellIndex: 0};
+                    return nc;
+                    /*
+                    const notebook = tracker.currentWidget;
+                    if (!notebook) {
+                      console.log('No active notebook.');
+                      return;
+                    }
+                    const cells = [];    
+                    for (var i = 0; i < notebook.model.cells.length; i++) {
+                      const cell = notebook.model.cells.get(i).toJSON();
+                      var outputText = "";
+                      if (cell.outputs.length > 0) {
+                        const traceback = cell.outputs[0].traceback;
+                        if (traceback != null) {
+                          for (var j = 0; j < traceback.length; j++) {
+                            const plainTextString = removeAnsiCodes(traceback[j]);
+                            outputText += plainTextString + "\n";
+                          }
+                        } else {
+                          outputText = removeAnsiCodes(cell.outputs[0].text);
+                        }
+                      }
+                      cells.push({"input": cell.source, "output": outputText});
+                    }*/
+                    // const insertCellIndex = notebook.content.activeCellIndex;
+                    // const context = {"cells": cells, "insertCellIndex": insertCellIndex};
+                    // if (window.detectedError != null) {
+                    //   context["detectedError"] = window.detectedError;
+                    //   // window.detectedError = null;
+                    // }
+                    // window.lastContext = context; 
+                    // return context; 
+                  } 
+                }
+                
+                /*
+                class NotebookAPI {
+                  isJupyter() {
+                    return true;
+                  }
+                  getNotebookContext() {
+                    var nc =  {cells: [{input: "print('hello')", output: "hello"}], insertCellIndex: 0};
+                    return nc;
+                  }
+                  testAutoPrompt() {
+                    detectedError = {
+                      "cells": getNotebookContext()["cells"],
+                      "displayName": "DISPLAYNAME",
+                      "context": "CONTEXT",
+                      "type": "TYPE",
+                      "cellIndex": 0,
+                    }
+                    reloadNotebookContext();
+                  }
+                  promptEng = async function(userToken, prompt, targetCells)  {
+                    console.log("Mock promptEng: " + prompt);
+                    console.log*("Mock promptEng: " + targetCells);
+                    return new Promise(async (resolve, reject) => {
+                      resolve(JSON.stringify({prompt: prompt, targetCells: targetCells}));
+                    });
+                  }
+                  notebookJson() {
+                    return JSON.stringify({hello: "world"});
+  
+                  }
+                  getCurrentJupyterTheme() {
+                    const theme = "JupyterLab Dark"; 
+                    return theme;
+                  }
+                  currentWindowType() {
+                    return "notebook";
+                  }
+                  runAll() {
+                    console.log("Mock runAll");
+                  }
+                  insertCode(code) {
+                    console.log("Mock insertCode: " + code);
+                  }
+                  changeThemeJupyter(theme) {
+                    console.log("Mock changeThemeJupyter: " + theme);
+                  }
+                  onCellExecution() {
+                    console.log("Mock onCellExecution");
+                    logCellExecution('hello', 'world');
+                  }
+                  replaceCodeCurrentCell(program, logCellExecution) {
+                    console.log("Mock executing code: " + program);
+                    logCellExecution = logCellExecution;
+                  }
+
+
+                }*/
+                window.notebookAPI = new NotebookAPI();
+   
+                var base = ''; 
+ 
+                var serviceWorkerVersion = "124778936";
+                const flutter_script = document.createElement('script');
+                flutter_script.src = base+'flutter.js';
+                document.head.appendChild(flutter_script);
+                
+                flutter_script.onload = function() {
+                  console.log('Downloading main.dart.js');
+                  _flutter.loader.loadEntrypoint({
+                    serviceWorker: {
+                      serviceWorkerVersion: serviceWorkerVersion,
+                    }
+                  }).then(function(engineInitializer) {
+                    console.log('Initializing engine');
+                    let target = document.getElementById("assistant-panel");
+                    return engineInitializer.initializeEngine({
+                      hostElement: target,
+                    });
+                  }).then(function(appRunner) {
+                    //remove focus from the sidebar when clicking outside of it
+                    console.log('Running app');
+                    return appRunner.runApp();
+                  });
+                };
+              </script> 
+
+
+    <!-- <script src="main.dart.js"></script> -->
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "vicops-api"
+version = "1.1.1"
+description = "python api wrapper for vicops2"
+authors = ["Artemy <artegoser@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "vicops_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+certifi = "2022.12.7"
+charset-normalizer = "3.1.0"
+idna = "3.4"
+requests = "2.28.2"
+urllib3 = "1.26.15"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

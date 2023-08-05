@@ -1,0 +1,14 @@
+SQLAlchemy~=1.4
+duckdb-engine
+duckdb
+pydantic
+pandas
+requests
+loguru
+
+[dev]
+pre-commit
+pycln
+ruff
+isort
+black

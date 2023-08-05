@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: jordan_test_package_repo
+Version: 0.0.2
+Summary: Just doing a little testy test
+Author-email: Jordan Burns <jordanpburns13@gmail.com>
+License: LGPLv3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+jordan_test_package
+==============================
+[//]: # (Badges)
+[![GitHub Actions Build Status](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/jordan_test_package_repo/workflows/CI/badge.svg)](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/jordan_test_package_repo/actions?query=workflow%3ACI)
+[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/jordan_test_package/branch/main/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/jordan_test_package/branch/main)
+
+
+Just doing a little testy test
+
+### Copyright
+
+Copyright (c) 2023, Jordan Burns
+
+
+#### Acknowledgements
+ 
+Project based on the 
+[Computational Molecular Science Python Cookiecutter](https://github.com/molssi/cookiecutter-cms) version 1.1.

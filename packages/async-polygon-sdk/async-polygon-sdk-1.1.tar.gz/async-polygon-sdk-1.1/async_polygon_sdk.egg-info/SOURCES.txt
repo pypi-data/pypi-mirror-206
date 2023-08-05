@@ -1,0 +1,7 @@
+README.md
+setup.py
+async_polygon_sdk.egg-info/PKG-INFO
+async_polygon_sdk.egg-info/SOURCES.txt
+async_polygon_sdk.egg-info/dependency_links.txt
+async_polygon_sdk.egg-info/requires.txt
+async_polygon_sdk.egg-info/top_level.txt

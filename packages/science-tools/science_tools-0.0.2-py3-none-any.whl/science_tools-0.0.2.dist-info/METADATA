@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: science-tools
+Version: 0.0.2
+Summary: Beautiful tools for beautiful science.
+Author-email: Max Gallant <mcgallant72@gmail.com>
+License: LGPLv3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest (>=6.1.2) ; extra == 'test'
+Requires-Dist: pytest-runner ; extra == 'test'
+
+science_tools
+==============================
+[//]: # (Badges)
+[![GitHub Actions Build Status](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/science_tools/workflows/CI/badge.svg)](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/science_tools/actions?query=workflow%3ACI)
+[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/science_tools/branch/main/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/science_tools/branch/main)
+
+
+Beautiful tools for beautiful science.
+
+### Copyright
+
+Copyright (c) 2023, Max Gallant
+
+
+#### Acknowledgements
+ 
+Project based on the 
+[Computational Molecular Science Python Cookiecutter](https://github.com/molssi/cookiecutter-cms) version 1.1.

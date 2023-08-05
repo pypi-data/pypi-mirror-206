@@ -1,0 +1,8 @@
+ever_loguru/__init__.py,sha256=J1QRaPVfcpBeMj6aogLtgnQtPxIWv3GqSmXBEoguR9g,46
+ever_loguru/handler.py,sha256=rmWKkilfkDl35O4bkXoQEltVn0YrmeUsoumAtpz17Bc,916
+ever_loguru/install.py,sha256=RhzSrIHlwbn6P3xa5j5TdcUD6IL7vBEVxepng3hOlAw,2066
+ever_loguru/wrapper.py,sha256=yvgKosbx5w66tV6xVjJ2MBuQHlZN176xGHpzvsPZXxw,727
+EverLoguru-1.1.0.dist-info/METADATA,sha256=d85b8sbU1eRfGtFYqMwz62gwhhajEq1MRsfd8N3asfs,2002
+EverLoguru-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+EverLoguru-1.1.0.dist-info/top_level.txt,sha256=tL91rvgUDLSxg8j3bBNhkGd0sx-8nJY6pwdjMnlDHz0,12
+EverLoguru-1.1.0.dist-info/RECORD,,

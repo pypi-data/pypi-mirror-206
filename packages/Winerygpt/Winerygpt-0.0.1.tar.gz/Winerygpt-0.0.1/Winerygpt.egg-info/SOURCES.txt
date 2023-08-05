@@ -1,0 +1,9 @@
+README.md
+setup.py
+Winery_Gpt/__init__.py
+Winery_Gpt/winery_chatgpt.py
+Winerygpt.egg-info/PKG-INFO
+Winerygpt.egg-info/SOURCES.txt
+Winerygpt.egg-info/dependency_links.txt
+Winerygpt.egg-info/requires.txt
+Winerygpt.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+README.md
+setup.py
+BingChatAPI/BingChatAPI.py
+BingChatAPI/__init__.py
+bingchatAPI.egg-info/PKG-INFO
+bingchatAPI.egg-info/SOURCES.txt
+bingchatAPI.egg-info/dependency_links.txt
+bingchatAPI.egg-info/requires.txt
+bingchatAPI.egg-info/top_level.txt

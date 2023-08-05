@@ -1,0 +1,12 @@
+setup.py
+LbRelease/__init__.py
+LbRelease/_LHCbDocResources/__init__.py
+LbRelease/_LHCbDocResources/class.php
+LbRelease/_LHCbDocResources/layout.xml-1.7.2
+LbRelease/_LHCbDocResources/layout.xml-1.8.11
+LbRelease/_LHCbDocResources/layout.xml-1.8.2
+LbRelease/_LHCbDocResources/layout.xml-1.8.9.1
+LbReleaseDoxy.egg-info/PKG-INFO
+LbReleaseDoxy.egg-info/SOURCES.txt
+LbReleaseDoxy.egg-info/dependency_links.txt
+LbReleaseDoxy.egg-info/top_level.txt

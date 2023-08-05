@@ -1,0 +1,9 @@
+saxoncpe.cpython-38-x86_64-linux-gnu.so,sha256=OvhZKcvK_Iu4lvU3NQbfI2rfgVxFX8OvQFEegyYQGbw,9435976
+saxoncpe-12.2.0.dist-info/RECORD,,
+saxoncpe-12.2.0.dist-info/METADATA,sha256=6W9TAcM6wzNrz6jsK-MB-aMH1jYzlMuUFx9avtkfnSg,5021
+saxoncpe-12.2.0.dist-info/top_level.txt,sha256=haekWAxl5i3fEt0xlT4r7Xv3DRIwVPNvUM0P2Ee6-NQ,9
+saxoncpe-12.2.0.dist-info/WHEEL,sha256=5DQRW5VdkIxH8e7ylwa-YBCXLhSZeqHiz1ZmuOscrlo,148
+saxoncpe/test_saxon_schema.py,sha256=Vjj0SLRSNMHbzR9Vkcz3xraBRrlIwujjV6-jbayxsIw,3995
+saxoncpe/setup.py,sha256=vcEpSwky3Y-0FWOKzFrYw-VmS2slbjPY5wrsq_oGysU,2967
+saxoncpe/test_saxonc.py,sha256=LWG_LiSgFqPmH6yr3_vGUD_v75fDiMYtG60FOF_6hw4,59320
+saxoncpe.libs/libsaxon-pec-12-11dc7d64.2.so,sha256=s70CE16PTLW5jf_HbxIpJOkYiLCJ7jB3FrSynKX5gyI,55461136

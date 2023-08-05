@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: phasetorch
+Version: 0.1.0
+Summary: Algorithms for phase constrast tomography reconstruction
+Home-page: 
+Author: K. Aditya Mohan
+Author-email: mohan3@llnl.gov
+License: MIT
+License-File: LICENSE
+License-File: NOTICE

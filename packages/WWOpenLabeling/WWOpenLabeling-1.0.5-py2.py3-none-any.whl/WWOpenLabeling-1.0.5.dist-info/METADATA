@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: WWOpenLabeling
+Version: 1.0.5
+Summary: OpenLabeling based annotator
+Author: 
+Author-email: 
+Requires-Python: ==3.7.16
+License-File: LICENSE
+Requires-Dist: lxml (==4.3.0)
+Requires-Dist: numpy (==1.16.0)
+Requires-Dist: opencv-contrib-python (==3.4.9.33)
+Requires-Dist: tqdm (==4.29.1)
+Requires-Dist: torch (==1.5.1)
+Requires-Dist: boto3 (==1.26.123)
+Requires-Dist: m3u8 (==3.4.0)
+Requires-Dist: aiohttp (==3.8.4)
+

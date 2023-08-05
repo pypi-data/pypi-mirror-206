@@ -1,0 +1,5 @@
+[console_scripts]
+flake8-trio = flake8_trio:main
+
+[flake8.extension]
+TRI = flake8_trio:Plugin

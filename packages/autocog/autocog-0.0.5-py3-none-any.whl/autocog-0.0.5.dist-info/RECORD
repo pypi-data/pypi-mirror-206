@@ -1,0 +1,9 @@
+autocog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autocog/autocog.py,sha256=PxiA2fH9n6CrzFvbntVyvF1szPm8YduALhm1g47p0ZU,20735
+autocog/cache.py,sha256=xJZgmNgK2Krff8tR5uiKEz3F5HXZwFMHsF4qe0VBskM,1144
+autocog/gpt.py,sha256=SXprGeThT57MyO_S6Si3QQHomKIgnEXUc9YvrG5HbQc,1515
+autocog-0.0.5.dist-info/METADATA,sha256=Hseo1cl3TGBR5g3JoOYvr02LLE6071lzlbSi-cJ2GSY,1729
+autocog-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+autocog-0.0.5.dist-info/entry_points.txt,sha256=gkqA6895GnAvWFIAxN0Ut-1MLgYzUOuyV_aIjEz-uog,52
+autocog-0.0.5.dist-info/top_level.txt,sha256=gdZe3oiXXaQE1rE1G_gRspiVf4GwmrvkMyCcgORks1w,8
+autocog-0.0.5.dist-info/RECORD,,

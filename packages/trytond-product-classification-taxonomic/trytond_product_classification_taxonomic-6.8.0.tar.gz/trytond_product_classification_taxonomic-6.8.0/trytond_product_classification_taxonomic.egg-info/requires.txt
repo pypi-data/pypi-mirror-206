@@ -1,0 +1,2 @@
+trytond_product_classification<6.9,>=6.8
+trytond<6.9,>=6.8

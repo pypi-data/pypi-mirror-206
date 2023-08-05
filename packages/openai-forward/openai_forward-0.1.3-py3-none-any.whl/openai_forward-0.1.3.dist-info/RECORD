@@ -1,0 +1,17 @@
+openai_forward/__init__.py,sha256=aoKmM3fW0BczxO7jfpp7dvjRrga_uPoQZ3bpOY9Khl4,69
+openai_forward/__main__.py,sha256=yVoivLSZTmoXJdTi00L7-G4SZcw8VKYW3gQUcOuoVu8,439
+openai_forward/_base.py,sha256=0UJLAGxKNYCKYUzjQMZpUBt_awT6Ufb6jrfI29EIONY,4176
+openai_forward/app.py,sha256=lak0_dWQvzHTRUb2EnLqMYv1SbZ1SBSt2hiFEUU6ImU,677
+openai_forward/config.py,sha256=ldZfdiy4POb8NVcMP7PIQPq9090KJh97wX9fmHjSAEQ,2611
+openai_forward/openai.py,sha256=YjLb7nWfyDsDXMzY4vOyIS-WuRUQXSxPKcw7XrdJlAI,699
+openai_forward/content/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openai_forward/content/chat.py,sha256=OyBY0tc8IJQFsgAkUmB3iT4Z5hg_RhsLLtySxYhxJwU,3337
+openai_forward/content/image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openai_forward/routers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openai_forward/routers/openai_v1.py,sha256=dqeL68zxIDW6Ov2wSTedWJzXCocUTNjg1j1Iy0ooZ1M,508
+openai_forward/routers/schemas.py,sha256=Uj2fKZVuJKd23AvlRH-yIbXiyrxoEFSQavzIlnicq5o,2272
+openai_forward-0.1.3.dist-info/METADATA,sha256=ZOvx_BTSRKm9uY552836QPqmt-Q_KfYaDwWuDLpvNjg,7521
+openai_forward-0.1.3.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+openai_forward-0.1.3.dist-info/entry_points.txt,sha256=MtO_TQDmU-f2rP8FxR1MfLvtmw-DSHLvnMRax_HXleQ,147
+openai_forward-0.1.3.dist-info/licenses/LICENSE,sha256=8MrwnI4kTRjSmV4DZcuWtnurmWEmFYH5N0loyqTvF_U,1064
+openai_forward-0.1.3.dist-info/RECORD,,

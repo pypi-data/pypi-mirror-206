@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ml_plugins"
+version = "0.0.6"
+dependencies = [
+    "metaflow==2.8.3"
+]
+
+[tool.setuptools]
+package-dir = {"" = "plugins"}

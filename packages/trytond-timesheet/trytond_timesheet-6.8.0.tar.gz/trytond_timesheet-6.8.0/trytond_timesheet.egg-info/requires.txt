@@ -1,0 +1,4 @@
+python-sql
+trytond_company<6.9,>=6.8
+trytond_company_work_time<6.9,>=6.8
+trytond<6.9,>=6.8

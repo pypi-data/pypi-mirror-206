@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: flams
+Version: 0.0.2
+Summary: Find Lysine Acylation & other Modification Sites
+Requires-Python: >=3.10
+License-File: LICENCE

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/mnm/__init__.py
+src/mnm/example.py
+src/mnm.egg-info/PKG-INFO
+src/mnm.egg-info/SOURCES.txt
+src/mnm.egg-info/dependency_links.txt
+src/mnm.egg-info/requires.txt
+src/mnm.egg-info/top_level.txt

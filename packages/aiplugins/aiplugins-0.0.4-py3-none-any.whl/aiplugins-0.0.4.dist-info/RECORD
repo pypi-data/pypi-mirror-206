@@ -1,0 +1,8 @@
+aiplugins/__init__.py,sha256=FAjflyNILY6yutn9zNpBUvhK2iw3zXNERHgS065VMfg,466
+aiplugins/call_api.py,sha256=Ids7H2bi5FM6OIeK6IeJsoUV_1qAOhRZ5AfhtU8Y5VQ,4889
+aiplugins/load.py,sha256=vuy0bjkbx72_OLAltiY1MTwBGxZr0kOUOb-GjV-Qp-c,5036
+aiplugins/plugin.py,sha256=OhsMuET7Yms7kcXlbWjCVHYf-jXuc_JftyUbMC4khC4,5755
+aiplugins-0.0.4.dist-info/LICENSE,sha256=MFifHekHz-Ff1zVnLrfG5xTg70ULTeJ61FjZheyF_K4,1069
+aiplugins-0.0.4.dist-info/METADATA,sha256=hTN8cdEF7TFVDF4lIn4Cq0MQ8FWL6qrAN-bh0l9DgtU,2469
+aiplugins-0.0.4.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+aiplugins-0.0.4.dist-info/RECORD,,

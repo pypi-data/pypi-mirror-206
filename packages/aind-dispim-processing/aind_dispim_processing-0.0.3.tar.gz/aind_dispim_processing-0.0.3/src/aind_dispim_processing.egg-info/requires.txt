@@ -1,0 +1,13 @@
+argschema
+aind-data-transfer
+aind-ng-link
+psutil
+
+[dev]
+black
+coverage
+flake8
+interrogate
+isort
+Sphinx
+furo

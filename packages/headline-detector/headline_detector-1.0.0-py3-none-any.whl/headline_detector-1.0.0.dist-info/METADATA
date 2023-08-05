@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: headline-detector
+Version: 1.0.0
+Summary: An Indonesian Headline Detection Python API.
+Home-page: UNKNOWN
+Author: Kaenova Mahendra Auditama
+Author-email: kaenova@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: transformers
+Requires-Dist: torch
+Requires-Dist: lightning
+Requires-Dist: pytorch-nlp
+Requires-Dist: huggingface-hub
+Requires-Dist: numpy
+Requires-Dist: emoji
+Requires-Dist: NDETCStemmer-kaenova
+
+UNKNOWN
+
+

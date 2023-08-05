@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+WWOpenLabeling/__init__.py
+WWOpenLabeling/annotator.py
+WWOpenLabeling/dasiamrpn.py
+WWOpenLabeling/main.py
+WWOpenLabeling/main_auto.py
+WWOpenLabeling.egg-info/PKG-INFO
+WWOpenLabeling.egg-info/SOURCES.txt
+WWOpenLabeling.egg-info/dependency_links.txt
+WWOpenLabeling.egg-info/requires.txt
+WWOpenLabeling.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+module.py
+setup.py
+ale_frugal.egg-info/PKG-INFO
+ale_frugal.egg-info/SOURCES.txt
+ale_frugal.egg-info/dependency_links.txt
+ale_frugal.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pip/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pip/pip.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry/example.py,sha256=PtIJJ76szwD10mMzJ7PTK3-t-_kRIRp3tHfC53CJn_c,56
+poetry/plugin.py,sha256=fZkxMPIoy2_DZ6VYQn7iC2s36JM--INhPGnqEano3V4,593
+ml_plugins-0.0.6.dist-info/METADATA,sha256=nWOkPucU7s3nMBFDtfF0gQRsTMdSdDMwxcd301ucz_c,89
+ml_plugins-0.0.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ml_plugins-0.0.6.dist-info/top_level.txt,sha256=gAAwn_ByjV9PmNSRD_vqy9H_aVe4z8L7Z1uvQQLzwZg,20
+ml_plugins-0.0.6.dist-info/RECORD,,

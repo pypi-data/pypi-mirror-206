@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: package-translate-paper-title
+Version: 0.0.1
+Summary: Paper Name Translate to save-able name. This is My First self-write Python Package
+Home-page: 
+Author: Loki Xun
+Author-email: rongji.xun@gmail.com
+License: MIT License
+Keywords: self-testing package,
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+# package_translate_paper_title 
+
+This package is merely for testing the upload package process. Support Simple funtcion of replace the special character in paper's title with desired char to make it feasible to be a filename
+
+This is example of `README` file with package long description
+using Markdown text markup. This will be translated to reStructuredText
+on upload to PyPI.
+

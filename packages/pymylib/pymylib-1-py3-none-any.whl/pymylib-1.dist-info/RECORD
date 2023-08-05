@@ -1,0 +1,12 @@
+pymylib/__init__.py,sha256=AcOwtTG583FuJv18b0lOIFSIgjqKO3KYulZKHIIY-9M,298
+pymylib/main.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pymylib/pymylib/__init__.py,sha256=-s8LWmAOwO5UAiEhVCWV9_THizLBFO_Cp3UgoVPw68A,76
+pymylib/pymylib/auxiliars.py,sha256=wken-D9A1Xgj-DhVZfn7tAN9C3y7F99XVbi1wCXiIzE,4171
+pymylib/pymylib/base.py,sha256=UVkuFC0YtakLSD55zd3yfGTBB0SHiqoB3aw05GJZ6WY,5371
+pymylib/pymylib/collections.py,sha256=cyUEW09f3Zc40QibREfPCNgVFc3NGTeUjp0hcyCgXJA,4001
+pymylib/pymylib/github.py,sha256=TJ1D8BhwIJl34d0grRDzizp9ybPdFJwgPrnoaGGosRY,2561
+pymylib-1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pymylib-1.dist-info/METADATA,sha256=CxpqrchFzP0XSjL4tG81K3Aue_TakU3VHp0h1xvSSYA,312
+pymylib-1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pymylib-1.dist-info/top_level.txt,sha256=wAfdUBCV_0IWenxmmK37IDoaKR80VtH8E-1wjJ5F-po,8
+pymylib-1.dist-info/RECORD,,

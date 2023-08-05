@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pymylib
+Version: 1
+Summary: # pymylib
+Home-page: https://github.com/schwarzam/pymylib
+Author: schwarzam
+Author-email: gustavo.b.schwarz@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+

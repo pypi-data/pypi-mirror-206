@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -ex
+
+# Passing bash args to registration capsule:
+python src/aind_dispim_processing/converter_capsule.py "$@"
+
+# Mandatory Flags: 
+# --dataset_path __
+# --bucket_name __
+# --output_path __
+
+# Optional Flags: 
+# --tile_query __

@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: movelets
+Version: 0.1b0
+Summary: Movelets for Multiple Aspect Trajectory Data Mining
+Home-page: https://github.com/ttportela/movelets
+Author: Tarlis Tortelli Portela
+Author-email: Tarlis Tortelli Portela <tarlis@tarlis.com.br>
+Maintainer-email: Tarlis Tortelli Portela <tarlis@tarlis.com.br>
+License: GPL Version 3 or superior (see LICENSE file)
+Project-URL: Homepage, https://github.com/ttportela/movelets
+Project-URL: Repository, https://github.com/ttportela/movelets
+Project-URL: Documentation, https://github.com/ttportela/movelets/blob/main/README.md
+Project-URL: Download, https://pypi.org/project/movelets/#files
+Project-URL: Bug Tracker, https://github.com/ttportela/movelets/issues
+Keywords: data-science,machine-learning,data-mining,trajectory,multiple-trajectory,trajectory-classification,movelet,movelet-visualization
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: <3.10,>=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: all_extras
+Provides-Extra: dev
+Provides-Extra: binder
+Provides-Extra: docs
+Provides-Extra: dl
+License-File: LICENSE
+
+# Movelets: Movelets for Multiple Aspect Trajectory Data Mining
+---
+
+\[[Publication](#)\] \[[citation.bib](citation.bib)\] \[[GitHub](https://github.com/ttportela/movelets)\] \[[PyPi](https://pypi.org/project/movelets/)\]
+
+
+The present application offers a tool, to support the user in the classification task of multiple aspect trajectories, specifically for extracting and visualizing the movelets, the parts of the trajectory that better discriminate a class. It integrates into a unique platform the fragmented approaches available for multiple aspects trajectories and in general for multidimensional sequence classification into a unique web-based and python library system. Offers both movelets visualization and classification methods.
+
+Created on May, 2023
+Copyright (C) 2023, License GPL Version 3 or superior (see LICENSE file)
+
+### Main Modules
+
+- [Methods](/methods): Methods for trajectory classification and movelet extraction;
+- [Tutorial](/tutorial): Tutorial on how to use Automatise as a Python library.
+
+
+### Available Classifiers (needs update):
+
+* **MLP (Movelet)**: Multilayer-Perceptron (MLP) with movelets features. The models were implemented using the Python language, with the keras, fully-connected hidden layer of 100 units, Dropout Layer with dropout rate of 0.5, learning rate of 10−3 and softmax activation function in the Output Layer. Adam Optimization is used to avoid the categorical cross entropy loss, with 200 of batch size, and a total of 200 epochs per training. [REFERENCE*]
+* **RF (Movelet)**: Random Forest (RF) with movelets features, that consists of an ensemble of 300 decision trees. The models were implemented using the Python language, with the keras. [REFERENCE*]
+* **SVN (Movelet)**: Support Vector Machine (SVM) with movelets features. The models were implemented using the Python language, with the keras, linear kernel and default structure. Other structure details are default settings. [REFERENCE*]
+
+### Installation
+
+Install directly from PyPi repository, or, download from github. (python >= 3.7 required)
+
+```bash
+    pip install movelets
+```
+
+### Citing
+
+If you use `automatize` please cite the following paper:
+
+    Tarlis Tortelli Portela; Jonata Tyska Carvalho; Vania Bogorny. HiPerMovelets: high-performance movelet extraction for trajectory classification, International Journal of Geographical Information Science, 2022. DOI: 10.1080/13658816.2021.2018593.
+
+[Bibtex](citation.bib):
+
+```bash
+@article{Portela2022,
+    author = {Tarlis Tortelli Portela and Jonata Tyska Carvalho and Vania Bogorny},
+    title = {HiPerMovelets: high-performance movelet extraction for trajectory classification},
+    journal = {International Journal of Geographical Information Science},
+    volume = {0},
+    number = {0},
+    pages = {1-25},
+    year  = {2022},
+    publisher = {Taylor & Francis},
+    doi = {10.1080/13658816.2021.2018593},
+    URL = {https://doi.org/10.1080/13658816.2021.2018593}
+}
+```
+
+### Collaborate with us
+
+Any contribution is welcome. This is an active project and if you would like to include your algorithm in `movelets`, feel free to fork the project, open an issue and contact us.
+
+Feel free to contribute in any form, such as scientific publications referencing `movelets`, teaching material and workshop videos.
+
+### Related packages
+
+- [automatize](https://github.com/ttportela/automatize): Automatize: Multiple Aspect Trajectory Data Mining Tool Library;
+
+### Change Log
+
+This is a package under construction:
+ 
+*Dec. 2023:*
+ - 
+ 
+ *TODO*:
+ - Comments on all public interface funcions and modules

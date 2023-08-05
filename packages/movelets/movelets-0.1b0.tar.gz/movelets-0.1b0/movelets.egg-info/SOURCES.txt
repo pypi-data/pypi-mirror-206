@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+Steps to Build.txt
+pyproject.toml
+setup.py
+movelets/README.md
+movelets/citation.bib
+movelets.egg-info/PKG-INFO
+movelets.egg-info/SOURCES.txt
+movelets.egg-info/dependency_links.txt
+movelets.egg-info/requires.txt
+movelets.egg-info/top_level.txt
+movelets/classes/Movelet.py
+movelets/classes/Subtrajectory.py
+movelets/classes/Trajectory.py
+movelets/util/parsers.py

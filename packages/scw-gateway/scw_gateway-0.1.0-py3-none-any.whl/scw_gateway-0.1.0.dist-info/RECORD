@@ -1,0 +1,7 @@
+cli/cli.py,sha256=-C6PeBtQup-XA6rdNWbOsbUxUxKrOhXPQs21w5hvkAA,260
+cli/gateway.py,sha256=cozrz_sh7mZabBT5OqdqHme_Q2Jn_7CvJYnqsM9cFWM,2886
+cli/model.py,sha256=npQIW5fPuOIKMoNBZVtIZBBy4OGBw0RFljrZRn0qJAY,875
+scw_gateway-0.1.0.dist-info/entry_points.txt,sha256=jcDEWzB4XHezPUBDvT0VUe2X-TPHJwiBMfnb84EPy3A,37
+scw_gateway-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+scw_gateway-0.1.0.dist-info/METADATA,sha256=E0cwSy-czoBizkFn6HswKw4J3PVtvHkVN9lLpsf1ADk,581
+scw_gateway-0.1.0.dist-info/RECORD,,

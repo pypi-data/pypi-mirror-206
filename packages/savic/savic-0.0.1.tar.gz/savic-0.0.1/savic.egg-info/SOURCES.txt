@@ -1,0 +1,6 @@
+setup.py
+savic.egg-info/PKG-INFO
+savic.egg-info/SOURCES.txt
+savic.egg-info/dependency_links.txt
+savic.egg-info/requires.txt
+savic.egg-info/top_level.txt

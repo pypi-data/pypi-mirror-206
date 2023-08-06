@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "cuellartensorflow"
+version = "1.0.3"
+authors = [
+  { name="Emiliano Cuellar", email="ec446162@gmail.com" },
+]
+description = "Una libreria simple para crear modelos de lenguaje con tensorflow"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "tensorflow",
+  "wikipedia",
+  "pickle5",
+  "tqdm",
+  "numpy",
+]
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"

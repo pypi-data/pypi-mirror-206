@@ -1,0 +1,13 @@
+harlequin/__init__.py,sha256=YgGTh76RllKkv2vAYBjzGwsR3M9COl_1cdP2htzwycY,60
+harlequin/cli.py,sha256=ttF8gtK6cjlABlnE27TpFMG9WqDpvmqYdcetW-WSJhM,388
+harlequin/tui/__init__.py,sha256=FEsT7umyV-d0ZeGRM1HKgt0S6DwM1laFkeMjsZzNZ5M,204
+harlequin/tui/code_editor.py,sha256=HvTEM0sADaRFs0WAM7ZBuqwC172PQI87lrYUXAQb_80,403
+harlequin/tui/results_viewer.py,sha256=87WNZXws1zWhCfmlIm-A8Nv1CrSQDYc0FiOiXhl5ahQ,81
+harlequin/tui/schema_viewer.py,sha256=b_WatU04uEqgh8jqaQ_Uz020-ss_-sw4zihyAT99lJU,1300
+harlequin/tui/sql_client.css,sha256=fa9NVTyP8EOm7UzUASRRmEjm3x4NueTR0JwZiPLyCXA,155
+harlequin/tui/sql_client.py,sha256=QSsaCMmK0xCrhEs9679lGDmHkE1yMYgP-_yeIOB4948,1399
+harlequin-0.0.2.dist-info/entry_points.txt,sha256=FOHHQFL_fCrQLJ3FjRpeyF0Lw8d_QpnG4cGoeX485lw,53
+harlequin-0.0.2.dist-info/LICENSE,sha256=Wdf1mXEX48JTe3Unchs3u8M7sUOB6v0fGsMI5WP7bB4,1068
+harlequin-0.0.2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+harlequin-0.0.2.dist-info/METADATA,sha256=WZPTccpsLE50jRl754ESnwloxJlqX-b9ZOiOmYqPaAs,1492
+harlequin-0.0.2.dist-info/RECORD,,

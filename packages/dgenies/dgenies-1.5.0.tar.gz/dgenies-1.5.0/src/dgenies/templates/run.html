@@ -1,0 +1,619 @@
+{% extends 'base.html' %}
+{% block scripts %}
+    {{ super() }}
+    <script src="{{ url_for('static', filename = 'js/tmpl.min.js') }}"></script>
+    <script type="text/x-tmpl" id="tmpl-listing">
+        [% for (var i=0; i<o.length; i++) { %]
+        <tr id="[%=o[i].id%]" class="batchfile [%=o[i].state%]-file" data-index="[%=i%]">
+            <td style="word-wrap: break-word;min-width: 160px;max-width: 160px;">[%=o[i].name%]</td>
+            <td class="col">
+                <div>
+                    <span>[%=o[i].size%]</span>
+                    <div id="progress-[%=o[i].id%]" class="progress [%=o[i].id%]">
+                        <div class="bar" style="width: 0%;"></div>
+                    </div>
+                </div>
+            </td>
+            <td class="col">
+                <div class="state-file batchfile [%=o[i].state%]-file">[%=o[i].state%]</div>
+                <div class="loading-file batchfile [%=o[i].state%]-file [%=o[i].id%]" style="display: none"></div>
+                <div class="upload-success batchfile [%=o[i].id%]" style="display: none"></div>
+            </td>
+            <td class="col"><button id="delete-btn-[%=i%]" type="button" class="btn btn-danger delete delete-btn"><i class="glyphicon glyphicon-trash"></i></button></td>
+        </tr>
+        [% } %]
+    </script>
+    {% if debug %}
+        <!-- The basic File Upload plugin -->
+        <script src="{{ url_for('static', filename='js/jquery.fileupload.js') }}"></script>
+        <!-- The File Upload processing plugin -->
+        <script src="{{ url_for('static', filename='js/jquery.fileupload-process.js') }}"></script>
+        <!-- The File Upload validation plugin -->
+        <script src="{{ url_for('static', filename='js/jquery.fileupload-validate.js') }}"></script>
+
+        <script src="{{ url_for('static', filename='js/chevrotain.min.js') }}" type="text/JavaScript"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/codemirror/codemirror.css') }}" type="text/css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/codemirror/lint.css') }}" type="text/css">
+        <script src="{{ url_for('static', filename='js/codemirror/codemirror.js') }}" type="text/JavaScript"></script>
+        <script src="{{ url_for('static', filename='js/codemirror/simple.js') }}" type="text/JavaScript"></script>
+        <script src="{{ url_for('static', filename='js/codemirror/lint.js') }}" type="text/JavaScript"></script>
+        
+        <script src="{{ url_for('static', filename='js/dgenies.run.js') }}" type="text/JavaScript"></script>
+        <script src="{{ url_for('static', filename='js/dgenies.run.batch.js') }}" type="text/JavaScript"></script>
+    {% else %}
+        <script src="{{ url_for('static', filename='js/jquery.fileupload.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/chevrotain.min.js') }}" type="text/JavaScript"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/codemirror/codemirror.css') }}" type="text/css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/codemirror/lint.css') }}" type="text/css">
+        <script src="{{ url_for('static', filename='js/codemirror/codemirror.js') }}" type="text/JavaScript"></script>
+        <script src="{{ url_for('static', filename='js/codemirror/simple.js') }}" type="text/JavaScript"></script>
+        <script src="{{ url_for('static', filename='js/codemirror/lint.js') }}" type="text/JavaScript"></script>
+        <script src="{{ url_for('static', filename='js/dgenies.run.min.js') }}" type="text/JavaScript"></script>
+    {% endif %}
+{% endblock %}
+{% block onload %}
+    {{ super() }}
+    dgenies.run.init('{{ s_id }}', {{ allowed_ext }}, {{ max_upload_file_size }}, '{{ target }}', '{{ query }}',
+    '{{ backup }}', '{{ batch }}', {{ tools_names }}, {{ tools_ava }}, {{ tools_checking }}, {{ max_batch_jobs }});
+{% endblock %}
+{% block content %}
+    {% set fnote = 1 %}
+    <style>
+        .tab2 {
+            display: none;
+        }
+        .tab3 {
+            display: none;
+        }
+    </style>
+    {% if inforun is not none %}
+        <div>
+            <div class="inforun {{ inforun.type }}">
+                {{ inforun.message | safe }}
+            </div>
+        </div>
+    {% endif %}
+    <form id="submit_minimap" method=post action="#">
+        <h2 class="title-launch">Launch map analysis</h2>
+        <div class="errors-submit">
+            <ul class=flashes>
+                {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                        {% for message in messages %}
+                            <li>{{ message | safe }}</li>
+                        {% endfor %}
+                    {% endif %}
+                {% endwith %}
+            </ul>
+        </div>
+
+        <div class="submit-form">
+            <fieldset class="form-group">
+                <div class="row id_job">
+                    <label for="id_job" class="id-job col-2 col-form-label">Name of your job</label>
+                    <div class="col d-flex align-items-center">
+                        <input type="text" id="id_job" name="id_job" class="form-control" value="{{ id_job }}" autocomplete="Off" required/>
+                    </div>
+                </div>
+                {% if mode == "webserver" %}
+                <div class="row">
+                    <label for="email" class="email col-2 col-form-label">E-mail</label>
+                    <div class="input-group col d-flex">
+                        <div class="align-items-center">
+                            <input type="email" class="form-control" id="email" value="{{ email }}" placeholder="name@example.com" required>
+                        </div>
+                        <div class="w-100"></div>
+                        <div>
+                            <small id="emailHelp" class="form-text text-muted">
+                                We will send you results by mail
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                <ul class="nav nav-tabs" id="tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link tab active" id="tab1" data-toggle="tab" href="#align-tab" role="tab" aria-controls="align" aria-selected="true">New alignment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tab" id="tab2" data-toggle="tab" href="#plot-tab" role="tab" aria-controls="plot" aria-selected="false">Plot alignment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tab" id="tab3" data-toggle="tab" href="#batch-tab" role="tab" aria-controls="batch" aria-selected="false">Batch alignments</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="tabContent">
+                    <div class="tab-pane fade show active" id="align-tab" role="tabpanel" aria-labelledby="align-tab">
+                        {# Tab 1 #}
+                        {% set fnote_tab = fnote %}
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="row mt-0">
+                                    <label for="file_target" class="file-target col-3 col-form-label input-label">Target fasta</label>
+                                    <div class="input-group col d-flex">
+                                        <div class="input-group-prepend">
+                                            <select class="form-control select-type-input target">
+                                                <option value="0">Local</option>
+                                                <option value="1">Url</option>
+                                            </select>
+                                        </div>
+                                        <div class="target-label in-label dropzone" id="dropzone-target">
+                                            <div id="progress-target" class="progress">
+                                                <div class="bar" style="width: 0%;"></div>
+                                            </div>
+                                            <input id="target" name="target" class="form-control show-file" type="text" value="" aria-label="Target file"/>
+                                        </div>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="button" id="button-target" title="Select a file">
+                                                <span class="glyphicon glyphicon-folder-open align-middle"></span>&nbsp
+                                            </button>
+                                            <div class="loading-file target" style="display: none"></div>
+                                            <div class="upload-success target" style="display: none"></div>
+                                            <div class="file-size target"></div>
+                                        </div>
+                                        <div class="w-100"></div>
+                                        <div>
+                                            <small id="targetHelp" class="form-text text-muted">
+                                                Can be gzipped. Must end with <code>.fa</code>, <code>.fasta</code>, <code>.fna</code>, <code>.fa.gz</code>, <code>.fasta.gz</code> or <code>.fna.gz</code>
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <label for="file_query" class="file-query col-3 col-form-label input-label">Query fasta</label>
+                                    <div class="input-group col d-flex">
+                                        <div class="input-group-prepend">
+                                            <select class="form-control select-type-input query">
+                                                <option value="0">Local</option>
+                                                <option value="1">Url</option>
+                                            </select>
+                                        </div>
+                                        <div class="query-label in-label dropzone" id="dropzone-query">
+                                            <div id="progress-query" class="progress">
+                                                <div class="bar" style="width: 0%;"></div>
+                                            </div>
+                                            <input id="query" name="query" class="form-control show-file" type="text" value="" aria-label="Query file"/>
+                                        </div>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="button" id="button-query" title="Select a file">
+                                                <span class="glyphicon glyphicon-folder-open align-middle"></span>&nbsp
+                                            </button>
+                                            <div class="loading-file query" style="display: none"></div>
+                                            <div class="upload-success query" style="display: none"></div>
+                                            <div class="file-size query"></div>
+                                        </div>
+                                        <div class="w-100"></div>
+                                        <div>
+                                            <small id="queryHelp" class="form-text text-muted">
+                                                Can be gzipped. Must end with <code>.fa</code>, <code>.fasta</code>, <code>.fna</code>, <code>.fa.gz</code>, <code>.fasta.gz</code> or <code>.fna.gz</code>
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                {% if tools | length > 1 %}
+                                    <div class="row d-flex align-items-center">
+                                        <label for="tool" class="file-query-ava col-3 col-form-label input-label tools">Aligner</label>
+                                        <div class="col">
+                                            <div class="form-check form-check-inline">
+                                            {% for tool in tools_names %}
+                                                <input class="form-check-input" type="radio" name="tool" id="tool-{{ tool }}" value="{{ tool }}" {% if loop.index0 == 0 %}checked{% endif %}>
+                                                <label class="form-check-label" for="tool-{{ tool }}">
+                                                    {{ tools[tool].label | capitalize }} <span class="glyphicon glyphicon-question-sign" style="color: #2aabd2" title="{{ tools[tool].help }}">&nbsp</span>
+                                                </label>
+                                            {% endfor %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                {% else %}
+                                    <input type="radio" name="tool" id="tool" value="{{ tool }}" style="display: none;" checked/>
+                                {% endif %}
+
+                                {% if tools | length > 1 %}
+                                    {% for tool in tools_names %}
+                                        {% set tool_loop = loop %}
+                                        {% if tools[tool].options|length%}
+                                            <div class= "optionx tool-options-{{tool}}{% if loop.index0 != 0%} hide{% endif %}">
+                                                <div class="row">
+                                                    <label id="tool-options-{{tool}}" class="col-3 input-label options optionx tool-options-{{tool}}">Options</label>
+                                                </div>
+                                                {% for opt in tools_options[tool] %}
+                                                    <div class="row optionx tool-options-{{tool}}">
+                                                        <legend class="col-form-label col-3 pt-0 options">{{ opt.label }}&nbsp<span class="glyphicon glyphicon-question-sign" style="color: #2aabd2"
+                                                            title="{{ opt.help }}"></span></legend>
+                                                        <div class="col">
+                                                            {% for entry in opt['entries'] %}
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input"
+                                                                        type="{{ opt.type }}"
+                                                                        id="tool-options-{{tool}}-{{ opt.group }}:{{ entry.key }}"
+                                                                        name="tool-options-{{tool}}-{{ opt.group }}{% if opt.type != 'radio' %}:{{ entry.key }}{% endif %}"
+                                                                        value="{{ opt.group }}:{{ entry.key }}"
+                                                                        {% if entry.default %}checked{% endif %}/>
+                                                                    <label class="form-check-label" for="tool-options-{{tool}}-{{ opt.group }}:{{ entry.key }}">
+                                                                        {{ entry.label | capitalize }}&nbsp<span class="glyphicon glyphicon-question-sign" style="color: #2aabd2"
+                                                                            title="{{ entry.help }}"></span>
+                                                                    </label>
+                                                                </div>
+                                                        {% endfor %}
+                                                        </div>
+                                                        <div class="w-100"></div>
+                                                        <div class="col">
+                                                            <small class="form-text text-muted">
+                                                                {{ opt.hint }}
+                                                            </small>
+                                                        </div>
+                                                    </div>
+                                                {% endfor %}
+                                            </div>
+                                        {% endif %}
+                                    {% endfor %}
+                                {% else %}
+                                    {% set tool = tools_names[0] %}
+                                    {% if tools[tool].options %}
+                                        <div class="row">
+                                            <label id="tool-options-{{tool}}" class="col-3 input-label options tool-options-{{tool}}">Options</label>
+                                        </div>
+                                        <div>
+                                            {% for opt in tools[tool].options %}
+                                                <div class="row mt-0 optionx tool-options-{{tool}}">
+                                                    <label class="options">{{ opt.label }}&nbsp<span class="glyphicon glyphicon-question-sign" style="color: #2aabd2"
+                                                        title="{{ opt.help }} (group: {{ opt.group }})"></span></label>
+                                                    {% for entry in opt['entries'] %}
+                                                        <div class="form-check">
+                                                            <input class="form-check-inline"
+                                                                type="{{ opt.type }}"
+                                                                id="tool-options-{{tool}}-{{ opt.group }}:{{ entry.key }}"
+                                                                name="tool-options-{{tool}}-{{ opt.group }}{% if opt.type != 'radio' %}:{{ entry.key }}{% endif %}"
+                                                                value="{{ opt.group }}:{{ entry.key }}"
+                                                                {% if entry.default %}checked{% endif %}/>
+                                                            <label class="form-check-label"
+                                                                for="tool-options-{{tool}}-{{ opt.group }}:{{ entry.key }}">
+                                                                {{ entry.label | capitalize }}&nbsp<span class="glyphicon glyphicon-question-sign" style="color: #2aabd2"
+                                                                        title="{{ entry.help }}"></span>
+                                                            </label>
+                                                        </div>
+                                                    {% endfor %}
+                                                </div>
+                                                {% endfor %}
+                                        </div>
+                                    {% endif %}
+                                {% endif %}
+                            </div>
+                            <div class="col">
+                                <div class="row mt-0">
+                                    <div class="run-help">
+                                        <h3>This instance configuration</h3>
+                                        <ul>
+                                            <li>
+                                                Uploaded file size is {% if limits.upload_size!='-1.0 B' %}limited to <code>{{ limits.upload_size }}{% else %}not limited{% endif %}</code>.
+                                            </li>
+                                            {% if limits.uncompressed_size_ava!='-1.0 B' or limits.uncompressed_size!='-1.0 B' %}
+                                            <li>
+                                                When uncompressed, the size of each file is limited to:
+                                                <ul>
+                                                    <li>
+                                                        <code>{% if limits.uncompressed_size_ava!='-1.0 B' %}{{ limits.uncompressed_size_ava }}{% else %}unlimited{% endif %}</code> in all vs all mode.
+                                                    </li>
+                                                    <li>
+                                                        <code>{% if limits.uncompressed_size!='-1.0 B' %}{{ limits.uncompressed_size }}{% else %}unlimited{% endif %}</code> else.
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            {% endif %}
+                                            {% if mode == "webserver" %}
+                                            <li>
+                                                Computation wall times are set to (hh:mm:ss):
+                                                <ul>
+                                                    <li>
+                                                        <code>{{ limits.walltime_prepare }}</code> for preparation step,
+                                                    </li>
+                                                    <li>
+                                                        <code>{{ limits.walltime_align }}</code> for align step.
+                                                    </li>
+                                            </li>
+                                            {% endif %}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="plot-tab" role="tabpanel" aria-labelledby="plot-tab">
+                        {# Tab 2 #}
+                        {% set fnote_tab = fnote %}
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="row mt-0">
+                                    <label for="file_align" class="file-align col-3 col-form-label input-label">Alignment file</label>
+                                    <div class="input-group col d-flex">
+                                        <div class="input-group-prepend">
+                                            <select class="form-control select-type-input alignfile">
+                                                <option value="0">Local</option>
+                                                <option value="1">Url</option>
+                                            </select>
+                                        </div>
+                                        <div class="alignfile-label in-label dropzone" id="dropzone-alignfile">
+                                            <div id="progress-alignfile" class="progress">
+                                                <div class="bar" style="width: 0%;"></div>
+                                            </div>
+                                            <input id="alignfile" name="alignfile" class="form-control show-file" type="text" value="" aria-label="Alignment file"/>
+                                        </div>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="button" id="button-alignfile" title="Select a file">
+                                                <span class="glyphicon glyphicon-folder-open align-middle"></span>&nbsp
+                                            </button>
+                                            <div class="loading-file alignfile" style="display: none"></div>
+                                            <div class="upload-success alignfile" style="display: none"></div>
+                                            <div class="file-size alignfile"></div>
+                                        </div>
+                                        <div class="w-100"></div>
+                                        <div>
+                                            <small id="alignfileHelp" class="form-text text-muted">
+                                                In <a href="/documentation/formats#paf-pairwise-mapping-format">PAF</a> or <a href="/documentation/formats#maf-multiple-alignment-file">MAF</a> format. Must end with <code>.paf</code> or <code>.maf</code>
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <label for="file_targetidx" class="file-targetidx col-3 col-form-label input-label">Target file</label>
+                                    <div class="input-group col d-flex">
+                                        <div class="input-group-prepend">
+                                            <select class="form-control select-type-input targetidx">
+                                                <option value="0">Local</option>
+                                                <option value="1">Url</option>
+                                            </select>
+                                        </div>
+                                        <div class="targetidx-label in-label dropzone" id="dropzone-targetidx">
+                                            <div id="progress-targetidx" class="progress">
+                                                <div class="bar" style="width: 0%;"></div>
+                                            </div>
+                                            <input id="targetidx" name="targetidx" class="form-control show-file" type="text" value="" aria-label="Target file"/>
+                                        </div>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="button" id="button-targetidx" title="Select a file">
+                                                <span class="glyphicon glyphicon-folder-open align-middle"></span>&nbsp
+                                            </button>
+                                            <div class="loading-file targetidx" style="display: none"></div>
+                                            <div class="upload-success targetidx" style="display: none"></div>
+                                            <div class="file-size targetidx"></div>
+                                        </div>
+                                        <div class="w-100"></div>
+                                        <div>
+                                            <small id="targetidxHelp" class="form-text text-muted">
+                                                Fasta file or index built by <a href="https://raw.githubusercontent.com/genotoul-bioinfo/dgenies/v{{version}}/src/dgenies/bin/index.py" download="index.py">our tool</a>. Must end with <code>.fa</code>, <code>.fasta</code>, <code>.fna</code>, <code>.fa.gz</code>, <code>.fasta.gz</code>, <code>.fna.gz</code> or <code>.idx</code>.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row d-flex align-items-top">
+                                    <label for="file_queryidx" class="file-queryidx col-3 col-form-label input-label">Query file</label>
+                                    <div class="input-group col d-flex">
+                                        <div class="input-group-prepend">
+                                            <select class="form-control select-type-input queryidx">
+                                                <option value="0">Local</option>
+                                                <option value="1">Url</option>
+                                            </select>
+                                        </div>
+                                        <div class="queryidx-label in-label dropzone" id="dropzone-queryidx">
+                                            <div id="progress-queryidx" class="progress">
+                                                <div class="bar" style="width: 0%;"></div>
+                                            </div>
+                                            <input id="queryidx" name="queryidx" class="form-control show-file" type="text" value="" aria-label="Query file"/>
+                                        </div>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="button" id="button-queryidx" title="Select a file">
+                                                <span class="glyphicon glyphicon-folder-open align-middle"></span>&nbsp
+                                            </button>
+                                            <div class="loading-file queryidx" style="display: none"></div>
+                                            <div class="upload-success queryidx" style="display: none"></div>
+                                            <div class="file-size queryidx"></div>
+                                        </div>
+                                        <div class="w-100"></div>
+                                        <div>
+                                            <small id="queryidxHelp" class="form-text text-muted">
+                                                Fasta file or index built by <a href="https://raw.githubusercontent.com/genotoul-bioinfo/dgenies/v{{version}}/src/dgenies/bin/index.py" download="index.py">our tool</a>. Must end with <code>.fa</code>, <code>.fasta</code>, <code>.fna</code>, <code>.fa.gz</code>, <code>.fasta.gz</code>, <code>.fna.gz</code> or <code>.idx</code>.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <h3 class="orsep">- or -</h3>
+
+                                <div class="row">
+                                    <label for="file_backup" class="file-backup col-3 col-form-label input-label">Backup file</label>
+                                    <div class="input-group col d-flex">
+                                        <div class="input-group-prepend">
+                                            <select class="form-control select-type-input backup">
+                                                <option value="0">Local</option>
+                                                <option value="1">Url</option>
+                                            </select>
+                                        </div>
+                                        <div class="backup-label in-label dropzone" id="dropzone-backup">
+                                            <div id="progress-backup" class="progress">
+                                                <div class="bar" style="width: 0%;"></div>
+                                            </div>
+                                            <input id="backup" name="backup" class="form-control show-file" type="text" value="" aria-label="Backup file"/>
+                                        </div>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="button" id="button-backup" title="Select a file">
+                                                <span class="glyphicon glyphicon-folder-open align-middle"></span>&nbsp
+                                            </button>
+                                            <div class="loading-file backup" style="display: none"></div>
+                                            <div class="upload-success backup" style="display: none"></div>
+                                            <div class="file-size backup"></div>
+                                        </div>
+                                        <div class="w-100"></div>
+                                        <div>
+                                            <small id="backupHelp" class="form-text text-muted">
+                                                TAR file from a previous run or built following <a href="/documentation/formats#backup-file"> this documentation</a>. Must ends with <code>.tar</code> or <code>.tar.gz</code>
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="row mt-0">
+                                    <div class="run-help">
+                                        <h3>This instance configuration</h3>
+                                        <ul>
+                                            <li>
+                                                Uploaded file size is {% if limits.upload_size!='-1.0 B' %}limited to <code>{{ limits.upload_size }}{% else %}not limited{% endif %}</code>.
+                                            </li>
+                                            {% if limits.uncompressed_size!='-1.0 B' %}
+                                            <li>
+                                                When uncompressed, the size of each file must be under <code>{{ limits.uncompressed_size }}</code> 
+                                            </li>
+                                            {% endif %}
+                                            {% if mode == "webserver" %}
+                                            <li>
+                                                Computation wall time for indexing is set to <code>{{ limits.walltime_prepare }}</code> (hh:mm:ss).
+                                            </li>
+                                            {% endif %}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="batch-tab" role="tabpanel" aria-labelledby="batch-tab">
+                        {# Tab 3 #}
+                        {% set fnote_tab = fnote %}
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="row mt-0">
+                                    <label for="file_batch" class="file-batch col-3 col-form-label input-label">Batch file</label>
+                                    <div class="input-group col-sm d-flex">
+                                        <div class="custom-file" id="inputLocal">
+                                            <input type="file" class="custom-file-input" id="bname" name="bname">
+                                            <label class="custom-file-label" for="bname">Choose file</label>
+                                        </div>
+                                        <div class="w-100"></div>
+                                        <small id="targetHelp" class="form-text text-muted">
+                                            Text file following <a href="/documentation/formats#batch-file">batch format</a>. Must end with <code>.txt</code>
+                                        </small>
+                                    </div>
+                                </div>
+                                <div class="border rounded">
+                                    <textarea id="batch_content" rows="10"></textarea>
+                                </div>
+                                <div class="row">
+                                    <label id="listing-desc" for="dropzone-localfiles" class="col-2 col-form-label input-label file-batch">User files</label>
+                                    <div class="input-group col-10 local-files-buttons">
+                                        <div class="btn-toolbar justify-content-between d-flex" role="toolbar" aria-label="Toolbar with button groups">
+                                            <div class="btn-group" role="group" aria-label="Add group">
+                                                <button type="button" id="localfiles-btn" class="btn btn-success fileinput-button">
+                                                    <i class="glyphicon glyphicon-plus"></i>
+                                                    <span>Add files...</span>
+                                                </button>
+                                            </div>
+                                            <div class="btn-group" role="group" aria-label="Delete group">
+                                                <button type="button" id="delete-unused-btn" class="btn btn-warning cancel delete-btn">
+                                                    <i class="glyphicon glyphicon-trash"></i>
+                                                    <span>Remove unused</span>
+                                                </button>
+                                                <button type="button" id="delete-all-btn" class="btn btn-danger delete delete-btn">
+                                                    <i class="glyphicon glyphicon-trash"></i>
+                                                    <span>Clear All</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="table-responsive rounded border-top-0 dropzone" id="dropzone-localfiles">
+                                    <table id="listing" class="table table-striped" aria-describedby="listing-desc">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">File</th>
+                                                <th scope="col">Size</th>
+                                                <th scope="col">State</th>
+                                                <th scope="col">Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="row mt-0">
+                                    <ul class="nav nav-pills">
+                                        <li class="nav-item dropdown">
+                                          <a id="batch-help-dropdown" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Quick help for tools</a>
+                                          <div class="dropdown-menu">
+                                            {% for tool in tools_names %}
+                                                <a class="dropdown-item" id="batch-help-menu-{{ tool }}" rel="batch-help-{{ tool }}" href="#">
+                                                    {{ tools[tool].label | capitalize }}&nbsp<span class="glyphicon glyphicon-question-sign" title="{{ tools[tool].help }}"></span><br>
+                                                </a>
+                                            {% endfor %}
+                                          </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content run-help" id="nav-batch-help">
+                                    {% for tool in tools_names %}
+                                        <div class="tab-pane fade show batch-help {% if loop.index0 == 0 %}active{% endif %}" id="batch-help-{{ tool }}" role="tabpanel" aria-labelledby="nav-batch-options-{{ tool }}">
+                                            <h3>{{ tools[tool].label | capitalize }}</h3>
+                                            <p>{{ tools[tool].help }}<br>
+                                            Please use <code>tool={{ tool }}</code></p>
+                                            <h4>Options<sup><a href="#fn{{ fnote_tab }}" id="ref{{ fnote_tab }}">{{ fnote_tab }}</a></sup></h4>
+                                            {% if tools[tool].options %}
+                                                <p>Default options are displayed in <b>bold</b>.<br>
+                                                Please use <code>options=key1,key2,...</code> where <code>keys</code> are:</p> 
+                                                {% for opt in tools[tool].options %}
+                                                    {% set outer_loop = loop %}
+                                                    <!-- <h5>{{ opt.label }}&nbsp<span class="glyphicon glyphicon-question-sign" title="{{ opt.help }}"></span>{% if opt.type == "radio" %} (mutually exclusive){% endif %}</h5> -->
+                                                    <h5>{{ opt.label }}{% if opt.type == "radio" %} (mutually exclusive){% endif %}</h5>
+                                                    <p>{{ opt.help }}</p>
+                                                    <ul>
+                                                    {% for entry in opt['entries'] %}
+                                                        <li {% if entry.default %}style="font-weight: bold"{% endif %}><code>{{ opt.group }}:{{ entry.key }}</code>&nbsp: {{ entry.label }}&nbsp<span class="glyphicon glyphicon-question-sign" style="color: #2aabd2"
+                                                            title="{{ entry.help }}"></span></li>
+                                                    {% endfor %}
+                                                    </ul>
+                                                {% endfor %}
+                                            {% else %}
+                                                <p>No option.</p>
+                                            {% endif %}
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="buttons">
+                <button type="button" id="submit" class="btn btn-primary">Submit</button>
+                {% if example_align %}
+                    <button class="btn btn-outline-secondary tab1 tabx " type="button" id="example_align">Load example</button>
+                {% endif %}
+                {% if example_backup %}
+                    <button class="btn btn-outline-secondary tab2 tabx" type="button" id="example_backup">Load example</button>
+                    <button class="btn btn-outline-secondary tab2 tabx" type="button" id="dl_backup">Download example</button>
+                {% endif %}
+                {% if example_batch %}
+                    <button class="btn btn-outline-secondary tab3 tabx" type="button" id="example_batch">Load example</button>
+                {% endif %}
+            </div>
+            <div class="footnotes">
+                {% set fnote = 1 %}
+                <div class="tabx tab3">
+                    {% set fnote_tab = fnote %}
+                    <p class="afterworlff"><sup id="fn{{ fnote_tab }}"><a href="#fn{{ fnote_tab }}" id="ref{{ fnote_tab }}">{{ fnote_tab }}</a></sup> Look at the <a href="/documentation/formats#batch-file">batch format</a> page for full description. Default options are displayed in <b>bold</b></code></p>
+                    {% set fnote_tab = fnote_tab + 1 %}
+                </div>
+            </div>
+        </div>
+        <div id="uploading-loading" style="display:none;">Uploading files...</div>
+        <div class="hidden-input-files">
+            <input type="file" name="file-query" class="file-query" data-url="/upload" title=""/>
+            <input type="file" name="file-target" class="file-target" data-url="/upload"/>
+            <input type="file" name="file-alignfile" class="file-alignfile" data-url="/upload"/>
+            <input type="file" name="file-targetidx" class="file-targetidx" data-url="/upload"/>
+            <input type="file" name="file-queryidx" class="file-queryidx" data-url="/upload"/>
+            <input type="file" name="file-backup" class="file-backup" data-url="/upload"/>
+            <input id="batch-localfiles-upload" type="file" name="multiple-files[]" class="batchfile file-localfiles" data-url="/upload" multiple/>
+        </div>
+    </form>
+{% endblock %}

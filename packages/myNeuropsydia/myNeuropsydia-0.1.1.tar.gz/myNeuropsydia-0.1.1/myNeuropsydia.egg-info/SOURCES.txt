@@ -1,0 +1,7 @@
+README.md
+setup.py
+myNeuropsydia.egg-info/PKG-INFO
+myNeuropsydia.egg-info/SOURCES.txt
+myNeuropsydia.egg-info/dependency_links.txt
+myNeuropsydia.egg-info/requires.txt
+myNeuropsydia.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: ft_package_42_jekim
+Version: 0.0.9
+Summary: A small example package
+Home-page: https://github.com/Two-Jay/42_Python_for_DataScience
+Author: Two-Jay
+Author-email: djeeee1272@gmail.com
+License: MIT
+Description: # ft_package : Example package for Python_For_DataScience
+        
+        This is an example package for the Python_For_DataScience course.
+Platform: UNKNOWN

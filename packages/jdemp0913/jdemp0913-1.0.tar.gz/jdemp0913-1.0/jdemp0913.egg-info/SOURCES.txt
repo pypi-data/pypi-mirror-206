@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+jdemp0913.egg-info/PKG-INFO
+jdemp0913.egg-info/SOURCES.txt
+jdemp0913.egg-info/dependency_links.txt
+jdemp0913.egg-info/top_level.txt
+moshpdf/__init__.py
+moshpdf/pdf2image.py
+moshpdf/pdf2text.py

@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-split-dataset = napari_split_dataset:napari.yaml

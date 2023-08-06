@@ -1,0 +1,3 @@
+[console_scripts]
+hello = dna_audit_tool:hello_world
+

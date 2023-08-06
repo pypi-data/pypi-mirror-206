@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: netpolymigrator
+Version: 0.2.0
+Summary: A tool to migrate Calico and Cilium network policies to Kubernetes native network policies
+Home-page: https://github.com/sanjeevrg89/NetPolyMigrator
+Author: Sanjeev Ganjihal
+Author-email: sanjeevrg7@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6

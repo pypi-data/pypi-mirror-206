@@ -1,0 +1,13 @@
+setup.py
+Google Cloud Platform/__init__.py
+Google Cloud Platform/Google BigQuery/TableManagement.py
+Google Cloud Platform/Google BigQuery/__init__.py
+Google Cloud Platform/Google BigQuery/testingTables.py
+InstallationScripts/__init__.py
+InstallationScripts/autoGenerateRequirementsText.py
+MetaProgramming/__init__.py
+metabeaver.egg-info/PKG-INFO
+metabeaver.egg-info/SOURCES.txt
+metabeaver.egg-info/dependency_links.txt
+metabeaver.egg-info/requires.txt
+metabeaver.egg-info/top_level.txt

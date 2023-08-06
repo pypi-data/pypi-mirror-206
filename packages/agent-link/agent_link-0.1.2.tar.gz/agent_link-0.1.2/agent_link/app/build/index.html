@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="public/icon_512x512@2x.png" sizes="512x512">
+    <link rel="shortcut icon" type="image/png" href="public/icon_512x512@2x.png">
+    <meta name="description" content="Introducing our HAI Converse and SCode Project Temporary Terminal: a no-frills, user-friendly tool designed to make your coding life easier. With its clean and simple interface, our terminal allows you to test and run code, debug errors, and collaborate with teammates with ease. No complicated setup required - just plug in and start coding. Our terminal also includes customizable keyboard shortcuts and a searchable command history to help you work more efficiently. Whether you're a beginner or an experienced developer, our HAI Converse and SCode Project Temporary Terminal has got you covered.">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            font-family: monospace;
+        }
+
+        #terminal {
+            width: 100%;
+            height: 100%;
+            resize: none;
+            border: none;
+            outline: none;
+            overflow: hidden;
+        }
+    </style>
+    <title>Temp Terminal</title>
+</head>
+<body>
+    <textarea id="terminal" autofocus></textarea>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.js"></script>
+    <script>
+        const terminalElement = document.getElementById('terminal');
+        const searchParams = new URLSearchParams(window.location.search);
+        const websocketUrl = searchParams.get('ws_url');
+        if (websocketUrl) {
+            const websocket = new WebSocket(websocketUrl);
+            websocket.onmessage = (event) => {
+                const data = JSON.parse(event.data);
+                if (data.output) {
+                    terminalElement.value += '\n' + data.output;
+                    terminalElement.scrollTop = terminalElement.scrollHeight;
+                }
+            };
+
+            terminalElement.addEventListener('keydown', (event) => {
+                if (event.key === 'Enter') {
+                    event.preventDefault();
+                    websocket.send(JSON.stringify({ text: terminalElement.value }));
+                    terminalElement.value = '';
+                }
+            });
+
+            terminalElement.focus();
+            terminalElement.value = `Welcome to the HAI Converse and SCode Project Temporary Terminal.\nYou are now connected to the WebSocket server at ${websocketUrl}. Happy coding!`;
+        } else {
+            terminalElement.setAttribute('readonly', 'readonly');
+            terminalElement.value = 'Welcome to the HAI Converse and SCode Project Temporary Terminal.\nPlease provide a valid WebSocket URL to connect to the server.\nFor more information, visit term.jaseunda.com/docs.';
+        }
+    </script>
+</body>
+</html>

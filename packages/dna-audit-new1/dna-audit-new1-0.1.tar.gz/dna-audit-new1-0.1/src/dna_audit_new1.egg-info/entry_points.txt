@@ -1,0 +1,3 @@
+[console_scripts]
+c24 = main:dna_enter
+

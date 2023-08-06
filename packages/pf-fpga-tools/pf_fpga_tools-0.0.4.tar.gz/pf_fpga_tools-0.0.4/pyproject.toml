@@ -1,0 +1,57 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pf-fpga-tools"
+description = "A collection of tools for openFPGA projects"
+readme = "README.md"
+requires-python = ">=3.7"
+license = "GPL-3.0-or-later"
+keywords = ["openFPGA", "fpga", "analoguepocket"]
+authors = [
+  { name = "Didier Malenfant", email = "coding@malenfant.net" },
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = ['Pillow',
+                'tomli >= 1.1.0 ; python_version < "3.11"']
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://didier.malenfant.net/ProjectFreedom/"
+Documentation = "https://github.com/DidierMalenfant/pf-fpga-tools#readme"
+"Bug Tracker" = "https://github.com/DidierMalenfant/pf-fpga-tools/issues"
+"Source Code" = "https://github.com/DidierMalenfant/pf-fpga-tools"
+
+[tool.hatch.version]
+path = "pffpgatools/__about__.py"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "/.github",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["pffpgatools"]
+
+[tool.hatch.envs.default]
+dependencies = [
+  "pytest",
+  "pytest-cov",
+]
+
+[project.scripts]
+pfBuildCore = "pffpgatools.pfBuildCore.__main__:main"
+pfConvertImage = "pffpgatools.pfConvertImage.__main__:main"
+pfInstallCore = "pffpgatools.pfInstallCore.__main__:main"
+pfReverseBitstream = "pffpgatools.pfReverseBitstream.__main__:main"
+pfCloneCoreTemplate = "pffpgatools.pfCloneCoreTemplate.__main__:main"

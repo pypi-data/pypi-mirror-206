@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: CS333-Final-Project
+Version: 0.0.8
+Summary: CS333 Final Project
+Author: Colin Martires
+Author-email: cmartires@nevada.unr.edu
+Keywords: python
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+
+CS333 Testing and DevOps Final Project @ University of Nevada, Reno.

@@ -1,0 +1,38 @@
+#pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.2", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blacklist-checker"
+version = "0.0.4"
+description = "Check if a specific domain is in mail blaclist "
+readme = "README.md"
+authors = [{ name = "Benoit Chenal", email = "ben57univ@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+
+
+
+
+keywords = ["blacklist", "domain", "mail"]
+dependencies = [
+    "requests",
+    "configparser",
+    'tomli; python_version < "3.11"',
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/benochen/blacklist-checker.git"
+
+[project.scripts]
+blacklist-checker = "blacklist_checker.cli.mycli:main"

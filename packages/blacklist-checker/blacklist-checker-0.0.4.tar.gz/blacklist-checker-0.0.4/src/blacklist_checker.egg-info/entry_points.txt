@@ -1,0 +1,2 @@
+[console_scripts]
+blacklist-checker = blacklist_checker.cli.mycli:main

@@ -1,0 +1,7 @@
+requests
+pystyle
+platform
+os
+replit
+flask
+flask_restful

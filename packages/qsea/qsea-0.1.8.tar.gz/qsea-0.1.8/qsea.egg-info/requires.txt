@@ -1,0 +1,4 @@
+pandas
+datetime
+websocket-client
+ssl

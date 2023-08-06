@@ -1,0 +1,8 @@
+ccid
+common
+crypto
+emv
+globalplatform
+iso7816
+multos
+pcsc

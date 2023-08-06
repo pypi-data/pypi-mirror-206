@@ -1,0 +1,2 @@
+[sqlalchemy.dialects]
+sqlajdbc = sqlajdbc:dialect

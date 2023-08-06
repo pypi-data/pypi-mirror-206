@@ -1,0 +1,4 @@
+include oh_einstein_temp_convert/data/*.txt
+include Requirements.txt
+include LICENSE
+include README.md

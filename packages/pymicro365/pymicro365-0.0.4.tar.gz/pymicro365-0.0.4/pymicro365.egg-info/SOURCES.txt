@@ -1,0 +1,8 @@
+setup.py
+pymicro365/__init__.py
+pymicro365/pyicalc.py
+pymicro365.egg-info/PKG-INFO
+pymicro365.egg-info/SOURCES.txt
+pymicro365.egg-info/dependency_links.txt
+pymicro365.egg-info/requires.txt
+pymicro365.egg-info/top_level.txt

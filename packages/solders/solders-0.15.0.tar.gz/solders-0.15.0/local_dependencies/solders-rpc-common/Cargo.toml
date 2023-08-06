@@ -1,0 +1,22 @@
+[package]
+name = "solders-rpc-common"
+version = "0.15.0"
+edition = "2021"
+include = ["/src"]
+license = "MIT"
+repository = "https://github.com/kevinheavey/solders"
+
+[dependencies]
+pyo3 = { version = "0.18.0", default-features = false }
+serde = "^1.0.136"
+derive_more = "0.99.17"
+solders-macros = { path = "../solders-macros" }
+solders-traits-core = { path = "../solders-traits-core" }
+solana-account-decoder = "1.14.17"
+solana-rpc-client-api = "1.14.17"
+solders-account = { path = "../solders-account" }
+solders-rpc-response-data-boilerplate = { path = "../solders-rpc-response-data-boilerplate" }
+solders-transaction-status = { path = "../solders-transaction-status" }
+solana-transaction-status = "1.14.17"
+solders-transaction-error = { path = "../solders-transaction-error" }
+serde_with = { version = "^1.14.0", features = ["base64"] }

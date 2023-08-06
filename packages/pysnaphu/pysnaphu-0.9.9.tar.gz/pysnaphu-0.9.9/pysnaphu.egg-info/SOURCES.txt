@@ -1,0 +1,6 @@
+pysnaphu.py
+setup.py
+pysnaphu.egg-info/PKG-INFO
+pysnaphu.egg-info/SOURCES.txt
+pysnaphu.egg-info/dependency_links.txt
+pysnaphu.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pysnaphu
+Version: 0.9.9
+Summary: Python wrapper to snaphu
+Home-page: https://github.com/kidanger/pysnaphu
+Author: Jérémy Anger
+Author-email: angerj.dev@gmail.com
+Classifier: Operating System :: OS Independent

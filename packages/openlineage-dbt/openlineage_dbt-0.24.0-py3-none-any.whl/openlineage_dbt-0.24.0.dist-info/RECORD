@@ -1,0 +1,5 @@
+openlineage_dbt-0.24.0.data/scripts/dbt-ol,sha256=M4K5zhcN7qrceM2lERaTlDhVzNvmSV-mTgh-uQ43EpY,6285
+openlineage_dbt-0.24.0.dist-info/METADATA,sha256=w_fVtH-c8IMWEsE_5_B1GZ29cfUOHlksgfJy7mpGv-E,2208
+openlineage_dbt-0.24.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+openlineage_dbt-0.24.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+openlineage_dbt-0.24.0.dist-info/RECORD,,

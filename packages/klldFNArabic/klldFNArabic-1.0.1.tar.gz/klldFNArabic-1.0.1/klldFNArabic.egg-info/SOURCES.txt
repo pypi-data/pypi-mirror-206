@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+klldFNArabic/__init__.py
+klldFNArabic.egg-info/PKG-INFO
+klldFNArabic.egg-info/SOURCES.txt
+klldFNArabic.egg-info/dependency_links.txt
+klldFNArabic.egg-info/requires.txt
+klldFNArabic.egg-info/top_level.txt

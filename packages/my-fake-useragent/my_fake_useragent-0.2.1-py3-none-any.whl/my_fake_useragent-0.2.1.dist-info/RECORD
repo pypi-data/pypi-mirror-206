@@ -1,0 +1,11 @@
+my_fake_useragent/__init__.py,sha256=IoxzV2m2-mbeOP1JCEdzj0APB2qeuVGVXsuoO_-fA4E,3423
+my_fake_useragent/const.py,sha256=ATpx2jkFX_H4sVD2pzTYhporjOjB4EZfPMRH93NJsqQ,2160
+my_fake_useragent/crawler.py,sha256=njqXqVeSvBWoX2uUVMzfKHYxysX_fipHpWxaG_v9QWU,2394
+my_fake_useragent/filter.py,sha256=EP_TW7GYhaXCfkkrhj9xDhCLccMp_rcgWi2DufzLGYY,3151
+my_fake_useragent/parsed_data.py,sha256=LmE9U7BE8onl_KW-jm7sc12N4zsZInXiH6pyou7LBf4,1715737
+my_fake_useragent/utils.py,sha256=wjqV4ON5Aur4CPTWJZ-xCiDzfhQ2sECbWalnauaC4kw,353
+my_fake_useragent-0.2.1.dist-info/LICENSE,sha256=TgTX--8lnHjHxGg-Wxb436eyq4cf4xfdzVnPfz4PA4Q,1083
+my_fake_useragent-0.2.1.dist-info/METADATA,sha256=uEHGg0Xr9vkh5ErXys4DlqmYg-P0gQ9-m3UR2b5AsBI,3052
+my_fake_useragent-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+my_fake_useragent-0.2.1.dist-info/top_level.txt,sha256=Hla8dUHbVh-p_stK1rVQi0g_RqUQNBTi-t6ZSsF1yIQ,18
+my_fake_useragent-0.2.1.dist-info/RECORD,,

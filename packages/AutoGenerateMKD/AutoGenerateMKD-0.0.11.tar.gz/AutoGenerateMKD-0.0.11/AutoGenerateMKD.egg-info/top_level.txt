@@ -1,0 +1,2 @@
+AutoGenerateMKD
+mkdocs_pagenav_generator

@@ -1,0 +1,5 @@
+[console_scripts]
+AutoGenMKD = AutoGenerateMKD.main:main
+
+[mkdocs.plugins]
+pagenav-generator = mkdocs_pagenav_generator.plugin:NavGeneratorPlugin

@@ -1,0 +1,4 @@
+.DS_Store
+AutoGenerateMKD.egg-info/*
+build/*
+dist/*

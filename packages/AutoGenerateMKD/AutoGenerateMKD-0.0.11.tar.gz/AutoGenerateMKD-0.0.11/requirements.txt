@@ -1,0 +1,10 @@
+
+git+https://github.com/Andre601/mkdocs-pagenav-generator
+markdown-callouts
+mkdocs-autorefs
+mkdocs-awesome-pages-plugin
+mkdocs-include-markdown-plugin
+mkdocs-literate-nav
+mkdocs-material
+mkdocstrings-python
+pymdown-extensions

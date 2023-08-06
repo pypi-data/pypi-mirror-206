@@ -1,0 +1,29 @@
+{
+    "device_automation": {
+        "action_type": {
+            "arm_away": "Armar {entity_name} Ausente",
+            "arm_home": "Armar {entity_name} Casa",
+            "arm_night": "Armar {entity_name} Noite",
+            "arm_vacation": "Armar {entity_name} F\u00e9rias",
+            "disarm": "Desarmar {entity_name}",
+            "trigger": "Despoletar {entity_name}"
+        },
+        "condition_type": {
+            "is_armed_away": "{entity_name} foi armado para Ausente",
+            "is_armed_home": "{entity_name} foi armado para Casa",
+            "is_armed_night": "{entity_name} foi armado para Noite",
+            "is_armed_vacation": "{entity_name} foi armado para F\u00e9rias",
+            "is_disarmed": "{entity_name} foi desarmado",
+            "is_triggered": "{entity_name} foi despoletado"
+        },
+        "trigger_type": {
+            "armed_away": "{entity_name} armado Ausente",
+            "armed_home": "{entity_name} armado Casa",
+            "armed_night": "{entity_name} armado Noite",
+            "armed_vacation": "{entity_name} armado F\u00e9rias",
+            "disarmed": "{entity_name} desarmado",
+            "triggered": "{entity_name} despoletado"
+        }
+    },
+    "title": "Painel de controlo do alarme"
+}

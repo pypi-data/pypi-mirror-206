@@ -1,0 +1,12 @@
+{
+    "config": {
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "password": "Parol\u0103",
+                    "username": "Utilizator"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Acest profil NextDNS este deja configurat."
+        },
+        "error": {
+            "cannot_connect": "A e\u0219uat conectarea",
+            "invalid_api_key": "Cheie API nevalid\u0103",
+            "unknown": "Eroare nea\u0219teptat\u0103"
+        },
+        "step": {
+            "profiles": {
+                "data": {
+                    "profile": "Profil"
+                }
+            },
+            "user": {
+                "data": {
+                    "api_key": "Cheie API"
+                }
+            }
+        }
+    },
+    "system_health": {
+        "info": {
+            "can_reach_server": "Contacteaz\u0103 server"
+        }
+    }
+}

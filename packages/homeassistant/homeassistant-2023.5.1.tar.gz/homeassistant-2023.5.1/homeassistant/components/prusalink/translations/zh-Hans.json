@@ -1,0 +1,24 @@
+{
+    "entity": {
+        "sensor": {
+            "filename": {
+                "name": "\u6587\u4ef6\u540d"
+            },
+            "heatbed_target_temperature": {
+                "name": "\u70ed\u5e8a\u76ee\u6807\u6e29\u5ea6"
+            },
+            "material": {
+                "name": "\u6750\u6599"
+            },
+            "nozzle_target_temperature": {
+                "name": "\u55b7\u5634\u76ee\u6807\u6e29\u5ea6"
+            },
+            "print_speed": {
+                "name": "\u6253\u5370\u901f\u5ea6"
+            },
+            "z_height": {
+                "name": "Z\u8f74\u9ad8\u5ea6"
+            }
+        }
+    }
+}

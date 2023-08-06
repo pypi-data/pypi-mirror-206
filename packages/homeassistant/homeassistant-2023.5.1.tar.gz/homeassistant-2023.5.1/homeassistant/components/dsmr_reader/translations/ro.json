@@ -1,0 +1,12 @@
+{
+    "config": {
+        "abort": {
+            "single_instance_allowed": "Deja configurat. Doar o singur\u0103 configurare este posibil\u0103."
+        },
+        "step": {
+            "confirm": {
+                "description": "Asigura\u021bi-te c\u0103 ai configurat sursele de date 'split topic' \u00een DSMR Reader."
+            }
+        }
+    }
+}

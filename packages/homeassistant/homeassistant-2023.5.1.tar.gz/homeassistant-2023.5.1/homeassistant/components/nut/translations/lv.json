@@ -1,0 +1,20 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Ier\u012bce jau pievienota Home Assistant."
+        }
+    },
+    "device_automation": {
+        "action_type": {
+            "test_battery_start": "S\u0101kt akumulatoru p\u0101rbaudi",
+            "test_battery_start_deep": "Padzi\u013cin\u0101t\u0101s akumulatoru p\u0101rbaudes s\u0101k\u0161ana",
+            "test_battery_start_quick": "\u0100tr\u0101s akumulatoru p\u0101rbaudes s\u0101k\u0161ana",
+            "test_battery_stop": "P\u0101rtraukt akumulatoru p\u0101rbaudi",
+            "test_failure_start": "S\u0101kt simul\u0113t str\u0101vas padeves p\u0101rtraukumu",
+            "test_failure_stop": "P\u0101rtraukt simul\u0113t str\u0101vas padeves p\u0101rtraukumu",
+            "test_panel_start": "UPS pane\u013ca test\u0113\u0161anas s\u0101k\u0161ana",
+            "test_panel_stop": "UPS pane\u013ca testa aptur\u0113\u0161ana",
+            "test_system_start": "Sist\u0113mas testa s\u0101k\u0161ana"
+        }
+    }
+}

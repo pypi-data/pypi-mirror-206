@@ -1,0 +1,25 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Contul a fost configurat deja"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "authentication": "Selecteaz\u0103 metoda de autentificare",
+                    "headers": "Header-e",
+                    "password": "Parola",
+                    "resource": "Resurs\u0103",
+                    "username": "Utilizator",
+                    "verify_ssl": "Verific\u0103 certificat SSL"
+                },
+                "data_description": {
+                    "authentication": "Tipul de autentificare HTTP. Fie de baz\u0103, fie digest",
+                    "headers": "Header-e de utilizat pentru solicitarea web",
+                    "resource": "URL-ul site-ului web care con\u021bine valoarea",
+                    "verify_ssl": "Activeaz\u0103/dezactiveaz\u0103 verificarea certificatului SSL/TLS, de exemplu dac\u0103 este autosemnat"
+                }
+            }
+        }
+    }
+}

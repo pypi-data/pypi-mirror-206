@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: sw-mc-lib
+Version: 0.2.1
+Summary: Library for interaction with Stormworks Microcontrollers
+Author: Fabian Wunsch
+License: MIT License
+Project-URL: homepage, https://github.com/stormworks-utils/sw_mc_lib
+Project-URL: repository, https://github.com/stormworks-utils/sw_mc_lib
+Keywords: stormworks,lib,microcontroller
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Games/Entertainment :: Simulation
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.13)
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+
+# sw_mc_lib
+Stormworks Microcontroller library
+
+

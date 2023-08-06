@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: makeWordQrpics
+Version: 0.3.1
+Summary: PDF撕裂者单个功能
+Home-page: https://alidocs.dingtalk.com/i/p/4oJRz0VRJyvmLZMydy0mV7WvjQn7MG89
+Author: wangweidong
+Author-email: 17891967090@163.com
+License: UNKNOWN
+Description: 这是PDF撕裂者的一个功能
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

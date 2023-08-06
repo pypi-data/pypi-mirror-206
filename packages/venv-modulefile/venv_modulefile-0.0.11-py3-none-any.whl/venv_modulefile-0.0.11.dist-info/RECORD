@@ -1,0 +1,14 @@
+venvmod/VERSION,sha256=PLjZg8GRAWiPHmbR5GxM5mwECIHphCOifTj8kOzM87o,7
+venvmod/__init__.py,sha256=o5ZA_RooinEOqsWHo5luCSiGvRasYQDgONRZTuutY60,232
+venvmod/modulefile.py,sha256=Rsxo8apOwlDPSNwuWadf8acCOut45GHmNKoLopEPnyU,12254
+venvmod/tools.py,sha256=6Dyr5GoQObyerpo9VDP4_sIVV7XospkhZir1C8u2xHA,2844
+venvmod/commands/__init__.py,sha256=cVJSsu0Hiv1BEwP6VVkRHwmlZxI_IlnbkrjO1qDDzPU,2991
+venvmod/commands/append_module.py,sha256=Ku0Ssjxuf6wXy-S8D_3yMPYjliGaOG6E41KMNRpDdtw,8304
+venvmod/commands/create_module.py,sha256=_BfNZo4YCxd_kku0NSDCl6YOF1knYfazLnBct1X1R5M,4191
+venvmod/commands/test_imports.py,sha256=RlusxL-M_D8wsyWRBCScaLPQCYOkTOdCojWH-J1lQ14,1539
+venv_modulefile-0.0.11.dist-info/LICENSE.md,sha256=60g1-rYv-ihlhia33lGnN-_4bKV8OQKks8u2gJ7unUk,1302
+venv_modulefile-0.0.11.dist-info/METADATA,sha256=2q2VwVmMj_xQoxFwfJmjWawSZ2h7WAYADUhhUz7L-r4,2682
+venv_modulefile-0.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+venv_modulefile-0.0.11.dist-info/entry_points.txt,sha256=1_bjkYHtY9BSuSdazTqcuiLiu0hdwMNVdZ4nwhmyTTE,809
+venv_modulefile-0.0.11.dist-info/top_level.txt,sha256=YOyfBCdzuqhCzYY22PvpWrsXAriFVWupwatYtW7ZVs8,8
+venv_modulefile-0.0.11.dist-info/RECORD,,

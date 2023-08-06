@@ -1,0 +1,7 @@
+{% load i18n %} {% load l10n %} {% load rich_text %}
+
+{{ information_text | rich_text }}
+<dl class="dl-horizontal">
+  <dd>{{ msisdn }}</dd>
+</dl>
+{{ instructions | rich_text }}

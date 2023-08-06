@@ -1,0 +1,9 @@
+LICENSE
+README
+setup.py
+migranpaquete/__init__.py
+migranpaquete/player.py
+paquetedepozoslunares.egg-info/PKG-INFO
+paquetedepozoslunares.egg-info/SOURCES.txt
+paquetedepozoslunares.egg-info/dependency_links.txt
+paquetedepozoslunares.egg-info/top_level.txt

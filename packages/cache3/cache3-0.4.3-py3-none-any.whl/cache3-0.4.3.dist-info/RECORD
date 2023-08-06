@@ -1,0 +1,9 @@
+cache3/__init__.py,sha256=RFg1tbst79a8nFgR3fsA3ZOyMcrwDp95p2vbQPQrHSQ,630
+cache3/disk.py,sha256=RZMjRK8HzccV_YPHa6IjDjTQladQGJsvaA1Sc7ai7zE,35535
+cache3/memory.py,sha256=PUxCHTnuLILteiLlHnfwLC849sqOvjF8PJbZwqMV-RU,11008
+cache3/util.py,sha256=8suVKNZJmMCat4GxvS2hN0I4Sz8k5ew3KyjwnUppDXc,5592
+cache3-0.4.3.dist-info/LICENSE,sha256=At8y9btKCvCBlwrypOck7sgqky8zsx-vZaMz8Qr7Clo,1090
+cache3-0.4.3.dist-info/METADATA,sha256=sZ_wXjwZ9n9vPKG-ldlAuSyFdJrMqLufZa8MBhDciFA,2293
+cache3-0.4.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+cache3-0.4.3.dist-info/top_level.txt,sha256=_I6FZ3jPrHtGAFANSHFSWud38ze-Z00gAABvllsnJ38,7
+cache3-0.4.3.dist-info/RECORD,,

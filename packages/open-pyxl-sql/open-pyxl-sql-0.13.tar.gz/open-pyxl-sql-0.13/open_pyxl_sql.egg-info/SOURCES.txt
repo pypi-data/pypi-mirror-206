@@ -1,0 +1,8 @@
+README.md
+setup.py
+PyxlSql/__init__.py
+PyxlSql/__main__.py
+open_pyxl_sql.egg-info/PKG-INFO
+open_pyxl_sql.egg-info/SOURCES.txt
+open_pyxl_sql.egg-info/dependency_links.txt
+open_pyxl_sql.egg-info/top_level.txt

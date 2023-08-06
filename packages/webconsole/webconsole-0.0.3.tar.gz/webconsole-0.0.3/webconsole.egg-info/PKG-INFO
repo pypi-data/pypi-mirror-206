@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: webconsole
+Version: 0.0.3
+Summary: webconsole
+Author: RayCheung
+Keywords: pip,webconsole,python,docker
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

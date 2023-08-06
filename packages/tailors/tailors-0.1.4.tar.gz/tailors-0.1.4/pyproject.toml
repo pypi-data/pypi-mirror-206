@@ -1,0 +1,56 @@
+[project]
+name = "tailors"
+description = ""
+authors = [{name = "orctom", email = "orctom@gmail.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+license-expression = "Apache-2.0"
+dynamic = ["version"]
+requires-python = ">=3.8"
+dependencies = [
+    "hao>=3.7.11",
+    "torch>=2.0.0",
+    "transformers>=4.27.2",
+    "einops",
+    "seqeval",
+    "scikit-learn",
+    "peft",
+]
+
+[project.urls]
+homepage = "https://github.com/orctom/tailors"
+
+[build-system]
+requires = ["flit_core>=3.8.0,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q -s"
+testpaths = [
+    "tests",
+]
+
+[tool.autopep8]
+max_line_length = 150
+in-place = true
+recursive = true
+aggressive = 3
+
+[tool.black]
+line-length = 150
+target-version = ['py38']
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | data
+)/
+'''

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tailors
+Version: 0.1.4
+Summary: 
+Home-page: https://github.com/orctom/tailors
+License: Apache-2.0
+Author: orctom
+Author-email: orctom <orctom@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: hao>=3.7.11
+Requires-Dist: torch>=2.0.0
+Requires-Dist: transformers>=4.27.2
+Requires-Dist: einops
+Requires-Dist: seqeval
+Requires-Dist: scikit-learn
+Requires-Dist: peft
+Project-URL: homepage, https://github.com/orctom/tailors
+
+# tailors
+
+abstract base models
+

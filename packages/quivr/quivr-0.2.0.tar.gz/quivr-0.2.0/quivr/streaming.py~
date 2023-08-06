@@ -1,0 +1,10 @@
+from typing import TypeVar, Iterator
+
+from .tables import TableBase
+
+GenericTable = TypeVar("GenericTable", bound=TableBase)
+
+
+
+
+def streaming_read(source: (Union[bytes, buffer, pyarrow.NativeFile, BinaryIO], table_class: Type[GenericTable]) -> Iterable[GenericTable]:

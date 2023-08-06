@@ -1,0 +1,53 @@
+from typing import Generic, TypeVar, TypeAlias, Union, Iterable
+
+import pyarrow as pa
+
+
+BytesCoercible: TypeAlias = Union[bytes, bytearray, memoryview, str, int, Iterable[int]]
+MetadataDict: TypeAlias = dict[str, str]
+
+class Field:
+    def __init__(self, dtype: pa.DataType, nullable: bool=True, metadata):
+        self.dtype = dtype
+
+    def __get__(self, obj: Table, objtype: type):
+        return obj.table[self.name]
+
+    def __set_name__(self, owner: type, name: str):
+        self.name = name
+
+    def pyarrow_field(self):
+        return pa.field(self.name, self.dtype)
+
+
+def table(cls):
+    fields = []
+    for name, field in cls.__dict__.items():
+        if isinstance(field, Field):
+            fields.append(field)
+
+    # Generate a pyarrow schema
+    schema = pa.schema(
+    return cls
+
+
+class Table:
+    ...
+
+class Coordinates:
+    x = Field(dtype=pa.float64())
+    y = Field(dtype=pa.float64())
+    z = Field(dtype=pa.float64())
+    
+
+    def __init__(self, x, y, z):
+        self.schema = pa.schema([
+            pa.field('x', pa.float64()),
+            pa.field('y', pa.float64()),
+            pa.field('z', pa.float64()),
+        ])
+        self.table = pa.Table.from_pydict({
+            'x': x,
+            'y': y,
+            'z': z,
+        }, schema=self.schema)

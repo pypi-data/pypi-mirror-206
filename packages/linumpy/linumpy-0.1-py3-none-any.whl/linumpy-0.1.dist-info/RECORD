@@ -1,0 +1,9 @@
+linumpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+linumpy/io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+linumpy/io/allen.py,sha256=XpPobYu-ArmCGLSDgSr3wAX6dL_fK6u1J4C-TOBa9XM,1303
+linumpy-0.1.data/scripts/linum_download_allen.py,sha256=5R0-Ds-ubTWLt4wl3t9qYNokz6BrxESSVkutfOUGPNA,1885
+linumpy-0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+linumpy-0.1.dist-info/METADATA,sha256=pB5AzyYXaM2jEnFRXIoyhDI9hSx4OCES6NUAzNRcRVQ,1475
+linumpy-0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+linumpy-0.1.dist-info/top_level.txt,sha256=lNTkf9cNt_Aaldth53HBbOh20rllmENgIOBIkL-I6gY,8
+linumpy-0.1.dist-info/RECORD,,

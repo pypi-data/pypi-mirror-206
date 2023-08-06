@@ -1,0 +1,5 @@
+setup.py
+pipeline_toolkit_mad.egg-info/PKG-INFO
+pipeline_toolkit_mad.egg-info/SOURCES.txt
+pipeline_toolkit_mad.egg-info/dependency_links.txt
+pipeline_toolkit_mad.egg-info/top_level.txt

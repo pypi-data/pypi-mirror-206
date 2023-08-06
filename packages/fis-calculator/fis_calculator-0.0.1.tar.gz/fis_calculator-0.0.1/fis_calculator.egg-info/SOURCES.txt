@@ -1,0 +1,8 @@
+setup.py
+fis_calculator/__init__.py
+fis_calculator/fis_calculator_src.py
+fis_calculator.egg-info/PKG-INFO
+fis_calculator.egg-info/SOURCES.txt
+fis_calculator.egg-info/dependency_links.txt
+fis_calculator.egg-info/requires.txt
+fis_calculator.egg-info/top_level.txt

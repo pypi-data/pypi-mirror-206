@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: voai
+Version: 0.0.4
+Summary: A tool designed for working with 🧑‍💻ChatGPT API🧑‍💻
+Home-page: https://github.com/CURVoid/voai
+Author: VOID
+License: APACHE 2.0
+Keywords: chatgpt,gpt,chat,voai,openai,ai
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (==2.22.0)
+
+## VoAI v0.0.4 - tool designed for working with ChatGPT API
+## Change log
+- Removed `ask_with_context` method from `GPT35Turbo`
+- Added `new_chat` method for `GPT35Turbo` to create `GPT35TurboChat` instance, now to use `ask_with_context` you need to create it
+- Added `ask` method for `GPT35TurboChat` is same as `ask_with_context` of `GPT35Turbo` in v0.0.3
+- Added `clear` method for `GPT35TurboChat` which clears whole chat
+- Added `regenerate` method for `GPT35TurboChat` which regenerates response using index of context array returned by `get_context` method of the same struct
+## Usage
+```python
+# here is cli example of chat gpt api
+import voai
+
+KEY = "your-api-key"
+
+gpt = voai.GPT35Turbo(KEY)
+chat = gpt.new_chat()
+while True:
+    query = input("> ")
+
+    response = chat.ask(query)
+    print(response)
+```
+## Using libraries
+- <a href="https://pypi.org/project/requests/">requests</a>

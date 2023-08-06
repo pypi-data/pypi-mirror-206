@@ -1,0 +1,3 @@
+[console_scripts]
+checkk = main:dna_enter
+

@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: bech32m
+Version: 0.0.1
+Summary: Encoding/decoding Bech32 and Bech32m
+Project-URL: Documentation, https://github.com/unknown/bech32m#readme
+Project-URL: Issues, https://github.com/unknown/bech32m/issues
+Project-URL: Source, https://github.com/unknown/bech32m
+Author-email: Denis Otkidach <denis.otkidach@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# bech32m
+
+[![PyPI - Version](https://img.shields.io/pypi/v/bech32m.svg)](https://pypi.org/project/bech32m)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/bech32m.svg)](https://pypi.org/project/bech32m)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install bech32m
+```
+
+## License
+
+`bech32m` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

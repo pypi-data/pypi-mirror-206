@@ -1,0 +1,22 @@
+{
+    "config": {
+        "abort": {
+            "no_devices_found": "T\u012bkl\u0101 nav atrasta neviena ier\u012bce"
+        },
+        "error": {
+            "invalid_auth": "Neder\u012bga autentifik\u0101cija",
+            "unknown": "Neparedz\u0113ta k\u013c\u016bda"
+        },
+        "step": {
+            "confirm": {
+                "description": "Vai v\u0113laties s\u0101kt iestat\u012b\u0161anu?"
+            },
+            "user": {
+                "data": {
+                    "password": "Parole",
+                    "username": "E-pasts"
+                }
+            }
+        }
+    }
+}

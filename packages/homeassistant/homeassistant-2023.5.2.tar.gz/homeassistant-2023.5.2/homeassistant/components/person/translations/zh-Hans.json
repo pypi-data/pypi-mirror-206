@@ -1,0 +1,12 @@
+{
+    "entity_component": {
+        "_": {
+            "state_attributes": {
+                "gps_accuracy": {
+                    "name": "GPS\u7cbe\u5ea6"
+                }
+            }
+        }
+    },
+    "title": "\u4eba\u5458"
+}

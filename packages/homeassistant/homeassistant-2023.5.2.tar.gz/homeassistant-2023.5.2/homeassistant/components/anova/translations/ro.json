@@ -1,0 +1,28 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "password": "Parol\u0103",
+                    "username": "Email"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "mode": {
+                "name": "Mod"
+            },
+            "state": {
+                "name": "Stare"
+            },
+            "target_temperature": {
+                "name": "Temperatura \u021bint\u0103"
+            },
+            "water_temperature": {
+                "name": "Temperatura apei"
+            }
+        }
+    }
+}

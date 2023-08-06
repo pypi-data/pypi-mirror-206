@@ -1,0 +1,19 @@
+{
+    "config": {
+        "error": {
+            "already_configured": "O servi\u00e7o j\u00e1 est\u00e1 configurado"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "name": "Nome"
+                }
+            }
+        }
+    },
+    "options": {
+        "error": {
+            "already_configured": "O servi\u00e7o j\u00e1 est\u00e1 configurado"
+        }
+    }
+}

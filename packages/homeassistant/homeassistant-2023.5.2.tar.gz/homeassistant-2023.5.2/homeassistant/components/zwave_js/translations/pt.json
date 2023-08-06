@@ -1,0 +1,48 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "O dispositivo j\u00e1 est\u00e1 configurado",
+            "already_in_progress": "O processo de configura\u00e7\u00e3o j\u00e1 est\u00e1 a decorrer",
+            "cannot_connect": "A liga\u00e7\u00e3o falhou"
+        },
+        "error": {
+            "cannot_connect": "A liga\u00e7\u00e3o falhou",
+            "unknown": "Erro inesperado"
+        },
+        "step": {
+            "configure_addon": {
+                "data": {
+                    "usb_path": "Caminho do Dispositivo USB"
+                }
+            },
+            "manual": {
+                "data": {
+                    "url": ""
+                }
+            }
+        }
+    },
+    "options": {
+        "abort": {
+            "already_configured": "O dispositivo j\u00e1 est\u00e1 configurado",
+            "cannot_connect": "A liga\u00e7\u00e3o falhou"
+        },
+        "error": {
+            "cannot_connect": "A liga\u00e7\u00e3o falhou",
+            "unknown": "Erro inesperado"
+        },
+        "step": {
+            "configure_addon": {
+                "data": {
+                    "emulate_hardware": "Emular Hardware",
+                    "usb_path": "Caminho do Dispositivo USB"
+                }
+            },
+            "manual": {
+                "data": {
+                    "url": ""
+                }
+            }
+        }
+    }
+}

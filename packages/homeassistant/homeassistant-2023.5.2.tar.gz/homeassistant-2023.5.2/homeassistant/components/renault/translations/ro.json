@@ -1,0 +1,68 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Contul a fost configurat deja",
+            "kamereon_no_account": "Nu s-a g\u0103sit contul Kamereon",
+            "reauth_successful": "Re-autentificarea s-a realizat cu succes"
+        },
+        "error": {
+            "invalid_credentials": "Autentificare nevalid\u0103"
+        },
+        "step": {
+            "kamereon": {
+                "data": {
+                    "kamereon_account_id": "ID cont Kamereon"
+                },
+                "title": "Selecteaz\u0103 ID-ul contului Kamereon"
+            },
+            "reauth_confirm": {
+                "data": {
+                    "password": "Parola"
+                },
+                "description": "Te rug\u0103m s\u0103 actualizezi parola pentru {username}",
+                "title": "Re-autentificare integrare"
+            },
+            "user": {
+                "data": {
+                    "locale": "Set\u0103ri regionale",
+                    "password": "Parola",
+                    "username": "E-mail"
+                },
+                "title": "Date de autentificare Renault"
+            }
+        }
+    },
+    "entity": {
+        "select": {
+            "charge_mode": {
+                "state": {
+                    "always": "Instant",
+                    "always_charging": "Instant",
+                    "schedule_mode": "Planificator"
+                }
+            }
+        },
+        "sensor": {
+            "charge_state": {
+                "state": {
+                    "charge_ended": "\u00cenc\u0103rcarea s-a \u00eencheiat",
+                    "charge_error": "Nu se \u00eencarc\u0103 sau nu este conectat \u00eenc\u0103rc\u0103torul",
+                    "charge_in_progress": "Se \u00eencarc\u0103",
+                    "energy_flap_opened": "Clapeta de energie deschis\u0103",
+                    "not_in_charge": "Nu se \u00eencarc\u0103",
+                    "unavailable": "Indisponibil",
+                    "waiting_for_a_planned_charge": "\u00cen a\u0219teptarea \u00eenc\u0103rc\u0103rii planificate",
+                    "waiting_for_current_charge": "\u00cen a\u0219teptarea \u00eenc\u0103rc\u0103rii curente"
+                }
+            },
+            "plug_state": {
+                "state": {
+                    "plug_error": "Eroare de priz\u0103",
+                    "plug_unknown": "Muf\u0103 necunoscut\u0103",
+                    "plugged": "Bran\u0219at",
+                    "unplugged": "Debran\u0219at"
+                }
+            }
+        }
+    }
+}

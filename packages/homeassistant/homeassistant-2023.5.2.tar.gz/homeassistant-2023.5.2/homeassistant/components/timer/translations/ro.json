@@ -1,0 +1,12 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Cronometru",
+            "state": {
+                "active": "Activ",
+                "idle": "Inactiv",
+                "paused": "\u00cen pauz\u0103"
+            }
+        }
+    }
+}

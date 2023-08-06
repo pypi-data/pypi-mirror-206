@@ -1,0 +1,9 @@
+peptide_property_predictor/__init__.py,sha256=4D3-E-sMLcS78l3uADPkS3qgKToze9Jb4G50o2ws_jw,97
+peptide_property_predictor/predict.py,sha256=z8IQfj_ByNQPO5Lu6NsnTrc1hTBSzCU-2SPmFev7iWo,3184
+peptide_property_predictor/preprocessing.py,sha256=8XdsC8KSt4U1kiE4hPEiR4QqTBYFTQ4iKJxyYxQDX0Q,2024
+peptide_property_predictor/train.py,sha256=Moxa68N12deApEpVAqbkhNufkAkLKDSbZ4F0ciRzpHQ,7446
+peptide_property_predictor/models/small_rt.h5,sha256=Fucw9ZtOyPRP3yU6b8FgsB8oUvi_ZiiHlSYJOuZizHY,1327664
+peptide_property_predictor-0.0.1.dist-info/METADATA,sha256=bs9Bxy2P9u5829dhTizXTT_CcGMb7ObJUApf7RzSmJA,731
+peptide_property_predictor-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+peptide_property_predictor-0.0.1.dist-info/top_level.txt,sha256=VhqwTEyK6kVy__xey4LqXncE1eV4Z0HYMYbQ2Yk-AXE,27
+peptide_property_predictor-0.0.1.dist-info/RECORD,,

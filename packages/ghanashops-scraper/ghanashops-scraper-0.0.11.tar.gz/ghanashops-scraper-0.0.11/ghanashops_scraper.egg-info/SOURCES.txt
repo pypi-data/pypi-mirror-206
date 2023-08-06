@@ -1,0 +1,15 @@
+README.md
+setup.py
+tonaton.py
+ghanashops_scraper.egg-info/PKG-INFO
+ghanashops_scraper.egg-info/SOURCES.txt
+ghanashops_scraper.egg-info/dependency_links.txt
+ghanashops_scraper.egg-info/requires.txt
+ghanashops_scraper.egg-info/top_level.txt
+jumia/__init__.py
+jumia/scraper.py
+jumia/utils.py
+tonaton/__init__.py
+tonaton/scraper.py
+tonaton/scrapy.py
+tonaton/utils.py

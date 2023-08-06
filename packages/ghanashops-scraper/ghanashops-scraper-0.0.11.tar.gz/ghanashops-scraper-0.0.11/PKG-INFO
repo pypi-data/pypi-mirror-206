@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: ghanashops-scraper
+Version: 0.0.11
+Summary: A python package to scrape data from Ghana online shops
+Home-page: https://github.com/donwany/ghanashops-scraper
+Author: Theophilus Siameh
+Author-email: theodondre@gmail.com
+License: MIT License
+Description: ![Python 3.7, 3.8, 3.9](https://img.shields.io/badge/Python-3.7%2C%203.8%2C%203.9-3776ab.svg?maxAge=2592000)
+        [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
+        
+        ### Ghana Online Shops Scraper
+          A simple unofficial python package to scrape data from 
+          [Tonaton](https://www.tonaton.com),
+          [JumiaGH](https://www.jumia.com.gh).
+          Affiliated to [Bank of Ghana Fx Rates](https://pypi.org/project/bank-of-ghana-fx-rates/)
+          [GhanaNews-Scraper](https://pypi.org/project/ghananews-scraper/).
+        
+        ### How to install
+        ```shell
+        pip install ghanashops-scraper
+        ```
+        
+        ### Example Google Colab Notebook
+           Click Here: [![Google Colab Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15i2Nh8inWTpg3GT2tLeRdP6ByI4j656b?usp=sharing)
+        
+        ### Outputs
+          - All outputs will be saved in a `.csv` file. Other file formats not yet supported.
+          - Format: 
+            - ["product_description", "price", "location", "photo", "page_url"]
+            - ![tv.png](tv.png)
+        
+        ### Usage
+           + Scrape shop data from [Tonaton](https://tonaton.com)
+           + Example of search queries: cars, laptops, phones, vehicles, rent, houses, tablets, shoes, refrigerator
+        ```python
+        from tonaton.scraper import Tonaton
+        
+        search_query = "iphones"
+        tonaton = Tonaton(query=search_query)
+        tonaton.download()
+        ```
+        ### Limiting the number of pages to scrape.
+           + Note: some pages may take longer depending on the count. Recommend `limiting` your pages.
+        ```python
+        from tonaton.scraper import Tonaton
+        
+        search_query = "laptops"
+        tonaton = Tonaton(query=search_query, limit_pages=10)
+        tonaton.download()
+        ```
+        
+        ### Using Asyncio
+           + DO NOT USE IN JUPYTER NOTEBOOKS OR GOOGLE COLAB. OTHER WAYS ARE ACCEPTED
+        ```python
+        import asyncio
+        from tonaton.scrapy import Tonaton
+        
+        search_query = "buses"
+        tonaton = Tonaton(query=search_query, limit_pages=10)
+        
+        if __name__ == '__main__':
+            asyncio.run(tonaton.get_data())
+            tonaton.download()
+        ```
+        
+        
+        
+        BuyMeCoffee
+        -----------
+        [![Build](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/theodondrew)
+        
+        Credits
+        -------
+        -  `Theophilus Siameh`
+        - Follow me on Twitter
+        -  <div>
+              <a href="https://twitter.com/tsiameh"><img src="https://img.shields.io/twitter/follow/tsiameh?color=blue&logo=twitter&style=flat" alt="tsiameh twitter"></a>
+            </div>
+Keywords: Scraper,Data,tonaton,jumia,GhanaNews,GhanaWeb,JoyNews,MyJoyOnline,News,Web Scraper,Ghana Scraper
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

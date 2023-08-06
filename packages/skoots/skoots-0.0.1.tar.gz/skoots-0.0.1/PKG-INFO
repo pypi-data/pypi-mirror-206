@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: skoots
+Version: 0.0.1
+Summary: SKeletOn ObjecT Segmentation (SKOOTS)
+Home-page: https://github.com/buswinka/skoots
+Author: Chris Buswinka
+Author-email: buswinka@g.harvard.edu
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+![](resources/skooting_in_progress_v2.png)
+
+# SKOOTS
+
+<img src="resources/overview.png" align="center" width="150px"/> 
+SKeletOn ObjecT Segmentation - 2D/3D instance segmentation of arbitrary biomedical images.
+
+Currently, in development! Things may change!
+
+Makes use of BISM (Biomedical Image Segmentation Models) and a lot of pyTorch
+
+## <img src="resources/installation.png" align="center" width="150px"/>
+
+<!-- start installation -->
+To install, make sure pyTorch is installed with CUDA support.
+
+```bash
+pip install skoots
+```
+
+<!-- end installation -->
+
+## Usage
+
+<img src="resources/usage.png" align="center" width="150px"/> 
+test
+
+## Considerations
+
+<img src="resources/considerations.png" align="center" width="150px"/> 
+test
+
+## Warnings
+
+<img src="resources/warning.png" align="center"/> 
+test
+
+

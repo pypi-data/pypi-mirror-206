@@ -1,0 +1,13 @@
+delayed_image/__init__.py,sha256=tPd_p21WTqRzQb9ZMC5_8Z75aq3WyniE63yRa5zza6Q,15467
+delayed_image/channel_spec.py,sha256=6E6iCwo8kLReeBN2Nb0kPH1bzlyHHzSDXTn-V2yc7Co,61766
+delayed_image/delayed_base.py,sha256=NxHKASG-nJT6YUt-FxpJNaMM7a3UIK1j4z2uN0KQDdg,13085
+delayed_image/delayed_leafs.py,sha256=TMFqGTNyEwurtC_9PAG812uTF_zCjnJi0JG0hNOSVqc,13590
+delayed_image/delayed_nodes.py,sha256=F48bc090WCuQ8UJCC2a4oLkrvziDWAau4C-6-MqxEPE,99022
+delayed_image/demo.py,sha256=jQqXRo6cN75vB_D32lnpUXIjCYYk-sKAXF1776GCfI4,900
+delayed_image/helpers.py,sha256=D0eiIo0Blyu0n4D5uiZ3mZP0ESuLnm-6exJV7iTpwzU,33248
+delayed_image/lazy_loaders.py,sha256=2y6daP6WQikcHYc8JiXqXX7A62acuTd2mKpRz7OlPl8,26215
+delayed_image/sensorchan_spec.py,sha256=Zm0uMxnoFBOswAARF5e4-bSYPakIpfwN_LoduBq-tPU,22747
+delayed_image-0.2.7.dist-info/METADATA,sha256=q3EJ1yiDreRFJVL9I5cW2h70HGIW1dHOmur2v81n-ZY,30203
+delayed_image-0.2.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+delayed_image-0.2.7.dist-info/top_level.txt,sha256=2I0BoRDZ6Gfbdps7YCquLhxb4hLEOuYKZN7L7Rh_jmk,14
+delayed_image-0.2.7.dist-info/RECORD,,

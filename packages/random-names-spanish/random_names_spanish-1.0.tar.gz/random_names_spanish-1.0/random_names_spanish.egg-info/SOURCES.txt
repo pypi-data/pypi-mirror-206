@@ -1,0 +1,8 @@
+setup.py
+random_names_spanish/__init__.py
+random_names_spanish/functions.py
+random_names_spanish.egg-info/PKG-INFO
+random_names_spanish.egg-info/SOURCES.txt
+random_names_spanish.egg-info/dependency_links.txt
+random_names_spanish.egg-info/requires.txt
+random_names_spanish.egg-info/top_level.txt

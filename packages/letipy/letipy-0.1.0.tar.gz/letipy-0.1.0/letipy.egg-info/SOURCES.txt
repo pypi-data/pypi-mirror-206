@@ -1,0 +1,7 @@
+setup.py
+code/__init__.py
+letipy.egg-info/PKG-INFO
+letipy.egg-info/SOURCES.txt
+letipy.egg-info/dependency_links.txt
+letipy.egg-info/requires.txt
+letipy.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+pkg/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pkg/lesscode_tool.py,sha256=D_Af1TmxL8Xwwu0Ie5nGJ6S_KXsDQXLCUWf8LisMwn4,1284
+pkg/version.py,sha256=R9xOYoYrWKcfO5zvTeGC3m_eDNOvxMd8CocQs2tLufo,22
+pkg/tool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkg/tool/convert.py,sha256=MfiZKI9QGIaxgzs361UVjjjvD0DKHbY7acVrx6sXi64,815
+pkg/tool/new.py,sha256=0dQATxOKeLV1jtSAw2mkjaKAmV_29Bv6eO9QKEclDUs,6962
+pkg/tool/sqlacodegen.py,sha256=tHsJL4BhAEaaPo9C4CIXoC8cbZe_J3TN3Cpb2uTAVkY,2339
+lesscode_tool-0.0.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+lesscode_tool-0.0.7.dist-info/METADATA,sha256=E6dxiVRa--1tZwCSEMGSeEdeo8CZkDZ4awWT4A7cedw,418
+lesscode_tool-0.0.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+lesscode_tool-0.0.7.dist-info/entry_points.txt,sha256=chM7xLVPWJuO2urIOQPQVlYlkAlpBVRZ1-tDowhdmjg,56
+lesscode_tool-0.0.7.dist-info/top_level.txt,sha256=8jjfKuFvlaNGG7JiuNtS31gIuwOm8thUcUQoNbsxxls,4
+lesscode_tool-0.0.7.dist-info/RECORD,,

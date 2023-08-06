@@ -1,0 +1,9 @@
+torch>=2.0.0
+torchvision>=0.13.0
+bism
+fastremap
+zarr
+tqdm
+scikit-image
+yacs
+tensorboard

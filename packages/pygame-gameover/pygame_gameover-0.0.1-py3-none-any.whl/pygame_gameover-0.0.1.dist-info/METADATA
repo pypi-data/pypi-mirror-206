@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pygame-gameover
+Version: 0.0.1
+Summary: pygame_gameover to perfrm gameover
+Author: kurban hussain
+Author-email: kurbanhussain086@gmail.com
+Keywords: pygame_gameover,gameover,game over,python tutorial,kurban hussain,game over in python,gameover_pygame,game over pygame,over game
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.TXT
+Requires-Dist: pygame
+Requires-Dist: os
+Requires-Dist: sys
+Requires-Dist: mixer
+
+C:\Users\Lenovo\Desktop\pygame package gameover\README.MD

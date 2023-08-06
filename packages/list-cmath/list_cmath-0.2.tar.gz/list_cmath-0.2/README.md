@@ -1,0 +1,111 @@
+# introduction
+This package(list_cmath 0.1)can save complex number by lists.
+> Tips: Lists may like this:[0.125,0.625] is equivalent to 0.125+0.625i and python complex (0.125+0.625j).  
+it will be call "complex list" after this tip.
+# functions
+## ```cAdd(a,b)```
+### introduction:
+```cAdd(a,b)``` returns the sum of two complex numbers.
+### argument:
+```list(a)```: A complex list.  
+```list(b)```: Another complex list.
+### output
+```list(<re>)```: A complex list.  
+> Notes: ```<re>``` means a representation.
+
+## ```cMult(u,v)```
+### introduction:
+```cMult(u,v)``` returns the product of two complex numbers.
+### argument:
+```list(u)```: A complex list.  
+```list(v)```: Another complex list.
+### output
+```list(<re>)```: A complex list. 
+
+## ```cPow(x,n)```
+### introduction:
+```cPow(x,n)``` returns the n-th power of complex number x.
+### argument:
+```list(x)```: A complex list.  
+```int(n)```: Power of ```x```.
+### output
+```list(t)```: A complex list. 
+
+## ```listToComplex(z)```
+### introduction:
+```listToComplex(z)``` returns a python buit-in ```complex``` that equal to the input complex list.
+### argument:
+```list(x)```: A complex list.  
+### output
+```list(<re>)```: A complex equal to ```x```. 
+
+## ```complexToList(z)```
+### introduction:
+```complexToList(z)``` returns a complex list that equal to the input python buit-in ```complex```.
+### argument:
+```complex(x)```: A complex.  
+### output
+```list(<re>)```: A complex list equal to ```x```. 
+
+## ```listsToComplexes(lists)```
+### introduction:
+```listsToComplexes(lists)``` returns a list of complex.
+### argument:
+```list(lists)```: A list of list complex.  
+> Notes: example of "list of list complex":
+> ```python
+> [[0.125,0.75],
+>  [0.625,0.25],
+>  [1.525,25.5]]
+> ```
+
+### output
+```list(complexes)```: A list of complex,ietms in it are all equal to items in ```lists```. 
+
+## ```complexesToLists(complexes)```
+### introduction:
+```complexesToLists(complexes)``` returns a list of list complex.
+### argument:
+```list(complexes)```: A list of complex.  
+### output
+```list(lists)```: A list of list complex,ietms in it are all equal to items in ```complexes```. 
+
+
+## ```lcSum(clist)```
+### introduction:
+```lSum(clist)``` returns the sum of one-list of complex numbers.
+### argument:
+```list(clist)```: A list of list complex.  
+### output
+```list(<re>)```: A list complex. 
+
+## ```lcMult(clist)```
+### introduction:
+```lcMult(clist)``` returns the product of one-list of complex numbers.
+### argument:
+```list(clist)```: A list of list complex.  
+### output
+```list(s)```: A list complex. 
+
+## ```lmagnitude(clist)```
+### introduction:
+```lmagnitude(clist)``` returns the absolute value of one-list of complex number.
+### argument:
+```list(clist)```: A list of list complex.  
+### output
+```list(r)```: A list complex. 
+
+## ```mandelbrot.mandelbrot(z,num)``` ```mandelbrot.mandelbrot_p(z,num,n)``` ```mandelbrot.mandelbrot_e(z,num,a)```
+### introduction:
+These funcions retuun the process num times and return the number of diverging times.
+### argument:
+```list(z)```: A list of list complex.  
+```int(num)```: A list of list complex.  
+```int(n)```: A list of list complex.  
+```string(a)```: A re.
+### output
+```int(count)```: The number of diverging times. 
+
+# others
+This is the first version of 'list_complex' package,so it may be some bugs.  
+Plese visit ```README.html``` in the package to get colorful options.

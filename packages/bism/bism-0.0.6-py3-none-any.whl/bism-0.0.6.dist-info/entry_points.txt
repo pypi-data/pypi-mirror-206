@@ -1,0 +1,3 @@
+[console_scripts]
+bism-eval = bism.eval.__main__:main
+bism-train = bism.train.__main__:main

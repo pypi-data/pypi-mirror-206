@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "qualle"
+version = "v0.2.0"
+description = "A framework to predict the quality of a multi-label classification result"
+authors = ["AutoSE <autose@zbw.eu>"]
+license = "Apache-2.0"
+readme = "README.md"
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+homepage = "https://github.com/zbw/qualle"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+scikit-learn = "~1.2"
+scipy = "~1.9"
+rdflib = "~6.2"
+pydantic = "~1.10"
+fastapi = "~0.88"
+uvicorn = "~0.20"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "~7.2"
+pytest-mock = "~3.10"
+pytest-cov = "~4.0"
+httpx = "*"
+black = "^22"
+
+
+[tool.poetry.group.ci.dependencies]
+safety = "~2.3"
+bandit = "~1.7"
+flake8 = "~5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+qualle = 'qualle.interface.cli:cli_entrypoint'

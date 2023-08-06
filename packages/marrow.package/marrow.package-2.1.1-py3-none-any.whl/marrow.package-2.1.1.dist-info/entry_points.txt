@@ -1,0 +1,4 @@
+[marrow.package.sample]
+load = marrow.package.loader:load
+name = marrow.package.canonical:name
+traverse = marrow.package.loader:traverse

@@ -1,0 +1,7 @@
+hpo3-0.2.1.dist-info/METADATA,sha256=fcUZLiHsH1XkrN-IyJoAVHkEkoM9PGILfDTDubH0MnU,10250
+hpo3-0.2.1.dist-info/WHEEL,sha256=VvdY44iN3gVotPLSbm-bn6F9k45H_kxH9jQNBi2QPzw,96
+pyhpo/__init__.py,sha256=Ih-kXb9nqlzdv-EAstzl6zw0ZbGPjtzUs16WxUr-sdk,103
+pyhpo/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyhpo/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyhpo/pyhpo.cp38-win_amd64.pyd,sha256=LD3kFH7_NtczpiT0zYCdrXp2w8nZJfiDuOpMW5nq2Yg,992768
+hpo3-0.2.1.dist-info/RECORD,,

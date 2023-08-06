@@ -1,0 +1,8 @@
+cahmml/__init__.py,sha256=GbnjoobMwuAHoXewP7hzwG5bQTpWneASSon2EsdcMiE,18
+cahmml/hmm.py,sha256=nwjkT6jHhAzT74Zqe2Xwh7aEEq8Dlmv5GADJPf9e3w0,16668
+cahmml/test/test_hmm.py,sha256=gXCbjmjjl-kJhlvnhKHBd-OYy-3b12bYOVsPOmcjlS8,13573
+cahmml/util.py,sha256=CZXfkNO6Ied0uSM1u3hIZjYVC_EGLTAYagaU_83EbUA,772
+cahmml-1.0.2.dist-info/LICENSE.txt,sha256=epBMoHLtMuXR0Gy1zYKWDZEOj2ceLp2eCGA7-ueZ0-E,1083
+cahmml-1.0.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+cahmml-1.0.2.dist-info/METADATA,sha256=Y9LSbbyfsPLRe0vLpoJAplIB8PyThe975lK5sHjPmjg,360
+cahmml-1.0.2.dist-info/RECORD,,

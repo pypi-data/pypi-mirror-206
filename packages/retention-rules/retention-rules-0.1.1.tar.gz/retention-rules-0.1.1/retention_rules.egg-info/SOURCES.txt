@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+retention_rules/__init__.py
+retention_rules/builder.py
+retention_rules/periods.py
+retention_rules/policy.py
+retention_rules.egg-info/PKG-INFO
+retention_rules.egg-info/SOURCES.txt
+retention_rules.egg-info/dependency_links.txt
+retention_rules.egg-info/top_level.txt
+tests/test_build_parsing.py
+tests/test_builder.py
+tests/test_period_advancement.py
+tests/test_period_start_times.py
+tests/test_policy.py

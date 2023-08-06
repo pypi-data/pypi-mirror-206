@@ -1,0 +1,9 @@
+cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli/cli.py,sha256=q9sZFdFnxejwm0WiuHsKA76689ub9I9XtED3ntooxnE,2456
+cli/gateway.py,sha256=Ogte6yj-udigc5RyYPezKg5_KP2X0dVj61T27PiqPB4,3390
+cli/infra.py,sha256=xNh86YPFfEmjx90iVXjvanz2q2-RzkoEftYckfA8mGU,1170
+cli/model.py,sha256=fMjueiXllWSUDdmSFTEGpJVWYmSacdluHlCsaeaeeU0,1037
+scw_gateway-0.1.1.dist-info/METADATA,sha256=9knStzqCOq0tU04U9JNa6gaA3HLNwWtvHTErkfhTnI8,581
+scw_gateway-0.1.1.dist-info/entry_points.txt,sha256=jcDEWzB4XHezPUBDvT0VUe2X-TPHJwiBMfnb84EPy3A,37
+scw_gateway-0.1.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+scw_gateway-0.1.1.dist-info/RECORD,,

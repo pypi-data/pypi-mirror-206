@@ -1,0 +1,6 @@
+licence.txt
+setup.py
+sansarlib.egg-info/PKG-INFO
+sansarlib.egg-info/SOURCES.txt
+sansarlib.egg-info/dependency_links.txt
+sansarlib.egg-info/top_level.txt

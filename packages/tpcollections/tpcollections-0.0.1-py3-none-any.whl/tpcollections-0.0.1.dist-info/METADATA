@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tpcollections
+Version: 0.0.1
+Summary: Persistent transactional Python collections
+Author-email: "Taylor C. Richberger" <tcr@absolute-performance.com>
+Requires-Python: >= 3.6, < 4
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: documentation, https://tpcollections.readthedocs.io/
+Project-URL: repository, https://github.com/absperf/tpcollections
+
+# tpcollections
+Python Transactional Persistent Collections, backed by sqlite
+

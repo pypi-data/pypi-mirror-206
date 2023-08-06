@@ -1,0 +1,12 @@
+pants_py_deploy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pants_py_deploy/compose_file.py,sha256=__uZE1ah8UzU3CUFnH7iYbclWSnzxQ6hAX3srt9rkWM,4603
+pants_py_deploy/export_env.py,sha256=z0a7Sa2Lc4_7cFf9oH7rdoHjUqHgU-e6oshAQ9bm1Yg,7083
+pants_py_deploy/fields.py,sha256=r-u3vf62YNCSVKuqEWxaBY8RBslvkW28wzY59tyW1mU,444
+pants_py_deploy/models.py,sha256=01FBjZNjLqyOA4SYb87CrIpl3AYGPqY7J5LXZc7bhXs,3415
+pants_py_deploy/plugin.py,sha256=h7hpZuh3klYE2NxLsohpTXQJUDO0S9AQ7fY1EksjLX0,8961
+pants_py_deploy/register.py,sha256=l86gNKZ2OqRaUjBjRRr46vYIvoZeTyBfZaghHYTXEcc,370
+pants_py_deploy-0.0.14rc1.dist-info/METADATA,sha256=rAM4UJxHqAcBXHoSlgQqfOzgrnyef2wZcpkXA7lFlG8,2253
+pants_py_deploy-0.0.14rc1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pants_py_deploy-0.0.14rc1.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pants_py_deploy-0.0.14rc1.dist-info/top_level.txt,sha256=6ImFjHnejcc1tZDfj2IB6KwifldxnUrXnYfA5rSHSmc,16
+pants_py_deploy-0.0.14rc1.dist-info/RECORD,,

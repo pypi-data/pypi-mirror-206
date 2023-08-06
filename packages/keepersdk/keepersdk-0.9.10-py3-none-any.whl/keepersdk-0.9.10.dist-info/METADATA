@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: keepersdk
+Version: 0.9.10
+Summary: Keeper SDK for Python 3
+Home-page: https://github.com/Keeper-Security/keeper-sdk-python
+Author: attr: keepersdk.__init__.__author__
+Author-email: commander@keepersecurity.com
+License: attr: keepersdk.__init__.__license__
+Keywords: security,password
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Security
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (>=2.27.0)
+Requires-Dist: cryptography (>=36.0.0)
+Requires-Dist: protobuf (>=4.21.1)
+Requires-Dist: websocket-client (>=1.3.0)
+
+# Keeper-Security/keeper-sdk-python
+### Keeper SDK for Python
+
+### Installation
+```bash
+pip install keepersdk
+```
+
+### Clone source code 
+```bash
+$ git clone https://github.com/Keeper-Security/keeper-sdk-python
+```
+
+### Example
+
+```python
+import os
+from login import auth, configuration, endpoint
+from vault import sqlite_storage, vault_online, vault_record
+
+config_filename = os.path.join(os.path.dirname(__file__), 'config.json')
+config = configuration.JsonConfigurationStorage(file_name=config_filename)
+keeper_endpoint = endpoint.KeeperEndpoint(config)
+login_auth = auth.LoginAuth(keeper_endpoint)
+login_auth.login('username@company.com')
+
+while not login_auth.login_step.is_final():
+    if isinstance(login_auth.login_step, auth.LoginStepPassword):
+        password = input('Enter password: ')
+        login_auth.login_step.verify_password(password)
+    if isinstance(login_auth.login_step, auth.LoginStepTwoFactor):
+        channel = login_auth.login_step.get_channels()[0]
+        code = input(f'Enter 2FA code for {channel.channel_name}: ')
+        login_auth.login_step.send_code(channel.channel_uid, code)
+    else:
+        raise NotImplementedError()
+
+if isinstance(login_auth.login_step, auth.LoginStepConnected):
+    keeper_auth = login_auth.login_step.keeper_auth()
+    vault_storage = sqlite_storage.SqliteVaultStorage(file_name=':memory:',
+                                                      vault_owner=keeper_auth.auth_context.username)
+    vault = vault_online.VaultOnline(keeper_auth, vault_storage)
+    vault.sync_down()
+
+    # List records
+    for record in vault.records():
+        print(f'Title: {record.title}')
+        if record.version == 2:
+            legacy_record = vault.load_record(record.record_uid)
+            if isinstance(legacy_record, vault_record.PasswordRecord):
+                print(f'Username: {legacy_record.login}')
+```

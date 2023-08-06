@@ -1,0 +1,13 @@
+__init__.py,sha256=xxFhei6zb2V1m3B0BmKYWQ1ReX8KfuLqdRkTHaMZYuI,116
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/geomorph.py,sha256=vsvOq07FTEM3hzYzhSI5ZlSBSuyR0aTtJZc50NKfpEc,4019
+src/pair.py,sha256=qnuwTowBeTR6WFuox4KW2OZA3YKSDF1zZsp7NLoWIZQ,14076
+src/pzone.py,sha256=yPC04O5DeSnrnillENab3ePg2SHQJ37I0oSv5npQL2k,2804
+src/session.py,sha256=3_JwRBW6Bd78tNobrb97gxUV5OjmxmbLcMXdSlN4YxI,20060
+src/spine.py,sha256=O-KM_37GdQLuTmOAQqKQDC_UqjSoPpSBU597eyx5iEI,5586
+src/thumb.py,sha256=cJpyz9jkf-WyyC6gSi4IKeNJo1kKLBLveb0kdPRn0DA,1750
+src/xzone.py,sha256=ZYW2pyWkydc--CBojFhph5Jt3gtUTGSeVx7rJWLCpv0,5594
+geomulticorr-0.0.1.dist-info/METADATA,sha256=-0Qkgw_jPHn8BcrwpDy047luSA4XDMyOB8fiut0MuUo,629
+geomulticorr-0.0.1.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+geomulticorr-0.0.1.dist-info/licenses/LICENSE.md,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+geomulticorr-0.0.1.dist-info/RECORD,,

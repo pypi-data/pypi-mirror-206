@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/__main__.py
+src/http_file_reader/__init__.py
+src/http_file_reader/http_file_reader.py
+src/split_file_reader/__init__.py
+src/split_file_reader/__main__.py
+src/split_file_reader/split_file_reader.py
+src/split_file_reader.egg-info/PKG-INFO
+src/split_file_reader.egg-info/SOURCES.txt
+src/split_file_reader.egg-info/dependency_links.txt
+src/split_file_reader.egg-info/entry_points.txt
+src/split_file_reader.egg-info/top_level.txt
+src/split_file_writer/__init__.py
+src/split_file_writer/split_file_writer.py

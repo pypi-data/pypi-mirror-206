@@ -1,0 +1,17 @@
+PyAPplus64/__init__.py,sha256=NnE_-YVU_1nwu6toRyJloVdC4P4iKPL6qbp2SpHw4UY,734
+PyAPplus64/applus.py,sha256=JIUvlew5Hzh-ca2bw_g5ZL_LM2QSE19bMCdLerferqg,12557
+PyAPplus64/applus_db.py,sha256=eKo2Nii_MVZ0nihHJQlBwNmiqkRmEyjvmGNtwV6Vv1k,5745
+PyAPplus64/applus_scripttool.py,sha256=-UW47Z9pSHXCWxFW_EZyxH471CKg5eA4WOALkAF4ZRY,5463
+PyAPplus64/applus_server.py,sha256=hxmXj1HjkbEOx5eUTYBfpTefZtolgQ0DXTYEIRmK7_s,3200
+PyAPplus64/applus_sysconf.py,sha256=sH78LVYFBFpm9Ki1ox4wurqmUCKHMEshfccixfGlsi8,2091
+PyAPplus64/applus_usexml.py,sha256=kX0Hi1TkkyPGCqY--ck6GKJw6Hu3zZuACRIDGQQP4Gk,12308
+PyAPplus64/duplicate.py,sha256=58M2RkaIY-9ZmKRXS8DTFdOnf30NMrZUNfPTxck1FzE,23159
+PyAPplus64/pandas.py,sha256=G1RLc_gklGqqZEj6-crsIl92Z_EkEQXTWMhYB0KA40Y,4775
+PyAPplus64/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyAPplus64/sql_utils.py,sha256=szUVSp5ZWjjBuQPgNN6xFRpGLsr4pmYYT6nAu7aJ5hE,27730
+PyAPplus64/utils.py,sha256=HwbM0AEdbJJ8px0PfwymUJ8ckqwJhTJ4ZQaX7xldLEM,1764
+PyAPplus64-1.0.0.dist-info/LICENSE,sha256=6M5_kG20pUb0zHkyBc-zULbCWiIkvnTe8Rr9hV1Smmw,1095
+PyAPplus64-1.0.0.dist-info/METADATA,sha256=QtBiyHWZ7eIvKkm0B6ia3YbMr-cRchiO3B6KdLifw_M,3589
+PyAPplus64-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+PyAPplus64-1.0.0.dist-info/top_level.txt,sha256=muL-8TqdYryvV24GSE3uf7q6ISjgoY1yZPdak1nCRHY,11
+PyAPplus64-1.0.0.dist-info/RECORD,,

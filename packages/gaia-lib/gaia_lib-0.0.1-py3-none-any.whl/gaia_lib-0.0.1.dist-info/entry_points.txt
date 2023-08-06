@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        gaia-cli=gaia_cli:cli
+    

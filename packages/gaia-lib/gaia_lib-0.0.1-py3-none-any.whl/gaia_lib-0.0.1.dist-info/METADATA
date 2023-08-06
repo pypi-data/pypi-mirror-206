@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: gaia-lib
+Version: 0.0.1
+Summary: Gaia SDK library
+Home-page: UNKNOWN
+Author: oribrau@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: click (==8.0.1)
+Requires-Dist: python-dotenv
+Requires-Dist: openai
+Requires-Dist: tiktoken
+Requires-Dist: cohere
+Requires-Dist: twine
+
+# gaia-sdk
+gaia sdk
+
+#how to install
+pip install gaia-core
+
+#how to use
+```python
+
+# add .vendors_keys file including
+# OPEN_AI_KEY=
+# COHERE_AI_KEY=
+# or
+# use dict api_keys dict
+
+import gaia
+debug=True
+api_keys = {
+    "OPEN_AI_KEY": "",
+    "COHERE_AI_KEY": ""
+}
+GAIA = gaia.init(api_token='', api_keys=api_keys, debug=debug)
+prompt = 'find the sentiment for the following text <TEXT>, provide only Positive or Negative or Neutral answers'
+prompt_template = GAIA.optimize_prompt(prompt)
+golden_dataset: list = GAIA.load_data('local_dataset.csv')
+vendors: list = GAIA.get_available_vendors()
+prompts = [prompt_template.replace('<TEXT>', row['prompt']) for row in golden_dataset]
+results = GAIA.run_vendors(vendors=vendors, data=prompts)
+vendors_results = results['vendors_results']
+total_took = results['total_took']
+compared_vendors = results['compared_vendors']
+GAIA.save_csv('Sentiment_gai.csv', data=vendors_results)
+
+```
+

@@ -1,0 +1,17 @@
+LICENSE
+NOTICE
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+tests/test_workspace.py
+textract2page/__init__.py
+textract2page/cli.py
+textract2page/convert_aws.py
+textract2page.egg-info/PKG-INFO
+textract2page.egg-info/SOURCES.txt
+textract2page.egg-info/dependency_links.txt
+textract2page.egg-info/entry_points.txt
+textract2page.egg-info/requires.txt
+textract2page.egg-info/top_level.txt

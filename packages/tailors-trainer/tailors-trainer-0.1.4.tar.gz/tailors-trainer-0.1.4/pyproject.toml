@@ -1,0 +1,74 @@
+[project]
+name = "tailors-trainer"
+description = ""
+authors = [{name = "orctom", email = "orctom@gmail.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+license-expression = "Apache-2.0"
+dynamic = ["version"]
+requires-python = ">=3.8"
+dependencies = [
+    "tailors",
+    "deepspeed",
+    "accelerate",
+    "torch-optimizer~=0.3.0",
+    "tensorboard~=2.10.1",
+    "torchinfo~=1.7.2",
+    "rocksdb-py",
+    "lmdb",
+    "fastapi",
+    "uvicorn",
+    "websockets",
+    "ldap3",
+    "passlib[bcrypt]",
+    "itsdangerous",
+    "python-multipart",
+    "python-jose[cryptography]",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+]
+
+[project.urls]
+homepage = "https://github.com/orctom/tailors-trainer"
+
+[project.scripts]
+tailors-train = "tailors_trainer.train:train"
+tailors-dataset-from-eb = "tailors_trainer.dataset_from_eb:process"
+tailors-manager = "tailors_trainer.manager.manager:run"
+tailors-agent = "tailors_trainer.agent.agent:run"
+
+[build-system]
+requires = ["flit_core>=3.8.0,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q -s"
+testpaths = [
+    "tests",
+]
+
+[tool.autopep8]
+max_line_length = 150
+in-place = true
+recursive = true
+aggressive = 3
+
+[tool.black]
+line-length = 150
+target-version = ['py38']
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | data
+)/
+'''

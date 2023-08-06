@@ -1,0 +1,14 @@
+compute/__init__.py,sha256=X4XtzWjkxVnvHZDpfpd52WAdx_P_BdzfiSalzH2bdHM,181
+compute/client.py,sha256=0XQFEbXc0vMnqHcsFGPM8eqO5F4xpAi0vMBN-t17BZs,765
+compute/console.py,sha256=RC6AYD5EvzsZazVTWbwAvJPdS2EPmThkAeBn8Ee86-0,90
+compute/execution.py,sha256=DFxMkk9qDun6w0v9YQ8CpWkZn2Nbgkf8DIfGsKZFUuQ,7880
+compute/factory.py,sha256=PyTpb_15wBmwrqIl3vOR6ag6-Qez0zQ5Dfo34bFulvo,431
+compute/graph.py,sha256=ZLgkE5sew6YER2zU1kkI2CJLUZGIvmzdEYJGJvZUsiQ,6255
+compute/queries.py,sha256=j35j_8kkAoOXR9Z7t9g-co6Kb7ipJYouXrmzR3UC4zA,710
+compute/storage.py,sha256=r84ROCpIodLQ5cYVROSuavJdTuxHbfWVtppYfXEpXe0,126
+compute/types.py,sha256=qgT-fVhQIKOlcZjM0USpL_KgZBqUlAMNs4chXP0zrW4,663
+compute/utils.py,sha256=iXmlMJnfU-0ZT2okt8oyQ_2HikX52UzvuhxHWQ-9QzQ,1319
+enterprise_platform_compute-0.0.3.dist-info/METADATA,sha256=ygxmEQk3M2Si05TCDQ2-NXiC_O_14ZFYDsE_bToPzaQ,403
+enterprise_platform_compute-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+enterprise_platform_compute-0.0.3.dist-info/top_level.txt,sha256=rly7Xm4UvgZpfSv8y-Id3ppIBEXmFZJdwm0ExPn_k4U,8
+enterprise_platform_compute-0.0.3.dist-info/RECORD,,

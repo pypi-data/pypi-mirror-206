@@ -1,0 +1,13 @@
+py_strongly_typed/__init__.py,sha256=JzLExAdx4_iuJDhZ6qOiqQvWZHIpDLPjdlCv6AaylKs,266
+py_strongly_typed/contracts.py,sha256=FWCwOMoVBAUUABwRiOvLWwpkSwMEw9xQmpZL9AYacLY,398
+py_strongly_typed/decorators.py,sha256=F61PVmJb3EEBctcco-N7mxU0_SuWRJI0uXwILEvbPps,511
+py_strongly_typed/exceptions.py,sha256=zo4NZ0xPiV4VzitpxziAOc2Bk0Sm9BVliotcRKFue5o,521
+py_strongly_typed/typed_class.py,sha256=_Mqu7q27AmUTmeRS9xI-DzUiqchyu-6ly_5moGmHJfY,831
+py_strongly_typed/utils.py,sha256=ZC_DmAmeVNxo8aDtc0bw9LSuCjUy4Uy1a6Kv0qIYdAg,170
+py_strongly_typed/use_cases/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_strongly_typed/use_cases/validate_annotations_use_case.py,sha256=fg8KTHxMFCUOdovlDkg0yvtpQGU4x86qbDfoyOim-7o,5528
+py_strongly_typed-2.0.0.dist-info/LICENSE,sha256=MIId-ZeyiNBcQbrIs4QH0c-Y82Ts3KzZE1uKG45oHJo,1070
+py_strongly_typed-2.0.0.dist-info/METADATA,sha256=RrZpfk1m9I4mFkYJWGT1lBCvFUnhuzJQLl2IcJG8_34,4791
+py_strongly_typed-2.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+py_strongly_typed-2.0.0.dist-info/top_level.txt,sha256=KXMd7YfENJwRktPeQdZEYfCFgCdKy1IeVQUnYVwBJOg,18
+py_strongly_typed-2.0.0.dist-info/RECORD,,

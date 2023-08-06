@@ -1,0 +1,12 @@
+{
+    "issues": {
+        "unsupported_os": {
+            "title": "\u00d3stutt kerfi - St\u00fdrikerfi"
+        }
+    },
+    "system_health": {
+        "info": {
+            "host_os": "St\u00fdrikerfi h\u00fdsils"
+        }
+    }
+}

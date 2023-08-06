@@ -1,0 +1,134 @@
+{
+    "config": {
+        "step": {
+            "binary_sensor": {
+                "data": {
+                    "all": "Toate entit\u0103\u021bile",
+                    "entities": "Membri",
+                    "hide_members": "Ascunde membri",
+                    "name": "Nume"
+                },
+                "description": "Dac\u0103 este activat\u0103 op\u021biunea \"toate entit\u0103\u021bile\", starea grupului este activ\u0103 numai dac\u0103 to\u021bi membrii sunt activi. Dac\u0103 op\u021biunea \"toate entit\u0103\u021bile\" este dezactivat\u0103, starea grupului este activ\u0103 dac\u0103 cel pu\u021bin un membru este activ.",
+                "title": "Adaug\u0103 grup"
+            },
+            "cover": {
+                "data": {
+                    "entities": "Membri",
+                    "hide_members": "Ascunde membri",
+                    "name": "Nume"
+                },
+                "title": "Adaug\u0103 grup"
+            },
+            "fan": {
+                "data": {
+                    "entities": "Membri",
+                    "hide_members": "Ascunde membri",
+                    "name": "Nume"
+                },
+                "title": "Adaug\u0103 grup"
+            },
+            "light": {
+                "data": {
+                    "entities": "Membri",
+                    "hide_members": "Ascunde membri",
+                    "name": "Nume"
+                },
+                "title": "Adaug\u0103 grup"
+            },
+            "lock": {
+                "data": {
+                    "entities": "Membri",
+                    "hide_members": "Ascunde membri",
+                    "name": "Nume"
+                },
+                "title": "Adaug\u0103 grup"
+            },
+            "media_player": {
+                "data": {
+                    "entities": "Membri",
+                    "hide_members": "Ascunde membri",
+                    "name": "Nume"
+                },
+                "title": "Adaug\u0103 grup"
+            },
+            "sensor": {
+                "title": "Adaug\u0103 grup"
+            },
+            "switch": {
+                "data": {
+                    "entities": "Membri",
+                    "hide_members": "Ascunde membri",
+                    "name": "Nume"
+                },
+                "title": "Adaug\u0103 grup"
+            },
+            "user": {
+                "description": "Grupurile \u00ee\u021bi permit s\u0103 creezi o entitate nou\u0103 care reprezint\u0103 mai multe entit\u0103\u021bi de acela\u0219i tip.",
+                "menu_options": {
+                    "binary_sensor": "Grup de senzori binari",
+                    "cover": "Grup de acoperitoare",
+                    "fan": "Grup de ventilatoare",
+                    "light": "Grup de lumini",
+                    "lock": "Grup de \u00eencuietori",
+                    "media_player": "Grup de media playere",
+                    "sensor": "Grup de senzori",
+                    "switch": "Grup de comutatoare"
+                },
+                "title": "Adaug\u0103 grup"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "binary_sensor": {
+                "data": {
+                    "all": "Toate entit\u0103\u021bile",
+                    "entities": "Membri",
+                    "hide_members": "Ascunde membri"
+                },
+                "description": "Dac\u0103 este activat\u0103 op\u021biunea \"toate entit\u0103\u021bile\", starea grupului este activ\u0103 numai dac\u0103 to\u021bi membrii sunt activi. Dac\u0103 op\u021biunea \"toate entit\u0103\u021bile\" este dezactivat\u0103, starea grupului este activ\u0103 dac\u0103 cel pu\u021bin un membru este activ."
+            },
+            "cover": {
+                "data": {
+                    "entities": "Membri",
+                    "hide_members": "Ascunde membri"
+                }
+            },
+            "fan": {
+                "data": {
+                    "entities": "Membri",
+                    "hide_members": "Ascunde membri"
+                }
+            },
+            "light": {
+                "data": {
+                    "all": "Toate entit\u0103\u021bile",
+                    "entities": "Membri",
+                    "hide_members": "Ascunde membri"
+                },
+                "description": "Dac\u0103 este activat\u0103 op\u021biunea \"toate entit\u0103\u021bile\", starea grupului este activ\u0103 numai dac\u0103 to\u021bi membrii sunt activi. Dac\u0103 op\u021biunea \"toate entit\u0103\u021bile\" este dezactivat\u0103, starea grupului este activ\u0103 dac\u0103 cel pu\u021bin un membru este activ."
+            },
+            "lock": {
+                "data": {
+                    "entities": "Membri",
+                    "hide_members": "Ascunde membri"
+                }
+            },
+            "media_player": {
+                "data": {
+                    "entities": "Membri",
+                    "hide_members": "Ascunde membri"
+                }
+            },
+            "switch": {
+                "data": {
+                    "all": "Toate entit\u0103\u021bile",
+                    "entities": "Membri",
+                    "hide_members": "Ascunde membri"
+                },
+                "description": "Dac\u0103 este activat\u0103 op\u021biunea \"toate entit\u0103\u021bile\", starea grupului este activ\u0103 numai dac\u0103 to\u021bi membrii sunt activi. Dac\u0103 op\u021biunea \"toate entit\u0103\u021bile\" este dezactivat\u0103, starea grupului este activ\u0103 dac\u0103 cel pu\u021bin un membru este activ."
+            }
+        }
+    },
+    "title": "Grup"
+}

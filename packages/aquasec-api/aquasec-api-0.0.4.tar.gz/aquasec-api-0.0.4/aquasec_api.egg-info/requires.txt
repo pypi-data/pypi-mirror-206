@@ -1,0 +1,8 @@
+requests>=2.26.0
+PyJWT~=2.6.0
+dataclasses>=0.6
+PyYAML>=6.0
+dict_to_dataclass~=0.0.8
+
+[:python_version < "3.8"]
+importlib-metadata

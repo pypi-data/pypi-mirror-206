@@ -1,0 +1,8 @@
+qctrlreleasenoter/__init__.py,sha256=mNKHOmm45PL2XjdAynh5veVeyJHvXToYUoSx5doiECQ,707
+qctrlreleasenoter/cli.py,sha256=KoBLzVZOASgDo-TTjhKpub64YyzXZt418CSI_QnFbtQ,2405
+qctrlreleasenoter/generate_release_notes.py,sha256=94PuNJ7s1s-ss1KF4IsTfoJQzVmqb02am8glAW9SS0s,12707
+qctrl_release_noter-0.8.0.dist-info/entry_points.txt,sha256=0mgRjKS9temLQZVvEL_0eXL2wU65nZ4eM3ixTA3lCKI,60
+qctrl_release_noter-0.8.0.dist-info/LICENSE,sha256=zE1N4JILDTkSIDtdmqdnKKxKEQh_VdqeoAV2230eNOI,10141
+qctrl_release_noter-0.8.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+qctrl_release_noter-0.8.0.dist-info/METADATA,sha256=hCOu2E2azH_bSDge8OFRlSC6hD4aF0gJTzqFFsl24vQ,2711
+qctrl_release_noter-0.8.0.dist-info/RECORD,,

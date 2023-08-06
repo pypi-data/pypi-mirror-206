@@ -1,0 +1,14 @@
+geopandas
+numpy
+xarray
+xarray-datatree
+lxml
+rioxarray
+jmespath
+fsspec
+rasterio
+affine
+pandas
+shapely
+pyproj
+dask

@@ -1,0 +1,8 @@
+mne>=1.0.0
+numpy
+xarray
+scikit-learn
+seaborn
+scipy
+netcdf4
+xskillscore

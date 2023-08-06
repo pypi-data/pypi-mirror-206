@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: DL-ANN-pkg-VaibhavJoshi95
+Version: 0.0.5
+Summary: A small package for perceptron
+Home-page: https://github.com/VaibhavJoshi95/DL-ANN-pkg
+Author: VaibhavJoshi95
+Author-email: vaibhavgjoshi95@gmail.com
+Project-URL: Bug Tracker, https://github.com/VaibhavJoshi95/DL-ANN-pkg/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DL-ANN-Python-Package
+
+## How to use this package
+```python
+from oneNeuron.perceptron import Perceptron
+model = Perceptron(eta=0.3, epochs=10)
+```
+
+# Referencec-
+
+* [Official python Docs for PYPI packaging](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+
+* [Github action file for PYPI](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries)

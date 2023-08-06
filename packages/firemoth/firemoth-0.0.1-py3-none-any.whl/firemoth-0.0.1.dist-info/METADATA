@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: firemoth
+Version: 0.0.1
+Summary: just for improve someone's coding efficiency. 
+Author: Yi OuYang
+Author-email: 1183137235@qq.com
+Requires: time
+Requires: datetime
+Requires: pandas
+Requires: csv
+Requires: os
+

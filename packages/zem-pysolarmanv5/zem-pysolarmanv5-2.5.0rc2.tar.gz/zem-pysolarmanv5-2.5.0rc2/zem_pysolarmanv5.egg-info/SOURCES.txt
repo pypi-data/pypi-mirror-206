@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pysolarmanv5/__init__.py
+pysolarmanv5/pysolarmanv5.py
+pysolarmanv5/pysolarmanv5_async.py
+zem_pysolarmanv5.egg-info/PKG-INFO
+zem_pysolarmanv5.egg-info/SOURCES.txt
+zem_pysolarmanv5.egg-info/dependency_links.txt
+zem_pysolarmanv5.egg-info/requires.txt
+zem_pysolarmanv5.egg-info/top_level.txt

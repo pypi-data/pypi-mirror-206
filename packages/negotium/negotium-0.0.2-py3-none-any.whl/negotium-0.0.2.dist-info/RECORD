@@ -1,0 +1,13 @@
+negotium/__init__.py,sha256=-kR5haaVHvBp2Gxt5pzytP1tA47y9EgIRUDC_HsxsHM,27
+negotium/base.py,sha256=I2g3kF0lgZXhmzfo_ef5viMa88p0nf_veXzxIPV_H9A,3276
+negotium/settings.py,sha256=SHjAFdw7NeZaeld0lTPXEJhp6tjjO85IQDxfUSUmhzY,510
+negotium/task.py,sha256=Agq4nJ6TxrGFCyCaEGx-AK-YqDxvO1F3y8L743lgtpU,490
+negotium/mq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+negotium/mq/consumer.py,sha256=IcBWn9e2DA8avUpdzBA5SOWpAMkaLMCHsI5dJ7QDKR8,3917
+negotium/mq/publisher.py,sha256=MTiFeEra9yo1I7JT876LkS-3fcjdR1jvpjtyA0tINiU,1451
+negotium/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+negotium/utils/logger.py,sha256=zwoh_eXBm86ERQ7z-Awa-QRI9eTIdTLoMmK-N_57mcA,687
+negotium-0.0.2.dist-info/METADATA,sha256=U3htwZ4vAE8Rg77WSgY8RiELJj2dNpfM9vWitMY7Zjc,1330
+negotium-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+negotium-0.0.2.dist-info/top_level.txt,sha256=zEkO7zEb6a5xAdk0F4RMa93agIpb94hAiMd5InscUE8,9
+negotium-0.0.2.dist-info/RECORD,,

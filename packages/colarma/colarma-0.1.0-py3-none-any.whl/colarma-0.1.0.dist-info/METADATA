@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: colarma
+Version: 0.1.0
+Summary: Colarma est un module Python simple et facile à utiliser pour travailler avec les couleurs. Il fournit des fonctionnalités pour convertir les formats de couleur, manipuler les couleurs et créer des palettes de couleurs.
+Home-page: https://github.com/anyiskiidd/colarma
+Author: Votre nom
+Author-email: votre.email@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+404: Not Found

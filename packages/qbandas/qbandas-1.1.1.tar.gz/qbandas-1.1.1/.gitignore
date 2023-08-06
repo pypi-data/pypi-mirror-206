@@ -1,0 +1,6 @@
+__pycache__/
+dist/
+schemas/
+venv/
+dev/
+jhopwood-jjk.github.io/

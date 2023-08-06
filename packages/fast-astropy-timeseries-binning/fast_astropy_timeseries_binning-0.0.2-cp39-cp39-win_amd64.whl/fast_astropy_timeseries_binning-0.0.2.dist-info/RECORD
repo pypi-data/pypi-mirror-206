@@ -1,0 +1,9 @@
+fast_astropy_timeseries_binning/__init__.py,sha256=RtkitzCLvMLjpzGnnaLo4B2XvNPwgfmYKpWhZpJX_Ng,152
+fast_astropy_timeseries_binning/_fast_astropy_timeseries_binning.cp39-win_amd64.pyd,sha256=9kicar3SI8kapS4suDROHWwPxKM4ASjnzRm_zCkJh_A,103936
+fast_astropy_timeseries_binning/reducer.py,sha256=6d0pho50TZRry0axarLNojr8B8pX3cqXIXI2uNheW7g,1285
+fast_astropy_timeseries_binning/version.py,sha256=fdOEGcdi8S1vlGz7ALVvqsXVvyvK8zfdLIotlpKq6GQ,164
+fast_astropy_timeseries_binning-0.0.2.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+fast_astropy_timeseries_binning-0.0.2.dist-info/METADATA,sha256=uH5ZGAWLXIhyml3PB2jtTaLcqTNcH_bG3BPl27KKx6k,413
+fast_astropy_timeseries_binning-0.0.2.dist-info/WHEEL,sha256=NNISBSBxJf-m2zrkBGWxb8NJ17xlpWE579GA1eElx24,94
+fast_astropy_timeseries_binning-0.0.2.dist-info/top_level.txt,sha256=aEG-CFUs2h_G8ghR__0HOZdzUAjOmIie1l3FkLUywaM,32
+fast_astropy_timeseries_binning-0.0.2.dist-info/RECORD,,

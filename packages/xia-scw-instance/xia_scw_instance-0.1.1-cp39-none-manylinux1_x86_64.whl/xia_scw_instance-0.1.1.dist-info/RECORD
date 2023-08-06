@@ -1,0 +1,11 @@
+xia_scw_instance/__init__.py,sha256=0X5RFl6_I3kRBuADQmXdg1dAdJAPQQVySGJ4DC6WeYk,133
+xia_scw_instance/instance.cpython-39-x86_64-linux-gnu.so,sha256=mni0flrdtq8w-a7D9opYnoVpodTjU03_jW-Sfg8lOYc,805288
+xia_scw_instance/templates/ScwInstance/main.tf,sha256=QVktoXI4so6JjCEsAoWx3YYSrNB1ZMZte82A4-ciiD0,3518
+xia_scw_instance/templates/ScwInstance/output.tf,sha256=AF537TgCRawA_5eATAwdly8PbpLdk3uXn59Dbt2TpiY,931
+xia_scw_instance/templates/ScwInstance/provider.tf,sha256=h_zFGas7QtYJPGvufLGuPHtgDhoZa28Qa5t--1dpheI,343
+xia_scw_instance/templates/ScwInstance/variables.tf,sha256=e4dj7oe4zKHcOjIXFmJqQJB8iodQvsQ9HwvnIBKoFDA,4919
+xia_scw_instance-0.1.1.dist-info/LICENSE.txt,sha256=2HzK8y__YhkYAEzI5V38DGwiVGnADL74BLH_dyBEs7I,150
+xia_scw_instance-0.1.1.dist-info/METADATA,sha256=DefZ10GQi2DIJV03ekKrLHU8WBjOtxvbuULOyIz7QgU,693
+xia_scw_instance-0.1.1.dist-info/WHEEL,sha256=qkSVf_2y_meuNtxjbahKGy4LKa5aE9SY7z8YZA90byg,107
+xia_scw_instance-0.1.1.dist-info/top_level.txt,sha256=ffd5mxc0r47bbdzdm8uAtew5JL-56N5Dvcrqvp9tri0,17
+xia_scw_instance-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: testpackageBP
+Version: 10.0.0
+Summary: A script that uploads environment variables to a Jenkins server
+Author: Your Name
+Author-email: vanhoorenvictor@gmail.com
+Description-Content-Type: text/markdown
+
+# testpythondep
+python dependency for a test dependency confusion attack

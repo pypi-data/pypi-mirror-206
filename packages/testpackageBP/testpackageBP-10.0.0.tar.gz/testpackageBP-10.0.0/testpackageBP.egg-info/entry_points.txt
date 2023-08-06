@@ -1,0 +1,2 @@
+[console_scripts]
+upload-env-variables = upload_env_variables:main

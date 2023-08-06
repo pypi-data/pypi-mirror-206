@@ -1,0 +1,10 @@
+README.md
+setup.py
+testpackageBP/__init__.py
+testpackageBP/testpackageBP.py
+testpackageBP.egg-info/PKG-INFO
+testpackageBP.egg-info/SOURCES.txt
+testpackageBP.egg-info/dependency_links.txt
+testpackageBP.egg-info/entry_points.txt
+testpackageBP.egg-info/requires.txt
+testpackageBP.egg-info/top_level.txt

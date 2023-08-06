@@ -1,0 +1,3 @@
+[console_scripts]
+PACKAGE=nalax.__main__:main
+

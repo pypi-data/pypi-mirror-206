@@ -1,0 +1,3 @@
+[console_scripts]
+phomemo_print_p12 = phomemo_print_p12:main
+phomemo_render_label = phomemo_render_label:main

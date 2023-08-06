@@ -1,0 +1,8 @@
+sicli/__init__.py,sha256=ASxBh7cElFrYI-Cx1FY48xREPPurH9Hqal3iWbtuGYk,128
+sicli/main.py,sha256=1vyhusBMRGKaNLa1a_yuK0LxOgykPmFLjM2MY8nSitY,6119
+sicli/types.py,sha256=v_t6wq3aGb0fgZ--JR7BNLMo7Bg9ngJDH3hK_T6KcUI,67
+sicli/utils.py,sha256=5gES0dtjFU1gQOk2yoIpxlYmWn_7DsFh6QGnSYr3XFY,639
+sicli_cli-0.1.0.dist-info/LICENSE,sha256=7IIwS_5L2tvKF-7FTacJUz7SIT6_4pDuOKWh5o2dLqc,1075
+sicli_cli-0.1.0.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+sicli_cli-0.1.0.dist-info/METADATA,sha256=K8LMf-rwHKB3L9dGXTdlGP-Gsk_W9n5AxWdydKv0dz8,6427
+sicli_cli-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+QuickProject/Commander.py,sha256=k5D6O6lFUrRXM5wQYjjvGdFCJ1kKWY_GbuRpWb7lkZQ,24022
+QuickProject/Qpro.py,sha256=4M6s0UOKlXKJbT69rLsFtWykXutb8VQ77zsNEdpIy20,20965
+QuickProject/QproFigTable.py,sha256=5jsxvice1gSeEqxdY31zXov-XQtCRGgqxuAIZ8W82JQ,136
+QuickProject/QproZshComp.py,sha256=KGgevol58dOluanSzowjbxR8R9SAMLkR25OAhuMy1mk,735
+QuickProject/__config__.py,sha256=kvtjsiE-2cRMJ0VgO797dRG_KRYCq-t17VQ4cBPm_HY,6595
+QuickProject/__init__.py,sha256=1i778EeFwSb71via5IjxmMNeXptsIZbQM5AJ9uzD62s,14913
+QuickProject/lang.json,sha256=jR6I0yEJ8CCWOxpL_pzmLkyN_jZXN-Eq0YZh-Jdk8mk,26483
+QuickProject/qrun.py,sha256=5SCSSQcJO6sRE4VaveyMsOqkwOsRFonds9JZIKbS0m0,4966
+Qpro-0.12.2.dist-info/LICENSE,sha256=0ZpcSVWQQkUOzenihpoZ4sXltdOUe871z4FcDC1FdyA,1067
+Qpro-0.12.2.dist-info/METADATA,sha256=IH-K3rM384UKCRJLb6xmbReXcriTjaAD27AJ9ad_ask,719
+Qpro-0.12.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+Qpro-0.12.2.dist-info/entry_points.txt,sha256=XX5LpGst967XxaIX1_yGCD6FUezSTz-4nyz2-ivasho,78
+Qpro-0.12.2.dist-info/top_level.txt,sha256=8jrZvIJYK3zpOzsYEJt9-7Kja7AT54hmf2cNle4FUmk,13
+Qpro-0.12.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+Qpro-0.12.2.dist-info/RECORD,,

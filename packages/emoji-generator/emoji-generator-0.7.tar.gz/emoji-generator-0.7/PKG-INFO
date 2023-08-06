@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: emoji-generator
+Version: 0.7
+Summary: A package for working with smiley emojis
+Home-page: UNKNOWN
+Author: codethreads
+Author-email: bellamyy.blakee100@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Emoji Generator
+
+🎉 Welcome to Emoji Generator - your go-to package for generating random emojis! 🎉
+
+With this package, you can easily generate random emojis or choose from specific categories to get emojis that fit your needs.
+
+## Installation
+
+You can install Random Emoji Generator using pip:
+
+```
+pip install emoji-generator
+```
+## Usage
+
+### Generating Random Emojis by Passing Count
+
+To generate a random emoji, use the `get_random_emoji(count)` function:
+
+```python
+import emoji_generator.random_emoji as emojigen
+
+# Generate 5 random emojis
+random_smileys = emojigen.get_random_emojis(5)
+
+# Print the list of smileys
+for smiley in random_smileys:
+    print(smiley["name"], smiley["image"])
+# Output 
+# [{'code': 'U+1F1ED U+1F1F0', 'name': 'flag: Hong Kong SAR China', 'image': '🇭🇰', 'category': 'Flags'}]
+```
+
+
+### Generating Emojis by Category
+
+You can generate emojis from specific categories using the `get_random_emojis_by_category()` function. The supported categories are:
+
+- People & Body
+- Activities
+- Travel & Places
+- Objects
+- Animals & Nature
+- Flags
+- Food & Drink
+- Smileys & Emotion
+- Symbols
+
+```python
+import emoji_generator.random_emoji as emojigen
+
+# Generate 5 random emojis from given category
+random_smileys_by_category = emojigen.get_random_emojis_by_category("Flags", 5)
+
+# Print the list of emojis
+for smiley in random_smileys_by_category:
+    print(smiley["name"], smiley["image"])
+# Output
+# [{'code': 'U+2764', 'name': 'red heart', 'image': '❤', 'category': 'Smileys & Emotion'}]
+
+```
+
+## Links
+
+If you want to generate random emojis without writing any code, check out our website [randomgenerate.io](https://randomgenerate.io/). You can also use our [Random Emoji Generator](https://randomgenerate.io/random-emoji-generator) tool to generate emojis with specific categories.
+
+## Contributing
+
+If you have any ideas or suggestions for improving this package, feel free to open an issue or submit a pull request on [GitHub](https://github.com/bellamy-blakee/emoji-generator).
+
+We appreciate your contributions! 😊
+

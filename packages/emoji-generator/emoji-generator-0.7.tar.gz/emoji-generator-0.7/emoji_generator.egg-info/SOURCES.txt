@@ -1,0 +1,8 @@
+README.md
+setup.py
+emoji_generator/__init__.py
+emoji_generator/random_emoji.py
+emoji_generator.egg-info/PKG-INFO
+emoji_generator.egg-info/SOURCES.txt
+emoji_generator.egg-info/dependency_links.txt
+emoji_generator.egg-info/top_level.txt

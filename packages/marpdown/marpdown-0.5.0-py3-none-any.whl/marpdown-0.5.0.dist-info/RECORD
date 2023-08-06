@@ -1,0 +1,11 @@
+marpdown/__init__.py,sha256=CrhCCdBqA3BC20cWNgXmFo8x29SHwV0qNsy6fZpoXQk,116
+marpdown/css.py,sha256=v1ZI-v3N3LPyTE5eh6euFcQsHYgZtJHn-_3jKaaGWKo,2994
+marpdown/ppt.py,sha256=L4k8CPt-eYLdTJKgjIpuoS8N_7SLLxnsLYQnHl1hFKE,2462
+marpdown/slide.py,sha256=RabqaA4emQ_mxoArjZ4FbRxwemmNMP-BtPbmzXenxQM,3380
+marpdown/utils.py,sha256=xAGB50dImz4SFJggY638svj3gyxO98dy7D2gOKkNi1s,240
+marpdown/writer.py,sha256=C9SnVa-uv47vfQy8e2bPcJJQsKbYn1Qy1mC1OU-msOY,584
+marpdown-0.5.0.dist-info/LICENSE,sha256=PM7pKdZPFF2HtBnNJJkO6Xa2k6frxzJW1O9m1HO616U,1066
+marpdown-0.5.0.dist-info/METADATA,sha256=Os9_V1PRNVbf5E6qtUnCBTRoMaRjeOX4dGtktG-k3ZY,390
+marpdown-0.5.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+marpdown-0.5.0.dist-info/top_level.txt,sha256=gReMqwBOVVTB1nSZYDZ650boSxQIQNSn-FKUmDx_VbA,9
+marpdown-0.5.0.dist-info/RECORD,,

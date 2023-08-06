@@ -1,0 +1,19 @@
+from typing import Any, Dict, Optional
+
+class Prediction:
+    def __init__(self, prediction: Dict[str, Any]) -> None: ...
+    def __repr__(self) -> str: ...
+    prediction: Any
+    total_time: Optional[int]
+    links: Optional[Dict[str, str]]
+
+class PromptWranglerPrompt:
+    def __init__(self, prompt_wrangler: "PromptWrangler", prompt_path: str) -> None: ...
+    def run(self, args: Optional[Dict[str, Any]] = None) -> Prediction: ...
+
+class PromptWrangler:
+    def __init__(
+        self,
+        base_url: str = "https://prompt-wrangler.com/api",
+    ) -> None: ...
+    def prompt(self, prompt_slug: str) -> PromptWranglerPrompt: ...

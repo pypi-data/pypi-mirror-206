@@ -1,0 +1,28 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Dispozitivul a fost configurat deja"
+        },
+        "error": {
+            "cannot_connect": "A e\u0219uat conectarea",
+            "unknown": "Eroare nea\u0219teptat\u0103"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Gazd\u0103 (host)"
+                },
+                "title": "Conectare la dispozitivul Balboa Wi-Fi"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "sync_time": "Men\u021bine sincronizarea dintre ora spa-ului t\u0103u Balboa \u0219i Home Assistant"
+                }
+            }
+        }
+    }
+}

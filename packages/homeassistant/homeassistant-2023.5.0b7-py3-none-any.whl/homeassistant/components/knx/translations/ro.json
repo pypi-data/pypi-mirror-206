@@ -1,0 +1,57 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Serviciul este deja configurat",
+            "single_instance_allowed": "Deja configurat. Doar o singur\u0103 configurare este posibil\u0103."
+        },
+        "error": {
+            "cannot_connect": "A e\u0219uat conectarea",
+            "invalid_individual_address": "Valoarea nu se potrive\u0219te cu modelul pentru adresa individual\u0103 KNX.\n'area.line.device'",
+            "invalid_ip_address": "Adres\u0103 IPv4 nevalid\u0103."
+        },
+        "step": {
+            "manual_tunnel": {
+                "data": {
+                    "host": "Gazd\u0103 (host)",
+                    "local_ip": "Interfa\u021b\u0103 IP local\u0103",
+                    "port": "Port",
+                    "tunneling_type": "Tip tunel KNX"
+                },
+                "data_description": {
+                    "host": "Adresa IP sau hostname-ul dispozitivului de tunelare KNX/IP",
+                    "local_ip": "IP-ul local sau numele interfe\u021bei utilizate pentru conexiunea de la Home Assistant. Las\u0103 necompletat pentru a utiliza descoperirea automat\u0103.",
+                    "port": "Portul dispozitivului de tunelare KNX/IP."
+                },
+                "description": "Te rug\u0103m s\u0103 introduci detaliile de conectare ale dispozitivului de tunelare."
+            },
+            "routing": {
+                "data": {
+                    "individual_address": "Adres\u0103 individual\u0103",
+                    "local_ip": "Interfa\u021b\u0103 IP local\u0103",
+                    "multicast_group": "Grup multicast",
+                    "multicast_port": "Port multicast"
+                },
+                "data_description": {
+                    "individual_address": "Adresa KNX care urmeaz\u0103 s\u0103 fie utilizat\u0103 de Home Assistant, de exemplu `0.0.4`",
+                    "local_ip": "IP-ul local sau numele interfe\u021bei utilizate pentru conexiunea de la Home Assistant. Las\u0103 necompletat pentru a utiliza descoperirea automat\u0103."
+                },
+                "description": "Te rug\u0103m s\u0103 configurezi op\u021biunile de rutare"
+            },
+            "secure_knxkeys": {
+                "data": {
+                    "knxkeys_password": "Parola pentru decriptarea fi\u0219ierului `.knxkeys`"
+                },
+                "data_description": {
+                    "knxkeys_password": "Aceasta a fost setat\u0103 odat\u0103 cu exportarea fi\u0219ierului din ETS."
+                },
+                "description": "Te rug\u0103m s\u0103 selectezi un fi\u0219ier `.knxkeys` pentru a fi importat"
+            },
+            "tunnel": {
+                "data": {
+                    "gateway": "Conexiune tunel KNX"
+                },
+                "description": "Te rug\u0103m s\u0103 selectezi un gateway din list\u0103."
+            }
+        }
+    }
+}

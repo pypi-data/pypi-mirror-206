@@ -1,0 +1,12 @@
+pyfasttrack/base_detector.py,sha256=5gQdNP309mwkxoMRmWg7H1R1WzDjCKfLOLpsbDdSG_g,6037
+pyfasttrack/data.py,sha256=L7SGFlKScaF3j1_dfyN23WQjb6sGuSFmOQ1E6oagg1s,5099
+pyfasttrack/example.py,sha256=I12cTAe0hfP_Z0Ui8kluqPMBhfofSvroi2iKf3sxyPQ,1190
+pyfasttrack/example_yolo.py,sha256=I3I0wRs9gLRma00mUq9xs02VspqbgwH2gGO3wUbYCyA,1125
+pyfasttrack/ft_detector.py,sha256=1Jw8l6xw26C60Fm__wqP06D1xW7YR1mqkhUK3HoPJw4,1769
+pyfasttrack/tracker.py,sha256=VOgB-RA_6yRWz6Ryc_tDnOVHGNRAVf6f0cMwDB24ips,7624
+pyfasttrack/yolo_detector.py,sha256=WupvBVIyE6TLGoIelQdnhLsJLyX1TSCA1dlQWqhn81Q,662
+pyfasttrack-0.0.2.dist-info/LICENSE,sha256=eyd8Ld0p97tgTpV-GiTZc1Y8bkYccVs4bQOUnjFDIZw,1073
+pyfasttrack-0.0.2.dist-info/METADATA,sha256=nAjnED43Huu0JfWJq1xvz8mmnMM7rd5-hHINo8y5Q6I,469
+pyfasttrack-0.0.2.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+pyfasttrack-0.0.2.dist-info/top_level.txt,sha256=VRMBOrgsgQPywDMfMJMU5UxUxE0As9L9I2QFbhM7_8c,12
+pyfasttrack-0.0.2.dist-info/RECORD,,

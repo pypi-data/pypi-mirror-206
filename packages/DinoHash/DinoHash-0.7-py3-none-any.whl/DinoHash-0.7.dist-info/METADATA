@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: DinoHash
+Version: 0.7
+Summary: A fun Hash library.
+Author: Mora
+Author-email: MoraDev@proton.me
+License: GNU GPLv3
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+#### Minting a string:
+
+    import Dino #Imports DinoMint
+    
+    print(Dino.Parvus("string")) #Prints Small Mint
+    print(Dino.Magnum("string")) #Prints Big Mint
+
+#### Minting a file:
+
+	import Dino #Imports DinoMint
+
+	file = "file.txt" #The file you want to Mint
+	print(Dino.Parvus(open(file,'rb').read())) #Prints Small Mint
+	print(Dino.Magnum(open(file,'rb').read())) #Prints Big Mint

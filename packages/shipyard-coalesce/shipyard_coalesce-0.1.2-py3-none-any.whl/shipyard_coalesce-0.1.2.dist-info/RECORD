@@ -1,0 +1,7 @@
+shipyard_coalesce/__init__.py,sha256=aAxrN0nspdh5Ncs-aw9nj7Z4dddkENF_atLLnAu8fno,36
+shipyard_coalesce/cli/determine_status.py,sha256=jGrR3Nsu3VLXPqDz4BZj-KxqcEPcIxngNMC9E3GAJOI,1182
+shipyard_coalesce/cli/trigger_sync.py,sha256=kdNIr-GPV6R2h9Tw5jpG3n-KuaC24kKFAmazyh7tcss,2492
+shipyard_coalesce/coalesce.py,sha256=AHCaLySzLdvrmboZ-iiu_OIT776WlV0_4achZkmjhVc,5678
+shipyard_coalesce-0.1.2.dist-info/METADATA,sha256=cyxAoXcoAOvnef6GIEHiacvEMQn7HFxwhkhIs3uGQlQ,1586
+shipyard_coalesce-0.1.2.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+shipyard_coalesce-0.1.2.dist-info/RECORD,,

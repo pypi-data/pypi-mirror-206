@@ -1,0 +1,7 @@
+json_serializer.py
+setup.py
+xml_serializer.py
+MirSerializer.egg-info/PKG-INFO
+MirSerializer.egg-info/SOURCES.txt
+MirSerializer.egg-info/dependency_links.txt
+MirSerializer.egg-info/top_level.txt

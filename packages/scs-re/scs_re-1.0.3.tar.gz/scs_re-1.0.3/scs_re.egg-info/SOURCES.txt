@@ -1,0 +1,12 @@
+README.md
+setup.py
+_sre/sre.c
+scs_re/__init__.py
+scs_re/_casefix.py
+scs_re/_compiler.py
+scs_re/_constants.py
+scs_re/_parser.py
+scs_re.egg-info/PKG-INFO
+scs_re.egg-info/SOURCES.txt
+scs_re.egg-info/dependency_links.txt
+scs_re.egg-info/top_level.txt

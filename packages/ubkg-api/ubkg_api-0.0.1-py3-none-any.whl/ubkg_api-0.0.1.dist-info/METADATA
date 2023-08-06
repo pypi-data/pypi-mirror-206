@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: ubkg_api
+Version: 0.0.1
+Summary: A REST API infront of the Unified Biomedical Knowlegde Graph
+Project-URL: Homepage, https://github.com/x-atlas-consortia/ubkg-api
+Project-URL: Bug Tracker, https://github.com/x-atlas-consortia/ubkg-api/issues
+Author-email: Charles Kollar <charles.kollar@pitt.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: flask==2.1.3
+Requires-Dist: neo4j==4.2.1
+Requires-Dist: python-dateutil>=2.6.0
+Requires-Dist: setuptools>=21.0.0
+Description-Content-Type: text/markdown
+
+# UBKG-API
+
+## Requirements
+Python 3.5.2+
+
+## Usage
+To run the Flask development server open the project in PyCharm and navigate to `/src/app.py` then click the green arrow
+
+Verify it's running
+
+```
+curl localhost:8080
+```
+
+## Running with Docker
+
+To run the server on a Docker container, please navigate to the `/docker` directory:
+### Localhost
+You only need to build the image once. After the image is built you can make changes to the source code and restart the container. The changes will be reflected in the container.
+
+### Build the image
+```bash
+docker-compose -f docker-compose.yml -p ubkg_api build
+```
+
+### Start the container
+```bash
+docker-compose -f docker-compose.yml -p ubkg_api up -d
+```
+
+Make changes to the source code then `down` and `start` the container
+```bash
+docker-compose -f docker-compose.yml -p ubkg_api down
+```
+
+```bash
+docker-compose -f docker-compose.yml -p ubkg_api up -d
+```

@@ -1,0 +1,3 @@
+[console_scripts]
+pytube_local_nima = pytube.cli:main
+

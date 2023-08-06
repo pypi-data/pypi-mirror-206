@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="my-input">
+<button id="my-button">查询</button>
+<div id="my-output"></div>
+
+</body>
+<script>
+    function fetchData() {
+        const xhr = new XMLHttpRequest();
+        const url = "http://192.168.157.1/scenes/list/query_transform_details/3";
+        const id = document.getElementById("my-input").value;
+        xhr.open("GET", url + "?id=" + id);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                const response = JSON.parse(xhr.responseText);
+                document.getElementById("my-output").textContent = response.result;
+            }
+        };
+        xhr.send();
+    }
+
+    document.getElementById("my-button").addEventListener("click", fetchData);
+
+</script>
+</html>

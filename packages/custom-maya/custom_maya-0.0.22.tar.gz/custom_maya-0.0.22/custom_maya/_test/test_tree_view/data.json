@@ -1,0 +1,91 @@
+{
+  "data": [
+    {
+      "LongName": "|ROOT"
+    },
+    {
+      "LongName": "|ROOT|WAIST"
+    },
+    {
+      "LongName": "|ROOT|WAIST|SPINE1"
+    },
+    {
+      "LongName": "|ROOT|WAIST|SPINE1|SPINE2"
+    },
+    {
+      "LongName": "|ROOT|WAIST|SPINE1|SPINE2|SPINE3"
+    },
+    {
+      "LongName": "|ROOT|WAIST|SPINE1|SPINE2|SPINE3|SPINE4"
+    },
+    {
+      "LongName": "|ROOT|WAIST|SPINE1|SPINE2|SPINE3|SPINE4|SPINE5"
+    },
+    {
+      "LongName": "|ROOT|WAIST|SPINE1|SPINE2|SPINE3|SPINE4|SPINE5|SPINE6"
+    },
+    {
+      "LongName": "|ROOT|WAIST|THIGH_L"
+    },
+    {
+      "LongName": "|ROOT|WAIST|THIGH_L|CALF_L"
+    },
+    {
+      "LongName": "|ROOT|WAIST|THIGH_L|CALF_L|FOOT_L"
+    },
+    {
+      "LongName": "|ROOT|WAIST|THIGH_L|CALF_L|FOOT_L|TOE_L"
+    },
+    {
+      "LongName": "|ROOT|WAIST|THIGH_R"
+    },
+    {
+      "LongName": "|ROOT|WAIST|THIGH_R|CALF_R"
+    },
+    {
+      "LongName": "|ROOT|WAIST|THIGH_R|CALF_R|FOOT_R"
+    },
+    {
+      "LongName": "|ROOT|WAIST|THIGH_R|CALF_R|FOOT_R|TOE_R"
+    },
+    {
+      "LongName": "|ROOT|WAIST|CLAVICLE_L"
+    },
+    {
+      "LongName": "|ROOT|WAIST|CLAVICLE_L|UPPERARM_L"
+    },
+    {
+      "LongName": "|ROOT|WAIST|CLAVICLE_L|UPPERARM_L|FOREARM_L"
+    },
+    {
+      "LongName": "|ROOT|WAIST|CLAVICLE_L|UPPERARM_L|FOREARM_L|HAND_L"
+    },
+    {
+      "LongName": "|ROOT|WAIST|CLAVICLE_L|UPPERARM_L|FOREARM_L|HAND_L|INDEX_L"
+    },
+    {
+      "LongName": "|ROOT|WAIST|CLAVICLE_L|UPPERARM_L|FOREARM_L|HAND_L|MIDDLE_L"
+    },
+    {
+      "LongName": "|ROOT|WAIST|CLAVICLE_L|UPPERARM_L|FOREARM_L|HAND_L|PINKY_L"
+    },
+    {
+      "LongName": "|ROOT|WAIST|CLAVICLE_L|UPPERARM_L|FOREARM_L|HAND_L|THUMB_L"
+    },
+    {
+      "LongName": "|ROOT|WAIST|CLAVICLE_R"
+    },
+    {
+      "LongName": "|ROOT|WAIST|CLAVICLE_R|UPPERARM_R"
+    },
+    {
+      "LongName": "|ROOT|WAIST|CLAVICLE_R|UPPERARM_R|FOREARM_R"
+    },
+    {
+      "LongName": "|ROOT|WAIST|CLAVICLE_R|UPPERARM_R|FOREARM_R|HAND_R"
+    },
+    {
+      "LongName": "|ROOT|WAIST|CLAVICLE_R|UPPERARM_R|FOREARM_R|HAND_R|INDEX_R"
+    }
+  ]
+}

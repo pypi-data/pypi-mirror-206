@@ -1,0 +1,10 @@
+manga_ocr/__init__.py,sha256=Gm7138D_9hRp6vaIHeNt4h396J6U_nVidrKftaTgMgI,61
+manga_ocr/__main__.py,sha256=CqSkRgCXIAokxt05lq-V0kFOftVhGd-ThXRnLxf67fE,127
+manga_ocr/ocr.py,sha256=FiSZ6u6zE7ZCT_VLMdnBSPDTaLCJ0vvtLZjO0_b8YlE,2161
+manga_ocr/run.py,sha256=k_OTGgcfN_9Fy_ldZvg70AinmHCQxp11jN8Q6lIXSIw,3947
+manga_ocr_abang-0.2.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+manga_ocr_abang-0.2.0.dist-info/METADATA,sha256=vRrCfj0LTUy_Siq-Y3K-aXrLVxrDWat9FSepErLBt1A,2078
+manga_ocr_abang-0.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+manga_ocr_abang-0.2.0.dist-info/entry_points.txt,sha256=dCKS8bNK6gGbE_hrtLQKgPW4S9IkInpdNGBnqzWRee8,54
+manga_ocr_abang-0.2.0.dist-info/top_level.txt,sha256=_vJHxmUkNoILMBwyQwjLDCoP8xg_9SX2UgFrrfrb_AY,10
+manga_ocr_abang-0.2.0.dist-info/RECORD,,

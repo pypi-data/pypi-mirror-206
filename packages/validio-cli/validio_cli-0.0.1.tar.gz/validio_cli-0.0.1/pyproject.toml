@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "validio-cli"
+version = "0.0.1"
+description = "CLI tool to interact with the Validio platform"
+authors = ["Validio <support@validio.io>"]
+license = "Apache-2.0"
+homepage = "https://validio.io/"
+documentation = "https://docs.validio.io/"
+packages = [{include = "validio_cli"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+select = [
+    "ARG", # flake8-unused-argument
+    "C4",  # flake8-comprehension
+    "D",   # pydocstyle
+    "E",   # pycodestyle error
+    "F",   # pyflakes
+    "I",   # isort
+    "N",   # pep8-naming
+    "PIE", # flake8-pie
+    "PL",  # pylint
+    "PT",  # flake8-pytest-style
+    "PTH", # flake8-use-pathlib
+    "RET", # flake8-ret
+    "RUF", # ruff specific rules
+    "SIM", # flake8-simplify
+    "UP",  # pyupgrade
+    "W",   # pycodestyle warning
+]

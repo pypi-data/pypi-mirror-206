@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: torchcross
+Version: 0.0.2
+Summary: Easy-to-use PyTorch library for cross-domain learning, few-shot learning and meta-learning
+Project-URL: Homepage, https://github.com/StefanoWoerner/torchcross
+Project-URL: Issue Tracker, https://github.com/StefanoWoerner/torchcross/issues
+Author-email: Stefano Woerner <stefano@woerner.eu>
+License-File: LICENSE
+License-File: LICENSE.LESSER
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.10
+Requires-Dist: h5py~=3.8.0
+Requires-Dist: numpy~=1.24.3
+Requires-Dist: pillow~=9.5.0
+Requires-Dist: pyyaml~=6.0
+Requires-Dist: torchvision~=0.15.1
+Requires-Dist: torch~=2.0.0
+Description-Content-Type: text/markdown
+
+# TorchCross
+**Easy-to-use PyTorch library for cross-domain learning, few-shot learning and
+meta-learning.**
+
+## What is TorchCross?
+
+TorchCross is a PyTorch library for cross-domain learning, few-shot learning and
+meta-learning. It provides convenient utilities for creating cross-domain learning
+or few-shot learning experiments.
+
+### Package Overview
+- `torchcross`: The main package, containing the core functionality of the library.
+- `torchcross.data`: Contains the `CrossDomainDataset` and `FewShotDataset`
+  classes, which wrap `TaskSource` instances to produce batches for cross-domain
+  learning or tasks for few-shot learning experiments.
+- `torchcross.data.task`: Contains the `Task` and `TaskDescription` classes, which 
+  represent a task in a few-shot learning scenario and a task's metadata, respectively.
+- `torchcross.cd` contains functions to create heads, losses and metrics
+  for cross-domain learning experiments.
+
+**This library is still in beta. The API is potentially subject to change. Any feedback
+is welcome.**
+
+## Installation
+
+The library can be installed via pip:
+
+```bash
+pip install torchcross
+```
+
+
+## Examples
+
+See the [`examples`](examples) directory.
+

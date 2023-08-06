@@ -1,0 +1,24 @@
+[tool.pdm]
+source = [
+    { name = "pypi", url = "https://pypi.tuna.tsinghua.edu.cn/simple", verify_ssl = true },
+]
+
+[project]
+name = "wechat-api"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "RyomaHan", email = "ryomahan1996@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"

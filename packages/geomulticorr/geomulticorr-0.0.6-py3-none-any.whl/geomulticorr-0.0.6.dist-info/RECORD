@@ -1,0 +1,15 @@
+geomulticorr/__init__.py,sha256=100U1b0gYAUdPZWVph8psjWnYIfFXOy10Rnqckiz6jA,146
+geomulticorr/geomorph.py,sha256=akFZ8SzWdttGD_F3_eskZfPQvKz5mFtaGtRzeStlZXA,4088
+geomulticorr/pair.py,sha256=purJU3QIiWhQFOcAKaHOrfwZPMmsYWOFdLc964s7W-U,14142
+geomulticorr/pzone.py,sha256=StbJnJIC3LvYsNfYeH7KoniMk8Zf-2HGap4nFPD2hho,2941
+geomulticorr/session.py,sha256=9j7yPXNbzK9U_fbH29_RWDhSbbVpt1mBh85_ss4_rPQ,20511
+geomulticorr/spine.py,sha256=O-KM_37GdQLuTmOAQqKQDC_UqjSoPpSBU597eyx5iEI,5586
+geomulticorr/thumb.py,sha256=90PAECobPfBuTKyY7IcgdJWy71Ju_7c-thr0VmIJ18o,1826
+geomulticorr/xzone.py,sha256=ZYW2pyWkydc--CBojFhph5Jt3gtUTGSeVx7rJWLCpv0,5594
+geomulticorr/resources/map_styles/vector-field_style_1.qml,sha256=t1b5aj6z7EpIhXXzjDpj5Ig_Li7pUjfHpAaekGN6sjI,12941
+geomulticorr/resources/project_template/geodatabase_template-project.gpkg,sha256=S0fZjt4B5XetzrxD8j9MMwwuioujKLeP3-M96cS_5p4,19431424
+geomulticorr/resources/project_template/map_template-project.qgz,sha256=ZM04WPCq65ftvb4O4OH40n2gT5Dz6mOTfbm_8dukpBU,11232
+geomulticorr-0.0.6.dist-info/METADATA,sha256=VP6GZENwwDtyRN9wfkzlUXW1c2VfgUbb_u_m0Wjlz-Q,719
+geomulticorr-0.0.6.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+geomulticorr-0.0.6.dist-info/licenses/LICENSE.md,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+geomulticorr-0.0.6.dist-info/RECORD,,

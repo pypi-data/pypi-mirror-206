@@ -1,0 +1,8 @@
+setup.py
+vectorGPTBot/__init__.py
+vectorGPTBot/vectorGPTBot.py
+vectorGPTBot.egg-info/PKG-INFO
+vectorGPTBot.egg-info/SOURCES.txt
+vectorGPTBot.egg-info/dependency_links.txt
+vectorGPTBot.egg-info/requires.txt
+vectorGPTBot.egg-info/top_level.txt

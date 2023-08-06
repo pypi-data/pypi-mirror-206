@@ -1,0 +1,4 @@
+chromadb
+modelscope
+transformers
+cpm_kernels

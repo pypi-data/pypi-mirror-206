@@ -1,0 +1,3 @@
+[console_scripts]
+dna = dna_audit_tool.main:toolnew
+

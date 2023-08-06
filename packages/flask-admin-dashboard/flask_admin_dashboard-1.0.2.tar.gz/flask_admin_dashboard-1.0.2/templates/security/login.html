@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="/static/css/login.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+        <body class="main-bg">
+        <div class="login-container text-c animated flipInX">
+                <div>
+                    <h1 class="logo-badge text-whitesmoke"><span class="fa fa-user-circle"></span></h1>
+                </div>
+                    <h3 class="text-whitesmoke">Admin Login</h3>
+                <div class="container-content">
+                    <form action="{{ url_for_security('login') }}" method="POST" name="login_form" class="margin-t">
+                        {{ login_user_form.hidden_tag() }}
+                        <div class="form-group">
+                            {{ login_user_form.email(class='form-control', placeholder='Username') }}
+                        </div>
+                        <div class="form-group">
+                            {{ login_user_form.password(class='form-control', placeholder='password') }}
+                        </div>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                        <div class="checkbox">
+                                            <label>
+                                                {{ login_user_form.remember }} {{ login_user_form.remember.label(class='text-whitesmoke') }}
+                                            </label>
+                                        </div>
+                                        {{ login_user_form.submit(class='form-button button-l margin-b') }}
+                                </div>
+                            </div>
+                    </form>
+                </div>
+            </div>
+</body>
+
+</html>

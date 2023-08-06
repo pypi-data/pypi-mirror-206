@@ -1,0 +1,48 @@
+{% extends "admin/master.html" %}
+
+{% block body %}
+    <div class="row">
+<div class="col-md-8 animated bounce">
+    <h1 class="page-header">Tokens</h1>
+    <table class="table table-striped">
+      <thead>
+        <th>Application</th>
+        <th>Access Token</th>
+        <th>Refresh Token</th>
+        <th>Updated</th>
+        <th>Expiration</th>
+      </thead>
+      <tbody>
+
+        <!-- START CONTENT END -->
+        {% if current_user.is_authenticated %}
+                {% for item in token_data %}
+                    <tr>
+                        <td>{{ item.app_name }}</td>
+                        <td>{{ item.access_token }}</td>
+                        <td>{{ item.refresh_token }}</td>
+                        <td>{{ item.updated_at }}</td>
+                        <td>{{ item.expires_at }}</td>
+                    </tr>
+                {% endfor %}
+            {% endif %}
+
+        <!-- DUMP CONTENT END -->
+
+      </tbody>
+
+    </table>
+
+  </div>
+    </div>
+    <div class="row">
+        <div class="container">
+                   {% include 'admin/token_edit.html' %}
+        </div>
+
+    </div>
+
+
+{% endblock %}
+
+

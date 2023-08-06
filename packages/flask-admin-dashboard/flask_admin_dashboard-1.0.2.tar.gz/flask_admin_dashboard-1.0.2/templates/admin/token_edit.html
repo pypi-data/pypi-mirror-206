@@ -1,0 +1,39 @@
+<div class="col-md-8 animated bounce">
+    <h1 class="page-header">Tokens</h1>
+    <table class="table table-striped">
+      <thead>
+        <th>Application</th>
+        <th>Access Token</th>
+        <th>Refresh Token</th>
+        <th>Updated</th>
+        <th>Expiration</th>
+      </thead>
+      <tbody>
+
+        <!-- START CONTENT END -->
+        {% if current_user.is_authenticated %}
+                                        <form method="POST" action="">
+                {% for token_entry_form in form.token_data %}
+
+                    {{ token_entry_form.hidden_tag() }}
+
+                    <tr>
+                        <td>{{ token_entry_form.app_name(disabled=True) }}</td>
+                        <td>{{ token_entry_form.access_token }}</td>
+                        <td>{{ token_entry_form.refresh_token }}</td>
+                        <td>{{ token_entry_form.updated_at.data }}</td>
+                        <td>{{ token_entry_form.expires_at }}</td>
+                        <td>{{ token_entry_form.update(class="btn-primary") }}</td>
+                    </tr>
+
+                {% endfor %}
+                                </form>
+            {% endif %}
+
+        <!-- DUMP CONTENT END -->
+
+      </tbody>
+
+    </table>
+
+  </div>

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+pyubibot/__init__.py
+pyubibot/channels.py
+pyubibot/constants.py
+pyubibot.egg-info/PKG-INFO
+pyubibot.egg-info/SOURCES.txt
+pyubibot.egg-info/dependency_links.txt
+pyubibot.egg-info/top_level.txt
+test/__init__.py
+test/test_channels.py
+test/test_ubibot.py

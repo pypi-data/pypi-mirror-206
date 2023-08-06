@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: certora-cli-alpha-otakar-single-race-mode2
+Version: 20230504.13.46.675840
+Summary: Runner for the Certora Prover
+Home-page: https://pypi.org/project/certora-cli-alpha-otakar-single_race_mode2
+Author: Certora
+Author-email: support@certora.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.16
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Commit 07a9950. Build and Run scripts for executing the Certora Prover on Solidity smart contracts.
+

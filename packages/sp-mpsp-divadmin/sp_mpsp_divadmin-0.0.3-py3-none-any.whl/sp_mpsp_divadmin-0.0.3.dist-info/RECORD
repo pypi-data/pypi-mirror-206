@@ -1,0 +1,17 @@
+sp_mpsp_divadmin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sp_mpsp_divadmin/paths.py,sha256=YrZu_NUXkz3i25YU6k5ZAdvZJLyDRoTsaxFnodKE6z4,1100
+sp_mpsp_divadmin/data/output/geo/sp_mpsp.7z,sha256=Pgshb76mkeyXYukQqF3cOb3R--8haZyP4PcMucaLPzk,6644288
+sp_mpsp_divadmin/data/output/geo/sp_mpsp_ar.7z,sha256=LmbFubJ_sdgd1aGWDa5z55r65uplDfh47vH7JNbmCeI,5341370
+sp_mpsp_divadmin/data/output/geo/sp_mpsp_gaema.7z,sha256=UVccXbJH2a-jfxpaGn8MreLCWcwDZ1zL3wcwZl0xzcc,2872183
+sp_mpsp_divadmin/data/output/geo/sp_mpsp_macroregioes.7z,sha256=XipoA3kKaZKiXBbY8nipwVBowZ_3kYkOXaoehYgR1mE,5333249
+sp_mpsp_divadmin/data/output/geo/sp_mpsp_rp.7z,sha256=9nEDTaCIWtvpoeDYFBsP3JswNkbG3VlWVJOQ0kpV308,2817562
+sp_mpsp_divadmin/data/output/tabs/tab_gaemas_rps.csv,sha256=rs5iZrRMnLpMMCoVKscQZzKk8Ti_BxvpmncYqsVr9-4,36606
+sp_mpsp_divadmin/data/output/tabs/tab_municipio_ar.csv,sha256=RaI0c7-FpYC2cPphFFdzNsewIE7QE_gEIUSx1DvnwhY,167404
+sp_mpsp_divadmin/data/output/tabs/tab_municipio_gaema.csv,sha256=5nX32UPTylpmyrJCVHo7iLdVOKFCsJg-zaLHG1T4i1o,104615
+sp_mpsp_divadmin/data/output/tabs/tab_municipio_macroregioes.csv,sha256=9O7KjNRK7Q20krNkbWPNCuMxlqnpF-Zm9xCy86cVsQ4,21190
+sp_mpsp_divadmin/data/output/tabs/tab_municipio_rp.csv,sha256=G5gvOBqpWlEacTUfFGmW-F0vkB6YcKcnH93JcTVcsyA,23604
+sp_mpsp_divadmin-0.0.3.dist-info/LICENSE,sha256=THFLai6tr9-b-iC3ulaBB4qrDhOKYoqJgPbBgbIuKfw,1070
+sp_mpsp_divadmin-0.0.3.dist-info/METADATA,sha256=AlUgG_xBe72Thbjxg6CL5KW84PbLvFn4ydXz3UmEdjA,1804
+sp_mpsp_divadmin-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+sp_mpsp_divadmin-0.0.3.dist-info/top_level.txt,sha256=6CL6LK_1tw_EHN_O5sj8JJYhCMjnzpWLJeDphRorw-o,17
+sp_mpsp_divadmin-0.0.3.dist-info/RECORD,,

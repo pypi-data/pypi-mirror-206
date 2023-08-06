@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../static/styles/users.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>{{ title }} View </h1>
+    </header>
+    <main>
+        <div class="banner">
+            <h1> Welcome to Rares's</h1>
+            <h2> Random number {{random}}</h2>
+        </div>
+        <div class="card container banner bg-dark">
+            This is the container bg-dark object <br/> {{ body }}
+            <br/>
+            {% for item in elems %}
+                Name: {{ item.name }} ; Cnp: {{ item.cnp }}
+                <br/>
+            {% endfor %}
+
+        </div> 
+        
+    </main>
+    <div class="banner"></div>
+
+</body>
+
+</html>

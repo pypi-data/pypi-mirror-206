@@ -1,0 +1,12 @@
+CHANGES.rst
+HOWTO.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+vectorizeit/__init__.py
+vectorizeit/vectorizeit.py
+vectorizeit.egg-info/PKG-INFO
+vectorizeit.egg-info/SOURCES.txt
+vectorizeit.egg-info/dependency_links.txt
+vectorizeit.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+batpy/__init__.py,sha256=hjKDd146SEbvH_2F76JzgYfj73XsLT7nQiZzGKIK_uY,172
+batpy/batpac_battery.py,sha256=V_0hTAXCFTijDpFr5Q48y1ktGKbP9sqemyr8XNstQlk,5157
+batpy/batpac_tool.py,sha256=T4xmgWZkzgAkboIxJDTIp89TLmohq-_eNMCDkalniWE,27747
+batpy/data/batpy_batpac_calculation_and_validation_results.toml,sha256=mCqmTWXTF8cYNgzQTrUbXr5nzq9TcEJQAjKaDn4HeTA,2158
+batpy/data/batpy_batpac_config.toml,sha256=HV6UJ3iOlAY2Zbo_OZCLswS1rzU0UCec0jGQxK_FioA,30586
+batpy/data/batpy_batpac_user_input_cells.toml,sha256=3WGj8bwV4vKEYjs_ss7Opli8aNq2clY40E5kJoXFy5E,83193
+batpy/data/batpy_batteries_config.toml,sha256=HN9Aj14aPfdIKXOyWBpb7hKzBrgx6JA0efhP21JwkAU,48369
+batpy/is_version_compatible.py,sha256=yQiSCwkWMYJ7VtK7PUCXgicgRtvvWf6oafQ22EqMqNE,2177
+batpy-0.0.8.dist-info/LICENSE,sha256=M2azgahbxx25GXbm8uLV0aQTwzkKBHg00tWSPt-6qzQ,1073
+batpy-0.0.8.dist-info/METADATA,sha256=wp7i0U6Z71_ikynRSzLeW6p1zJxyOiBM5g5W602jVRc,5320
+batpy-0.0.8.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+batpy-0.0.8.dist-info/RECORD,,

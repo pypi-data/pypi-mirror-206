@@ -1,0 +1,16 @@
+senscritique/__init__.py,sha256=OJ6fqXUZNqCW4NUhjicV5neL6ey0Iv4pjtpy0KG7TqU,56
+senscritique/data_utils.py,sha256=3qq8WSdE2GtVR2H3MYhj38KhCATDuJSJ1ZPN7jMvH7c,470
+senscritique/parse_utils.py,sha256=N8I1BwHGDyD_MXj_CI1Ck_FoMru-kiofrgGg2BIvnbA,531
+senscritique/process_collection.py,sha256=l0kyaRmfhbZ71ZPKdUVONNtTGrOwAPLOVLN9QKbplSI,2226
+senscritique/process_critiques.py,sha256=DZGNv-LiNV87lmdJzZt1cBMjySysrHDLPzkp50LI_0w,2866
+senscritique/process_generic.py,sha256=CZD1swQz_srOOmOcNJoRJ49wmBPMwebBr3i4SaroRio,2057
+senscritique/process_listes.py,sha256=oUF541Mh-bmU8DQIb-wbJiCTQSeUngio6THCIn6E15M,3228
+senscritique/takeout.py,sha256=zvh_OiRLNI8qS5xyCq-xVg_qJ4fqEB2OBNsdw4559tM,1910
+senscritique/utils.py,sha256=pknSRO9Hu77NAKBlpVic8j9BHsrfZhe14F7RNdW-Sk4,877
+senscritique/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+senscritique/tests/test_senscritique.py,sha256=GtDxyRkW5jTaQ6z3UI9tMckm8DpvBni7WXi0phjs6UY,1599
+senscritique-0.5.4.dist-info/LICENSE,sha256=ggV5dEH14Z0skiZwY8xJxoSlCFNJDlhqAInwL52j3Is,1060
+senscritique-0.5.4.dist-info/METADATA,sha256=CjSXw9IWBxxWrxxQGtaD_RaZK--NXCq92m7dM5DElWE,3123
+senscritique-0.5.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+senscritique-0.5.4.dist-info/top_level.txt,sha256=WVM86jns88vZyMbeFc5HTSGel07w5pQSLxVZ9Bm5PaI,13
+senscritique-0.5.4.dist-info/RECORD,,

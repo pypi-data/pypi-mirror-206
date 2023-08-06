@@ -1,0 +1,9 @@
+python/src/easylearn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python/src/easylearn/ingestion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python/src/easylearn/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python/src/easylearn/models/models.py,sha256=xp72xrd0x3xiq624LAoMajO4i6YHh8whqjgz1zmLFfs,390
+python/src/easylearn/pipeline/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lazylearn-0.0.1.dist-info/METADATA,sha256=ebQB8NyNBqW6ydtESrD-wZu9vq6883D8pS7EHNj4org,972
+lazylearn-0.0.1.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+lazylearn-0.0.1.dist-info/licenses/LICENSE,sha256=kz-tPMVbwFYIZGpmmxmf6w6y5lriOSMNx-QTluu6hfw,1080
+lazylearn-0.0.1.dist-info/RECORD,,

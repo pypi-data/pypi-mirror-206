@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: lazylearn
+Version: 0.0.1
+Summary: A small example package
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Author-email: "Frederik P. Høngaard" <mail@frederikhoengaard.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# easy-learn
+
+---
+
+## About
+
+easy-learn is a high-level Python interface for automated machine learning (AutoML). While there are many AutoML libraries available each typically solves a niche area of the overall ML pipeline without providing a covering and approachable end-to-end system.
+
+The aim of easy-learn is exactly that. Given a dataset, easy-learn will analyse types and distributions of attributes, preprocess, feature-engineer and ultimately train models to be used for further evaluation or inference. 
+
+## Usage
+

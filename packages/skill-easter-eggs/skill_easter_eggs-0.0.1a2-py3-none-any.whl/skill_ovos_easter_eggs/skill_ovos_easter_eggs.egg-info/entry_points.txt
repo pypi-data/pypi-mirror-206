@@ -1,0 +1,3 @@
+[ovos.plugin.skill]
+skill-ovos-easter-eggs.openvoiceos=skill_ovos_easter_eggs:EasterEggsSkill
+

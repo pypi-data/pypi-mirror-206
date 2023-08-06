@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+Makefile
+README.md
+pyproject.toml
+setup.py
+Augmentum.egg-info/PKG-INFO
+Augmentum.egg-info/SOURCES.txt
+Augmentum.egg-info/dependency_links.txt
+Augmentum.egg-info/requires.txt
+Augmentum.egg-info/top_level.txt
+source/augment.py
+source/tests/__init__.py
+source/tests/test_all.py
+temp/TESTING.md

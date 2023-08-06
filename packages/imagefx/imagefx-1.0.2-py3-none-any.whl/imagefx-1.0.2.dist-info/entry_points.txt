@@ -1,0 +1,3 @@
+[console_scripts]
+imagefx = imagefx.cli:main
+

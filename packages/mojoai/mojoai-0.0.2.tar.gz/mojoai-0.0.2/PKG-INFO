@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mojoai
+Version: 0.0.2
+Summary: MLOps tools for Mojo
+Author-email: Ryan Young <dev@ryayoung.com>
+License-File: LICENSE.txt
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries

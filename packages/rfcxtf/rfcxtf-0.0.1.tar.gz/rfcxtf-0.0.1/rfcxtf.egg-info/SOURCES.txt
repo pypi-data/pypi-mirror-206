@@ -1,0 +1,6 @@
+README.md
+rfcxtf.egg-info/PKG-INFO
+rfcxtf.egg-info/SOURCES.txt
+rfcxtf.egg-info/dependency_links.txt
+rfcxtf.egg-info/requires.txt
+rfcxtf.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+LICENCE.rst
+README.md
+pyproject.toml
+setup.py
+evalhyd/__init__.py
+evalhyd/evald.py
+evalhyd/evalp.py
+evalhyd/version.py
+evalhyd/src/evalhyd.cpp
+evalhyd_python.egg-info/PKG-INFO
+evalhyd_python.egg-info/SOURCES.txt
+evalhyd_python.egg-info/dependency_links.txt
+evalhyd_python.egg-info/not-zip-safe
+evalhyd_python.egg-info/requires.txt
+evalhyd_python.egg-info/top_level.txt

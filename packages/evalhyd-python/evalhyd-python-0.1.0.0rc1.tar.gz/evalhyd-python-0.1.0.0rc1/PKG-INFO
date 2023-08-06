@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: evalhyd-python
+Version: 0.1.0.0rc1
+Summary: Python bindings for EvalHyd
+Home-page: https://gitlab.irstea.fr/hycar-hydro/evalhyd/evalhyd-python
+Author: Thibault Hallouin
+Author-email: thibault.hallouin@inrae.fr
+Provides-Extra: tests
+License-File: LICENCE.rst
+
+An evaluator for streamflow predictions.

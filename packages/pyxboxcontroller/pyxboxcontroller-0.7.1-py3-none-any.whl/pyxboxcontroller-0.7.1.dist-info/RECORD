@@ -1,0 +1,11 @@
+pyxboxcontroller/XInput.py,sha256=27MjG-ObKIMUQBirOSBbMT1a1oe2UmH8okT1RbV7TBg,1559
+pyxboxcontroller/__init__.py,sha256=4NUG9NHiE-Erqu3rwLbeG8x5MzsdQQ2uzbV64s0J5C4,168
+pyxboxcontroller/controller.py,sha256=1psvCITp2UIvqa26n7c_LPqyVLR7QayXaK1mD2ADmRA,11425
+pyxboxcontroller/examples/__init__.py,sha256=9dWb5m2FF__f8HDGtIBk7IONP6TRgTT1USWZSoNrTFs,104
+pyxboxcontroller/examples/example_print_state.py,sha256=pP829EM4WjM6H3_4mmNTXsADqAffle7Qi_fr3rdxqmk,1082
+pyxboxcontroller/examples/example_state_gui.py,sha256=Hk2OKAJ8j0PSZffC-TO_1RBIzjDCbOrLam9nukXcpyM,4607
+pyxboxcontroller-0.7.1.dist-info/LICENCE,sha256=nYJPw1dKyOb_7sduaTMOfIYMfeaBlbxrdrP0zKKuTSc,1086
+pyxboxcontroller-0.7.1.dist-info/METADATA,sha256=wLuVl7SY_glUFjBJt26npoPspW2YphbElRmnY7q2OL8,797
+pyxboxcontroller-0.7.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pyxboxcontroller-0.7.1.dist-info/top_level.txt,sha256=XfOcnos-6_ATWAue_iGh3XQb2dn8PkyxV4hdFY_YQ7c,17
+pyxboxcontroller-0.7.1.dist-info/RECORD,,

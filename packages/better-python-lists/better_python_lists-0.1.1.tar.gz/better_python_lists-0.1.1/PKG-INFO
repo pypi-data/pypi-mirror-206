@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: better-python-lists
+Version: 0.1.1
+Summary: Adds some useful methods on top of Python lists
+License: GNU GENERAL PUBLIC LICENSE v3
+Author: Bradley Marques
+Author-email: bradleyrcmarques@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Better Python Lists
+
+Makes lists in Python better, by adding some useful functions.
+
+## Installation
+
+`pip install better-python-lists`
+

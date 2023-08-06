@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>华测-初级测试开发框架</title>
+    <link rel="stylesheet" href="../layui/layui.css">
+    <style>
+        body {
+            background-color: #f2f2f2;
+        }
+
+        .layui-side {
+            background-color: #393D49;
+            color: #fff;
+            border-right: none;
+        }
+
+        .layui-nav-tree .layui-nav-child {
+            background-color: #1E9FFF;
+        }
+    </style>
+</head>
+<body>
+
+<div class="layui-layout layui-layout-admin">
+    <div class="layui-header">
+        <div class="layui-logo">接口测试平台</div>
+    </div>
+
+    <div class="layui-side layui-bg-black">
+        <div class="layui-side-scroll">
+            <ul class="layui-nav layui-nav-tree">
+                <li class="layui-nav-item">
+                    <a href="javascript:;">用例管理</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="javascript:" link="caseList">用例列表</a></dd>
+                        <dd><a href="javascript:" link="addTestCase">添加用例</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">报告管理</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="#">报告列表</a></dd>
+                        <dd><a href="#">生成报告</a></dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="layui-body">
+        <iframe src="addTestCase" width="100%" height="100%"></iframe>
+    </div>
+</div>
+
+<script src="../layui/layui.js"></script>
+<script>
+    // 初始化layui侧边栏组件
+    layui.use(['element'], function () {
+        var element = layui.element;
+    });
+</script>
+<script>
+    const navLinks = document.querySelectorAll('.layui-nav-child>dd>a');
+    const iframe = document.querySelector('iframe');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            const linkValue = link.getAttribute('link');
+            iframe.src = linkValue;
+        });
+    });
+</script>
+
+</body>
+</html>

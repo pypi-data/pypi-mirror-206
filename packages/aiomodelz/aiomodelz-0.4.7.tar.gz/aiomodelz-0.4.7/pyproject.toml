@@ -1,0 +1,77 @@
+[project]
+name = "aiomodelz"
+dynamic = []
+description = "machine learning models"
+authors = [
+    { name = "Teddy Xinyuan Chen", email = "45612704+tddschn@users.noreply.github.com" },
+    { name = "TensorChord", email = "modelz-support@tensorchord.ai" },
+]
+keywords = [
+    "machine learning",
+    "deep learning",
+]
+classifiers = [
+    "Environment :: GPU",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "msgpack>=1.0.4",
+    "typer[all]>=0.7.0",
+    "rich>=12.6.0",
+    "aiohttp>=3.8.4",
+]
+requires-python = ">=3.7"
+readme = "README.md"
+version = "0.4.7"
+
+[project.license]
+text = "Apache-2.0"
+
+[project.scripts]
+modelz = "modelz.cmd:main"
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0",
+]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm.version]
+source = "scm"
+write_to = "modelz/__version__.py"
+write_template = "__version__ = '{}'"
+
+[tool.pdm.scripts]
+black = "black --check modelz"
+ruff = "ruff check ."
+
+[tool.pdm.scripts.lint]
+composite = [
+    "black",
+    "ruff",
+]
+
+[tool.pdm.dev-dependencies]
+lint = [
+    "ruff>=0.0.252",
+    "black>=23.1.0",
+]
+test = [
+    "pytest>=7.2.1",
+]
+dev = [
+    "ipython>=7.34.0",
+    "ipykernel>=6.16.2",
+]
+
+[tool.ruff]
+line-length = 188
+select = [
+    "E",
+    "F",
+    "B",
+]
+
+[tool.black]
+line-length = 188

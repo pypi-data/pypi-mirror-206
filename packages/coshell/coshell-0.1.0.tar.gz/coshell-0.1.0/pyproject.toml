@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "coshell"
+version = "0.1.0"
+description = ""
+authors = ["Joshua Wycuff <josh.wycuff@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4"
+requests = ">=2,<3"
+pydantic = ">=1.10.7,<2"
+pyperclip = ">=1.8.2,<2"
+
+[tool.poetry.scripts]
+my_script = "coshell.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

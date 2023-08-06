@@ -1,0 +1,10 @@
+attrs
+typing-extensions
+numpy
+scipy
+custom-inherit
+module-utilities>=0.1
+
+[test]
+pandas
+pytest

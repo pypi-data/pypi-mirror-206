@@ -1,0 +1,11 @@
+opencv-python
+mediapipe
+pandas
+gtts
+pygame
+
+[dev]
+check-manifest
+
+[test]
+coverage

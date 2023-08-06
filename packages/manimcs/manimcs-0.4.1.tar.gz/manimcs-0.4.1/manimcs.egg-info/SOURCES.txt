@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+manimcs.egg-info/PKG-INFO
+manimcs.egg-info/SOURCES.txt
+manimcs.egg-info/dependency_links.txt
+manimcs.egg-info/requires.txt
+manimcs.egg-info/top_level.txt

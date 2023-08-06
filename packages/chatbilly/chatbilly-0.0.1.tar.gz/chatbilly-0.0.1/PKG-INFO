@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: chatbilly
+Version: 0.0.1
+Summary: talk to your pretend friends
+Author-email: Tom Dyson <tom@torchbox.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: openai
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: tabulate
+Requires-Dist: typer
+Project-URL: Home, https://github.com/tomdyson/chatbilly

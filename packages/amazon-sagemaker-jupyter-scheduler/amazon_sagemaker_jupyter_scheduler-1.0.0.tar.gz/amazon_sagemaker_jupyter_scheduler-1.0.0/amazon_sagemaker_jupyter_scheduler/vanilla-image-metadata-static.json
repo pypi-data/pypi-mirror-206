@@ -1,0 +1,626 @@
+{
+   "af-south-1":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:af-south-1:559312083959:image/sagemaker-base-python-38",
+         "AppImageUri": "559312083959.dkr.ecr.af-south-1.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "ap-east-1":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:ap-east-1:493642496378:image/sagemaker-base-python-38",
+         "AppImageUri": "493642496378.dkr.ecr.ap-east-1.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "ap-northeast-1":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:ap-northeast-1:102112518831:image/sagemaker-base-python-38",
+         "AppImageUri": "102112518831.dkr.ecr.ap-northeast-1.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "ap-northeast-2":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:ap-northeast-2:806072073708:image/sagemaker-base-python-38",
+         "AppImageUri": "806072073708.dkr.ecr.ap-northeast-2.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "ap-northeast-3":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:ap-northeast-3:792733760839:image/sagemaker-base-python-38",
+         "AppImageUri": "792733760839.dkr.ecr.ap-northeast-3.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "ap-south-1":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:ap-south-1:394103062818:image/sagemaker-base-python-38",
+         "AppImageUri": "394103062818.dkr.ecr.ap-south-1.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "ap-southeast-1":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:ap-southeast-1:492261229750:image/sagemaker-base-python-38",
+         "AppImageUri": "492261229750.dkr.ecr.ap-southeast-1.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "ap-southeast-2":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:ap-southeast-2:452832661640:image/sagemaker-base-python-38",
+         "AppImageUri": "452832661640.dkr.ecr.ap-southeast-2.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "ap-southeast-3":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:ap-southeast-3:276181064229:image/sagemaker-base-python-38",
+         "AppImageUri": "276181064229.dkr.ecr.ap-southeast-3.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "ca-central-1":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:ca-central-1:310906938811:image/sagemaker-base-python-38",
+         "AppImageUri": "310906938811.dkr.ecr.ca-central-1.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "cn-north-1":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:cn-north-1:390048526115:image/sagemaker-base-python-38",
+         "AppImageUri": "390048526115.dkr.ecr.cn-north-1.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "cn-northwest-1":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:cn-northwest-1:390780980154:image/sagemaker-base-python-38",
+         "AppImageUri": "390780980154.dkr.ecr.cn-northwest-1.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "eu-central-1":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:eu-central-1:936697816551:image/sagemaker-base-python-38",
+         "AppImageUri": "936697816551.dkr.ecr.eu-central-1.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "eu-north-1":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:eu-north-1:243637512696:image/sagemaker-base-python-38",
+         "AppImageUri": "243637512696.dkr.ecr.eu-north-1.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "eu-south-1":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:eu-south-1:592751261982:image/sagemaker-base-python-38",
+         "AppImageUri": "592751261982.dkr.ecr.eu-south-1.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "eu-west-1":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:eu-west-1:470317259841:image/sagemaker-base-python-38",
+         "AppImageUri": "470317259841.dkr.ecr.eu-west-1.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "eu-west-2":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:eu-west-2:712779665605:image/sagemaker-base-python-38",
+         "AppImageUri": "712779665605.dkr.ecr.eu-west-2.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "eu-west-3":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:eu-west-3:615547856133:image/sagemaker-base-python-38",
+         "AppImageUri": "615547856133.dkr.ecr.eu-west-3.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "me-south-1":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:me-south-1:117516905037:image/sagemaker-base-python-38",
+         "AppImageUri": "117516905037.dkr.ecr.me-south-1.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "sa-east-1":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:sa-east-1:782484402741:image/sagemaker-base-python-38",
+         "AppImageUri": "782484402741.dkr.ecr.sa-east-1.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "us-east-1": [
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:us-east-1:081325390199:image/sagemaker-base-python-38",
+         "AppImageUri": "081325390199.dkr.ecr.us-east-1.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "us-east-2": [
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:us-east-2:429704687514:image/sagemaker-base-python-38",
+         "AppImageUri": "429704687514.dkr.ecr.us-east-2.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "us-west-1":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:us-west-1:742091327244:image/sagemaker-base-python-38",
+         "AppImageUri": "742091327244.dkr.ecr.us-west-1.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ],
+   "us-west-2":[
+      {
+         "ImageOrVersionArn": "arn:aws:sagemaker:us-west-2:236514542706:image/sagemaker-base-python-38",
+         "AppImageUri": "236514542706.dkr.ecr.us-west-2.amazonaws.com/sagemaker-base-python-38@sha256:27779e7604272e1d15ba19f5de70baa31dcceb246d5021f8c2c5d9db39c208cc",
+         "ImageMetadata": {
+            "ImageDisplayName": "Base Python 2.0",
+            "ImageDescription": "Official Python3.8 image from DockerHub https://hub.docker.@@DOMAIN_STUFFIX@@/_/python"
+         },
+         "IsGpuOptimized": false,
+         "AppImageConfig": {
+            "FileSystemConfig": {
+               "MountPath": "/root",
+               "DefaultUid": "0",
+               "DefaultGid": "0"
+            },
+            "KernelSpecs": [
+               {
+                  "Name": "python3",
+                  "DisplayName": "Python 3 (Base Python 2.0)"
+               }
+            ]
+         },
+         "FirstPartyImageOwner": "Studio",
+         "IsVisibleInLauncher": true
+      }
+   ]
+}

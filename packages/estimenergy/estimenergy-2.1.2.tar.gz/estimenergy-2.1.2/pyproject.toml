@@ -1,0 +1,77 @@
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "estimenergy"
+description = "Estimate Energy Consumption"
+authors = ["Lennard Beers <l.beers@outlook.de>"]
+repository = "https://github.com/EuleMitKeule/EstimEnergy"
+readme = "README.md"
+packages = [{include = "estimenergy"}]
+license = "MIT"
+version = "2.1.2"
+
+[tool.poetry.scripts]
+api = "estimenergy.main:start"
+drop = "estimenergy.db:drop_db"
+generate-openapi = "estimenergy.main:generate_openapi"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = {extras = ["standard"], version = "~0.20.0"}
+fastapi = "~0.92.0"
+fastapi-crudrouter = "~0.8.6"
+aioesphomeapi = "13.7.2"
+requests = "~2.28.2"
+prometheus_client = "~0.16.0"
+prometheus-fastapi-instrumentator = "~5.10.0"
+python-dotenv = "~0.21.1"
+PyYAML = "~6.0"
+types-requests = "^2.28.11.17"
+types-pyyaml = "^6.0.12.9"
+influxdb-client = {extras = ["async"], version = "^1.36.1"}
+sqlmodel = "^0.0.8"
+psycopg2-binary = "^2.9.6"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "~7.2.1"
+pytest-cov = "~4.0.0"
+httpx = "~0.23.3"
+PyYAML = "~6.0"
+poetry = "~1.4.0"
+pytest-asyncio = "^0.20.3"
+pytest-mock = "^3.10.0"
+freezegun = "^1.2.2"
+black = "^23.3.0"
+mypy = "^1.1.1"
+isort = "^5.12.0"
+ruff = "^0.0.260"
+bandit = "^1.7.5"
+pycodestyle = "^2.10.0"
+pydocstyle = "^6.3.0"
+pylint = "^2.17.2"
+
+[tool.poetry.group.build.dependencies]
+twine = "~4.0.2"
+
+[tool.isort]
+profile = "black"
+force_sort_within_sections = true
+forced_separate = [
+    "tests",
+]
+combine_as_imports = true
+
+[tool.mypy]
+ignore_missing_imports = true
+disable_error_code = "call-arg"
+
+[tool.pylint."MESSAGES CONTROL"]
+disable = [
+    "not-context-manager",
+]
+
+[tool.pylint.LOGGING]
+logging-format-style="fstr"

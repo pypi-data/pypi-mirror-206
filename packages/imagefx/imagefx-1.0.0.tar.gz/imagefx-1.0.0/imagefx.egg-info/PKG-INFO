@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: imagefx
+Version: 1.0.0
+Summary: Python library for performing image processing operations
+Home-page: UNKNOWN
+Author: Photon
+Author-email: electrify0608@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: dev

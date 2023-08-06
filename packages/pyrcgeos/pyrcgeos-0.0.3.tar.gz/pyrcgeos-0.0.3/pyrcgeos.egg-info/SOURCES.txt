@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pyrcgeos/__init__.py
+pyrcgeos/common.py
+pyrcgeos/foliumap.py
+pyrcgeos/pyrcgeos.py
+pyrcgeos.egg-info/PKG-INFO
+pyrcgeos.egg-info/SOURCES.txt
+pyrcgeos.egg-info/dependency_links.txt
+pyrcgeos.egg-info/not-zip-safe
+pyrcgeos.egg-info/requires.txt
+pyrcgeos.egg-info/top_level.txt

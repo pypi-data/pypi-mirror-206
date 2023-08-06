@@ -1,0 +1,38 @@
+.toggle-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.plus::before {
+    content: "+";
+}
+
+.minus::before {
+    content: "-";
+}
+
+
+#outline-view ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.node-name-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: inherit;
+    padding: 0;
+    margin-left: 4px;
+    height: 24px;
+}

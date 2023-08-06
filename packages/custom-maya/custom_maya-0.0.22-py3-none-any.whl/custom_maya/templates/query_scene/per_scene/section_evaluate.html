@@ -1,0 +1,39 @@
+<article class="my-3" id="Alert">
+    <p class="h2">Alert</p>
+
+
+</article>
+
+<article class="my-3" id="Counter">
+    <p class="h2" >Counter</p>
+    {% for name, values in Counter.items() %}
+        <p class="h5">{{ name }}</p>
+        <table class="table table-striped table-hover col-md m-md-2">
+            <header>
+                <tr>
+                    {% for param,value in values.items() %}
+                        {% if value!=0 %}
+                            <th>{{ param }}</th>
+                        {% endif %}
+
+                    {% endfor %}
+                </tr>
+            </header>
+            <tbody>
+            <tr>
+                {% for param,value in values.items() %}
+                    {% if value!=0 %}
+                        <td>{{ value }}</td>
+                    {% endif %}
+                {% endfor %}
+            </tr>
+            </tbody>
+        </table>
+    {% endfor %}
+
+</article>
+
+<article class="my-3" id="Evaluate">
+    <p class="h2" >Evaluate</p>
+</article>
+

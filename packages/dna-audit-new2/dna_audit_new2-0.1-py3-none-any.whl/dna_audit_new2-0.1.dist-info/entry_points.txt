@@ -1,0 +1,3 @@
+[console_scripts]
+c25 = main:dna_enter
+

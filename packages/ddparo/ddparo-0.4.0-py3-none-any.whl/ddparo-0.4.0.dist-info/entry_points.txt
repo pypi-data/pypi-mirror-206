@@ -1,0 +1,2 @@
+[console_scripts]
+ddparo = ddparo.ddparo:main

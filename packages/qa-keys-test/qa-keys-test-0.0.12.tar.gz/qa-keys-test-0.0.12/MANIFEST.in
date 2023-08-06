@@ -1,0 +1,3 @@
+include \
+    config/qa_key.json \
+    automation_qa_key_helper/qa_key.json \

@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+panacotta/__init__.py
+panacotta.egg-info/PKG-INFO
+panacotta.egg-info/SOURCES.txt
+panacotta.egg-info/dependency_links.txt
+panacotta.egg-info/top_level.txt

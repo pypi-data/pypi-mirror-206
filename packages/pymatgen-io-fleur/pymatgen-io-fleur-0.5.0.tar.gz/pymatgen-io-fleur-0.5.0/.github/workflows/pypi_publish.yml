@@ -1,0 +1,45 @@
+name: continous-deployment
+
+on:
+  release:
+    types: [created]
+  workflow_dispatch:
+
+jobs:
+
+  linting:
+    uses: ./.github/workflows/linting.yml
+
+  tests:
+    uses: ./.github/workflows/testing.yml
+
+  publish:
+    name: Publish to PyPi
+    needs: [tests, linting]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install flit
+        run: |
+          pip install flit~=3.5
+
+      - name: Build and Publish to TestPyPi
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          flit publish
+        env:
+          FLIT_USERNAME: __token__
+          FLIT_PASSWORD: ${{ secrets.PYPI_KEY }}
+          FLIT_INDEX_URL: https://test.pypi.org/legacy/
+
+      - name: Build and Publish to PyPi
+        if: github.event_name == 'release'
+        run: |
+          flit publish
+        env:
+          FLIT_USERNAME: __token__
+          FLIT_PASSWORD: ${{ secrets.PYPI_KEY }}

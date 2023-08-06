@@ -1,0 +1,9 @@
+Pillow
+cryptography
+neurokit
+numpy
+pandas
+pygame==2.1.2
+python-docx
+pyxid
+statsmodels

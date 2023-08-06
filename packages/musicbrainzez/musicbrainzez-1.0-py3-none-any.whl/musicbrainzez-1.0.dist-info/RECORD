@@ -1,0 +1,16 @@
+musicbrainzez/__init__.py,sha256=I6U_VD4kIsH5YukLxz7RuAf8XbaCEMFXuTL2AKZIVAo,72
+musicbrainzez/_version.py,sha256=OipuNt_9FnLs0IAOC7gTjtjJR3sfD77m8ZqZAa8e2yg,17
+musicbrainzez/caa.py,sha256=-LNK1mopnfGZMNwV_7rnjRszvWElZUhzxi1nalJBUsA,6785
+musicbrainzez/compat.py,sha256=SgKoGGxxz0aryVUVZ0c52j4LZsMILbNoqKDaP394uJ0,1719
+musicbrainzez/mbsubmission.py,sha256=uYbtaQa23QYuSjGN5GvRIAC0hFTqoFPZAMoDYzr3CtE,4572
+musicbrainzez/musicbrainz.py,sha256=NdtC9x68DHP4ehrKOMt-ir2NXcxhw4uYsdUuZut0QX0,51637
+musicbrainzez/util.py,sha256=7IIzEQi5vJSAADXuVk8I238GFJfE00kvVipgTpwDakY,1023
+musicbrainzngs/__init__.py,sha256=cO7e8LCDmKm_Us4tOubB5zlg_VsGtR_t2j6oMWMLN1M,74
+musicbrainzngs/caa.py,sha256=PmoFtn30ct0W4T33EQEKsqFrf8TAEJR8ZIb9RjBAPcc,603
+musicbrainzngs/compat.py,sha256=SgKoGGxxz0aryVUVZ0c52j4LZsMILbNoqKDaP394uJ0,1719
+musicbrainzngs/musicbrainz.py,sha256=Q2ZGSkLgFSVp3t8wu8X1ofstkaVQoCtkI7Bg9NhNHp8,16577
+musicbrainzez-1.0.dist-info/COPYING,sha256=HmiANu3nB6u5YwmLM3_hh47f8G1BbykV8scqT8lhcQY,3538
+musicbrainzez-1.0.dist-info/METADATA,sha256=xl7-9M24k1jvJQpJ4TPZoaz1og4TiHjm4RhfQaaOacw,3832
+musicbrainzez-1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+musicbrainzez-1.0.dist-info/top_level.txt,sha256=Ez1g4tAsjdrowv_tZGwlPuAVo0YiOQou5lCTlL1wYZY,29
+musicbrainzez-1.0.dist-info/RECORD,,

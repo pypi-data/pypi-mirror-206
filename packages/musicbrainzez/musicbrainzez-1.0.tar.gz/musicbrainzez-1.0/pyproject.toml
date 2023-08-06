@@ -1,0 +1,30 @@
+[build-system]
+requires  = [
+    "setuptools",
+    "authlib",
+    "requests",
+]
+
+[project]
+name = "musicbrainzez"
+version = "1.0"
+description = "Python bindings for the MusicBrainz and the Cover Art Archive webservices"
+readme = "README.rst"
+authors = [
+    {name = "Louis Rannou", email = "louson@gresille.org"},
+]
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "License :: OSI Approved :: ISC License (ISCL)",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+]
+
+[tool.setuptools]
+packages = ["musicbrainzez", "musicbrainzngs"]
+# long_description_content_type = 'text/x-rst'
+
+[project.urls]
+Homepage = "https://gitlab.com/Louson/python-musicbrainzez"

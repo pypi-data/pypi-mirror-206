@@ -1,0 +1,13 @@
+pangeo_forge_cordex/__init__.py,sha256=dSydlLA0KirhoODJgXj45i9pPbGXD_XB7S9hvg2BBRg,185
+pangeo_forge_cordex/_version.py,sha256=pKh2_hmFNUwG0JxbL18qxdmi_nmFpgRbR8X6IPZr08o,21
+pangeo_forge_cordex/esgf_access.py,sha256=IeE4sve8I9HLFlvHRtED8VQ0xkK4nGJK-MRFU36Y8Ks,2176
+pangeo_forge_cordex/parsing.py,sha256=ZUuFWMLDauf-dmyZJx4PrB5dF6IqnWGkkWYt1fHrVug,5701
+pangeo_forge_cordex/recipe.py,sha256=SRE0ufgQUnDsvsctXgCkIBNQQ7XK3iqL-Y16IBM_5kY,2665
+pangeo_forge_cordex/utils.py,sha256=AeuK_79XpYE7EwCaBx2Je5gjZALHGP5qpzgwqsiRIm0,1702
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_recipe_creation.py,sha256=8FGi3Yg-1tXkM9EerYOht_uADrnan4TzPuK2LDjWfZM,1105
+pangeo_forge_cordex-0.2.2.dist-info/LICENSE,sha256=OeCPNjf4HrUojSi2r16x4or9pmLnawhCf03zRJJ0S_M,1068
+pangeo_forge_cordex-0.2.2.dist-info/METADATA,sha256=OUNM1ojuvKdwxVy1kIK6xb3hn97DEVdhyN5xCD2RZ0w,1340
+pangeo_forge_cordex-0.2.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pangeo_forge_cordex-0.2.2.dist-info/top_level.txt,sha256=HQ1_x9wUzFLRYAuYK0YqXRygYAWQ-vilL8u4Eqeth44,26
+pangeo_forge_cordex-0.2.2.dist-info/RECORD,,

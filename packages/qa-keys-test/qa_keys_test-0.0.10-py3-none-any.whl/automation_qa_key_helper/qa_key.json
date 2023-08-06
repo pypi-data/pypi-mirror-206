@@ -1,0 +1,8 @@
+{
+    "PatientListWidget": {
+        "moreText": {
+            "display": "更多",
+            "data-qa-key": "更多"
+        }
+    }
+}

@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: CryptoRL
+Version: 0.2.0
+Summary: Fetching time series data of cryptocurrencies and using ML and RL to do cryptocurrency trading.
+Author-email: Ziyi Xia <zx2325@columbia.edu>
+License: MIT License
+        
+        Copyright (c) 2023 Ziyi Xia
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: repository, https://github.com/ZiyiXia/CryptoRL
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: develop
+License-File: LICENSE
+
+# CryptoRL
+Fetching time series data of cryptocurrencies and using ML and RL to do cryptocurrency trading.
+
+[![License: MIT](https://img.shields.io/github/license/ZiyiXia/CryptoRL)](https://opensource.org/licenses/MIT)
+
+[![GitHub Issue](https://img.shields.io/github/issues/ZiyiXia/CryptoRL)](https://github.com/ZiyiXia/CryptoRL/issues)
+
+[![PyPI](https://img.shields.io/pypi/v/CryptoRL)](https://pypi.org/project/CryptoRL/)
+
+![](https://img.shields.io/github/actions/workflow/status/ZiyiXia/CryptoRL/build.yml?label=build%20status&logo=github)
+
+[![codecov](https://img.shields.io/codecov/c/github/ZiyiXia/CryptoRL?logo=codecov)](https://app.codecov.io/gh/ZiyiXia/CryptoRL)
+
+[![docs](https://img.shields.io/readthedocs/cryptorl)](https://cryptorl.readthedocs.io)
+
+
+## Overview
+CryptoRL will use popular deep reinforcement learning algorithms and machine learning algorithms to do cryptocurrency trading.
+
+## Installation
+
+Run ```pip install cryptorl``` to install CryptoRL.
+
+## Getting started
+
+To fetch data, please use the functions in *data.py*.
+
+For example:
+
+```fetch_single('2020-01-01', '2022-01-01', 'aapl')```
+
+will return a DataFrame object that containing the cleaned data with required ticker and range of dates.
+
+With well processed data, you can use *env_crypto.py* to construct crypto market environment.
+
+Read the [documentation](https://cryptorl.readthedocs.io) for more details.

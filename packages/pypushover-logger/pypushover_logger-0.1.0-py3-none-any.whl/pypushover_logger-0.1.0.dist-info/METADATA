@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pypushover-logger
+Version: 0.1.0
+Summary: A Pushover logging handler
+Author: Jeffrey Muller
+Author-email: jeffrey.muller92@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+pypushover-logger
+=================
+
+A simple logging handler that will push notification to Pushover.
+
+All credits goes to: https://gist.github.com/snorrelo/28ab89d142ea93d363a34a8ce115b7cf
+
+The code hosted here is simply a packaged and black-ed version of the code above.

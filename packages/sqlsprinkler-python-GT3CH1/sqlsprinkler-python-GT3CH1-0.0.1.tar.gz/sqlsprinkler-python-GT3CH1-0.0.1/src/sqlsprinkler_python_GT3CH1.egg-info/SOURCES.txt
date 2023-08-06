@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/sqlsprinkler/__init__.py
+src/sqlsprinkler/system.py
+src/sqlsprinkler/zone.py
+src/sqlsprinkler_python_GT3CH1.egg-info/PKG-INFO
+src/sqlsprinkler_python_GT3CH1.egg-info/SOURCES.txt
+src/sqlsprinkler_python_GT3CH1.egg-info/dependency_links.txt
+src/sqlsprinkler_python_GT3CH1.egg-info/top_level.txt

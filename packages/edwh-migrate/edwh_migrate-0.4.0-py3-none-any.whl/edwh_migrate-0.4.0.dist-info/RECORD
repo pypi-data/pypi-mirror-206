@@ -1,0 +1,8 @@
+edwh_migrate/__about__.py,sha256=vpWw62-uttoH9kYWWt24trKKx_avreT9GyIqaUpi3Lk,130
+edwh_migrate/__init__.py,sha256=XRa8q11cwREcOfU3J8nkjjr2B4flIkcjcGv3cPyMb7A,881
+edwh_migrate/migrate.py,sha256=qOLjdc5fUNDVqIpmE8hATrNEFuNiVI_j-BVnw12kr3g,19142
+edwh_migrate-0.4.0.dist-info/METADATA,sha256=9PV7n2hNYawbod52412i6zh5Z5XscI_kF2k5tbNnG3g,1974
+edwh_migrate-0.4.0.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+edwh_migrate-0.4.0.dist-info/entry_points.txt,sha256=_rr7DED50oac28Bmjw7s4ziLatWpldGEDZakh70ARuI,62
+edwh_migrate-0.4.0.dist-info/licenses/LICENSE.txt,sha256=cGoPyJh5OxkX44gDpKwgHux5Ui68h3cFyqSZd8v-O6U,1085
+edwh_migrate-0.4.0.dist-info/RECORD,,

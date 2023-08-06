@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: name-genie
+Version: 0.0.1
+Summary: 一个用于生成名字的工具
+Home-page: https://github.com/name-genie/name-genie-python
+License: MIT
+Author: lhlyu
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/name-genie/name-genie-python
+Description-Content-Type: text/markdown
+
+# Name Genie Python
+
+一个用于生成名字的工具
+
+## 使用
+
+- `pip install name-genie`
+
+```python
+from name_genie import *
+
+print(get_alchemies())
+```
+

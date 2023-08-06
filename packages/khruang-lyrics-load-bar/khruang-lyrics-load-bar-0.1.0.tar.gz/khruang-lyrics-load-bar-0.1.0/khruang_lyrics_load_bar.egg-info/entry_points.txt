@@ -1,0 +1,2 @@
+[console_scripts]
+khruang-lyrics-load-bar = khruang_lyrics_load_bar.main:main

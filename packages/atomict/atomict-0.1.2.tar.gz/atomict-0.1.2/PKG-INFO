@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: atomict
+Version: 0.1.2
+Summary: The client application for the https://atomictessellator.com/
+Home-page: https://github.com/AtomicTessellator/atomic_cli
+Author: Alain Richardt
+Author-email: alain@atomictessellator.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Atomic Tessellator - CLI package
+
+## Installation
+```
+pip install atomict
+```
+
+
+## CLI Usage
+```
+# Show available public datasets
+
+    > at list_datasets
+
+# Download a dataset
+
+    > at download_dataset tox21
+```
+
+## SDK Usage
+```
+from atomict.datasets import get
+
+df = get('tox21')
+```
+
+## Roadmap
+- [x] CLI
+- [x] Download Public Datasets
+- [ ] Local dataset caching
+- [ ] Authentication
+- [ ] Reality Server API endpoints - Simulations
+

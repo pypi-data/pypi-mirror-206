@@ -1,0 +1,12 @@
+{
+    "PatientListWidget": {
+        "moreText": {
+            "display": "更多",
+            "data-qa-key": "更多"
+        }
+    },
+    "Subjects": [
+        "疑難雜症科",
+        "兒銅科"
+    ]
+}

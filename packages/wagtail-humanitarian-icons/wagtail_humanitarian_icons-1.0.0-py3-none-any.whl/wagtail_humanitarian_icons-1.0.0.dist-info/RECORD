@@ -1,0 +1,14 @@
+wagtailhumanitarianicons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtailhumanitarianicons/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+wagtailhumanitarianicons/apps.py,sha256=dkCHaAM52bD2w6psnVC_wqZga5_3BEC4CTTbtvnSrSs,180
+wagtailhumanitarianicons/models.py,sha256=k0PDOOCJ4Kqfm4sClz7Mc9pwao_GteWsphFuRRBU9ag,380
+wagtailhumanitarianicons/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+wagtailhumanitarianicons/utils.py,sha256=2WWsoc8ZJD38D9wWnmAEGKMpTT1HTRkW-XyEThMQPWo,1366
+wagtailhumanitarianicons/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+wagtailhumanitarianicons/wagtail_hooks.py,sha256=6KhfWJ47_YUKM_4KHNwqU-C1OYnBqOGGRNSamlj0qLs,438
+wagtailhumanitarianicons/widgets.py,sha256=eR5efBt15cUKOgRy3u9pDB5LXNR5LM0d-9qGmNwaKPs,172
+wagtailhumanitarianicons/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_humanitarian_icons-1.0.0.dist-info/METADATA,sha256=UyVGdSEG-8NMb4hL1x4dtoJ9Qo3XG7dz_77gNQU-JFw,4797
+wagtail_humanitarian_icons-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+wagtail_humanitarian_icons-1.0.0.dist-info/top_level.txt,sha256=5suCG5glvHwDXQqoL1rpLrjjb4d-uhwui6_RPaIpvN4,25
+wagtail_humanitarian_icons-1.0.0.dist-info/RECORD,,

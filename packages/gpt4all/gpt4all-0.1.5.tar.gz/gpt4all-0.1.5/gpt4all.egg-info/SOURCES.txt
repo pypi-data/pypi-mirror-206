@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+gpt4all/__init__.py
+gpt4all/gpt4all.py
+gpt4all/pyllmodel.c
+gpt4all.egg-info/PKG-INFO
+gpt4all.egg-info/SOURCES.txt
+gpt4all.egg-info/dependency_links.txt
+gpt4all.egg-info/requires.txt
+gpt4all.egg-info/top_level.txt
+tests/__init__.py
+tests/test_gpt4all.py
+tests/test_pyllmodel.py

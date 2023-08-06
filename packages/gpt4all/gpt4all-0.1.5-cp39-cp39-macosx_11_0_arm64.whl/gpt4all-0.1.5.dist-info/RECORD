@@ -1,0 +1,12 @@
+gpt4all/__init__.py,sha256=Lwykb6L84Ppl6S5m8ubrtkRNmdLB5OTIiONCNFjY6Gg,65
+gpt4all/gpt4all.py,sha256=Sk6ibqjf2TunCHYUGsCGGVCHyyBlHcsMkrrJ84kygfM,2418
+gpt4all/pyllmodel.c,sha256=U4XTs-aVucH4LjHoJdDIFvUWKNHZPppt-IJiYudVvLQ,285280
+gpt4all/pyllmodel.cpython-39-darwin.so,sha256=biVbaN1XRXKBbOnWMsTHQY26Yu1dlz8XegoaIBjys5w,83227
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_gpt4all.py,sha256=2UwQkiqPqmUOOkwm6mFwcCEwg6ovaxdP6Rpsr48ZkIo,687
+tests/test_pyllmodel.py,sha256=XPpvphP6SDA4MG7UHXxBcvMcfVjwrxROS2hNcTSBQaY,1129
+gpt4all-0.1.5.dist-info/LICENSE.txt,sha256=_LLYIwxgJb9DI27r3Yrl-4wRwxMvkpFKu4mThfEPpF0,1054
+gpt4all-0.1.5.dist-info/METADATA,sha256=fNxX-nNsPrBG3XwfGtoQJTMfdiCcH72XWZXtKx-IlFk,490
+gpt4all-0.1.5.dist-info/WHEEL,sha256=d8sjrkKo8h1ZY8Oxdq-K-58JEo6nLEfNKzkM0CYZtr0,108
+gpt4all-0.1.5.dist-info/top_level.txt,sha256=triCUv7cdvSMda7P6l7vXZqwelK-Z1KqA8LJ7qdqing,14
+gpt4all-0.1.5.dist-info/RECORD,,

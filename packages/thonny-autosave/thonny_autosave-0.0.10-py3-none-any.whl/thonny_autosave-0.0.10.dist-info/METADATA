@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: thonny-autosave
+Version: 0.0.10
+Summary: Adds a checkbox to the File menu of Thonny editor, when activated , automatically saves current file every 10 seconds.
+Home-page: https://github.com/selmen2004/thonny-autosave
+Project-URL: Bug Tracker, https://github.com/selmen2004/thonny-autosave/issues
+Project-URL: Changelog, https://github.com/selmen2004/thonny-autosave/releases
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: thonny (>=3.2.1)
+
+"# thonny-autosave\n
+Adds a checkbox to the File menu of Thonny editor, when activated , Automatically saves current file every 10 seconds\n
+![image](https://user-images.githubusercontent.com/3520243/236076489-a0196681-a98d-4d80-8539-ce45723606da.png)"

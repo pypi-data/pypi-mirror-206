@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/DL_ANN/__init__.py
+src/DL_ANN/perceptron.py
+src/DL_ANN_pkg_VaibhavJoshi95.egg-info/PKG-INFO
+src/DL_ANN_pkg_VaibhavJoshi95.egg-info/SOURCES.txt
+src/DL_ANN_pkg_VaibhavJoshi95.egg-info/dependency_links.txt
+src/DL_ANN_pkg_VaibhavJoshi95.egg-info/requires.txt
+src/DL_ANN_pkg_VaibhavJoshi95.egg-info/top_level.txt

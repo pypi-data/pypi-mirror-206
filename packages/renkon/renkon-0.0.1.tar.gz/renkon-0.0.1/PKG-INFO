@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: renkon
+Version: 0.0.1
+Summary: Robust likely invariant analysis over columnar data
+Project-URL: Documentation, https://github.com/DylanLukes/renkon#readme
+Project-URL: Issues, https://github.com/DylanLukes/renkon/issues
+Project-URL: Source, https://github.com/DylanLukes/renkon
+Author-email: Dylan Lukes <lukes.dylan@gmail.com>
+License-Expression: BSD-3-Clause
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.10
+Requires-Dist: aiosql
+Requires-Dist: click
+Requires-Dist: loguru
+Requires-Dist: pyarrow
+Description-Content-Type: text/markdown
+
+# renkon
+
+[![PyPI - Version](https://img.shields.io/pypi/v/renkon.svg)](https://pypi.org/project/renkon)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/renkon.svg)](https://pypi.org/project/renkon)
+[![Tests](https://github.com/DylanLukes/renkon/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/DylanLukes/renkon/actions/workflows/test.yml)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install renkon
+```
+
+## License
+
+`renkon` is distributed under the terms of the [BSD-3-Clause](https://spdx.org/licenses/BSD-3-Clause.html) license.

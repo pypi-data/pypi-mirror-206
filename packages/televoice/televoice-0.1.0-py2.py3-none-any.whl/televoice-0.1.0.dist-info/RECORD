@@ -1,0 +1,13 @@
+televoice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+televoice/bot.py,sha256=yVKRH9ZpP2OOdwZeNnZKBCfSiedPnNDHACAUkLC14IQ,3892
+televoice/main.py,sha256=xljtW_SxARWD5N2OM3HXjwvfluYFBwcRI1J0W8z5acM,122
+televoice/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+televoice/utils.py,sha256=P6qDvzLoS3zewHkcgmowoK4B-ikGaLU_KsjxomzBrS0,451
+televoice/apis/__init__.py,sha256=gGVgbndzp9ylHLjE9vQNQxPkYMdb631DTrGvYrAK8QA,59
+televoice/apis/exchange.py,sha256=vRxgl0g-Eo_DsD2aewA_KBd0FCwqNUHa7N21a3_KK88,404
+televoice/apis/whisper.py,sha256=cT10xT4u7fnN1tn366dJ9UQH-kx8HHrxFxwK2Vjs5nY,819
+televoice-0.1.0.dist-info/METADATA,sha256=tS4xWoesefq_ymL8vC2QTdM_Bhk_mz9LQJN7OHrOzcs,1815
+televoice-0.1.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+televoice-0.1.0.dist-info/entry_points.txt,sha256=1ZCZsStx0lEBL2HL1qfCj31wlwQFB6ZXgGUjf1TnM0s,50
+televoice-0.1.0.dist-info/top_level.txt,sha256=EE9ruVuU-lTI5huTlXBdAY910I5s20nDyEb0iTCO0wo,10
+televoice-0.1.0.dist-info/RECORD,,

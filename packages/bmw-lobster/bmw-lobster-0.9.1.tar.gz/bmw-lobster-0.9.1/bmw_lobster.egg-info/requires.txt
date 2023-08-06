@@ -1,0 +1,6 @@
+bmw-lobster-core>=0.9.1
+bmw-lobster-tool-codebeamer>=0.9.1
+bmw-lobster-tool-cpp>=0.9.1
+bmw-lobster-tool-gtest>=0.9.1
+bmw-lobster-tool-python>=0.9.1
+miss-hit>=0.9.38

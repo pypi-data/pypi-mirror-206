@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: sdmbc
+Version: 0.1
+Summary: Sub-Daily Multivariate Bias Correction (SDMBC)
+Author: Youngil Kim
+Author-email: youngil.kim@student.unsw.edu.au
+License: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+Requires-Dist: dask (>=2023.1.1)
+Requires-Dist: matplotlib (==3.6.2)
+Requires-Dist: netCDF4 (>=1.6.2)
+Requires-Dist: numpy (==1.23.5)
+Requires-Dist: pandas (>=1.5.3)
+Requires-Dist: PyYAML (>=6.0)
+Requires-Dist: scipy (>=1.10.0)
+Requires-Dist: xarray (>=2023.2.0)
+Requires-Dist: pytest (==7.3.1)
+Provides-Extra: documentation
+Requires-Dist: appdirs (==1.4.4) ; extra == 'documentation'
+Requires-Dist: asttokens (==2.0.5) ; extra == 'documentation'
+Requires-Dist: backcall (==0.2.0) ; extra == 'documentation'
+Requires-Dist: basemap (==1.3.6) ; extra == 'documentation'
+Requires-Dist: basemap-data (==1.3.2) ; extra == 'documentation'
+Requires-Dist: black (==23.3.0) ; extra == 'documentation'
+Requires-Dist: bokeh (==2.4.3) ; extra == 'documentation'
+Requires-Dist: Bottleneck (==1.3.5) ; extra == 'documentation'
+Requires-Dist: brotlipy (==0.7.0) ; extra == 'documentation'
+Requires-Dist: Cartopy (==0.21.1) ; extra == 'documentation'
+Requires-Dist: certifi (==2022.12.7) ; extra == 'documentation'
+Requires-Dist: cffi (==1.15.0) ; extra == 'documentation'
+Requires-Dist: cftime (==1.6.2) ; extra == 'documentation'
+Requires-Dist: charset-normalizer (==2.0.4) ; extra == 'documentation'
+Requires-Dist: click (==8.1.3) ; extra == 'documentation'
+Requires-Dist: cloudpickle (==2.2.1) ; extra == 'documentation'
+Requires-Dist: comm (==0.1.2) ; extra == 'documentation'
+Requires-Dist: contourpy (==1.0.5) ; extra == 'documentation'
+Requires-Dist: cryptography (==3.4.8) ; extra == 'documentation'
+Requires-Dist: cycler (==0.11.0) ; extra == 'documentation'
+Requires-Dist: cytoolz (==0.12.0) ; extra == 'documentation'
+Requires-Dist: dask (==2023.1.1) ; extra == 'documentation'
+Requires-Dist: debugpy (==1.5.1) ; extra == 'documentation'
+Requires-Dist: decorator (==5.1.1) ; extra == 'documentation'
+Requires-Dist: distributed (==2023.1.1) ; extra == 'documentation'
+Requires-Dist: entrypoints (==0.4) ; extra == 'documentation'
+Requires-Dist: executing (==0.8.3) ; extra == 'documentation'
+Requires-Dist: fonttools (==4.25.0) ; extra == 'documentation'
+Requires-Dist: fsspec (==2023.3.0) ; extra == 'documentation'
+Requires-Dist: HeapDict (==1.0.1) ; extra == 'documentation'
+Requires-Dist: idna (==3.4) ; extra == 'documentation'
+Requires-Dist: importlib-resources (==5.12.0) ; extra == 'documentation'
+Requires-Dist: ipykernel (==6.19.2) ; extra == 'documentation'
+Requires-Dist: ipython (==8.8.0) ; extra == 'documentation'
+Requires-Dist: jedi (==0.18.1) ; extra == 'documentation'
+Requires-Dist: Jinja (==23.1.2) ; extra == 'documentation'
+Requires-Dist: jupyter-client (==7.4.8) ; extra == 'documentation'
+Requires-Dist: jupyter-core (==5.1.1) ; extra == 'documentation'
+Requires-Dist: kiwisolver (==1.4.4) ; extra == 'documentation'
+Requires-Dist: llvmlite (==0.39.1) ; extra == 'documentation'
+Requires-Dist: locket (==1.0.0) ; extra == 'documentation'
+Requires-Dist: lz4 (==3.1.3) ; extra == 'documentation'
+Requires-Dist: MarkupSafe (==2.1.1) ; extra == 'documentation'
+Requires-Dist: matplotlib (==3.6.2) ; extra == 'documentation'
+Requires-Dist: matplotlib-inline (==0.1.6) ; extra == 'documentation'
+Requires-Dist: mkl-fft (==1.3.1) ; extra == 'documentation'
+Requires-Dist: mkl-random (==1.2.2) ; extra == 'documentation'
+Requires-Dist: mkl-service (==2.4.0) ; extra == 'documentation'
+Requires-Dist: msgpack (==1.0.3) ; extra == 'documentation'
+Requires-Dist: munkres (==1.1.4) ; extra == 'documentation'
+Requires-Dist: mypy-extensions (==1.0.0) ; extra == 'documentation'
+Requires-Dist: nest-asyncio (==1.5.6) ; extra == 'documentation'
+Requires-Dist: netCDF4 (==1.6.2) ; extra == 'documentation'
+Requires-Dist: numba (==0.56.4) ; extra == 'documentation'
+Requires-Dist: numexpr (==2.8.4) ; extra == 'documentation'
+Requires-Dist: numpy (==1.23.5) ; extra == 'documentation'
+Requires-Dist: packaging (==22.0) ; extra == 'documentation'
+Requires-Dist: pandas (==1.5.3) ; extra == 'documentation'
+Requires-Dist: parso (==0.8.3) ; extra == 'documentation'
+Requires-Dist: partd (==1.3.0) ; extra == 'documentation'
+Requires-Dist: pathspec (==0.11.1) ; extra == 'documentation'
+Requires-Dist: pexpect (==4.8.0) ; extra == 'documentation'
+Requires-Dist: pickleshare (==0.7.5) ; extra == 'documentation'
+Requires-Dist: Pillow (==9.4.0) ; extra == 'documentation'
+Requires-Dist: pip (==23.0.1) ; extra == 'documentation'
+Requires-Dist: platformdirs (==2.5.2) ; extra == 'documentation'
+Requires-Dist: ply (==3.11) ; extra == 'documentation'
+Requires-Dist: pooch (==1.4.0) ; extra == 'documentation'
+Requires-Dist: prompt-toolkit (==3.0.36) ; extra == 'documentation'
+Requires-Dist: psutil (==5.9.0) ; extra == 'documentation'
+Requires-Dist: ptyprocess (==0.7.0) ; extra == 'documentation'
+Requires-Dist: pure-eval (==0.2.2) ; extra == 'documentation'
+Requires-Dist: pycparser (==2.21) ; extra == 'documentation'
+Requires-Dist: Pygments (==2.11.2) ; extra == 'documentation'
+Requires-Dist: pyOpenSSL (==20.0.1) ; extra == 'documentation'
+Requires-Dist: pyparsing (==3.0.9) ; extra == 'documentation'
+Requires-Dist: pyproj (==3.4.1) ; extra == 'documentation'
+Requires-Dist: PyQt5-sip (==12.11.0) ; extra == 'documentation'
+Requires-Dist: pyshp (==2.1.3) ; extra == 'documentation'
+Requires-Dist: PySocks (==1.7.1) ; extra == 'documentation'
+Requires-Dist: python-dateutil (==2.8.2) ; extra == 'documentation'
+Requires-Dist: pytz (==2022.7.1) ; extra == 'documentation'
+Requires-Dist: PyYAML (==6.0) ; extra == 'documentation'
+Requires-Dist: pyzmq (==23.2.0) ; extra == 'documentation'
+Requires-Dist: requests (==2.28.1) ; extra == 'documentation'
+Requires-Dist: scipy (==1.10.0) ; extra == 'documentation'
+Requires-Dist: setuptools (==65.6.3) ; extra == 'documentation'
+Requires-Dist: shapely (==2.0.1) ; extra == 'documentation'
+Requires-Dist: sip (==6.6.2) ; extra == 'documentation'
+Requires-Dist: six (==1.16.0) ; extra == 'documentation'
+Requires-Dist: sortedcontainers (==2.4.0) ; extra == 'documentation'
+Requires-Dist: stack-data (==0.2.0) ; extra == 'documentation'
+Requires-Dist: tblib (==1.7.0) ; extra == 'documentation'
+Requires-Dist: toml (==0.10.2) ; extra == 'documentation'
+Requires-Dist: tomli (==2.0.1) ; extra == 'documentation'
+Requires-Dist: toolz (==0.12.0) ; extra == 'documentation'
+Requires-Dist: tornado (==6.2) ; extra == 'documentation'
+Requires-Dist: traitlets (==5.7.1) ; extra == 'documentation'
+Requires-Dist: typing-extensions (==4.5.0) ; extra == 'documentation'
+Requires-Dist: urllib (==31.26.15) ; extra == 'documentation'
+Requires-Dist: wcwidth (==0.2.5) ; extra == 'documentation'
+Requires-Dist: wheel (==0.38.4) ; extra == 'documentation'
+Requires-Dist: xarray (==2023.2.0) ; extra == 'documentation'
+Requires-Dist: zict (==2.2.0) ; extra == 'documentation'
+Requires-Dist: zipp (==3.15.0) ; extra == 'documentation'
+
+# sdmbc
+A novel bias correction alternative, Sub-Daily Multivariate Bias Correction (SDMBC), for correcting RCM input boundary conditions

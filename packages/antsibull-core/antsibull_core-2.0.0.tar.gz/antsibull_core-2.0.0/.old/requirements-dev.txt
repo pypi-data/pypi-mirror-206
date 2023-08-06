@@ -1,0 +1,12 @@
+asynctest
+cryptography
+codecov
+flake8
+mypy
+pyre-check
+pylint
+pytest
+pytest-asyncio
+pytest-cov
+types-aiofiles
+types-PyYAML

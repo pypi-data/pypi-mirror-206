@@ -1,0 +1,5 @@
+pyproject.toml
+mawes.egg-info/PKG-INFO
+mawes.egg-info/SOURCES.txt
+mawes.egg-info/dependency_links.txt
+mawes.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+README.md
+license.txt
+setup.py
+D:/python/gravipy_package/gravitypython/__init__.py
+D:/python/gravipy_package/gravitypython/gravipy.py
+D:/python/gravipy_package/gravitypython/solarsystem.py
+gravipython.egg-info/PKG-INFO
+gravipython.egg-info/SOURCES.txt
+gravipython.egg-info/dependency_links.txt
+gravipython.egg-info/requires.txt
+gravipython.egg-info/top_level.txt

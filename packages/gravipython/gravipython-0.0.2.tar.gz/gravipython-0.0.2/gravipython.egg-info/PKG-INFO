@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: gravipython
+Version: 0.0.2
+Summary: A python module for simulating planets trajectories in 2D.
+Author: Tom Brandt
+License-File: license.txt

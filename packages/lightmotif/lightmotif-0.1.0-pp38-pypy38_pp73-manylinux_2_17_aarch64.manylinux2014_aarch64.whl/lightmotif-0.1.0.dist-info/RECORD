@@ -1,0 +1,12 @@
+lightmotif/__init__.py,sha256=itquO0NOHXCWkSS9Gy8uIBh57kV018juXkbHJ_COOAY,224
+lightmotif/lib.pypy38-pp73-aarch64-linux-gnu.so,sha256=AUHfb2PLd3J7clQ3Pb2lWPlWSSOvV5zjGGcXQp-H-Wc,820776
+lightmotif/avx2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lightmotif/tests/unittest.rs,sha256=Ew0FsXO-n1pZ0vYqv_7NqGL9KaYFzjW-7WdwNVBDN2Y,1466
+lightmotif/tests/__init__.py,sha256=H10Jpu6uJyUPSWZwAYfiYq4aYzDsmHOZIz5fFrn7m5g,139
+lightmotif/tests/test_dna.py,sha256=Id8KKUsMhewJpkvQXZdhEuT_wt0BOB3Xjcz0vOfDWKI,1460
+lightmotif-0.1.0.dist-info/RECORD,,
+lightmotif-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+lightmotif-0.1.0.dist-info/METADATA,sha256=G4Bk2p2PAxGmWd31EG_ZMsk0bTcUavCciX8hjbgfxTg,10660
+lightmotif-0.1.0.dist-info/COPYING,sha256=gjc-4BjloJlLnT70onjmay99ePKgf00618tEbXavCkA,1098
+lightmotif-0.1.0.dist-info/top_level.txt,sha256=v_ynh2gr_I4KdZc-5cw0kVx8wHnfySKdMKSl_Bm8Zpk,11
+lightmotif-0.1.0.dist-info/WHEEL,sha256=Ud_MMIFgXg-eMwrXoIOkT5VPvVXzh4CHVhqGVc7AbVM,164

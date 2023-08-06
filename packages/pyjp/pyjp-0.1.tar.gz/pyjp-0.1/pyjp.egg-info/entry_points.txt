@@ -1,0 +1,2 @@
+[console_scripts]
+pyjp = pyjp.main:process

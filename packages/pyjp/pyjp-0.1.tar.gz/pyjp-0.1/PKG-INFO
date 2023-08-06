@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pyjp
+Version: 0.1
+Summary: Calculate the self-running time of methods against JProfiler HTML reports
+Home-page: https://github.com/sharework-cn/pyjp
+Author: sharework
+Author-email: sharework@qq.com
+License-File: LICENSE

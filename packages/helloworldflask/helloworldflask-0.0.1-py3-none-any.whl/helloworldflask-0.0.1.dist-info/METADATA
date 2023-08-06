@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: helloworldflask
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Aryan Verma
+Author-email: vr70aryan@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: License.txt
+
+<h1 align="center">Helloworldflask</h1>
+<h4> Sample app </h4>
+
+
+
+
+
+
+
+
+<h3> Dependency </h3>
+
+1. `flask`<br/>
+
+*For installing all the dependency run the following*
+
+```bash
+  pip install -r requirement.txt
+```
+
+
+<h2>REST Client  </h2>
+1. Postman <br/>
+<h2>Database  </h2>
+1. PostgreSQL <br/>
+
+
+<h2>Installation  </h2>
+<p>1. Install Pycharm as your IDE and setup your github</p>
+<p>2. Click on <b>Clone</b> and enter the repository URL</p>
+<p>3. Install the requirement.txt file using the above command.</p>
+
+
+
+

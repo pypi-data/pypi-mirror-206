@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: elm-messenger
+Version: 0.1.0
+Summary: The Messenger game framework toolkit for Elm
+Author: linsyking
+Author-email: linsy_king@sjtu.edu.cn
+License: MIT License
+Keywords: cli
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# The Messenger Game Framework

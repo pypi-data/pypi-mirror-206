@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: pyvkbot
+Version: 2.0.5
+Summary: Package for creating vk bots
+Author: zeph1rr
+Author-email: grianton535@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Requires-Dist: requests (>=2.28.2,<3.0.0)
+Requires-Dist: vk-api (>=11.9.9,<12.0.0)
+Description-Content-Type: text/markdown
+
+# PYVKBOT
+
+<p align="center">
+      <img src="https://i.ibb.co/ns3KpFZ/pyvkbot.png" alt="Project Logo" width="726">
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/Python-3.10-blueviolet" alt="Python Version">
+    <img src="https://img.shields.io/pypi/v/pyvkbot?color=blue&label=Version" alt="Package version">
+    <img src="https://img.shields.io/badge/License-MIT-success" alt="License">
+</p>
+
+## About
+
+Python package for creating bots for your vk.com publics
+
+## Installation
+
+```
+pip install pyvkbot
+```
+
+## Documentation
+
+- [Read The docs](https://pyvkbot.readthedocs.io)
+
+## CONTRIBUTORS
+
+- [Zeph1rr](https://github.com/Zeph1rr) (Developer)
+
+## License
+
+Project Python voice assistant is distributed under the MIT license.
+

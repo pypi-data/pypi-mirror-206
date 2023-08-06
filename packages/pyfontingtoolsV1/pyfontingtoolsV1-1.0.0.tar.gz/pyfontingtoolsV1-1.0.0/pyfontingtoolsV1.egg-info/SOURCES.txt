@@ -1,0 +1,6 @@
+setup.py
+pyfontingtoolsV1/__init__.py
+pyfontingtoolsV1.egg-info/PKG-INFO
+pyfontingtoolsV1.egg-info/SOURCES.txt
+pyfontingtoolsV1.egg-info/dependency_links.txt
+pyfontingtoolsV1.egg-info/top_level.txt

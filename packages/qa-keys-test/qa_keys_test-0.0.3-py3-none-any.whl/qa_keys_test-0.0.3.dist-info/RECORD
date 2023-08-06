@@ -1,0 +1,9 @@
+automation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+automation/main.py,sha256=bo2Zn_qOqeT5ozYb4pJhHQ3isNzQwdYHM8vNOm0rPFQ,234
+config/qa_key.json,sha256=lL1J03eylYNCSSh2Bshtk-7xc0vUuGpCk1q_glq-4-U,144
+python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qa_keys_test-0.0.3.dist-info/LICENSE,sha256=5Dz_QiUgjH51enps1rcWHnaGkEREsvQGEC4siIs1Qsk,1086
+qa_keys_test-0.0.3.dist-info/METADATA,sha256=4bm1Amm9jSS4z73ZvbtdWwCXsuWscyzWnCaft_M1r_o,222
+qa_keys_test-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+qa_keys_test-0.0.3.dist-info/top_level.txt,sha256=amO7ZoKPyP1rFhItHRRp2KfPHlGKkoJEaAbZ1zdoGEg,18
+qa_keys_test-0.0.3.dist-info/RECORD,,

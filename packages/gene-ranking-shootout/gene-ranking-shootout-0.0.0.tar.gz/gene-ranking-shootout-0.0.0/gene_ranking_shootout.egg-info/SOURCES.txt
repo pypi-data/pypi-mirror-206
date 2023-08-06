@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gene_ranking_shootout/__init__.py
+gene_ranking_shootout/models.py
+gene_ranking_shootout/runner.py
+gene_ranking_shootout.egg-info/PKG-INFO
+gene_ranking_shootout.egg-info/SOURCES.txt
+gene_ranking_shootout.egg-info/dependency_links.txt
+gene_ranking_shootout.egg-info/entry_points.txt
+gene_ranking_shootout.egg-info/not-zip-safe
+gene_ranking_shootout.egg-info/requires.txt
+gene_ranking_shootout.egg-info/top_level.txt
+gene_ranking_shootout/cli/__init__.py

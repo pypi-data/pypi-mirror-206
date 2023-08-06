@@ -1,0 +1,10 @@
+sphere_snap/__init__.py,sha256=Fn4zk2rBfkHk99XwlIyGi1XBaGjN2KrWCwjzvKFSkw4,3128
+sphere_snap/snap_config.py,sha256=3GwtwIfB2xV95tVW8vKcjTMaDTBM-S4qKJd3LmBsFVI,7092
+sphere_snap/sphere_coor_projections.py,sha256=bBcHT-pkCXVwxuYE6vYMbf8lbyOHJ2zrVg4p24Sbgu4,12774
+sphere_snap/sphere_snap.py,sha256=I-N9SWdRgFRsPqwPvX8DRH_8fMD4dxJ30z3tjp3zvNg,19890
+sphere_snap/utils.py,sha256=ZrsBb9xoB6vrXIYwG9p6e67ELkiZ3uRyDrYkLhtIK5E,6660
+sphere_snap-1.0.0.dist-info/LICENSE,sha256=HQNXCkSWMaajqkPgo5zBC8aIMlMoYtL55T5BmutAHkg,1073
+sphere_snap-1.0.0.dist-info/METADATA,sha256=qeGAYFUaxHZlEp79c-Eb0h2S_XDVYquhlNVfMIdkMUQ,5553
+sphere_snap-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sphere_snap-1.0.0.dist-info/top_level.txt,sha256=06UAvfkOXmuJahsoPhi4MwozdWVascHcxeObJ8isH2c,12
+sphere_snap-1.0.0.dist-info/RECORD,,

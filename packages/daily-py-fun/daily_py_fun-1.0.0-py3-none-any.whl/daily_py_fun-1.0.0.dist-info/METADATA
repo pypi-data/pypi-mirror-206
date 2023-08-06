@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: daily-py-fun
+Version: 1.0.0
+Summary: daily_py
+Author: he-dev
+Project-URL: GitHub, https://github.com/he-dev/reusable-py
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+daily_py

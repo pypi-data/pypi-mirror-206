@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: autoio-base
+Version: 0.10.0
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: more-itertools
+Requires-Dist: pyyaml
+Requires-Dist: mako
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: future
+Requires-Dist: flake8
+Requires-Dist: pylint
+Requires-Dist: qcelemental (==0.25.1)
+Requires-Dist: pint (==0.18)
+Requires-Dist: importlib-metadata ; python_version > "3.8"
+

@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: helm-values-generator
+Version: 0.1.0
+Summary: Small tool to generate simple values template yaml from helm charts
+Author-email: Liudas Sodonis <liudas.cloud.dev@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# helm-values-generator
+Generates empty helm values from templates files.
+
+Usage `python main.py <path to templates>`.
+
+Dependencies - none.
+
+Why? Needed quick script that goes thru templates directory and list all values templates to make development easer.
+
+It only looks for `{{  }}` brackets and removes the filters. 
+
+Less is more.
+
+
+## Testing
+
+It has one test, run by `python3 -m unittest`

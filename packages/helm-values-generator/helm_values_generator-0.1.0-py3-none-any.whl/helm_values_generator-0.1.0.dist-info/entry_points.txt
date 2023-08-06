@@ -1,0 +1,2 @@
+[console_scripts]
+helm_values_generator = helm_values_generator.generate_values:main

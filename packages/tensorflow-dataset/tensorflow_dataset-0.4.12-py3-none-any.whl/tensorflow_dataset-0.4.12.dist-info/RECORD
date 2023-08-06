@@ -1,0 +1,6 @@
+tensorflow_dataset/__init__.py,sha256=2_Ia25rcmVo8oF2YxUO4ZhwwsU3lGYbsWtg8n1tplWg,89636
+tensorflow_dataset/__main__.py,sha256=J5_YL5hpgdwvKanpvPUwZWJuYCNk0-iUW0VD-gP96J4,203
+tensorflow_dataset-0.4.12.dist-info/METADATA,sha256=MB7KMP1HSrF3FgYhHQM_quKG-H_s4_rs93WHz0dnk7w,124
+tensorflow_dataset-0.4.12.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+tensorflow_dataset-0.4.12.dist-info/top_level.txt,sha256=kxLLLDi-NDABHocUq1r_ClBPdIxGlwqqD0ey72MLjLE,19
+tensorflow_dataset-0.4.12.dist-info/RECORD,,

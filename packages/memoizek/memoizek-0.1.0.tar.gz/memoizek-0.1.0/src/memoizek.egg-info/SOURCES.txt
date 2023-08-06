@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+src/memoizek/__init__.py
+src/memoizek/memoizek.py
+src/memoizek.egg-info/PKG-INFO
+src/memoizek.egg-info/SOURCES.txt
+src/memoizek.egg-info/dependency_links.txt
+src/memoizek.egg-info/top_level.txt

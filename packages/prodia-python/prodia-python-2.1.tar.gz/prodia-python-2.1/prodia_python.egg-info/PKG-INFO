@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: prodia-python
+Version: 2.1
+Summary: Prodia API Python Wrapper
+Author: yoou3-cyber
+Author-email: zenafey@eugw.ru
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# prodia-python
+This module makes generation of image by Prodia API easier
+
+### Installation 
+```
+pip install prodia-python==2.0
+```
+For using this script you need to get your Prodia api key, you can make it on https://app.prodia.com/api
+
+
+### Example of txt2img usage
+```python
+import prodia
+
+key = "your-prodia-key"
+
+image = prodia.txt2img(key=key, prompt="kittens on cloud", model="dreamlike-diffusion-2.0.safetensors [fdcf65e7]")
+print(image)
+```
+`image` variable will be a url of your image
+
+### Example of img2img usage
+```python
+import prodia
+
+key = 'your-prodia-key'
+
+image_url = 'https://images.prodia.xyz/a77bfbb2-4808-4178-8bed-eed51077a476.png' #here should be url of your image
+
+image = prodia.img2img(key=key, imageUrl=image_url, prompt="winter nature wallpaper")
+
+print(image)
+```
+
+### Additional info
+prodia.run() have arguments:
+- `key` - string Prodia API key(required)
+- `prompt` - string prompt for image(default is "kittens on cloud")
+- `negative_prompt` - string for negative tags(default is "badly drawn")
+- `model` - string(you can check full list of available models on https://docs.prodia.com/reference/generate, default is deliberate_v2.safetensors [10ec4b29])
+- `aspect_ratio` - string(square, portrait, landscape, default is square)
+- `steps` - integer, 1-50, default is 25
+- `cfg_scale` - integer, 1-20, default is 7
+- `sampler` - string(you can see all available samplers on https://docs.prodia.com/reference/generate, default is Heun)
+- `seed` - integer(default -1, it generates images with random seed)
+- `upscale` - boolean of 2x upscaling(default False)
+
+![7eacddcb-3a45-4114-b731-3cd7af9522e1](https://user-images.githubusercontent.com/118455214/233359979-80274381-10dd-4ced-b7fa-d45437ef5bce.png)
+

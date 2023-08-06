@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: horizonai
+Version: 0.1.0
+Summary: Python package and command line interface to access the Horizon AI API
+Home-page: https://www.gethorizon.ai
+Download-URL: https://github.com/gethorizon-ai/horizonai-python/archive/refs/tags/v0.1.0-alpha.tar.gz
+Author: Horizon Team
+Author-email: team@gethorizon.ai
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+License-File: LICENSE

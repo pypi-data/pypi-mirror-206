@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hash-hound
+Version: 0.3
+Summary: This program identifies the algorithm used for a given hash value and provides the corresponding hashcat mode number, which can be used for password cracking. It uses a dictionary mapping hash lengths to algorithms and their respective hashcat mode numbers. The user inputs a hash value, and the program returns the algorithm and mode number if available, or "Unknown algorithm" otherwise.
+Home-page: https://github.com/hac10101/Hash-hound
+Author: hac10101
+Author-email: hac1337@tutanota.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: termcolor
+
+UNKNOWN
+

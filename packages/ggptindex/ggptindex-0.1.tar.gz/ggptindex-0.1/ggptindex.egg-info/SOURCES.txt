@@ -1,0 +1,10 @@
+README.md
+setup.py
+ggptindex.egg-info/PKG-INFO
+ggptindex.egg-info/SOURCES.txt
+ggptindex.egg-info/dependency_links.txt
+ggptindex.egg-info/entry_points.txt
+ggptindex.egg-info/requires.txt
+ggptindex.egg-info/top_level.txt
+gptindex/__init__.py
+gptindex/__main__.py

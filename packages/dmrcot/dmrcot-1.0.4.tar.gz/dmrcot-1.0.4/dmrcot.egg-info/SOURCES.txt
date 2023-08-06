@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+dmrcot.egg-info/PKG-INFO
+dmrcot.egg-info/SOURCES.txt
+dmrcot.egg-info/dependency_links.txt
+dmrcot.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: frog-encryption
+Version: 0.0.1
+Summary: An encryption package
+Home-page: https://github.com/RandomName15/FROG_encryption
+Author: Gur
+Author-email: random_name15@outlook.com
+Project-URL: Bug Tracker, https://github.com/RandomName15/FROG_encryption/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Frog encryption is an encryption package
+by Gur Dayan

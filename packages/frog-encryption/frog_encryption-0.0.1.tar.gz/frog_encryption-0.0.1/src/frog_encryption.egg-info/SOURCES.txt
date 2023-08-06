@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/fe/__init__.py
+src/frog_encryption.egg-info/PKG-INFO
+src/frog_encryption.egg-info/SOURCES.txt
+src/frog_encryption.egg-info/dependency_links.txt
+src/frog_encryption.egg-info/top_level.txt

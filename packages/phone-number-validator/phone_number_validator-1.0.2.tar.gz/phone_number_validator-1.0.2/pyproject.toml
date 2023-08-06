@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "phone-number-validator"
+version = "1.0.2"
+description = "Validate Phone Numbers using NumLookupAPI"
+authors = ["Ashutosh Krishna <ashutoshbritish@gmail.com>"]
+readme = "README.md"
+license = "Apache-2.0"
+repository = "https://github.com/ashutoshkrris/phone-number-validator"
+keywords = ["phone-number", "validator", "validate", "phone-number-validator", "everapi", "numlookupapi"]
+packages = [{include = "phone_number_validator"}]
+classifiers = [
+    "Topic :: Software Development",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX",
+    "Operating System :: Unix",
+    "Operating System :: MacOS",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.28.2"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.2.2"
+requests-mock = "^1.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

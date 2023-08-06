@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: measure_dist
+Version: 1.1.0.post3
+Summary: Measurement helper functions
+Home-page: UNKNOWN
+Author: Gegeco
+Author-email: gegeco06@gmail.com
+License: UNKNOWN
+Keywords: Measure,Measurement,Distance
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: ==3.6.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Measurement helper functions
+

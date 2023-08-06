@@ -1,0 +1,16 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sphinx-api-sidebar"
+version = "0.0.1"
+description = "Display any generated static API documentation in a sidebar"
+readme = "README.md"
+authors = [
+    {name = "Yiheng Xiong", email = "georgex8866@gmail.com"}
+]
+license.file = "LICENSE"

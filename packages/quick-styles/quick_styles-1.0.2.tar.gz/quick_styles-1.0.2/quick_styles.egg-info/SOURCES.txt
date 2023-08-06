@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+setup.py
+quick_styles/__init__.py
+quick_styles/functions.py
+quick_styles.egg-info/PKG-INFO
+quick_styles.egg-info/SOURCES.txt
+quick_styles.egg-info/dependency_links.txt
+quick_styles.egg-info/top_level.txt

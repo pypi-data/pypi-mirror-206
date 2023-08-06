@@ -1,0 +1,7 @@
+setup.py
+ddparo.egg-info/PKG-INFO
+ddparo.egg-info/SOURCES.txt
+ddparo.egg-info/dependency_links.txt
+ddparo.egg-info/entry_points.txt
+ddparo.egg-info/requires.txt
+ddparo.egg-info/top_level.txt

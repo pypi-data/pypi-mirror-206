@@ -1,0 +1,12 @@
+README.md
+setup.py
+imagefx/__init__.py
+imagefx/main.py
+imagefx.egg-info/PKG-INFO
+imagefx.egg-info/SOURCES.txt
+imagefx.egg-info/dependency_links.txt
+imagefx.egg-info/entry_points.txt
+imagefx.egg-info/requires.txt
+imagefx.egg-info/top_level.txt
+tests/__init__.py
+tests/tests_imagefx.py

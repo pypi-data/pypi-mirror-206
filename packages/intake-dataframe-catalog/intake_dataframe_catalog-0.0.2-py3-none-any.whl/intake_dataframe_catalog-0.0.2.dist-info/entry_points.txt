@@ -1,0 +1,3 @@
+[intake.drivers]
+df_catalog = intake_dataframe_catalog.core:DfFileCatalog
+

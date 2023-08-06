@@ -1,0 +1,10 @@
+intake_dataframe_catalog/__init__.py,sha256=bfA362AiJI5h6BA0zccVQNnjBzUXrTmfe0P72KcWdfk,219
+intake_dataframe_catalog/_search.py,sha256=MVuzneAdkJN7DsNRHRMbs72PBtyhaAtRly14_n26Q8o,4127
+intake_dataframe_catalog/_version.py,sha256=7Jq_jFTcHv69KYyD-3wtMop5vdtmUwf6C3WslzTu5N0,497
+intake_dataframe_catalog/core.py,sha256=jjJNuUyMhVs9wElIwfbodIinBimlyi2I4MHFNPT_TW4,21064
+intake_dataframe_catalog-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+intake_dataframe_catalog-0.0.2.dist-info/METADATA,sha256=dLP_XY20hvn3OEJkiQcK6_jzFZ5v-RvV4wo4uvrL6PY,1524
+intake_dataframe_catalog-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+intake_dataframe_catalog-0.0.2.dist-info/entry_points.txt,sha256=XUPdJ49zuzZI8Epcy9K4XoMe7B2_vbtMCP5VsvPHhiM,75
+intake_dataframe_catalog-0.0.2.dist-info/top_level.txt,sha256=wmVXJ0B6n-gWF2saiXLZzB3YPnNwHsO3IjxOk7SobMA,25
+intake_dataframe_catalog-0.0.2.dist-info/RECORD,,

@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling>=1.8.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "zzlib"
+authors = [{name = "Zhesheng Zhou", email = "zhouzzs@zju.edu.cn"}]
+description = "Python utils for structure-based computer-aided drug design"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+urls = {Homepage = "https://github.com/jackzzs-lab/zzlib"}
+requires-python = ">=3.8"
+dependencies = [
+    "typer",
+    "click",
+    "numpy",
+    "pandas",
+    "loguru",
+    "funcy",
+    "appdirs",
+    "rich",
+]
+dynamic = ["version"]
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[tool.hatch.version]
+path = "zzlib/__init__.py"
+
+[tool.black]
+line-length = 110

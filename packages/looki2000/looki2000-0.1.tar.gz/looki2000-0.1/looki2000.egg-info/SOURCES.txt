@@ -1,0 +1,6 @@
+setup.py
+looki2000/looki2000.py
+looki2000.egg-info/PKG-INFO
+looki2000.egg-info/SOURCES.txt
+looki2000.egg-info/dependency_links.txt
+looki2000.egg-info/top_level.txt

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: wav2samp
+Version: 0.2
+Summary: Convert wav file in to text file with audio samples and vice versa
+Home-page: https://github.com/ashanuyangoda/wav2samp
+Author: Ashan Uyangoda
+Author-email: ashan7git@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+This package is mainly use for DSP purposes. This package contains different functions to convert wav files in to text files with audio samples and convert text files with audio samples in to wav files. This package supports both Stereo and Mono.
+
+

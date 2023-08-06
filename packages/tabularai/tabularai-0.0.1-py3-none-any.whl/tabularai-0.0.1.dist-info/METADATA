@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: tabularai
+Version: 0.0.1
+Summary: AI for tabular data
+Home-page: http://github.com/vietanhdev/tabularai
+Author: Viet Anh Nguyen
+Author-email: vietanh.dev@gmail.com
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+
+tabularai
+=========
+
+AI for tabular data.
+
+Usage
+-----
+
+Installation
+------------
+
+Requirements
+^^^^^^^^^^^^
+
+Compatibility
+-------------
+
+Licence
+-------
+
+Authors
+-------
+
+`tabularai` was written by `Viet Anh Nguyen <vietanh.dev@gmail.com>`_.

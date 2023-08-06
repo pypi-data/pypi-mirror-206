@@ -1,0 +1,8 @@
+numpy
+scipy
+pandas
+matplotlib
+tifffile
+h5py
+seaborn
+pybacmman

@@ -1,0 +1,2 @@
+slapstack
+numpy

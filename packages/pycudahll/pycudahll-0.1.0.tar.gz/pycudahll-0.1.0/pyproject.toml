@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pycudahll"
+version = "0.1.0"
+description = "A GPU implementation of HyperLogLog"
+authors = ["Gabe Maayan <gabemgem@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/gabemgem/PyCudaHLL"
+repository = "https://github.com/gabemgem/PyCudaHLL"
+keywords = ["cupy","gpu","hll","hyperloglog"]
+include = [ "LICENSE", ]
+
+
+[tool.poetry.dependencies]
+python = "<3.12,>3.10"
+numpy = "^1.24.2"
+hyperloglog = "^0.0.14"
+cupy-cuda12x = "^12.0.0"
+scipy = "^1.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

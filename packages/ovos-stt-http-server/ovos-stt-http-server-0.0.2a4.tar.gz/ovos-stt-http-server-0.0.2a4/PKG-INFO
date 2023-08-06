@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: ovos-stt-http-server
+Version: 0.0.2a4
+Summary: simple aiohttp server to host OpenVoiceOS stt plugins as a service
+Home-page: https://github.com/OpenVoiceOS/ovos-stt-http-server
+Author: JarbasAi
+Author-email: jarbasai@mailfence.com
+License: Apache-2.0
+Keywords: plugin STT OVOS OpenVoiceOS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# OpenVoiceOS STT HTTP Server
+
+Turn any OVOS STT plugin into a micro service!
+
+## Install
+
+`pip install ovos-stt-http-server`
+
+## Usage
+
+```bash
+ovos-stt-server --help
+usage: ovos-stt-server [-h] [--engine ENGINE] [--port PORT] [--host HOST]
+
+options:
+  -h, --help       show this help message and exit
+  --engine ENGINE  stt plugin to be used
+  --port PORT      port number
+  --host HOST      host
+```
+
+## Companion plugin
+
+Use with OpenVoiceOS [companion plugin](https://github.com/OpenVoiceOS/ovos-stt-server-plugin)
+
+
+## Docker
+
+you can create easily create a docker file to serve any plugin
+
+```dockerfile
+FROM python:3.7
+
+RUN pip3 install ovos-stt-http-server==0.0.1
+
+RUN pip3 install {PLUGIN_HERE}
+
+ENTRYPOINT ovos-stt-http-server --engine {PLUGIN_HERE}
+```
+
+build it
+```bash
+docker build . -t my_ovos_stt_plugin
+```
+
+run it
+```bash
+docker run -p 8080:9666 my_ovos_stt_plugin
+```
+
+Each plugin can provide its own Dockerfile in its repository using ovos-stt-http-server
+
+

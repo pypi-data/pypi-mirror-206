@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: fastapi-modelrouter
+Version: 0.0
+Home-page: https://github.com/UweWindt/fastapi-modelrouter
+Author: Uwe Windt
+Author-email: uwe.windt@windisoft.de
+License: MIT
+Keywords: fastapi router sqlalchemy
+License-File: LICENSE

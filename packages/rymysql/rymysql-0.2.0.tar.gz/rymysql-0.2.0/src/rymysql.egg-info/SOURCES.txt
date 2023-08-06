@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+src/rymysql/__init__.py
+src/rymysql/commands.py
+src/rymysql/connection.py
+src/rymysql/credentials.py
+src/rymysql/structs.py
+src/rymysql.egg-info/PKG-INFO
+src/rymysql.egg-info/SOURCES.txt
+src/rymysql.egg-info/dependency_links.txt
+src/rymysql.egg-info/requires.txt
+src/rymysql.egg-info/top_level.txt

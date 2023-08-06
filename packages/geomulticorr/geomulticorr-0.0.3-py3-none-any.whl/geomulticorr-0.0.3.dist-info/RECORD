@@ -1,0 +1,12 @@
+geomulticorr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geomulticorr/geomorph.py,sha256=AfMgQUBn90L5_rpsLLWTy4-1uLADZLV7Jbp5B9d-fBU,4001
+geomulticorr/pair.py,sha256=Kar92Dyt6YPfDuDFHhbbUAUJNz4Y0wfJSfqqV0YAZM4,14064
+geomulticorr/pzone.py,sha256=yPC04O5DeSnrnillENab3ePg2SHQJ37I0oSv5npQL2k,2804
+geomulticorr/session.py,sha256=Vkiu-9zlnjzkPeTss-iSYainxI4TkvxAUDM2wuJfBN4,20209
+geomulticorr/spine.py,sha256=O-KM_37GdQLuTmOAQqKQDC_UqjSoPpSBU597eyx5iEI,5586
+geomulticorr/thumb.py,sha256=lX580_lu0-dREfLw-tDIAMPzd6zqtOuzIFGM0S4Futo,1742
+geomulticorr/xzone.py,sha256=ZYW2pyWkydc--CBojFhph5Jt3gtUTGSeVx7rJWLCpv0,5594
+geomulticorr-0.0.3.dist-info/METADATA,sha256=7dJD81SzA2bttWe3C2vF-YX0S9aucNla11hgHFSRKu4,629
+geomulticorr-0.0.3.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+geomulticorr-0.0.3.dist-info/licenses/LICENSE.md,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+geomulticorr-0.0.3.dist-info/RECORD,,

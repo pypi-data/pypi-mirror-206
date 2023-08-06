@@ -1,0 +1,3 @@
+[console_scripts]
+minidb = minidatabase.minidb:main
+webmdb = minidatabase.WebMDB:service

@@ -1,0 +1,3 @@
+jsonschema
+qtpy
+PyQt5

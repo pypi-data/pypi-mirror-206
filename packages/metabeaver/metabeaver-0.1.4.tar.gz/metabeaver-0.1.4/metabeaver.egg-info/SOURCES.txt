@@ -1,0 +1,16 @@
+setup.py
+metabeaver/__init__.py
+metabeaver.egg-info/PKG-INFO
+metabeaver.egg-info/SOURCES.txt
+metabeaver.egg-info/dependency_links.txt
+metabeaver.egg-info/requires.txt
+metabeaver.egg-info/top_level.txt
+metabeaver/Google Cloud Platform/__init__.py
+metabeaver/Google Cloud Platform/Google BigQuery/TableManagement.py
+metabeaver/Google Cloud Platform/Google BigQuery/__init__.py
+metabeaver/Google Cloud Platform/Google BigQuery/testingTables.py
+metabeaver/InstallationScripts/__init__.py
+metabeaver/InstallationScripts/autoGenerateRequirementsText.py
+metabeaver/MetaProgramming/__init__.py
+metabeaver/Testing/__init__.py
+metabeaver/Testing/concatenateDataXLSX.py

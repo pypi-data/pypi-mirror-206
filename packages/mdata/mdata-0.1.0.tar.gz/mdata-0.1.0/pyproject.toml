@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "mdata"
+version = "0.1.0"
+description = ""
+authors = ["Leah Tacke genannt Unterberg <leah.tgu@pads.rwth-aachen.de>"]
+readme = "README.md"
+license = "MIT"
+keywords = ["data format", "machine data"]
+exclude = ["files/", "test/"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = { version = "^1.5", extras = ["performance", "all"] }
+jupyter = "^1.0"
+matplotlib = "^3.7.1"
+bokeh = "^2.4.3"
+plotly = "^5.14.1"
+tables = "^3.8.0"
+tsdownsample = "^0.1.2"
+pm4py = "^2.7.3"
+
+[[tool.poetry.source]]
+name = "testpypi"
+url = "https://test.pypi.org/"
+default = false
+secondary = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

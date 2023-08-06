@@ -1,0 +1,8 @@
+setup.py
+didiAI.egg-info/PKG-INFO
+didiAI.egg-info/SOURCES.txt
+didiAI.egg-info/dependency_links.txt
+didiAI.egg-info/requires.txt
+didiAI.egg-info/top_level.txt
+libname/Systematica.py
+libname/__init__.py

@@ -1,0 +1,8 @@
+custodes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+custodes/auth.py,sha256=TtUK8Je7IZjaoB2DFo12SBBZ8QQ-vPz0r7q9iPPhOhQ,893
+custodes/client.py,sha256=-1yvAB7rM7v_GXWzdgTQTnv9cpWK2S-QZlkL1MFpCYY,2910
+custodes/config.py,sha256=NiBeGFpgCiUQj2qC3VtRfmnYAE0Zx9XmMGT9Ni7uPaw,16
+custodes/server.py,sha256=zAXvRj-UUkNmtciZLUdauLf2CIjxExdcfzt9PBJfvl8,2000
+custodes-0.0.8.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+custodes-0.0.8.dist-info/METADATA,sha256=U3eHctjvd9pLdOvNe1u0p5sb5a0OTjFAdx4OGgF29eM,1136
+custodes-0.0.8.dist-info/RECORD,,

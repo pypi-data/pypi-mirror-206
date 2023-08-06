@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+modular_rl/__init__.py
+modular_rl/networks.py
+modular_rl/settings.py
+modular_rl/tester.py
+modular_rl.egg-info/PKG-INFO
+modular_rl.egg-info/SOURCES.txt
+modular_rl.egg-info/dependency_links.txt
+modular_rl.egg-info/requires.txt
+modular_rl.egg-info/top_level.txt
+modular_rl/agents/__init__.py
+modular_rl/agents/agent_ppo.py
+tests/test.py
+tests/test_modular.py

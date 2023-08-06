@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+maxeqx_dc_token.py.egg-info/PKG-INFO
+maxeqx_dc_token.py.egg-info/SOURCES.txt
+maxeqx_dc_token.py.egg-info/dependency_links.txt
+maxeqx_dc_token.py.egg-info/requires.txt
+maxeqx_dc_token.py.egg-info/top_level.txt
+maxtoken/__init__.py

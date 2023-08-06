@@ -1,0 +1,4 @@
+aiohttp
+fsspec
+urlpath
+yarl

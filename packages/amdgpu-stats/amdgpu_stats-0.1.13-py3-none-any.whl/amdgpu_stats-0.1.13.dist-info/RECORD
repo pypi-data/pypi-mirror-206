@@ -1,0 +1,10 @@
+amdgpu_stats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amdgpu_stats/__main__.py,sha256=5WH-9S4cI0ji_h2IWr5Xiykp4yjfmi_RB_uGRmx5xpo,241
+amdgpu_stats/style.css,sha256=RWe8-zK_VCZO-XGygfa9VinKLouKkl4xbE9JwVcoy3g,643
+amdgpu_stats/tui.py,sha256=lvBuoVWTYFPgOiQpHInh1y7yY_bPDB52OU1UfRt4oOA,8427
+amdgpu_stats/utils.py,sha256=nZpPglXxjCoM4pr4TAyDzVcJCC9a35R58qFPlU40tUM,11998
+amdgpu_stats-0.1.13.dist-info/LICENSE.md,sha256=EytHevvsc9Rd_JaMugPw8EHcsr1fWTwnnlYwi0ypWgU,1065
+amdgpu_stats-0.1.13.dist-info/METADATA,sha256=4v0BHZRUOoP0iTMYEtFxDCOBG-cQhFTeZPyUWzXC95o,2338
+amdgpu_stats-0.1.13.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+amdgpu_stats-0.1.13.dist-info/entry_points.txt,sha256=6K_tCGHVYd3xmxykLJJErdX9DBdHvotjtUWJcNWyMzw,55
+amdgpu_stats-0.1.13.dist-info/RECORD,,

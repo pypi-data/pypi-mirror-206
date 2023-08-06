@@ -1,0 +1,16 @@
+opal/__init__.py,sha256=evWowCiJABrIHbjO34hZ6b9OLYdBlnyqJdAkoVtT3UY,67
+opal/conf/__init__.py,sha256=M5HdVxyhSBv6IiJjuqOaXm3GNGVn3VQjgSnZ_j1zKyE,89
+opal/conf/conf.py,sha256=HvjBS6ddtE_cBJe8Jl8k75dK7gtg_AgcxuUjhDijR9E,210
+opal/conf/mods.py,sha256=IZ3wHKMQkl9bHLxPB6TmtNTZFcUwOgJutYqStwBTBM8,774
+opal/datamodule/__init__.py,sha256=SUzEmgQE7P-HuA3Vid-UU4YEPPDfcpRtfc-uKs6MaiA,80
+opal/datamodule/ignore_mapping.yaml,sha256=QEn7Rw3hS1HdWYJzjceUcl3nIMnyXqb9ZrcemiLy6YE,1804
+opal/datamodule/score_datamodule.py,sha256=HZy4k1RUCHZdVKDGKBYMyHHZ4VV3uNq5Ta3p6l_GhVk,8590
+opal/models/README.md,sha256=DLVpEaDUiEAYxQhEB8JfS-8voaLJuJLyVT6op2CLuFQ,1323
+opal/models/V2_2023_04/model.ckpt,sha256=dGudN0L0zQiX9U5QEsFAvAo5gtdLsBs45FjYLh4NfWw,8964039
+opal/module/__init__.py,sha256=sigILqz6Uh6Z5sHvPLh3SXMWu54OveahO3bv33O2Oe4,139
+opal/module/opal_net.py,sha256=5ZcgXtVze1sNNg7SaawOaIwsFcpzCmJ2SuwsGQyKgAI,5995
+opal/module/opal_net_module.py,sha256=_OfesyspRWyMEdaP6JC7pG1gaAQc3EnDsyZXfplfiB4,1756
+opal/train.py,sha256=Jw4cgC0tE4a9yDkWXrXlBQsdLv83R7DikQ41VC6x9m0,1285
+opal_net-0.1.0.dist-info/METADATA,sha256=N3DOwQsmYSEU62O-qdyfOz0BQ40mCzQG5LFJaBlxuac,3586
+opal_net-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+opal_net-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+opencv-python
+numpy
+pyyaml
+pandas
+requests
+pillow
+tqdm
+seaborn

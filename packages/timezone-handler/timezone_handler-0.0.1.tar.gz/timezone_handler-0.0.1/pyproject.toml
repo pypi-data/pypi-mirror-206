@@ -1,0 +1,15 @@
+[project]
+name = "timezone_handler"
+version = "0.0.1"
+authors = [
+  { name="Rahul Pandey", email="rahulpandey.python81@gmail.com" },
+]
+description = "This Package designed to handle the DST(Day Light Savings)"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+

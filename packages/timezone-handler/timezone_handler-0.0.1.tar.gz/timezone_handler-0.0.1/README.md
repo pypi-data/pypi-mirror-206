@@ -1,0 +1,39 @@
+This Package designed to handle the DST(Day Light Savings).
+
+There is many functions that can help us to handle DST(Day Light Savings) in our code.
+
+1- adjust_dst(zonename, date):-
+						This Function used to convert the date with DST(Day Light Savings) 
+						like- 2023-04-22 04:30:00 is the DST(Day Light Savings) date and we 
+						want to auto handle the date accourding to normal date. 						
+
+2- is_dst(zonename, date):-
+						This Function is used to check the given date is DST or NOT 
+						if DST retun True Else False. 
+
+3- timezone_appender(zonename, date):-
+						This Function is used to append the timezone in the date 
+						like 2023-04-22 04:30:00 IST. 
+
+4- timezone_appender_with_time_format(zonename, date):-
+						This Function is used to append the timezone in the date with beautify date
+						like April 05 2023 at 04:30 IST. 
+						
+5- timezone_appender_with_time_format(zonename, date):-
+						This Function is used to append the timezone in the date with beautify date
+						like April 05 2023 at 04:30 IST. 
+						
+
+6- adjust_zoneoffset(zonename, date):-
+					This Function used to get the zone offset like -5:30 for UTC
+
+7- adjust_zoneoffset_dst(zonename, date):-
+					This Function used to get the zone offset like -5:00 for UTC
+					with DST handled like in DST is will return -4:00 so this function
+					convert -4:00 to -5:00 if the time period in DST.
+					
+
+values format for the function is-
+
+zonename example- 'America/New_York'
+date example- any date like '2023-04-22 04:30:00' this format

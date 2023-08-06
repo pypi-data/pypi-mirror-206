@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: twity
+Version: 0.0.3
+Summary: A simple twitter bot to create and delete your tweets from the terminal
+Home-page: https://github.com/methmal66/twity.git
+Author: Sanuja Methmal
+Author-email: methmal66@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Twity - The Twitter Bot
+
+A simple twitter bot to create and delete your tweets from the terminal
+
+1. Copy the `.env.example` file and rename it to `.env`.
+2. Insert the actual values into `.env` file
+3. Setup user authentication in app settings of the twitter developer protal

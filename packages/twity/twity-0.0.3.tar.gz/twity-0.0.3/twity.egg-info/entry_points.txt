@@ -1,0 +1,2 @@
+[console_scripts]
+twity = twity:__main__

@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+myApiIsReallyAwesome/__init__.py
+myApiIsReallyAwesome/app.py
+myApiIsReallyAwesome.egg-info/PKG-INFO
+myApiIsReallyAwesome.egg-info/SOURCES.txt
+myApiIsReallyAwesome.egg-info/dependency_links.txt
+myApiIsReallyAwesome.egg-info/top_level.txt
+myApiIsReallyAwesome/model/__init__.py
+myApiIsReallyAwesome/model/duduModel.py
+myApiIsReallyAwesome/resources/dusetup.py

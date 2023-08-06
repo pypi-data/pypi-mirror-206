@@ -1,0 +1,6 @@
+PyGithub
+git2net@ git+ssh://git@github.com/franceme/git2net/tarball/master@0ca0ce7db9c3a616096a250c9412a8780dd30768
+mystring
+pygit2
+splittr
+waybackpy

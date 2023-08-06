@@ -1,0 +1,1 @@
+from whitetower.repositories.ecr_repository import EcrRepository

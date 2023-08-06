@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: whitetower
+Version: 0.2
+Summary: Whitetower the smart docker-compose stack updater
+Author: Alexander Tsidaev
+License: MIT
+Requires: boto3
+Requires: yaml
+

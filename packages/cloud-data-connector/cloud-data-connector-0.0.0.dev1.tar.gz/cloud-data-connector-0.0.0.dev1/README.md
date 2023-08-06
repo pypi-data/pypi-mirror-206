@@ -1,0 +1,59 @@
+## Overview
+---
+data_connector is a tool to connect to AzureML, Azure blob, GCP storage, GCP Big Query  and AWS storage S3. 
+The goal is provide all cloud managers in one place and provide documentation for an easy integration.
+
+For more details, visit the [Data Connector](repo link) GitHub repository.
+
+## Hardware Requirements
+---
+The hardware should comply with the same requirements that the cloud service.
+
+## How it Works
+---
+The package contains the following modules:
+
+| Package Components   |
+| -------------------- |
+| data_connector.aws   |
+| data_connector.gcp   |
+| data_connector.azure |
+
+Each module is capable of connect, download and upload operation to it-s corresponding cloud service.
+
+## Getting Started
+---
+It is strongly recommended to use a virtual environment to ensure proper operation, example:
+```bash
+conda create -n venv python=3.10 -c conda-forge
+conda activate venv
+```
+
+You can install the package with:
+```bash
+python -m pip install intel-cloud-data-connector
+```
+
+data_connector modules can be used as follows from python:
+```python
+from data_connector import aws
+from data_connector import gcp
+from data_connector import azure
+```
+
+## Expected Output
+---
+#TODO: Create a usage example
+
+
+## Learn More
+---
+For more information about data_connector, see these guides and software resources:
+- github/repo/link #TODO: Update public repo
+
+
+## Support
+---
+If you have questions or issues about this package, contact the [Support Team](mailto:IntelAI@intel.com).
+data_connector has an Apache license, as found in the [LICENSE](https://www.apache.org/licenses/LICENSE-2.0) file.
+Dependencies versions higher than currently implemented ones are in beta and should be used with caution.

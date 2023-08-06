@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: OpenFG
+Version: 0.1.0
+Summary: Library for work with our api.
+Home-page: https://github.com/kararasenok-gd/krrsnkapi
+Author: Kararasenok =), KailUser
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Welcome to our lib OpenFG
+Our small library for python
+
+## How get an api key?
+
+1. [Login into your account](https://kararasenok.ueuo.com/accounts/login.php) (also [registration](https://kararasenok.ueuo.com/accounts/register.php))
+2. [Redirect here](https://kararasenok.ueuo.com/api/create/) and create a key
+3. Get key and save his
+4. Done!
+
+## How use it?
+Example code:
+````python
+import OpenFG
+info = Chat("your API key").get_last_message_info("id") # Instead of id, you can specify this: id - message id | sender - sender's name | sender_id - sender's id | message - message | created_at - when sent
+
+if info == "KEY_NOT_FOUND":
+    print("Key not found")
+else:
+    print(info)
+````
+This code find last message use id of message
+
+Our task list:
+-[x] Create our api system
+- [x] Create a lib for python
+- [ ] Create find user system use his id

@@ -1,0 +1,70 @@
+[tool.poetry]
+name = "pytest-memlog"
+version = "0.1.0a1"
+description = "Log memory usage during tests"
+authors = ["Tamir Bahar"]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Framework :: Pytest"
+    ]
+
+[tool.poetry.urls]
+repository = "https://github.com/tmr232/pytest-memlog/"
+
+[tool.poetry.plugins.pytest11]
+memlog = "pytest_memlog.plugin"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+psutil = "^5.9.5"
+pytest = "^7.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.261"
+black = "^23.3.0"
+isort = "^5.12.0"
+nox = "^2022.11.21"
+mypy = "^1.2.0"
+pytest-cov = "^4.0.0"
+types-psutil = "^5.9.5.12"
+
+
+
+[tool.poetry.group.plot.dependencies]
+altair = "^4.2.2"
+pandas = "^2.0.1"
+jupyterlab = "^3.6.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+line_length = 88
+
+# Configure isort to work without access to site-packages
+known_first_party = ["pytest_memlog", "tests"]
+
+# Settings for Black compatibility
+profile = "black"
+
+[tool.mypy]
+check_untyped_defs = true
+python_version = "3.8"
+
+[tool.pytest.ini_options]
+xfail_strict = true
+#addopts = "-ra -q --cov=pytest_memlog --cov-report=xml --cov-report=term-missing --memlog-all"
+testpaths = [
+    "tests",
+]
+
+[tool.ruff]
+# Avoid automatic removal of unused variables
+unfixable = ['F841'] # unused-variable

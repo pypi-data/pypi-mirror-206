@@ -1,0 +1,7 @@
+indiek-mockdb==0.1.1
+indiek-core==0.1.1
+
+[dev]
+pytest
+pytest-pep8
+pytest-cov

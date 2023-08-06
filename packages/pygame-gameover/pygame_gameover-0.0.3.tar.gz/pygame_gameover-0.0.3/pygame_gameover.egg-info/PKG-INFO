@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pygame-gameover
+Version: 0.0.3
+Summary: pygame_gameover is perfrom gameover
+Author: kurban hussain
+Author-email: kurbanhussain086@gmail.com
+Keywords: gameover in pygame,pygame gameover,gameover,over game,game over,pygame_gameover,gameover_pygame,pygame game,pygame,pygame GAMEOVER
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.TXT
+
+gameover pygame module

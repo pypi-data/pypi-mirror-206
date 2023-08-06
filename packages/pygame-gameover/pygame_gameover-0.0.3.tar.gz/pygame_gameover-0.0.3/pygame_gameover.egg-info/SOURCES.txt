@@ -1,0 +1,8 @@
+LICENSE.TXT
+setup.py
+pygame_gameover/__init__.py
+pygame_gameover/gameover.py
+pygame_gameover.egg-info/PKG-INFO
+pygame_gameover.egg-info/SOURCES.txt
+pygame_gameover.egg-info/dependency_links.txt
+pygame_gameover.egg-info/top_level.txt

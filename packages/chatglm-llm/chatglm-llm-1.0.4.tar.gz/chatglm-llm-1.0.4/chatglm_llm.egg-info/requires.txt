@@ -1,0 +1,15 @@
+sentence_transformers
+tensorboard
+requests
+protobuf
+cpm_kernels
+mdtex2html
+sentencepiece
+accelerate
+torch
+termcolor
+tqdm
+websockets
+websocket-client
+transformers
+aiowebsocket

@@ -1,0 +1,12 @@
+textfiles/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+textfiles/csv_file.py,sha256=fTyu8zf4cFqF2259PeqoOt6Fr-A_B6_FUmc2VMlzlPY,9422
+textfiles/exceptions.py,sha256=Fw8Pnk5N-2K4hbtpfxgaTBl8B2L_0qckv1VLQwuuSOc,1387
+textfiles/file_factory.py,sha256=BiIE4DkvUgALYBD9gK3KkW9AEm4nkltlsEzowJtuZa8,2580
+textfiles/json_file.py,sha256=XL4989scbIve8czmri41qSOuNNnJkWTD1yJ8PMUujYI,8496
+textfiles/text_file_parent.py,sha256=tKG399zhEZAVhSM_SEyk8BnPiSIZGoBmMc2o_tLPxvI,2427
+textfiles/txt_file.py,sha256=AVcKKTUNlGk4-ZoflLrQKZBdv_sGKj_wrQrkG2-x6wc,3735
+textfiles-0.0.4.dist-info/LICENSE,sha256=Q1FDFit4gmdH6eaA-r9iyz6_F8w9j-myMvq_v7T9LFc,1087
+textfiles-0.0.4.dist-info/METADATA,sha256=5Y5BefBWtmRfKt-qMX8qLaHTOnZMXtny6ZzY_V3uQWo,2850
+textfiles-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+textfiles-0.0.4.dist-info/top_level.txt,sha256=b_Tvl0uqgjmGaInmvQd9QXt64equXmTSG9yQuR9CIF8,10
+textfiles-0.0.4.dist-info/RECORD,,

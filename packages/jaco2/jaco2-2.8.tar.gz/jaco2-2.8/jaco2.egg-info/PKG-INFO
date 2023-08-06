@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: jaco2
+Version: 2.8
+Summary: A binding of simple jaco2 SDK commands for python
+Author: Daniel Dharampal

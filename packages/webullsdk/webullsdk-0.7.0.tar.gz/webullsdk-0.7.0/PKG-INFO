@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: webullsdk
+Version: 0.7.0
+Summary: This package is designed to help users gather market data for trading. 
+Author: chuckdustin12
+Author-email: chuckdustin12@gmail.com
+License: MIT
+Keywords: finance,trading,stocks,analysis,async,webull,api,markets

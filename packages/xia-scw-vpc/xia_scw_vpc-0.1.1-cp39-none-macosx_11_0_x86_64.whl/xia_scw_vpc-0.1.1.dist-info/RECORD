@@ -1,0 +1,11 @@
+xia_scw_vpc/__init__.py,sha256=SlQYrCyaU3QwcbH5bqBMbG2J6GKkGs8-hFDH3-0Lppw,87
+xia_scw_vpc/vpc.cpython-310-darwin.so,sha256=9ILsKHN64MECo8oISzT6N668YrypN3iO3AGYAuseyeM,235400
+xia_scw_vpc/templates/ScwVpc/main.tf,sha256=_VCRRiquB39fg7rzlQdta2E5N62DBESugd5r5igNt9M,1210
+xia_scw_vpc/templates/ScwVpc/output.tf,sha256=9VHX5hvp5XaV6CA_T2_LQNh6VZs7iCJtTGZSGcNKvO0,1028
+xia_scw_vpc/templates/ScwVpc/provider.tf,sha256=h_zFGas7QtYJPGvufLGuPHtgDhoZa28Qa5t--1dpheI,343
+xia_scw_vpc/templates/ScwVpc/variables.tf,sha256=-qYxcGlWOGcmTQIhkM6HFRnxhd-yMFZ7wG5GtSHoFpE,2295
+xia_scw_vpc-0.1.1.dist-info/LICENSE.txt,sha256=2HzK8y__YhkYAEzI5V38DGwiVGnADL74BLH_dyBEs7I,150
+xia_scw_vpc-0.1.1.dist-info/METADATA,sha256=pysmcv0oQ1CQRXXmCFRmhOv5oBb5F2GrtGkcX5mRa4I,635
+xia_scw_vpc-0.1.1.dist-info/WHEEL,sha256=NsapCMY7EanMRKZsZABtoiyq2rs4aXJ4FKsV_kV91NE,108
+xia_scw_vpc-0.1.1.dist-info/top_level.txt,sha256=jNt0Wv07qq3bYLKNdao2gLQ4e_U6VYrOuw3Wehup0ts,12
+xia_scw_vpc-0.1.1.dist-info/RECORD,,

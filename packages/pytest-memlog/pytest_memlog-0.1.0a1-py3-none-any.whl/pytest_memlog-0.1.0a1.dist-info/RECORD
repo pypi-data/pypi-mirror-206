@@ -1,0 +1,9 @@
+pytest_memlog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_memlog/formatting.py,sha256=dTib2MLYDIN29Ag5-xpPm9HuGbApMnfBz_Zbpt3jmTc,924
+pytest_memlog/memlog.py,sha256=HacQuw-mofT5cRAp5D2h7aRkCJw2cADqfYjUiz5ymxo,3185
+pytest_memlog/plugin.py,sha256=v3fwdbdJqevzwVCflVJfDqhSfwXYy9M-JzO9S_B6w18,3985
+pytest_memlog-0.1.0a1.dist-info/LICENSE,sha256=TRObfh56ei2dKP_oS2Id6rt2EMuYGl5QrrUyWjhXqWo,1068
+pytest_memlog-0.1.0a1.dist-info/METADATA,sha256=MfhO848v2CR_FtQNc9g0pACN6fg4L7U42DxJGVzEDyU,2688
+pytest_memlog-0.1.0a1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pytest_memlog-0.1.0a1.dist-info/entry_points.txt,sha256=kmX2BwqZRd-ayvQuUbSwcgAlJW-XS27AM3Zbpj6xZ5Q,40
+pytest_memlog-0.1.0a1.dist-info/RECORD,,

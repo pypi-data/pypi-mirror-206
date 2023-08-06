@@ -1,0 +1,14 @@
+dicomselect/__init__.py,sha256=kI1h7cGJzAdp4lh3imkPfOUYS2KFs6vcx4IvjpfIP7Q,92
+dicomselect/constants.py,sha256=tBprTyF68koVVsXxPqoXGgQI_cKQJga4LFh9lFgO-Tc,1358
+dicomselect/database.py,sha256=VoP8Jdl7PMHULISKSRR3KxUo6Weh3q4WsIR3tt9cFjA,5350
+dicomselect/dicom.py,sha256=mcRSdTuRlUK1RCULvMPqITP8lowG1uXsCWmq239RC7o,2241
+dicomselect/info.py,sha256=9eYOftpVaa1arRF4pAFSnP9GySir_95H78QcvdFR3DE,1470
+dicomselect/query.py,sha256=Wq4h3HXBqMtzRQ0yeX0WBnGsX4o0FI6GFQ1jILVvrz0,8189
+dicomselect/queryfactory.py,sha256=wjQvj3vH5lFP0tD4mJhc1g7ybyt-U7dVlZqXboOVbbc,2740
+dicomselect/reader.py,sha256=swX4Cl1DA6JVdKbgAUdOwdWtsBB5sFKsQsf-48Kuhps,15090
+dicomselect/tags_generated.py,sha256=p8wLczJU-kiPAoAg7xMJZku-8b2I33sJplvFojfPVwg,203115
+dicomselect-0.0.0.dist-info/LICENSE,sha256=HUnrQpGgrj91IfsbJrzHnUIVtJruZ3uoXubiJEVE09M,1082
+dicomselect-0.0.0.dist-info/METADATA,sha256=0qoQI-kDhP5s1vF1Y8QpnA5S1ijsHem0C1PxuzFiQWk,1390
+dicomselect-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dicomselect-0.0.0.dist-info/top_level.txt,sha256=20UU5I__111PviFFpJJsFhIChhi0nmJ-r7m5HNlDirA,12
+dicomselect-0.0.0.dist-info/RECORD,,

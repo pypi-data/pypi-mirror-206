@@ -1,0 +1,2 @@
+[run]
+omit = genki_widgets/tests/*

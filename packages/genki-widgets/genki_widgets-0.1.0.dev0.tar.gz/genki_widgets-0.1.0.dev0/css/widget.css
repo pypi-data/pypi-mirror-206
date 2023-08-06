@@ -1,0 +1,7 @@
+.scichart-root {
+  /* this doesnt work for some reason */
+  padding: 0px 2px;
+  height: 500px;
+  width: 100%;
+  background-color: #1d1d1d; 
+}

@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+humanhelp.egg-info/PKG-INFO
+humanhelp.egg-info/SOURCES.txt
+humanhelp.egg-info/dependency_links.txt
+humanhelp.egg-info/top_level.txt

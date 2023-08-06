@@ -1,0 +1,16 @@
+rappmysql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rappmysql/background_op.py,sha256=CmZZuTemTHcMfr35wwXyKV8OvLjEccgc2IrnGAzPBVg,1411
+rappmysql/chelt_plan_web.py,sha256=1JA6ugh6zQRaZeGpHOPy1gslJZzm58QpxzvHNpLGCzQ,32881
+rappmysql/online.py,sha256=7V36D2gnr1J74C-DI8fup0Z2fkmnklrirI14PFGknl4,19477
+rappmysql/static/web_db.ini,sha256=x1h8HoicTvdQSQf2_sKz6kvVielhOmC5XWSo--kbPzA,89
+rappmysql/templates/add_Alimentari.html,sha256=vpSaQAcUQY1hmC_6P57RgnReKXbK9gno15o5s1TNuks,2161
+rappmysql/templates/alimentari.html,sha256=MxsP0uiYrXt7PUu5_WxiynAxQEobRGMIMtFDaPYfZiw,594
+rappmysql/templates/base.html,sha256=mFNBfWq-oHXaWvjYfTZv1m_MzENzQMjMb2GZbgrAGIg,595
+rappmysql/templates/index.bkp,sha256=UGrMg4s-RoJ1cabD7Wj45GzzpDEUWLZU7tN58vfny50,634
+rappmysql/templates/index.html,sha256=gEmlj8zGni5NoJC74clFWt8ZZxzVpLxjqwIp3bMJGXI,1431
+rappmysql/templates/navbar.html,sha256=WLt-o9tbqRpMBEjHXYD4OU6ZFSH0ACyCajvsAAGUpQo,598
+rappmysql/templates/users.html,sha256=9qA1i3IdSjsA0DXScotYVzxqfG7Erm4R9vUuUoxJmGA,3516
+rappmysql-0.0.1.dist-info/METADATA,sha256=4xFJAYfvg6xkcVd8rDqjqrBkSo3poyNbYmPQ07z8ygU,482
+rappmysql-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+rappmysql-0.0.1.dist-info/top_level.txt,sha256=YYhr45A_gNphk9AFMAVCJ9KBljpWUmOhhicfSCJ8rtU,10
+rappmysql-0.0.1.dist-info/RECORD,,

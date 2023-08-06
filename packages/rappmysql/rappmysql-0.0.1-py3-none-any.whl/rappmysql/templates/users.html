@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      Total Expenses: {{totalExpenses}}[€]
+    </div>
+    <div class="col-6">
+      Total Income: {{totalIncomes}}[€]
+    </div>
+    <div class="col">
+      Date From: {{dataFrom}}
+    </div>
+    <div class="col">
+      Date Bis: {{dataBis}}
+    </div>
+<!--  </div>-->
+<!--  <div class="row">-->
+<!--    <div class="col">-->
+<!--      Total Since {{date_from}}: {{tot_lm}}[€]-->
+<!--    </div>-->
+<!--    <div class="col-5">-->
+<!--      Total Benzina Since {{date_from}}: {{lm_benz}}[€]-->
+<!--    </div>-->
+<!--    <div class="col">-->
+<!--      Total Electric Since {{date_from}}: {{lm_elec}}[€]-->
+<!--    </div>-->
+  </div>
+</div>
+<br>
+
+<form method="post" action="/users">
+    <br>
+    <label>Date from</label>
+    <input type="date" name="dataFrom" />
+    <br>
+    <label>Date bis</label>
+    <br>
+    <input type="date" name="dataBis"/>
+    <br>
+    <label>Conto</label>
+    <select id="cars" name="conto">
+        <option value="all">all</option>
+        <option value="EC">EC</option>
+        <option value="Savings">Savings</option>
+        <option value="Siri&Radu">Siri&Radu</option>
+        <option value="Credit">Credit</option>
+        <option value="MasterCard">MasterCard</option>
+        <option value="N26">N26</option>
+        <option value="DeutscheBank">DeutscheBank</option>
+    </select>
+    <br>
+    <input type="submit"/>
+    <br>
+</form>
+<br>
+<table class="table" border="1">
+    <thead>
+        <tr>
+            <th scope="col">table</th>
+            <th scope="col">name</th>
+            <th scope="col">value</th>
+            <th scope="col">myconto</th>
+            <th scope="col">freq</th>
+            <th scope="col">pay_day</th>
+            <th scope="col">valid_from</th>
+            <th scope="col">valid_to</th>
+            <th scope="col">auto_ext</th>
+            <th scope="col">post_pay</th>
+            <th scope="col">payDay</th>
+        </tr>
+    </thead>
+
+    {% for user in payments4Interval %}
+    <tr>
+        <td>{{user[0]}}</td>
+        <td>{{user[1]}}</td>
+        <td>{{user[2]}}</td>
+        <td>{{user[3]}}</td>
+        <td>{{user[4]}}</td>
+        <td>{{user[5]}}</td>
+        <td>{{user[6]}}</td>
+        <td>{{user[7]}}</td>
+        <td>{{user[8]}}</td>
+        <td>{{user[9]}}</td>
+        <td>{{user[10]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+<br>
+<table class="table" border="1">
+    <thead>
+        <tr>
+            <th scope="col">table</th>
+            <th scope="col">name</th>
+            <th scope="col">value</th>
+            <th scope="col">myconto</th>
+            <th scope="col">freq</th>
+            <th scope="col">pay_day</th>
+            <th scope="col">valid_from</th>
+            <th scope="col">valid_to</th>
+            <th scope="col">auto_ext</th>
+            <th scope="col">post_pay</th>
+            <th scope="col">payDay</th>
+        </tr>
+    </thead>
+
+    {% for user in income %}
+    <tr>
+        <td>{{user[0]}}</td>
+        <td>{{user[1]}}</td>
+        <td>{{user[2]}}</td>
+        <td>{{user[3]}}</td>
+        <td>{{user[4]}}</td>
+        <td>{{user[5]}}</td>
+        <td>{{user[6]}}</td>
+        <td>{{user[7]}}</td>
+        <td>{{user[8]}}</td>
+        <td>{{user[9]}}</td>
+        <td>{{user[10]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+{% endblock %}

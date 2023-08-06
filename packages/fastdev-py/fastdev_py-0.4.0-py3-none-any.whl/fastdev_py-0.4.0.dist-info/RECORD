@@ -1,0 +1,16 @@
+fastdev/__init__.py,sha256=K81kXaJqOKqmP9KEDC83CjzKDMa5ELCLOFjgZcSd9j8,208
+fastdev/__main__.py,sha256=ET_odpibfWvprqIulT7P5GT5Na7FvJYlNz_RBiTGj2Q,627
+fastdev/config.py,sha256=1wSd83JKCTxIFXV5SnyfOkPi-n_SpM88cyBleQ24ifU,1015
+fastdev/fs_serving.py,sha256=EHMkPIY63tjySmGqZZOo0Mc-t-ILl4rR2RsX2keiJtc,3091
+fastdev/router.py,sha256=sM3YYsnzxnI1kBaZ2asajpEdf3aJQiXF61J9PHqUgKE,7409
+fastdev/ts_serving.py,sha256=zDrS9yf_hkbNjr-0ppzV167zZfyCgLoD0EfnqayohBc,1965
+fastdev/utils.py,sha256=eR4cQRgwbI29exQlLsbLogYO7-eprXh2GI8VCStP94I,1463
+fastdev/deno_ltbs/deps.ts,sha256=1bU2PAWCOl7ztCRpNt5lqat2QUMUOoUvXrHdg2OfFzg,4288
+fastdev/deno_ltbs/esbuild_builder.ts,sha256=-H_F3CheZKmPZmyP3NTnRrHUibErkzqMmT3cvqw-vYc,4098
+fastdev/deno_ltbs/html_builder.ts,sha256=M6yteNJ5aplhXbvxJMZsLZuO9zWBrcg-WiBKUeAXbhk,2267
+fastdev/deno_ltbs/mod.ts,sha256=DOt5zF9tBbWGdh9LgCcje309drwN0IgcOkVjtl-S6rY,5055
+fastdev/preprocessor/temp.py.bak,sha256=st0VzQsGh8BUdtbkipEZbSv8rystNDpN9_UJOBX4OYc,8133
+fastdev_py-0.4.0.dist-info/entry_points.txt,sha256=h7wGxG7mcYaRcMWowYs1bksj5EeiXDP6wDSDPNHLHmw,49
+fastdev_py-0.4.0.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+fastdev_py-0.4.0.dist-info/METADATA,sha256=mcmBREDOPPqbK19leNH700SeUc-9-wYSrnlkzNpIUv8,741
+fastdev_py-0.4.0.dist-info/RECORD,,

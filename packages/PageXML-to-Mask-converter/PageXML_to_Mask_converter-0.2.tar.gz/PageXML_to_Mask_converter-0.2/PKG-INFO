@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PageXML_to_Mask_converter
+Version: 0.2
+Home-page: https://github.com/Gawajn/pagexml_to_mask
+Author: Alexander Hartelt
+Author-email: alexander.hartelt@informatik.uni-wuerzburg.de
+Keywords: XML; Mask
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+Simple Script to convert PageXML to Imagemasks

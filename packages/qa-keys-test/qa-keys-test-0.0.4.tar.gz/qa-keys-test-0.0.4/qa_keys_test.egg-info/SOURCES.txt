@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+automation/__init__.py
+automation/main.py
+config/qa_key.json
+python/__init__.py
+python/main.py
+qa_keys_test.egg-info/PKG-INFO
+qa_keys_test.egg-info/SOURCES.txt
+qa_keys_test.egg-info/dependency_links.txt
+qa_keys_test.egg-info/not-zip-safe
+qa_keys_test.egg-info/top_level.txt

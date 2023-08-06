@@ -1,0 +1,9 @@
+xia_fields/__init__.py,sha256=YDVrNsbaDkQ8s2z4ilrfOiiMBhg0Ii5AQx5k5oOtH80,1177
+xia_fields/base.cp39-win_amd64.pyd,sha256=muGv-sBLRadN-5xlJBef6ykPcKF1uYMMjIPqKje1sH8,366080
+xia_fields/fields.cp39-win_amd64.pyd,sha256=vO-8CRmnk1BL0p5MG1KYsOrB-2akDMVxH_66RfrT4Dc,415744
+xia_fields/fields_ext.cp39-win_amd64.pyd,sha256=E1VEv0C7Q3dsUN9wucyWbeD-j17zSeV41f_2P433M0g,388096
+xia_fields-0.3.8.dist-info/LICENSE.txt,sha256=30wWxpufZqbxK7WdwZRoX8iA_veQA4gbl5oih3j5vFs,152
+xia_fields-0.3.8.dist-info/METADATA,sha256=RmQ69MjMS_XOksgKQBNIao53cY2aKh6YdKOzEGzFYWQ,3308
+xia_fields-0.3.8.dist-info/WHEEL,sha256=T8VPDjot1YI5-NaRzS6kIMlJNVl0SSGa_dm-8Fprszg,99
+xia_fields-0.3.8.dist-info/top_level.txt,sha256=pXvwXCVXR-n1PTScNVgqx5GAlG0H2tIpu7XuuswUrng,11
+xia_fields-0.3.8.dist-info/RECORD,,

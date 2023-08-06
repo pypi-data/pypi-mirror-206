@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/axiom_logger.py
+src/axiom_logger.egg-info/PKG-INFO
+src/axiom_logger.egg-info/SOURCES.txt
+src/axiom_logger.egg-info/dependency_links.txt
+src/axiom_logger.egg-info/top_level.txt

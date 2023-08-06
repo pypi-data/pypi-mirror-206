@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: AutoGenerateMKD
+Version: 0.0.11
+Summary: Auto generate markdown api docs, base on dosc.
+Home-page: https://github.com/coseto6125/AutoGenerateMKD
+Author: E-NoR,Teng
+Project-URL: Changelog, https://github.com/coseto6125/AutoGenerateMKD/releases
+Project-URL: Download, https://pypi.org/project/AutoGenerateMKD/#files
+Project-URL: PyPI, https://pypi.org/project/AutoGenerateMKD/
+Project-URL: Source, https://github.com/coseto6125/AutoGenerateMKD
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: mkdocs (>=1)
+Requires-Dist: wcmatch (>=7)
+Requires-Dist: mkdocs-awesome-pages-plugin (>=2.5.0)
+Requires-Dist: mkdocs (>=1.4.3)
+Requires-Dist: markdown-callouts (>=0.3.0)
+Requires-Dist: mkdocs-autorefs (>=0.4.1)
+Requires-Dist: mkdocs-awesome-pages-plugin (>=2.9.0)
+Requires-Dist: mkdocs-include-markdown-plugin (>=4.0.4)
+Requires-Dist: mkdocs-literate-nav (>=0.6.0)
+Requires-Dist: mkdocs-material (>=1.1.1)
+Requires-Dist: mkdocstrings-python (>=0.9.0)
+Requires-Dist: pymdown-extensions (>=9.11)
+

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: remla-lib-release
+Version: 0.0.0
+Summary: A version-aware library for REMLA12 project
+Home-page: https://github.com/remla23-team12/lib
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Library
+
+The lib repository requires a library that the app repository will depend on. The app repository will intall the lib through a package manager (PyPI). The library has to be published as a package in the same programming language as the app repository.
+
+Release 0.0.1

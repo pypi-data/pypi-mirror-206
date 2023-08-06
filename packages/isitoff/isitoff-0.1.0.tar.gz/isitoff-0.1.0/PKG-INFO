@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: isitoff
+Version: 0.1.0
+Summary: A package for event and holiday identification in the Persian calendar.
+Project-URL: Homepage, https://github.com/Manni-MinM/isitoff
+Project-URL: Bug Tracker, https://github.com/Manni-MinM/isitoff/issues
+Author-email: Manni Moghimi <mannimoghimi@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: dotmap>=1.3.30
+Requires-Dist: jdatetime>=4.1.1
+Requires-Dist: requests>=2.29.0
+Description-Content-Type: text/markdown
+
+# isitoff

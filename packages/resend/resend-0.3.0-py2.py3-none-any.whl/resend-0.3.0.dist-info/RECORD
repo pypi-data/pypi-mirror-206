@@ -1,0 +1,13 @@
+resend/__init__.py,sha256=a49yBGxRyxOnUSFMUNIc0oY-p8H9apOg2DOprYWq1XM,334
+resend/api.py,sha256=vAvURJHgh62qfDLPrO3tEtAiwk1AdnAuaD8xCcSAr2g,1019
+resend/api_keys.py,sha256=LI0y1A_FYVjmPerdqTKuF-D6tLLCgE65p_BFPaL9DZE,796
+resend/domains.py,sha256=LWspxMCtQdblPrvKpnEuyCS6apIQKCqh1BELz7WvdTE,1033
+resend/emails.py,sha256=8iCUoVDAWm6jWVux1vtJsblaAS0zPBZ4oVCmAkX7jpc,588
+resend/exceptions.py,sha256=UG4t5KTlsHYXxaLYs44KGGcdgORZ61JCO3XZa1IbhRw,4152
+resend/request.py,sha256=pDTYiY5V4YDdO4cBh6HWKTdOR9xImk-7mHR9r8DyXm0,1694
+resend/version.py,sha256=wFh93cOOOwOjnFraYSfkNr_SCKxEBdpzUeYJaAMhMGA,163
+resend-0.3.0.dist-info/LICENSE.md,sha256=osumSw2owqnD5qoaVWZ-txW8uPCkoIEhqf9O10DWrzA,1070
+resend-0.3.0.dist-info/METADATA,sha256=X8dtOAChhjgFczLKo_E95TuCSUYQukPhoVxif0_ns6c,2229
+resend-0.3.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+resend-0.3.0.dist-info/top_level.txt,sha256=sSzgEO0yVPRNWY_L1GO_SXzz3dOzps41bTW_UtyQ0p4,7
+resend-0.3.0.dist-info/RECORD,,

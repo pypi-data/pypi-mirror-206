@@ -1,0 +1,28 @@
+/** Checkbox Select Multiple CSS **/
+
+.multiple-columns {
+  columns: 120px 4;
+  list-style: none;
+}
+
+.double-columns {
+  columns: 270px 2;
+  list-style: none;
+}
+
+#form-associated-template-content,
+#form-add-xslt-content,
+#add-user-form,
+#add-group-form{
+    height :200px;
+    overflow-y: scroll;
+
+}
+
+#form-associated-template-content:hover,
+#form-add-xslt-content:hover,
+#add-user-form:hover,
+#add-group-form:hover{
+    border-radius: 10px;
+    border: 1px solid #d0d0d0;
+}

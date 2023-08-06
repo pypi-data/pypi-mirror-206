@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: semterm
+Version: 0.2.1
+Summary: The Semantic Terminal
+Author: Lambrou
+Author-email: alexanderlambrou0602@gmail.com
+License-File: LICENSE
+Requires-Dist: langchain
+Requires-Dist: setuptools
+Requires-Dist: python-dotenv
+Requires-Dist: tiktoken
+Requires-Dist: pexpect
+Requires-Dist: pydantic
+Requires-Dist: openai
+
+The Semantic Terminal

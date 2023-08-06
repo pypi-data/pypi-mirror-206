@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/test_click/__init__.py
+src/test_click/cli.py
+src/test_click/operaciones.py
+src/test_click/struct/404.py
+src/test_click/struct/__init__.py
+src/test_click/struct/index.py
+src/test_click/struct/main.py
+src/test_clik.egg-info/PKG-INFO
+src/test_clik.egg-info/SOURCES.txt
+src/test_clik.egg-info/dependency_links.txt
+src/test_clik.egg-info/entry_points.txt
+src/test_clik.egg-info/requires.txt
+src/test_clik.egg-info/top_level.txt

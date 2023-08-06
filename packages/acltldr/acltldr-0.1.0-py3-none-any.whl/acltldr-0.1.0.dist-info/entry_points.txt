@@ -1,0 +1,3 @@
+[console_scripts]
+acltldr=acltldr.main:run
+

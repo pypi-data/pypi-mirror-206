@@ -1,0 +1,16 @@
+README.md
+setup.py
+serializer_for_igi.egg-info/PKG-INFO
+serializer_for_igi.egg-info/SOURCES.txt
+serializer_for_igi.egg-info/dependency_links.txt
+serializer_for_igi.egg-info/top_level.txt
+serializers/__init__.py
+serializers/factory_serializer.py
+serializers/dict_serializer/__init__.py
+serializers/dict_serializer/functions.py
+serializers/json/__init__.py
+serializers/json/json.py
+serializers/json/parse_json.py
+serializers/xml/__init__.py
+serializers/xml/xml.py
+serializers/xml/xml_parser.py

@@ -1,0 +1,11 @@
+src/__init__.py,sha256=JTBXZnLxhrgruOLZN1WrSFuY2LvFSXE0eZLOLQxrKY4,29
+src/data_object.py,sha256=tIcGjsQEdAx7NKOSxQ0xjioQR5xB6PfcX4HnO84bqCo,1583
+src/database.py,sha256=-oSolt4B_bAPfxueyEiY6U23caWEN8iPXga3Z33S6K4,691
+src/stress_test.py,sha256=wAcDylnRD6Txa-7g4sCK37IoA_dRxmLOjyqmYLMoCmQ,1746
+src/vector_db.py,sha256=LZbh-YaNF0GaYCLZ9xmbQ8ol-CxuOWCqnrkmQHRTeMc,3875
+src/word_generator.py,sha256=wN2hB9p9I2mO5vr2GqKVlwXKz2diqeQMdGaeqbCnFss,5102
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyVecDB-0.1.2.dist-info/METADATA,sha256=dcfwCgh-UmlnK7LCc1QRdu2Hpj4Z4P0s0IrD2bc5NXQ,2746
+PyVecDB-0.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+PyVecDB-0.1.2.dist-info/top_level.txt,sha256=KW3xgkz9NLMTcmmzgKvW8RFpCFkRIQ085qzq2diFf68,10
+PyVecDB-0.1.2.dist-info/RECORD,,

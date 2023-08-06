@@ -1,0 +1,11 @@
+idcode/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+idcode/cli.py,sha256=P-eSF3ffx2rVVg9CtYZIg-gxQMpgYzUH4yhZzQYV2d8,1572
+idcode/core_values.py,sha256=xSE3fJB2c5dim2vtJV4rjaQ-5Q1YNRIzAaSnm39CEwc,2121
+idcode/custom_encoding.py,sha256=lxM_nJF4FgwgKYFK4AwUeaBhdLlZHr_tSUaBXrdN3RE,11093
+idcode/interactive_decoder.py,sha256=UgrHMa_3jZuLYLMT4oHKmoFKsFFCn5t7GrcLexPJ4GA,5712
+idcode/preprocessing.py,sha256=iQKoF7JhkPCgxbj77cTD7OrjMl53rWk3kdVKg5L1RNY,339
+idcode-0.1.0.dist-info/entry_points.txt,sha256=fGbfel4oKJzA8UKFFTdZ8cPSeWb0KHMnnZjQmuzh2oU,43
+idcode-0.1.0.dist-info/LICENSE,sha256=pDqOR-YEweUsRyL2bmhf4882a0pGCXfce4c5BbmIJ_0,1083
+idcode-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+idcode-0.1.0.dist-info/METADATA,sha256=U-eKVklLRzjNEeFMPQZB-bQgz9xzNbsTDKa01iQV1Iw,2279
+idcode-0.1.0.dist-info/RECORD,,

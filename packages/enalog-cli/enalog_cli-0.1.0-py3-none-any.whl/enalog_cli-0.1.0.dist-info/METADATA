@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: enalog-cli
+Version: 0.1.0
+Summary: EnaLog CLI
+Author: Sam Newby
+Author-email: sam@enalog.app
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.29.0,<3.0.0)
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+# EnaLog CLI
+
+## Installation
+
+`pip install enalog-cli`
+
+## Usage
+
+* Pushing an event to EnaLog: 
+```sh
+enalog push --api-token=<api-token> --event='{"project":"<project-name>","name":"<event-name>","push":false}'
+```

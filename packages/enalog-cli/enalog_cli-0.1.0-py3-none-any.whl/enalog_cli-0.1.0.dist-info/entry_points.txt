@@ -1,0 +1,3 @@
+[console_scripts]
+enalog=enalog_cli.main:app
+

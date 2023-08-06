@@ -1,0 +1,5 @@
+docker
+numpy
+pillow
+pyyaml
+requests==2.28.1

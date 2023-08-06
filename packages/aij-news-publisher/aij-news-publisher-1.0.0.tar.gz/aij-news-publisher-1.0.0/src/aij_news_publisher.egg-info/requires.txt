@@ -1,0 +1,14 @@
+peppercorn
+requests
+beautifulsoup4
+newsapi-python
+pandas
+numpy
+matplotlib
+pika
+
+[dev]
+check-manifest
+
+[test]
+coverage

@@ -1,0 +1,13 @@
+ashendb/__init__.py,sha256=umaA103P5eI0V2ACWB_SLw7YGaJRYab8vYuhUS2aDik,786
+ashendb/client.py,sha256=FNr-A-NBKnlX_azuOJ5QhU948VMNTwr-gKNpRvYiQx0,6886
+ashendb/collection.py,sha256=aR5GzUFoQ5kkdez8U05xTbXdO_ig5bXlYRs50uDs-0Y,9216
+ashendb/database.py,sha256=67o-XvT6_qE9izQXZwPPQSGodUN-ascx3sdqR-H8Bps,7751
+ashendb/document.py,sha256=btXy9TP_tU1cKgmTXpAAb1tr9KyUkXHJBmAW0hPCtHA,1257
+ashendb/exception.py,sha256=2EcYbra1GxMLkO-GMoxYBg86IQx09sh5rGfNQrN54LU,128
+ashendb/helper.py,sha256=5Z96qScm9CPIgi9n1Ppp0HNTS8lkXB1NkKLyW5_8IHo,10256
+AshenDB-0.0.5.dist-info/LICENSE,sha256=EyEyHU9Ucy4d06oe6dorOMEyKgYCKonRtqCRfonnPwM,1065
+AshenDB-0.0.5.dist-info/METADATA,sha256=Vkkt2z0QwLrQTlrKJo0BcaGi-2XIs9wqksNqFtxxTXY,4052
+AshenDB-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+AshenDB-0.0.5.dist-info/entry_points.txt,sha256=y7NEDQ4kTSMoElzTVQwC1JaC2LIlXOA_dFRQ_v2cD2o,50
+AshenDB-0.0.5.dist-info/top_level.txt,sha256=_sIKNoN6bkdFe-n38dIWiZcaUlYNUnellBHJa6O8vpo,8
+AshenDB-0.0.5.dist-info/RECORD,,

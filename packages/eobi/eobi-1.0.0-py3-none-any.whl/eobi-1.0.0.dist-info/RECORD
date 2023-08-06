@@ -1,0 +1,11 @@
+autogon_ml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogon_ml/autoClassification/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogon_ml/autoClassification/base.py,sha256=7XpI_jJjcKPHaE5KBgLAKJwZ7eTRzg6itkqcg15uaO0,3987
+autogon_ml/autoFeatureEngineering/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogon_ml/autoFeatureEngineering/base.py,sha256=8GhYR2mVZ8fe4lmQrIxzG14cJEGXILQ7ogF8uBd5fCw,17242
+autogon_ml/autoRegression/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogon_ml/autoRegression/base.py,sha256=xdgQ0KwFQRZ5lukNI480WDmvIXpArtsatRqpR8MJ75c,2809
+eobi-1.0.0.dist-info/METADATA,sha256=YGP7iGm_vF_MQu0LRrBUSmmjlTF_x9F4Bom5Nt9OusI,1236
+eobi-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+eobi-1.0.0.dist-info/top_level.txt,sha256=HlImT5g_V4QpIsULXdsFPyf8DJUsBzKnYEDQTGzI6JE,11
+eobi-1.0.0.dist-info/RECORD,,

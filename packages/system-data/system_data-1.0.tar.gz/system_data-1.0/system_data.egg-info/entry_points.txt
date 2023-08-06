@@ -1,0 +1,2 @@
+[console_scripts]
+system = system_data.system_data:main

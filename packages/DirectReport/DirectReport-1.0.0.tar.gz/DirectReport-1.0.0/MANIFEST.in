@@ -1,0 +1,32 @@
+graft DirectReport
+
+include *.md
+include LICENSE
+include README.md
+include CONTRIBUTING.md
+include docs/*
+prune docs/build
+
+include .bumpversion.cfg
+include pyproject.toml
+include Makefile
+recursive-include docs *.bat
+recursive-include docs *.py
+recursive-include docs *.rst
+recursive-include docs Makefile
+recursive-include docs *.nojekyll
+recursive-include docs *.sh
+recursive-include docs *
+
+prune .github
+exclude .gitignore
+exclude .gitattributes
+
+# Patterns to exclude from any directory
+global-exclude *.png
+global-exclude *~
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude .git
+global-exclude .ipynb_checkpoints
+global-exclude .DS_Store

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/shelllikecui/__init__.py
+src/shelllikecui/base.py
+src/shelllikecui/cui.py
+src/shelllikecui.egg-info/PKG-INFO
+src/shelllikecui.egg-info/SOURCES.txt
+src/shelllikecui.egg-info/dependency_links.txt
+src/shelllikecui.egg-info/top_level.txt

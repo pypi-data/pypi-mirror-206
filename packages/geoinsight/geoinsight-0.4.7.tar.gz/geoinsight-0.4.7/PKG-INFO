@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: geoinsight
+Version: 0.4.7
+Summary: GeoInsight python package
+Author-email: GeoInsight <info@geoinsight.ai>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# GeoInsight
+
+Install `geoinsight` with
+
+usage:
+```python
+import geoinsight as gi
+```

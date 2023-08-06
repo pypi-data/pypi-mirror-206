@@ -1,0 +1,16 @@
+duo_client/__init__.py,sha256=kjn0RNOPIeDTbnDuMvzxqmu6QsgtZ1MnwHLXuxFLf0Q,206
+duo_client/accounts.py,sha256=8-if8jKKnDvWqYaqJ_mjEk4oNrTi5bmE4tdgSZDoGtk,1287
+duo_client/admin.py,sha256=O7qDKxhCZAxgpBZtgB0vu1lPDbhcvZrU3yJH4Ble5yk,122004
+duo_client/auth.py,sha256=VbdkfhbjATEurlEM8kO4KjzK3ouNA1gTv-bJILuwPzY,6755
+duo_client/auth_v1.py,sha256=S3Kpn5gY020LkyNypTqP8o6cR4thZcOT5hbkyy4akxY,3789
+duo_client/ca_certs.pem,sha256=G2aQH8T54xyyarNdp4FfOFQh4gwy4X6ZYaVUvG0c6Po,13901
+duo_client/client.py,sha256=QY0QU7sFlyNk9A1BZ5tI1MsThbLJwkOWqGnkgSHukNg,24282
+duo_client/https_wrapper.py,sha256=OkUsDM4CulemNGmeX9FNcLQLXCxBZw3caM76n6KudMo,6129
+duo_client/util.py,sha256=om6OZ8cJznqm09R5ScRnbnbQ_iaFb5oBVHffpXs9Jtk,663
+duo_client/logs/__init__.py,sha256=CJdjqrZ3U10m2JNzmZ26IUNQnBvwZG5NKSnrZrI9L4w,103
+duo_client/logs/telephony.py,sha256=qO8-lLbPu2VEhnTpdsMhQSIJixJQBR19YTlbM6bSVIs,1892
+duo_client-5.0.1.dist-info/LICENSE,sha256=tulpVEf7lOf0IFeElkUlicIQrvZODs-SmUxo6f4G73U,1622
+duo_client-5.0.1.dist-info/METADATA,sha256=3hbxQqdF5IJve4SB95-rx__BjyQe86azz8MuuN0oWec,2548
+duo_client-5.0.1.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+duo_client-5.0.1.dist-info/top_level.txt,sha256=0QKawrjE8LILyu1EcZCGv4jIiByR6DEQZeYfUWKuohg,11
+duo_client-5.0.1.dist-info/RECORD,,

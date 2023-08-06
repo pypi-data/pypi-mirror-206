@@ -1,0 +1,2 @@
+include src\rappmysql\templates\*
+include src\rappmysql\static\*

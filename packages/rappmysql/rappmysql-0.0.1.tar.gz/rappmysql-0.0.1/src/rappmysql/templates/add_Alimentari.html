@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      Total alimentari: {{total}}[€]
+    </div>
+    <div class="col-6">
+      Total Benzina: {{tot_benz}}[€]
+    </div>
+    <div class="col">
+      Total Electric: {{tot_el}}[€]
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      Total Since {{date_from}}: {{tot_lm}}[€]
+    </div>
+    <div class="col-5">
+      Total Benzina Since {{date_from}}: {{lm_benz}}[€]
+    </div>
+    <div class="col">
+      Total Electric Since {{date_from}}: {{lm_elec}}[€]
+    </div>
+  </div>
+</div>
+<br>
+
+<head>Adauga o alimentare</head>
+<form method="post" action="/add_Alimentari">
+    <br>
+    <label>Date</label>
+    <input type="date" name="data"/>
+    <br>
+    <label>Type</label>
+    <select id="cars" name="type">
+        <option value="SWM">SWM</option>
+        <option value="eCharge">eCharge</option>
+        <option value="EnBW">EnBW+</option>
+        <option value="benzina">benzina</option>
+    </select>
+    <br>
+    <label>Brutto</label>
+    <input type="number" name="brutto" step="any" required/>
+    <label>[€]</label>
+    <br>
+    <label>Amount</label>
+    <input type="number" name="amount" step="any" required/>
+    <label>[L/KwH]</label>
+    <br>
+
+    <label>Km stand</label>
+    <input type="number" name="km"/>
+
+    <br>
+    <input type="submit"/>
+</form>
+<br>
+
+<table class="table" border="1">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Date</th>
+            <th scope="col">Type</th>
+            <th scope="col">Brutto</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">PPU</th>
+            <th scope="col">km</th>
+        </tr>
+    </thead>
+
+    {% for user in userDetails %}
+    <tr>
+        <td>{{user[0]}}</td>
+        <td>{{user[1]}}</td>
+        <td>{{user[2]}}</td>
+        <td>{{user[3]}}</td>
+        <td>{{user[4]}}</td>
+        <td>{{user[5]}}</td>
+        <td>{{user[6]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

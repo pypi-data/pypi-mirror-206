@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: harlequin
+Version: 0.0.2
+Summary: A Text User Interface for DuckDB
+License: MIT
+Author: Ted Conbeer
+Author-email: tconbeer@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: duckdb (>=0.7.1,<0.8.0)
+Requires-Dist: textual (>=0.22.3,<0.23.0)
+Description-Content-Type: text/markdown
+
+# harlequin
+A Text User Interface for DuckDB.
+
+(A Harlequin is a [pretty duck](https://en.wikipedia.org/wiki/Harlequin_duck).)
+![harlequin](harlequin.jpg)
+
+## Installing Harlequin
+
+Use `pip` or `pipx`:
+
+```bash
+pipx install harlequin
+```
+
+## Using Harlequin
+
+To open a DuckDB database file:
+
+```bash
+harlequin "path/to/duck.db"
+```
+
+To open an in-memory DuckDB session, run Harlequin with no arguments:
+
+```bash
+harlequin
+```
+
+When Harlequin is open, you can view the schema of your DuckDB database in the left sidebar.
+
+To run a query, enter your code in the main text input, then press Ctrl+Enter. You should see the data appear in the pane below.
+
+You can press Tab or use your mouse to change the focus between the panes.
+
+When the focus is on the data pane, you can use your arrow keys or mouse to select different cells.

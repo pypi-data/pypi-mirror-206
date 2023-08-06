@@ -1,0 +1,10 @@
+geographiclib
+lxml
+matplotlib
+netcdf4
+numpy
+openpyxl
+pandas
+pysftp
+requests
+tqdm

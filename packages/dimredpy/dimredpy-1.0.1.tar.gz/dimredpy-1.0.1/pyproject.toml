@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "dimredpy"
+version = "1.0.1"
+description = "Dimensionality reduction techniques in python, built on JAX"
+authors = ["Alex Kiefer <alkiefer@iu.edu>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "dimpy"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+pandas = "*"
+numpy = "*"
+jax = "*"
+seaborn = "*"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project.urls]
+"Homepage" = "https://github.com/alexk101/dimredpy"

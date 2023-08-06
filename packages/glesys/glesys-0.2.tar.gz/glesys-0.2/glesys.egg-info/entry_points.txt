@@ -1,0 +1,5 @@
+[certbot.plugins]
+dns-glesys = glesys.hooks.letsencrypt:Authenticator
+
+[console_scripts]
+glesys = glesys:run_as_a_module

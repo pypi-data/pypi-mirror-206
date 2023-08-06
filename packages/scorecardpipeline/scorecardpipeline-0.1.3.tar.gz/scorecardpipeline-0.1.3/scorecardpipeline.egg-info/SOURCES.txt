@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+scorecardpipeline/__init__.py
+scorecardpipeline.egg-info/PKG-INFO
+scorecardpipeline.egg-info/SOURCES.txt
+scorecardpipeline.egg-info/dependency_links.txt
+scorecardpipeline.egg-info/top_level.txt

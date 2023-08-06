@@ -1,0 +1,3 @@
+[console_scripts]
+tap-openexchangerates=tap_openexchangerates.tap:Tapopenexchangerates.cli
+

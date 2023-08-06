@@ -1,0 +1,8 @@
+tap_openexchangerates/__init__.py,sha256=yw0nRKUZQmBf6Hn5gfxFz_gHaTei8nHFZA6gvQaXUBA,33
+tap_openexchangerates/client.py,sha256=jjoJS5PdoIOQNufJ9PliLs10SEiJg93oq86IAenREXc,1283
+tap_openexchangerates/streams.py,sha256=zMXq9-S2NlAy-bQUM7B-m47mkK6lOLKlssJ8C_So0po,6082
+tap_openexchangerates/tap.py,sha256=rdeSVXUozJR0ILy2Lqy4iUDAPzE0LLLEGyUJloC8PgM,1680
+tap_openexchangerates-0.0.1.dist-info/METADATA,sha256=icfF8u052hrd-TRsFWHvgt0ABoQz45DRRQ9Fk8W8CtU,4089
+tap_openexchangerates-0.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+tap_openexchangerates-0.0.1.dist-info/entry_points.txt,sha256=ivFCeFVKvnQBHmY05uhOwpA2v3SBdnB7nUjFSH9ckDU,92
+tap_openexchangerates-0.0.1.dist-info/RECORD,,

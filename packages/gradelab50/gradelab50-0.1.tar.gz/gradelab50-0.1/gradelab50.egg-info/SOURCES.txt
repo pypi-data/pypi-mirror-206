@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+gradelab50/__init__.py
+gradelab50/main.py
+gradelab50.egg-info/PKG-INFO
+gradelab50.egg-info/SOURCES.txt
+gradelab50.egg-info/dependency_links.txt
+gradelab50.egg-info/entry_points.txt
+gradelab50.egg-info/requires.txt
+gradelab50.egg-info/top_level.txt
+gradelab50/templates/compraiz.jinja2
+gradelab50/templates/default.jinja2

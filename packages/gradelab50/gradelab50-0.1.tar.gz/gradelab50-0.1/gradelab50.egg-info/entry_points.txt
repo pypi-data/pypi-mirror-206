@@ -1,0 +1,2 @@
+[console_scripts]
+gradelab50 = gradelab50.main:main

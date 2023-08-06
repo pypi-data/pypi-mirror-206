@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: ml-infer
+Version: 0.0.3
+Summary: Inference toolkit for machine learning models
+Home-page: https://github.com/codekansas/inference
+Author: Benjamin Bolte
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch (>=2.0.0)
+Provides-Extra: coreml
+Requires-Dist: coremltools ; extra == 'coreml'
+Provides-Extra: dev
+Requires-Dist: matplotlib ; extra == 'dev'
+Requires-Dist: networkx ; extra == 'dev'
+Requires-Dist: numpy ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: cmake ; extra == 'dev'
+Requires-Dist: darglint ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pybind11 ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Requires-Dist: clang-format ; extra == 'dev'
+Requires-Dist: cmake-format ; extra == 'dev'
+Provides-Extra: tensorrt
+Requires-Dist: tensorrt ; extra == 'tensorrt'
+
+# Infer
+
+`infer` is a toolchain for doing optimized neural network inference with a number of different backends.
+
+## Installation
+
+Install from `pip`:
+
+```bash
+pip install ml-infer
+# With development dependencies
+pip install 'ml-infer[dev]'
+# With TensorRT support
+pip install 'ml-infer[tensorrt]'
+# With CoreML support
+pip install 'ml-infer[coreml]'
+# With developer dependencies and TensorRT support
+pip install 'ml-infer[dev,tensorrt]'
+# With developer dependencies and CoreML support
+pip install 'ml-infer[dev,coreml]'
+```
+
+## Supported Backend
+
+- TensorRT
+- CoreML
+
+## References
+
+- [Official TensorRT Export Pipeline](https://github.com/pytorch/TensorRT)
+- [Official CoreML Repository](https://github.com/apple/coremltools)

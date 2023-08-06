@@ -1,0 +1,1 @@
+build_torch_extension(inference)

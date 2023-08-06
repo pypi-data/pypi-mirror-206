@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simplemathpkg"
+authors = [
+    {name = "Ganesh Babu", email = "inboxofgb@gmail.com"},
+]
+description = "My package description"
+readme = "README.txt"
+requires-python = ">=3.7"
+version = "0.6.0"
+keywords = ["one", "two"]
+license = {text = "MIT License"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+]

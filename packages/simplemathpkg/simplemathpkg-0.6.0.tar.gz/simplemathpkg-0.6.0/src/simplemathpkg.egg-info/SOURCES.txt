@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/math_pkg/__init__.py
+src/math_pkg/__pycache__/__init__.cpython-310.pyc
+src/math_pkg/double_pkg/__init__.py
+src/math_pkg/double_pkg/double_module.py
+src/math_pkg/double_pkg/__pycache__/__init__.cpython-310.pyc
+src/math_pkg/double_pkg/__pycache__/double_module.cpython-310.pyc
+src/math_pkg/square_pkg/__init__.py
+src/math_pkg/square_pkg/square_module.py
+src/math_pkg/square_pkg/__pycache__/__init__.cpython-310.pyc
+src/math_pkg/square_pkg/__pycache__/square.cpython-310.pyc
+src/simplemathpkg.egg-info/PKG-INFO
+src/simplemathpkg.egg-info/SOURCES.txt
+src/simplemathpkg.egg-info/dependency_links.txt
+src/simplemathpkg.egg-info/top_level.txt

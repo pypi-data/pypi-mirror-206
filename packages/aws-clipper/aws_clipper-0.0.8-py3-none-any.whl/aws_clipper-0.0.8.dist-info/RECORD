@@ -1,0 +1,8 @@
+aws_clipper/__init__.py,sha256=e7c8Cw5Dm6Xm7q_qp9FmBmkLooQ5ZjutNYvB1BPwVyU,2789
+aws_clipper/__main__.py,sha256=GeExjNYOG0IR_6U0o8srYsxeW_BbZrRhGgg7giFPJAo,65
+aws_clipper/cli.py,sha256=yF6k7cMPAeQkAQV2enUfj0Oq6uf7ZINywy2qcs5E2kw,1323
+aws_clipper-0.0.8.dist-info/LICENSE,sha256=RByHnK76uCNzGlkWJ1j9XL_RzC8SwUl0O9f1XqRmlDA,1070
+aws_clipper-0.0.8.dist-info/METADATA,sha256=535k0bvzfh4UnmVoKmSXlXH9p7fRwMr2FVN7ajzfp5M,1734
+aws_clipper-0.0.8.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+aws_clipper-0.0.8.dist-info/entry_points.txt,sha256=Q2F9kv-kbipso02lNlRFmxmPMCMVRqV29Exk1yx6Xuw,52
+aws_clipper-0.0.8.dist-info/RECORD,,

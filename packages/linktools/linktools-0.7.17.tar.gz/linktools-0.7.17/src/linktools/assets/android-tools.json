@@ -1,0 +1,13 @@
+{
+    "ANDROID_TOOL_BRIDGE_APK": {
+        "name": "android-tools.apk",
+        "md5": "2b65996900751aece5138b43b4f41b4d",
+        "main": "android.tools.Main",
+        "size": 82779,
+        "time": "2023-05-04 00:48:38"
+    },
+    "ANDROID_TOOL_FRIDA_SERVER": {
+        "name": "frida-server-{version}-android-{abi}",
+        "url": "https://github.com/frida/frida/releases/download/{version}/frida-server-{version}-android-{abi}.xz"
+    }
+}

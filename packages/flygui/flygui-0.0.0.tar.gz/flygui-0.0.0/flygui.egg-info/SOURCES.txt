@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+./flygui/__init__.py
+flygui.egg-info/PKG-INFO
+flygui.egg-info/SOURCES.txt
+flygui.egg-info/dependency_links.txt
+flygui.egg-info/not-zip-safe
+flygui.egg-info/top_level.txt

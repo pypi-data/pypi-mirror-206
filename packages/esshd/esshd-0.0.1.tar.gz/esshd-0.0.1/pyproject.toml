@@ -1,0 +1,5 @@
+# $Id: pyproject.toml 2540 2023-05-03 02:05:33Z dima $
+
+[project]
+name = "esshd"
+version = "0.0.1"

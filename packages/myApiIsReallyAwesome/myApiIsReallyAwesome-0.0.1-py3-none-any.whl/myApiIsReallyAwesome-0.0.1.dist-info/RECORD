@@ -1,0 +1,9 @@
+myApiIsReallyAwesome/__init__.py,sha256=WNJt5TKSZqtfBf2lxLcoyVqdgLuG2XohnEyl1zW4LvY,25
+myApiIsReallyAwesome/app.py,sha256=rxACgGlbbKLBzG5MKGZYpLH1v-MFS2ivDNkl54AriAk,207
+myApiIsReallyAwesome/model/__init__.py,sha256=F0PYgCDbpbbZdhNHwwpVH4nHDP6jdk1w6hpPpUgbsU8,31
+myApiIsReallyAwesome/model/duduModel.py,sha256=BcuXkQZvIoE0hzPY4jPZZK3eMTXi9njYndtjRRqlVFQ,116
+myApiIsReallyAwesome/resources/dusetup.py,sha256=Y0OM7qoGeuaUlc4nOTaOnlnU4ttHHH3CAkJ9GfmOmuQ,1048
+myApiIsReallyAwesome-0.0.1.dist-info/METADATA,sha256=xMvCyMftlXirmKWDm3w4g-ZBw7kZHzdEHTa0WgSUBaE,379
+myApiIsReallyAwesome-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+myApiIsReallyAwesome-0.0.1.dist-info/top_level.txt,sha256=UxJe185hGETTkLQXo87vLfw61RTNlQthu8KVqiwfGR8,21
+myApiIsReallyAwesome-0.0.1.dist-info/RECORD,,

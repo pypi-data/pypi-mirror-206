@@ -1,0 +1,6 @@
+setup.py
+spock_signature_extension.egg-info/PKG-INFO
+spock_signature_extension.egg-info/SOURCES.txt
+spock_signature_extension.egg-info/dependency_links.txt
+spock_signature_extension.egg-info/requires.txt
+spock_signature_extension.egg-info/top_level.txt

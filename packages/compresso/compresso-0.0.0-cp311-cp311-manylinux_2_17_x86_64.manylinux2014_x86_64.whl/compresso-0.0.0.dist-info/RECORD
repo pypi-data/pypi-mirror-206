@@ -1,0 +1,12 @@
+compresso.cpython-311-x86_64-linux-gnu.so,sha256=m6tiJhBogyggH7ZNRJlRz7wuQ2BLWW0rihnb-HNbRbA,9243360
+compresso-0.0.0.dist-info/RECORD,,
+compresso-0.0.0.dist-info/METADATA,sha256=NLrQLHHe8rpJ8MSJlCJOzHxbOWp33S66kSSH7e5RY1g,13495
+compresso-0.0.0.dist-info/LICENSE,sha256=nKaEqFRlx8wKp9ElsZVmqu1VzoNC3rIUROw_J8fTX_I,1152
+compresso-0.0.0.dist-info/COPYING.LESSER,sha256=QY-vetiEQe4Sf_TQTurV8Z2oXnDp9TCfq-RhMtf_D5I,7553
+compresso-0.0.0.dist-info/top_level.txt,sha256=fPvA5iPMKpsUMYb-N471dA14Gp69UC4AWTj9oDoBfew,24
+compresso-0.0.0.dist-info/WHEEL,sha256=zcODeksSPXfEVqloqbuxG5DqZN6qJmVdi0EN9bjsiGQ,152
+compresso-0.0.0.dist-info/pbr.json,sha256=IxlzES18lmGYiedB_m-YUoy2Y_HwT5lWdTNVcZLx_MI,47
+compresso-0.0.0.dist-info/entry_points.txt,sha256=nH8T-D4gOact5yibX0upPKlR_HGxUJOk2lUM2wZTCB8,49
+compresso-0.0.0.dist-info/AUTHORS,sha256=Aa4H7O3dtmfq0lF_eATudy11i8K6QAI8LykzASr9bL0,52
+compresso_cli/__init__.py,sha256=b1VfA4Miuu-0YE_wHw-wr3KiXYVsnIfhQy2XCeP4VEs,18
+compresso_cli/cli.py,sha256=Tk_aFILLxV8y3Ykp5ULoZKPeZE-bbKsFtvYdgZFGGtY,4054

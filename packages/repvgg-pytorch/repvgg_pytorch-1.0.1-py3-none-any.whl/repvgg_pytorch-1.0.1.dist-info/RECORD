@@ -1,0 +1,9 @@
+repvgg_pytorch/__init__.py,sha256=xeeRQxLYQR3ZnYU9rdplmycvA9RFHmqA7ie2RQ-PFZc,178
+repvgg_pytorch/repvgg.py,sha256=5oDKJFs_4tcvjbqZD1uMxmZ_3S6l_yOkblLQjEJErIA,16875
+repvgg_pytorch/repvggplus.py,sha256=bUOeAEZ2kbCWd0tn5KCLP7AkOjHRWDwOyvt0EyFm7uQ,17679
+repvgg_pytorch/se_block.py,sha256=nsw-R8DAw1HHA6PpUBj2XckJFcqXl8l27oANoiR0_a0,867
+repvgg_pytorch-1.0.1.dist-info/LICENSE,sha256=ilXDO3iMjqMaGWWTFmaDG6IRP80sbGDdYvlQkAt1a-g,1062
+repvgg_pytorch-1.0.1.dist-info/METADATA,sha256=Zm4kgyekg9hDmM1SqcDE-6yQueDCsV7GysBfFqF7uUY,3329
+repvgg_pytorch-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+repvgg_pytorch-1.0.1.dist-info/top_level.txt,sha256=kbqhIZ89ugHhck3iOTl2KbHXFpf65ydYJtXFNI0QHJI,15
+repvgg_pytorch-1.0.1.dist-info/RECORD,,

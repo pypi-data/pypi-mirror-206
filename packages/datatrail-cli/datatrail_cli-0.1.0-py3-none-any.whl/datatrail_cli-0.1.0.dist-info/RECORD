@@ -1,0 +1,10 @@
+dtcli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dtcli/cli.py,sha256=WJCMNfvBLWXr6KLZxbyG5Tjb4Yi0i5VD0bm8Wg4Xi_4,759
+dtcli/ls.py,sha256=l_ExwWiwPEWmqItydTiWHFoLUmmq7mX5BvCw2ZHFF0A,166
+dtcli/ps.py,sha256=bCbiIdu_ZbklBoIJ1D7A33HXFIwobZvS9JQXgFULJ-g,249
+dtcli/pull.py,sha256=5y_VB1d-_Chw_Dsy56yxI1DY3K0tA8ijsWX_KukGUCg,583
+datatrail_cli-0.1.0.dist-info/LICENSE,sha256=JUMLURuKC3-Xsk-EJ6X4yD81vZdPF9o-eBzQ-OpQcjs,1080
+datatrail_cli-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+datatrail_cli-0.1.0.dist-info/entry_points.txt,sha256=wsGrS5oP4zGuRuKYs71yM4Vpx5lQBIysA0Bdx3RbgI8,43
+datatrail_cli-0.1.0.dist-info/METADATA,sha256=wThkvnDGb5Vs-2pIegwkq-f7HR3wKjVULUrGb-I_XsE,647
+datatrail_cli-0.1.0.dist-info/RECORD,,

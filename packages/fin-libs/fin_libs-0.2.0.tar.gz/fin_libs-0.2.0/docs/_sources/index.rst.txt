@@ -1,0 +1,14 @@
+Welcome to fin-libs's documentation!
+====================================
+
+This is a first header
+------------------------------------------------
+
+* These
+* are
+* some
+* bullets
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Contents: 

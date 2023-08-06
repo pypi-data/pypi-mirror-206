@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to fin_libs’s documentation! &mdash; fin_libs 0.1.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            fin_libs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Welcome to fin_libs’s documentation!</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-install-fin-libs">How to install fin_libs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#library-usage">Library usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-fin_libs.compound_annual_growth_rate">compound_annual_growth_rate</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fin_libs.compound_annual_growth_rate.calculate_compound_annual_growth_rate"><code class="docutils literal notranslate"><span class="pre">calculate_compound_annual_growth_rate()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fin_libs.compound_annual_growth_rate.print_calculate_compound_annual_growth_rate"><code class="docutils literal notranslate"><span class="pre">print_calculate_compound_annual_growth_rate()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#module-fin_libs.dividends">dividends</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fin_libs.dividends.calculate_dividend_rate"><code class="docutils literal notranslate"><span class="pre">calculate_dividend_rate()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fin_libs.dividends.calculate_dividend_yield"><code class="docutils literal notranslate"><span class="pre">calculate_dividend_yield()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#module-fin_libs.eps">eps</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fin_libs.eps.calculate_eps"><code class="docutils literal notranslate"><span class="pre">calculate_eps()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#module-fin_libs.income">income</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fin_libs.income.calculate_net_income"><code class="docutils literal notranslate"><span class="pre">calculate_net_income()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#module-fin_libs.interest.compound">interest.compound</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fin_libs.interest.compound.calculate_compound_interest"><code class="docutils literal notranslate"><span class="pre">calculate_compound_interest()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#module-fin_libs.interest.simple">interest.simple</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fin_libs.interest.simple.calculate_simple_interest"><code class="docutils literal notranslate"><span class="pre">calculate_simple_interest()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#module-fin_libs.linear_least_squares">linear_least_squares</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fin_libs.linear_least_squares.do_linear_least_squares_regression"><code class="docutils literal notranslate"><span class="pre">do_linear_least_squares_regression()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fin_libs.linear_least_squares.plot_linear_least_squares_regression"><code class="docutils literal notranslate"><span class="pre">plot_linear_least_squares_regression()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#module-fin_libs.price">price</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fin_libs.price.calculate_price_to_book_value"><code class="docutils literal notranslate"><span class="pre">calculate_price_to_book_value()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fin_libs.price.calculate_price_to_earning"><code class="docutils literal notranslate"><span class="pre">calculate_price_to_earning()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#module-fin_libs.weighted_average">weighted_average</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fin_libs.weighted_average.compute_weighted_average"><code class="docutils literal notranslate"><span class="pre">compute_weighted_average()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">fin_libs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Welcome to fin_libs’s documentation!</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="welcome-to-fin-libs-s-documentation">
+<h1>Welcome to fin_libs’s documentation!<a class="headerlink" href="#welcome-to-fin-libs-s-documentation" title="Permalink to this heading">¶</a></h1>
+<p>Fin Libs is a Python library that exposes tools for financial analytics. This includs functions to calculate:
+* simple and compound interest
+* compound annual growth rate
+* weighted average
+* linear least squares
+* earning per share
+* net income</p>
+<section id="how-to-install-fin-libs">
+<h2>How to install fin_libs<a class="headerlink" href="#how-to-install-fin-libs" title="Permalink to this heading">¶</a></h2>
+<p>This library can be installed by running <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">fin_libs</span></code> given that you already have Python and <code class="docutils literal notranslate"><span class="pre">pip</span></code> installed.</p>
+</section>
+<section id="library-usage">
+<h2>Library usage<a class="headerlink" href="#library-usage" title="Permalink to this heading">¶</a></h2>
+<p>Example usage of each library module is included in the documentation of that module.</p>
+</section>
+<section id="module-fin_libs.compound_annual_growth_rate">
+<span id="compound-annual-growth-rate"></span><h2>compound_annual_growth_rate<a class="headerlink" href="#module-fin_libs.compound_annual_growth_rate" title="Permalink to this heading">¶</a></h2>
+<p>Library module to compute compund annual growth rate</p>
+<p>Typical usage example:</p>
+<blockquote>
+<div><p>rate = calculate_compound_annual_growth_rate(71, 100, 4)</p>
+</div></blockquote>
+<dl class="py function">
+<dt class="sig sig-object py" id="fin_libs.compound_annual_growth_rate.calculate_compound_annual_growth_rate">
+<span class="sig-prename descclassname"><span class="pre">fin_libs.compound_annual_growth_rate.</span></span><span class="sig-name descname"><span class="pre">calculate_compound_annual_growth_rate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">first</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">last</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">years</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fin_libs.compound_annual_growth_rate.calculate_compound_annual_growth_rate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate compound annual growth rate</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>first</strong> (<em>float</em>) – starting value</p></li>
+<li><p><strong>last</strong> (<em>float</em>) – ending value</p></li>
+<li><p><strong>years</strong> (<em>int</em>) – number of years</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>calculated compound annual growth rate</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="fin_libs.compound_annual_growth_rate.print_calculate_compound_annual_growth_rate">
+<span class="sig-prename descclassname"><span class="pre">fin_libs.compound_annual_growth_rate.</span></span><span class="sig-name descname"><span class="pre">print_calculate_compound_annual_growth_rate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">first</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">last</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">years</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fin_libs.compound_annual_growth_rate.print_calculate_compound_annual_growth_rate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Print compound annaul growth rate</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>first</strong> (<em>float</em>) – starting value</p></li>
+<li><p><strong>last</strong> (<em>float</em>) – ending value</p></li>
+<li><p><strong>years</strong> (<em>int</em>) – number of years</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-fin_libs.dividends">
+<span id="dividends"></span><h2>dividends<a class="headerlink" href="#module-fin_libs.dividends" title="Permalink to this heading">¶</a></h2>
+<p>Library module to compute dividend information</p>
+<p>Typical usage example:</p>
+<blockquote>
+<div><p>aapl_dr = calculate_dividend_rate(“AAPL”)</p>
+</div></blockquote>
+<dl class="py function">
+<dt class="sig sig-object py" id="fin_libs.dividends.calculate_dividend_rate">
+<span class="sig-prename descclassname"><span class="pre">fin_libs.dividends.</span></span><span class="sig-name descname"><span class="pre">calculate_dividend_rate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ticker</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fin_libs.dividends.calculate_dividend_rate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate dividend rate</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>ticker</strong> (<em>str</em>) – name of the ticker</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>dividend rate</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="fin_libs.dividends.calculate_dividend_yield">
+<span class="sig-prename descclassname"><span class="pre">fin_libs.dividends.</span></span><span class="sig-name descname"><span class="pre">calculate_dividend_yield</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ticker</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fin_libs.dividends.calculate_dividend_yield" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate dividend yield</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>ticker</strong> (<em>str</em>) – name of the ticker</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>dividend yield</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-fin_libs.eps">
+<span id="eps"></span><h2>eps<a class="headerlink" href="#module-fin_libs.eps" title="Permalink to this heading">¶</a></h2>
+<p>Library module to compute earnings per share</p>
+<p>Typical usage example:</p>
+<blockquote>
+<div><p>aapl_eps = calculate_eps(“AAPL”)</p>
+</div></blockquote>
+<dl class="py function">
+<dt class="sig sig-object py" id="fin_libs.eps.calculate_eps">
+<span class="sig-prename descclassname"><span class="pre">fin_libs.eps.</span></span><span class="sig-name descname"><span class="pre">calculate_eps</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ticker</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fin_libs.eps.calculate_eps" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate Earnings per Share</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>ticker</strong> (<em>str</em>) – the ticker for which we should calculate the EPS</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>the EPS</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-fin_libs.income">
+<span id="income"></span><h2>income<a class="headerlink" href="#module-fin_libs.income" title="Permalink to this heading">¶</a></h2>
+<p>Library module to compute net income</p>
+<p>Typical usage example:</p>
+<blockquote>
+<div><p>net_income = calculate_net_income(“earnings.csv”, “transactions”)</p>
+</div></blockquote>
+<dl class="py function">
+<dt class="sig sig-object py" id="fin_libs.income.calculate_net_income">
+<span class="sig-prename descclassname"><span class="pre">fin_libs.income.</span></span><span class="sig-name descname"><span class="pre">calculate_net_income</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">csv_file_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">col_name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fin_libs.income.calculate_net_income" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate net income</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>csv_file_path</strong> (<em>str</em>) – expect csv_file_path to have column with
+positive and negative values for money in &amp; out</p></li>
+<li><p><strong>col_name</strong> (<em>str</em>) – name of the column</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>the net income</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-fin_libs.interest.compound">
+<span id="interest-compound"></span><h2>interest.compound<a class="headerlink" href="#module-fin_libs.interest.compound" title="Permalink to this heading">¶</a></h2>
+<p>Library package to calculate compound interest</p>
+<p>Typical usage example:</p>
+<blockquote>
+<div><p>compound_interest = calculate_compound_interest(100, 5, 2)</p>
+</div></blockquote>
+<dl class="py function">
+<dt class="sig sig-object py" id="fin_libs.interest.compound.calculate_compound_interest">
+<span class="sig-prename descclassname"><span class="pre">fin_libs.interest.compound.</span></span><span class="sig-name descname"><span class="pre">calculate_compound_interest</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">principal</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rate</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fin_libs.interest.compound.calculate_compound_interest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate compound interest</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>principal</strong> (<em>float</em>) – principal amount</p></li>
+<li><p><strong>rate</strong> (<em>float</em>) – interest rate</p></li>
+<li><p><strong>time</strong> (<em>int</em>) – time</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>compound interest</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-fin_libs.interest.simple">
+<span id="interest-simple"></span><h2>interest.simple<a class="headerlink" href="#module-fin_libs.interest.simple" title="Permalink to this heading">¶</a></h2>
+<p>Library package to calculate simple interest</p>
+<p>Typical usage example:</p>
+<blockquote>
+<div><p>simple_interest = calculate_simple_interest(100, 5, 2)</p>
+</div></blockquote>
+<dl class="py function">
+<dt class="sig sig-object py" id="fin_libs.interest.simple.calculate_simple_interest">
+<span class="sig-prename descclassname"><span class="pre">fin_libs.interest.simple.</span></span><span class="sig-name descname"><span class="pre">calculate_simple_interest</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">principal</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rate</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fin_libs.interest.simple.calculate_simple_interest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate simple interest</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>principal</strong> (<em>float</em>) – principal amount</p></li>
+<li><p><strong>rate</strong> (<em>float</em>) – interest rate</p></li>
+<li><p><strong>time</strong> (<em>int</em>) – time</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>simple interest</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-fin_libs.linear_least_squares">
+<span id="linear-least-squares"></span><h2>linear_least_squares<a class="headerlink" href="#module-fin_libs.linear_least_squares" title="Permalink to this heading">¶</a></h2>
+<p>Library package to compute linear least squares regression</p>
+<p>Typical usage example:</p>
+<blockquote>
+<div><p>x, y, y_pred = do_linear_least_squares_regression(“data.csv”)
+plot_linear_least_squares_regression(x, y, y_pred, “red”)</p>
+</div></blockquote>
+<dl class="py function">
+<dt class="sig sig-object py" id="fin_libs.linear_least_squares.do_linear_least_squares_regression">
+<span class="sig-prename descclassname"><span class="pre">fin_libs.linear_least_squares.</span></span><span class="sig-name descname"><span class="pre">do_linear_least_squares_regression</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">csv_file_path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fin_libs.linear_least_squares.do_linear_least_squares_regression" title="Permalink to this definition">¶</a></dt>
+<dd><p>Does linear least squares regression</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>csv_file_path</strong> (<em>string</em>) – file path where data is located</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>x coefficient
+int: y coefficient
+int: y predictor coefficient</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="fin_libs.linear_least_squares.plot_linear_least_squares_regression">
+<span class="sig-prename descclassname"><span class="pre">fin_libs.linear_least_squares.</span></span><span class="sig-name descname"><span class="pre">plot_linear_least_squares_regression</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y_pred</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">color</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'yellow'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fin_libs.linear_least_squares.plot_linear_least_squares_regression" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plots chart of linear least squares regression</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>x</strong> (<em>int</em>) – x coefficient</p></li>
+<li><p><strong>y</strong> (<em>int</em>) – y coefficient</p></li>
+<li><p><strong>y_pred</strong> (<em>int</em>) – y predictor coefficient</p></li>
+<li><p><strong>color</strong> (<em>string</em><em>, </em><em>optional</em>) – color</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-fin_libs.price">
+<span id="price"></span><h2>price<a class="headerlink" href="#module-fin_libs.price" title="Permalink to this heading">¶</a></h2>
+<p>Module to calculate stock price ratios</p>
+<p>Typical usage example:</p>
+<blockquote>
+<div><p>apple_pe = calculate_price_to_earning(“AAPL”)
+apple_pbv = calculate_price_to_book_value(“AAPL”)</p>
+</div></blockquote>
+<dl class="py function">
+<dt class="sig sig-object py" id="fin_libs.price.calculate_price_to_book_value">
+<span class="sig-prename descclassname"><span class="pre">fin_libs.price.</span></span><span class="sig-name descname"><span class="pre">calculate_price_to_book_value</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ticker</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fin_libs.price.calculate_price_to_book_value" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate Price to Book Value Ratio (P/BV)</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>ticker</strong> (<em>str</em>) – the ticker for which we should calculate the ratio</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>the ratio</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="fin_libs.price.calculate_price_to_earning">
+<span class="sig-prename descclassname"><span class="pre">fin_libs.price.</span></span><span class="sig-name descname"><span class="pre">calculate_price_to_earning</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ticker</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fin_libs.price.calculate_price_to_earning" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate Price to Earnings Ratio (P/E)</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>ticker</strong> (<em>str</em>) – the ticker for which we should calculate the ratio</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>the ratio</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-fin_libs.weighted_average">
+<span id="weighted-average"></span><h2>weighted_average<a class="headerlink" href="#module-fin_libs.weighted_average" title="Permalink to this heading">¶</a></h2>
+<p>Library package to compute the weighted average</p>
+<p>Typical usage example:</p>
+<blockquote>
+<div><p>weighted_avg = compute_weighted_average(“data.csv”, “values”, “weights”)</p>
+</div></blockquote>
+<dl class="py function">
+<dt class="sig sig-object py" id="fin_libs.weighted_average.compute_weighted_average">
+<span class="sig-prename descclassname"><span class="pre">fin_libs.weighted_average.</span></span><span class="sig-name descname"><span class="pre">compute_weighted_average</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">csv_file_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">distr_col</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">weights_col</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fin_libs.weighted_average.compute_weighted_average" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute weighted average</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>csv_file_path</strong> (<em>str</em>) – file path string</p></li>
+<li><p><strong>distr_col</strong> (<em>str</em>) – column name for distribution</p></li>
+<li><p><strong>weights_col</strong> (<em>str</em>) – column name for weights</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>weighted average</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<div class="toctree-wrapper compound">
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Anne Zepecki.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

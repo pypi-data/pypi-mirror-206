@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/img_compress/__init__.py
+src/img_compress/compress.py
+src/imgm_compress.egg-info/PKG-INFO
+src/imgm_compress.egg-info/SOURCES.txt
+src/imgm_compress.egg-info/dependency_links.txt
+src/imgm_compress.egg-info/requires.txt
+src/imgm_compress.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+#!python
+import sys
+
+if __name__ == "__main__":
+    from pyvpsolver import VPSolver
+
+    assert len(sys.argv) in (2, 3)
+    afg_fname = sys.argv[1]
+    assert afg_fname.endswith(".afg")
+    if len(sys.argv) == 3:
+        svg_fname = sys.argv[2]
+        assert svg_fname.endswith(".svg")
+    else:
+        svg_fname = afg_fname.rstrip(".afg") + ".svg"
+    VPSolver.afg2svg(afg_fname, svg_fname)

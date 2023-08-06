@@ -1,0 +1,14 @@
+yjs_widgets/__init__.py,sha256=UQiT_qRNthxK1cU8BHlMMILcUG0KgwGqEOip8SdGr9k,131
+yjs_widgets/_version.py,sha256=73xmj_rtt0boRuIZ0h5wqHItFsCNZHTC-Wa0tSeAxyY,171
+yjs_widgets-0.2.0.data/data/share/jupyter/labextensions/yjs-widgets/package.json,sha256=dTbUG84fZ2m3VF2MGvkBIQ6KxJIslTGI_LEKHbpiCo0,3972
+yjs_widgets-0.2.0.data/data/share/jupyter/labextensions/yjs-widgets/static/621.248439076cbd57521cd4.js,sha256=JIQ5B2y9V1Ic1PCUf445GsFbLLO8I-OaekPp4oKq7wA,5835
+yjs_widgets-0.2.0.data/data/share/jupyter/labextensions/yjs-widgets/static/711.6ee63a4059cfff269327.js,sha256=buY6QFnP_yaTJ4V2e16E3O68GaG3XH91Z2LLNEz0MEs,6063
+yjs_widgets-0.2.0.data/data/share/jupyter/labextensions/yjs-widgets/static/747.80badd890825c6c1996c.js,sha256=gLrdiQglxsGZbI7xeM1ZvhbAQpxf67pMaxrT2ZAsxdU,4002
+yjs_widgets-0.2.0.data/data/share/jupyter/labextensions/yjs-widgets/static/remoteEntry.cdeb0912fd87e4dc76a1.js,sha256=zesJEv2H5Nx2oR5Hhpw5H_CG4x1m3f0gKoPFoozhsUI,6761
+yjs_widgets-0.2.0.data/data/share/jupyter/labextensions/yjs-widgets/static/style.js,sha256=sEitQ9AKVISaDDYbF4zFFpwZ-8VmyHwtAkTOWqsIn5c,154
+yjs_widgets-0.2.0.data/data/share/jupyter/labextensions/yjs-widgets/static/third-party-licenses.json,sha256=Yn-8JlDOP-1GhSfaSbXjUvCCFJIgQloS0fJ6Fpi23vo,6202
+yjs_widgets-0.2.0.data/data/share/jupyter/labextensions/yjs-widgets/install.json,sha256=iUpK0DtOU92HAiTFTliZqqrRD5VJs-_ZZSLd7BqqEVQ,183
+yjs_widgets-0.2.0.dist-info/METADATA,sha256=bJs_TMI7MV0YjqLe8A6URW_--q4gZxl8isJQkaqbDkY,4691
+yjs_widgets-0.2.0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+yjs_widgets-0.2.0.dist-info/licenses/LICENSE,sha256=38_Tuvhatd1blph2e9eDrLhWTy3_lIOCANs_7coybFY,1516
+yjs_widgets-0.2.0.dist-info/RECORD,,

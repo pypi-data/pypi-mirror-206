@@ -1,0 +1,2 @@
+[console_scripts]
+create_stc = create_stc.create_streamlit_comp:run

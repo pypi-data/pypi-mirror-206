@@ -1,0 +1,6 @@
+recursive-include create_stc *
+recursive-exclude create_stc/template/my_component/frontend/node_modules *
+recursive-exclude create_stc/template/my_component/frontend/build *
+recursive-exclude create_stc/template/my_component.egg-info *
+recursive-exclude create_stc/template/build *
+recursive-exclude create_stc/template/dist *

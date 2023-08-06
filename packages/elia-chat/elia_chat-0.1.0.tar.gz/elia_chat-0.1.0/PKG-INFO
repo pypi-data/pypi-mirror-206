@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: elia-chat
+Version: 0.1.0
+Summary: A terminal interface to ChatGPT.
+Author: Darren Burns
+Author-email: darrenb900@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: openai (>=0.27.5,<0.28.0)
+Requires-Dist: textual[dev] (>=0.18.0)
+Description-Content-Type: text/markdown
+
+# Elia
+
+A quick experiment using Textual to demonstrate how you might
+build a ChatGPT client in the terminal.
+

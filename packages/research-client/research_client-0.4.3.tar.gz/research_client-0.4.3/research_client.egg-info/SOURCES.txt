@@ -1,0 +1,12 @@
+LICENSE
+LICENSE.AGPL-3.0
+LICENSE.EUPL-1.2
+README.rst
+pyproject.toml
+setup.cfg
+research_client.egg-info/PKG-INFO
+research_client.egg-info/SOURCES.txt
+research_client.egg-info/dependency_links.txt
+research_client.egg-info/not-zip-safe
+research_client.egg-info/requires.txt
+research_client.egg-info/top_level.txt

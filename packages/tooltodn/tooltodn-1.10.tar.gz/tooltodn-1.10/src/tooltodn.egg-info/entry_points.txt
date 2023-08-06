@@ -1,0 +1,3 @@
+[console_scripts]
+my_c1 = dna_audit_tool:main.callhere
+

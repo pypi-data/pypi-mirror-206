@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+patopdf.egg-info/PKG-INFO
+patopdf.egg-info/SOURCES.txt
+patopdf.egg-info/dependency_links.txt
+patopdf.egg-info/top_level.txt

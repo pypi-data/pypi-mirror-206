@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "mx-sphinx-click"
+version = "0.0.0"
+readme = "README.md"
+description = ""
+authors = []
+packages = [{include = "mx_sphinx_click"}]
+
+[tool.poetry.dependencies]
+python = "^3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

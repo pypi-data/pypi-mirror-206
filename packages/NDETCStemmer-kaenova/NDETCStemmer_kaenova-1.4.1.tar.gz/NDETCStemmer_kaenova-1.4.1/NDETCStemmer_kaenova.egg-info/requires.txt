@@ -1,0 +1,5 @@
+nltk
+gensim
+gdown
+checksumdir
+huggingface_hub

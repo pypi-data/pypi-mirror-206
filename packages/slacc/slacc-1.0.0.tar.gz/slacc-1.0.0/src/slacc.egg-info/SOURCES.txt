@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/slacc/__init__.py
+src/slacc/__main__.py
+src/slacc/config.json
+src/slacc.egg-info/PKG-INFO
+src/slacc.egg-info/SOURCES.txt
+src/slacc.egg-info/dependency_links.txt
+src/slacc.egg-info/entry_points.txt
+src/slacc.egg-info/requires.txt
+src/slacc.egg-info/top_level.txt

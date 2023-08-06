@@ -1,0 +1,4 @@
+[console_scripts]
+sconfig = slacc.__main__:write_conf
+sinteract = slacc.__main__:interact
+slaunch = slacc.__main__:launch

@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: scs-re
+Version: 1.0
+Summary: Modification of cpython `re` module in which patterns match any string that is a prefix of a matching string under its regex

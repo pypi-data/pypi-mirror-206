@@ -1,0 +1,5 @@
+MJOLNIRGui
+MJOLNIRGui\src
+MJOLNIRGui\src\freeze
+MJOLNIRGui\src\freeze\windows
+MJOLNIRGui\src\freeze\windows\MJOLNIR

@@ -1,0 +1,14 @@
+lightmotif/__init__.py,sha256=A5k2Qva9aSgILNEqkEwS0v4kFZJV6-g0VwjftBddkmU,399
+lightmotif/arch.cpython-310-darwin.so,sha256=wQAgP-RBF22DkMidSKj3nNx17mTBBdA6No4QhW-ADxM,452776
+lightmotif/lib.cpython-310-darwin.so,sha256=XqvhZ0nrga8kN1adilyRUSzpqqFEKOot2llInFegwhc,627064
+lightmotif/avx2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lightmotif/avx2/lib.cpython-310-darwin.so,sha256=XqvhZ0nrga8kN1adilyRUSzpqqFEKOot2llInFegwhc,627064
+lightmotif/tests/test_dna.py,sha256=Id8KKUsMhewJpkvQXZdhEuT_wt0BOB3Xjcz0vOfDWKI,1460
+lightmotif/tests/__init__.py,sha256=H10Jpu6uJyUPSWZwAYfiYq4aYzDsmHOZIz5fFrn7m5g,139
+lightmotif/tests/unittest.rs,sha256=_J5x4WPnpIKCWgBWRTHZ4gZkApYoBEbeS6rNbyr0BK8,1757
+lightmotif-0.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+lightmotif-0.1.1.dist-info/RECORD,,
+lightmotif-0.1.1.dist-info/WHEEL,sha256=YkgppTG7ykOlXc_zwnXV9-VBXF-Nf0nL_gt0JCpKtEA,110
+lightmotif-0.1.1.dist-info/COPYING,sha256=gjc-4BjloJlLnT70onjmay99ePKgf00618tEbXavCkA,1098
+lightmotif-0.1.1.dist-info/top_level.txt,sha256=v_ynh2gr_I4KdZc-5cw0kVx8wHnfySKdMKSl_Bm8Zpk,11
+lightmotif-0.1.1.dist-info/METADATA,sha256=WW5hjfEiTY5ufwKJpQ2YNBREp5QQHlc0OPIq3UzyZns,10660

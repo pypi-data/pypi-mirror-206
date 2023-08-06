@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/dataset_librarian.egg-info/PKG-INFO
+src/dataset_librarian.egg-info/SOURCES.txt
+src/dataset_librarian.egg-info/dependency_links.txt
+src/dataset_librarian.egg-info/requires.txt
+src/dataset_librarian.egg-info/top_level.txt
+src/package/__init__.py
+src/package/subpackage/__init__.py
+src/package/subpackage/test.py

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pymicro365
+Version: 0.0.5
+Summary: This is a module to simplify closing the PC
+Home-page: https://sites.google.com/view/infocommunity365/projects/pymicro365
+Author: Informatic365
+Author-email: chen.runkang1@gmail.com
+Requires-Python: >=3.10
+
+This is a module to simplify functions of the MicroSoftware

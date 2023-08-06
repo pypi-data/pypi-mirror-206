@@ -1,0 +1,9 @@
+body {
+    background-image: url("/static/images/background.png");
+    background-size: cover;
+    position: relative;
+}
+
+main {
+    border-radius: 1em;
+}

@@ -1,0 +1,7 @@
+_package_name_: "bts"
+name: "jejubts"
+authors: "Jiyeon Kim <202021013@chu.ac.kr>"
+description: "bts project"
+homepage: "https://202021013.github.io/bts"
+license: "MIT"
+version: "0.1.1"

@@ -1,0 +1,12 @@
+tonaton.py,sha256=7iXJNCpQAAXRmLwJ5zsBVnICKLKlp6fD5DycmFhNpdc,5535
+jumia/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jumia/scraper.py,sha256=tdokxWoNM2ry4tTM0wLJoaH9xUkhbuNKiu3jb0VcLgs,4572
+jumia/utils.py,sha256=bceFjQct_W2r5KfrqYXb-b80sQl3LxlSwjWLyi5WPa0,790
+tonaton/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tonaton/scraper.py,sha256=RhOAKX-enw2p2fzUReyufHeoPs1jKmUrhaRuP1wlsnc,5804
+tonaton/scrapy.py,sha256=b2fOYBmopUtG4TAlpmNVHVwkbzYbeAZf775C7zIKbtU,4914
+tonaton/utils.py,sha256=bceFjQct_W2r5KfrqYXb-b80sQl3LxlSwjWLyi5WPa0,790
+ghanashops_scraper-0.0.11.dist-info/METADATA,sha256=6VY7uY5b9JPQlIdptpNyQcfzbnwjdewN8yXNUzGedLs,3761
+ghanashops_scraper-0.0.11.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+ghanashops_scraper-0.0.11.dist-info/top_level.txt,sha256=JFcpCB0RHaLQ-ug3K80xtYhx6Xv8nNiRlem4zhKDFE8,14
+ghanashops_scraper-0.0.11.dist-info/RECORD,,

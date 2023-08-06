@@ -1,0 +1,15 @@
+ipfs_dict_chain/CID.py,sha256=01uSIZDobEWfoN5K337RSFPYmtoxlsLhPF4KEhC-uoc,1774
+ipfs_dict_chain/IPFS.py,sha256=IDh8xoRxay71jhts_Tuvrtau6e2yCrqicvzkDacUKwE,4416
+ipfs_dict_chain/IPFSDict.py,sha256=_E3BpdUzkfiJrOtvGw0XqJiXdn8vwDBrJCdqBbFJwIA,2334
+ipfs_dict_chain/IPFSDictChain.py,sha256=GMZySs-SSA1WJek3f-6vI9uhSfzZHHaYdH1hx0_HiEE,3472
+ipfs_dict_chain/__init__.py,sha256=9tD6PdiLZ4tR3bxINr3rG3tb5A5u_Dca4D3z1soA-vA,101
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_CID.py,sha256=Paidzn4j_bDdnnSC5AH7m8Ci8cAa8psQ74aFM2E8rr0,1660
+tests/test_IPFS.py,sha256=gjnzG-giLGYA_QC7mjOgIY_xpPCbnkikoPPa1tgEjnI,1145
+tests/test_IPFSDict.py,sha256=-8BGLQobyNEsrmyeUCXkS2EgZ5_geVidyCLk9jVrF1A,1485
+tests/test_IPFSDictChain.py,sha256=VeEW-wZ2sJMNo-XcBZutmypPngiIKXETw_uafktq-r0,1644
+ipfs_dict_chain-1.0.3.dist-info/LICENSE,sha256=PmvrIu3AQwoCDw71vLmYqyEZZtfDUC0Jo7TVHwBlUdA,1091
+ipfs_dict_chain-1.0.3.dist-info/METADATA,sha256=iq-c-iuiVvfmQVHENjrxVvHmuDWYXdptq_gEm6mvtHc,647
+ipfs_dict_chain-1.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ipfs_dict_chain-1.0.3.dist-info/top_level.txt,sha256=823CeCv7d3bFPCNoHGsXYqC_KAhsKBMV_Sqo4r2waGI,16
+ipfs_dict_chain-1.0.3.dist-info/RECORD,,

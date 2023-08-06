@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+elliotpdf/__init__.py
+elliotpdf/pdf2image.py
+elliotpdf/pdf2text.py
+elliotpdf.egg-info/PKG-INFO
+elliotpdf.egg-info/SOURCES.txt
+elliotpdf.egg-info/dependency_links.txt
+elliotpdf.egg-info/top_level.txt

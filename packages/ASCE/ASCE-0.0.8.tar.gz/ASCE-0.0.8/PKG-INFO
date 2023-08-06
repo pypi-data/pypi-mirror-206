@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: ASCE
+Version: 0.0.8
+Summary: ASCE is a simple program that operates on matrices
+Home-page: UNKNOWN
+Author: CZB ASCE GROUP
+Author-email: sandrine.sila@net.usj.edu.lb
+License: MIT
+Description: ASCE is a simple program that operates on matrices. Some of the operations are:add, substract, multiply,triangle_inf, triangle_sup, determinant,trace,inverse... The purpose of this project is to find an algorithm that can multiply matrices with a better time complexity than the normal code(Strassen)
+Keywords: library
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

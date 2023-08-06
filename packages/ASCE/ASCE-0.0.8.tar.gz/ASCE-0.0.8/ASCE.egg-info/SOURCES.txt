@@ -1,0 +1,8 @@
+LICENSE
+README.txt
+setup.py
+ASCE/__init__.py
+ASCE.egg-info/PKG-INFO
+ASCE.egg-info/SOURCES.txt
+ASCE.egg-info/dependency_links.txt
+ASCE.egg-info/top_level.txt

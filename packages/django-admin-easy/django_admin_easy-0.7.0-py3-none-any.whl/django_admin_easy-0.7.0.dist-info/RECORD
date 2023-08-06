@@ -1,0 +1,17 @@
+easy/__init__.py,sha256=FUKs3-O_pRGv_d4agYG72bea4uLcXX2ijOHDx7fVwoM,521
+easy/helper.py,sha256=PxQa_mRlI8AUDCg7pKnqIDF5nZ1BOzkr-Gj9GVGzhts,2615
+easy/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy/six.py,sha256=3ngWh5776AUDzkUxgdEP3UzAig_eZEIM5Jg7C5euDv4,500
+easy/tests.py,sha256=xoL7Z53Pqo-m_p6iz8z-tBXeFR1Qd7sJ6LtNh5qAw04,16107
+easy/util.py,sha256=CRdBCVdoaO5rTeZ7Z1QKlAo5-D2t-uGv2TVtIAc1ejk,407
+easy/admin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy/admin/decorators.py,sha256=jfxYYYtDrNxLOmiE5ScTDriP8dJCWvO4twCkmoiEze0,3909
+easy/admin/field.py,sha256=1GxYULdussFVq0FDVcUFLgR-sr1mZ57tGy3KctplC0c,8533
+easy/admin/mixin.py,sha256=9wcQYlaWrH5HKJv72_7he5i9bTkiZaUHQ-uosBpQ6II,1577
+test_app/migrations/0001_initial.py,sha256=LCv-jCyfHkZcS8zbMgPkHVExD0LVDMRYjCi7A3K9gDM,1645
+test_app/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_admin_easy-0.7.0.dist-info/LICENSE.md,sha256=ab5cQLdGqDAFGv8d1xliESeDokB_bnJ-CWINY2m-mjA,1072
+django_admin_easy-0.7.0.dist-info/METADATA,sha256=orjDFUoF2xq_U6AoGP8NoXdIutz4AiVGztPxr4mpr7M,15730
+django_admin_easy-0.7.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+django_admin_easy-0.7.0.dist-info/top_level.txt,sha256=wT58-kzNTBTshP2KKcPTC5pQlchIzTaJH-Z2Ij-X6vI,14
+django_admin_easy-0.7.0.dist-info/RECORD,,

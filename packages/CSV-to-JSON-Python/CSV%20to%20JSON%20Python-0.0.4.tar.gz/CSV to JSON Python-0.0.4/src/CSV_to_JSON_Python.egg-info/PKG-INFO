@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: CSV-to-JSON-Python
+Version: 0.0.4
+Summary: This is a package used to convert csv data to a json object
+Home-page: https://testpypi.org/project/CSV to JSON Python/
+Author: Paul Ndambo
+Author-email: paulkadabo@gmail.com
+Project-URL: Bug Tracker, https://testpypi.org/project/CSV to JSON Python/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt

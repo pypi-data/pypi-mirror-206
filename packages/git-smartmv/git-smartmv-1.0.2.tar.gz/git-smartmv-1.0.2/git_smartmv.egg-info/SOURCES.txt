@@ -1,0 +1,10 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+git_smartmv/__init__.py
+git_smartmv.egg-info/PKG-INFO
+git_smartmv.egg-info/SOURCES.txt
+git_smartmv.egg-info/dependency_links.txt
+git_smartmv.egg-info/entry_points.txt
+git_smartmv.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+git-smartmv = git_smartmv.__init__:command_line_interface

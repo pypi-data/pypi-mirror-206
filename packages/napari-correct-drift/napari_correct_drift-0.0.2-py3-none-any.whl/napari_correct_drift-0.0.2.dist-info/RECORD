@@ -1,0 +1,15 @@
+napari_correct_drift/__init__.py,sha256=bbrur6hbZ6e1Q2FLFa5vX7khYAO84Q1lSrquRSVHsvA,375
+napari_correct_drift/_core.py,sha256=7icPSatdW7q4JQr5CrmG9ZDHT8P1NRWsFd6IHScwlTI,18849
+napari_correct_drift/_sample_data.py,sha256=wxKJPakkvY0Hk2bEfkVpPKzXBCxTBgl0HgQ2LDFj7Qs,3529
+napari_correct_drift/_widget.py,sha256=1bvPLchT7Lid8nZTUbNLQ4_RwG_xxDuGXWIPqZVhBcg,18236
+napari_correct_drift/napari.yaml,sha256=m-_wPMOhd074oCzY4alJSpaslk5lEevwNvLoUGm-FzU,1133
+napari_correct_drift/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_correct_drift/_tests/test_core.py,sha256=RR93uUXaL1IDz-D2MbVWakY78Lu2Vx_Z_HjMejVQs0Y,6896
+napari_correct_drift/_tests/test_sample_data.py,sha256=rRDLE9ScC614w5oqrFZY-1WSriktU5SvUKcIGDMtko0,111
+napari_correct_drift/_tests/test_widget.py,sha256=hfej05swd5KI8LYCx2ZUZnFFw8d26h2OGsloDTfzSGw,845
+napari_correct_drift-0.0.2.dist-info/LICENSE,sha256=w7-F0XhfUCTnY7qRL7Of4C9rlfth0l6hW7WLIKzRvJs,1491
+napari_correct_drift-0.0.2.dist-info/METADATA,sha256=mEqDFeb0Zm9bLlM7THi8aMESgGZUKlZqPDGoiccxAEU,4169
+napari_correct_drift-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+napari_correct_drift-0.0.2.dist-info/entry_points.txt,sha256=O4G1P1-Qd-sJU5RKD-aT_c412L1xa-LwLk4Lx9fe3K0,74
+napari_correct_drift-0.0.2.dist-info/top_level.txt,sha256=N2OqfD1BMEoY660KcC9NJXSy57wG1jkzoSYUZZvj694,21
+napari_correct_drift-0.0.2.dist-info/RECORD,,

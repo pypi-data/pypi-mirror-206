@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+prda.egg-info/PKG-INFO
+prda.egg-info/SOURCES.txt
+prda.egg-info/dependency_links.txt
+prda.egg-info/requires.txt
+prda.egg-info/top_level.txt

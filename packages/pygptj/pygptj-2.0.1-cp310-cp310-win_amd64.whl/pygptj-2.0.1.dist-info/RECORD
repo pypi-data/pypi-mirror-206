@@ -1,0 +1,12 @@
+_pygptj.cp310-win_amd64.pyd,sha256=hvANKsSbtyqyqHTmUVlrdCzL4WvEEPbCut9co0H7UuM,377344
+pygptj/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygptj/_logger.py,sha256=WFVAqybw6Iv37eWJ-8EHK3Jf_TK_LDcVbfgCsMvjD8E,661
+pygptj/cli.py,sha256=HNqmLL7XUvWtS0_l2m81cKq1YIF9XHLBnUxxmCgwOtg,3113
+pygptj/constants.py,sha256=VAqymCP0cjyFtVUdXTf9JkWY3_Epyj276CoQbceIlFY,144
+pygptj/model.py,sha256=6sahBfYID0ruhlQU51sG5AMM2YfvvRvrdNm03FJMmlI,11803
+pygptj-2.0.1.dist-info/LICENSE,sha256=HqeugnSeeR1FNP0tVPb7tFS7EEtPOhNc6JL0l9TPXlU,1094
+pygptj-2.0.1.dist-info/METADATA,sha256=tRu89unyFemVw8uOXgg8ubVbMJLzXHjIfSaQc8ONI20,3581
+pygptj-2.0.1.dist-info/WHEEL,sha256=jrOhEbqKwvzRFSJcbYXlJCyVkgVdHg4_7__YHrdTUfw,102
+pygptj-2.0.1.dist-info/entry_points.txt,sha256=fA64gG98oWKgfYNYu6JulyZYBteogz963FJi-SVULEY,43
+pygptj-2.0.1.dist-info/top_level.txt,sha256=ueJs6t2fn4ggNMTihnxehDIaCVfGKh80LGrJNh1B7cw,15
+pygptj-2.0.1.dist-info/RECORD,,

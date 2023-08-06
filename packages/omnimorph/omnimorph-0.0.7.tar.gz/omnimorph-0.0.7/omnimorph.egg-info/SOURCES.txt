@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+omnimorph.egg-info/PKG-INFO
+omnimorph.egg-info/SOURCES.txt
+omnimorph.egg-info/dependency_links.txt
+omnimorph.egg-info/requires.txt
+omnimorph.egg-info/top_level.txt

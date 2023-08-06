@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: graphdisplay
+Version: 0.2.0
+Summary: Librería para representar visualmente grafos de tipo diccionario
+Home-page: https://github.com/seniorbeto
+Author: Alberto Penas Díaz
+Author-email: albertopenasdiaz@gmail.com
+License: MIT
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# graphdisplay
+Es un paquete de python elaborado e ideado por Alberto Penas Díaz, 
+cuya finalidad es facilitar la visualización de grafos a los alumnos de 
+Estructuras de Datos y Algoritmos de la universidad Carlos III de Madrid. 
+Actualmente solo soporta la visualización de 
+grafos implementados a través de un diccionario, tal y como se aportan como 
+código base en la asignatura.

@@ -1,0 +1,8 @@
+README.md
+setup.py
+automlgpt/__init__.py
+automlgpt.egg-info/PKG-INFO
+automlgpt.egg-info/SOURCES.txt
+automlgpt.egg-info/dependency_links.txt
+automlgpt.egg-info/not-zip-safe
+automlgpt.egg-info/top_level.txt

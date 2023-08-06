@@ -1,0 +1,2 @@
+[console_scripts]
+locksmith = locksmith.locksmith:main

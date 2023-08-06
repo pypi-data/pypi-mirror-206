@@ -1,0 +1,81 @@
+Metadata-Version: 1.2
+Name: anysolve
+Version: 1.0.1
+Summary: AnySolve.ai Client library
+Home-page: https://github.com/aaad/anysolve
+Author: Simon Hecht
+Author-email: simon_hecht@hotmail.com
+License: License :: OSI Approved :: The Unlicense (Unlicense)
+Description: Python Library anysolve
+        ========================================
+        
+        `anysolve` is a library for executing `AnySolve.ai <https://www.anysolve.ai>`_ tasks. It needs an `API-Key` that can be created in the settings of an anysolve.ai account. The settings can be found at https://www.anysolve.ai/settings.
+        
+        Please *note* that the execution of an `AnySolve.ai <https://www.anysolve.ai>`_ task may be chargeable.
+        
+        Installation
+        ~~~~~~~~~~~~
+        
+        You can install this library by using pip. The library is designed to use only requests as dependency. 
+        
+        Supported Python Versions
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+        Python >= 3.6
+        
+        Mac/Linux
+        ^^^^^^^^^
+        
+        .. code-block:: console
+        
+            pip3 install anysolve
+        
+        
+        Windows
+        ^^^^^^^
+        
+        .. code-block:: console
+        
+            pip.exe install anysolve
+        
+        
+        Example Usage
+        ~~~~~~~~~~~~~
+        
+        Translation of a text (free):
+        
+        .. code:: python
+        
+            from anysolve import AnySolve
+        
+            client = AnySolve(
+                "your_api_key"
+            )
+        
+            result = client.run(
+                "intern-translation-free",
+                "1.0.0",
+                {
+                    "source_language": "de",
+                    "text": "Das ist ein rotes Haus.",
+                    "target_language": "en",
+                },
+            )
+        
+            print(result)
+        
+        
+Platform: Posix; MacOS X; Windows
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6

@@ -1,0 +1,10 @@
+README.md
+setup.py
+ChordScaleWizard/__init__.py
+ChordScaleWizard/chord.py
+ChordScaleWizard/note.py
+ChordScaleWizard/scale.py
+ChordScaleWizard.egg-info/PKG-INFO
+ChordScaleWizard.egg-info/SOURCES.txt
+ChordScaleWizard.egg-info/dependency_links.txt
+ChordScaleWizard.egg-info/top_level.txt

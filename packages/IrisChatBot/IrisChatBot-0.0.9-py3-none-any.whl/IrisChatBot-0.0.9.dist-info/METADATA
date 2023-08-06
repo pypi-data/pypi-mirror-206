@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: IrisChatBot
+Version: 0.0.9
+Home-page: http://devops:8181/cloud/irischatbot
+Author: Chapter Cloud and DevOps
+Author-email: clouddevops@elektra.com.mx
+License: License :: OSI Approved :: MIT License
+Keywords: BAZ,Cobranza,Cloud,Iris,Bot,ChatBot,Core
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE.txt
+

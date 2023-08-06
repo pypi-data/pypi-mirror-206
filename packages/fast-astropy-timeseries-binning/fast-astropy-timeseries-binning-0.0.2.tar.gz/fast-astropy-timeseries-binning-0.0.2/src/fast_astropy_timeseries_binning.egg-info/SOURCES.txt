@@ -1,0 +1,16 @@
+.clang-format
+.gitignore
+CMakeLists.txt
+LICENSE
+pyproject.toml
+setup.py
+.github/dependabot.yml
+.github/workflows/wheels.yml
+src/fast_astropy_timeseries_binning.cpp
+src/fast_astropy_timeseries_binning/__init__.py
+src/fast_astropy_timeseries_binning/reducer.py
+src/fast_astropy_timeseries_binning/version.py
+src/fast_astropy_timeseries_binning.egg-info/PKG-INFO
+src/fast_astropy_timeseries_binning.egg-info/SOURCES.txt
+src/fast_astropy_timeseries_binning.egg-info/dependency_links.txt
+src/fast_astropy_timeseries_binning.egg-info/top_level.txt

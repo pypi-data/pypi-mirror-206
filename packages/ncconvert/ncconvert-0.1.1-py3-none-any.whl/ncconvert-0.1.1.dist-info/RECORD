@@ -1,0 +1,13 @@
+ncconvert/__init__.py,sha256=n4QUHOkfwl1hT2di_Ni0kRvIyGKu_GzCs81i1BD3qHs,132
+ncconvert/__main__.py,sha256=GXWizC9mg3a-2Fi96xVn4c__GWdyfosquTK044_vhNc,72
+ncconvert/_version.py,sha256=aDfNBQh0vsVL7CSgYEMdMUbrxVw92raLxMivH20w2A4,160
+ncconvert/cli.py,sha256=DhcX3FBzML14mLFL7QHjsW_pGlqRa_53vT32cg6rVyY,2993
+ncconvert/csv.py,sha256=j5W8VuN03C8ipPIi0vD2BR9O7GM5weLYR02iTNlK1TY,3240
+ncconvert/parquet.py,sha256=3iKoMo-MV2NqT8OA42T1O7_CIHkxuXUSaeDnWtUtMz8,3254
+ncconvert/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ncconvert/utils.py,sha256=DrlYi1ytmuml1QIrY-Cq96JEuc9pBPTRtTLDRp0NaAE,1990
+ncconvert-0.1.1.dist-info/METADATA,sha256=qY1Bn2F5YuBsrk8_N2Jc0fl9k7TcrCb1wibK5I4knXw,1711
+ncconvert-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ncconvert-0.1.1.dist-info/entry_points.txt,sha256=nMsZJYq27_kTyCVq_C7jMUOnLB7YlDHlIE3UnLIVc9A,48
+ncconvert-0.1.1.dist-info/top_level.txt,sha256=Mb07s7KYrzbVG7RaNsriA9V0kAJml1WjWnbWO8r9Tjs,10
+ncconvert-0.1.1.dist-info/RECORD,,

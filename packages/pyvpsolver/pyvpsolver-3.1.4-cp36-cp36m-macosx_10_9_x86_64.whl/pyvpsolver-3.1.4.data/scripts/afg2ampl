@@ -1,0 +1,5 @@
+#!python
+import sys
+from _afg2ampl import swig_main
+
+sys.exit(swig_main(len(sys.argv), [x.encode("ascii") for x in sys.argv]))

@@ -1,0 +1,15 @@
+numpy
+scipy
+more-itertools
+pyyaml
+mako
+pytest
+pytest-cov
+future
+flake8
+pylint
+qcelemental==0.25.1
+pint==0.18
+
+[:python_version > "3.8"]
+importlib-metadata

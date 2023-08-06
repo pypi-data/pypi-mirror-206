@@ -1,0 +1,17 @@
+sdmbc/__init__.py,sha256=EGwXysZKymnRj49JYQhUq6r2stRUAEbp5F_H-uitPzM,94
+sdmbc/analysis_plot.py,sha256=jUy5P0IvU5PzTv60hIkpKrZOjYCFOiwZwB8GnmmSb4E,8578
+sdmbc/bias_correction.py,sha256=p6IjU-8HuTlUdeARH-iEfnNTg5ZX1VDoXFIIABNq9Xs,9609
+sdmbc/figurefunction.py,sha256=TALHoywyKgywDt802YhjbnS5h5w3UVJUbLJ2ZsoDaIg,23687
+sdmbc/main_biascorrection.exe,sha256=4hMHo0hlAZ68qFbO9nKsYrx49YZSCaYu0te2TAxACXY,151600
+sdmbc/output_reformatter.py,sha256=iDnXe_WzpJdfZ2dseo8lQVF1PBwhrCbW3Q_E2v0fDLA,14217
+sdmbc/user_input.py,sha256=0QsLzmBiD5wzdEvCkT40M_iLusUeiI03C7QusVM93xY,3661
+tests/__init__.py,sha256=XTVxiciK1j3Ok9CqLNH-8q4dXyt-MD4vLFb1-dxDpV0,56
+tests/analysis_plot.py,sha256=WZNPVqZqNVnV5Eeit8jJEo5_rSxraBKkDiv_IPUGPhw,8475
+tests/bias_correction.py,sha256=XeHD1b2Is4DMFq_DCZdUKA7LxgMPh42QzXLaKpFpVjI,9543
+tests/figurefunction.py,sha256=GHpvupLTGE2jnaWy3mXFqy532K4fPaFLXWRCmqWjEPc,23797
+tests/output_reformatter.py,sha256=iDnXe_WzpJdfZ2dseo8lQVF1PBwhrCbW3Q_E2v0fDLA,14217
+sdmbc-0.1.1.dist-info/LICENSE,sha256=5YY27c2xB-_LCbmTDjSd8kyoUID9QIV2gCNER7GCuM0,1068
+sdmbc-0.1.1.dist-info/METADATA,sha256=tGuu-JaRSjeoKcrc_7LZhBP2IFeMBOQrPxwB1rE2mEY,15074
+sdmbc-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sdmbc-0.1.1.dist-info/top_level.txt,sha256=G69_WR1VGsXfpiQA-7eGLLnTSQ1HdqxJ5zcXfYZlKgY,12
+sdmbc-0.1.1.dist-info/RECORD,,

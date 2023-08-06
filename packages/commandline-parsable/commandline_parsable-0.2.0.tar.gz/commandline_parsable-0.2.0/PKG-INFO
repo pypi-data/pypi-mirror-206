@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: commandline_parsable
+Version: 0.2.0
+Summary: Choose subclass based on commandline options
+Home-page: https://github.com/Bernhard10/commandline-parsable
+Author: Bernhard Thiel
+Author-email: thiel@tbi.univie.ac.at
+License-File: LICENSE

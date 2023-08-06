@@ -1,0 +1,17 @@
+autogon_internal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogon_internal/autoClassification/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogon_internal/autoClassification/base.py,sha256=7XpI_jJjcKPHaE5KBgLAKJwZ7eTRzg6itkqcg15uaO0,3987
+autogon_internal/autoFeatureEngineering/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogon_internal/autoFeatureEngineering/base.py,sha256=8GhYR2mVZ8fe4lmQrIxzG14cJEGXILQ7ogF8uBd5fCw,17242
+autogon_internal/autoRegression/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogon_internal/autoRegression/base.py,sha256=xdgQ0KwFQRZ5lukNI480WDmvIXpArtsatRqpR8MJ75c,2809
+autogon_ml/autoClassification/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogon_ml/autoClassification/base.py,sha256=7XpI_jJjcKPHaE5KBgLAKJwZ7eTRzg6itkqcg15uaO0,3987
+autogon_ml/autoFeatureEngineering/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogon_ml/autoFeatureEngineering/base.py,sha256=8GhYR2mVZ8fe4lmQrIxzG14cJEGXILQ7ogF8uBd5fCw,17242
+autogon_ml/autoRegression/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogon_ml/autoRegression/base.py,sha256=xdgQ0KwFQRZ5lukNI480WDmvIXpArtsatRqpR8MJ75c,2809
+autogonML-1.0.0.dist-info/METADATA,sha256=4OXSmQp8WRo5DbxG_6rf0tleH-UQVlOhIJmPJF-q0_U,1241
+autogonML-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+autogonML-1.0.0.dist-info/top_level.txt,sha256=HlImT5g_V4QpIsULXdsFPyf8DJUsBzKnYEDQTGzI6JE,11
+autogonML-1.0.0.dist-info/RECORD,,

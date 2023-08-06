@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: autogonML
+Version: 1.0.0
+Summary: ...
+Author: Autogon Inc
+Author-email: developer@autogon.ai
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: catboost (==1.1.1)
+Requires-Dist: contourpy (==1.0.7)
+Requires-Dist: cycler (==0.11.0)
+Requires-Dist: fonttools (==4.39.3)
+Requires-Dist: graphviz (==0.20.1)
+Requires-Dist: joblib (==1.2.0)
+Requires-Dist: kiwisolver (==1.4.4)
+Requires-Dist: lightgbm (==3.3.5)
+Requires-Dist: matplotlib (==3.7.1)
+Requires-Dist: numpy (==1.24.3)
+Requires-Dist: packaging (==23.1)
+Requires-Dist: pandas (==2.0.1)
+Requires-Dist: Pillow (==9.5.0)
+Requires-Dist: plotly (==5.14.1)
+Requires-Dist: pyparsing (==3.0.9)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2023.3)
+Requires-Dist: scikit-learn (==1.2.2)
+Requires-Dist: scipy (==1.10.1)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: tenacity (==8.2.2)
+Requires-Dist: threadpoolctl (==3.1.0)
+Requires-Dist: tzdata (==2023.3)
+Requires-Dist: xgboost (==1.7.5)
+

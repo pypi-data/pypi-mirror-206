@@ -1,0 +1,21 @@
+[project]
+name = "DOTSAddressValidation3"
+version = "1.0.3"
+authors = [
+  { name="Service Objects, Inc.", email="support@serviceobjects.com" },
+]
+description = "DOTS Address Validation 3 US (“AV3”) is a new version of our Address Validation and Address Validation 2 Web services. This service utilizes the latest version of python and can be used as a RESTful service. AV3 is designed to take an unstandardized address, validate it against the latest USPS data, and return standardized, deliverable addresses."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://www.serviceobjects.com/address-validation/"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

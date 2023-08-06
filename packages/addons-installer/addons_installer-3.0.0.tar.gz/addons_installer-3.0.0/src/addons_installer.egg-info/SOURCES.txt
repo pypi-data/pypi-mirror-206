@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/addons_installer/__init__.py
+src/addons_installer/addons_installer.py
+src/addons_installer/api.py
+src/addons_installer/git_addons.py
+src/addons_installer/local_addons.py
+src/addons_installer.egg-info/PKG-INFO
+src/addons_installer.egg-info/SOURCES.txt
+src/addons_installer.egg-info/dependency_links.txt
+src/addons_installer.egg-info/requires.txt
+src/addons_installer.egg-info/top_level.txt
+tests/test_addons_finder.py
+tests/test_git_addons.py
+tests/test_local_addons.py

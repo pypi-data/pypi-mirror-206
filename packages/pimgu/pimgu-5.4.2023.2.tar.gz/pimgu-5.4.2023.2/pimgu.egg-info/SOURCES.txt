@@ -1,0 +1,9 @@
+README.md
+setup.py
+pimgu/__init__.py
+pimgu/applet.py
+pimgu.egg-info/PKG-INFO
+pimgu.egg-info/SOURCES.txt
+pimgu.egg-info/dependency_links.txt
+pimgu.egg-info/requires.txt
+pimgu.egg-info/top_level.txt

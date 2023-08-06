@@ -1,0 +1,9 @@
+README.md
+setup.py
+emailnator/__init__.py
+emailnator/emailnator.py
+emailnator.egg-info/PKG-INFO
+emailnator.egg-info/SOURCES.txt
+emailnator.egg-info/dependency_links.txt
+emailnator.egg-info/requires.txt
+emailnator.egg-info/top_level.txt

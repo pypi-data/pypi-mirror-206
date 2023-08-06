@@ -1,0 +1,6 @@
+include auto_screener\source
+include requirements.txt
+include build.py
+include test.py
+include requirements-dev.txt
+include pyproject.toml

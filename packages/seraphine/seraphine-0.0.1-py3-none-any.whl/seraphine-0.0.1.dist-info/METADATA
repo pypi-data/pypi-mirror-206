@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: seraphine
+Version: 0.0.1
+Author: nshout
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: Topic :: Security
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Requires-Python: >=3.10, <3.13
+License-File: LICENSE
+

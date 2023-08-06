@@ -1,0 +1,11 @@
+httpx
+prettytable
+jinja2
+requests
+yaml
+shutil
+requests_toolbelt
+xmltodict
+validators
+pathlib
+jsonpath

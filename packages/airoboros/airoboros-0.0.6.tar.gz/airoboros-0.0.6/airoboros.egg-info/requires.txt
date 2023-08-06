@@ -1,0 +1,12 @@
+rouge-score>=0.1.2
+aiohttp>=3.8
+backoff>=2.2
+requests>=2.28
+loguru>=0.7
+chromadb>=0.3.21
+langchain>=0.0.155
+sentence-transformers>=2.2.2
+
+[dev]
+black
+flake8

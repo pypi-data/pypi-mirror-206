@@ -1,0 +1,12 @@
+peppercorn
+opencv-python
+mediapipe
+screeninfo
+cvzone
+pika
+
+[dev]
+check-manifest
+
+[test]
+coverage

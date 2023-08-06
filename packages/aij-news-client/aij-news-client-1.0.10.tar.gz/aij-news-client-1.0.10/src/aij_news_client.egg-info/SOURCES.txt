@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/aij_news_client.egg-info/PKG-INFO
+src/aij_news_client.egg-info/SOURCES.txt
+src/aij_news_client.egg-info/dependency_links.txt
+src/aij_news_client.egg-info/entry_points.txt
+src/aij_news_client.egg-info/requires.txt
+src/aij_news_client.egg-info/top_level.txt
+src/news_client/__init__.py
+src/news_client/news_consumer.py

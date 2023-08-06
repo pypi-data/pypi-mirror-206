@@ -1,0 +1,6 @@
+README.md
+setup.py
+ft_package_42_jekim.egg-info/PKG-INFO
+ft_package_42_jekim.egg-info/SOURCES.txt
+ft_package_42_jekim.egg-info/dependency_links.txt
+ft_package_42_jekim.egg-info/top_level.txt

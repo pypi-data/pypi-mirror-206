@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: serial_packets
+Version: 0.0.2
+Summary: A Python impelementation of the Serial Packets protocol
+Project-URL: Homepage, https://github.com/zapta/serial_packets_py
+Project-URL: Bug Tracker, https://github.com/zapta/serial_packets_py/issues
+Author-email: Zapta <zapta@zapta.com>
+License-File: LICENSE
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: pyserial-asyncio>=0.6.0
+Requires-Dist: pythoncrc>=1.21.0
+Description-Content-Type: text/markdown
+
+# serial_packets_py
+Python implementations of the Serial Packets protocol.
+
+WORK IN PROGRESS, NOT READY FOR PUBLIC RELEASE.

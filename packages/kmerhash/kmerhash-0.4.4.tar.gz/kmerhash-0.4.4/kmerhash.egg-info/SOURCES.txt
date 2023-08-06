@@ -1,0 +1,17 @@
+LICENSE.md
+MANIFEST.in
+README.rst
+setup.py
+kmerhash/.gitignore
+kmerhash/__init__.py
+kmerhash/hasher.c
+kmerhash/hasher.pxd
+kmerhash/hasher.pyx
+kmerhash.egg-info/PKG-INFO
+kmerhash.egg-info/SOURCES.txt
+kmerhash.egg-info/dependency_links.txt
+kmerhash.egg-info/not-zip-safe
+kmerhash.egg-info/requires.txt
+kmerhash.egg-info/top_level.txt
+kmerhash/tests/__init__.py
+kmerhash/tests/test1.py

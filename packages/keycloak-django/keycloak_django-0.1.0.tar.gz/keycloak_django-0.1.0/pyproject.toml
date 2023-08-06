@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "keycloak-django"
+version = "0.1.0"
+description = ""
+authors = ["David Campos <dcampos@istmocenter.com>"]
+readme = "README.md"
+packages = [{include = "django_keycloak"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-keycloak = "^2.16.1"
+django = "4.1.6"
+django-redis = "^5.2.0"
+requests = "^2.30.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

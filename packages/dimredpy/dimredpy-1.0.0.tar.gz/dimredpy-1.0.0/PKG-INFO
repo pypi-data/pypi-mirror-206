@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dimredpy
+Version: 1.0.0
+Summary: Dimensionality reduction techniques in python, built on JAX
+License: MIT
+Author: Alex Kiefer
+Author-email: alkiefer@iu.edu
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: jax
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Description-Content-Type: text/markdown
+
+Dimensionality reduction techniques in python, built on JAX.
+

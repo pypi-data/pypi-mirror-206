@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: google-form-api
+Version: 0.1.0
+Summary: Asynchronous Module for filling Google Forms
+Project-URL: Homepage, https://github.com/vasyapeteckin/google_form_api
+Author-email: Vasya Peteckin <unik128@gmail.com>
+License-Expression: MIT
+Keywords: api,form,google
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: aiohttp-proxy>=0.1.2
+Requires-Dist: aiohttp>=3.8.4
+Requires-Dist: ua-generator>=0.1.8
+Description-Content-Type: text/markdown
+
+# Google Form API
+
+Asynchronous Module for filling Google Forms
+
+
+# Installing
+
+`pip3 install google-form-api`
+
+# Basic usage
+

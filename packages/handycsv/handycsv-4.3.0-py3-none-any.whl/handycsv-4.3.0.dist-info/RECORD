@@ -1,0 +1,10 @@
+handycsv/__init__.py,sha256=G1CxEWf448Qxz-gRLt9KVhbv6MtyPGbWT3gA428okYw,1719
+handycsv/column_stats.py,sha256=PoA8peveVqll2SMJSC9zA-yHMAQ0oz4ddPS0GjWhhuA,7418
+handycsv/csv.py,sha256=NOADhueCH0V_Vhb5eC-KXzXcDkiWFGZ9SaQaeNjdrgQ,11803
+handycsv/grid_stats.py,sha256=WeCBeYsfDcEpcTO9xQ6o7KghnrxDfuiiIC9DESSgGHo,10480
+handycsv-4.3.0.dist-info/LICENSE,sha256=LFDl4nnq3jjLazg_5KG2p0I5s8CqHVqudhZKNRJXF2c,1525
+handycsv-4.3.0.dist-info/METADATA,sha256=R1L5FS_WSc8cQNDl1oqk-Ai8WZMQ8zQgzBlNVd8TpHk,239
+handycsv-4.3.0.dist-info/NOTICE,sha256=d4hxbudcs2wZkRY3_FtHXf3k4xDfeyEFRzcBj-LpCB0,131
+handycsv-4.3.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+handycsv-4.3.0.dist-info/top_level.txt,sha256=UAgE6kUrTsEL49gPGt0Do2hzMGCf-u-OZJKnLoxKVgs,9
+handycsv-4.3.0.dist-info/RECORD,,

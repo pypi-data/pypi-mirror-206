@@ -1,0 +1,8 @@
+README.md
+setup.py
+pygame_pause/__init__.py
+pygame_pause/pause.py
+pygame_pause.egg-info/PKG-INFO
+pygame_pause.egg-info/SOURCES.txt
+pygame_pause.egg-info/dependency_links.txt
+pygame_pause.egg-info/top_level.txt

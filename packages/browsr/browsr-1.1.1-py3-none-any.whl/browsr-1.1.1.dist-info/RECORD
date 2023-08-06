@@ -1,0 +1,11 @@
+browsr/__init__.py,sha256=jYY7X9MNHdHAuYZ4ZUQsEC0BZ89RbEwTygo2y4ZkVI4,15
+browsr/__main__.py,sha256=NPzeqtpjnRkC4x6CvtpDuW7pZxcQi_pt1iJsE41mV30,110
+browsr/_base.py,sha256=1PLyiRePfIuKOFUcQRL6b-sYhccJGcDMiKiwV9aHco0,4046
+browsr/_version.py,sha256=G6duFGX_YyAfcwdPGLmlTK_M7DRPCMRKP-T5TFPeVT4,153
+browsr/code_browser.css,sha256=ldTSk4n1U6ikfWq4p1TzLJei3Esq9KWv2Kkp3Ci1YaU,434
+browsr/code_browser.py,sha256=6XpL_TFfF7aV2RlVF9W5HNvHoNtt95ODxgLkS9aoS64,11864
+browsr-1.1.1.dist-info/METADATA,sha256=Jz0FLFEWX00SzdUlvA4Gv_DkQshN4ObxEb3jS-92vSE,3953
+browsr-1.1.1.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+browsr-1.1.1.dist-info/entry_points.txt,sha256=ccRaR3GGRHe4wulaqFbEA3XQBbGrHD9yF5aRKvih9CU,50
+browsr-1.1.1.dist-info/licenses/LICENSE.txt,sha256=qwaQCv8zjtFwHkw7N0MTPchlOQKl28GpmZY3EpIkFGQ,1109
+browsr-1.1.1.dist-info/RECORD,,

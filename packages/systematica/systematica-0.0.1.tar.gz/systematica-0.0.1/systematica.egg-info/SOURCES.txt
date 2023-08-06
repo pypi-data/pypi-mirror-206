@@ -1,0 +1,8 @@
+setup.py
+libname/Systematica.py
+libname/__init__.py
+systematica.egg-info/PKG-INFO
+systematica.egg-info/SOURCES.txt
+systematica.egg-info/dependency_links.txt
+systematica.egg-info/requires.txt
+systematica.egg-info/top_level.txt

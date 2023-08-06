@@ -1,0 +1,7 @@
+setup.py
+tensorflow_dataset/__init__.py
+tensorflow_dataset/__main__.py
+tensorflow_dataset.egg-info/PKG-INFO
+tensorflow_dataset.egg-info/SOURCES.txt
+tensorflow_dataset.egg-info/dependency_links.txt
+tensorflow_dataset.egg-info/top_level.txt

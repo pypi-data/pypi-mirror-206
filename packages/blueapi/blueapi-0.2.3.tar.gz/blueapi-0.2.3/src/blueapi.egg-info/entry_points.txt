@@ -1,0 +1,3 @@
+[console_scripts]
+blueapi = blueapi.cli:main
+bluesky = blueapi.cli._deprecated:main

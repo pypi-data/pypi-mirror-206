@@ -1,0 +1,6 @@
+test_reduction.cpython-38-x86_64-linux-gnu.so,sha256=NcFuN1l0chg7tVj9mXd6AMEqMci0NU4SKOVoNC-QPqU,52665
+.libstest_reduction/libgomp-38ea1071.so.1.0.0,sha256=cp5IiwY9IhVSovnCPn1TXnVztJN5Zl0QwyhJvgGbG7c,1025681
+test_reduction-0.0.1.dist-info/METADATA,sha256=NarjFYFxCpWJl4cuVRAqjBrtB4IxluOS19o6P6t6sHk,59
+test_reduction-0.0.1.dist-info/WHEEL,sha256=VEyGcIFAmk_1KbI6gaZGw_mMiT-pdGweASQLX-DzYaY,108
+test_reduction-0.0.1.dist-info/top_level.txt,sha256=ewCGt0JsYcYeUzHkDVeJkNYTx5TeSpGa78r6899M5FQ,15
+test_reduction-0.0.1.dist-info/RECORD,,

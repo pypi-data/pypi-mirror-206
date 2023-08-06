@@ -1,0 +1,5 @@
+pydjot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydjot/download_djot.py,sha256=jBnN5APTRFYy3rlBwmj53yl92rYSdmGdzLwlZYVE5B4,5020
+pydjot-0.0.1.dist-info/METADATA,sha256=qcM3DQYsV22m7LNlgfspCoBbO3DT489p39zJ-n2DcEA,543
+pydjot-0.0.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+pydjot-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: neoscrypt-python
+Version: 1.0.4
+Summary: Bindings for the NeoScrypt proof-of-work algorithm
+Home-page: https://github.com/xaya/neoscrypt_python
+Download-URL: https://github.com/xaya/neoscrypt_python/archive/v1.0.4.tar.gz
+Author: Autonomous Worlds Ltd
+Author-email: info@autonomousworlds.com
+License: MIT
+License-File: LICENSE.txt
+License-File: COPYING

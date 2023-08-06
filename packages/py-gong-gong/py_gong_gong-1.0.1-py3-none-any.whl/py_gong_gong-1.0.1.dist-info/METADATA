@@ -1,0 +1,13 @@
+Metadata-Version: 2.0
+Name: py-gong-gong
+Version: 1.0.1
+Summary: GONG GONG
+Home-page: https://github.com/Arkenbrien/py_gong_gong
+Author: Rhett Huston
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 6 - Mature
+Requires-Dist: playsound
+
+UNKNOWN
+

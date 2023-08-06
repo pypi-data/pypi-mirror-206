@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: american-options
+Version: 0.0.1
+Summary: Demo library
+Home-page: https://american_options.readthedocs.io/
+Author: Przemysław Adamski, Katarzyna Hasal, Kacper Toczek
+Author-email: kat.hasal99@gmail.com
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# American Options Library
+Demo of the Library that is supposed to use various methods to price options of american type.
+
+### Installation
+```
+pip install american_options
+```
+
+### Get started
+How to obtain option price with this library:
+
+```Python
+from american_options import Option
+
+# Instantiate an Option object
+option = Option(100, 100, 0.25, 1)
+
+# Call the pricing method
+result = option.european_call(0.05)
+```

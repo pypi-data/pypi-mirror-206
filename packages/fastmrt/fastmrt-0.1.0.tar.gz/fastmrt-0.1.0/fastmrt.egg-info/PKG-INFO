@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fastmrt
+Version: 0.1.0
+Summary: A package for accerating MR thermometry by deep learning.
+Home-page: https://github.com/minipuding/FastMRT
+Author: Sijie Xu
+Author-email: sijie.x@sjtu.edu.cn
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+## FastMRT
+
+Accelerate MR thermometry from undersampling k-space by deep learning.

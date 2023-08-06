@@ -1,0 +1,9 @@
+jaco2.cp311-win_amd64.pyd,sha256=K-UX1a_VQ6F700xPD0cOWeG2k0REroqTE4PfgVW9BHQ,199168
+jaco2-3.5.data/data/dll_lib/CommandLayerEthernet.dll,sha256=lhQSk5BThZq08hlUqYpi502HkyqD2N2gWwFwFf9rfWo,852480
+jaco2-3.5.data/data/dll_lib/CommandLayerWindows.dll,sha256=S_aG-N5io4SLhQygL_ha61H0hyxBdDd70fbDBbP17Tg,964096
+jaco2-3.5.data/data/dll_lib/CommunicationLayerEthernet.dll,sha256=_ZpKgL-ckpUeo2bDYJcYz1YXdHM5WizbjCIF0Ee_fls,18432
+jaco2-3.5.data/data/dll_lib/CommunicationLayerWindows.dll,sha256=wuQHFK5ZUV45sd0G-q0NuIrhlGteCl6BVfZL6TIx2gE,18432
+jaco2-3.5.dist-info/METADATA,sha256=oexJHp2t2pZShtvGLrBr3B0Zpxfuw_iWpagBv646FWw,138
+jaco2-3.5.dist-info/WHEEL,sha256=9wvhO-5NhjjD8YmmxAvXTPQXMDOZ50W5vklzeoqFtkM,102
+jaco2-3.5.dist-info/top_level.txt,sha256=96aeDvzyMwwznUlytOi2AlCWWw2vNLUuaOddMOdt0AY,6
+jaco2-3.5.dist-info/RECORD,,

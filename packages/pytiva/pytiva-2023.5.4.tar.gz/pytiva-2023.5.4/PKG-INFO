@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pytiva
+Version: 2023.5.4
+Summary: Python Tools for Investigation and Visualziing Activity within anesthesia records
+Author-email: TJ Biel <tjbiel85@gmail.com>
+Project-URL: Homepage, https://github.com/tjbiel85/pytiva
+Project-URL: Bug Tracker, https://github.com/tjbiel85/pytiva/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pytiva
+Python Tools for Investigating and Visualizing Activity (PyTIVA) within anesthetic records
+
+A toolkit for extracting, parsing, and processing anesthesia records and making sense of the activity contained therein.
+
+See the included tutorial.ipynb for examples and how to get started.

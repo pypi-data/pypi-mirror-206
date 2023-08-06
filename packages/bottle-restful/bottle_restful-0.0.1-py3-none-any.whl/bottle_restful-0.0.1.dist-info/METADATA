@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bottle-restful
+Version: 0.0.1
+Summary: REST plugin for Bottle
+Author-email: TJ Renninger <renninger12@gmail.com>
+Project-URL: repository, https://github.com/thepure12/bottle-rest
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bottle
+

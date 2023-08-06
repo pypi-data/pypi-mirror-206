@@ -1,0 +1,8 @@
+README.md
+setup.py
+libname/__init__.py
+libname/hello.py
+testpkg123_abcd.egg-info/PKG-INFO
+testpkg123_abcd.egg-info/SOURCES.txt
+testpkg123_abcd.egg-info/dependency_links.txt
+testpkg123_abcd.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: validio-cli
+Version: 0.0.1
+Summary: CLI tool to interact with the Validio platform
+Home-page: https://validio.io/
+License: Apache-2.0
+Author: Validio
+Author-email: support@validio.io
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Documentation, https://docs.validio.io/

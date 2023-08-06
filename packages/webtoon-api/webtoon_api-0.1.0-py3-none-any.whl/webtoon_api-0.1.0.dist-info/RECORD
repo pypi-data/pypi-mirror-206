@@ -1,0 +1,6 @@
+webtoon_api/__init__.py,sha256=30PWFBkOhqjA_oD_fp3oa64_oFghNov5NrVHmQiq3_Y,36
+webtoon_api/exceptions.py,sha256=gC8dhHfQRFt7HDx6TKLAZYjWWNF2xLtQEvUvhxw_4xA,81
+webtoon_api/webtoon_api.py,sha256=leMxXeNiilFaSCxHrXG66Y5NZrV0y2nQbGKZWxykVJ8,4713
+webtoon_api-0.1.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+webtoon_api-0.1.0.dist-info/METADATA,sha256=nwABkvYnogsxGoK_YjpPniM4HVNN6oVJ6b1iixAzxFU,543
+webtoon_api-0.1.0.dist-info/RECORD,,

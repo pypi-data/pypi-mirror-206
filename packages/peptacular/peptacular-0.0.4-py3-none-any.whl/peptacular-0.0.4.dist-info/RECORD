@@ -1,0 +1,11 @@
+peptacular/__init__.py,sha256=-Wqu9UyJphp-2_EahEsqQvkcE0VBhm1-N7D6e5rANdY,22
+peptacular/constants.py,sha256=21JDkoTFvn-cptupLdh_XTuMFMCs7F-PiMihcege-cU,1078
+peptacular/peptide.py,sha256=hrbdy_xLAFmGg9cji48y62AIvuEaLLzaLw4V08HorHg,6021
+peptacular/protein.py,sha256=RAZdhrEhB7UXzbS9guVUjpmcfkBkCBwprWDSWpDEeoI,6011
+peptacular/refseq.py,sha256=2JSxLKEPzbDvTqIv-XvkN7uJPGnfN2yHV19c7CnmBaQ,2908
+peptacular/util.py,sha256=DBZEc5oKehP9p9FV1W35qkkBY9Vu_FZic74lQb7REq8,287
+peptacular-0.0.4.dist-info/LICENSE,sha256=ecuHBUF1V9LjxfZnl-y6gqJblJ1Qk6p4TfdyuFl7G5U,1072
+peptacular-0.0.4.dist-info/METADATA,sha256=CYLxDuvjqvXiZ4tZ0w8RXthF1Qruitc8vxaLskPyh7Q,3091
+peptacular-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+peptacular-0.0.4.dist-info/top_level.txt,sha256=yHAo23buNEBnR0NqYxrGF-gq2gBf8vyWIsmqyQgnv3c,11
+peptacular-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+FixedFloatApi.egg-info/PKG-INFO
+FixedFloatApi.egg-info/SOURCES.txt
+FixedFloatApi.egg-info/dependency_links.txt
+FixedFloatApi.egg-info/requires.txt
+FixedFloatApi.egg-info/top_level.txt
+fixedfloatapi/FixedFloatAPI.py
+fixedfloatapi/__init__.py

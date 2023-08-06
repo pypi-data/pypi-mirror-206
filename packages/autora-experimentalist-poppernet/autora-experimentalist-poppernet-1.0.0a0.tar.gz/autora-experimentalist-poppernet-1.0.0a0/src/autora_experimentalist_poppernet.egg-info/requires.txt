@@ -1,0 +1,6 @@
+autora-core
+scikit-learn
+torch
+
+[dev]
+autora-core[dev]

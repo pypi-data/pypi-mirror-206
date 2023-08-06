@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "netective"
+version = "0.0.2"
+authors = [
+  { name="Juan Escorcia", email="juanesscorcia@gmail.com" },
+  { name="Julio Freyre", email="jfreyreg@gmail.com" },
+]
+description = "Use structural and standard performance metrics to assess network inference"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+lint = [ "black"]
+cov = ["pytest < 5.0.0", "pytest-cov[all]"]
+
+[project.urls]
+"Homepage" = "https://github.com/JuanEscorcia/netective.git"
+
+[project.scripts]
+netective = "netective.cli.netective:main"
+
+[tool.pytest.ini_options]
+addopts = "--cov=netective"
+testpaths = ["tests"]

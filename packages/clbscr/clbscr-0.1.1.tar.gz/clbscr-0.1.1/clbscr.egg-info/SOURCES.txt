@@ -1,0 +1,8 @@
+README.md
+setup.py
+clbscr/__init__.py
+clbscr/maker.py
+clbscr.egg-info/PKG-INFO
+clbscr.egg-info/SOURCES.txt
+clbscr.egg-info/dependency_links.txt
+clbscr.egg-info/top_level.txt

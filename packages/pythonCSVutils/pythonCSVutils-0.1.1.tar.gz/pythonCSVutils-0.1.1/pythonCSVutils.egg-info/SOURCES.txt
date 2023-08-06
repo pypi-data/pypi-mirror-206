@@ -1,0 +1,9 @@
+README.md
+setup.py
+pythonCSVutils/__init__.py
+pythonCSVutils/csv_processor.py
+pythonCSVutils/setup.py
+pythonCSVutils.egg-info/PKG-INFO
+pythonCSVutils.egg-info/SOURCES.txt
+pythonCSVutils.egg-info/dependency_links.txt
+pythonCSVutils.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+{
+  "compentent": "PCB",
+  "stage": "PCB_RECEPTION",
+  "frontside_goldenmodule_path": "golden_module/ITKPIX_MODULE__ASSEMBLY",
+  "backside_goldenmodule_path": "golden_module/ITKPIX_MODULE__ASSEMBLY_BACK",
+  "backside": true,
+  "checklist": {
+    "front": {
+      "Yellow": [],
+      "Red": []
+    },
+    "back": {
+      "Yellow": [],
+      "Red": []
+    }
+  }
+}

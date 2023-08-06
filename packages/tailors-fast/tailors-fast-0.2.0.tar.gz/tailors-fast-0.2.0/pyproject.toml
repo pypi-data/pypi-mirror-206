@@ -1,0 +1,64 @@
+[project]
+name = "tailors-fast"
+description = ""
+authors = [{name = "orctom", email = "orctom@gmail.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+license-expression = "Apache-2.0"
+dynamic = ["version"]
+requires-python = ">=3.8"
+dependencies = [
+    "hao>=3.7.11",
+    "fasttext~=0.9.2",
+    "jieba~=0.42.1",
+    "opencc~=1.1.6",
+    "ftfy~=6.1.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "scikit-learn~=1.2.0",
+]
+
+[project.urls]
+homepage = "https://github.com/orctom/tailors-fastatic"
+
+[project.scripts]
+tailors-fast-train = "tailors_fast.train:train"
+tailors-fast-dataset-from-eb = "tailors_fast.dataset_from_eb:process"
+
+[build-system]
+requires = ["flit_core>=3.8.0,<4"]
+build-backend = "flit_core.buildapi"
+
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q -s"
+testpaths = [
+    "tests",
+]
+
+[tool.autopep8]
+max_line_length = 135
+in-place = true
+recursive = true
+aggressive = 3
+
+[tool.black]
+line-length = 135
+target-version = ['py38']
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | data
+)/
+'''

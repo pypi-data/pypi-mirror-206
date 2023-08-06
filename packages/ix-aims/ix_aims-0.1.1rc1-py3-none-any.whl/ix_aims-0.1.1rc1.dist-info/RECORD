@@ -1,0 +1,14 @@
+ix_aims/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ix_aims/cli.py,sha256=zAqLOmUlvJ-wCQA4AuW5Dmebmg_2Y0deITwx8j0xow4,123
+ix_aims/imgs/icon.png,sha256=KSkI60E4IxcF33zTNXipnpiVp-cUSHroEgoB0PY5qm8,2134
+ix_aims/imgs/noBtn.png,sha256=Ugp4up7aEuJcpYPeVVichhYIltg8T0xetSVmI959eVE,1996
+ix_aims/imgs/plusTab.png,sha256=1jJhhMITyjADrgFLhf3mRxfKv8ciyecOBlm5gUpuPNM,322
+ix_aims/imgs/processesBtn.png,sha256=0PRa72VGqgruhf9qpTVvIrCH9B_l0VxO6Lo0h8CfZgQ,3615
+ix_aims/imgs/selectDirsBtn.png,sha256=OkhWOLp1wkmuLz5HmjdvgQ7LHZ2fF9etgfVBXMyZLN4,1207
+ix_aims/imgs/winIcon.png,sha256=EpZ4iCIMGt_i_CaE22EIwITH3OajMyzqt3PdQVRKwJ4,1064
+ix_aims/imgs/yesBtn.png,sha256=f40zMdg2AJkedW0biQXEs-bNATfaW6WdVKijattHaSo,2201
+ix_aims/lib.py,sha256=y8cpMn65A37B8UDPNlJ1NZ18vkKKCi2gNmQrqjdUxu0,3683
+ix_aims-0.1.1rc1.dist-info/entry_points.txt,sha256=X_LwGHqgYFbdjPicBQ0j0uJxRh8ehQp3dPaYxXxh594,43
+ix_aims-0.1.1rc1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+ix_aims-0.1.1rc1.dist-info/METADATA,sha256=9JAukENc2Yt4NZpQ1F5zB2wFQniQqd6Cz9TxBUjOCrw,760
+ix_aims-0.1.1rc1.dist-info/RECORD,,

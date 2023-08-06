@@ -1,0 +1,10 @@
+nme.py,sha256=-JlbA9r1AqJxYn8RSbP5FxaXPGg5EJyM2qxxYb7WpNw,730
+tests/class_register_util.py,sha256=yKLy98ngGQlOWCVBLCpz66x8B66ug8GWTAp0MTbLKbc,78
+tests/test_cbor_hooks.py,sha256=RpoRyxqg8cTveR-ia09bctb7HBxTkMfDettX4RNn6JA,3644
+tests/test_class_register.py,sha256=m7EF9OiR35-6piuQ0hwlOKWG3KAgyexgexWqc9cucNE,5104
+tests/test_json_hooks.py,sha256=4QWM6U7PgyT7l9NSsK2TzlPAcnIjabywriaNuTx5aLw,9430
+nme-0.1.7.dist-info/LICENSE,sha256=LcOalUtlxYMFIECbWVaYfWdmRPCTkuTerq8sglN_ei0,1072
+nme-0.1.7.dist-info/METADATA,sha256=DJquqwPQlvmIwPdhwpiwWgPs707c_Y_1c8_NkLQFWBc,1178
+nme-0.1.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+nme-0.1.7.dist-info/top_level.txt,sha256=ZOskB9V62bxTGuB0e4aC4lq86O869HSZH2HD-PeemQE,10
+nme-0.1.7.dist-info/RECORD,,

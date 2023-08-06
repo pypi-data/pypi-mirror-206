@@ -1,0 +1,15 @@
+oca_port/__init__.py,sha256=SfbyRafaKzoF4U--V1wGEoFFE8gwKzH2GJP46AGvLfo,7928
+oca_port/migrate_addon.py,sha256=WxWPvB8Z6fi02cbF6tXVRA8KnR4NoN-qdbkkk3zDR9s,8186
+oca_port/port_addon_pr.py,sha256=n5pBJixNHIHmXK9tyKJO8ro7NwghQldk6ztdoBeN2rQ,26636
+oca_port/utils/__init__.py,sha256=TqdJICr5-UjnDJi_CiOuB1vkmm1phwk_OXLquO2EptE,100
+oca_port/utils/cache.py,sha256=VZ7HF31qgLhM21rQ3Z6i8K0qfoz0ppr-bhGi-snA_Qs,6615
+oca_port/utils/git.py,sha256=k_MXXGCo8yRlYCDKzsmqhWydWSWGZayfHEJe8-2hK6U,8360
+oca_port/utils/github.py,sha256=p_4zP7S1ak81xI6W4FwgrER6cotjCU-F3iTFrjJ_iNM,1332
+oca_port/utils/misc.py,sha256=pCzATSGTlyX2z2qVTNaso8uNmNCKlXTUfYTkYTpSFUU,1028
+oca_port/utils/storage.py,sha256=J3Iqz4en9X9WMjRQusj2pYfQrGa6Fjyok1imzXw49mI,4401
+oca_port-0.13.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+oca_port-0.13.dist-info/METADATA,sha256=agZMj5_slMnQHoX_lm_YoVj1TqjtbAQY3kPiOzUmubI,11896
+oca_port-0.13.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+oca_port-0.13.dist-info/entry_points.txt,sha256=oMIzd23osf8kGXZ1OViJMHwuiIS7RETrg55y6Kwr-Qc,43
+oca_port-0.13.dist-info/top_level.txt,sha256=XqlQ5ES3oAcg31XQ3w3nMEHhTQyweycqXeA__yQNZ5k,9
+oca_port-0.13.dist-info/RECORD,,

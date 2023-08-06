@@ -1,0 +1,16 @@
+numpy>=1.17
+astropy
+matplotlib
+
+[dev]
+scipy
+
+[docs]
+sphinx>=4.3.0
+sphinx-rtd-theme>=0.5.1
+sphinxcontrib-apidoc
+numpydoc
+
+[test]
+pytest
+pytest-cov

@@ -1,0 +1,8 @@
+meutils
+colorlog
+transformers
+packaging
+sentencepiece
+protobuf
+onnxruntime
+fast-tokenizer-python==1.0.0

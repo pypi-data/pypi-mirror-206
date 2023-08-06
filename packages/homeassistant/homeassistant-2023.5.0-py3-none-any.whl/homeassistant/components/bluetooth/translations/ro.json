@@ -1,0 +1,29 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Serviciul este deja configurat",
+            "no_adapters": "Nu s-au g\u0103sit adaptoare Bluetooth neconfigurate. Exist\u0103 {ignored_adapters} adaptoare ignorate."
+        },
+        "flow_title": "{name}",
+        "step": {
+            "bluetooth_confirm": {
+                "description": "Dore\u0219ti s\u0103 configurezi {name}?"
+            },
+            "multiple_adapters": {
+                "data": {
+                    "adapter": "Adaptor"
+                },
+                "description": "Selecteaz\u0103 un adaptor Bluetooth de configurat"
+            },
+            "single_adapter": {
+                "description": "Dore\u0219ti s\u0103 configurezi adaptorul Bluetooth {name}?"
+            },
+            "user": {
+                "data": {
+                    "address": "Dispozitiv"
+                },
+                "description": "Alege\u021bi un dispozitiv de configurat"
+            }
+        }
+    }
+}

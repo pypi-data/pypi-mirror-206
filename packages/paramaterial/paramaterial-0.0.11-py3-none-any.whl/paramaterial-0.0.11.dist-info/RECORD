@@ -1,0 +1,16 @@
+paramaterial/__init__.py,sha256=OlLMexzrOUvEbmSP6s1TQilR1tEwsCVwodq-BWY9QEY,398
+paramaterial/example.py,sha256=DgbXcfkSnFTWzslBanaIsfu1cBr3ZJ9pcjHYYK6Oc6c,3188
+paramaterial/modelling.py,sha256=vZaEQd0OhoEDXmZS4v8JPNBu5MNGehePgKvwnBmJXoM,21001
+paramaterial/models.py,sha256=3p0xF9TdwHjWtqgXv83TA3Xm0Xlu2p3Xpx1K0XVJXpE,3131
+paramaterial/plotting.py,sha256=NgTx9wnNYfX_P98GUzC6oszc0PnR8u8c0LK7ZWmHZ2w,20069
+paramaterial/plug.py,sha256=Pn0boa9A3wIfEVjwQt9i63J-O0HCmY0324jrUGInnq8,8414
+paramaterial/preparing.py,sha256=q0QnI0Uuev3CrwnGHZxSqNd_xTQwMnOH7Cco1ult9Sk,7918
+paramaterial/processing.py,sha256=XJke67IJaOd9k1IsS-UNT6mBLei_DUMEcdRvrb1ObSI,17059
+paramaterial/receipts.py,sha256=y7hisxbM9EeTJWVtw8_Oven2MH0XOV7i52HEcxbXm2s,6254
+paramaterial/screening.py,sha256=hw3ivjxbc3O83Tl5brsuQK-PP1bvASx2CJVWXjI-nas,5754
+paramaterial/zener_holloman.py,sha256=OyIaGHALahXEEazfpE5-q__OYPzuv4P_KSXXt5hbj44,10905
+paramaterial-0.0.11.dist-info/LICENSE,sha256=EA4YxAxdOvqgNQ2AU2HtJTObefgR8erP4ECk1b5J2X8,1088
+paramaterial-0.0.11.dist-info/METADATA,sha256=AkwpIJHQXDOX-jXMyWqO-WCb0-jya_nbbtcdZM8ntZU,3178
+paramaterial-0.0.11.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+paramaterial-0.0.11.dist-info/top_level.txt,sha256=2IV6eF-qR_N56t2X5_6-2zpmdgByh9URdN34ZhfvvNE,13
+paramaterial-0.0.11.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+from setuptools import find_packages, setup
+
+setup(
+    name='qa-keys-test',
+    version='0.0.3',
+    description='A repo is for xhis single source',
+    include_package_data=True,
+    url="https://github.com/OwenLuo123/qa-tag-test.git",
+    packages=['automation', 'config'],
+    package_data={
+        'config': ['qa_key.json'],
+    },
+    zip_safe=False
+)

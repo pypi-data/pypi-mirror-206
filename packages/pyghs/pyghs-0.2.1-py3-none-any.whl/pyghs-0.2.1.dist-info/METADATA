@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyghs
+Version: 0.2.1
+Summary: Storage csv file in github repository.
+Author-email: Chaoying <chaoying2022@gmail.com>
+License: MIT
+Requires-Python: >=3.7
+Requires-Dist: aiohttp (>=3.8.4)
+Requires-Dist: pandas (>=2.0.1)
+Requires-Dist: dynaconf (>=3.1.12)
+Requires-Dist: requests (>=2.29.0)
+

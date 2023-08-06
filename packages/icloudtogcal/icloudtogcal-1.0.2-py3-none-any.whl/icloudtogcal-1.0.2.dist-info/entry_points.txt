@@ -1,0 +1,4 @@
+[console_scripts]
+icloud_config=iCloudToGCal:config
+icloud_run_script=iCloudToGCal:run_script
+

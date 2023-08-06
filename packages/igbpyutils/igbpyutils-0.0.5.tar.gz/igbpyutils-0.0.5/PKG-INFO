@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: igbpyutils
+Version: 0.0.5
+Summary: Various Python Utilities
+Author-email: Hauke D <haukex@zero-g.net>
+Project-URL: Homepage, https://github.com/haukex/igbpyutils
+Project-URL: Bug Tracker, https://github.com/haukex/igbpyutils/issues
+Project-URL: Documentation, https://igbpyutils.readthedocs.io/en/stable/
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt

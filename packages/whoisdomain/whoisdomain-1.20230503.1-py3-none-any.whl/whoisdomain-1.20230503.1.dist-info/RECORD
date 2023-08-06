@@ -1,0 +1,13 @@
+whoisdomain/_0_init_tld.py,sha256=d9GbPkBpunNN0I-Mmi3TszAzJ2NenJqwVmyPInDLrcs,4549
+whoisdomain/_1_query.py,sha256=n7eihaollrC2B4836t-jiGDWcyWe5W_UjPkfZZiMGsk,5951
+whoisdomain/_2_parse.py,sha256=ZfWbadXm0d-QAyoWwgLwXIecEY056fCWePG9z48470Y,9065
+whoisdomain/_3_adjust.py,sha256=Nqdp5MOc2uL3o5I93yX4ICrKEcCGCHfJBiQbAqXGe00,8544
+whoisdomain/__init__.py,sha256=wGQHUWr_26HEjvfurFRPuXegvWDn8eLTqTJ9cbC-tgI,10648
+whoisdomain/exceptions.py,sha256=VDtrHW59dtoau65MDM88ugxYW2mvtxRqLCbDwcHCPyc,544
+whoisdomain/main.py,sha256=a2f9Str6Ftto-cXYIXU22_3s25-896FFjG0JkIm_SUA,17812
+whoisdomain/tld_regexpr.py,sha256=_h_8JqFcmiqHfLYknVZ-m732yVHsbgDl-E5bNFh0cVI,104916
+whoisdomain/version.py,sha256=eGXAoCsMbIGmOPPv1n-ti6nH24t04qN89eoSPqup2YQ,25
+whoisdomain-1.20230503.1.dist-info/METADATA,sha256=rpaU02Gc-0Txq1WIsOVKMd_mG8KTC-PoLkl7SCbfXm4,8752
+whoisdomain-1.20230503.1.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+whoisdomain-1.20230503.1.dist-info/entry_points.txt,sha256=Rx0kv4K3X-VzwJvi_RJu_UHPbTqW9YsxwR2NI78aDVw,54
+whoisdomain-1.20230503.1.dist-info/RECORD,,

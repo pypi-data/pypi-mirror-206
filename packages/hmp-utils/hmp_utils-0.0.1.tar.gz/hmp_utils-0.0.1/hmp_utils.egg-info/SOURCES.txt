@@ -1,0 +1,8 @@
+README.md
+setup.py
+hmp_utils/__init__.py
+hmp_utils/human_pose_metrics.py
+hmp_utils.egg-info/PKG-INFO
+hmp_utils.egg-info/SOURCES.txt
+hmp_utils.egg-info/dependency_links.txt
+hmp_utils.egg-info/top_level.txt

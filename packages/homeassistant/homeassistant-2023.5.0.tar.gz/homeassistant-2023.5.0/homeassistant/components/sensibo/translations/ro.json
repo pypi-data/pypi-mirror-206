@@ -1,0 +1,27 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Contul a fost configurat deja",
+            "reauth_successful": "Re-autentificarea s-a realizat cu succes"
+        },
+        "error": {
+            "cannot_connect": "A e\u0219uat conectarea",
+            "incorrect_api_key": "Cheie API nevalid\u0103 pentru contul selectat",
+            "invalid_auth": "Autentificare nevalid\u0103",
+            "no_devices": "Nu s-au descoperit dispozitive",
+            "no_username": "Nu s-a putut ob\u021bine numele de utilizator"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "api_key": "Cheie API"
+                }
+            },
+            "user": {
+                "data": {
+                    "api_key": "Cheie API"
+                }
+            }
+        }
+    }
+}

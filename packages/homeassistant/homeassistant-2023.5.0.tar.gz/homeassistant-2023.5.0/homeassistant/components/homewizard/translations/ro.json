@@ -1,0 +1,23 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Dispozitivul a fost configurat deja",
+            "device_not_supported": "Acest dispozitiv nu este acceptat",
+            "invalid_discovery_parameters": "Versiune API neacceptat\u0103",
+            "unknown_error": "Eroare nea\u0219teptat\u0103"
+        },
+        "step": {
+            "discovery_confirm": {
+                "description": "Dore\u0219ti s\u0103 configurezi {product_type} ({serial}) la {ip_address}?",
+                "title": "Confirm\u0103"
+            },
+            "user": {
+                "data": {
+                    "ip_address": "Adresa IP"
+                },
+                "description": "Introdu adresa IP a dispozitivului HomeWizard Energy pentru a-l integra \u00een Home Assistant.",
+                "title": "Configurare dispozitiv"
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "issues": {
+        "bad_psu": {
+            "fix_flow": {
+                "step": {
+                    "confirm": {
+                        "description": "Apas\u0103 TRIMITE pentru a confirma c\u0103 sursa de alimentare a fost \u00eenlocuit\u0103",
+                        "title": "Sursa de alimentare trebuie \u00eenlocuit\u0103"
+                    }
+                }
+            },
+            "title": "Sursa de alimentare nu este stabil\u0103"
+        },
+        "cold_tea": {
+            "fix_flow": {
+                "step": {
+                    "few": "ca\u021biva",
+                    "one": "unu",
+                    "other": "al\u021bii"
+                }
+            }
+        },
+        "out_of_blinker_fluid": {
+            "fix_flow": {
+                "step": {
+                    "confirm": {
+                        "description": "Ap\u0103sa\u021bi TRIMITE c\u00e2nd lichidul de semnalizare a fost reumplut",
+                        "title": "Trebuie completat lichidul de semnalizare"
+                    }
+                }
+            },
+            "title": "Lichidul de semnalizare este gol \u0219i trebuie reumplut"
+        },
+        "transmogrifier_deprecated": {
+            "description": "Componenta transmodificatoare nu se mai folose\u0219te din cauza imposibilit\u0103\u021bii controlului local folosind noul API",
+            "title": "Componenta transmodificatoare nu se mai folose\u0219te"
+        },
+        "unfixable_problem": {
+            "description": "Aceast\u0103 problem\u0103 nu va renun\u021ba niciodat\u0103.",
+            "title": "Aceasta nu este o problem\u0103 rezolvabil\u0103"
+        }
+    },
+    "options": {
+        "step": {
+            "options_1": {
+                "data": {
+                    "bool": "Boolean op\u021bional",
+                    "constant": "Constant\u0103",
+                    "int": "Intrare numeric\u0103"
+                }
+            },
+            "options_2": {
+                "data": {
+                    "multi": "Selec\u021bie multipl\u0103",
+                    "select": "Selecteaz\u0103 o op\u021biune",
+                    "string": "Valoare text"
+                }
+            }
+        }
+    },
+    "title": "Demo"
+}

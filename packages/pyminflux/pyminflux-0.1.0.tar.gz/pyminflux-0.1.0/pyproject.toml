@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "pyminflux"
+version = "0.1.0"
+description = "Reader, processor, and viewer of MINFLUX raw data."
+authors = ["Aaron Ponti <aaron.ponti@bsse.ethz.ch>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.black]
+line-length = 88
+target-version = ['py310', 'py311']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.mypy_cache
+  | \.venv
+  | _build
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+py_version = 310
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+numpy = "^1.23.4"
+pandas = "^1.5.1"
+pyside6 = ">=6.4.0.1,<6.5"
+pyqtgraph = "^0.13.2"
+scipy = "^1.9.3"
+pyopengl = "^3.1.6"
+scikit-learn = "^1.2.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+ordered-set = "^4.1.0"
+pytest-cov = "^4.0.0"
+pre-commit = "^3.1.1"
+isort = "^5.12.0"
+black = "^23.3.0"
+pyinstaller = "5.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,17 @@
+harlequin/__init__.py,sha256=P-P1xGkyJpxlvfEQwDE-J91TTlFJaS3VHhq_wWFTlo4,53
+harlequin/cli.py,sha256=C91G6rXI-hKWwGMcTssEfKLecjB6h4d8Q6wMdRGmY7M,336
+harlequin/tui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+harlequin/tui/app.css,sha256=1X07cvj0yyLd5HkkOjAtd2aSyzuBzaVhT9a6vNMnWcw,2647
+harlequin/tui/app.py,sha256=KRtWh4zKMF_L9TJzbGOZdoIkrXQe-wV8djRXmKrWlos,8429
+harlequin/tui/components/__init__.py,sha256=qBopywi9oFlDJI9h8ED9fZpfCAm3CH7dJAH8rGPn44M,812
+harlequin/tui/components/code_editor.py,sha256=3-xmaI-JadOclx-Mp7P-yNOggTfqf7R28GbK9jQaSUo,881
+harlequin/tui/components/error_modal.py,sha256=9JKBTbxGTApduEaY6pOwvODjXOaY_3n7qAN6zkKd3sw,1081
+harlequin/tui/components/filename_modal.py,sha256=_jIQA3i3kr_8D14foY_TtoK6Bwcy9qaWkl2hSpCC5Yc,672
+harlequin/tui/components/results_viewer.py,sha256=Pr52SoXeEC1oJojhFpGC9pLdZhIsJxyq8nAWHB7N4eE,2430
+harlequin/tui/components/schema_viewer.py,sha256=_PPYhYlE8cSPFDl0R3geMLPJSePN-KIZ3CdF7uHWBnk,3677
+harlequin/tui/components/textarea.py,sha256=JIMywAUMSq8G4ztYYF66-BDfAd2rGoWKvA47BMNT0m8,12090
+harlequin-0.0.4.dist-info/entry_points.txt,sha256=FOHHQFL_fCrQLJ3FjRpeyF0Lw8d_QpnG4cGoeX485lw,53
+harlequin-0.0.4.dist-info/LICENSE,sha256=Wdf1mXEX48JTe3Unchs3u8M7sUOB6v0fGsMI5WP7bB4,1068
+harlequin-0.0.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+harlequin-0.0.4.dist-info/METADATA,sha256=gpvmeu6_D-t-UXHx6OvAjP5IaaPV7Ryp9X4G7BrKBSQ,1541
+harlequin-0.0.4.dist-info/RECORD,,

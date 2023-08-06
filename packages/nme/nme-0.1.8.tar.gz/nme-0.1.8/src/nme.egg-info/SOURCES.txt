@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+tox.ini
+src/nme/__init__.py
+src/nme.egg-info/PKG-INFO
+src/nme.egg-info/SOURCES.txt
+src/nme.egg-info/dependency_links.txt
+src/nme.egg-info/requires.txt
+src/nme.egg-info/top_level.txt
+src/tests/class_register_util.py
+src/tests/test_cbor_hooks.py
+src/tests/test_class_register.py
+src/tests/test_json_hooks.py

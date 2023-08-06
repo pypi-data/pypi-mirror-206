@@ -1,0 +1,8 @@
+setup.py
+dparo/__init__.py
+dparo/dparo.py
+dparo.egg-info/PKG-INFO
+dparo.egg-info/SOURCES.txt
+dparo.egg-info/dependency_links.txt
+dparo.egg-info/requires.txt
+dparo.egg-info/top_level.txt

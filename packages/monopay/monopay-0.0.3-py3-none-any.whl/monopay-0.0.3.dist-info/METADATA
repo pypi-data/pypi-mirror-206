@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: monopay
+Version: 0.0.3
+Summary: Python Sync/Async library for work with Monobank acquiring api
+License: MIT
+Author: yeghorkikhai
+Author-email: yeghorkikhai@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# *MonoPay Python SDK*
+___
+
+### Installation
+Install the current version with PyPi:
+```
+    pip install monopay-api
+```
+Or from GitHub:
+```
+    pip install https://github.com/yeghorkikhai/monopay-python-api
+```
+
+### Getting Statring
+
+```python
+    from monopay import MonoPay
+
+monopay = MonoPay(api_token='<X-Token>')
+
+result = monopay.invoice.create(
+    amount=100
+)
+
+# get page url
+print(result.page_url)
+
+# get invoice id
+print(result.invoice_id)
+```
+
+### Methods
+
+- Merchant
+
+```python
+    from monopay import MonoPay
+
+monopay = MonoPay(api_token='<X-Token>')
+
+monopay.merchant.statement
+monopay.merchant.details
+monopay.merchant.pubkey
+```
+- Invoices
+
+```python
+    from monopay import MonoPay
+
+monopay = MonoPay(api_token='<X-Token>')
+
+monopay.invoice.create
+monopay.invoice.cancel
+monopay.invoice.split
+monopay.invoice.status
+monopay.invoice.info
+monopay.invoice.invalidation
+monopay.invoice.finalize
+```
+
+- QR cash registers
+- Wallet
+
+### Responses
+
+- **InvoiceCreatedResponse**
+- **InvoiceCanceledResponse**
+- **InvoiceStatusResponse**
+- **InvoiceInfoResponse**
+- **SplitInvoiceResponse**
+

@@ -1,0 +1,43 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:zcml="http://namespaces.zope.org/zcml">
+
+  <browser:page
+      for="Products.CMFCore.interfaces.IFolderish"
+      name="groupboard"
+      class=".browser.Browser"
+      permission="zope2.View"
+      allowed_interface=".interface.IGroupBoard"
+      /><!-- "template" specification omitted on purpose;
+             it disabled our methods (needed as form actions)!
+             See the following browser @@forum
+             which uses the very same BrowserView class.
+          gf:
+            ./browser.py
+          -->
+  <browser:page
+      for="Products.CMFCore.interfaces.IFolderish"
+      name="forum"
+      class=".browser.Browser"
+      permission="zope2.View"
+      allowed_interface=".interface.IGroupBoard"
+      template="groupboard.pt"
+      />
+
+    <include file="fullpage.zcml" />
+    <include file="ajax.zcml"
+             zcml:condition="installed visaplan.plone.ajaxnavigation"
+             />
+
+  <configure zcml:condition="installed visaplan.plone.breadcrumbs">
+
+      <include package="visaplan.plone.breadcrumbs" />
+      <include package=".oldcrumbs"
+          zcml:condition="have VisaplanTentativeBreadcrumbs"
+          /><!-- gf: ./oldcrumbs.py
+              -->
+
+  </configure>
+
+</configure>

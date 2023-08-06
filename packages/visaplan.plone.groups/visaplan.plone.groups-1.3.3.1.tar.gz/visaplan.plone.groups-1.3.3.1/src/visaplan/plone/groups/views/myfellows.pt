@@ -1,0 +1,260 @@
+<metal:bigmac metal:define-macro="desktop"
+              i18n:domain="plone"><tal:ns tal:define="
+data python:view.data();
+optgroups python:data['groups'];
+current python:data['current_group'];
+group_role python:current and current.get('role');
+perm python:data['perm'];
+pformat python:here.getAdapter('pformat');
+"><pre tal:content="python:pformat(current)"
+       tal:condition="python:0 and current"/><tal:ns2
+define="
+author nocall:context/@@author;
+gid python:current and current['id'];
+is_valid_desktop python:not current or current['group_desktop'];
+group_manager_info python:data['group_manager'];
+"><metal:use-master metal:use-macro="here/main_template/macros/master">
+<!-- Javascript-Ressourcen:
+../resource/group-desktop.js
+../../../../../../visaplan.UnitraccResource/src/visaplan/UnitraccResource/skins/unitracc_resource/api.js
+../../../../../../visaplan.UnitraccResource/src/visaplan/UnitraccResource/skins/unitracc_resource/custom.js
+../../../../../../visaplan.UnitraccResource/src/visaplan/UnitraccResource/skins/unitracc_resource/finally.js
+
+Browser:
+../groupdesktop/browser.py
+-->
+
+tal:on-error="string:ERROR somewhere in tal:ns2 :-("
+
+<metal:no-ads fill-slot="ad-block-above-content"/>
+<metal:no-ads fill-slot="column_one_slot"/>
+<metal:no-ads fill-slot="column_two_slot"/>
+<metal:fill-main-slot fill-slot="main"
+            tal:define="
+base string:@@${template/id};
+base python:base[:-3];
+">
+
+    <div class="area-content">
+        <div class="row">
+            <div class="col-md-12 area-title">
+            <h1 tal:condition="gid">
+            <tal:role condition="python:group_role"
+                      content="python:current['pretty_title']"/>
+            <tal:plain condition="python:not group_role" i18n:translate="">
+            Group <span i18n:name="group_title"
+                         tal:content="python:current['group_title']">
+            title of ordinary group
+            </span>
+            </tal:plain>
+            </h1>
+            <h1 tal:condition="not:gid"
+                i18n:translate="">
+            myAccount
+            </h1>
+            </div><!-- .col-md-12 -->
+            <div class="col-md-6">
+
+                <!-- Profile -->
+
+                <div class="listing-item titled-box"
+                     tal:condition="group_manager_info">
+                    <div class="box">
+                        <h3 class="title" i18n:translate="">Group manager</h3>
+                    </div>
+                    <tal:block tal:define="dic group_manager_info;
+                                           userId dic/id">
+                        <metal:block metal:use-macro="context/card_minimal/macros/card"/>
+                        <a tal:condition="group_manager_info/email"
+                           tal:attributes="href string:mailto:${group_manager_info/email}">
+                            <i class="glyphicon glyphicon-envelope"></i>
+                            <tal:block tal:content="group_manager_info/name"/>
+                        </a>
+                    </tal:block>
+                </div><!-- .listing-item.titled-box -->
+
+                <div class="listing-item titled-box clear"
+                     tal:define="show_bcard python:gid is None;
+                                 userId python:data['userid'];">
+                    <tal:if4 condition="show_bcard">
+                        <div class="box">
+                            <div class="title">
+                                <h3 class="title"
+                                    i18n:translate="">
+                                My business card
+                                </h3>
+                            </div>
+                        </div>
+                        <tal:wrapper on-error="string:(Fehler A bei Ausgabe der Visitenkarte)">
+                        <div metal:use-macro="here/card_large/macros/card"
+                             tal:on-error="string:(Fehler B bei Ausgabe der Visitenkarte)">
+                          Die Visitenkarte
+                            <a href="/myunitracc/@@myaccount/editProfile"
+                               tal:attributes="href string:@@myaccount/editProfile"
+                               metal:fill-slot="links">
+                                <i class="glyphicon glyphicon-chevron-right"></i>
+                                <tal:block i18n:translate="">Edit profile</tal:block>
+                            </a>
+                        </div>
+                        </tal:wrapper>
+                    </tal:if4>
+
+                    <tal:else4 condition="python:is_valid_desktop and not show_bcard">
+                        <tal:else4-ns tal:define="members python:data['members']"
+                                      tal:condition="members">
+                            <div class="box">
+                                <h3 class="title" i18n:translate="">Group members</h3>
+                            </div>
+                            <p i18n:translate="">
+                                Here you see all fellow members in group
+                                <span i18n:name="group"
+                                   tal:content="current/group_title"
+                                   tal:on-error="string:(Fehler bei Ausgabe des Gruppennamens)"
+                                   >group name</span>
+                                who have enabled their business cards.
+                            </p>
+                            <div id="group-fellows"
+                                 tal:define="card here/card_minimal/macros/card"
+                                 tal:on-error="string:(Fehler im Visitenkarten-Makro)">
+                              <tal:loop3 repeat="dic members">
+                                  <tal:item3 define="userId python:dic['id']"
+                                             on-error="string:(Fehler bei Ausgabe der Visitenkarte)">
+                                      <div metal:use-macro="card">
+                                        Heinz Kunz
+<!-- gf:
+./myfellows.py
+./card_minimal.pt
+../../browser/author/browser.py, getMinimalBusinessCard
+../groupdesktop/browser.py
+-->
+                                      </div>
+                                  </tal:item3>
+                              </tal:loop3>
+                            </div>
+                        </tal:else4-ns>
+                    </tal:else4>
+                </div><!-- .listing-item.titled-box -->
+            </div>
+
+            <div class="col-md-6 pull-right">
+                <div class="listing-item titled-box">
+                    <div class="box">
+                        <div class="title">
+                            <h3 i18n:translate="">My Groups</h3>
+                        </div>
+                    </div>
+                    <div>
+                    <tal:has-groups tal:condition="python:optgroups and 1">
+                        <form id="go_to_groupdesktop"
+                              tal:attributes="action base"
+                              tal:define="disable_keys python:[];"
+                              class="form">
+                            <div class="form-group">
+                                <label for="input-gid"
+                                       i18n:translate="">
+                                    Choose a group from the list below:
+                                </label>
+                            <select style="width:100%" name="gid" class="chosen-autosubmit form-control" data-placeholder="Choose one ..."
+                                    metal:use-macro="here/group-macros/macros/group-selector-grouped">
+                                <option value="" tal:condition="not:gid"></option>
+                                <optgroup label="Groups with desktop enabled">
+                                <option value="group_id">
+                                Group title
+                                </option>
+                                </optgroup>
+                            </select>
+                            </div><!-- .form-group -->
+                            <noscript>
+                                <input type="submit" value="Change" id="change_desktop"
+                                       class="btn btn-default"
+                                       i18n:attributes="value"/>
+                            </noscript>
+                        </form>
+                    </tal:has-groups>
+
+                    <tal:no-groups condition="not:optgroups">
+                        <p i18n:translate="">
+                            Sorry, you don't seem to be member of any groups.
+                        </p>
+                    </tal:no-groups>
+                    </div>
+                </div><!-- .listing-item.titled-box -->
+
+
+            </div>
+
+            <div class="col-md-6" tal:condition="gid">
+            <div class="titled-box listing-item">
+<tal:ns-this-group define="
+gidarg python:'?gid=%s' % gid or '';
+">
+                <div class="box">
+                    <div class="title">
+                        <h3 class="title"
+                            i18n:translate="">
+                         This group
+                        </h3>
+                    </div>
+                </div><!-- .box -->
+
+                <div class="listing-item">
+                    <a href="../groupboard/board.pt"
+                       tal:attributes="href string:@@groupboard/viewBoard$gidarg">
+                        <i class="glyphicon glyphicon-chevron-right"></i><tal:txt
+                        i18n:translate="">
+                        To groupboard
+                        </tal:txt>
+                    </a>
+                </div><!-- .listing-item -->
+
+                <div class="listing-item"
+                       tal:condition="python:perm['author']">
+                    <a href="./group-desktop.pt"
+                       tal:attributes="href string:@@group-desktop$gidarg">
+                        <i class="glyphicon glyphicon-chevron-right"></i><tal:txt
+                        i18n:translate="">
+                       To group desktop
+                       </tal:txt>
+                    </a>
+                </div><!-- .listing-item -->
+
+                <div class="listing-item"
+                       tal:condition="python:perm['admin']">
+                    <a href="../groupdesktop/group_administration_view.pt"
+                       tal:attributes="href string:group_administration_view$gidarg">
+                        <i class="glyphicon glyphicon-chevron-right"></i><tal:txt
+                        i18n:translate="">
+                       To group administration
+                       </tal:txt>
+                    </a>
+                </div><!-- .listing-item -->
+
+                <div class="listing-item"
+                       tal:define="refered python:data['refered']"
+                       tal:condition="refered">
+                    <a href="../groupdesktop/group_administration_view.pt"
+                       tal:attributes="href python:refered['path']"
+                       >
+                        <i class="glyphicon glyphicon-chevron-right"></i><tal:txt
+                        tal:content="python:refered['title']">
+                       Title of refered object
+                       </tal:txt>
+                    </a>
+                </div><!-- .listing-item -->
+</tal:ns-this-group>                    
+            </div><!-- .titled-box -->
+            </div><!-- .col-md-6 -->
+        </div>
+
+
+
+
+
+    </div><!-- .row -->
+    <metal:js define-macro="chosen-js">
+        <script type="text/javascript" src="/++resource++visaplan.plone.groups/group-desktop.js"></script>
+    <script type="text/javascript" src="/++resource++unitracc-resource/finally.js"></script>
+    </metal:js>
+</metal:fill-main-slot>
+
+<!-- vim: set ts=4 sts=4 sw=4 si et hls :--></metal:use-master></tal:ns2></tal:ns></metal:bigmac>

@@ -1,0 +1,183 @@
+<metal:use-master metal:use-macro="here/main_template/macros/master">
+<!-- Javascript-Ressourcen:
+../resource/group-desktop.js
+../../../../../../visaplan.UnitraccResource/src/visaplan/UnitraccResource/skins/unitracc_resource/api.js
+../../../../../../visaplan.UnitraccResource/src/visaplan/UnitraccResource/skins/unitracc_resource/custom.js
+../../../../../../visaplan.UnitraccResource/src/visaplan/UnitraccResource/skins/unitracc_resource/finally.js
+
+Browser:
+../groupdesktop/browser.py
+-->
+
+<metal:no-ads fill-slot="ad-block-above-content"/>
+<metal:no-ads fill-slot="column_one_slot"/>
+<metal:no-ads fill-slot="column_two_slot"/>
+<metal:fill-main-slot fill-slot="main"
+i18n:domain="plone"
+tal:define="
+groupdesktop   nocall:context/@@groupdesktop;
+pformat python:context.getAdapter('pformat');
+">
+    <div class="row">
+        <div class="area-title col-md-12">
+            <h1 i18n:translate="">
+            Group macros
+            </h1>
+        </div><!-- .area-title.col-md-12 -->
+
+        <div class="col-md-6">
+            <h2><tt>group-selector</tt></h2>
+            <p>A &ldquo;flat&rdquo; group selector.</p>
+            <table class="table">
+            <thead><tr>
+                <th>name
+                <th>description
+                <th>default
+            <tbody><tr>
+                <td><tt>groups</tt>
+                <td>A flat list of group dictionaries, with <tt>id</tt> and  <tt>title</tt> attributes;<br>
+                    typically created by a call to the <tt>@@groupdesktop.desktop_groups</tt> method,
+                    with default options or with <tt>grouped=0</tt> specified.
+                <td><em>None</em>; this value is mandatory.
+            </tr><tr>
+                <td><tt>name</tt>
+                <td><tt>name</tt> attribute of the &lt;select&gt; control to be created
+                <td><tt>gid</tt>
+            </tr><tr>
+                <td><tt>class</tt>
+                <td>part of the <tt>class</tt> attribute of the &lt;select&gt; control to be created;
+                    specify &ldquo;chosen&rdquo; to suppress auto-submit functionality.
+                <td><tt>chosen-autosubmit</tt>
+            </tr><tr>
+                <td><tt>gid</tt>
+                <td><tt>name</tt> attribute of the &lt;select&gt; control to be created
+                <td>request var <tt>gid</tt> or <tt>group_id</tt>, tried in this order;
+                otherwise <em>None</em>.
+            </tr></tbody>
+            </table>
+<tal:data1 define="
+groups  python:groupdesktop.admin_or_desktop_groups(grouped=0, desktop='ignore');
+">
+<pre tal:content="python:pformat(groups[:2], len(groups))"
+tal:condition="python:0"
+/>
+
+            <select style="width:100%" name="gid" class="chosen-autosubmit form-control" data-placeholder="Choose one ..."
+tal:on-error="string:error in group-selector macro"
+                    metal:define-macro="group-selector"
+                    tal:define="name name | string:gid;
+                                class class | string:chosen-autosubmit;
+                                gid gid | request/gid | request/group_id | nothing"
+                    tal:attributes="name name;
+                                    id string:input-$name;
+                                    class string:$class form-control;
+                                    "
+                    i18n:attributes="data-placeholder">
+                <option value="" tal:condition="not:gid"></option>
+                <option id="default_value" value="None"
+                        metal:define-slot="empty-selection"
+                        tal:attributes="selected python: not gid"
+                        i18n:translate="">Just me</option>
+                <tal:loop tal:repeat="group groups">
+                <option tal:define="thisval python:group['id']"
+                        tal:attributes="value thisval;
+                                        selected python:thisval == gid and 'selected' or None"
+                        tal:content="structure group/group_title | thisval"
+                        >
+                        Gruppentitel
+                </option></tal:loop>
+            </select>
+</tal:data1>
+        </div>
+        
+        <div class="col-md-6">
+            <h2><tt>group-selector-grouped</tt></h2>
+            <p>A group selector with option groups</p>
+            <table class="table">
+            <thead><tr>
+                <th>name
+                <th>description
+                <th>default
+            <tbody><tr>
+                <td><tt>optgroups</tt>
+                <td>A grouped list of optgroup dictionaries:
+                    <dl>
+<dt>label
+<dd>the label of the &lt;optgroup&gt; element
+<dt>items
+<dd>A sequence of dicts, like expected by the above <tt>group-selector</tt> macro
+<dt>key
+<dd><em>optional</em>: For key values <tt>missing</tt> or <tt>disabled</tt>, all values of the optgroup are disabled.
+</dl>
+                <td><em>None</em>; this value is mandatory.
+            </tr><tr>
+                <td><tt>name</tt>
+                <td><tt>name</tt> attribute of the &lt;select&gt; control to be created
+                <td><tt>gid</tt>
+            </tr><tr>
+                <td><tt>class</tt>
+                <td>part of the <tt>class</tt> attribute of the &lt;select&gt; control to be created;
+                    specify &ldquo;chosen&rdquo; to suppress auto-submit functionality.
+                <td><tt>chosen-autosubmit</tt>
+            </tr><tr>
+                <td><tt>gid</tt>
+                <td><tt>name</tt> attribute of the &lt;select&gt; control to be created
+                <td>request var <tt>gid</tt> or <tt>group_id</tt>, tried in this order;
+                otherwise <em>None</em>.
+            </tr><tr>
+                <td><tt>disable_keys</tt>
+                <td>For every <tt>optgroup</tt> dict we consider a <tt>key</tt> item;
+                for keys in the <tt>disable_keys</tt> list, we disable the entire optgroup.<br>
+                To enable <em>all</em>, specify an empty list.
+                <td><tt>('disabled', 'missing')</tt>
+            </tr></tbody>
+            </table>
+<tal:data2 define="
+optgroups  python:groupdesktop.admin_or_desktop_groups(grouped=1, desktop='ignore');
+">
+<pre tal:content="python:pformat(optgroups)"
+tal:condition="python:0"
+/>
+
+            <select style="width:100%" name="gid" class="chosen-autosubmit form-control" data-placeholder="Choose one ..."
+                    metal:define-macro="group-selector-grouped"
+                    tal:define="
+name name | string:gid;
+class class | string:chosen-autosubmit;
+disable_keys disable_keys | nothing;
+disable_keys python:disable_keys is None and ('missing', 'disabled') or disable_keys;
+gid gid | request/gid | request/group_id | nothing"
+                    tal:attributes="name name;
+                                    id string:input-$name;
+                                    class string:$class form-control;
+                                    "
+                    i18n:attributes="data-placeholder">
+                <option value="" tal:condition="not:gid"></option>
+                <option id="default_value" value="None"
+                        metal:define-slot="empty-selection"
+                        tal:attributes="selected python: not gid"
+                        i18n:translate="">Just me</option>
+                <tal:oloop repeat="optgroup optgroups">
+                <optgroup
+                    tal:define="label    python:optgroup['label'];
+                                size     python:len(optgroup['items']);
+                                disabled python:optgroup.get('key') in disable_keys or None;
+                                "
+                    i18n:attributes="label"
+                    tal:attributes="label    label;
+                                    disabled disabled;
+                                    ">
+                <tal:loop tal:repeat="group python:optgroup['items']">
+                <option tal:define="thisval python:group['id']"
+                        tal:attributes="value thisval;
+                                        selected python:thisval == gid and 'selected' or None"
+                        tal:content="group/group_title | thisval"
+                        >
+                        Gruppentitel
+                </option></tal:loop></optgroup></tal:oloop>
+            </select>
+</tal:data2>
+        </div>
+    </div>
+    </metal:fill-main-slot>
+</metal:use-master>

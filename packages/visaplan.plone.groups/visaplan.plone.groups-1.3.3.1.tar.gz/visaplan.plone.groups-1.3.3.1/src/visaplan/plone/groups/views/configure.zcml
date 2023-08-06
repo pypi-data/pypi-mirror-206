@@ -1,0 +1,34 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:zcml="http://namespaces.zope.org/zcml">
+
+    <include file="fullpage.zcml" />
+    <include file="ajax.zcml"
+             zcml:condition="installed visaplan.plone.ajaxnavigation.DISABLED"
+             />
+
+    <browser:page
+        for="Products.CMFCore.interfaces.IFolderish"
+        name="mycalendar"
+        template="mycalendar.pt"
+        class=".mycalendar.MyCalendar"
+        permission="zope.Public"
+        allowed_interface="..interfaces.IMyCalendar"
+        /><!-- gf:
+            ./mycalendar.py
+            ../interfaces.py
+            -->
+
+    <browser:page
+        for="Products.CMFCore.interfaces.IFolderish"
+        name="myfellows"
+        template="myfellows.pt"
+        class=".myfellows.MyFellows"
+        permission="zope.Public"
+        allowed_interface="..interfaces.IMyFellows"
+        /><!-- gf:
+            ./myfellows.py
+            ../interfaces.py
+            -->
+</configure>

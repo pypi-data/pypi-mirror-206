@@ -1,0 +1,390 @@
+<metal:bigmac metal:define-macro="desktop"
+              i18n:domain="plone"><tal:ns tal:define="
+dummy here/@@authorized/raiseAnon;
+groupdesktop nocall:context/@@groupdesktop;
+groupboard nocall:context/@@groupboard;
+unitraccfeature nocall:here/@@unitraccfeature;
+has_booking unitraccfeature/has_booking;
+desktop_path unitraccfeature/desktop_path | nothing;
+HOTFIX_SUPPRESS_MEMBERS python:request.get('show_members') == 'false';
+grpinfo python:groupdesktop.getInfo(get_members=not HOTFIX_SUPPRESS_MEMBERS);
+devmode grpinfo/devmode | nothing;
+verbose grpinfo/verbose | nothing;
+pformat python:devmode and here.getAdapter('pformat');
+current python:grpinfo.get('current', None);
+gid python:current and current['id'];
+is_valid_desktop python:not current or current['group_desktop'];
+readonly python:current and not current['group_desktop'];
+gidarg python:gid and '?gid=%s' % gid or '';
+moreargs python:{};
+mac here/gdmacros/macros;
+toTime python:here.getAdapter('totime');
+translate python:here.getAdapter('translate');
+userid python:grpinfo['userid'];
+checkperm python:here.getAdapter('checkperm');
+is_author python:is_valid_desktop and checkperm('unitracc: View myCONTENT');
+"><metal:use-master metal:use-macro="here/main_template/macros/master">
+<!-- Javascript-Ressourcen:
+../resource/group-desktop.js
+../../../../../../visaplan.UnitraccResource/src/visaplan/UnitraccResource/skins/unitracc_resource/api.js
+../../../../../../visaplan.UnitraccResource/src/visaplan/UnitraccResource/skins/unitracc_resource/custom.js
+../../../../../../visaplan.UnitraccResource/src/visaplan/UnitraccResource/skins/unitracc_resource/finally.js
+
+Browser:
+../groupdesktop/browser.py
+-->
+
+<metal:no-ads fill-slot="ad-block-above-content"/>
+<metal:no-ads fill-slot="column_one_slot"/>
+<metal:no-ads fill-slot="column_two_slot"/>
+<metal:fill-main-slot fill-slot="main"
+            tal:define="
+base python:desktop_path or context.absolute_url_path();
+here_url python:grpinfo['baseurl'];
+mycontent nocall: here/@@mycontent;
+loop_sequence python:groupdesktop.getLoopDicts(gid);
+scalings python:('90x90', '120x120',);
+widths python:(100, 130);
+industrialsector nocall:here/@@industrialsector;
+">
+
+    <tal:ifdev condition="python:devmode and verbose">
+      <pre tal:content="python:pformat(grpinfo)"
+           tal:condition="devmode | nothing">
+        grpinfo-Dictionary
+      </pre>
+    </tal:ifdev>
+
+    <div class="row">
+    <tal:if-group condition="current">
+        <div class="area-title col-md-12"
+        tal:define="group_role python:current.get('role') or None">
+            <h1 i18n:translate="" tal:condition="python:group_role is None">
+              Group desktop for the <span i18n:name="group" tal:content="current/group_title">group name</span> group
+            </h1>
+            <h1 i18n:translate=""
+            tal:condition="python:group_role is not None">
+              Desktop for the <span i18n:name="group" tal:content="current/group_title">group name</span>
+            </h1>
+        </div><!-- .area-title.col-md-12 -->
+
+        <metal:slot2 define-slot="typed">
+            <div class="well"
+                 tal:define="description current/group_description | nothing;
+                             "
+                 tal:condition="python:description or not readonly">
+                <div class="well-content">
+                    <p tal:condition="description"
+                       tal:content="description"
+                       tal:on-error="structure string:Oops!">
+                        Beschreibung der Gruppe
+                    </p>
+
+                    <p i18n:translate="our_content_desc"
+                       tal:condition="not:readonly"
+                       metal:define-macro="our-content-hint">
+                        Whatever content you create here will be made available to all members of the
+                        <span i18n:name="groupname"
+                           tal:attributes="title current/group_description | nothing"
+                           tal:content="current/group_title">group name</span>
+                        group unless you decide otherwise; if you do, the content will only appear on your personal desktop.
+                    </p>
+                </div>
+            </div>
+        </metal:slot2>
+
+    </tal:if-group>
+
+    <tal:else-group condition="not:current">
+        <div class="area-title col-md-12">
+            <h1 i18n:translate="">
+            My desktop
+            </h1>
+        </div><!-- .area-title.col-md-12 -->
+    </tal:else-group>
+    </div><!-- .row -->
+
+    <div class="area-content">
+        <div class="row">
+            <div class="col-md-6 listing-item titled-box" tal:condition="python:0 and pformat">
+                <div class="box">
+                    <div class="title">
+                        <h3 i18n:translate="">DEBUG</h3>
+                    </div>
+                </div>
+
+                <div tal:define="groups python:grpinfo['groups']">
+                    <pre tal:content="python:pformat(current)"
+                         >
+                    </pre>
+                    <dl>
+                    <dt>template/id
+                    <dd><tt tal:content="template/id">group-desktop</tt></dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="col-md-6 pull-right"
+           >
+                <div class="listing-item titled-box"
+                     tal:define="groups python:grpinfo['groups']">
+                    <div class="box">
+                        <div class="title">
+                            <h3 i18n:translate="">My Groups</h3>
+                        </div>
+                    </div>
+                    <div>
+                    <tal:has-groups tal:condition="python:groups and 1">
+                        <form id="go_to_groupdesktop" tal:define="
+base template/id;
+base python:'@@'+base[:-3];
+optgroups groups;
+" tal:attributes="
+action base;
+"                             class="form">
+                            <div class="form-group">
+                                <label for="input-gid"
+                                       i18n:translate="">
+                                    Choose a group from the list below:
+                                </label>
+                            <select style="width:100%" name="gid" class="chosen-autosubmit form-control" data-placeholder="Choose one ..."
+                                    metal:use-macro="context/group-macros/macros/group-selector-grouped"
+                                    i18n:attributes="data-placeholder">
+(gf) ./group-macros.pt
+                                <option value="" tal:condition="not:gid"></option>
+                                <option id="default_value" value=""
+                                        metal:fill-slot="empty-selection"
+                                        tal:attributes="selected python: not gid"
+                                        i18n:translate="MyDesktop">Personal desktop</option>
+                                <tal:loop tal:repeat="group groups">
+                                <option tal:define="thisval python:group['id']"
+                                        tal:attributes="value thisval;
+                                                        selected python:thisval == gid and 'selected' or None"
+                                        tal:content="structure group/group_title | thisval"
+                                        >
+                                        Gruppentitel
+                                </option></tal:loop>
+                            </select>
+                            </div><!-- .form-group -->
+                            <noscript>
+                                <input type="submit" value="Change" id="change_desktop"
+                                       class="btn btn-default"
+                                       i18n:attributes="value"/>
+                            </noscript>
+                        </form>
+                        <p i18n:translate="" tal:condition="here/@@ismanager"
+                           tal:replace="nothing">
+                            Or view the verbose groups information
+                            <a href="/myunitracc/my-groups"
+                               tal:attributes="href string:$desktop_path/my-groups"
+                               i18n:name="here"
+                               i18n:translate=""
+                               >here</a>.
+                        </p>
+
+        <a class="btn btn-primary"
+           tal:condition="python:current and groupdesktop.can_view_group_administration(gid)"
+           tal:attributes="href string:${context/absolute_url}/group_administration_view$gidarg"
+           i18n:translate="">
+           To group administration
+        </a>
+                    </tal:has-groups>
+
+                    <tal:no-groups condition="not:groups">
+                        <p i18n:translate="">
+                            Sorry, you don't seem to be member of any groups.
+                        </p>
+                    </tal:no-groups>
+                    </div>
+                </div><!-- .listing-item.titled-box -->
+
+
+
+
+            </div>
+
+
+
+                <div class="col-md-6" tal:condition="is_author">
+                <div class="list-action list-item titled-box"
+                     tal:condition="python:0 or not readonly">
+                    <div class="box">
+                        <p class="link" style="display:none"
+                           tal:define="varname string:show-all-categories;
+                                       checked python:request.get(varname) or False">
+                            <label data-checked="Uncheck to hide empty categories"
+                                   data-unchecked="Check to show all categories, including empty"
+                                   i18n:attributes="data-checked; data-unchecked">
+                                <input type="checkbox" name="show-all-categories"
+                                       tal:attributes="name varname;
+                                                       checked python:checked and 'checked' or None">
+                                <span i18n:translate="">
+                                    All categories
+                                </span>
+                            </label>
+                        </p>
+                        <div class="title">
+                            <h3 tal:condition="not:current"
+                                i18n:translate="">
+                                My contributions
+                            </h3>
+                            <h3 tal:condition="current"
+                                i18n:translate="">
+                                Our contributions
+                            </h3>
+                        </div>
+                    </div>
+                    <div>
+                    <tal:stloop define="
+cls_normal string:list-action-item;
+cls_switch python:[cls_normal + ' empty', cls_normal];
+"
+                                repeat="dic loop_sequence">
+                        <div class="list-action-item-xxx"
+                             tal:define="
+filt python:dic['filter'];
+found python:mycontent.get(filt, **moreargs);
+count python:len(found);
+cls python:cls_switch[(count != 0)];
+plu python:count != 1;
+href string:${here_url}/${dic/page}$gidarg;
+"
+                             tal:attributes="class cls">
+
+                            <a class="name"
+                               href="my-images"
+                               tal:attributes="href href"
+                               data-fullpage-only="true"
+                               tal:content="dic/text">
+                               Eigene Bilder
+                            </a>
+                            <a tal:attributes="href href"
+                               href="my-images"
+                               data-fullpage-only="true"
+                               class="action">
+                                <tal:num replace="count">42</tal:num>
+                                <tal:sing condition="not:plu"
+                                          replace="dic/thingy">Bild</tal:sing>
+                                <tal:plu condition="plu"
+                                         replace="dic/thingies">Bilder</tal:plu>
+                            </a>
+                        </div>
+                    </tal:stloop>
+                    </div>
+                </div><!-- .list-item.titled-box -->
+
+                </div>
+
+
+                <tal:collab define="
+moreargs python: gid and {'forgroup': gid} or {};
+onelist_dict python:mycontent.getOneList(**moreargs);
+has_collab python:onelist_dict['has_collab'];
+has_watched python:onelist_dict['has_watched'];
+thelist python:onelist_dict['thelist'];
+collab python:1 or both[0];
+watched python:1 or both[1];
+EDITPERM string:Modify portal content;
+mygroupids___ python: (collab or watched) and here.getAdapter('auth')().getGroups();
+"><div class="col-md-6 pull-right">
+                    <tal:block tal:condition="python:has_collab or has_watched">
+                        <div class="list-item list-action">
+                            <div class="box">
+                                <div class="title">
+                                    <h3>
+                                    <tal:if1 condition="has_collab">
+                                    <tal:txt i18n:translate="">
+                                        Collaboration
+                                    </tal:txt>
+                                    <tal:if2 condition="has_watched">/</tal:if2>
+                                    </tal:if1>
+                                    <tal:if3 condition="has_watched">
+                                    <tal:txt i18n:translate="">
+                                    Watchlist
+                                    </tal:txt>
+                                    </tal:if3>
+                                    </h3>
+                                </div>
+                            </div>
+                            <table class="datatb table table-bordered">
+                            <thead><tr>
+                            <th i18n:translate="">
+                            Title
+                            </th>
+                            <tal:ifc condition="has_collab">
+                            <th tal:condition="has_watched"
+                                i18n:translate="">
+                            Actions
+                            </th>
+                            <td tal:condition="not:has_watched"><tal:comment replace="nothing"><!--
+                            Wenn keine nur beobachtbaren Objekte da sind, haben alle dieselben
+                            Aktionen, und eine Sortierung danach ergibt keinen Sinn ...
+                            --></tal:comment></td>
+                            </tal:ifc>
+                            </thead>
+                            <tbody tal:condition="has_collab">
+                            <tal:loop define="
+onclick string:window.open(this.href, 'Popup', 'fullscreen=yes,menubar=no,toolbar=no,resizable=yes,location=no,scrollbars=yes');;return false"
+                                      repeat="dic thelist">
+                            <tr tal:define="
+brain python:dic['brain'];
+theurl python:brain.getURL();
+langarg string:set_language=${brain/Language};
+editable python:dic['writable'];
+">
+                                <td>
+                                    <a href="#"
+                                       tal:attributes="href string:$theurl?$langarg"
+                                       tal:content="brain/Title">
+                                       Titel der les- oder bearbeitbaren Struktur
+                                    </a>
+                                </td>
+                                <td>
+                                    <a class="action"
+                                       tal:condition="editable"
+                                       tal:attributes="href string:$theurl/structure-edit?$langarg;
+                                                       onclick onclick;
+                                                       "
+                                       i18n:translate="">Edit</a>
+                                </td>
+                            </tr>
+                            </tal:loop>
+                            </tbody>
+                            <tbody tal:condition="not:has_collab">
+                            <tal:loop repeat="dic thelist">
+                            <tr tal:define="
+brain python:dic['brain'];
+theurl python:brain.getURL();
+langarg string:set_language=${brain/Language};
+">
+                                <td>
+                                    <a href="#"
+                                       tal:attributes="href string:$theurl?$langarg"
+                                       tal:content="brain/Title">
+                                       Titel der les- oder bearbeitbaren Struktur
+                                    </a>
+                                </td>
+                            </tr>
+                            </tal:loop>
+                            </tbody>
+                            </table>
+                        </div><!-- .list-item list-action -->
+                    </tal:block>
+
+                </div>
+                </tal:collab>
+
+        </div>
+
+
+
+
+
+    </div><!-- .row -->
+    <metal:js define-macro="chosen-js">
+        <script type="text/javascript" src="/++resource++visaplan.plone.groups/group-desktop.js"></script>
+    <script type="text/javascript" src="/++resource++unitracc-resource/finally.js"></script>
+    </metal:js>
+</metal:fill-main-slot>
+
+<!-- vim: set ts=4 sts=4 sw=4 si et hls :--></metal:use-master></tal:ns></metal:bigmac>

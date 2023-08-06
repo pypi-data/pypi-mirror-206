@@ -1,0 +1,9 @@
+setuptools
+importlib_metadata
+packaging
+six
+visaplan.tools>=1.2.4
+visaplan.plone.tools>=1.1.14
+visaplan.plone.adapters
+visaplan.plone.infohubs
+visaplan.plone.base>=1.2.2

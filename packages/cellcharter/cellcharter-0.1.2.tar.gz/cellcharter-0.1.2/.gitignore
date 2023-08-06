@@ -1,0 +1,31 @@
+# Temp files
+.DS_Store
+*~
+
+# Compiled files
+__pycache__/
+
+# Distribution / packaging
+/build/
+/dist/
+/*.egg-info/
+
+# Tests and coverage
+/.pytest_cache/
+/.cache/
+/data/
+
+# docs
+/docs/generated/
+/docs/_build/
+/docs/notebooks/data
+/docs/notebooks/tutorial_models
+/docs/notebooks/tutorial_data
+/docs/notebooks/trash
+/docs/notebooks/condscvi_model_cpu
+
+
+
+# IDEs
+/.idea/
+/.vscode/

@@ -1,0 +1,251 @@
+from __future__ import annotations
+
+from copy import copy
+from types import MappingProxyType
+from typing import Any, Mapping
+
+import matplotlib as mpl
+import numpy as np
+import seaborn as sns
+import squidpy as sq
+import pandas as pd
+from anndata import AnnData
+from matplotlib import colors as mcolors
+from matplotlib import pyplot as plt
+from matplotlib.axes import Axes
+from mpl_toolkits.axes_grid1 import make_axes_locatable
+from scipy.cluster import hierarchy as sch
+from scanpy.pl._dotplot import DotPlot
+import scipy as sp
+
+
+
+def _heatmap(
+    adata: AnnData,
+    key: str,
+    title: str = "",
+    method: str | None = None,
+    cont_cmap: str | mcolors.Colormap = "bwr",
+    annotate: bool = True,
+    figsize: tuple[float, float] | None = None,
+    dpi: int | None = None,
+    cbar_kwargs: Mapping[str, Any] = MappingProxyType({}),
+    ax: Axes | None = None,
+    n_digits: int = 2,
+    **kwargs: Any,
+) -> mpl.figure.Figure:
+
+    cbar_kwargs = dict(cbar_kwargs)
+    if ax is None:
+        fig, ax = plt.subplots(constrained_layout=True, dpi=dpi, figsize=figsize)
+    else:
+        fig = ax.figure
+
+    if method is not None:
+        row_order, col_order, row_link, col_link = sq.pl._utils._dendrogram(
+            adata.X, method, optimal_ordering=adata.n_obs <= 1500
+        )
+    else:
+        row_order = np.arange(len(adata.obs[key]))
+        col_order = np.arange(len(adata.var_names))
+
+    row_order = row_order[::-1]
+    row_labels = adata.obs[key][row_order]
+    col_labels = adata.var_names[col_order]
+
+    data = adata[row_order, col_order].copy().X
+
+    # row_cmap, col_cmap, row_norm, col_norm, n_cls = sq.pl._utils._get_cmap_norm(adata, key, order=(row_order, len(row_order) + col_order))
+    row_cmap, col_cmap, row_norm, col_norm, n_cls = sq.pl._utils._get_cmap_norm(
+        adata, key, order=(row_order, col_order)
+    )
+    col_norm = mcolors.BoundaryNorm(np.arange(len(col_order) + 1), col_cmap.N)
+
+    row_sm = mpl.cm.ScalarMappable(cmap=row_cmap, norm=row_norm)
+    col_sm = mpl.cm.ScalarMappable(cmap=col_cmap, norm=col_norm)
+
+    vmin = kwargs.pop("vmin", np.nanmin(data))
+    vmax = kwargs.pop("vmax", np.nanmax(data))
+    vcenter = kwargs.pop("vcenter", 0)
+    norm = mpl.colors.TwoSlopeNorm(vcenter=vcenter, vmin=vmin, vmax=vmax)
+    cont_cmap = copy(plt.get_cmap(cont_cmap))
+    cont_cmap.set_bad(color="grey")
+
+    ax = sns.heatmap(
+        data[::-1],
+        cmap=cont_cmap,
+        norm=norm,
+        ax=ax,
+        square=True,
+        annot=np.round(data[::-1], n_digits) if annotate else False,
+        cbar=False,
+        **kwargs,
+    )
+
+    for _, spine in ax.spines.items():
+        spine.set_visible(True)
+
+    ax.tick_params(top=False, bottom=False, labeltop=False, labelbottom=False)
+    ax.set_xticks([])
+    ax.set_yticks([])
+
+    divider = make_axes_locatable(ax)
+    row_cats = divider.append_axes("left", size="3%", pad=0)
+    col_cats = divider.append_axes("top", size="3%", pad=0)
+    cax = divider.append_axes("right", size="2%", pad=0.1)
+
+    if method is not None:  # cluster rows but don't plot dendrogram
+        col_ax = divider.append_axes("top", size="5%")
+        sch.dendrogram(col_link, no_labels=True, ax=col_ax, color_threshold=0, above_threshold_color="black")
+        col_ax.axis("off")
+
+    c = fig.colorbar(
+        mpl.cm.ScalarMappable(norm=norm, cmap=cont_cmap),
+        cax=cax,
+        ticks=np.linspace(norm.vmin, norm.vmax, 10),
+        orientation="vertical",
+        format="%0.2f",
+        **cbar_kwargs,
+    )
+
+    # column labels colorbar
+    c = fig.colorbar(col_sm, cax=col_cats, orientation="horizontal", ticklocation="top")
+    # c.set_ticks(np.arange(len(col_labels)) + 0.5)
+    # c.set_ticklabels(col_labels)
+    c.set_ticks([])
+    c.set_ticklabels([])
+    (col_cats if method is None else col_ax).set_title(title)
+    c.outline.set_visible(False)
+
+    # row labels colorbar
+    c = fig.colorbar(row_sm, cax=row_cats, orientation="vertical", ticklocation="left")
+    c.set_ticks(np.arange(n_cls) + 0.5)
+    c.set_ticklabels(row_labels)
+    c.set_label(key)
+    c.outline.set_visible(False)
+
+    return fig, ax
+
+def _reorder(values, order, axis=1):
+    if axis == 0:
+        values = values.iloc[order, :]
+    elif axis == 1:
+        values = values.iloc[:, order]
+    else:
+        raise ValueError('The axis parameter accepts only values 0 and 1.')
+    return values
+
+def _dotplot(adata, id_key, obs_key, values, abs_values=False, size_threshold=(-2, 2), color_threshold=(-1, 1), figsize=(10,5), cmap='Reds', size_title='log2 FC', dot_scale=1, order_id=True, **kwargs):
+    values_color = _clip(values, min_threshold=color_threshold[0], max_threshold=color_threshold[1], new_min=-1, new_max=1, new_middle=0)
+    if order_id is None or order_id is True:
+        order = sp.cluster.hierarchy.dendrogram(sp.cluster.hierarchy.linkage(values_color.T, method='complete'), no_plot=True)['leaves']
+        values = _reorder(values, order, axis=1)
+        values_color = _reorder(values_color, order, axis=1)
+
+    one_hot_encoded = pd.get_dummies(adata.obs[obs_key])
+    adata_obs = AnnData(one_hot_encoded, dtype=np.uint8, obs=adata.obs)
+
+    values_size = _clip(values, size_threshold[0], size_threshold[1])
+    if abs_values:
+        print('Warning: label for depletion/enrichment to be implemented.')
+        values_size = np.abs(values_size)
+
+    max_value = np.max(values_size.values)
+    values_size /= max_value
+
+    values_color = _clip(values, min_threshold=color_threshold[0], max_threshold=color_threshold[1], new_min=-1, new_max=1, new_middle=0)
+
+    dp= MyDotPlot(adata_obs, 
+            adata_obs.var_names, 
+            groupby=id_key, 
+            dot_color_df=values_color, 
+            dot_size_df=values_size, 
+            figsize=figsize,
+            **kwargs
+        )
+    dp.max_value = max_value
+
+    dp.swap_axes()
+    dp = dp.style(
+            cmap=cmap,
+            largest_dot=dp.largest_dot*dot_scale,
+            dot_edge_lw=DotPlot.DEFAULT_DOT_EDGELW,
+        )
+    dp = dp.legend(show_colorbar=False, size_title=size_title)
+    return dp
+
+
+
+def _clip(values, min_threshold=None, max_threshold=None, new_min=None, new_max=None, new_middle=None):
+    values_clipped = values.copy()
+    if new_middle is not None:
+        values_clipped[:] = new_middle
+    if min_threshold is not None:
+        values_clipped[values < min_threshold] = new_min if new_min is not None else min_threshold
+    if max_threshold is not None:
+        values_clipped[values > max_threshold] = new_max if new_max is not None else max_threshold
+    return values_clipped
+
+class MyDotPlot(DotPlot):
+    def _plot_size_legend(self, size_legend_ax: Axes):
+        # for the dot size legend, use step between dot_max and dot_min
+        # based on how different they are.
+        # diff = self.dot_max - self.dot_min
+        # if 0.3 < diff <= 0.6:
+        #     step = 0.1
+        # elif diff <= 0.3:
+        #     step = 0.05
+        # else:
+        #     step = 0.2
+        # a descending range that is afterwards inverted is used
+        # to guarantee that dot_max is in the legend.
+        #
+        size_range = np.linspace(self.dot_min, self.dot_max, 3)
+        #size_range = np.arange(self.dot_max, self.dot_min, step * -1)[::-1]
+        if self.dot_min != 0 or self.dot_max != 1:
+            dot_range = self.dot_max - self.dot_min
+            size_values = (size_range - self.dot_min) / dot_range
+        else:
+            size_values = size_range
+
+        size = size_values**self.size_exponent
+        size = size * (self.largest_dot - self.smallest_dot) + self.smallest_dot
+
+        # plot size bar
+        size_legend_ax.scatter(
+            np.arange(len(size)) + 0.5,
+            np.repeat(0, len(size)),
+            s=size,
+            color='gray',
+            edgecolor='black',
+            linewidth=self.dot_edge_lw,
+            zorder=100,
+        )
+        size_legend_ax.set_xticks(np.arange(len(size)) + 0.5)
+        labels = [
+            "{}".format(np.round((x*self.max_value), decimals=1)) for x in size_range
+        ]
+        size_legend_ax.set_xticklabels(labels, fontsize='small')
+
+        # remove y ticks and labels
+        size_legend_ax.tick_params(
+            axis='y', left=False, labelleft=False, labelright=False
+        )
+
+        # remove surrounding lines
+        size_legend_ax.spines['right'].set_visible(False)
+        size_legend_ax.spines['top'].set_visible(False)
+        size_legend_ax.spines['left'].set_visible(False)
+        size_legend_ax.spines['bottom'].set_visible(False)
+        size_legend_ax.grid(False)
+
+        ymax = size_legend_ax.get_ylim()[1]
+        size_legend_ax.set_ylim(-1.05 - self.largest_dot * 0.003, 4)
+        size_legend_ax.set_title(self.size_title, y=ymax + 0.45, size='small')
+
+        xmin, xmax = size_legend_ax.get_xlim()
+        size_legend_ax.set_xlim(xmin - 0.15, xmax + 0.5)
+    
+    # ToDo: need to find a way to get get_axes()['mainplot_ax'] without showing the plot
+    def rotate_xlabels(self, ax):
+        ax= ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha='center', minor=False)

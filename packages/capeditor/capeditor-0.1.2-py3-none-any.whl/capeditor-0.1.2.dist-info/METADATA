@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: capeditor
+Version: 0.1.2
+Summary: Wagtail CAP Editor can be used as standalone or integrated into website
+Author: Grace Amondi
+Author-email: miswa.grace@gmail.com
+Requires-Dist: Django (>=4.0.0)
+Requires-Dist: djangorestframework-xml (>=2.0.0)
+Requires-Dist: six (>=1.16.0)
+Requires-Dist: wagtail (>=4.0.0)
+Requires-Dist: wagtail-cache (>=2.2.0)
+Requires-Dist: psycopg2-binary (>=2.9.5)
+Requires-Dist: wagtail-lazyimages (>=0.1.5)
+

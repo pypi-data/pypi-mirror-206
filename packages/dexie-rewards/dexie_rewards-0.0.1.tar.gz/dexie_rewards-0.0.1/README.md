@@ -1,0 +1,183 @@
+## Overview
+
+An open source Python CLI tool which runs locally and will automatically claim rewards for all your created offers on [dexie](https://dexie.space).
+
+## Installing
+
+### Install via pip
+
+```sh
+pip install dexie-rewards
+```
+
+### Install via the repository
+
+1. Clone the repository
+
+```sh
+git clone git@github.com:dexie-space/dexie-rewards.git
+cd ./dexie-rewards/
+```
+
+2. Activate Poetry Shell
+
+```sh
+❯ poetry shell
+Spawning shell within ...
+
+❯ emulate bash -c '.../bin/activate'
+```
+
+3. Install Dexie CLI
+
+```sh
+❯ poetry install
+Installing dependencies from lock file
+
+Package operations: 54 installs, 1 update, 0 removals
+
+  ...
+  • Installing chia-blockchain (...)
+  • Installing rich-click (...)
+
+Installing the current project: dexie-rewards (...)
+```
+
+### Set `CHIA_ROOT` and dexie urls (optional)
+
+> Dexie CLI needs to know where to connect to the dexie-api and where to find the chia wallet.
+
+```sh
+❯ export CHIA_ROOT="~/.chia/testnet10"
+❯ export DEXIE_URL="https://testnet.dexie.space"
+❯ export DEXIE_API_URL="https://api-testnet.dexie.space/v1/"
+```
+
+## Commands
+
+```sh
+❯ dexie --help
+
+ Usage: dexie [OPTIONS] COMMAND [ARGS]...
+
+╭─ Options ─────────────────────────────────────────────────────────────────────────────────────╮
+│ --help      Show this message and exit.                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─ Commands ────────────────────────────────────────────────────────────────────────────────────╮
+│ rewards           Manage your dexie rewards for offers                                        │
+╰───────────────────────────────────────────────────────────────────────────────────────────────╯
+
+```
+
+### Rewards
+
+```sh
+❯ dexie rewards --help
+
+ Usage: dexie rewards [OPTIONS] COMMAND [ARGS]...
+
+╭─ Options ─────────────────────────────────────────────────────────────────────────────────────╮
+│ --help      Show this message and exit.                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─ Commands ────────────────────────────────────────────────────────────────────────────────────╮
+│ claim          Claim all offers with dexie rewards                                            │
+│ list           List all offers with dexie rewards                                             │
+╰───────────────────────────────────────────────────────────────────────────────────────────────╯
+
+```
+
+#### list
+
+```sh
+❯ dexie rewards list --help
+
+ Usage: dexie rewards list [OPTIONS]
+
+╭─ Options ─────────────────────────────────────────────────────────────────────────────────────╮
+│ *  --fingerprint  -f  INTEGER  Set the fingerprint to specify which wallet to use [required]  │
+│    --json         -j           Displays offers as JSON                                        │
+│    --help                      Show this message and exit.                                    │
+╰───────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+❯ dexie rewards list -f 2149823282 --json | jq
+[
+  {
+    "id": "9D1P2oTKhLveYosRiksTczSjX9pW6okAvNL5XVQEwHsD",
+    "status": 0,
+    "date_found": "2023-04-22T03:38:50.363Z",
+    "date_rewards_since": "2023-04-24T08:52:48.366Z",
+    "maker_puzzle_hash": "0x1aa36967f74dfc0b85996e9adbe2e646c507b34644c1e17501d790b3838dbdd4",
+    "claimable_rewards": 0.669
+  },
+  {
+    "id": "BSqJs63Pf1DV4kBc2hTv8G9ZFgytMbWWtkoLnCmzu1LV",
+    "status": 0,
+    "date_found": "2023-04-22T03:38:19.712Z",
+    "date_rewards_since": "2023-04-24T08:52:48.366Z",
+    "maker_puzzle_hash": "0x1aa36967f74dfc0b85996e9adbe2e646c507b34644c1e17501d790b3838dbdd4",
+    "claimable_rewards": 0.9
+  }
+]
+
+❯ dexie rewards list -f 2149823282
+╭──────────────────────────────────────────────┬───────────────╮
+│                    Offer                     │ Rewards (DBX) │
+├──────────────────────────────────────────────┼───────────────┤
+│ 9D1P2oTKhLveYosRiksTczSjX9pW6okAvNL5XVQEwHsD │         0.669 │
+│ BSqJs63Pf1DV4kBc2hTv8G9ZFgytMbWWtkoLnCmzu1LV │         0.900 │
+╰──────────────────────────────────────────────┴───────────────╯
+```
+
+#### claim
+
+```sh
+❯ dexie rewards claim --help
+
+ Usage: dexie rewards claim [OPTIONS]
+
+╭─ Options ─────────────────────────────────────────────────────────────────────────────────────╮
+│ *  --fingerprint  -f   INTEGER  Set the fingerprint to specify which wallet to use [required] │
+│    --verify-only  -vo           Only verify the claim, don't actually claim                   │
+│    --yes          -y            Skip claim confirmation                                       │
+│    --verbose      -v            Display verbose output                                        │
+│    --help                       Show this message and exit.                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+
+❯ dexie rewards claim -f 2149823282 --verbose
+╭──────────────────────────────────────────────┬───────────────╮
+│                    Offer                     │ Rewards (DBX) │
+├──────────────────────────────────────────────┼───────────────┤
+│ 9D1P2oTKhLveYosRiksTczSjX9pW6okAvNL5XVQEwHsD │         0.669 │
+│ BSqJs63Pf1DV4kBc2hTv8G9ZFgytMbWWtkoLnCmzu1LV │         0.900 │
+╰──────────────────────────────────────────────┴───────────────╯
+Total Rewards: 1.569 DBX
+Claim all? [y/n]: y
+
+claims request payload:
+{
+  "claims": [
+    {
+      "offer_id": "9D1P2oTKhLveYosRiksTczSjX9pW6okAvNL5XVQEwHsD",
+      "signature": "a911020f0d60082bda371c0237f4d81797ac868ca8f6fcf71b5477857802543f9aba7b85f7a8240ba2afaf60c3449c66105f33b7a5511b3fb75296aa33f33c517aed9ce8544e513235745818597d10d8889b103307a5c507d1638e724bad0ce5",
+      "public_key": "b9ea173a4a26f6bd5b372ac9a559ede742a44578d8f17a7ca631f1a9a1e5257b0ba4a78ec4edb65532b949c1a0d3866d"
+    },
+    {
+      "offer_id": "BSqJs63Pf1DV4kBc2hTv8G9ZFgytMbWWtkoLnCmzu1LV",
+      "signature": "80ef07c8156b07731bd4dd647b32de47ad0831581765963eaff619f5bdf7b2a05666db7d8da742c24b6d3055f9555f9f07ad51b4ac6ddc75d6644d4f5854195e7c45f0e42aba45033ea2257a528ed60e61084598e1513eba074c39e831832236",
+      "public_key": "b9ea173a4a26f6bd5b372ac9a559ede742a44578d8f17a7ca631f1a9a1e5257b0ba4a78ec4edb65532b949c1a0d3866d"
+    }
+  ]
+}
+
+claims result:
+{
+  "success": true,
+  "verified_amount": {
+    "9D1P2oTKhLveYosRiksTczSjX9pW6okAvNL5XVQEwHsD": 0.669,
+    "BSqJs63Pf1DV4kBc2hTv8G9ZFgytMbWWtkoLnCmzu1LV": 0.9
+  }
+}
+```

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "addressable-sql-queries"
+version = "0.0.1.dev1"
+authors = [{ name = "Jean Oustry"}]
+description = "Individualize the queries of a SQL script and make them easily addressable"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+license = {file = "LICENSE"}
+keywords = ["SQL", "addressable query", "addressable queries", "parser", "preprocessor", "script chunk", "script manipulation"]
+
+[project.optional-dependencies]
+test = ["mypy", "coverage", "autopep8", "setuptools", "wheel", "twine", "build"]
+
+[tool.coverage.run]
+omit = ["src/addressable_sql_queries/default_python_basis.py"]
+source = ["src"]
+branch = true
+
+[tool.coverage.report]
+exclude_lines = [
+    "@typing.overload",
+    "raise NotImplementedError",
+    'if __name__ == "__main__":',
+    '# pragma: no cover',
+]

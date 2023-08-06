@@ -1,0 +1,129 @@
+# What is this library ?
+This library allows to make a SQL script (or possibly any script) addressable.
+Once preprocessed or parsed, you can get any chunk of it (which could be a single query for instance) with its line number, key, or index of the chunk.
+
+# Example & How to use:
+<details>
+<summary>
+With a target SQL script : (toggle)
+</summary>
+
+*```raw_script.sql```* :
+```SQL
+CREATE TEMPORARY VIEW fibonacci (a, index_) AS
+WITH RECURSIVE inner_fibo(b, c, index_) AS (
+    SELECT 0, 1, 0
+    UNION
+    SELECT c, c + b, index_ + 1
+    FROM inner_fibo
+)
+SELECT b, index_ FROM inner_fibo;
+
+SELECT * FROM fibonacci LIMIT 1 OFFSET 3;
+SELECT * FROM fibonacci LIMIT 1 OFFSET 4;
+SELECT * FROM fibonacci LIMIT 1 OFFSET 5;
+SELECT * FROM fibonacci LIMIT 1 OFFSET 10;
+
+
+CREATE TEMPORARY TABLE test_table (a integer) STRICT;
+```
+</details>
+We modify the above script by adding the following delimiter :
+<pre> -- % key</pre>
+where key is the string that will reference a particular chunk of the script that we want to separate and make addressable.
+Note the prepended space. The delimiter is modifiable.
+For instance :
+
+*```raw_script.sql```* :
+```SQL
+ -- % fibonacci_view_creation
+CREATE TEMPORARY VIEW fibonacci (a, index_) AS
+WITH RECURSIVE inner_fibo(b, c, index_) AS (
+    SELECT 0, 1, 0
+    UNION
+    SELECT c, c + b, index_ + 1
+    FROM inner_fibo
+)
+SELECT b, index_ FROM inner_fibo;
+
+ -- % contiguous_view_tests
+SELECT * FROM fibonacci LIMIT 1 OFFSET 3;
+SELECT * FROM fibonacci LIMIT 1 OFFSET 4;
+SELECT * FROM fibonacci LIMIT 1 OFFSET 5;
+ -- % testing_10nth_value_of_view
+SELECT * FROM fibonacci LIMIT 1 OFFSET 10;
+
+
+CREATE TEMPORARY TABLE test_table (a integer) STRICT;
+```
+
+Then we preprocess the script :
+```python
+import addressable_sql_queries
+with (open("raw_script.sql") as input_file,
+    open("preprocessed_script.py", "w") as output_file):
+    output_file.write(
+        addressable_sql_queries.preprocess_to_str(input_file.read()))
+```
+
+This step can also be done with :
+```bash
+python -m addressable_sql_queries path/to/raw_script.sql -o path/to/preprocessed_script.py
+```
+
+As all keys in the example above are not only valid but usable python ids, you can then access chunks of this script like this :
+```python
+from preprocessed_script import *
+print(contiguous_view_tests)
+```
+
+Which will outputs :
+```
+ -- % contiguous_view_tests
+SELECT * FROM fibonacci LIMIT 1 OFFSET 3;
+SELECT * FROM fibonacci LIMIT 1 OFFSET 4;
+SELECT * FROM fibonacci LIMIT 1 OFFSET 5;
+
+```
+
+Even when keys are invalid ids, you can access the chunks of the script by these means :
+```python
+from preprocessed_script import queries as sql_queries
+print(sql_queries[0]) # This will print the chunk before the first delimiter, which is nothing in this case : "\n".
+print(sql_queries[None]) # Another way to do the same thing. None is always the first key.
+print(sql_queries["fibonacci_view_creation"])
+"""This will print :
+ -- % fibonacci_view_creation
+CREATE TEMPORARY VIEW fibonacci (a, index_) AS
+WITH RECURSIVE inner_fibo(b, c, index_) AS (
+    SELECT 0, 1, 0
+    UNION
+    SELECT c, c + b, index_ + 1
+    FROM inner_fibo
+)
+SELECT b, index_ FROM inner_fibo;
+
+
+"""
+print(sql_queries[1]) # This will print the same thing as above (the second chunk).
+print(sql_queries.having_line(4)) # This will print the chunk containing the line 4 (counting from 1), and thus does the same thing as above.
+```
+
+## Parser mode example :
+Alternatively, parser mode can be used :
+```python
+from addressable_sql_queries import Query
+q = Query.fromFile("raw_script.sql")
+print(q[3])
+"""This will print :
+ -- % testing_10nth_value_of_view
+SELECT * FROM fibonacci LIMIT 1 OFFSET 10;
+
+
+CREATE TEMPORARY TABLE test_table (a integer) STRICT;
+"""
+```
+
+Query object can also be built directly from a string.
+
+Note : in the case where the first line is a delimiter, thus making the first and second chunk shares the first line (starting at 1), the having_line function will return the second, non empty chunk.

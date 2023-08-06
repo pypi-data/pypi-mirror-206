@@ -1,0 +1,7 @@
+mypy
+coverage
+autopep8
+setuptools
+wheel
+twine
+build

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+.github/scripts/release.py
+.github/workflows/publish.yml
+.github/workflows/release.yml
+src/thonnycontrib/thonny-autosave/__init__.py
+thonny_autosave.egg-info/PKG-INFO
+thonny_autosave.egg-info/SOURCES.txt
+thonny_autosave.egg-info/dependency_links.txt
+thonny_autosave.egg-info/requires.txt
+thonny_autosave.egg-info/top_level.txt

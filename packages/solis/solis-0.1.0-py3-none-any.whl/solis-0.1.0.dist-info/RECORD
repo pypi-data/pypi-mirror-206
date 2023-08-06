@@ -1,0 +1,9 @@
+solis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solis/cli.py,sha256=MsaBEHRPXf2woQpX9EfqIpjbm4glFlr2RzOAlhxhKpo,2004
+solis/exceptions.py,sha256=rQo4gLKvkRe2Dvv-HN8ENDVDVNHYSjZfrGf-VqJeacM,125
+solis/solis.py,sha256=-YtHyb-inFy0RiWiG7RZyFno1zw2TOQPtWzsBsWJ3vc,9256
+solis/utils.py,sha256=rNlmfpZ164WyYXdWhYY-SgeXZ3vVmYovxfTsVwNx-K8,422
+solis-0.1.0.dist-info/METADATA,sha256=YqhVO8M_dGTiaflSK9qBEPZmSl5BJvFkRfpSM_pWrQY,2515
+solis-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+solis-0.1.0.dist-info/entry_points.txt,sha256=rF1XFxYnPMzNAfLsP0EjOJnJAXWtS7Ue_XtN_VnMj9M,40
+solis-0.1.0.dist-info/RECORD,,

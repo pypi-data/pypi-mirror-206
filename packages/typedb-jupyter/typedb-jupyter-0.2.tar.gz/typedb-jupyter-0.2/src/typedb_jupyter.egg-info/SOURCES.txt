@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/tql/__init__.py
+src/tql/connection.py
+src/tql/exception.py
+src/tql/magic.py
+src/tql/query.py
+src/typedb_jupyter.egg-info/PKG-INFO
+src/typedb_jupyter.egg-info/SOURCES.txt
+src/typedb_jupyter.egg-info/dependency_links.txt
+src/typedb_jupyter.egg-info/requires.txt
+src/typedb_jupyter.egg-info/top_level.txt

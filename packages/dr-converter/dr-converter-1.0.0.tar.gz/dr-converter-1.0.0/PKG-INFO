@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dr-converter
+Version: 1.0.0
+Summary: DR Font Converter.
+Author: Tom Joad
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE

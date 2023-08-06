@@ -1,0 +1,7 @@
+fonttools>=4.39.3
+skia-pathops>=0.7.4
+brotli>=1.0.9
+cffsubr>=0.2.9.post1
+afdko==3.9.5
+pathvalidate>=2.5.2
+PyQt6==6.5.0

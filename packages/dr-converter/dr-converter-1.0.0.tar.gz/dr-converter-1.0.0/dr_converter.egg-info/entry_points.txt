@@ -1,0 +1,2 @@
+[console_scripts]
+drconv = DRConverter.dr_converter:main

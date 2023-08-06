@@ -1,0 +1,3 @@
+[console_scripts]
+elia=elia.app:run
+

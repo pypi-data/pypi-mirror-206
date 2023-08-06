@@ -1,0 +1,9 @@
+elia_chat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elia_chat/app.py,sha256=wAH14XGfRH7EWkNe2_tPeAnw1AVYDPvotnEi659eZQQ,862
+elia_chat/elia.scss,sha256=orDFPYlKPV2ZkPdT-bW899UhPNr04ZmINY-zH2DGZYc,456
+elia_chat/models.py,sha256=05UUfhPRrqEj_aoXsZZJEwiuVZWLIXUQ0-4b6vaiBZo,185
+elia_chat/widgets/conversation.py,sha256=D3HBkH2HXvN1f_g7lV6yOg9u9DYcRsJQFZBx8-RNz-4,5020
+elia_chat-0.1.0.dist-info/entry_points.txt,sha256=HAdSZE9J1u9Csx1bpzv3pGt-JTZCUWApYoJ0jeOhdvo,37
+elia_chat-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+elia_chat-0.1.0.dist-info/METADATA,sha256=Hts9KmnzFPHC5AWvuF5qokC6Sc_kh9dKFkJfpyYhVo4,562
+elia_chat-0.1.0.dist-info/RECORD,,

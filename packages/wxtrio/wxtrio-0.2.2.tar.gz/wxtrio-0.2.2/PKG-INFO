@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: wxtrio
+Version: 0.2.2
+Summary: Async wxPtyon with trio.
+Author: lojack5
+License: BSD 3-Clause
+Project-URL: homepage, https://github.com/lojack5/wxtrio
+Keywords: wxPython,trio,async,GUI
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Framework :: Trio
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# wxtrio
+Run wx with trio in guest mode.
+
+Limitations of this approach:
+ - At least on Windows, when a menu is open and the mouse is not withing the bounding box of the window, the GUI main event loop does not yield to trio, and so trio tasks do not run.
+ - Trio is started in guest mode, so wxPython's main event loop must be started before trio.  As a result, all async tasks are cancelled when the wxPython application exits.
+ 

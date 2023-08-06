@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: sphinx-api-sidebar
+Version: 0.0.1
+Summary: Display any generated static API documentation in a sidebar
+Home-page: https://github.com/Yihengxiong6/sphinx_api_sidebar
+Author: Yiheng Xiong
+Author-email: Yiheng Xiong <georgex8866@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Yiheng Xiong
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sphinx (>=2.1)
+
+# Sphinx API Sidebar
+
+A Sphinx extension for displaying any generated static API documentation in a sidebar.
+
+## Overview
+
+This Sphinx extension allows you to automatically include and display static API documentation (e.g., JavaDoc, Python's Sphinx-generated HTML) in the sidebar of your Sphinx documentation. It updates the `html_context` with the API documentation paths, which can then be used in the sidebar.
+
+## Installation
+
+To install the `sphinx-api-sidebar` extension, you can use pip:
+
+```sh
+pip install sphinx-api-sidebar
+```
+
+## Usage
+1. To enable the sphinx-api-sidebar extension in your Sphinx documentation project, add it to the extensions list in your conf.py file:
+
+```python
+extensions = [
+    'sphinx_api_sidebar',
+    # Other extensions...
+]
+```
+
+2. To use a custom command to generate your API documentation or specify different directories, you can set the api_docs_generator configuration value in your conf.py file:
+
+```python
+api_docs_generator = [
+    '<your_custom_build_command>',
+    [
+        {
+            'name': '<generated_api_doc_name>',
+            'path': '<path_to_generated_api_doc>'
+        },
+        # Add more dictionaries for each additional API doc
+    ]
+]
+```
+
+Replace <your_custom_build_command>, <generated_api_doc_name>, and <path_to_generated_api_doc> with the appropriate values for your project.
+
+
+3. To make the different api documentation show up in the sidebar, you will need to copy the `api_docs_sidebar.html` template file from the `sphinx_api_sidebar/templates` folder of the installed package to your Sphinx project's _templates folder. Alternatively, you can create a new file in your project's _templates folder with the following content:
+
+```html
+{% if api_docs %}
+  <h3>{{ _('API Documentation') }}</h3>
+  <ul style="list-style-type: none;">
+    {%- for item in api_docs %}
+      <li style="margin-bottom: 10px;"><a href="{{ pathto('_static/api-docs/{}'.format(item), 1) }}">{{ item }}</a></li>
+    {%- endfor %}
+  </ul>
+{% endif %}
+```
+
+4. Update your `conf.py` file to include the `api_docs_sidebar.html` template in the html_sidebars configuration:
+
+```python
+html_sidebars = {
+    '**': [
+        # ... other sidebars ...
+        'api_docs_sidebar.html',
+    ]
+}
+```

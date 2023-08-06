@@ -1,0 +1,9 @@
+nsloader/__init__.py,sha256=BRTYuFEsLhK7TYyP0EilUIwrXh-Kln9Rjk81ZKdeGZ0,54
+nsloader/wsj.py,sha256=L17W2slLWRiz6PHNULqu97Zp9gTAOsJuMbq0KlB7bQU,4654
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_wsj.py,sha256=i3dkQuOCo-Dv-TUL3pE97aaPUUyepTxkhCdP9u2Fcec,2391
+nsloader-1.0.0.dist-info/LICENSE,sha256=ftRxIFgNyzKHUsp27XaLSaMFx5srywPt26Hl6_NyhDo,1068
+nsloader-1.0.0.dist-info/METADATA,sha256=modjC_BeRc6_Pffpda57kv6n8txdHHGrAbJ_7RQLX_M,1971
+nsloader-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+nsloader-1.0.0.dist-info/top_level.txt,sha256=oAKhs1RhAPQ-riWUftW7miUNEhDTZx7Vg4aPnwppp-Y,14
+nsloader-1.0.0.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+CatRoyale = cat_royale.__main__:main

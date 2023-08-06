@@ -1,0 +1,17 @@
+manimcs/__init__.py,sha256=Yrz0gwZo8svQMoTu0PPFu2vgnHxu5lu4hhAm478_NFY,89
+manimcs/algorithms/__init__.py,sha256=8bZUXwnPb6HFYDR0dBABuIRnKkSMyrx01S49QBdrSXk,25
+manimcs/algorithms/array_sort.py,sha256=8Vap-WdG7omfwgFgP0kLoHCFi5vd0ejwVKJdq0VBocI,8902
+manimcs/engine/__init__.py,sha256=jKiN0IHmNyyELccJ1LKOUsHWEDKMDr4AiHsrCIdjh-4,21
+manimcs/engine/engine.py,sha256=5d6thR5pJYP1D276ko11KU0C7Lu4CQJr8yZX_RabAxo,4315
+manimcs/mobjs/__init__.py,sha256=DcAldqmeELPom9QF7Dskt8AtxWGlxWp9hVU472lCfic,88
+manimcs/mobjs/sort_set.py,sha256=whXkJM0AlCmYBD0o81pMDrDdBaofX8V202S4EAVEFDc,807
+manimcs/mobjs/sortable_mobject.py,sha256=8dEsmmLUBo9-dha9U8mtym5b-zLvyFdEpRTOtoycMsc,2585
+manimcs/mobjs/svg_mobject.py,sha256=quvyOJJRoYRLVZbzwQsCQPXav7whszaq1jKyFs_7e9k,364
+manimcs/renderer/__init__.py,sha256=SYOFrHrATTEMryli7SacHDeNfmgKoiKzHJ4bMyWSYYg,23
+manimcs/renderer/renderer.py,sha256=lFeF0_JJTRdrXfQerPYQl72EqWkCI8TofpFqieDtHHg,274
+manimcs/scene/__init__.py,sha256=TNeqOKgXgjicApyiKcsTo1qUy6USJxCK8fQD66G5xwU,31
+manimcs/scene/array_sort_scene.py,sha256=i9ojq1eLuYaxwbiMDpw7A_UqkjD3caSfxRwaKXOFaN4,315
+manimcs-0.4.5.dist-info/METADATA,sha256=_kgJVJ3FIX6n3CHMo_rkD7u1ih_wvCo3g1YZBb6LRZc,2761
+manimcs-0.4.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+manimcs-0.4.5.dist-info/top_level.txt,sha256=UU1ZRlNWXOiCII8O88IjqeuzH_sFPkIEhzsqCSNPDd0,8
+manimcs-0.4.5.dist-info/RECORD,,

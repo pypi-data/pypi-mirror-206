@@ -1,0 +1,8 @@
+tetuntokenizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tetuntokenizer/tokenizer.py,sha256=avyNaA0KMsjRRHIggxtMFohSRsCOl8G3ZgGITkN8ttg,3238
+tetuntokenizer/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tetuntokenizer/config/tetun_patterns.py,sha256=df-GM5wraAnLgilDFH3wasjC_CoVi3hH3RlTsIqoboQ,957
+tetun_tokenizer-1.1.0.dist-info/METADATA,sha256=0OcWHt8XiDr8cxZzHIFZgWRKCYhauOPe0DQE_4VigG4,5456
+tetun_tokenizer-1.1.0.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+tetun_tokenizer-1.1.0.dist-info/licenses/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+tetun_tokenizer-1.1.0.dist-info/RECORD,,

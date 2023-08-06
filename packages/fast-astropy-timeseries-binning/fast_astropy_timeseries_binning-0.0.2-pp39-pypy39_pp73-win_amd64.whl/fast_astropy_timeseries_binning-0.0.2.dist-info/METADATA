@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fast-astropy-timeseries-binning
+Version: 0.0.2
+Summary: Faster binning functions for astropy.timeseries
+Home-page: https://github.com/dfm/fast-astropy-timeseries-binning
+Author: Dan Foreman-Mackey
+Author-email: dfm@dfm.io
+License: Apache
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Faster binning functions for astropy.timeseries

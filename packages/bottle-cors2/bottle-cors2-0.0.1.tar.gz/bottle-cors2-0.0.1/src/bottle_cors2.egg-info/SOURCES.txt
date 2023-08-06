@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/bottle_cors/__init__.py
+src/bottle_cors/bottle_cors.py
+src/bottle_cors2.egg-info/PKG-INFO
+src/bottle_cors2.egg-info/SOURCES.txt
+src/bottle_cors2.egg-info/dependency_links.txt
+src/bottle_cors2.egg-info/requires.txt
+src/bottle_cors2.egg-info/top_level.txt
+tests/test_bottle_cors.py

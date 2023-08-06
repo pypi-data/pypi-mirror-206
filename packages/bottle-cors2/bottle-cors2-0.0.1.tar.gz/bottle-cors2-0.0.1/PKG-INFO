@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: bottle-cors2
+Version: 0.0.1
+Summary: CORS plugin for Bottle
+Author-email: TJ Renninger <renninger12@gmail.com>
+Project-URL: repository, https://github.com/thepure12/bottle-cors
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# BottleCORS
+CORS plugin for Bottle
+
+## Installation
+### Pip
+```bash
+```
+
+### Source
+```bash
+wget https://raw.githubusercontent.com/thepure12/bottle-cors/main/src/bottle_cors/bottle_cors.py
+```
+
+## Usage
+### Install Plugin
+```python
+from bottle import Bottle
+from bottle_cors import EnableCors
+app = Bottle()
+plugin = EnableCors()
+app.install(plugin)
+```

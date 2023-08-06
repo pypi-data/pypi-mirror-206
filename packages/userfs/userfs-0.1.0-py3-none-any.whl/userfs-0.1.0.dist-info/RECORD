@@ -1,0 +1,15 @@
+userfs/__init__.py,sha256=cE5HhWe5zCmHP7Fv5DvQV-QJloRCl7rHx3BJ00tGfm8,322
+userfs/__main__.py,sha256=ZIynBgRbdOtxsCQ3cQhGre0hWJG7PpUMhJgUA2d72aU,326
+userfs/app.py,sha256=Crf2dQRo791guaDa3j1BvqhkpVLUJsdJ_WZg_Ai-rOE,810
+userfs/dev_requirements.txt,sha256=7I_nMa3C764SomEYsR7cczBUqLlYTB3z9G2zzBjjm0I,81
+userfs/entry.py,sha256=v33Q93WGXPvFTV_x81XbqKVEWS0Ecm2eKDvc1lsxd3o,2004
+userfs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+userfs/requirements.txt,sha256=LgnjeR6taZ2U8t-wuuvFQHeThJij-YElZEhQzSEBUcU,9
+userfs/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+userfs/commands/all.py,sha256=Pexoc2lu3owRrpervVo_Q0oUdJNMoaFXhqmwUCEg3Fo,398
+userfs-0.1.0.dist-info/LICENSE,sha256=ral6n3tdu3u3btrRudw1ft1LCiqQNx1tggO6WuW9CmI,1071
+userfs-0.1.0.dist-info/METADATA,sha256=Y17XTN1XP5cZLVzHCsRBuHrCEU92SaMnO6_OHViUf3Y,3390
+userfs-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+userfs-0.1.0.dist-info/entry_points.txt,sha256=xOwutqdIqM9NkzZxNbjvNqxRYyQHMpcXNEqXPRbS6Nc,42
+userfs-0.1.0.dist-info/top_level.txt,sha256=vAS1KF8mkbIe5Z2FXPTWmTRHw50S4mdwdGUQfDJ6G_c,7
+userfs-0.1.0.dist-info/RECORD,,

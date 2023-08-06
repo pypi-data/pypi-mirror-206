@@ -1,0 +1,15 @@
+[project]
+name = "ft_package_42_jekim"
+version = "0.0.1"
+authors = [
+  { name="Two-Jay", email="djeeee1272@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.urls]
+"Homepage" = "https://github.com/Two-Jay/42_Python_for_DataScience"
+
+[project.license]
+file = "LICENSE"

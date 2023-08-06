@@ -1,0 +1,292 @@
+(undo-tree-save-format-version . 1)
+"0f0132b085c512dd2e548aee960884ee2acbae9c"
+[nil nil nil nil (25672 55566 825523 661000) 0 nil]
+([nil nil ((6891 . 6895) (#("name" 0 4 (fontified nil)) . -6891) (6891 . 6895) (#("name" 0 4 (fontified t)) . -6891) (undo-tree-id12 . -4) (undo-tree-id13 . -1) (undo-tree-id14 . -2) (undo-tree-id15 . -1) (undo-tree-id16 . -3) (undo-tree-id17 . -2) (undo-tree-id18 . -4) (undo-tree-id19 . -3) (undo-tree-id20 . -4) 6895 (6891 . 6895) (t 25671 54225 965228 963000)) nil (25672 55566 825520 735000) 0 nil])
+([nil nil ((6895 . 6908)) nil (25672 55566 825508 313000) 0 nil])
+([nil nil ((#("            lambda a: getattr(a, name, None)
+" 0 12 (fontified t) 12 18 (face font-lock-keyword-face fontified t) 18 22 (fontified t) 22 29 (face font-lock-builtin-face fontified t) 29 30 (face (rainbow-delimiters-depth-1-face) fontified t) 30 39 (fontified t) 39 43 (face font-lock-constant-face fontified t) 43 44 (face (rainbow-delimiters-depth-1-face) fontified t) 44 45 (fontified t)) . 6896) (undo-tree-id0 . -11) (undo-tree-id1 . -45) (undo-tree-id2 . 33) (undo-tree-id3 . -12) (undo-tree-id4 . -12) (undo-tree-id5 . -12) (undo-tree-id6 . -12) (undo-tree-id7 . -11) (undo-tree-id8 . -11) (undo-tree-id9 . -11) (undo-tree-id10 . -45) (undo-tree-id11 . -44) 6907) nil (25672 55566 825501 473000) 0 nil])
+([nil nil ((6637 . 6648) (#("f" 0 1 (fontified t)) . -6637) (undo-tree-id28 . -1) (6624 . 6638) (t 25672 55566 843313 594000) 6609) nil (25672 55878 97709 693000) 0 nil])
+([nil nil ((#("            func = lambda env: getattr(env, name)
+" 0 12 (fontified t) 12 16 (face font-lock-variable-name-face fontified t) 16 19 (fontified t) 19 25 (face font-lock-keyword-face fontified t) 25 31 (fontified t) 31 38 (face font-lock-builtin-face fontified t) 38 39 (face (rainbow-delimiters-depth-1-face) fontified t) 39 48 (fontified t) 48 49 (face (rainbow-delimiters-depth-1-face) fontified t) 49 50 (fontified t)) . 6575) (undo-tree-id21 . -34) (undo-tree-id22 . -49) (undo-tree-id23 . -22) (undo-tree-id24 . -50) (undo-tree-id25 . -22) (undo-tree-id26 . -22) (undo-tree-id27 . -50) 6597) nil (25672 55878 97701 286000) 0 nil])
+([nil nil ((6776 . 6793) (6755 . 6776) (#("n" 0 1 (face font-lock-keyword-face fontified t)) . -6755) (undo-tree-id53 . -1) (#("s" 0 1 (fontified t)) . -6756) (undo-tree-id54 . -1) 6757 (6752 . 6757) (#("f" 0 1 (face font-lock-keyword-face fontified t)) . -6752) (undo-tree-id55 . -1) (6751 . 6753) (6738 . 6751) (t 25672 55878 111579 605000) 6737) nil (25672 55935 811007 552000) 0 nil])
+([nil nil ((#("                " 0 16 (fontified t)) . 6777) (undo-tree-id43 . -15) (undo-tree-id44 . -16) (undo-tree-id45 . -16) (undo-tree-id46 . -16) (undo-tree-id47 . -16) (undo-tree-id48 . -15) (undo-tree-id49 . -15) (undo-tree-id50 . -15) (undo-tree-id51 . -16) (undo-tree-id52 . -16) 6793) nil (25672 55935 811000 920000) 0 nil])
+([nil nil ((#("            " 0 12 (fontified nil)) . -6794) (undo-tree-id42 . -12) (6778 . 6794)) nil (25672 55935 810990 384000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 6777) (undo-tree-id31 . 1) (undo-tree-id32 . -1) (undo-tree-id33 . 1) (undo-tree-id34 . -1) (undo-tree-id35 . -1) (undo-tree-id36 . -1) (undo-tree-id37 . -1) (undo-tree-id38 . -1) (undo-tree-id39 . -1) (undo-tree-id40 . -1) (undo-tree-id41 . -1)) nil (25672 55935 810986 521000) 0 nil])
+([nil nil ((6954 . 6971) (6934 . 6954) (#("f" 0 1 (face font-lock-keyword-face fontified t)) . -6934) (undo-tree-id29 . -1) (6934 . 6935) (6925 . 6934) (6904 . 6925) (6887 . 6904) (6882 . 6887) (#("    " 0 4 (fontified t)) . -6882) (undo-tree-id30 . -4) 6886 (6869 . 6886) 6777) nil (25672 55935 810969 209000) 0 nil])
+([nil nil ((1033 . 1050) (1028 . 1033) (t 25672 55935 826885 378000) 978) nil (25673 17509 819032 450000) 0 nil])
+([nil nil ((1055 . 1070) (#("TimedActivation" 0 15 (fontified nil)) . -1055) (1055 . 1070) (#("Timed" 0 5 (fontified t)) . -1055) (undo-tree-id50 . -5) (undo-tree-id51 . -1) (undo-tree-id52 . -2) (undo-tree-id53 . -1) (undo-tree-id54 . -3) (undo-tree-id55 . -2) (undo-tree-id56 . -4) (undo-tree-id57 . -3) (undo-tree-id58 . -5) (undo-tree-id59 . -4) (undo-tree-id60 . -5) 1060 (1059 . 1060) (1050 . 1059)) nil (25673 17534 254257 539000) 0 nil] [nil nil ((245 . 247)) ((#(", " 0 2 (fontified t)) . 245) (undo-tree-id0 . -1) (undo-tree-id1 . -2) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (undo-tree-id4 . -1)) (25673 17509 816959 12000) 0 nil])
+([nil nil ((2989 . 3003) (#("schedule_class" 0 14 (fontified t)) . -2989) (undo-tree-id20 . -14) (undo-tree-id21 . -1) (undo-tree-id22 . -2) (undo-tree-id23 . -1) (undo-tree-id24 . -3) (undo-tree-id25 . -2) (undo-tree-id26 . -4) (undo-tree-id27 . -3) (undo-tree-id28 . -5) (undo-tree-id29 . -4) (undo-tree-id30 . -6) (undo-tree-id31 . -5) (undo-tree-id32 . -7) (undo-tree-id33 . -6) (undo-tree-id34 . -8) (undo-tree-id35 . -7) (undo-tree-id36 . -9) (undo-tree-id37 . -8) (undo-tree-id38 . -10) (undo-tree-id39 . -9) (undo-tree-id40 . -11) (undo-tree-id41 . -10) (undo-tree-id42 . -12) (undo-tree-id43 . -11) (undo-tree-id44 . -13) (undo-tree-id45 . -12) (undo-tree-id46 . -14) (undo-tree-id47 . -13) (undo-tree-id48 . -14) 3003 (2989 . 3003) (2987 . 2989) (#("f" 0 1 (fontified t)) . -2987) (undo-tree-id49 . -1) (2984 . 2988)) nil (25673 17534 254242 136000) 0 nil])
+nil
+([nil nil ((3003 . 3020)) nil (25673 17534 254212 428000) 0 nil])
+([nil nil ((#("                time.TimedActivation
+" 0 16 (fontified t) 16 37 (fontified t)) . 3004) (undo-tree-id5 . -37) (undo-tree-id6 . -37) (undo-tree-id7 . -37) (undo-tree-id8 . 21) (undo-tree-id9 . -21) (undo-tree-id10 . -30) (undo-tree-id11 . -15) (undo-tree-id12 . -16) (undo-tree-id13 . -15) (undo-tree-id14 . -15) (undo-tree-id15 . -15) (undo-tree-id16 . -15) (undo-tree-id17 . -15) (undo-tree-id18 . -37) (undo-tree-id19 . -36) 3019) nil (25673 17534 254205 939000) 0 nil])
+([nil nil ((3144 . 3145) (3123 . 3144) (3112 . 3123) (#("f" 0 1 (fontified t face font-lock-keyword-face)) . -3112) (undo-tree-id151 . -1) (3109 . 3113) (#("    " 0 4 (fontified t)) . -3109) (undo-tree-id152 . -4) (undo-tree-id153 . -4) (undo-tree-id154 . -4) (undo-tree-id155 . -4) (undo-tree-id156 . -4) (undo-tree-id157 . -4) 3113 (3096 . 3113) (t 25673 17534 264654 437000) 3037) nil (25673 17543 994689 542000) 0 nil])
+([nil nil ((#("            self.schedule_class = schedule_class
+" 0 12 (fontified t) 12 16 (fontified t face font-lock-keyword-face) 16 48 (fontified t) 48 49 (fontified t)) . 3097) (undo-tree-id61 . -49) (undo-tree-id62 . 1) (undo-tree-id63 . -48) (undo-tree-id64 . -47) (undo-tree-id65 . -49) (undo-tree-id66 . -49) (undo-tree-id67 . -12) (undo-tree-id68 . -12) (undo-tree-id69 . -12) (undo-tree-id70 . -12) (undo-tree-id71 . -12) (undo-tree-id72 . -12) (undo-tree-id73 . -13) (undo-tree-id74 . -12) (undo-tree-id75 . -14) (undo-tree-id76 . -13) (undo-tree-id77 . -15) (undo-tree-id78 . -14) (undo-tree-id79 . -16) (undo-tree-id80 . -15) (undo-tree-id81 . -17) (undo-tree-id82 . -15) (undo-tree-id83 . -18) (undo-tree-id84 . -17) (undo-tree-id85 . -19) (undo-tree-id86 . -18) (undo-tree-id87 . -20) (undo-tree-id88 . -19) (undo-tree-id89 . -21) (undo-tree-id90 . -20) (undo-tree-id91 . -22) (undo-tree-id92 . -21) (undo-tree-id93 . -23) (undo-tree-id94 . -22) (undo-tree-id95 . -24) (undo-tree-id96 . -23) (undo-tree-id97 . -25) (undo-tree-id98 . -24) (undo-tree-id99 . -26) (undo-tree-id100 . -25) (undo-tree-id101 . -27) (undo-tree-id102 . -26) (undo-tree-id103 . -28) (undo-tree-id104 . -27) (undo-tree-id105 . -29) (undo-tree-id106 . -28) (undo-tree-id107 . -30) (undo-tree-id108 . -29) (undo-tree-id109 . -31) (undo-tree-id110 . -30) (undo-tree-id111 . -32) (undo-tree-id112 . -31) (undo-tree-id113 . -33) (undo-tree-id114 . -32) (undo-tree-id115 . -34) (undo-tree-id116 . -33) (undo-tree-id117 . -35) (undo-tree-id118 . -34) (undo-tree-id119 . -36) (undo-tree-id120 . -35) (undo-tree-id121 . -37) (undo-tree-id122 . -36) (undo-tree-id123 . -38) (undo-tree-id124 . -37) (undo-tree-id125 . -39) (undo-tree-id126 . -38) (undo-tree-id127 . -40) (undo-tree-id128 . -39) (undo-tree-id129 . -41) (undo-tree-id130 . -40) (undo-tree-id131 . -42) (undo-tree-id132 . -41) (undo-tree-id133 . -43) (undo-tree-id134 . -42) (undo-tree-id135 . -44) (undo-tree-id136 . -43) (undo-tree-id137 . -45) (undo-tree-id138 . -44) (undo-tree-id139 . -46) (undo-tree-id140 . -45) (undo-tree-id141 . -47) (undo-tree-id142 . -46) (undo-tree-id143 . -48) (undo-tree-id144 . -47) (undo-tree-id145 . -47) (undo-tree-id146 . -47) (undo-tree-id147 . -47) (undo-tree-id148 . -47) (undo-tree-id149 . -47) (undo-tree-id150 . -49) 3144) nil (25673 17543 994645 669000) 0 nil])
+([nil nil ((2320 . 2333) (2287 . 2299) (#("        " 0 8 (fontified nil)) . 2287) (undo-tree-id214 . -8) (undo-tree-id215 . -8) (undo-tree-id216 . -8) (undo-tree-id217 . -8) (undo-tree-id218 . -8) (undo-tree-id219 . -8) (undo-tree-id220 . -8) (2310 . 2316) (t 25673 17544 582 615000)) nil (25673 17613 607604 566000) 0 nil])
+([nil nil ((#("            time.TimedActivation,
+" 0 34 (fontified t)) . 2321) (undo-tree-id170 . 22) (undo-tree-id171 . -17) (undo-tree-id172 . -33) (undo-tree-id173 . -34) (undo-tree-id174 . -34) (undo-tree-id175 . -34) (undo-tree-id176 . -34) (undo-tree-id177 . -34) (undo-tree-id178 . -34) (undo-tree-id179 . -34) (undo-tree-id180 . -34) (undo-tree-id181 . -34) (undo-tree-id182 . -34) (undo-tree-id183 . -34) (undo-tree-id184 . -34) (undo-tree-id185 . -34) (undo-tree-id186 . -34) (undo-tree-id187 . -34) (undo-tree-id188 . -34) (undo-tree-id189 . -34) (undo-tree-id190 . -34) (undo-tree-id191 . -34) (undo-tree-id192 . -34) (undo-tree-id193 . -34) (undo-tree-id194 . -34) (undo-tree-id195 . -34) (undo-tree-id196 . -34) (undo-tree-id197 . -34) (undo-tree-id198 . -34) (undo-tree-id199 . -34) (undo-tree-id200 . -34) (undo-tree-id201 . -34) (undo-tree-id202 . -34) (undo-tree-id203 . -32) (undo-tree-id204 . -34) (undo-tree-id205 . -32) (undo-tree-id206 . -32) (undo-tree-id207 . -32) (undo-tree-id208 . -11) (undo-tree-id209 . -12) (undo-tree-id210 . -11) (undo-tree-id211 . -11) (undo-tree-id212 . -11) (undo-tree-id213 . -34) 2332) nil (25673 17613 607592 919000) 0 nil])
+([nil nil ((#("            " 0 12 (fontified nil)) . -2295) (undo-tree-id165 . -11) (undo-tree-id166 . -11) (undo-tree-id167 . -11) (undo-tree-id168 . -11) (undo-tree-id169 . -11) (2287 . 2295) 2298) nil (25673 17613 607549 797000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . -2310) (undo-tree-id158 . -1) (undo-tree-id159 . -1) (undo-tree-id160 . -1) (undo-tree-id161 . -1) (undo-tree-id162 . -1) (undo-tree-id163 . -1) (undo-tree-id164 . -1) 2311) nil (25673 17613 607538 668000) 0 nil])
+([nil nil ((1669 . 8999) (#("collector_class = serialization.deserialize(collector_class)
+        self.datacollector = collector_class(
+            model_reporters=model_reporters,
+            agent_reporters=agent_reporters,
+            tables=tables,
+        )
+        for k in dir(cls):
+            v = getattr(cls, k)
+            if isinstance(v, property):
+                v = v.fget
+            if getattr(v, \"add_to_report\", False):
+                self.add_model_reporter(k, v)
+
+        return self
+
+    def __init__(
+        self,
+        *,
+        id=\"unnamed_env\",
+        seed=\"default\",
+        dir_path=None,
+        schedule=None,
+        schedule_class=None,
+        logger = None,
+        agents: Optional[Dict] = None,
+        collector_class: type = datacollection.SoilCollector,
+        agent_reporters: Optional[Any] = None,
+        model_reporters: Optional[Any] = None,
+        tables: Optional[Any] = None,
+        init: bool = True,
+        **env_params,
+    ):
+
+        super().__init__()
+
+
+        self.current_id = -1
+
+        self.id = id
+
+        if logger:
+            self.logger = logger
+        else:
+            self.logger = utils.logger.getChild(self.id)
+
+        self.schedule = schedule
+        if schedule is None:
+            if schedule_class is None:
+                schedule_class = self.schedule_class
+            else:
+                schedule_class = serialization.deserialize(schedule_class)
+            self.schedule = schedule_class(self)
+
+        for (k, v) in env_params.items():
+            self[k] = v
+
+        if agents:
+            self.add_agents(**agents)
+        if init:
+            self.init()
+            self.datacollector.collect(self)
+
+    def init(self):
+        pass
+
+    @property
+    def agents(self):
+        return agentmod.AgentView(self.schedule._agents)
+
+    def agent(self, *args, **kwargs):
+        return agentmod.AgentView(self.schedule._agents).one(*args, **kwargs)
+
+    def count_agents(self, *args, **kwargs):
+        return sum(1 for i in self.agents(*args, **kwargs))
+    
+    def agent_df(self, steps=False):
+        df = self.datacollector.get_agent_vars_dataframe()
+        if steps:
+            df.index.rename([\"step\", \"agent_id\"], inplace=True)
+            return df
+        model_df = self.datacollector.get_model_vars_dataframe()
+        df.index = df.index.set_levels(model_df.time, level=0).rename([\"time\", \"agent_id\"])
+        return df
+
+    def model_df(self, steps=False):
+        df = self.datacollector.get_model_vars_dataframe()
+        if steps:
+            return df
+        df.index.rename(\"step\", inplace=True)
+        return df.reset_index().set_index(\"time\")
+
+    @property
+    def now(self):
+        if self.schedule:
+            return self.schedule.time
+        raise Exception(
+            \"The environment has not been scheduled, so it has no sense of time\"
+        )
+    def init_agents(self):
+        pass
+
+    def add_agent(self, agent_class, unique_id=None, **agent):
+        if unique_id is None:
+            unique_id = self.next_id()
+
+        agent[\"unique_id\"] = unique_id
+
+        agent = dict(**agent)
+        unique_id = agent.pop(\"unique_id\", None)
+        if unique_id is None:
+            unique_id = self.next_id()
+
+        a = serialization.deserialize(agent_class)(unique_id=unique_id, model=self, **agent)
+
+        self.schedule.add(a)
+        return a
+
+    def add_agents(self, agent_classes: List[type], k, weights: Optional[List[float]] = None, **kwargs):
+        if isinstance(agent_classes, type):
+            agent_classes = [agent_classes]
+        if weights is None:
+            weights = [1] * len(agent_classes)
+
+        for cls in self.random.choices(agent_classes, weights=weights, k=k):
+            self.add_agent(agent_class=cls, **kwargs)
+
+    def log(self, message, *args, level=logging.INFO, **kwargs):
+        if not self.logger.isEnabledFor(level):
+            return
+        message = message + \" \".join(str(i) for i in args)
+        message = \" @{:>3}: {}\".format(self.now, message)
+        for k, v in kwargs:
+            message += \" {k}={v} \".format(k, v)
+        extra = {}
+        extra[\"now\"] = self.now
+        extra[\"id\"] = self.id
+        return self.logger.log(level, message, extra=extra)
+
+    def step(self):
+        \"\"\"
+        Advance one step in the simulation, and update the data collection and scheduler appropriately
+        \"\"\"
+        super().step()
+        self.schedule.step()
+        self.datacollector.collect(self)
+
+        if self.logger.isEnabledFor(logging.DEBUG):
+            msg = \"Model data:\\n\"
+            max_width = max(len(k) for k in self.datacollector.model_vars.keys())
+            for (k, v) in self.datacollector.model_vars.items():
+                msg += f\"\\t{k:<{max_width}}: {v[-1]:>6}\\n\"
+            self.logger.debug(f\"--- Steps: {self.schedule.steps:^5} - Time: {self.now:^5} --- \" + msg)
+
+    def add_model_reporter(self, name, func=None):
+        if not func:
+            func = name
+        self.datacollector._new_model_reporter(name, func)
+
+    def add_agent_reporter(self, name, agent_type=None):
+        if agent_type:
+            if isinstance(name, str):
+                reporter = lambda a: getattr(a, name) if isinstance(a, agent_type) else None
+            else:
+                reporter = lambda a: name(a) if isinstance(a, agent_type) else None
+        else:
+            reporter = name
+        self.datacollector._new_agent_reporter(name, reporter)
+
+    @classmethod
+    def run(cls, *,
+            name=None,
+            iterations=1,
+            num_processes=1, **kwargs):
+        from .simulation import Simulation
+        return Simulation(name=name or cls.__name__,
+                          model=cls, iterations=iterations,
+                          num_processes=num_processes, **kwargs).run()
+
+    def __getitem__(self, key):
+        try:
+            return getattr(self, key)
+        except AttributeError:
+            raise KeyError(f\"key {key}  not found in environment\")
+
+    def __delitem__(self, key):
+        return delattr(self, key)
+
+    def __contains__(self, key):
+        return hasattr(self, key)
+
+    def __setitem__(self, key, value):
+        setattr(self, key, value)
+
+    def __str__(self):
+        return str(dict(self))
+
+    def __len__(self):
+        return sum(1 for n in self.keys())
+
+    def __iter__(self):
+        return iter(self.agents())
+
+    def get(self, key, default=None):
+        return self[key] if key in self else default
+
+    def keys(self):
+        return (k for k in self.__dict__ if k[0] != \"_\")
+
+class NetworkEnvironment(BaseEnvironment):
+    \"\"\"
+    The NetworkEnvironment is an environment that includes one or more networkx.Graph intances
+    and methods to associate agents to nodes and vice versa.
+    \"\"\"
+
+    def __init__(self,
+                 *args,
+                 topology: Optional[Union[nx.Graph, str]] = None,
+                 agent_class: Optional[Type[agentmod.Agent]] = None,
+                 network_generator: Optional[Callable] = None,
+                 network_params: Optional[Dict] = {},
+                 init=True,
+                 **kwargs):
+        self.topology = topology
+        self.network_generator = network_generator
+        self.network_params = network_params
+        if topology or network_params or network_generator:
+            self.create_network(topology, generator=network_generator, **network_params)
+        else:
+            self.G = nx.Graph()
+        super().__init__(*args, **kwargs, init=False)
+
+        self.agent_class = agent_class
+        if agent_class:
+            self.agent_class = serialization.deserialize(agent_class)" 0 15 (fontified t face font-lock-variable-name-face) 15 43 (fontified t) 43 44 (fontified t face (rainbow-delimiters-depth-1-face)) 44 59 (fontified t) 59 60 (fontified t face (rainbow-delimiters-depth-1-face)) 60 69 (fontified t) 69 73 (fontified t face font-lock-keyword-face) 73 97 (fontified t) 97 105 (fontified t) 105 106 (fontified t face (rainbow-delimiters-depth-1-face)) 106 232 (fontified t) 232 233 (fontified t face (rainbow-delimiters-depth-1-face)) 233 242 (fontified t) 242 245 (fontified t face font-lock-keyword-face) 245 248 (fontified t) 248 250 (fontified t face font-lock-keyword-face) 250 251 (fontified t) 251 254 (fontified t face font-lock-builtin-face) 254 255 (fontified t face (rainbow-delimiters-depth-1-face)) 255 256 (fontified t) 256 258 (fontified t) 258 259 (fontified t face (rainbow-delimiters-depth-1-face)) 259 273 (fontified t) 273 274 (fontified t face font-lock-variable-name-face) 274 277 (fontified t) 277 284 (fontified t face font-lock-builtin-face) 284 285 (fontified t face (rainbow-delimiters-depth-1-face)) 285 291 (fontified t) 291 292 (fontified t face (rainbow-delimiters-depth-1-face)) 292 305 (fontified t) 305 307 (fontified t face font-lock-keyword-face) 307 308 (fontified t) 308 318 (fontified t face font-lock-builtin-face) 318 319 (fontified t face (rainbow-delimiters-depth-1-face)) 319 322 (fontified t) 322 330 (fontified t face font-lock-builtin-face) 330 331 (fontified t face (rainbow-delimiters-depth-1-face)) 331 349 (fontified t) 349 350 (fontified t face font-lock-variable-name-face) 350 372 (fontified t) 372 374 (fontified t face font-lock-keyword-face) 374 375 (fontified t) 375 382 (fontified t face font-lock-builtin-face) 382 383 (fontified t face (rainbow-delimiters-depth-1-face)) 383 386 (fontified t) 386 387 (syntax-table (15) fontified t face font-lock-string-face) 387 400 (fontified t face font-lock-string-face) 400 401 (syntax-table (15) fontified t face font-lock-string-face) 401 402 (fontified t) 402 403 (fontified t) 403 408 (fontified t face font-lock-constant-face) 408 409 (fontified t face (rainbow-delimiters-depth-1-face)) 409 427 (fontified t) 427 431 (fontified t face font-lock-keyword-face) 431 450 (fontified t) 450 451 (fontified t face (rainbow-delimiters-depth-1-face)) 451 455 (fontified t) 455 456 (fontified t face (rainbow-delimiters-depth-1-face)) 456 466 (fontified t) 466 472 (fontified t face font-lock-keyword-face) 472 473 (fontified t) 473 477 (fontified t face font-lock-keyword-face) 477 483 (fontified t) 483 486 (fontified t face font-lock-keyword-face) 486 487 (fontified t) 487 495 (fontified t face font-lock-function-name-face) 495 496 (fontified t face (rainbow-delimiters-depth-1-face)) 496 505 (fontified t) 505 509 (fontified t face font-lock-keyword-face) 509 530 (fontified t) 530 532 (fontified t face font-lock-builtin-face) 532 533 (fontified t) 533 534 (syntax-table (15) fontified t face font-lock-string-face) 534 545 (fontified t face font-lock-string-face) 545 546 (syntax-table (15) fontified t face font-lock-string-face) 546 561 (fontified t) 561 562 (syntax-table (15) fontified t face font-lock-string-face) 562 569 (fontified t face font-lock-string-face) 569 570 (syntax-table (15) fontified t face font-lock-string-face) 570 589 (fontified t) 589 593 (fontified t face font-lock-constant-face) 593 612 (fontified t) 612 616 (fontified t face font-lock-constant-face) 616 618 (fontified t) 618 626 (fontified t) 626 641 (fontified t) 641 645 (fontified t face font-lock-constant-face) 645 647 (fontified t) 647 664 (fontified t) 664 668 (fontified t face font-lock-constant-face) 668 669 (fontified t) 669 670 (fontified t) 670 694 (fontified t) 694 695 (fontified t face (rainbow-delimiters-depth-2-face)) 695 699 (fontified t) 699 700 (fontified t face (rainbow-delimiters-depth-2-face)) 700 703 (fontified t) 703 707 (fontified t face font-lock-constant-face) 707 734 (fontified t) 734 738 (fontified t face font-lock-builtin-face) 738 804 (fontified t) 804 805 (fontified t face (rainbow-delimiters-depth-2-face)) 805 808 (fontified t) 808 809 (fontified t face (rainbow-delimiters-depth-2-face)) 809 812 (fontified t) 812 816 (fontified t face font-lock-constant-face) 816 851 (fontified t) 851 852 (fontified t face (rainbow-delimiters-depth-2-face)) 852 855 (fontified t) 855 856 (fontified t face (rainbow-delimiters-depth-2-face)) 856 859 (fontified t) 859 863 (fontified t face font-lock-constant-face) 863 886 (fontified t) 886 889 (fontified t) 889 890 (fontified t face (rainbow-delimiters-depth-2-face)) 890 893 (fontified t) 893 894 (fontified t face (rainbow-delimiters-depth-2-face)) 894 897 (fontified t) 897 901 (fontified t face font-lock-constant-face) 901 917 (fontified t) 917 921 (fontified t face font-lock-builtin-face) 921 924 (fontified t) 924 928 (fontified t face font-lock-constant-face) 928 956 (fontified t) 956 957 (fontified t face (rainbow-delimiters-depth-1-face)) 957 968 (fontified t) 968 973 (fontified t face font-lock-builtin-face) 973 974 (fontified t face (rainbow-delimiters-depth-1-face)) 974 975 (fontified t face (rainbow-delimiters-depth-1-face)) 975 984 (fontified t) 984 985 (fontified t face (rainbow-delimiters-depth-1-face)) 985 986 (fontified t face (rainbow-delimiters-depth-1-face)) 986 997 (fontified t) 997 1001 (fontified t face font-lock-keyword-face) 1001 1016 (fontified t) 1016 1017 (fontified t face highlight-numbers-number) 1017 1027 (fontified t) 1027 1031 (fontified t face font-lock-keyword-face) 1031 1032 (fontified t) 1032 1034 (fontified t face font-lock-builtin-face) 1034 1037 (fontified t) 1037 1039 (fontified t face font-lock-builtin-face) 1039 1049 (fontified t) 1049 1051 (fontified t face font-lock-keyword-face) 1051 1072 (fontified t) 1072 1076 (fontified t face font-lock-keyword-face) 1076 1101 (fontified t) 1101 1105 (fontified t face font-lock-keyword-face) 1105 1119 (fontified t) 1119 1123 (fontified t face font-lock-keyword-face) 1123 1147 (fontified t) 1147 1154 (fontified t) 1154 1155 (fontified t face (rainbow-delimiters-depth-1-face)) 1155 1159 (fontified t face font-lock-keyword-face) 1159 1160 (fontified t) 1160 1162 (fontified t face font-lock-builtin-face) 1162 1163 (fontified t face (rainbow-delimiters-depth-1-face)) 1163 1173 (fontified t) 1173 1177 (fontified t face font-lock-keyword-face) 1177 1206 (fontified t) 1206 1208 (fontified t face font-lock-keyword-face) 1208 1218 (fontified t) 1218 1220 (fontified t face font-lock-keyword-face) 1220 1221 (fontified t) 1221 1225 (fontified t face font-lock-constant-face) 1225 1239 (fontified t) 1239 1241 (fontified t face font-lock-keyword-face) 1241 1257 (fontified t) 1257 1259 (fontified t face font-lock-keyword-face) 1259 1260 (fontified t) 1260 1264 (fontified t face font-lock-constant-face) 1264 1266 (fontified t) 1266 1282 (fontified t) 1282 1296 (fontified t face font-lock-variable-name-face) 1296 1299 (fontified t) 1299 1303 (fontified t face font-lock-keyword-face) 1303 1304 (fontified t) 1304 1319 (fontified t) 1319 1331 (fontified t) 1331 1335 (fontified t face font-lock-keyword-face) 1335 1336 (fontified t) 1336 1337 (fontified t) 1337 1353 (fontified t) 1353 1367 (fontified t face font-lock-variable-name-face) 1367 1385 (fontified t) 1385 1395 (fontified t) 1395 1396 (fontified t face (rainbow-delimiters-depth-1-face)) 1396 1410 (fontified t) 1410 1411 (fontified t face (rainbow-delimiters-depth-1-face)) 1411 1412 (fontified t) 1412 1424 (fontified t) 1424 1428 (fontified t face font-lock-keyword-face) 1428 1454 (fontified t) 1454 1455 (fontified t face (rainbow-delimiters-depth-1-face)) 1455 1459 (fontified t face font-lock-keyword-face) 1459 1460 (fontified t face (rainbow-delimiters-depth-1-face)) 1460 1461 (fontified t) 1461 1470 (fontified t) 1470 1473 (fontified t face font-lock-keyword-face) 1473 1474 (fontified t) 1474 1475 (fontified t face (rainbow-delimiters-depth-1-face)) 1475 1479 (fontified t) 1479 1480 (fontified t face (rainbow-delimiters-depth-1-face)) 1480 1481 (fontified t) 1481 1483 (fontified t face font-lock-keyword-face) 1483 1500 (fontified t) 1500 1501 (fontified t face (rainbow-delimiters-depth-1-face)) 1501 1502 (fontified t face (rainbow-delimiters-depth-1-face)) 1502 1516 (fontified t) 1516 1520 (fontified t face font-lock-keyword-face) 1520 1521 (fontified t face (rainbow-delimiters-depth-1-face)) 1521 1522 (fontified t) 1522 1523 (fontified t face (rainbow-delimiters-depth-1-face)) 1523 1537 (fontified t) 1537 1539 (fontified t face font-lock-keyword-face) 1539 1560 (fontified t) 1560 1564 (fontified t face font-lock-keyword-face) 1564 1575 (fontified t) 1575 1576 (fontified t face (rainbow-delimiters-depth-1-face)) 1576 1584 (fontified t) 1584 1585 (fontified t face (rainbow-delimiters-depth-1-face)) 1585 1594 (fontified t) 1594 1596 (fontified t face font-lock-keyword-face) 1596 1615 (fontified t) 1615 1619 (fontified t face font-lock-keyword-face) 1619 1624 (fontified t) 1624 1625 (fontified t face (rainbow-delimiters-depth-1-face)) 1625 1626 (fontified t face (rainbow-delimiters-depth-1-face)) 1626 1639 (fontified t) 1639 1643 (fontified t face font-lock-keyword-face) 1643 1647 (fontified t) 1647 1665 (fontified t) 1665 1666 (fontified t face (rainbow-delimiters-depth-1-face)) 1666 1670 (fontified t face font-lock-keyword-face) 1670 1671 (fontified t face (rainbow-delimiters-depth-1-face)) 1671 1677 (fontified t) 1677 1680 (fontified t face font-lock-keyword-face) 1680 1681 (fontified t) 1681 1685 (fontified t face font-lock-function-name-face) 1685 1686 (fontified t face (rainbow-delimiters-depth-1-face)) 1686 1690 (fontified t face font-lock-keyword-face) 1690 1691 (fontified t face (rainbow-delimiters-depth-1-face)) 1691 1701 (fontified t) 1701 1705 (fontified t face font-lock-keyword-face) 1705 1711 (fontified t) 1711 1720 (fontified t face font-lock-type-face) 1720 1725 (fontified t) 1725 1728 (fontified t face font-lock-keyword-face) 1728 1729 (fontified t) 1729 1735 (fontified t face font-lock-function-name-face) 1735 1736 (fontified t face (rainbow-delimiters-depth-1-face)) 1736 1740 (fontified t face font-lock-keyword-face) 1740 1741 (fontified t face (rainbow-delimiters-depth-1-face)) 1741 1751 (fontified t) 1751 1757 (fontified t face font-lock-keyword-face) 1757 1776 (fontified t) 1776 1777 (fontified t face (rainbow-delimiters-depth-1-face)) 1777 1781 (fontified t face font-lock-keyword-face) 1781 1798 (fontified t) 1798 1799 (fontified t face (rainbow-delimiters-depth-1-face)) 1799 1805 (fontified t) 1805 1808 (fontified t face font-lock-keyword-face) 1808 1809 (fontified t) 1809 1814 (fontified t face font-lock-function-name-face) 1814 1815 (fontified t face (rainbow-delimiters-depth-1-face)) 1815 1819 (fontified t face font-lock-keyword-face) 1819 1836 (fontified t) 1836 1837 (fontified t face (rainbow-delimiters-depth-1-face)) 1837 1847 (fontified t) 1847 1853 (fontified t face font-lock-keyword-face) 1853 1872 (fontified t) 1872 1873 (fontified t face (rainbow-delimiters-depth-1-face)) 1873 1877 (fontified t face font-lock-keyword-face) 1877 1885 (fontified t) 1885 1894 (fontified t) 1894 1895 (fontified t face (rainbow-delimiters-depth-1-face)) 1895 1899 (fontified t) 1899 1900 (fontified t face (rainbow-delimiters-depth-1-face)) 1900 1915 (fontified t) 1915 1916 (fontified t face (rainbow-delimiters-depth-1-face)) 1916 1922 (fontified t) 1922 1925 (fontified t face font-lock-keyword-face) 1925 1926 (fontified t) 1926 1938 (fontified t face font-lock-function-name-face) 1938 1939 (fontified t face (rainbow-delimiters-depth-1-face)) 1939 1943 (fontified t face font-lock-keyword-face) 1943 1960 (fontified t) 1960 1961 (fontified t face (rainbow-delimiters-depth-1-face)) 1961 1971 (fontified t) 1971 1977 (fontified t face font-lock-keyword-face) 1977 1978 (fontified t) 1978 1981 (fontified t face font-lock-builtin-face) 1981 1982 (fontified t face (rainbow-delimiters-depth-1-face)) 1982 1983 (fontified t face highlight-numbers-number) 1983 1984 (fontified t) 1984 1987 (fontified t face font-lock-keyword-face) 1987 1990 (fontified t) 1990 1992 (fontified t face font-lock-keyword-face) 1992 1993 (fontified t) 1993 1997 (fontified t face font-lock-keyword-face) 1997 2004 (fontified t) 2004 2005 (fontified t face (rainbow-delimiters-depth-2-face)) 2005 2020 (fontified t) 2020 2021 (fontified t face (rainbow-delimiters-depth-2-face)) 2021 2022 (fontified t face (rainbow-delimiters-depth-1-face)) 2022 2032 (fontified t) 2032 2035 (fontified t face font-lock-keyword-face) 2035 2036 (fontified t) 2036 2044 (fontified t face font-lock-function-name-face) 2044 2045 (fontified t face (rainbow-delimiters-depth-1-face)) 2045 2049 (fontified t face font-lock-keyword-face) 2049 2057 (fontified t) 2057 2062 (fontified t face font-lock-constant-face) 2062 2063 (fontified t face (rainbow-delimiters-depth-1-face)) 2063 2073 (fontified t) 2073 2075 (fontified t face font-lock-variable-name-face) 2075 2078 (fontified t) 2078 2082 (fontified t face font-lock-keyword-face) 2082 2121 (fontified t) 2121 2122 (fontified t face (rainbow-delimiters-depth-1-face)) 2122 2123 (fontified t face (rainbow-delimiters-depth-1-face)) 2123 2132 (fontified t) 2132 2134 (fontified t face font-lock-keyword-face) 2134 2147 (fontified t) 2169 2170 (face (rainbow-delimiters-depth-1-face)) 2170 2171 (face (rainbow-delimiters-depth-2-face)) 2171 2172 (syntax-table (15) face font-lock-string-face) 2172 2176 (face font-lock-string-face) 2176 2177 (syntax-table (15) face font-lock-string-face) 2179 2180 (syntax-table (15) face font-lock-string-face) 2180 2188 (face font-lock-string-face) 2188 2189 (syntax-table (15) face font-lock-string-face) 2189 2190 (face (rainbow-delimiters-depth-2-face)) 2200 2204 (face font-lock-constant-face) 2204 2205 (face (rainbow-delimiters-depth-1-face)) 2218 2224 (face font-lock-keyword-face) 2236 2244 (face font-lock-variable-name-face) 2247 2251 (face font-lock-keyword-face) 2290 2291 (face (rainbow-delimiters-depth-1-face)) 2291 2292 (face (rainbow-delimiters-depth-1-face)) 2301 2309 (face font-lock-variable-name-face) 2331 2332 (face (rainbow-delimiters-depth-1-face)) 2353 2354 (face highlight-numbers-number) 2354 2355 (face (rainbow-delimiters-depth-1-face)) 2362 2363 (face (rainbow-delimiters-depth-1-face)) 2363 2364 (face (rainbow-delimiters-depth-2-face)) 2364 2365 (face font-lock-string-face syntax-table (15)) 2365 2369 (face font-lock-string-face) 2369 2370 (face font-lock-string-face syntax-table (15)) 2372 2373 (face font-lock-string-face syntax-table (15)) 2373 2381 (face font-lock-string-face) 2381 2382 (face font-lock-string-face syntax-table (15)) 2382 2383 (face (rainbow-delimiters-depth-2-face)) 2383 2384 (face (rainbow-delimiters-depth-1-face)) 2393 2399 (face font-lock-keyword-face) 2408 2411 (face font-lock-keyword-face) 2412 2420 (face font-lock-function-name-face) 2420 2421 (face (rainbow-delimiters-depth-1-face)) 2421 2425 (face font-lock-keyword-face) 2433 2438 (face font-lock-constant-face) 2438 2439 (face (rainbow-delimiters-depth-1-face)) 2449 2451 (face font-lock-variable-name-face) 2454 2458 (face font-lock-keyword-face) 2497 2498 (face (rainbow-delimiters-depth-1-face)) 2498 2499 (face (rainbow-delimiters-depth-1-face)) 2564 2565 (syntax-table (15)) 2569 2570 (syntax-table (15)) 2628 2629 (syntax-table (15)) 2633 2634 (syntax-table (15)) 2771 2772 (syntax-table (15)) 2838 2839 (syntax-table (15)) 3038 3039 (syntax-table (15)) 3048 3049 (syntax-table (15)) 3124 3125 (syntax-table (15)) 3134 3135 (syntax-table (15)) 3915 3916 (syntax-table (15)) 3917 3918 (syntax-table (15)) 3964 3965 (syntax-table (15)) 3976 3977 (syntax-table (15)) 4055 4056 (syntax-table (15)) 4065 4066 (syntax-table (15)) 4113 4114 (syntax-table (15)) 4117 4118 (syntax-table (15)) 4145 4146 (syntax-table (15)) 4148 4149 (syntax-table (15)) 4250 4251 (syntax-table (15)) 4367 4368 (syntax-table (15)) 4533 4534 (syntax-table (15)) 4547 4548 (syntax-table (15)) 4720 4721 (syntax-table (15)) 4753 4754 (syntax-table (15)) 4786 4787 (syntax-table (15)) 4849 4850 (syntax-table (15)) 5930 5931 (syntax-table (15)) 5966 5967 (syntax-table (15)) 6525 6526 (syntax-table (15)) 6527 6528 (syntax-table (15)) 6578 6579 (syntax-table (15)) 6744 6745 (syntax-table (15))) . 1669) (undo-tree-id221 . -987) (undo-tree-id222 . 6972) (undo-tree-id223 . -618) (undo-tree-id224 . -1242) (undo-tree-id225 . -641) (undo-tree-id226 . -1242) (undo-tree-id227 . -1162) (undo-tree-id228 . -1163) (undo-tree-id229 . -647) (undo-tree-id230 . -1162) (undo-tree-id231 . -1162) (undo-tree-id232 . -647) (undo-tree-id233 . -1162) (undo-tree-id234 . -1162) (undo-tree-id235 . -647) (undo-tree-id236 . -1162) (undo-tree-id237 . -1162) (undo-tree-id238 . -647) (undo-tree-id239 . -479) (undo-tree-id240 . -987) (undo-tree-id241 . -1163) (undo-tree-id242 . -626) (undo-tree-id243 . -640) (undo-tree-id244 . -668) (undo-tree-id245 . -1250) (undo-tree-id246 . -987) (undo-tree-id247 . -987) (undo-tree-id248 . -479) (undo-tree-id249 . -987) (undo-tree-id250 . -987) (undo-tree-id251 . -479) (t 25673 17613 624071 292000)) nil (25677 2979 334553 783000) 0 nil])
+([nil nil ((6549 . 6619) (#("):" 0 2 (fontified nil)) . 6549) 2619 (t 25674 40328 553699 141000)) nil (25677 2979 334510 583000) 0 nil])
+([nil nil ((6718 . 6832) (#("getattr(a, name) if isinstance(a, agent_type) else None
+            else:
+                reporter = lambda a: name" 0 115 (fontified nil)) . 6718) 2619 (t 25674 41386 56952 885000)) nil (25677 2979 334508 648000) 0 nil])
+([nil nil ((6631 . 6907) (#("agent_type:
+            if isinstance(name, str):
+                reporter = lambda a: reporter(a) if isinstance(a, agent_type) else None
+            else:
+                reporter = lambda a: reporter" 0 87 (fontified nil) 87 201 (fontified nil)) . 6631) 2619 (t 25674 41458 780364 630000)) nil (25677 2979 334506 775000) 0 nil])
+([nil nil ((6582 . 6746) (#("reporter:
+            reporter = name
+        if not agent_type and not reporter:
+            reporter = name
+        elif agent_type:
+            if isinstance(name, str):
+                reporter = lambda a: getattr(a, name) if isinstance(a, agent_type) else None
+            else:
+                reporter = lambda a: name(a) if isinstance(a, agent_type) else None
+        else:
+            reporter = nam" 0 37 (fontified nil) 37 49 (fontified nil) 49 325 (fontified nil) 325 408 (fontified nil)) . 6582) 2619 (t 25674 41586 375335 529000)) nil (25677 2979 334504 615000) 0 nil])
+([nil nil ((6534 . 6559) (#("agent_type=None, reporter" 0 15 (fontified nil) 15 25 (fontified nil)) . 6534) 2619 (t 25674 41714 382306 202000)) nil (25677 2979 334502 223000) 0 nil])
+([nil nil ((1055 . 1061) (#("Timed" 0 5 (fontified t)) . 1055) (t 25674 41831 609365 691000)) nil (25677 2979 334500 173000) 0 nil])
+([nil nil ((1055 . 1060) (#("PQueue" 0 6 (fontified nil)) . 1055) 2620 (t 25674 42831 513901 894000)) nil (25677 2979 334498 163000) 0 nil])
+([nil nil ((1055 . 1061) (#("Timed" 0 5 (fontified nil)) . 1055) (t 25674 42935 169203 41000)) nil (25677 2979 334495 945000) 0 nil])
+([nil nil ((1055 . 1060) (#("PQueue" 0 6 (fontified nil)) . 1055) 2620 (t 25674 43616 484277 449000)) nil (25677 2979 334492 942000) 0 nil])
+([nil current ((#("serialization, " 0 15 (fontified t)) . 378) (t 25674 43828 850679 444000)) nil (25677 2979 334485 934000) 0 nil])
+nil

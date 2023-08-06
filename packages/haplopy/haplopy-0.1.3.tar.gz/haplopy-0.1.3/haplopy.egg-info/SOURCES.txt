@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+haplopy/__init__.py
+haplopy/datautils.py
+haplopy/multinomial.py
+haplopy/plot.py
+haplopy.egg-info/PKG-INFO
+haplopy.egg-info/SOURCES.txt
+haplopy.egg-info/dependency_links.txt
+haplopy.egg-info/requires.txt
+haplopy.egg-info/top_level.txt

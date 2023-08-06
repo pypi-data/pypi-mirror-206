@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: mlb-fantasy
+Version: 1.1
+Summary: MLB fantasy draft optimizer.  Requires a draft_picks.txt file with the format: "Player Name: Team 1, Team 2, Team 3, Team 4, Team 5, Team 6" with each player picks on a new line.
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

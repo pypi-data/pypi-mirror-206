@@ -1,0 +1,6 @@
+dist
+build
+__test_*.py
+*.egg-info
+*.pyc
+*.ipynb

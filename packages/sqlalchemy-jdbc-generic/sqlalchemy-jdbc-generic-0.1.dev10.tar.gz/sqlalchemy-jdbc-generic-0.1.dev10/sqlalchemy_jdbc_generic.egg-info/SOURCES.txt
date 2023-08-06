@@ -1,0 +1,13 @@
+.gitignore
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+sqlajdbc/__init__.py
+sqlajdbc/sqlajdbc.py
+sqlalchemy_jdbc_generic.egg-info/PKG-INFO
+sqlalchemy_jdbc_generic.egg-info/SOURCES.txt
+sqlalchemy_jdbc_generic.egg-info/dependency_links.txt
+sqlalchemy_jdbc_generic.egg-info/entry_points.txt
+sqlalchemy_jdbc_generic.egg-info/requires.txt
+sqlalchemy_jdbc_generic.egg-info/top_level.txt

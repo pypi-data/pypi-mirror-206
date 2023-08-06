@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+azjwt/__init__.py
+azjwt/_crypto.py
+azjwt/_discovery.py
+azjwt.egg-info/PKG-INFO
+azjwt.egg-info/SOURCES.txt
+azjwt.egg-info/dependency_links.txt
+azjwt.egg-info/requires.txt
+azjwt.egg-info/top_level.txt

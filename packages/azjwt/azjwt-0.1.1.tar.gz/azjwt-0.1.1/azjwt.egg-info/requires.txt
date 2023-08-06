@@ -1,0 +1,13 @@
+cryptography
+requests
+
+[develop]
+black
+
+[docs]
+sphinx
+
+[test]
+pytest
+pytest-cov
+requests-mock

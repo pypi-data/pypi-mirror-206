@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: googlegallary
+Version: 0.4.0
+Author: Rahul chauhan
+Requires-Python: >=3.6
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+

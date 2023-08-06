@@ -1,0 +1,11 @@
+pyubibot/__init__.py,sha256=IVscPkB5kHbZEf8W3qkCDFh0H02bp0_GoADr_LLumtU,2533
+pyubibot/channels.py,sha256=UwwJe_pY0-ThPelzMcVQbHYRiVf-YCDHv7Z73TBR3PQ,1943
+pyubibot/constants.py,sha256=yyO_Fon74IUOoaOw_DXfgLse3lAt0rBQJ2ffUNBCWh4,171
+test/__init__.py,sha256=ttrP1tBb1ZtQ7i5AgSd5zcK6RxwL0BC9YNh9Ju8qNmM,36
+test/test_channels.py,sha256=UptWEKa2t3dVabJArqsgDMLUGvDvmfM7d_a6ncyd7cI,1663
+test/test_ubibot.py,sha256=j3iM9g0VpP5hVLbtdUGreGQ-C2QU0QiteYwmxXH0feA,526
+pyubibot-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyubibot-0.0.4.dist-info/METADATA,sha256=cZbytsaQi2iRP9M2uSQToaEder13tBNh97EJNzlvPDM,825
+pyubibot-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pyubibot-0.0.4.dist-info/top_level.txt,sha256=ofj1mN70wpdRFSqX4BDb42jUT1YzorzRpUOnWt31Aws,14
+pyubibot-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: xt-st-common
+Version: 0.4.1
+Summary: Common Streamlit framework used by Exploration Toolkit
+Author: Alex Hunt
+Author-email: alex.hunt@csiro.au
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: databases
+Provides-Extra: storage
+Requires-Dist: chardet (>=5.1.0,<6.0.0)
+Requires-Dist: minio (>=7.1.14,<8.0.0) ; extra == "storage"
+Requires-Dist: odmantic (>=0.9.2,<0.10.0) ; extra == "databases"
+Requires-Dist: pydantic (>=1.10.7,<2.0.0)
+Requires-Dist: pyjwt[crypto] (>=2.6.0,<3.0.0)
+Requires-Dist: streamlit (>=1.21.0,<2.0.0)
+Requires-Dist: streamlit-js-eval (>=0.1.5,<0.2.0)
+Requires-Dist: streamlit-tree-select (>=0.0.5,<0.0.6)
+Description-Content-Type: text/markdown
+
+# XT-STREAMLIT - 0.4.1
+
+This repo contains all of the common Streamlit code used by the Exploration Toolkit and CMR's Discovery Program.
+
+## `xt-st-common` - Common Framework for XT's Streamlit apps
+
+### Getting Started
+
+This project recommends using [nox](https://nox.thea.codes/) as a tool for managing test environments and running scripts
+
+In your base python environment
+``` bash
+pip install pipx # Pipx is a tool for installing python tools globally
+pipx install nox # Installs nox as a global tool
+pipx inject nox nox-poetry # Injects nox-poetry into the pipx venv that nox uses
+```
+

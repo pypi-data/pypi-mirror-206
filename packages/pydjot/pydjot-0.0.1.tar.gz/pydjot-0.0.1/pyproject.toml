@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pydjot"
+version = "0.0.1"
+description = ""
+authors = ["JessicaTegner <jessica.tegner@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.ruff]
+# Allow lines to be as long as 120 characters.
+line-length = 120
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

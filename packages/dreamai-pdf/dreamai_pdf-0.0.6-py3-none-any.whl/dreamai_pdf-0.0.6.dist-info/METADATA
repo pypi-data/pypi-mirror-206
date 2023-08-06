@@ -1,0 +1,203 @@
+Metadata-Version: 2.1
+Name: dreamai-pdf
+Version: 0.0.6
+Summary: Library based on dreamai for parsing PDFs
+Home-page: https://github.com/HamzaFarhan/dreamai_pdf
+Author: HamzaFarhan
+Author-email: thehamza96@gmail.com
+License: Apache Software License 2.0
+Keywords: nbdev jupyter notebook python
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: aiosignal
+Requires-Dist: arrow
+Requires-Dist: astunparse
+Requires-Dist: async-timeout
+Requires-Dist: blessed
+Requires-Dist: blis
+Requires-Dist: boto3
+Requires-Dist: botocore
+Requires-Dist: bpemb
+Requires-Dist: catalogue
+Requires-Dist: certifi
+Requires-Dist: charset-normalizer
+Requires-Dist: click
+Requires-Dist: cloudpickle
+Requires-Dist: cmake
+Requires-Dist: confection
+Requires-Dist: conllu
+Requires-Dist: contourpy
+Requires-Dist: croniter
+Requires-Dist: cryptography
+Requires-Dist: cycler
+Requires-Dist: cymem
+Requires-Dist: datasets
+Requires-Dist: dateutils
+Requires-Dist: deepdiff
+Requires-Dist: deprecated
+Requires-Dist: dill
+Requires-Dist: diskcache
+Requires-Dist: docutils
+Requires-Dist: dreamai
+Requires-Dist: dreamai-dl
+Requires-Dist: duckduckgo-search
+Requires-Dist: execnb
+Requires-Dist: faiss-cpu
+Requires-Dist: fastai
+Requires-Dist: fastapi
+Requires-Dist: fastcore
+Requires-Dist: fastdownload
+Requires-Dist: fastprogress
+Requires-Dist: filelock
+Requires-Dist: flair
+Requires-Dist: fonttools
+Requires-Dist: frozenlist
+Requires-Dist: fsspec
+Requires-Dist: ftfy
+Requires-Dist: future
+Requires-Dist: gdown
+Requires-Dist: gensim
+Requires-Dist: ghapi
+Requires-Dist: h11
+Requires-Dist: htmlmin
+Requires-Dist: huggingface-hub
+Requires-Dist: hyperopt
+Requires-Dist: imagehash
+Requires-Dist: importlib-metadata
+Requires-Dist: imutils
+Requires-Dist: inquirer
+Requires-Dist: ipywidgets
+Requires-Dist: itsdangerous
+Requires-Dist: janome
+Requires-Dist: jaraco-classes
+Requires-Dist: jeepney
+Requires-Dist: jmespath
+Requires-Dist: joblib
+Requires-Dist: jupyterlab-widgets
+Requires-Dist: keyring
+Requires-Dist: kiwisolver
+Requires-Dist: langcodes
+Requires-Dist: langdetect
+Requires-Dist: lightning
+Requires-Dist: lightning-cloud
+Requires-Dist: lightning-utilities
+Requires-Dist: lit
+Requires-Dist: markdown-it-py
+Requires-Dist: matplotlib
+Requires-Dist: mdurl
+Requires-Dist: missingno
+Requires-Dist: more-itertools
+Requires-Dist: mpld3
+Requires-Dist: mpmath
+Requires-Dist: multidict
+Requires-Dist: multimethod
+Requires-Dist: multiprocess
+Requires-Dist: murmurhash
+Requires-Dist: nbdev
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: ordered-set
+Requires-Dist: pandas
+Requires-Dist: pandas-profiling
+Requires-Dist: pathy
+Requires-Dist: pdfminer-six
+Requires-Dist: pdfplumber
+Requires-Dist: phik
+Requires-Dist: pillow
+Requires-Dist: pkginfo
+Requires-Dist: pptree
+Requires-Dist: preshed
+Requires-Dist: protobuf
+Requires-Dist: py4j
+Requires-Dist: pyarrow
+Requires-Dist: pydantic
+Requires-Dist: pygments
+Requires-Dist: pyjwt
+Requires-Dist: pyparsing
+Requires-Dist: pysocks
+Requires-Dist: python-editor
+Requires-Dist: python-multipart
+Requires-Dist: pytorch-lightning
+Requires-Dist: pytorch-revgrad
+Requires-Dist: pytz
+Requires-Dist: pywavelets
+Requires-Dist: pyyaml
+Requires-Dist: readchar
+Requires-Dist: readme-renderer
+Requires-Dist: regex
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+Requires-Dist: responses
+Requires-Dist: rfc3986
+Requires-Dist: rich
+Requires-Dist: s3transfer
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: secretstorage
+Requires-Dist: segtok
+Requires-Dist: sentencepiece
+Requires-Dist: smart-open
+Requires-Dist: spacy
+Requires-Dist: spacy-legacy
+Requires-Dist: spacy-loggers
+Requires-Dist: sqlitedict
+Requires-Dist: srsly
+Requires-Dist: starlette
+Requires-Dist: starsessions
+Requires-Dist: sympy
+Requires-Dist: tabulate
+Requires-Dist: tangled-up-in-unicode
+Requires-Dist: thinc
+Requires-Dist: threadpoolctl
+Requires-Dist: timm
+Requires-Dist: tokenizers
+Requires-Dist: torch
+Requires-Dist: torchaudio
+Requires-Dist: torchmetrics
+Requires-Dist: torchvision
+Requires-Dist: tqdm
+Requires-Dist: transformer-smaller-training-vocab
+Requires-Dist: transformers
+Requires-Dist: triton
+Requires-Dist: twine
+Requires-Dist: txtai
+Requires-Dist: typer
+Requires-Dist: tzdata
+Requires-Dist: urllib3
+Requires-Dist: uvicorn
+Requires-Dist: visions
+Requires-Dist: wand
+Requires-Dist: wasabi
+Requires-Dist: watchdog
+Requires-Dist: websockets
+Requires-Dist: widgetsnbextension
+Requires-Dist: wikipedia-api
+Requires-Dist: wrapt
+Requires-Dist: xxhash
+Requires-Dist: yarl
+Requires-Dist: yellowbrick
+Requires-Dist: zipp
+Provides-Extra: dev
+
+dreamai_pdf
+================
+
+<!-- WARNING: THIS FILE WAS AUTOGENERATED! DO NOT EDIT! -->
+
+## Install
+
+``` sh
+pip install dreamai_pdf
+```

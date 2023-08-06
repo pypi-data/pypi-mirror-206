@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pyblinkers
+Version: 0.0.6
+Summary: make life easier
+Author: rpb
+
+Get EOG from EEG signal recording. In this 0.0.6 version, we change the name from eeg-blinks to pyblinker

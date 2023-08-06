@@ -1,0 +1,7 @@
+requests
+configargparse
+configparser
+botocore
+
+[awslibs]
+botocore

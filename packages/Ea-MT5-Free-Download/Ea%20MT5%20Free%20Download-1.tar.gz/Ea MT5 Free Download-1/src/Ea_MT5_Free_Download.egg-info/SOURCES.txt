@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/Ea_MT5_Free_Download.egg-info/PKG-INFO
+src/Ea_MT5_Free_Download.egg-info/SOURCES.txt
+src/Ea_MT5_Free_Download.egg-info/dependency_links.txt
+src/Ea_MT5_Free_Download.egg-info/requires.txt
+src/Ea_MT5_Free_Download.egg-info/top_level.txt

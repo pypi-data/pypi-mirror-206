@@ -1,0 +1,10 @@
+setup.py
+deep_client/__init__.py
+deep_client/deep_client.py
+deep_client/deep_client_options.py
+deepclient.egg-info/PKG-INFO
+deepclient.egg-info/SOURCES.txt
+deepclient.egg-info/dependency_links.txt
+deepclient.egg-info/top_level.txt
+tests/__init__.py
+tests/test_deep_client.py

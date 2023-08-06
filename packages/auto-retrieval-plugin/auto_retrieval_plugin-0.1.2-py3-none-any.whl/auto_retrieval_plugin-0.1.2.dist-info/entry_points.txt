@@ -1,0 +1,3 @@
+[console_scripts]
+auto-retrieval-plugin=auto_retrieval_plugin.retrieval_plugin:app
+

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: psremoter
+Version: 2.0.3
+Summary: Powershell remote client tool for Python
+Home-page: https://github.com/danielMandelblat/psremoter
+Author: Daniel Mandelblat
+Author-email: danielmande@gmail.com
+Project-URL: Bug Tracker, https://github.com/danielMandelblat/psremoter
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt

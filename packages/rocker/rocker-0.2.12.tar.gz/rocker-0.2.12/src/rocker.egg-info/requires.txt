@@ -1,0 +1,7 @@
+empy
+pexpect
+packaging
+docker
+
+[test]
+pytest

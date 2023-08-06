@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/morse_transcript.egg-info/PKG-INFO
+src/morse_transcript.egg-info/SOURCES.txt
+src/morse_transcript.egg-info/dependency_links.txt
+src/morse_transcript.egg-info/top_level.txt
+src/morsecodetranslator/__init__.py
+src/morsecodetranslator/morse.py
+tests/test_morse.py

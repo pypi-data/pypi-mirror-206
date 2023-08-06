@@ -1,0 +1,9 @@
+setup.py,sha256=TwiIgvkjfwIQxKy-FYtt7LiV2KcN8OcfGvpBiF6eZow,335
+src/__init__.py,sha256=sERwxqWEsUcpThoOcy12EuKVsBmFmZgCqbnU3gx6__k,96
+src/group_and_test.py,sha256=B3_ivBLzrN9bDFwqdsVPAut3XWN20Kz0c5baMmW4Vc4,3453
+src/logger.py,sha256=UeX1Rnt8dkxfz2tEtZkl6sNdYVVEoHHxp_nuJYA1dCk,507
+src/report_generator.py,sha256=s1ifSVP_gZARxS4MKEltr8f7B_4s3ZsonA9UaXk1ftc,2296
+apppium_flutter_report_generator-0.0.1.dist-info/METADATA,sha256=EGgL3KbRzzaf3BRHiq8aF8zusazJK1UKISoGkmQIpNU,665
+apppium_flutter_report_generator-0.0.1.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+apppium_flutter_report_generator-0.0.1.dist-info/licenses/LICENSE,sha256=0OdJe5iNQkEvzmrwalMse3qe1rGiX68PuIRlNU-IhsY,1096
+apppium_flutter_report_generator-0.0.1.dist-info/RECORD,,

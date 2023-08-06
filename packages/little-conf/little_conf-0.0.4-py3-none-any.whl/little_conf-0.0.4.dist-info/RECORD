@@ -1,0 +1,10 @@
+little_conf/__init__.py,sha256=8G5eOxvzILqTzKHmVcNqrayzMLX-_080sAqStXteGAA,29
+little_conf/lc.py,sha256=1wZmoRSkWgGtXKKIJV_T_bcUShiTo-9qUGD6kCcU8j0,3194
+little_conf/template_settings/__init__.py,sha256=WQMFYZAarKJ4k0e1eUoF_rrm0UU1wW6DvjPd9YT9br4,99
+little_conf/template_settings/base.py,sha256=DaDIiysHA6t0Nv7YU86SJpi1vpKnBdnBObQUwgPn9vQ,167
+little_conf/template_settings/database.py,sha256=9gULYy8oJl9vpMzGxi32qKfyPGisS8V_HFPFYvrSAaM,927
+little_conf/template_settings/redis.py,sha256=YAe8SMVBVecsyspau-nMkuJWvoZTtS0mBMrIhDmt23w,1614
+little_conf/template_settings/s3.py,sha256=Cv8mM5SeQCUSXY_TH_hkvZ99uH94Eugp2O5PB6by5Js,394
+little_conf-0.0.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+little_conf-0.0.4.dist-info/METADATA,sha256=9cTKiHwwux7YTLJ9LiPOEhRiRLsPZJvPsdJto51tNRA,722
+little_conf-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+funcgpt/__init__.py,sha256=PNFPrjsWbTrEb8ej46dJk_7sRGKqZ9QGBffxLH7mzRo,83
+funcgpt/credentials.py,sha256=7j4idfkchGF0qr_jG6nR0wYyQxPP9cCeOXN1DRCU-t4,227
+funcgpt/decorators.py,sha256=y0_8vPPxyatT5AiWl4X8e9lg0PpALRyPfxjbFjaDmHo,699
+funcgpt/gpt.py,sha256=pLqjecMsMtkUIqhnfrlz8XD1EmwUiVyro7nxR1DqtQI,5523
+funcgpt/message.py,sha256=BBH5_G5v9XmaYuxi1j5kgF-GG9B3WDaE41UP8f_TyjE,370
+funcgpt/protocols.py,sha256=X6_fmxd7aiKxY4KIpoHwiT1c4Lw_pU2U0W-bdifxzPo,236
+funcgpt/tokentools.py,sha256=xJm_-7zOLxYH9YDmiptmaArb_ja1rPFIzG6_Yo5qtkk,4441
+funcgpt/wrapper.py,sha256=_hrLMvUGIafQEuuZeSG8eETcRyLM9qyLsdzG3qtRg58,4193
+funcgpt/data/cl100k_base.tiktoken.bz2,sha256=4p39g0Xf4nuKaOwUXCrEaDkOT81Shg1iv5LJFtGiUJM,611817
+funcgpt-1.1.0.dist-info/LICENSE,sha256=ujQ77DZJXHl63j9-yhASWYSm5V_6KoAGjgTIBvwMNNU,1127
+funcgpt-1.1.0.dist-info/METADATA,sha256=InrGjF5TRXBDTekrVs7nqyY3ru3Hwtzq1kE4y3NvXho,3247
+funcgpt-1.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+funcgpt-1.1.0.dist-info/top_level.txt,sha256=cZcRwAWUasrUKB4L7ALnFvfwAm82xN5VWyTNM9-OD2M,8
+funcgpt-1.1.0.dist-info/RECORD,,

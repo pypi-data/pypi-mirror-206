@@ -1,0 +1,6 @@
+setup.py
+kaolin/__init__.py
+kaolin.egg-info/PKG-INFO
+kaolin.egg-info/SOURCES.txt
+kaolin.egg-info/dependency_links.txt
+kaolin.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+manga_ocr_abang = manga_ocr.__main__:main

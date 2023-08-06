@@ -1,0 +1,10 @@
+_pyresidfp.cp37-win_amd64.pyd,sha256=KQ4dwah_K9vByL-Merc8UfVDn1ZouHPka9EcTf0IZHg,225280
+pyresidfp/__init__.py,sha256=G1rAgUGFB7lhVmsnd7uiEQYXZdz6B48EusLmBSiWKSU,1132
+pyresidfp/_version.py,sha256=mFm3cAXzqKjM-5nKtnauQIPo1DPoSKHWL2wi6y8dIc0,164
+pyresidfp/musical_scale.py,sha256=wAxUPEr6kNeHh05KEUgc8KU-Z1HZHqEPNmfJ9ODWekM,4271
+pyresidfp/registers.py,sha256=3PFmDOxDRs6ylK-YGhZg7u47TW_qALgj5Lfft-y4PUg,3267
+pyresidfp/sound_interface_device.py,sha256=S9ySE7EyXqXE3WvOToFUhCxrFLQZA1FHEddHflUCyxc,11098
+pyresidfp-0.6.3.dist-info/METADATA,sha256=1OH033Xfnna6Yif_q_0VhZ7hC1S1jlTaDht2hzt-eSk,3121
+pyresidfp-0.6.3.dist-info/WHEEL,sha256=FsOf72fPbOdCojbJaBKhdpzYFQYhq9xRlhFSRvjOjBo,104
+pyresidfp-0.6.3.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyresidfp-0.6.3.dist-info/RECORD,,

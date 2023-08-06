@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: imageidentify
+Version: 0.1.0
+Summary: Python package for describing images
+Home-page: https://github.com/KalebBerry25/imageidentify
+Download-URL: https://github.com/KalebBerry25/imageidentify/archive/0.1.0.tar.gz
+Author: D.Quadri and K.Berry
+Author-email: kaleb.berry@bison.howard.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# imageidentify
+### Install imageidentify from PyPi.
+```bash
+pip install imageidentify
+```
+Example
+-------
+>>> # Import library
+>>> from imageidentify import imageidentify
+>>> # Initialize
+>>> prediction = identify(image_path)
+>>> # Print description
+>>> print(final_description(prediction))
+
+imageidentify is a python package that can be used to output a simple description  of the objects an image contains using the Inception_V3 ImageNet model.

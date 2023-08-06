@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+imageidentify/__init__.py
+imageidentify/imageidentify.py
+imageidentify.egg-info/PKG-INFO
+imageidentify.egg-info/SOURCES.txt
+imageidentify.egg-info/dependency_links.txt
+imageidentify.egg-info/requires.txt
+imageidentify.egg-info/top_level.txt

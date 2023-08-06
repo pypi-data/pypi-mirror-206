@@ -1,0 +1,20 @@
+0.0.1:
+The first version.
+
+0.1.0:
+Optimized running speed.
+
+0.1.1.dev1:
+Added new.txt
+
+0.1.1：
+Optimized setup.py
+
+0.1.1.1:
+Optimized running speed.
+
+0.1.2:
+Fixed serious errors. (Must Install! )
+
+0.2.0:
+between1 and between2 can from large to small.

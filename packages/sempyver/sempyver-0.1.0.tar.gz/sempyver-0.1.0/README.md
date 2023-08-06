@@ -1,0 +1,45 @@
+<p align="center">
+    <img src="https://github.com/ricardoleal20/SemPyVer/blob/main/docs/static/logo.png" />
+</p>
+<p align="center">
+    <b>Tool for teams that manage the creation and modification of the </b>CHANGELOG<b> based on a specified set of changes.</b>
+</p>
+
+![PyPi version](https://img.shields.io/pypi/v/sempyver?label=PyPi%20version&logo=PyPi&style=for-the-badge)
+![Python versions supported](https://img.shields.io/pypi/pyversions/sempyver?label=Python%20Versions%20Supported&logo=Python&style=for-the-badge)
+![Deployed](https://img.shields.io/github/actions/workflow/status/ricardoleal20/SemPyVer/publish.yml?branch=main&label=LAST%20VERSION%20DEPLOYED%20%F0%9F%9A%80&logo=Github&style=for-the-badge)
+![License](https://img.shields.io/github/license/ricardoleal20/SemPyVer?color=%23808000&label=%F0%9F%93%84%20LICENSE&style=for-the-badge)
+
+## Installation
+
+To install `SemPyVer`, you can do it through pip:
+
+```
+pip install sempyver
+```
+
+Please consider that it requires `Python >=3.8`
+
+## Usage
+
+#### __HELP PAGE STILL ON WORK__. Use `semver -help` for more information.
+
+## Contributing
+
+Everyone can contribute. Before contributing, please read our [code of conduct](CODE_OF_CONDUCT.md).
+
+To contribute to `SemPyVer`, follow these steps:
+
+1. Fork this repository.
+2. Create a new branch.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Create a pull request.
+
+## License
+
+Project Name is released under the [MIT License](LICENSE).
+
+## Inspiration
+
+Inspired by [Changesets](https://github.com/changesets/changesets).

@@ -1,0 +1,10 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fmpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fmpy/client.py,sha256=BKMQZLa0m-yMYKlA5a3h22ZrUMNvjan6dVRTNNsZoYI,8022
+fmpy/urls.py,sha256=Jf6CvdVMfFInaBBoQ4Dar-OfUwySUcvZHWRGhcvzVSg,12275
+fmpy/utils.py,sha256=zJzJwis7bA5BJUrozqiOvAXwfRUxIxzuQtjS2QLWWjM,940
+fmpy_qi-0.1.3.dist-info/LICENSE,sha256=YpSmLFZVLGV4hMJQ2WHK0j8I51eDATyL7JgO6LFN1Hg,1064
+fmpy_qi-0.1.3.dist-info/METADATA,sha256=PHL8sldiupySQANnztEZuqWj3dsviNfN48Cec73OQJg,2738
+fmpy_qi-0.1.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+fmpy_qi-0.1.3.dist-info/top_level.txt,sha256=q-BPevIeX3aXMl-PeD07JfHnj1vB7QqUNQ8uk75TIqQ,14
+fmpy_qi-0.1.3.dist-info/RECORD,,

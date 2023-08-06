@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: certora-cli-alpha-alex-more-cvlrange-meta-try-ors-fix
+Version: 20230504.16.5.826473
+Summary: Runner for the Certora Prover
+Home-page: https://pypi.org/project/certora-cli-alpha-alex-more-cvlrange-meta-try-ors-fix
+Author: Certora
+Author-email: support@certora.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.16
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Commit 188f605. Build and Run scripts for executing the Certora Prover on Solidity smart contracts.
+

@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: budy-api
+Version: 0.5.0
+Summary: Budy API Client
+Home-page: http://budy-api.hive.pt
+Author: Hive Solutions Lda.
+Author-email: development@hive.pt
+License: Apache License, Version 2.0
+Description: # [Budy API](http://budy-api.hive.pt)
+        
+        [Budy](http://budy.hive.pt) API Python client, to be used for simple synchronous integration.
+        
+        ## Configuration
+        
+        | Name              | Type  | Default                      | Description                                                                                                              |
+        | ----------------- | ----- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+        | **BUDY_BASE_URL** | `str` | `http://localhost:8080/api/` | The base URL that is going to be used for API connections.                                                               |
+        | **BUDY_COUNTRY**  | `str` | `US`                         | The country as an ISO 3166-1 to be used for API interactions.                                                            |
+        | **BUDY_CURRENCY** | `str` | `USD`                        | The [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) code that describes the currency to be used for API interactions. |
+        | **BUDY_USERNAME** | `str` | `None`                       | The username to be used for authentication.                                                                              |
+        | **BUDY_PASSWORD** | `str` | `None`                       | The password to be user for authentication.                                                                              |
+        
+        ## License
+        
+        Budy API is currently licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/).
+        
+        ## Build Automation
+        
+        [![Build Status](https://app.travis-ci.com/hivesolutions/budy-api.svg?branch=master)](https://travis-ci.com/github/hivesolutions/budy-api)
+        [![Build Status GitHub](https://github.com/hivesolutions/budy-api/workflows/Main%20Workflow/badge.svg)](https://github.com/hivesolutions/budy-api/actions)
+        [![Coverage Status](https://coveralls.io/repos/hivesolutions/budy-api/badge.svg?branch=master)](https://coveralls.io/r/hivesolutions/budy-api?branch=master)
+        [![PyPi Status](https://img.shields.io/pypi/v/budy-api.svg)](https://pypi.python.org/pypi/budy-api)
+        [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://www.apache.org/licenses/)
+        
+Keywords: budy api
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

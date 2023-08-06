@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+SemiSegAPI/__init__.py
+SemiSegAPI/semiSupervised.py
+SemiSegAPI/utils.py
+semisup_segmentation.egg-info/PKG-INFO
+semisup_segmentation.egg-info/SOURCES.txt
+semisup_segmentation.egg-info/dependency_links.txt
+semisup_segmentation.egg-info/requires.txt
+semisup_segmentation.egg-info/top_level.txt

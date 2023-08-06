@@ -1,0 +1,12 @@
+magic_module_skaffolder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magic_module_skaffolder/__main__.py,sha256=DIHNGLYrlGzEnLy5lamdQ3522jIRkU3YDVXyjXbc6Uk,229
+magic_module_skaffolder/api_descriptions.py,sha256=RVQw-GuAAD7vbIbFfFp5nLM9Q7rvGpjsQkU7Niagfa8,7703
+magic_module_skaffolder/magic_module.py,sha256=RFq7jX_URv3Dwex6Zu3XGR0b1owXZp6FQVXI2e5KDTQ,8069
+magic_module_skaffolder/skaffolder.py,sha256=GBpRJadCkHoRTIyYpmDDBo6f4Ux_g-OpFi9qUoWRUTY,15533
+magic_module_skaffolder/yaml.py,sha256=rWbKStR9CcW27eGNHnMcYmzyQVNGgFcVGcAV2rM__xU,142
+magic_module_skaffolder-0.0.2.dist-info/METADATA,sha256=XY2-T7G4-5lzpCN0vtSNmCoqQ5USuzLlZxBGCbupnOg,3827
+magic_module_skaffolder-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+magic_module_skaffolder-0.0.2.dist-info/entry_points.txt,sha256=xKUUd5uewh7GC85ivtyjKuhaGrHL6IyPYsvozfk4Ibw,72
+magic_module_skaffolder-0.0.2.dist-info/top_level.txt,sha256=1-o99VUwxg5ArVyyAg31UcpyQZHvHJTol-Vqk3wMJ1E,24
+magic_module_skaffolder-0.0.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+magic_module_skaffolder-0.0.2.dist-info/RECORD,,

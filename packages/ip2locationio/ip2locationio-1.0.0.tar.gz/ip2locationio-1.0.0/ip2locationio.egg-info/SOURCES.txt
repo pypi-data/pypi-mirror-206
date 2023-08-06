@@ -1,0 +1,14 @@
+LICENSE.TXT
+README.md
+setup.py
+ip2locationio/__init__.py
+ip2locationio/common.py
+ip2locationio/configuration.py
+ip2locationio/domainwhois.py
+ip2locationio/ipgeolocation.py
+ip2locationio.egg-info/PKG-INFO
+ip2locationio.egg-info/SOURCES.txt
+ip2locationio.egg-info/dependency_links.txt
+ip2locationio.egg-info/top_level.txt
+tests/test_domainwhois.py
+tests/test_ipgeolocation.py

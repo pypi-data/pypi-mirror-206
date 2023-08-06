@@ -1,0 +1,8 @@
+README.md
+popobot.py
+setup.py
+popobot.egg-info/PKG-INFO
+popobot.egg-info/SOURCES.txt
+popobot.egg-info/dependency_links.txt
+popobot.egg-info/requires.txt
+popobot.egg-info/top_level.txt

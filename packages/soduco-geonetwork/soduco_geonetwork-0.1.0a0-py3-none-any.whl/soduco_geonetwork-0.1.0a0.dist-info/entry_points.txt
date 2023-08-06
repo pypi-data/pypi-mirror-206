@@ -1,0 +1,3 @@
+[console_scripts]
+soduco_geonetwork_cli=soduco_geonetwork.cli.cli:cli
+

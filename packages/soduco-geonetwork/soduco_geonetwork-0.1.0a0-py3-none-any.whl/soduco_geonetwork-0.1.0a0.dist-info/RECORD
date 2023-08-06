@@ -1,0 +1,16 @@
+soduco_geonetwork/api_wrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soduco_geonetwork/api_wrapper/config.py,sha256=raE1BS-FeTJBgZbEE0HQNTQL24lLSkXEesc_4zO14T8,411
+soduco_geonetwork/api_wrapper/dataset.py,sha256=uHmR-0mz2bpewfQglzaXg3AxE5t12sTOeCj0-Mg_TeU,4611
+soduco_geonetwork/api_wrapper/geonetwork.py,sha256=-e-DXV7J5u0Iqx0zOjuFYXv8BlESoxluwesJ452pYP0,1479
+soduco_geonetwork/api_wrapper/helpers.py,sha256=v6C23p2HigIdaC6Xvafl_OCU82WUVg6zroU01qvYKJc,6134
+soduco_geonetwork/api_wrapper/xml_composers.py,sha256=B3022owabn76VNDvDoVSgB48cIVj3ufSZyOKp0B9Alc,30318
+soduco_geonetwork/api_wrapper/xmltemplates/dataset_iso19115.xml,sha256=MWFotfNsvkenDxlmCHfHuA5O5tlfoPtxVaOzkUnLuEc,14052
+soduco_geonetwork/api_wrapper/yaml_to_xml.py,sha256=4FK1Di0zcQ7aTSRl8eElD-4NCGmheVLmjeS_Vf19Wzc,1734
+soduco_geonetwork/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soduco_geonetwork/cli/cli.py,sha256=i1h0SRH6bGK0x7e4Y9eyDxYDOvmS5cEB0y0xVAhlRJE,4725
+soduco_geonetwork-0.1.0a0.dist-info/entry_points.txt,sha256=sx6PZecy1ZPLa8mPHZK-3kVvAuuoD2myBvytfD2J1nQ,71
+soduco_geonetwork-0.1.0a0.dist-info/COPYING,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+soduco_geonetwork-0.1.0a0.dist-info/COPYING.LESSER,sha256=pWgb-bBdsU2Gd2kwAXxketnm5W_2u8_fIeWEgojfrxs,7651
+soduco_geonetwork-0.1.0a0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+soduco_geonetwork-0.1.0a0.dist-info/METADATA,sha256=E-9MViYTKWBtJVP4KCynw7L1ak1iZDiCjfjE3PUw2w0,1794
+soduco_geonetwork-0.1.0a0.dist-info/RECORD,,

@@ -1,0 +1,200 @@
+credits.rst:3: [redirected permanently] http://en.wikipedia.org/wiki/File:Hypercube.svg to https://en.wikipedia.org/wiki/File:Hypercube.svg
+dev_guide\speeding_up_code.rst:38: [redirected with Found] http://docs.cython.org/ to https://cython.readthedocs.io/en/latest/
+api\hyperspy.decorators.rst:11: [redirected permanently] http://wiki.python.org/moin/PythonDecoratorLibrary to https://wiki.python.org/moin/PythonDecoratorLibrary
+dev_guide\testing.rst:11: [redirected with Found] http://doc.pytest.org/ to https://docs.pytest.org/en/7.3.x/
+dev_guide\testing.rst:33: [redirected with Found] http://doc.pytest.org/en/latest/parametrize.html to https://doc.pytest.org/en/latest/how-to/parametrize.html
+dev_guide\git.rst:42: [redirected permanently] http://www.git-scm.com/about to https://www.git-scm.com/about
+api\hyperspy.misc.eels.hydrogenic_gos.rst:37: [redirected permanently] http://www.tem-eels.ca/ to https://sites.google.com/view/tem-eels-org/tem-eels-org/
+user_guide\changes.rst:1601: [redirected permanently] http://www.lfd.uci.edu/~gohlke/code/tifffile.py.html to https://www.cgohlke.com
+dev_guide\testing.rst:138: [redirected permanently] https://codecov.io/gh/hyperspy/hyperspy to https://app.codecov.io/gh/hyperspy/hyperspy
+user_guide\big_data.rst:126: [redirected with Found] https://dask.pydata.org/ to https://docs.dask.org/en/stable/
+dev_guide\lazy_computations.rst:5: [redirected with Found] https://dask.readthedocs.io/en/latest/array.html to https://docs.dask.org/en/latest/array.html
+user_guide\big_data.rst:31: [redirected with Found] https://dask.readthedocs.io/en/latest/array-creation.html to https://docs.dask.org/en/latest/array-creation.html
+user_guide\big_data.rst:525: [redirected with Found] https://dask.readthedocs.io/en/latest/ to https://docs.dask.org/en/latest/
+user_guide\big_data.rst:538: [redirected with Found] https://distributed.readthedocs.io/en/latest/ to https://distributed.dask.org/en/latest/
+dev_guide\testing.rst:84: [redirected with Found] https://docs.pytest.org/en/latest/customize.html to https://docs.pytest.org/en/latest/reference/customize.html
+dev_guide\testing.rst:131: [redirected with Found] https://docs.pytest.org/en/stable/flaky.html to https://docs.pytest.org/en/stable/explanation/flaky.html
+user_guide\signal.rst:577: [redirected permanently] https://docs.scipy.org/doc/numpy/reference/arrays.indexing.html to https://numpy.org/doc/stable/reference/arrays.indexing.html
+user_guide\bibliography.rst:71: [redirected with Found] https://doi.org/10.1016/0304-3991(93)90130-P to https://linkinghub.elsevier.com/retrieve/pii/030439919390130P
+user_guide\bibliography.rst:137: [redirected with Found] https://doi.org/10.1016/S0304-3991(96)00070-8 to https://linkinghub.elsevier.com/retrieve/pii/S0304399196000708
+user_guide\bibliography.rst:153: [redirected with Found] https://doi.org/10.1007/978-0-387-76501-3 to https://link.springer.com/book/10.1007/978-0-387-76501-3
+user_guide\bibliography.rst:36: [redirected with Found] https://doi.org/10.1007/978-1-4419-9583-4 to https://link.springer.com/book/10.1007/978-1-4419-9583-4
+user_guide\bibliography.rst:130: [redirected with Found] https://doi.org/10.1007/978-3-540-37204-2 to https://link.springer.com/book/10.1007/978-3-540-37204-2
+user_guide\bibliography.rst:64: [redirected with Found] https://doi.org/10.1016/S0893-6080(00)00026-5 to https://linkinghub.elsevier.com/retrieve/pii/S0893608000000265
+user_guide\bibliography.rst:10: [redirected with Found] https://doi.org/10.1016/j.actamat.2013.01.069 to https://linkinghub.elsevier.com/retrieve/pii/S1359645413001080
+user_guide\bibliography.rst:202: [redirected with Found] https://doi.org/10.1016/j.ultramic.2004.01.008 to https://linkinghub.elsevier.com/retrieve/pii/S0304399104000166
+user_guide\bibliography.rst:177: [redirected with Found] https://doi.org/10.1016/j.ultramic.2004.08.003 to https://linkinghub.elsevier.com/retrieve/pii/S0304399104001652
+user_guide\bibliography.rst:112: [redirected with Found] https://doi.org/10.1016/j.ultramic.2010.10.001 to https://linkinghub.elsevier.com/retrieve/pii/S030439911000255X
+user_guide\bibliography.rst:224: [redirected with Found] https://doi.org/10.1107/S0021889899010894 to https://scripts.iucr.org/cgi-bin/paper?S0021889899010894
+api\hyperspy.misc.example_signals_loading.rst:8: [redirected with Found] https://doi.org/10.1063/1.4916609 to https://aip.scitation.org/doi/10.1063/1.4916609
+user_guide\bibliography.rst:50: [redirected with Found] https://doi.org/10.1038/161777a0 to https://www.nature.com/articles/161777a0
+user_guide\bibliography.rst:104: [redirected with Found] https://doi.org/10.1038/nature12469 to https://www.nature.com/articles/nature12469
+user_guide\bibliography.rst:87: [redirected with Found] https://doi.org/10.1017/S1431927615015494 to https://academic.oup.com/mam/article-abstract/22/1/71/6896949?redirectedFrom=fulltext
+api\hyperspy.misc.example_signals_loading.rst:15: [redirected with Found] https://doi.org/10.17815/jlsrf-2-70 to https://jlsrf.org/index.php/lsf/article/view/70
+user_guide\bibliography.rst:56: [redirected with Found] https://doi.org/10.1364/AO.41.007437 to https://opg.optica.org/ao/abstract.cfm?uri=ao-41-35-7437
+user_guide\bibliography.rst:185: [redirected with Found] https://doi.org/10.1364/OL.33.000156 to https://opg.optica.org/ol/abstract.cfm?uri=ol-33-2-156
+user_guide\bibliography.rst:193: [redirected permanently] https://doi.org/10.1109/ICDCSW.2011.20 to https://ieeexplore.ieee.org/document/5961514/
+user_guide\bibliography.rst:161: [redirected permanently] https://doi.org/10.1109/TSP.2016.2620967 to https://ieeexplore.ieee.org/document/7676413/
+citing.rst:3: [redirected with Found] https://doi.org/10.5281/zenodo.592838 to https://zenodo.org/record/7263263
+api\hyperspy.misc.material.rst:29: [redirected permanently] https://dx.doi.org/10.18434/T4HS32 to https://www.nist.gov/pml/x-ray-form-factor-attenuation-and-scattering-tables
+credits.rst:1: [redirected with Found] https://github.com/hyperspy/hyperspy/contributors to https://github.com/hyperspy/hyperspy/graphs/contributors
+user_guide\changes.rst:128: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/1412 to https://github.com/hyperspy/hyperspy/pull/1412
+user_guide\changes.rst:129: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/1791 to https://github.com/hyperspy/hyperspy/pull/1791
+user_guide\changes.rst:130: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2183 to https://github.com/hyperspy/hyperspy/pull/2183
+user_guide\changes.rst:176: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2341 to https://github.com/hyperspy/hyperspy/pull/2341
+user_guide\changes.rst:131: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2386 to https://github.com/hyperspy/hyperspy/pull/2386
+user_guide\changes.rst:132: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2399 to https://github.com/hyperspy/hyperspy/pull/2399
+user_guide\changes.rst:177: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2494 to https://github.com/hyperspy/hyperspy/pull/2494
+user_guide\changes.rst:133: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2422 to https://github.com/hyperspy/hyperspy/pull/2422
+user_guide\changes.rst:134: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2488 to https://github.com/hyperspy/hyperspy/pull/2488
+user_guide\changes.rst:178: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2559 to https://github.com/hyperspy/hyperspy/pull/2559
+user_guide\changes.rst:180: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2590 to https://github.com/hyperspy/hyperspy/pull/2590
+user_guide\changes.rst:135: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2599 to https://github.com/hyperspy/hyperspy/pull/2599
+user_guide\changes.rst:179: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2568 to https://github.com/hyperspy/hyperspy/pull/2568
+user_guide\changes.rst:181: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2633 to https://github.com/hyperspy/hyperspy/pull/2633
+user_guide\changes.rst:202: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2652 to https://github.com/hyperspy/hyperspy/pull/2652
+user_guide\changes.rst:136: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2670 to https://github.com/hyperspy/hyperspy/pull/2670
+user_guide\changes.rst:137: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2688 to https://github.com/hyperspy/hyperspy/pull/2688
+user_guide\changes.rst:182: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2703 to https://github.com/hyperspy/hyperspy/pull/2703
+user_guide\changes.rst:298: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2711 to https://github.com/hyperspy/hyperspy/pull/2711
+user_guide\changes.rst:295: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2709 to https://github.com/hyperspy/hyperspy/pull/2709
+user_guide\changes.rst:308: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2714 to https://github.com/hyperspy/hyperspy/pull/2714
+user_guide\changes.rst:307: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2713 to https://github.com/hyperspy/hyperspy/pull/2713
+user_guide\changes.rst:309: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2717 to https://github.com/hyperspy/hyperspy/pull/2717
+user_guide\changes.rst:299: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2724 to https://github.com/hyperspy/hyperspy/pull/2724
+user_guide\changes.rst:310: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2722 to https://github.com/hyperspy/hyperspy/pull/2722
+user_guide\changes.rst:183: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2725 to https://github.com/hyperspy/hyperspy/pull/2725
+user_guide\changes.rst:285: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2729 to https://github.com/hyperspy/hyperspy/pull/2729
+user_guide\changes.rst:286: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2734 to https://github.com/hyperspy/hyperspy/pull/2734
+user_guide\changes.rst:300: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2750 to https://github.com/hyperspy/hyperspy/pull/2750
+user_guide\changes.rst:301: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2757 to https://github.com/hyperspy/hyperspy/pull/2757
+user_guide\changes.rst:311: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2758 to https://github.com/hyperspy/hyperspy/pull/2758
+user_guide\changes.rst:312: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2759 to https://github.com/hyperspy/hyperspy/pull/2759
+user_guide\changes.rst:288: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2760 to https://github.com/hyperspy/hyperspy/pull/2760
+user_guide\changes.rst:289: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2763 to https://github.com/hyperspy/hyperspy/pull/2763
+user_guide\changes.rst:214: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2762 to https://github.com/hyperspy/hyperspy/pull/2762
+user_guide\changes.rst:184: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2764 to https://github.com/hyperspy/hyperspy/pull/2764
+user_guide\changes.rst:254: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2772 to https://github.com/hyperspy/hyperspy/pull/2772
+user_guide\changes.rst:152: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2773 to https://github.com/hyperspy/hyperspy/pull/2773
+user_guide\changes.rst:153: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2775 to https://github.com/hyperspy/hyperspy/pull/2775
+user_guide\changes.rst:257: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2790 to https://github.com/hyperspy/hyperspy/pull/2790
+user_guide\changes.rst:185: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2791 to https://github.com/hyperspy/hyperspy/pull/2791
+user_guide\changes.rst:259: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2793 to https://github.com/hyperspy/hyperspy/pull/2793
+user_guide\changes.rst:228: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2796 to https://github.com/hyperspy/hyperspy/pull/2796
+user_guide\changes.rst:256: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2789 to https://github.com/hyperspy/hyperspy/pull/2789
+user_guide\changes.rst:186: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2795 to https://github.com/hyperspy/hyperspy/pull/2795
+user_guide\changes.rst:187: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2797 to https://github.com/hyperspy/hyperspy/pull/2797
+user_guide\changes.rst:231: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2810 to https://github.com/hyperspy/hyperspy/pull/2810
+user_guide\changes.rst:230: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2809 to https://github.com/hyperspy/hyperspy/pull/2809
+user_guide\changes.rst:188: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2824 to https://github.com/hyperspy/hyperspy/pull/2824
+user_guide\changes.rst:154: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2822 to https://github.com/hyperspy/hyperspy/pull/2822
+user_guide\changes.rst:140: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2828 to https://github.com/hyperspy/hyperspy/pull/2828
+user_guide\changes.rst:139: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2825 to https://github.com/hyperspy/hyperspy/pull/2825
+user_guide\changes.rst:215: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2839 to https://github.com/hyperspy/hyperspy/pull/2839
+user_guide\changes.rst:232: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2837 to https://github.com/hyperspy/hyperspy/pull/2837
+user_guide\changes.rst:170: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2830 to https://github.com/hyperspy/hyperspy/pull/2830
+user_guide\changes.rst:233: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2843 to https://github.com/hyperspy/hyperspy/pull/2843
+user_guide\changes.rst:190: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2850 to https://github.com/hyperspy/hyperspy/pull/2850
+user_guide\changes.rst:189: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2842 to https://github.com/hyperspy/hyperspy/pull/2842
+user_guide\changes.rst:155: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2859 to https://github.com/hyperspy/hyperspy/pull/2859
+user_guide\changes.rst:141: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2846 to https://github.com/hyperspy/hyperspy/pull/2846
+user_guide\changes.rst:156: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2864 to https://github.com/hyperspy/hyperspy/pull/2864
+user_guide\changes.rst:191: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2862 to https://github.com/hyperspy/hyperspy/pull/2862
+user_guide\changes.rst:142: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2855 to https://github.com/hyperspy/hyperspy/pull/2855
+user_guide\changes.rst:216: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2866 to https://github.com/hyperspy/hyperspy/pull/2866
+user_guide\changes.rst:118: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2868 to https://github.com/hyperspy/hyperspy/pull/2868
+user_guide\changes.rst:192: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2871 to https://github.com/hyperspy/hyperspy/pull/2871
+user_guide\changes.rst:157: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2878 to https://github.com/hyperspy/hyperspy/pull/2878
+user_guide\changes.rst:161: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2903 to https://github.com/hyperspy/hyperspy/pull/2903
+user_guide\changes.rst:162: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2906 to https://github.com/hyperspy/hyperspy/pull/2906
+user_guide\changes.rst:196: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2911 to https://github.com/hyperspy/hyperspy/pull/2911
+user_guide\changes.rst:204: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2910 to https://github.com/hyperspy/hyperspy/pull/2910
+user_guide\changes.rst:217: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2914 to https://github.com/hyperspy/hyperspy/pull/2914
+user_guide\changes.rst:205: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2913 to https://github.com/hyperspy/hyperspy/pull/2913
+user_guide\changes.rst:163: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2916 to https://github.com/hyperspy/hyperspy/pull/2916
+user_guide\changes.rst:164: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2918 to https://github.com/hyperspy/hyperspy/pull/2918
+user_guide\changes.rst:219: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2926 to https://github.com/hyperspy/hyperspy/pull/2926
+user_guide\changes.rst:218: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2922 to https://github.com/hyperspy/hyperspy/pull/2922
+user_guide\changes.rst:145: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2908 to https://github.com/hyperspy/hyperspy/pull/2908
+user_guide\changes.rst:119: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2933 to https://github.com/hyperspy/hyperspy/pull/2933
+user_guide\changes.rst:99: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2948 to https://github.com/hyperspy/hyperspy/pull/2948
+user_guide\changes.rst:102: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2957 to https://github.com/hyperspy/hyperspy/pull/2957
+user_guide\changes.rst:100: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2952 to https://github.com/hyperspy/hyperspy/pull/2952
+user_guide\changes.rst:112: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2961 to https://github.com/hyperspy/hyperspy/pull/2961
+user_guide\changes.rst:101: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2954 to https://github.com/hyperspy/hyperspy/pull/2954
+user_guide\changes.rst:83: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2982 to https://github.com/hyperspy/hyperspy/pull/2982
+user_guide\changes.rst:68: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2981 to https://github.com/hyperspy/hyperspy/pull/2981
+user_guide\changes.rst:77: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2975 to https://github.com/hyperspy/hyperspy/pull/2975
+user_guide\changes.rst:66: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2977 to https://github.com/hyperspy/hyperspy/pull/2977
+user_guide\changes.rst:106: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2964 to https://github.com/hyperspy/hyperspy/pull/2964
+user_guide\changes.rst:84: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2984 to https://github.com/hyperspy/hyperspy/pull/2984
+user_guide\changes.rst:69: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/2995 to https://github.com/hyperspy/hyperspy/pull/2995
+user_guide\changes.rst:85: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/3001 to https://github.com/hyperspy/hyperspy/pull/3001
+user_guide\changes.rst:71: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/3008 to https://github.com/hyperspy/hyperspy/pull/3008
+user_guide\changes.rst:86: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/3015 to https://github.com/hyperspy/hyperspy/pull/3015
+user_guide\changes.rst:70: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/3005 to https://github.com/hyperspy/hyperspy/pull/3005
+user_guide\changes.rst:87: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/3016 to https://github.com/hyperspy/hyperspy/pull/3016
+user_guide\changes.rst:56: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/3033 to https://github.com/hyperspy/hyperspy/pull/3033
+user_guide\changes.rst:48: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/3040 to https://github.com/hyperspy/hyperspy/pull/3040
+user_guide\changes.rst:57: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/3049 to https://github.com/hyperspy/hyperspy/pull/3049
+user_guide\changes.rst:55: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/3032 to https://github.com/hyperspy/hyperspy/pull/3032
+user_guide\changes.rst:49: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/3052 to https://github.com/hyperspy/hyperspy/pull/3052
+user_guide\changes.rst:30: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/3073 to https://github.com/hyperspy/hyperspy/pull/3073
+user_guide\changes.rst:17: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/3060 to https://github.com/hyperspy/hyperspy/pull/3060
+user_guide\changes.rst:36: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/3079 to https://github.com/hyperspy/hyperspy/pull/3079
+user_guide\changes.rst:24: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/3084 to https://github.com/hyperspy/hyperspy/pull/3084
+user_guide\changes.rst:37: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/3102 to https://github.com/hyperspy/hyperspy/pull/3102
+user_guide\changes.rst:39: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/3108 to https://github.com/hyperspy/hyperspy/pull/3108
+user_guide\changes.rst:38: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/3103 to https://github.com/hyperspy/hyperspy/pull/3103
+user_guide\changes.rst:7: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/3118 to https://github.com/hyperspy/hyperspy/pull/3118
+user_guide\changes.rst:18: [redirected with Found] https://github.com/hyperspy/hyperspy/issues/3109 to https://github.com/hyperspy/hyperspy/pull/3109
+user_guide\changes.rst:1252: [redirected with Found] https://github.com/hyperspy/hyperspy/issues?milestone=5&page=1&state=closed to https://github.com/hyperspy/hyperspy/issues?milestone=5&q=is%3Aclosed
+user_guide\changes.rst:1262: [redirected with Found] https://github.com/hyperspy/hyperspy/issues?milestone=4&page=1&state=closed to https://github.com/hyperspy/hyperspy/issues?milestone=4&q=is%3Aclosed
+user_guide\changes.rst:1242: [redirected with Found] https://github.com/hyperspy/hyperspy/issues?milestone=6&page=1&state=closed to https://github.com/hyperspy/hyperspy/issues?milestone=6&q=is%3Aclosed
+user_guide\changes.rst:1131: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?page=1&q=is%3Aclosed+milestone%3A0.8.1+label%3A"type%3A+bug"&utf8=%E2%9C%93 to https://github.com/hyperspy/hyperspy/issues?page=1&q=is%3Aclosed+milestone%3A0.8.1+label%3A%22type%3A+bug%22&utf8=%E2%9C%93
+user_guide\changes.rst:1107: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?page=1&q=is%3Aclosed+milestone%3A0.8.3+label%3A"type%3A+bug"&utf8=%E2%9C%93 to https://github.com/hyperspy/hyperspy/issues?page=1&q=is%3Aclosed+milestone%3A0.8.3+label%3A%22type%3A+bug%22&utf8=%E2%9C%93
+user_guide\changes.rst:1107: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3A0.8.3+label%3A"Api+change" to https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3A0.8.3+label%3A%22Api+change%22
+user_guide\changes.rst:1107: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3A0.8.3+label%3A"type%3A+enhancement" to https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3A0.8.3+label%3A%22type%3A+enhancement%22
+user_guide\changes.rst:915: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3Av1.1.2+label%3A"type%3A+enhancement" to https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3Av1.1.2+label%3A%22type%3A+enhancement%22
+user_guide\changes.rst:754: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3Av1.3+label%3A"type%3A+New+feature" to https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3Av1.3+label%3A%22type%3A+New+feature%22
+user_guide\changes.rst:863: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3Av1.2+label%3A"type%3A+New+feature" to https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3Av1.2+label%3A%22type%3A+New+feature%22
+user_guide\changes.rst:863: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3Av1.2+label%3A"type%3A+enhancement" to https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3Av1.2+label%3A%22type%3A+enhancement%22
+user_guide\changes.rst:754: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3Av1.3+label%3A"type%3A+enhancement" to https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3Av1.3+label%3A%22type%3A+enhancement%22
+user_guide\changes.rst:739: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3Av1.3.1+label%3A"type%3A+enhancement" to https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3Av1.3.1+label%3A%22type%3A+enhancement%22
+user_guide\changes.rst:728: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3Av1.3.2+label%3A"type%3A+enhancement" to https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3Av1.3.2+label%3A%22type%3A+enhancement%22
+user_guide\changes.rst:661: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3Av1.4.1+label%3A"type%3A+enhancement" to https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3Av1.4.1+label%3A%22type%3A+enhancement%22
+user_guide\changes.rst:648: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3Av1.4.2+label%3A"type%3A+enhancement" to https://github.com/hyperspy/hyperspy/issues?q=is%3Aclosed+milestone%3Av1.4.2+label%3A%22type%3A+enhancement%22
+user_guide\changes.rst:1057: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=is%3Aissue+milestone%3A0.8.5+label%3A"type%3A+bug"+is%3Aclosed to https://github.com/hyperspy/hyperspy/issues?q=is%3Aissue+milestone%3A0.8.5+label%3A%22type%3A+bug%22+is%3Aclosed
+user_guide\changes.rst:974: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=label%3A"type%3A+bug"+is%3Aclosed+milestone%3A1.0.1 to https://github.com/hyperspy/hyperspy/issues?q=label%3A%22type%3A+bug%22+is%3Aclosed+milestone%3A1.0.1
+user_guide\changes.rst:948: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=label%3A"type%3A+bug"+is%3Aclosed+milestone%3A1.1 to https://github.com/hyperspy/hyperspy/issues?q=label%3A%22type%3A+bug%22+is%3Aclosed+milestone%3A1.1
+user_guide\changes.rst:926: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=label%3A"type%3A+bug"+is%3Aclosed+milestone%3A1.1.1 to https://github.com/hyperspy/hyperspy/issues?q=label%3A%22type%3A+bug%22+is%3Aclosed+milestone%3A1.1.1
+user_guide\changes.rst:915: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=label%3A"type%3A+bug"+is%3Aclosed+milestone%3Av1.1.2 to https://github.com/hyperspy/hyperspy/issues?q=label%3A%22type%3A+bug%22+is%3Aclosed+milestone%3Av1.1.2
+user_guide\changes.rst:754: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=label%3A"type%3A+bug"+is%3Aclosed+milestone%3Av1.3 to https://github.com/hyperspy/hyperspy/issues?q=label%3A%22type%3A+bug%22+is%3Aclosed+milestone%3Av1.3
+user_guide\changes.rst:863: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=label%3A"type%3A+bug"+is%3Aclosed+milestone%3Av1.2 to https://github.com/hyperspy/hyperspy/issues?q=label%3A%22type%3A+bug%22+is%3Aclosed+milestone%3Av1.2
+user_guide\changes.rst:661: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=label%3A"type%3A+bug"+is%3Aclosed+milestone%3Av1.4.1 to https://github.com/hyperspy/hyperspy/issues?q=label%3A%22type%3A+bug%22+is%3Aclosed+milestone%3Av1.4.1
+user_guide\changes.rst:739: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=label%3A"type%3A+bug"+is%3Aclosed+milestone%3Av1.3.1 to https://github.com/hyperspy/hyperspy/issues?q=label%3A%22type%3A+bug%22+is%3Aclosed+milestone%3Av1.3.1
+user_guide\changes.rst:728: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=label%3A"type%3A+bug"+is%3Aclosed+milestone%3Av1.3.2 to https://github.com/hyperspy/hyperspy/issues?q=label%3A%22type%3A+bug%22+is%3Aclosed+milestone%3Av1.3.2
+user_guide\changes.rst:648: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=label%3A"type%3A+bug"+is%3Aclosed+milestone%3Av1.4.2 to https://github.com/hyperspy/hyperspy/issues?q=label%3A%22type%3A+bug%22+is%3Aclosed+milestone%3Av1.4.2
+user_guide\changes.rst:580: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=label%3A"type%3A+bug"+is%3Aclosed+milestone%3Av1.5.1 to https://github.com/hyperspy/hyperspy/issues?q=label%3A%22type%3A+bug%22+is%3Aclosed+milestone%3Av1.5.1
+user_guide\changes.rst:569: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?q=label%3A"type%3A+bug"+is%3Aclosed+milestone%3Av1.5.2 to https://github.com/hyperspy/hyperspy/issues?q=label%3A%22type%3A+bug%22+is%3Aclosed+milestone%3Av1.5.2
+user_guide\changes.rst:1131: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?utf8=%E2%9C%93&q=is%3Aclosed+milestone%3A0.8.1++label%3A"type%3A+enhancement"+ to https://github.com/hyperspy/hyperspy/issues?utf8=%E2%9C%93&q=is%3Aclosed+milestone%3A0.8.1++label%3A%22type%3A+enhancement%22+
+user_guide\changes.rst:1057: [redirected with unknown code] https://github.com/hyperspy/hyperspy/issues?utf8=%E2%9C%93&q=milestone%3A0.8.5+is%3Aclosed++label%3A"type%3A+enhancement"+ to https://github.com/hyperspy/hyperspy/issues?utf8=%E2%9C%93&q=milestone%3A0.8.5+is%3Aclosed++label%3A%22type%3A+enhancement%22+
+dev_guide\intro.rst:46: [redirected permanently] https://gitter.im/hyperspy/hyperspy to https://app.gitter.im/#/room/#hyperspy_hyperspy:gitter.im
+dev_guide\git.rst:14: [redirected permanently] https://help.github.com/categories/bootcamp/ to https://support.github.com
+user_guide\model.rst:1640: [redirected with Found] https://ipyparallel.readthedocs.io/ to https://ipyparallel.readthedocs.io/en/latest/
+user_guide\getting_started.rst:135: [redirected with Found] https://ipython.readthedocs.io/ to https://ipython.readthedocs.io/en/stable/
+user_guide\getting_started.rst:39: [redirected permanently] https://ipython.readthedocs.org/en/stable/interactive/plotting.html to https://ipython.readthedocs.io/en/stable/interactive/plotting.html
+user_guide\changes.rst:66: [redirected with Found] https://lgtm.com/projects/g/hyperspy/hyperspy/ to https://github.blog/2022-08-15-the-next-step-for-lgtm-com-github-code-scanning/
+dev_guide\useful_information.rst:54: [redirected with Found] https://packaging.python.org/guides/analyzing-pypi-package-downloads/ to https://packaging.python.org/en/latest/guides/analyzing-pypi-package-downloads/
+user_guide\bibliography.rst:43: [redirected with Found] https://papers.nips.cc/paper/5131-online-robust-pca-via-stochastic-optimization to https://papers.nips.cc/paper_files/paper/2013/hash/8f121ce07d74717e0b1f21d122e04521-Abstract.html
+user_guide\axes.rst:504: [redirected with Found] https://pint.readthedocs.io to https://pint.readthedocs.io/en/stable/
+user_guide\install.rst:309: [redirected with Found] https://pip.pypa.io/ to https://pip.pypa.io/en/stable/
+user_guide\bibliography.rst:26: [redirected permanently] https://physics.nist.gov/ffast to https://www.nist.gov/pml/x-ray-form-factor-attenuation-and-scattering-tables
+user_guide\install.rst:151: [redirected permanently] https://pypi.python.org/pypi to https://pypi.org/
+user_guide\install.rst:151: [redirected permanently] https://pypi.python.org/pypi/pip to https://pypi.org/project/pip/
+dev_guide\testing.rst:217: [redirected permanently] https://pypi.python.org/pypi/pytest-mpl to https://pypi.org/project/pytest-mpl/
+api\hyperspy.axes.rst:5: [redirected permanently] https://stackoverflow.com/questions/57366966/ to https://stackoverflow.com/questions/57366966/serpentine-scan-pattern-generator
+api\hyperspy.misc.model_tools.rst:21: [redirected permanently] https://stats.stackexchange.com/questions/62470 to https://stats.stackexchange.com/questions/62470/variance-covariance-matrix-of-the-errors-in-linear-regression
+api\hyperspy.learn.rpca.rst:3: [redirected with Found] https://sites.google.com/site/godecomposition/matrix/artifact-1 to https://accounts.google.com/v3/signin/identifier?dsh=S604165593%3A1681202489777254&continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fgodecomposition%2Fmatrix%2Fartifact-1&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fgodecomposition%2Fmatrix%2Fartifact-1&ifkv=AQMjQ7S4QoXtVD06WXo7hjxiAMHDTiBNntDIBaVOjaTJlGFQ_ziphWX9AclqF_EHZG__KkaglCDQjw&passive=1209600&service=jotspot&flowName=GlifWebSignIn&flowEntry=ServiceLogin
+dev_guide\coding_style.rst:8: [redirected with Found] https://www.python.org/dev/peps/pep-0008/ to https://peps.python.org/pep-0008/
+user_guide\eds.rst:520: [redirected permanently] https://www.webshop.bam.de to https://webshop.bam.de/

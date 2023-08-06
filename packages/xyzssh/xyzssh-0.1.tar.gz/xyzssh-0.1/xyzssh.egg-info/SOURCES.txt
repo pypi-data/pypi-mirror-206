@@ -1,0 +1,7 @@
+setup.py
+xyzssh/__init__.py
+xyzssh/setup.py
+xyzssh.egg-info/PKG-INFO
+xyzssh.egg-info/SOURCES.txt
+xyzssh.egg-info/dependency_links.txt
+xyzssh.egg-info/top_level.txt

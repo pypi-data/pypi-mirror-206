@@ -1,0 +1,9 @@
+setup.py
+hola/__init__.py
+hola/__main__.py
+hola/config.py
+hola/utils.py
+lasintaxisxd.egg-info/PKG-INFO
+lasintaxisxd.egg-info/SOURCES.txt
+lasintaxisxd.egg-info/dependency_links.txt
+lasintaxisxd.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+hpverif/Calibraton.py,sha256=ud0_TLv-Ik3FG0-YUWQ23zg9rvtvb3qMp8OSX3ajFS8,3130
+hpverif/FrameCapture.py,sha256=KMmFVFRLmlVUURNaD4CNesQ9ItdbIbjXZwFvirnQq-g,4063
+hpverif/FrameCapturePLY.py,sha256=Mmm0yxYQfCyPfMpPvNfXbpX_1ZHXVPe1yHR185CGaRo,2641
+hpverif/PointCloud.py,sha256=5HKS34jx9A8WQq9AFL22r2HpQEH2mQhMatJFi1wXkZk,4101
+hpverif/Segmentation.py,sha256=PdqMSA268patMltWaFtcqWwRJt2c_9O9dARWvs4p1qU,5558
+hpverif/ShowFiles.py,sha256=cWmSfUXyRegN0k0l_hwZFvjfJRMC8Uwj_tvzr2iCn8c,2517
+hpverif/Theoretical_distance.py,sha256=OAsEL3mhwIafxnfn24ud-kKL4J7IrfH3bkiCRXrKe-I,5059
+hpverif/Verification.py,sha256=hn5zaIU10Ruh4tP4WOkeG3mhRXW-FTcbgHUusx7xRTI,1937
+hpverif/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hpverif/driver.py,sha256=64G8Tkk3N3_NLRCbqyArU3X82geGpj5EkRNncvvSh8U,409
+hpverif-2.5.3.dist-info/METADATA,sha256=Vb4wEU0Yjs0GuBVd3RL4D-8IqV-t6RFA5FY-5stYuHo,335
+hpverif-2.5.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+hpverif-2.5.3.dist-info/top_level.txt,sha256=XZSD1QWULYM6ehhNqJ8z6ssxrXEfKSsM1Gk2hv4UMcw,8
+hpverif-2.5.3.dist-info/RECORD,,

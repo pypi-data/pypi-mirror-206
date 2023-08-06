@@ -1,0 +1,11 @@
+omero_user_token/__init__.py,sha256=DgG8rfyJu4Sd6Xv_Fq16WQFXsYsTJ8_yc7LY0Zg-4Hk,2957
+omero_user_token/version.py,sha256=WbNIRMuNiF2fjtWppH3zuG7ykVaSLnIinuU3qK0hAqA,18
+omero_user_token/cli/__init__.py,sha256=xDB2sRBPhIoCrdqAx7_Tc7qOZVDg9LIKTUm1aq9_Y0g,319
+omero_user_token/cli/omero_user_token.py,sha256=maaSinQa8Is-cmB1Ruw-W9DHHO-ZJCc5rAy9zQb8fgs,1498
+omero_user_token-0.2.1.dist-info/LICENSE.txt,sha256=ljuLW2uCIXm0dGN4b6-cxc5uG2VQKOP0_ycn3ZnVkPw,15145
+omero_user_token-0.2.1.dist-info/METADATA,sha256=JY5POxJ67QO9AVL0MM56M04cTTHLQHh9g5uI6V8Cdr0,2452
+omero_user_token-0.2.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+omero_user_token-0.2.1.dist-info/entry_points.txt,sha256=71FdS-dQyiZtRg3vdQcbpUKkBTFnJRqiv0Hn_0wYXdc,81
+omero_user_token-0.2.1.dist-info/top_level.txt,sha256=rT-1lw4nSS2ozZhTyiEOpCVzE2oSnHybhhc-wmkbJjE,17
+omero_user_token-0.2.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+omero_user_token-0.2.1.dist-info/RECORD,,

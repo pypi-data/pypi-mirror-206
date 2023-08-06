@@ -1,0 +1,3992 @@
+{
+  "opaque_surfaces": [
+    {
+      "1000_1979_4": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "4",
+        "type": "OutdoorsWall",
+        "u_value": 0.994,
+        "layers": {
+          "Brickwork Outer": 0.1,
+          "virtual_no_mass_0": 0,
+          "Concrete Block (Medium)": 0.1,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_4": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "4",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.363,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_1": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_4": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "4",
+        "type": "OutdoorsFloor",
+        "u_value": 3.822,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_2": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1000_1979_4": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "4",
+        "type": "GroundWall",
+        "u_value": 0.678,
+        "layers": {
+          "Brickwork Outer": 0.1,
+          "virtual_no_mass_3": 0,
+          "Concrete Block (Medium)": 0.1,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_4": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "4",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.678,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_4": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_4": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "4",
+        "type": "GroundFloor",
+        "u_value": 0.678,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_5": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1000_1979_5": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "5",
+        "type": "OutdoorsWall",
+        "u_value": 0.9,
+        "layers": {
+          "Brickwork Outer": 0.1,
+          "virtual_no_mass_6": 0,
+          "Concrete Block (Medium)": 0.1,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_5": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "5",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.296,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_7": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_5": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "5",
+        "type": "OutdoorsFloor",
+        "u_value": 3.822,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_8": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1000_1979_5": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "5",
+        "type": "GroundWall",
+        "u_value": 0.678,
+        "layers": {
+          "Brickwork Outer": 0.1,
+          "virtual_no_mass_9": 0,
+          "Concrete Block (Medium)": 0.1,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_5": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "5",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.678,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_10": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_5": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "5",
+        "type": "GroundFloor",
+        "u_value": 0.678,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_11": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1000_1979_6": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "6",
+        "type": "OutdoorsWall",
+        "u_value": 0.823,
+        "layers": {
+          "Brickwork Outer": 0.1,
+          "virtual_no_mass_12": 0,
+          "Concrete Block (Medium)": 0.1,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_6": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "6",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.267,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_13": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_6": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "6",
+        "type": "OutdoorsFloor",
+        "u_value": 3.822,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_14": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1000_1979_6": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "6",
+        "type": "GroundWall",
+        "u_value": 0.678,
+        "layers": {
+          "Brickwork Outer": 0.1,
+          "virtual_no_mass_15": 0,
+          "Concrete Block (Medium)": 0.1,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_6": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "6",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.678,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_16": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_6": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "6",
+        "type": "GroundFloor",
+        "u_value": 0.678,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_17": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1000_1979_7A": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "7A",
+        "type": "OutdoorsWall",
+        "u_value": 0.772,
+        "layers": {
+          "Brickwork Outer": 0.1,
+          "virtual_no_mass_18": 0,
+          "Concrete Block (Medium)": 0.1,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_7A": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "7A",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.227,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_19": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_7A": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "7A",
+        "type": "OutdoorsFloor",
+        "u_value": 3.822,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_20": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1000_1979_7A": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "7A",
+        "type": "GroundWall",
+        "u_value": 0.678,
+        "layers": {
+          "Brickwork Outer": 0.1,
+          "virtual_no_mass_21": 0,
+          "Concrete Block (Medium)": 0.1,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_7A": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "7A",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.678,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_22": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_7A": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "7A",
+        "type": "GroundFloor",
+        "u_value": 0.678,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_23": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1000_1979_7B": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "7B",
+        "type": "OutdoorsWall",
+        "u_value": 0.772,
+        "layers": {
+          "Brickwork Outer": 0.1,
+          "virtual_no_mass_24": 0,
+          "Concrete Block (Medium)": 0.1,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_7B": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "7B",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.227,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_25": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_7B": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "7B",
+        "type": "OutdoorsFloor",
+        "u_value": 3.822,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_26": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1000_1979_7B": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "7B",
+        "type": "GroundWall",
+        "u_value": 0.678,
+        "layers": {
+          "Brickwork Outer": 0.1,
+          "virtual_no_mass_27": 0,
+          "Concrete Block (Medium)": 0.1,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_7B": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "7B",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.678,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_28": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_7B": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "7B",
+        "type": "GroundFloor",
+        "u_value": 0.678,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_29": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1000_1979_8": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "8",
+        "type": "OutdoorsWall",
+        "u_value": 0.71,
+        "layers": {
+          "Brickwork Outer": 0.1,
+          "virtual_no_mass_30": 0,
+          "Concrete Block (Medium)": 0.1,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_8": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "8",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.176,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_31": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_8": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "8",
+        "type": "OutdoorsFloor",
+        "u_value": 3.822,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_32": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1000_1979_8": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "8",
+        "type": "GroundWall",
+        "u_value": 0.678,
+        "layers": {
+          "Brickwork Outer": 0.1,
+          "virtual_no_mass_33": 0,
+          "Concrete Block (Medium)": 0.1,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_8": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "8",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.678,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_34": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1000_1979_8": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "8",
+        "type": "GroundFloor",
+        "u_value": 0.678,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_35": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1980_2010_4": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "4",
+        "type": "OutdoorsWall",
+        "u_value": 0.568,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_36": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_4": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "4",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.363,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_37": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_4": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "4",
+        "type": "OutdoorsFloor",
+        "u_value": 3.822,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_38": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1980_2010_4": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "4",
+        "type": "GroundWall",
+        "u_value": 0.606,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_39": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_4": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "4",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.678,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_40": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_4": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "4",
+        "type": "GroundFloor",
+        "u_value": 0.678,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_41": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1980_2010_5": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "5",
+        "type": "OutdoorsWall",
+        "u_value": 0.682,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_42": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_5": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "5",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.296,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_43": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_5": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "5",
+        "type": "OutdoorsFloor",
+        "u_value": 3.822,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_44": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1980_2010_5": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "5",
+        "type": "GroundWall",
+        "u_value": 0.547,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_45": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_5": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "5",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.678,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_46": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_5": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "5",
+        "type": "GroundFloor",
+        "u_value": 0.678,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_47": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1980_2010_6": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "6",
+        "type": "OutdoorsWall",
+        "u_value": 0.426,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_48": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_6": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "6",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.267,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_49": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_6": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "6",
+        "type": "OutdoorsFloor",
+        "u_value": 3.822,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_50": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1980_2010_6": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "6",
+        "type": "GroundWall",
+        "u_value": 0.459,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_51": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_6": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "6",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.678,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_52": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_6": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "6",
+        "type": "GroundFloor",
+        "u_value": 0.678,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_53": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1980_2010_7A": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "7A",
+        "type": "OutdoorsWall",
+        "u_value": 0.346,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_54": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_7A": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "7A",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.227,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_55": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_7A": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "7A",
+        "type": "OutdoorsFloor",
+        "u_value": 3.822,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_56": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1980_2010_7A": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "7A",
+        "type": "GroundWall",
+        "u_value": 0.425,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_57": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_7A": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "7A",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.678,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_58": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_7A": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "7A",
+        "type": "GroundFloor",
+        "u_value": 0.678,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_59": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1980_2010_7B": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "7B",
+        "type": "OutdoorsWall",
+        "u_value": 0.346,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_60": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_7B": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "7B",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.227,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_61": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_7B": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "7B",
+        "type": "OutdoorsFloor",
+        "u_value": 3.822,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_62": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1980_2010_7B": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "7B",
+        "type": "GroundWall",
+        "u_value": 0.425,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_63": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_7B": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "7B",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.678,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_64": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_7B": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "7B",
+        "type": "GroundFloor",
+        "u_value": 0.678,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_65": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1980_2010_8": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "8",
+        "type": "OutdoorsWall",
+        "u_value": 0.267,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_66": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_8": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "8",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.176,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_67": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_8": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "8",
+        "type": "OutdoorsFloor",
+        "u_value": 3.822,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_68": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "1980_2010_8": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "8",
+        "type": "GroundWall",
+        "u_value": 0.347,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_69": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_8": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "8",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.678,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_70": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "1980_2010_8": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "8",
+        "type": "GroundFloor",
+        "u_value": 0.678,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_71": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2011_2016_4": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "4",
+        "type": "OutdoorsWall",
+        "u_value": 0.315,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_72": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_4": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "4",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.227,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_73": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_4": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "4",
+        "type": "OutdoorsFloor",
+        "u_value": 0.227,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_74": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2011_2016_4": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "4",
+        "type": "GroundWall",
+        "u_value": 0.568,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_75": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_4": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "4",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.568,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_76": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_4": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "4",
+        "type": "GroundFloor",
+        "u_value": 0.757,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_77": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2011_2016_5": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "5",
+        "type": "OutdoorsWall",
+        "u_value": 0.278,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_78": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_5": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "5",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.183,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_79": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_5": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "5",
+        "type": "OutdoorsFloor",
+        "u_value": 0.183,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_80": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2011_2016_5": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "5",
+        "type": "GroundWall",
+        "u_value": 0.379,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_81": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_5": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "5",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.379,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_82": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_5": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "5",
+        "type": "GroundFloor",
+        "u_value": 0.757,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_83": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2011_2016_6": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "6",
+        "type": "OutdoorsWall",
+        "u_value": 0.247,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_84": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_6": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "6",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.183,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_85": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_6": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "6",
+        "type": "OutdoorsFloor",
+        "u_value": 0.183,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_86": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2011_2016_6": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "6",
+        "type": "GroundWall",
+        "u_value": 0.284,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_87": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_6": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "6",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.284,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_88": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_6": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "6",
+        "type": "GroundFloor",
+        "u_value": 0.757,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_89": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2011_2016_7A": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "7A",
+        "type": "OutdoorsWall",
+        "u_value": 0.21,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_90": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_7A": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "7A",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.162,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_91": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_7A": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "7A",
+        "type": "OutdoorsFloor",
+        "u_value": 0.162,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_92": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2011_2016_7A": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "7A",
+        "type": "GroundWall",
+        "u_value": 0.284,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_93": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_7A": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "7A",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.284,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_94": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_7A": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "7A",
+        "type": "GroundFloor",
+        "u_value": 0.757,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_95": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2011_2016_7B": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "7B",
+        "type": "OutdoorsWall",
+        "u_value": 0.21,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_96": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_7B": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "7B",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.162,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_97": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_7B": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "7B",
+        "type": "OutdoorsFloor",
+        "u_value": 0.162,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_98": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2011_2016_7B": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "7B",
+        "type": "GroundWall",
+        "u_value": 0.284,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_99": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_7B": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "7B",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.284,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_100": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_7B": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "7B",
+        "type": "GroundFloor",
+        "u_value": 0.757,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_101": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2011_2016_8": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "8",
+        "type": "OutdoorsWall",
+        "u_value": 0.183,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_102": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_8": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "8",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.142,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_103": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_8": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "8",
+        "type": "OutdoorsFloor",
+        "u_value": 0.142,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_104": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2011_2016_8": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "8",
+        "type": "GroundWall",
+        "u_value": 0.21,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_105": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_8": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "8",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.21,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_106": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2011_2016_8": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "8",
+        "type": "GroundFloor",
+        "u_value": 0.379,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_107": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2017_2019_4": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "4",
+        "type": "OutdoorsWall",
+        "u_value": 0.315,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_108": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_4": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "4",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.193,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_109": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_4": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "4",
+        "type": "OutdoorsFloor",
+        "u_value": 0.227,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_110": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2017_2019_4": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "4",
+        "type": "GroundWall",
+        "u_value": 0.568,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_111": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_4": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "4",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.568,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_112": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_4": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "4",
+        "type": "GroundFloor",
+        "u_value": 0.757,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_113": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2017_2019_5": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "5",
+        "type": "OutdoorsWall",
+        "u_value": 0.278,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_114": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_5": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "5",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.156,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_115": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_5": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "5",
+        "type": "OutdoorsFloor",
+        "u_value": 0.183,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_116": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2017_2019_5": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "5",
+        "type": "GroundWall",
+        "u_value": 0.379,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_117": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_5": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "5",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.379,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_118": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_5": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "5",
+        "type": "GroundFloor",
+        "u_value": 0.757,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_119": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2017_2019_6": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "6",
+        "type": "OutdoorsWall",
+        "u_value": 0.247,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_120": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_6": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "6",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.156,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_121": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_6": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "6",
+        "type": "OutdoorsFloor",
+        "u_value": 0.183,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_122": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2017_2019_6": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "6",
+        "type": "GroundWall",
+        "u_value": 0.284,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_123": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_6": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "6",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.284,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_124": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_6": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "6",
+        "type": "GroundFloor",
+        "u_value": 0.757,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_125": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2017_2019_7A": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "7A",
+        "type": "OutdoorsWall",
+        "u_value": 0.21,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_126": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_7A": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "7A",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.138,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_127": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_7A": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "7A",
+        "type": "OutdoorsFloor",
+        "u_value": 0.162,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_128": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2017_2019_7A": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "7A",
+        "type": "GroundWall",
+        "u_value": 0.284,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_129": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_7A": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "7A",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.284,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_130": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_7A": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "7A",
+        "type": "GroundFloor",
+        "u_value": 0.757,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_131": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2017_2019_7B": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "7B",
+        "type": "OutdoorsWall",
+        "u_value": 0.21,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_132": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_7B": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "7B",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.138,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_133": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_7B": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "7B",
+        "type": "OutdoorsFloor",
+        "u_value": 0.162,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_134": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2017_2019_7B": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "7B",
+        "type": "GroundWall",
+        "u_value": 0.284,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_135": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_7B": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "7B",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.284,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_136": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_7B": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "7B",
+        "type": "GroundFloor",
+        "u_value": 0.757,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_137": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2017_2019_8": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "8",
+        "type": "OutdoorsWall",
+        "u_value": 0.183,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_138": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_8": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "8",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.121,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_139": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_8": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "8",
+        "type": "OutdoorsFloor",
+        "u_value": 0.142,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_140": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2017_2019_8": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "8",
+        "type": "GroundWall",
+        "u_value": 0.21,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_141": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_8": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "8",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.21,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_142": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2017_2019_8": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "8",
+        "type": "GroundFloor",
+        "u_value": 0.379,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_143": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2020_3000_4": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "4",
+        "type": "OutdoorsWall",
+        "u_value": 0.29,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_144": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_4": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "4",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.164,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_145": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_4": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "4",
+        "type": "OutdoorsFloor",
+        "u_value": 0.193,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_146": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2020_3000_4": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "4",
+        "type": "GroundWall",
+        "u_value": 0.568,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_147": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_4": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "4",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.568,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_148": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_4": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "4",
+        "type": "GroundFloor",
+        "u_value": 0.757,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_149": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2020_3000_5": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "5",
+        "type": "OutdoorsWall",
+        "u_value": 0.265,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_150": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_5": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "5",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.156,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_151": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_5": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "5",
+        "type": "OutdoorsFloor",
+        "u_value": 0.175,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_152": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2020_3000_5": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "5",
+        "type": "GroundWall",
+        "u_value": 0.379,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_153": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_5": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "5",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.379,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_154": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_5": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "5",
+        "type": "GroundFloor",
+        "u_value": 0.757,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_155": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2020_3000_6": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "6",
+        "type": "OutdoorsWall",
+        "u_value": 0.24,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_156": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_6": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "6",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.138,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_157": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_6": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "6",
+        "type": "OutdoorsFloor",
+        "u_value": 0.156,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_158": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2020_3000_6": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "6",
+        "type": "GroundWall",
+        "u_value": 0.284,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_159": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_6": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "6",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.284,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_160": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_6": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "6",
+        "type": "GroundFloor",
+        "u_value": 0.757,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_161": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2020_3000_7A": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "7A",
+        "type": "OutdoorsWall",
+        "u_value": 0.215,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_162": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_7A": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "7A",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.121,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_163": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_7A": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "7A",
+        "type": "OutdoorsFloor",
+        "u_value": 0.138,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_164": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2020_3000_7A": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "7A",
+        "type": "GroundWall",
+        "u_value": 0.284,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_165": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_7A": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "7A",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.284,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_166": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_7A": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "7A",
+        "type": "GroundFloor",
+        "u_value": 0.757,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_167": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2020_3000_7B": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "7B",
+        "type": "OutdoorsWall",
+        "u_value": 0.19,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_168": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_7B": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "7B",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.117,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_169": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_7B": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "7B",
+        "type": "OutdoorsFloor",
+        "u_value": 0.121,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_170": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2020_3000_7B": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "7B",
+        "type": "GroundWall",
+        "u_value": 0.284,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_171": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_7B": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "7B",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.284,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_172": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_7B": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "7B",
+        "type": "GroundFloor",
+        "u_value": 0.757,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_173": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2020_3000_8": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "8",
+        "type": "OutdoorsWall",
+        "u_value": 0.165,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_174": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_8": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "8",
+        "type": "OutdoorsRoofCeiling",
+        "u_value": 0.11,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_175": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_8": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "8",
+        "type": "OutdoorsFloor",
+        "u_value": 0.117,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_176": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    },
+    {
+      "2020_3000_8": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "8",
+        "type": "GroundWall",
+        "u_value": 0.21,
+        "layers": {
+          "Lightweight Metallic Cladding": 0.006,
+          "virtual_no_mass_177": 0,
+          "Gypsum Plastering": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_8": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "8",
+        "type": "GroundRoofCeiling",
+        "u_value": 0.21,
+        "layers": {
+          "Asphalt 1": 0.01,
+          "virtual_no_mass_178": 0,
+          "MW Glass Wool (rolls)": 0.05,
+          "Plasterboard": 0.013
+        }
+      }
+    },
+    {
+      "2020_3000_8": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "8",
+        "type": "GroundFloor",
+        "u_value": 0.379,
+        "layers": {
+          "Cast Concrete": 0.1,
+          "virtual_no_mass_179": 0,
+          "Timber Flooring": 0.01
+        }
+      }
+    }
+  ],
+  "transparent_surfaces": [
+    {
+      "Window_1000_1979_4": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "4",
+        "shgc": 0.39,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 4.09
+      }
+    },
+    {
+      "Window_1000_1979_5": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "5",
+        "shgc": 0.39,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 3.35
+      }
+    },
+    {
+      "Window_1000_1979_6": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "6",
+        "shgc": 0.39,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 2.95
+      }
+    },
+    {
+      "Window_1000_1979_7A": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "7A",
+        "shgc": 0.49,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 2.95
+      }
+    },
+    {
+      "Window_1000_1979_7B": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "7B",
+        "shgc": 0.49,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 2.95
+      }
+    },
+    {
+      "Window_1000_1979_8": {
+        "period_of_construction": "1000_1979",
+        "climate_zone": "8",
+        "shgc": 0.41,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 2.95
+      }
+    },
+    {
+      "Window_1980_2010_4": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "4",
+        "shgc": 0.39,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 4.09
+      }
+    },
+    {
+      "Window_1980_2010_5": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "5",
+        "shgc": 0.39,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 3.35
+      }
+    },
+    {
+      "Window_1980_2010_6": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "6",
+        "shgc": 0.39,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 2.95
+      }
+    },
+    {
+      "Window_1980_2010_7A": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "7A",
+        "shgc": 0.49,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 2.95
+      }
+    },
+    {
+      "Window_1980_2010_7B": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "7B",
+        "shgc": 0.49,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 2.95
+      }
+    },
+    {
+      "Window_1980_2010_8": {
+        "period_of_construction": "1980_2010",
+        "climate_zone": "8",
+        "shgc": 0.41,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 2.95
+      }
+    },
+    {
+      "Window_2011_2016_4": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "4",
+        "shgc": 0.39,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 2.4
+      }
+    },
+    {
+      "Window_2011_2016_5": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "5",
+        "shgc": 0.39,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 2.2
+      }
+    },
+    {
+      "Window_2011_2016_6": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "6",
+        "shgc": 0.39,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 2.2
+      }
+    },
+    {
+      "Window_2011_2016_7A": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "7A",
+        "shgc": 0.49,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 2.2
+      }
+    },
+    {
+      "Window_2011_2016_7B": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "7B",
+        "shgc": 0.49,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 2.2
+      }
+    },
+    {
+      "Window_2011_2016_8": {
+        "period_of_construction": "2011_2016",
+        "climate_zone": "8",
+        "shgc": 0.41,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 1.6
+      }
+    },
+    {
+      "Window_2017_2019_4": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "4",
+        "shgc": 0.39,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 2.1
+      }
+    },
+    {
+      "Window_2017_2019_5": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "5",
+        "shgc": 0.39,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 1.9
+      }
+    },
+    {
+      "Window_2017_2019_6": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "6",
+        "shgc": 0.39,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 1.9
+      }
+    },
+    {
+      "Window_2017_2019_7A": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "7A",
+        "shgc": 0.49,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 1.9
+      }
+    },
+    {
+      "Window_2017_2019_7B": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "7B",
+        "shgc": 0.49,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 1.9
+      }
+    },
+    {
+      "Window_2017_2019_8": {
+        "period_of_construction": "2017_2019",
+        "climate_zone": "8",
+        "shgc": 0.41,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 1.4
+      }
+    },
+    {
+      "Window_2020_3000_4": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "4",
+        "shgc": 0.39,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 1.9
+      }
+    },
+    {
+      "Skylight_2020_3000_4": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "4",
+        "shgc": 0.39,
+        "type": "Skylight",
+        "frame_ratio": 0,
+        "u_value": 2.69
+      }
+    },
+    {
+      "Window_2020_3000_5": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "5",
+        "shgc": 0.39,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 1.9
+      }
+    },
+    {
+      "Skylight_2020_3000_5": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "5",
+        "shgc": 0.39,
+        "type": "Skylight",
+        "frame_ratio": 0,
+        "u_value": 2.69
+      }
+    },
+    {
+      "Window_2020_3000_6": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "6",
+        "shgc": 0.39,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 1.73
+      }
+    },
+    {
+      "Skylight_2020_3000_6": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "6",
+        "shgc": 0.39,
+        "type": "Skylight",
+        "frame_ratio": 0,
+        "u_value": 2.41
+      }
+    },
+    {
+      "Window_2020_3000_7A": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "7A",
+        "shgc": 0.49,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 1.73
+      }
+    },
+    {
+      "Skylight_2020_3000_7A": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "7A",
+        "shgc": 0.49,
+        "type": "Skylight",
+        "frame_ratio": 0,
+        "u_value": 2.41
+      }
+    },
+    {
+      "Window_2020_3000_7B": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "7B",
+        "shgc": 0.49,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 1.44
+      }
+    },
+    {
+      "Skylight_2020_3000_7B": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "7B",
+        "shgc": 0.49,
+        "type": "Skylight",
+        "frame_ratio": 0,
+        "u_value": 2.01
+      }
+    },
+    {
+      "Window_2020_3000_8": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "8",
+        "shgc": 0.41,
+        "type": "Window",
+        "frame_ratio": 0,
+        "u_value": 1.44
+      }
+    },
+    {
+      "Skylight_2020_3000_8": {
+        "period_of_construction": "2020_3000",
+        "climate_zone": "8",
+        "shgc": 0.41,
+        "type": "Skylight",
+        "frame_ratio": 0,
+        "u_value": 2.01
+      }
+    }
+  ],
+  "materials": [
+    {
+      "Urea Formaldehyde Foam": {
+        "no_mass": false,
+        "conductivity": 0.04,
+        "density": 10,
+        "specific_heat": 1400,
+        "thermal_emittance": 0.9,
+        "solar_absorptance": 0.6,
+        "visible_absorptance": 0.6
+      }
+    },
+    {
+      "Cast Concrete": {
+        "no_mass": false,
+        "conductivity": 1.13,
+        "density": 2000,
+        "specific_heat": 1000,
+        "thermal_emittance": 0.9,
+        "solar_absorptance": 0.6,
+        "visible_absorptance": 0.6
+      }
+    },
+    {
+      "Floor/Roof Screed": {
+        "no_mass": false,
+        "conductivity": 0.41,
+        "density": 1200,
+        "specific_heat": 840,
+        "thermal_emittance": 0.9,
+        "solar_absorptance": 0.73,
+        "visible_absorptance": 0.73
+      }
+    },
+    {
+      "Timber Flooring": {
+        "no_mass": false,
+        "conductivity": 0.14,
+        "density": 650,
+        "specific_heat": 1200,
+        "thermal_emittance": 0.9,
+        "solar_absorptance": 0.78,
+        "visible_absorptance": 0.78
+      }
+    },
+    {
+      "Asphalt 1": {
+        "no_mass": false,
+        "conductivity": 0.7,
+        "density": 2100,
+        "specific_heat": 1000,
+        "thermal_emittance": 0.9,
+        "solar_absorptance": 0.85,
+        "visible_absorptance": 0.9
+      }
+    },
+    {
+      "MW Glass Wool (rolls)": {
+        "no_mass": false,
+        "conductivity": 0.04,
+        "density": 12,
+        "specific_heat": 840,
+        "thermal_emittance": 0.9,
+        "solar_absorptance": 0.6,
+        "visible_absorptance": 0.6
+      }
+    },
+    {
+      "Plasterboard": {
+        "no_mass": false,
+        "conductivity": 0.25,
+        "density": 2800,
+        "specific_heat": 896,
+        "thermal_emittance": 0.9,
+        "solar_absorptance": 0.5,
+        "visible_absorptance": 0.5
+      }
+    },
+    {
+      "Brickwork Outer": {
+        "no_mass": false,
+        "conductivity": 0.84,
+        "density": 1700,
+        "specific_heat": 800,
+        "thermal_emittance": 0.9,
+        "solar_absorptance": 0.7,
+        "visible_absorptance": 0.7
+      }
+    },
+    {
+      "XPS Extruded Polystyrene- CO2 Blowing": {
+        "no_mass": false,
+        "conductivity": 0.034,
+        "density": 35,
+        "specific_heat": 1400,
+        "thermal_emittance": 0.9,
+        "solar_absorptance": 0.6,
+        "visible_absorptance": 0.6
+      }
+    },
+    {
+      "Concrete Block (Medium)": {
+        "no_mass": false,
+        "conductivity": 0.51,
+        "density": 1400,
+        "specific_heat": 1000,
+        "thermal_emittance": 0.9,
+        "solar_absorptance": 0.6,
+        "visible_absorptance": 0.6
+      }
+    },
+    {
+      "Gypsum Plastering": {
+        "no_mass": false,
+        "conductivity": 0.4,
+        "density": 1000,
+        "specific_heat": 1000,
+        "thermal_emittance": 0.9,
+        "solar_absorptance": 0.5,
+        "visible_absorptance": 0.5
+      }
+    },
+    {
+      "Lightweight Metallic Cladding": {
+        "no_mass": false,
+        "conductivity": 0.29,
+        "density": 1250,
+        "specific_heat": 1000,
+        "thermal_emittance": 0.9,
+        "solar_absorptance": 0.4,
+        "visible_absorptance": 0.4
+      }
+    },
+    {
+      "virtual_no_mass_0": {
+        "no_mass": true,
+        "thermal_resistance": 0.6584101668836548
+      }
+    },
+    {
+      "virtual_no_mass_1": {
+        "no_mass": true,
+        "thermal_resistance": 1.4385352223534045
+      }
+    },
+    {
+      "virtual_no_mass_2": {
+        "no_mass": true,
+        "thermal_resistance": 0.10171897213616554
+      }
+    },
+    {
+      "virtual_no_mass_3": {
+        "no_mass": true,
+        "thermal_resistance": 1.1273002032671475
+      }
+    },
+    {
+      "virtual_no_mass_4": {
+        "no_mass": true,
+        "thermal_resistance": 0.15864053940160128
+      }
+    },
+    {
+      "virtual_no_mass_5": {
+        "no_mass": true,
+        "thermal_resistance": 1.3150021070375053
+      }
+    },
+    {
+      "virtual_no_mass_6": {
+        "no_mass": true,
+        "thermal_resistance": 0.7634850606909431
+      }
+    },
+    {
+      "virtual_no_mass_7": {
+        "no_mass": true,
+        "thermal_resistance": 2.0620926640926642
+      }
+    },
+    {
+      "virtual_no_mass_8": {
+        "no_mass": true,
+        "thermal_resistance": 0.10171897213616554
+      }
+    },
+    {
+      "virtual_no_mass_9": {
+        "no_mass": true,
+        "thermal_resistance": 1.1273002032671475
+      }
+    },
+    {
+      "virtual_no_mass_10": {
+        "no_mass": true,
+        "thermal_resistance": 0.15864053940160128
+      }
+    },
+    {
+      "virtual_no_mass_11": {
+        "no_mass": true,
+        "thermal_resistance": 1.3150021070375053
+      }
+    },
+    {
+      "virtual_no_mass_12": {
+        "no_mass": true,
+        "thermal_resistance": 0.8674407782554092
+      }
+    },
+    {
+      "virtual_no_mass_13": {
+        "no_mass": true,
+        "thermal_resistance": 2.4290326377742106
+      }
+    },
+    {
+      "virtual_no_mass_14": {
+        "no_mass": true,
+        "thermal_resistance": 0.10171897213616554
+      }
+    },
+    {
+      "virtual_no_mass_15": {
+        "no_mass": true,
+        "thermal_resistance": 1.1273002032671475
+      }
+    },
+    {
+      "virtual_no_mass_16": {
+        "no_mass": true,
+        "thermal_resistance": 0.15864053940160128
+      }
+    },
+    {
+      "virtual_no_mass_17": {
+        "no_mass": true,
+        "thermal_resistance": 1.3150021070375053
+      }
+    },
+    {
+      "virtual_no_mass_18": {
+        "no_mass": true,
+        "thermal_resistance": 0.9477107371445987
+      }
+    },
+    {
+      "virtual_no_mass_19": {
+        "no_mass": true,
+        "thermal_resistance": 3.08900062932662
+      }
+    },
+    {
+      "virtual_no_mass_20": {
+        "no_mass": true,
+        "thermal_resistance": 0.10171897213616554
+      }
+    },
+    {
+      "virtual_no_mass_21": {
+        "no_mass": true,
+        "thermal_resistance": 1.1273002032671475
+      }
+    },
+    {
+      "virtual_no_mass_22": {
+        "no_mass": true,
+        "thermal_resistance": 0.15864053940160128
+      }
+    },
+    {
+      "virtual_no_mass_23": {
+        "no_mass": true,
+        "thermal_resistance": 1.3150021070375053
+      }
+    },
+    {
+      "virtual_no_mass_24": {
+        "no_mass": true,
+        "thermal_resistance": 0.9477107371445987
+      }
+    },
+    {
+      "virtual_no_mass_25": {
+        "no_mass": true,
+        "thermal_resistance": 3.08900062932662
+      }
+    },
+    {
+      "virtual_no_mass_26": {
+        "no_mass": true,
+        "thermal_resistance": 0.10171897213616554
+      }
+    },
+    {
+      "virtual_no_mass_27": {
+        "no_mass": true,
+        "thermal_resistance": 1.1273002032671475
+      }
+    },
+    {
+      "virtual_no_mass_28": {
+        "no_mass": true,
+        "thermal_resistance": 0.15864053940160128
+      }
+    },
+    {
+      "virtual_no_mass_29": {
+        "no_mass": true,
+        "thermal_resistance": 1.3150021070375053
+      }
+    },
+    {
+      "virtual_no_mass_30": {
+        "no_mass": true,
+        "thermal_resistance": 1.0608246538051842
+      }
+    },
+    {
+      "virtual_no_mass_31": {
+        "no_mass": true,
+        "thermal_resistance": 4.365532467532468
+      }
+    },
+    {
+      "virtual_no_mass_32": {
+        "no_mass": true,
+        "thermal_resistance": 0.10171897213616554
+      }
+    },
+    {
+      "virtual_no_mass_33": {
+        "no_mass": true,
+        "thermal_resistance": 1.1273002032671475
+      }
+    },
+    {
+      "virtual_no_mass_34": {
+        "no_mass": true,
+        "thermal_resistance": 0.15864053940160128
+      }
+    },
+    {
+      "virtual_no_mass_35": {
+        "no_mass": true,
+        "thermal_resistance": 1.3150021070375053
+      }
+    },
+    {
+      "virtual_no_mass_36": {
+        "no_mass": true,
+        "thermal_resistance": 1.7073737251092764
+      }
+    },
+    {
+      "virtual_no_mass_37": {
+        "no_mass": true,
+        "thermal_resistance": 1.4385352223534045
+      }
+    },
+    {
+      "virtual_no_mass_38": {
+        "no_mass": true,
+        "thermal_resistance": 0.10171897213616554
+      }
+    },
+    {
+      "virtual_no_mass_39": {
+        "no_mass": true,
+        "thermal_resistance": 1.5969753613292363
+      }
+    },
+    {
+      "virtual_no_mass_40": {
+        "no_mass": true,
+        "thermal_resistance": 0.15864053940160128
+      }
+    },
+    {
+      "virtual_no_mass_41": {
+        "no_mass": true,
+        "thermal_resistance": 1.3150021070375053
+      }
+    },
+    {
+      "virtual_no_mass_42": {
+        "no_mass": true,
+        "thermal_resistance": 1.413086004651633
+      }
+    },
+    {
+      "virtual_no_mass_43": {
+        "no_mass": true,
+        "thermal_resistance": 2.0620926640926642
+      }
+    },
+    {
+      "virtual_no_mass_44": {
+        "no_mass": true,
+        "thermal_resistance": 0.10171897213616554
+      }
+    },
+    {
+      "virtual_no_mass_45": {
+        "no_mass": true,
+        "thermal_resistance": 1.7749639097270375
+      }
+    },
+    {
+      "virtual_no_mass_46": {
+        "no_mass": true,
+        "thermal_resistance": 0.15864053940160128
+      }
+    },
+    {
+      "virtual_no_mass_47": {
+        "no_mass": true,
+        "thermal_resistance": 1.3150021070375053
+      }
+    },
+    {
+      "virtual_no_mass_48": {
+        "no_mass": true,
+        "thermal_resistance": 2.294228185203173
+      }
+    },
+    {
+      "virtual_no_mass_49": {
+        "no_mass": true,
+        "thermal_resistance": 2.4290326377742106
+      }
+    },
+    {
+      "virtual_no_mass_50": {
+        "no_mass": true,
+        "thermal_resistance": 0.10171897213616554
+      }
+    },
+    {
+      "virtual_no_mass_51": {
+        "no_mass": true,
+        "thermal_resistance": 2.125459582300353
+      }
+    },
+    {
+      "virtual_no_mass_52": {
+        "no_mass": true,
+        "thermal_resistance": 0.15864053940160128
+      }
+    },
+    {
+      "virtual_no_mass_53": {
+        "no_mass": true,
+        "thermal_resistance": 1.3150021070375053
+      }
+    },
+    {
+      "virtual_no_mass_54": {
+        "no_mass": true,
+        "thermal_resistance": 2.8369837552322106
+      }
+    },
+    {
+      "virtual_no_mass_55": {
+        "no_mass": true,
+        "thermal_resistance": 3.08900062932662
+      }
+    },
+    {
+      "virtual_no_mass_56": {
+        "no_mass": true,
+        "thermal_resistance": 0.10171897213616554
+      }
+    },
+    {
+      "virtual_no_mass_57": {
+        "no_mass": true,
+        "thermal_resistance": 2.2997515212981745
+      }
+    },
+    {
+      "virtual_no_mass_58": {
+        "no_mass": true,
+        "thermal_resistance": 0.15864053940160128
+      }
+    },
+    {
+      "virtual_no_mass_59": {
+        "no_mass": true,
+        "thermal_resistance": 1.3150021070375053
+      }
+    },
+    {
+      "virtual_no_mass_60": {
+        "no_mass": true,
+        "thermal_resistance": 2.8369837552322106
+      }
+    },
+    {
+      "virtual_no_mass_61": {
+        "no_mass": true,
+        "thermal_resistance": 3.08900062932662
+      }
+    },
+    {
+      "virtual_no_mass_62": {
+        "no_mass": true,
+        "thermal_resistance": 0.10171897213616554
+      }
+    },
+    {
+      "virtual_no_mass_63": {
+        "no_mass": true,
+        "thermal_resistance": 2.2997515212981745
+      }
+    },
+    {
+      "virtual_no_mass_64": {
+        "no_mass": true,
+        "thermal_resistance": 0.15864053940160128
+      }
+    },
+    {
+      "virtual_no_mass_65": {
+        "no_mass": true,
+        "thermal_resistance": 1.3150021070375053
+      }
+    },
+    {
+      "virtual_no_mass_66": {
+        "no_mass": true,
+        "thermal_resistance": 3.692128696887511
+      }
+    },
+    {
+      "virtual_no_mass_67": {
+        "no_mass": true,
+        "thermal_resistance": 4.365532467532468
+      }
+    },
+    {
+      "virtual_no_mass_68": {
+        "no_mass": true,
+        "thermal_resistance": 0.10171897213616554
+      }
+    },
+    {
+      "virtual_no_mass_69": {
+        "no_mass": true,
+        "thermal_resistance": 2.8286547252310448
+      }
+    },
+    {
+      "virtual_no_mass_70": {
+        "no_mass": true,
+        "thermal_resistance": 0.15864053940160128
+      }
+    },
+    {
+      "virtual_no_mass_71": {
+        "no_mass": true,
+        "thermal_resistance": 1.3150021070375053
+      }
+    },
+    {
+      "virtual_no_mass_72": {
+        "no_mass": true,
+        "thermal_resistance": 3.1214135194307606
+      }
+    },
+    {
+      "virtual_no_mass_73": {
+        "no_mass": true,
+        "thermal_resistance": 3.08900062932662
+      }
+    },
+    {
+      "virtual_no_mass_74": {
+        "no_mass": true,
+        "thermal_resistance": 4.245362196962524
+      }
+    },
+    {
+      "virtual_no_mass_75": {
+        "no_mass": true,
+        "thermal_resistance": 1.7073737251092764
+      }
+    },
+    {
+      "virtual_no_mass_76": {
+        "no_mass": true,
+        "thermal_resistance": 0.44427766599597596
+      }
+    },
+    {
+      "virtual_no_mass_77": {
+        "no_mass": true,
+        "thermal_resistance": 1.1610798163620788
+      }
+    },
+    {
+      "virtual_no_mass_78": {
+        "no_mass": true,
+        "thermal_resistance": 3.5439326469858594
+      }
+    },
+    {
+      "virtual_no_mass_79": {
+        "no_mass": true,
+        "thermal_resistance": 4.148195160031225
+      }
+    },
+    {
+      "virtual_no_mass_80": {
+        "no_mass": true,
+        "thermal_resistance": 5.304556727667129
+      }
+    },
+    {
+      "virtual_no_mass_81": {
+        "no_mass": true,
+        "thermal_resistance": 2.5853327722682193
+      }
+    },
+    {
+      "virtual_no_mass_82": {
+        "no_mass": true,
+        "thermal_resistance": 1.3222367131549189
+      }
+    },
+    {
+      "virtual_no_mass_83": {
+        "no_mass": true,
+        "thermal_resistance": 1.1610798163620788
+      }
+    },
+    {
+      "virtual_no_mass_84": {
+        "no_mass": true,
+        "thermal_resistance": 3.995393340779003
+      }
+    },
+    {
+      "virtual_no_mass_85": {
+        "no_mass": true,
+        "thermal_resistance": 4.148195160031225
+      }
+    },
+    {
+      "virtual_no_mass_86": {
+        "no_mass": true,
+        "thermal_resistance": 5.304556727667129
+      }
+    },
+    {
+      "virtual_no_mass_87": {
+        "no_mass": true,
+        "thermal_resistance": 3.4679371053909667
+      }
+    },
+    {
+      "virtual_no_mass_88": {
+        "no_mass": true,
+        "thermal_resistance": 2.204841046277666
+      }
+    },
+    {
+      "virtual_no_mass_89": {
+        "no_mass": true,
+        "thermal_resistance": 1.1610798163620788
+      }
+    },
+    {
+      "virtual_no_mass_90": {
+        "no_mass": true,
+        "thermal_resistance": 4.708715106732348
+      }
+    },
+    {
+      "virtual_no_mass_91": {
+        "no_mass": true,
+        "thermal_resistance": 4.856553791887125
+      }
+    },
+    {
+      "virtual_no_mass_92": {
+        "no_mass": true,
+        "thermal_resistance": 6.012915359523029
+      }
+    },
+    {
+      "virtual_no_mass_93": {
+        "no_mass": true,
+        "thermal_resistance": 3.4679371053909667
+      }
+    },
+    {
+      "virtual_no_mass_94": {
+        "no_mass": true,
+        "thermal_resistance": 2.204841046277666
+      }
+    },
+    {
+      "virtual_no_mass_95": {
+        "no_mass": true,
+        "thermal_resistance": 1.1610798163620788
+      }
+    },
+    {
+      "virtual_no_mass_96": {
+        "no_mass": true,
+        "thermal_resistance": 4.708715106732348
+      }
+    },
+    {
+      "virtual_no_mass_97": {
+        "no_mass": true,
+        "thermal_resistance": 4.856553791887125
+      }
+    },
+    {
+      "virtual_no_mass_98": {
+        "no_mass": true,
+        "thermal_resistance": 6.012915359523029
+      }
+    },
+    {
+      "virtual_no_mass_99": {
+        "no_mass": true,
+        "thermal_resistance": 3.4679371053909667
+      }
+    },
+    {
+      "virtual_no_mass_100": {
+        "no_mass": true,
+        "thermal_resistance": 2.204841046277666
+      }
+    },
+    {
+      "virtual_no_mass_101": {
+        "no_mass": true,
+        "thermal_resistance": 1.1610798163620788
+      }
+    },
+    {
+      "virtual_no_mass_102": {
+        "no_mass": true,
+        "thermal_resistance": 5.411291219144526
+      }
+    },
+    {
+      "virtual_no_mass_103": {
+        "no_mass": true,
+        "thermal_resistance": 5.725967806841046
+      }
+    },
+    {
+      "virtual_no_mass_104": {
+        "no_mass": true,
+        "thermal_resistance": 6.88232937447695
+      }
+    },
+    {
+      "virtual_no_mass_105": {
+        "no_mass": true,
+        "thermal_resistance": 4.708715106732348
+      }
+    },
+    {
+      "virtual_no_mass_106": {
+        "no_mass": true,
+        "thermal_resistance": 3.4456190476190476
+      }
+    },
+    {
+      "virtual_no_mass_107": {
+        "no_mass": true,
+        "thermal_resistance": 2.478598280790823
+      }
+    },
+    {
+      "virtual_no_mass_108": {
+        "no_mass": true,
+        "thermal_resistance": 3.1214135194307606
+      }
+    },
+    {
+      "virtual_no_mass_109": {
+        "no_mass": true,
+        "thermal_resistance": 3.865061435973353
+      }
+    },
+    {
+      "virtual_no_mass_110": {
+        "no_mass": true,
+        "thermal_resistance": 4.245362196962524
+      }
+    },
+    {
+      "virtual_no_mass_111": {
+        "no_mass": true,
+        "thermal_resistance": 1.7073737251092764
+      }
+    },
+    {
+      "virtual_no_mass_112": {
+        "no_mass": true,
+        "thermal_resistance": 0.44427766599597596
+      }
+    },
+    {
+      "virtual_no_mass_113": {
+        "no_mass": true,
+        "thermal_resistance": 1.1610798163620788
+      }
+    },
+    {
+      "virtual_no_mass_114": {
+        "no_mass": true,
+        "thermal_resistance": 3.5439326469858594
+      }
+    },
+    {
+      "virtual_no_mass_115": {
+        "no_mass": true,
+        "thermal_resistance": 5.093970695970697
+      }
+    },
+    {
+      "virtual_no_mass_116": {
+        "no_mass": true,
+        "thermal_resistance": 5.304556727667129
+      }
+    },
+    {
+      "virtual_no_mass_117": {
+        "no_mass": true,
+        "thermal_resistance": 2.5853327722682193
+      }
+    },
+    {
+      "virtual_no_mass_118": {
+        "no_mass": true,
+        "thermal_resistance": 1.3222367131549189
+      }
+    },
+    {
+      "virtual_no_mass_119": {
+        "no_mass": true,
+        "thermal_resistance": 1.1610798163620788
+      }
+    },
+    {
+      "virtual_no_mass_120": {
+        "no_mass": true,
+        "thermal_resistance": 3.995393340779003
+      }
+    },
+    {
+      "virtual_no_mass_121": {
+        "no_mass": true,
+        "thermal_resistance": 5.093970695970697
+      }
+    },
+    {
+      "virtual_no_mass_122": {
+        "no_mass": true,
+        "thermal_resistance": 5.304556727667129
+      }
+    },
+    {
+      "virtual_no_mass_123": {
+        "no_mass": true,
+        "thermal_resistance": 3.4679371053909667
+      }
+    },
+    {
+      "virtual_no_mass_124": {
+        "no_mass": true,
+        "thermal_resistance": 2.204841046277666
+      }
+    },
+    {
+      "virtual_no_mass_125": {
+        "no_mass": true,
+        "thermal_resistance": 1.1610798163620788
+      }
+    },
+    {
+      "virtual_no_mass_126": {
+        "no_mass": true,
+        "thermal_resistance": 4.708715106732348
+      }
+    },
+    {
+      "virtual_no_mass_127": {
+        "no_mass": true,
+        "thermal_resistance": 5.9300910973084875
+      }
+    },
+    {
+      "virtual_no_mass_128": {
+        "no_mass": true,
+        "thermal_resistance": 6.012915359523029
+      }
+    },
+    {
+      "virtual_no_mass_129": {
+        "no_mass": true,
+        "thermal_resistance": 3.4679371053909667
+      }
+    },
+    {
+      "virtual_no_mass_130": {
+        "no_mass": true,
+        "thermal_resistance": 2.204841046277666
+      }
+    },
+    {
+      "virtual_no_mass_131": {
+        "no_mass": true,
+        "thermal_resistance": 1.1610798163620788
+      }
+    },
+    {
+      "virtual_no_mass_132": {
+        "no_mass": true,
+        "thermal_resistance": 4.708715106732348
+      }
+    },
+    {
+      "virtual_no_mass_133": {
+        "no_mass": true,
+        "thermal_resistance": 5.9300910973084875
+      }
+    },
+    {
+      "virtual_no_mass_134": {
+        "no_mass": true,
+        "thermal_resistance": 6.012915359523029
+      }
+    },
+    {
+      "virtual_no_mass_135": {
+        "no_mass": true,
+        "thermal_resistance": 3.4679371053909667
+      }
+    },
+    {
+      "virtual_no_mass_136": {
+        "no_mass": true,
+        "thermal_resistance": 2.204841046277666
+      }
+    },
+    {
+      "virtual_no_mass_137": {
+        "no_mass": true,
+        "thermal_resistance": 1.1610798163620788
+      }
+    },
+    {
+      "virtual_no_mass_138": {
+        "no_mass": true,
+        "thermal_resistance": 5.411291219144526
+      }
+    },
+    {
+      "virtual_no_mass_139": {
+        "no_mass": true,
+        "thermal_resistance": 6.948177095631642
+      }
+    },
+    {
+      "virtual_no_mass_140": {
+        "no_mass": true,
+        "thermal_resistance": 6.88232937447695
+      }
+    },
+    {
+      "virtual_no_mass_141": {
+        "no_mass": true,
+        "thermal_resistance": 4.708715106732348
+      }
+    },
+    {
+      "virtual_no_mass_142": {
+        "no_mass": true,
+        "thermal_resistance": 3.4456190476190476
+      }
+    },
+    {
+      "virtual_no_mass_143": {
+        "no_mass": true,
+        "thermal_resistance": 2.478598280790823
+      }
+    },
+    {
+      "virtual_no_mass_144": {
+        "no_mass": true,
+        "thermal_resistance": 3.395086206896552
+      }
+    },
+    {
+      "virtual_no_mass_145": {
+        "no_mass": true,
+        "thermal_resistance": 4.781275261324042
+      }
+    },
+    {
+      "virtual_no_mass_146": {
+        "no_mass": true,
+        "thermal_resistance": 5.021423003609256
+      }
+    },
+    {
+      "virtual_no_mass_147": {
+        "no_mass": true,
+        "thermal_resistance": 1.7073737251092764
+      }
+    },
+    {
+      "virtual_no_mass_148": {
+        "no_mass": true,
+        "thermal_resistance": 0.44427766599597596
+      }
+    },
+    {
+      "virtual_no_mass_149": {
+        "no_mass": true,
+        "thermal_resistance": 1.1610798163620788
+      }
+    },
+    {
+      "virtual_no_mass_150": {
+        "no_mass": true,
+        "thermal_resistance": 3.720395250487963
+      }
+    },
+    {
+      "virtual_no_mass_151": {
+        "no_mass": true,
+        "thermal_resistance": 5.093970695970697
+      }
+    },
+    {
+      "virtual_no_mass_152": {
+        "no_mass": true,
+        "thermal_resistance": 5.554361567635904
+      }
+    },
+    {
+      "virtual_no_mass_153": {
+        "no_mass": true,
+        "thermal_resistance": 2.5853327722682193
+      }
+    },
+    {
+      "virtual_no_mass_154": {
+        "no_mass": true,
+        "thermal_resistance": 1.3222367131549189
+      }
+    },
+    {
+      "virtual_no_mass_155": {
+        "no_mass": true,
+        "thermal_resistance": 1.1610798163620788
+      }
+    },
+    {
+      "virtual_no_mass_156": {
+        "no_mass": true,
+        "thermal_resistance": 4.113477011494253
+      }
+    },
+    {
+      "virtual_no_mass_157": {
+        "no_mass": true,
+        "thermal_resistance": 5.9300910973084875
+      }
+    },
+    {
+      "virtual_no_mass_158": {
+        "no_mass": true,
+        "thermal_resistance": 6.2503322636066
+      }
+    },
+    {
+      "virtual_no_mass_159": {
+        "no_mass": true,
+        "thermal_resistance": 3.4679371053909667
+      }
+    },
+    {
+      "virtual_no_mass_160": {
+        "no_mass": true,
+        "thermal_resistance": 2.204841046277666
+      }
+    },
+    {
+      "virtual_no_mass_161": {
+        "no_mass": true,
+        "thermal_resistance": 1.1610798163620788
+      }
+    },
+    {
+      "virtual_no_mass_162": {
+        "no_mass": true,
+        "thermal_resistance": 4.597973135525261
+      }
+    },
+    {
+      "virtual_no_mass_163": {
+        "no_mass": true,
+        "thermal_resistance": 6.948177095631642
+      }
+    },
+    {
+      "virtual_no_mass_164": {
+        "no_mass": true,
+        "thermal_resistance": 7.0864526649443915
+      }
+    },
+    {
+      "virtual_no_mass_165": {
+        "no_mass": true,
+        "thermal_resistance": 3.4679371053909667
+      }
+    },
+    {
+      "virtual_no_mass_166": {
+        "no_mass": true,
+        "thermal_resistance": 2.204841046277666
+      }
+    },
+    {
+      "virtual_no_mass_167": {
+        "no_mass": true,
+        "thermal_resistance": 1.1610798163620788
+      }
+    },
+    {
+      "virtual_no_mass_168": {
+        "no_mass": true,
+        "thermal_resistance": 5.209968239564429
+      }
+    },
+    {
+      "virtual_no_mass_169": {
+        "no_mass": true,
+        "thermal_resistance": 7.230722832722833
+      }
+    },
+    {
+      "virtual_no_mass_170": {
+        "no_mass": true,
+        "thermal_resistance": 8.104538663267546
+      }
+    },
+    {
+      "virtual_no_mass_171": {
+        "no_mass": true,
+        "thermal_resistance": 3.4679371053909667
+      }
+    },
+    {
+      "virtual_no_mass_172": {
+        "no_mass": true,
+        "thermal_resistance": 2.204841046277666
+      }
+    },
+    {
+      "virtual_no_mass_173": {
+        "no_mass": true,
+        "thermal_resistance": 1.1610798163620788
+      }
+    },
+    {
+      "virtual_no_mass_174": {
+        "no_mass": true,
+        "thermal_resistance": 6.007416405433647
+      }
+    },
+    {
+      "virtual_no_mass_175": {
+        "no_mass": true,
+        "thermal_resistance": 7.774623376623378
+      }
+    },
+    {
+      "virtual_no_mass_176": {
+        "no_mass": true,
+        "thermal_resistance": 8.387084400358736
+      }
+    },
+    {
+      "virtual_no_mass_177": {
+        "no_mass": true,
+        "thermal_resistance": 4.708715106732348
+      }
+    },
+    {
+      "virtual_no_mass_178": {
+        "no_mass": true,
+        "thermal_resistance": 3.4456190476190476
+      }
+    },
+    {
+      "virtual_no_mass_179": {
+        "no_mass": true,
+        "thermal_resistance": 2.478598280790823
+      }
+    }
+  ]
+}

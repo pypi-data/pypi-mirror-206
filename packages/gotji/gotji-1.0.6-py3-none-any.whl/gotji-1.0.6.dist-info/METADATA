@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: gotji
+Version: 1.0.6
+Summary: Dev by Meoaw
+Home-page: https://github.com/exaDev99/gotji
+Author: exaDev99
+Author-email: meoawdev.me@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pystyle
+Requires-Dist: platform
+Requires-Dist: os
+Requires-Dist: replit
+Requires-Dist: flask
+Requires-Dist: flask-restful
+
+# GOTji API ( Beta )
+
+โมดูลที่รวม API สำคัญๆในการเขียนโค้ดไว้ที่เดียว !
+
+## How to install
+
+หากคุณใช้ใน Replit ให้พิมลงใน `Shell` น้าค้าบ
+
+```bash
+pip install -U GOTji
+```

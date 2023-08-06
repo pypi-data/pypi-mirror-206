@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: scrapetron
+Version: 1.0.1
+Summary: A library for web scraping in Python. Provides a simple and intuitive API for extracting data from websites. With Scrapetron, you can easily scrape web pages and extract information such as text, images, links, and more.
+Home-page: https://github.com/rohzzn/scrapetron
+Author: Rohan
+Author-email: rohan.mbox@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
+UNKNOWN
+

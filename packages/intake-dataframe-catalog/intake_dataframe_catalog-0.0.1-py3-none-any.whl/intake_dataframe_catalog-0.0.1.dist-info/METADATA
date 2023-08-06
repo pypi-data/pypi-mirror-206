@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: intake-dataframe-catalog
+Version: 0.0.1
+Summary: An intake driver for a searchable table of intake catalogs and associated metadata
+Home-page: https://github.com/ACCESS-NRI/intake-dataframe-catalog
+Author: ACCESS-NRI
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: intake
+Requires-Dist: pandas
+

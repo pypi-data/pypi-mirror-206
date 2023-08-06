@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+tests/test_timedinput.py
+timedinput/__init__.py
+timedinput/timedinput.py
+timedinput.egg-info/PKG-INFO
+timedinput.egg-info/SOURCES.txt
+timedinput.egg-info/dependency_links.txt
+timedinput.egg-info/top_level.txt

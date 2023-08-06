@@ -1,0 +1,11 @@
+bridgestan/__init__.py,sha256=8H6EEUUFGQ09rEGFiEYzrRt9gY9M4iZTjY5AWrOjpBU,185
+bridgestan/__version.py,sha256=QsY36AMRwYfkakvTjrKvM1yhcJOyltmZe67F7qRni-o,81
+bridgestan/compile.py,sha256=n6C_qouc72qD_mA8z6r54JtaD9L2I87zEtiYTxIQ4xE,3869
+bridgestan/download.py,sha256=9IpnHufMxYdg6BJOF9hO2BHykew8byfKhoXdlqJ0mYE,1476
+bridgestan/model.py,sha256=tHPrHnwv7Q9PeA_oKBRSW27xD2BCqlMkoue-pf7usx0,25803
+bridgestan/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bridgestan/util.py,sha256=wDCleccuT31dFWHT6wik2LO--vKiCSxP27DOnwX1t-0,457
+bridgestan-2.0.0.dist-info/METADATA,sha256=A9qrizALBlDEIR6dsEUC8Sm-zi4CM49wdl2V-jZPhFo,677
+bridgestan-2.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+bridgestan-2.0.0.dist-info/top_level.txt,sha256=0M0n9d15w1e_HTdu4w-1DTa21EBfx2T_gLZDzRDgkUY,11
+bridgestan-2.0.0.dist-info/RECORD,,

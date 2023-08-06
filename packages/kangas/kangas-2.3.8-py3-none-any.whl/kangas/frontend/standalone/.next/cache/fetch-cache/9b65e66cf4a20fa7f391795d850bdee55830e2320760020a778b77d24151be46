@@ -1,0 +1,1 @@
+{"kind":"FETCH","data":{"headers":{"access-control-allow-origin":"*","content-length":"54","content-type":"application/json","date":"Thu, 04 May 2023 15:49:26 GMT","server":"waitress","x-requested-with":"Cache-Control"},"body":"eyJjb2x1bW5UeXBlIjoiVEVYVCIsInR5cGUiOiJ2ZXJiYXRpbSIsInZhbHVlIjoib25lIn0K"},"revalidate":31536000}

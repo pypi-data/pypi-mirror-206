@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: UzbekNLP
+Version: 0.0.2
+Summary: NLP library for Uzbek language
+Home-page: https://github.com/OllaberganYuldashov/UzbekNLP
+Author: Maksud Sharipov, Ollabergan Yuldashov
+Author-email: "Maksud Sharipov, Ollabergan Yuldashov" <maqsbek72@gmail.com>
+Project-URL: Homepage, https://github.com/OllaberganYuldashov/UzbekNLP
+Project-URL: Bug Tracker, https://github.com/OllaberganYuldashov/UzbekNLP/issues
+Keywords: python,UzbekNLP,uzbek words,NLP
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# UzbekNLP
+
+NLP for Uzbek Language

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/UzbekNLP/Tokenizer.py
+src/UzbekNLP/__init__.py
+src/UzbekNLP.egg-info/PKG-INFO
+src/UzbekNLP.egg-info/SOURCES.txt
+src/UzbekNLP.egg-info/dependency_links.txt
+src/UzbekNLP.egg-info/top_level.txt

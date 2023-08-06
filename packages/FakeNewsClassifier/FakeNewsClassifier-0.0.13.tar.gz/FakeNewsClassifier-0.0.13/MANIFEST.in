@@ -1,0 +1,2 @@
+graft src/FakeNewsClassifier/datasets
+graft src/FakeNewsClassifier/saved_models

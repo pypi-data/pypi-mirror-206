@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "pepper-cli"
+version = "0.2.0"
+description = "Get information about any PEP (Python Enhancement Proposal)"
+authors = ["Noah Tanner <50159154+kevinshome@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pywebview = { version = "*", optional = true }
+black = { version = "*", optional = true }
+bottle = { version = "*", optional = true }
+
+[tool.poetry.group.webview]
+optional = true
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.webview.dependencies]
+pywebview = "*"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+
+[tool.poetry.scripts]
+pepper = "pepper_cli:main"
+
+[tool.poetry.extras]
+webview = ["pywebview"]
+offline = ["bottle"]
+dev = ["black"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

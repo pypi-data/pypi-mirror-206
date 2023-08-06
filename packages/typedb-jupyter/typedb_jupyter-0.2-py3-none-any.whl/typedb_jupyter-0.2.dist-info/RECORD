@@ -1,0 +1,10 @@
+tql/__init__.py,sha256=U83gsvHtJ12jXAq4RX0WR5HkyoTD7UM13OUgZWhOG-c,105
+tql/connection.py,sha256=PiTyFXfXU0DtN1Jnql5EnZ5a-faAsOB6sApxC6eDn2o,4750
+tql/exception.py,sha256=xD-asG3l5iG9x27B3cUaHGqKuD5UzKhDdzZL2-Mu8FE,90
+tql/magic.py,sha256=ioWbP0dU4saU33lGH19CllOLD9xrxRsN9NO59qDibp0,4845
+tql/query.py,sha256=o0Wv_Hg6-SbSVcXbwiJBeY4iDs37WW-zY0bHJ-LkMDQ,7075
+typedb_jupyter-0.2.dist-info/LICENSE,sha256=0R2QbX4pr5XSiwUc2JoGS7Ja4npcQHyZlGJsR-E73I8,32386
+typedb_jupyter-0.2.dist-info/METADATA,sha256=H2BXGa5-MEGe298lq2gbVVeaNl9RhjS5TkHz2Jc0Bj8,47056
+typedb_jupyter-0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+typedb_jupyter-0.2.dist-info/top_level.txt,sha256=doFYOqVcqUstRmOfap14BDe3ynwPYG51VdePUoULjk0,4
+typedb_jupyter-0.2.dist-info/RECORD,,

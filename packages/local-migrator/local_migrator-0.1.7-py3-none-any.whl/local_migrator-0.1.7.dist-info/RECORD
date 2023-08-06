@@ -1,0 +1,16 @@
+local_migrator/__init__.py,sha256=QwcSSsfxe8-FyDS_X6bs_wIH_K_BeHreLgf8h9VoSN4,1929
+local_migrator/_class_register.py,sha256=nHWwmBa2LxWm9yv6KzbW_WgOO_lmGKPo6CALJiBbVTY,13789
+local_migrator/_serialize_hooks.py,sha256=IWbl7EwMZlBmYSZqJyiQFUjtthyFGJOiOSr6ywALY0A,5509
+local_migrator/_testsupport.py,sha256=sJ4OdsoLdPQYMHjIKFqsDywlmypYtPgdDqZZymlx-sU,260
+local_migrator/version.py,sha256=51rp0hjwi2BLhncgl-GrMoz3daE4IxO78QTVEwy61Mo,160
+tests/class_register_util.py,sha256=CvHcnM0zwbr2IDlPE88E-fwYwQ2HLgXUCUocbqKwGgM,89
+tests/nme_fail.py,sha256=7_uPHVAAjyXKgorwcrMGbL7GA0vaGZ4mJGUcrsuhuvY,284
+tests/test_cbor_hooks.py,sha256=ubECHnGPldNGvqQJyTvA_CJJ7zBWueLiOZ_mHf_wmKo,3578
+tests/test_class_register.py,sha256=eM4yJNxopda8meHIKasvl1QTQEsjMMH0CTirx2-WOK8,5163
+tests/test_json_hooks.py,sha256=Eqs1546HohGMW2yXB9x0IP_5IaXrUwpfdmHhxv6OwrM,10214
+local_migrator-0.1.7.dist-info/LICENSE.txt,sha256=ZL4Y0_eh3wU9qB6g_A22KGbhBGfIGzKwqptdHaZ9x-4,1072
+local_migrator-0.1.7.dist-info/METADATA,sha256=nP8rANiv8pWVHJoSjLakaN6r59piEeRx9JWiZRSGK4M,6461
+local_migrator-0.1.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+local_migrator-0.1.7.dist-info/entry_points.txt,sha256=3iHU2AKGnBqgNshhpFAejh6UD3bA5aKpD8dpDiLjR4s,56
+local_migrator-0.1.7.dist-info/top_level.txt,sha256=JC0YmXnBlCa3dD1ZdUA0Ck6lhiLSNP7fRoAQv29Fv9E,21
+local_migrator-0.1.7.dist-info/RECORD,,

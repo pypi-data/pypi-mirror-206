@@ -1,0 +1,10 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_CID.py,sha256=CPn-LdNIHqiY0fShxyFU-Z83GsgK6FCuMjPFJ6JlC28,1644
+tests/test_IPFS.py,sha256=zxE084u4yhZd-72DK69QPW4CNIZ4ezZsFRbQYxxLXbs,1129
+tests/test_IPFSDict.py,sha256=zfLec9XFc4YnhW00BXqUOXiVFgCM24CjquJRb4AJLlo,1453
+tests/test_IPFSDictChain.py,sha256=fNqhnQuJOQ_oMOqvt8qP_pgv2OGtyp9lkFI4telAO6w,1628
+ipfs_dict_chain-1.0.2.dist-info/LICENSE,sha256=PmvrIu3AQwoCDw71vLmYqyEZZtfDUC0Jo7TVHwBlUdA,1091
+ipfs_dict_chain-1.0.2.dist-info/METADATA,sha256=eexX7pGTm41nPvxKEz28466jSj6PeskXDgngLxXcBKo,647
+ipfs_dict_chain-1.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ipfs_dict_chain-1.0.2.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+ipfs_dict_chain-1.0.2.dist-info/RECORD,,

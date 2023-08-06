@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Libreria1
+Version: 0.1
+Summary: libreria de nombres de mujer y hombre
+Home-page: https://github.com/itzelfd98
+Author: Itzel Franco
+Author-email: itzel_fd1@tesch.edu.mx
+License: GNU GPL
+Requires-Dist: pandas
+

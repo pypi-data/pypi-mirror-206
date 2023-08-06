@@ -1,0 +1,7 @@
+PyYAML
+appdirs
+cssselect
+keyring
+lxml
+minidb>=2.0.6
+requests

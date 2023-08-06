@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: nalax
+Version: 0
+Summary: nginx analytics>
+Author-email: Amethyst Reese <amethyst@n7.gg>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: attribution==1.6.2 ; extra == "dev"
+Requires-Dist: black==23.1.0 ; extra == "dev"
+Requires-Dist: flake8==6.0.0 ; extra == "dev"
+Requires-Dist: flit==3.8.0 ; extra == "dev"
+Requires-Dist: mypy==1.0.1 ; extra == "dev"
+Requires-Dist: ufmt==2.0.1 ; extra == "dev"
+Requires-Dist: usort==1.0.5 ; extra == "dev"
+Project-URL: Home, https://github.com/amyreese/nalax
+Provides-Extra: dev
+
+# nalax
+
+nginx analytics
+
+[![version](https://img.shields.io/pypi/v/nalax.svg)](https://pypi.org/project/nalax)
+[![license](https://img.shields.io/pypi/l/nalax.svg)](https://github.com/amyreese/nalax/blob/main/LICENSE)
+
+Install
+-------
+
+```shell-session
+$ pip install nalax
+```
+
+License
+-------
+
+nalax is copyright Amethyst Reese, and licensed under the MIT license.

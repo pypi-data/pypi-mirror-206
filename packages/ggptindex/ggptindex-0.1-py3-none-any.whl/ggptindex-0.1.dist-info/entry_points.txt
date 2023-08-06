@@ -1,0 +1,2 @@
+[console_scripts]
+ggptindex = gptindex.__main__:main

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: simplemathpkg
+Version: 0.6.0
+Summary: My package description
+Author-email: Ganesh Babu <inboxofgb@gmail.com>
+License: MIT License
+Keywords: one,two
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/plain
+

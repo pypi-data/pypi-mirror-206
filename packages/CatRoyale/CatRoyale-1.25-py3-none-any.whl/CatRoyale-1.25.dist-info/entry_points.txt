@@ -1,0 +1,3 @@
+[console_scripts]
+CatRoyale = cat_royale.__main__:main
+CatRoyaleTest = cat_royale.__main__:test

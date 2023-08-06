@@ -1,0 +1,7 @@
+pybgpasn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pybgpasn/bgp_asn_db.py,sha256=pyfHB9FY9HlbnIs72YXPH5sjS0ieqMrOGduV3N0UDrY,1700712
+pybgpasn/pybgpasn.py,sha256=h9tO68x9VzzARpzAwVgWRBrOeJ6Q_UTgLOGSUlO01Go,210
+pybgpasn-1.0.6.dist-info/LICENSE,sha256=XPPumT24SCItZ8t4Z0apiXO4_sbs3ZrZwXqFP_XCRUk,1070
+pybgpasn-1.0.6.dist-info/METADATA,sha256=m1Z6xsie4qrlsUvpuv8dwM0OzBpxphyLD_jIrc-D7TU,843
+pybgpasn-1.0.6.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pybgpasn-1.0.6.dist-info/RECORD,,

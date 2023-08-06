@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pybgpasn
+Version: 1.0.6
+Summary: A small package for obtaining the Registered ISP name per ASN number
+Home-page: https://github.com/melihteke/pybgpasn
+License: MIT
+Author: Melih Teke
+Author-email: me@mteke.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Documentation, https://github.com/melihteke/pybgpasn/blob/master/README.md
+Project-URL: Repository, https://github.com/melihteke/pybgpasn
+Description-Content-Type: text/markdown
+
+### PYBGPASN
+
+This is a package where you need to retrieve ISP Name per ASN number.

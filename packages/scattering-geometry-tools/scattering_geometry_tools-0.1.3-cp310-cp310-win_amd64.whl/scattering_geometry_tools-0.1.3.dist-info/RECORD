@@ -1,0 +1,16 @@
+sgt/__init__.py,sha256=jMwa81SkmLo5OsTNPkpU7zed6pdDk-LXwtOaLubD3OM,9911
+sgt/_cpolarize.c,sha256=gIgmouu23SvIR-UtRjG5tNJQdQGxhTM4F3NN6LPsn3E,1004992
+sgt/_cpolarize.cp310-win_amd64.pyd,sha256=v_H69oW86VmEHmPhBSoYICXBZ6NrdQX9B_tSLPkwAic,154112
+sgt/_crefine.c,sha256=v6Hb97KIPC5RlHBPdn12JtdTCibwkdkoe8hNYg26MC4,892188
+sgt/_crefine.cp310-win_amd64.pyd,sha256=V901aFS_moEqjGfae9lX5Fu-yAfrFIt9iegkEph2tHw,126464
+sgt/_pypolarize.py,sha256=fowomKeencVAC_nE9aRpd6DXgAKSvfsZZhm3hKyjTxg,4821
+sgt/core.py,sha256=TYOBxhB73RyFI_xpGj7hxtenxl-ICFwGIBvS4rrey0s,13380
+sgt/crystal.py,sha256=ZUz8yL-gPPjfdUHqeNBs2BE93gSmgZN9DSaBoM2toLY,1482
+sgt/npzimage.py,sha256=UnxbXQ-1gxcqjsGnurF127Mt4BPNiJofR0WJcDr59mc,3466
+sgt/pilatus.py,sha256=s8c4TuCs_BHOin39R8szPM_UYCJ9D1za0hJMKC-wcs4,7656
+sgt/refine.py,sha256=VUlj9e_zAtiw0k3IAvpVa4Qhc86xaqsbCBRvr_ke0TA,3469
+scattering_geometry_tools-0.1.3.dist-info/LICENSE,sha256=8IYtyOA0J2etn9rt7kFFlDTlO5wVdTj4JXYpC7xtBvs,1087
+scattering_geometry_tools-0.1.3.dist-info/METADATA,sha256=XGgfR0S3pe-NxUdJHNmcdy6b6z212Jgc3TUgz3ix2CM,1936
+scattering_geometry_tools-0.1.3.dist-info/WHEEL,sha256=rneS2j8QNmAwdNKHN86s6-qP7AMcWZgqiEoH3bdbh_Y,102
+scattering_geometry_tools-0.1.3.dist-info/top_level.txt,sha256=GnDCkYT_czW68iYAaOzg1jgMvZKcOIU4Y6qw9L86e5c,4
+scattering_geometry_tools-0.1.3.dist-info/RECORD,,

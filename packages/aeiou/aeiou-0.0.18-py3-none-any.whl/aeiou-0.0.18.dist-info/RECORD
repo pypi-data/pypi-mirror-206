@@ -1,0 +1,15 @@
+aeiou/__init__.py,sha256=qgKF-lRlzaBqf95e1sodHCZkSUCbz7ECKSeYHwXfAvI,23
+aeiou/_modidx.py,sha256=xPQP_oRqFmC4qi09IF0DvjfXsVCZtJkBZi9Tz9ieW80,12966
+aeiou/chunk_one_file.py,sha256=7RKyz_UTa0LlJhCgzLx2_WJOyif6ZJoiJt3UUdBhqHg,4305
+aeiou/chunkadelic.py,sha256=4zz1m0AwfECxH8WXO8dR31LhxedSmQj0a776LwCorBg,8165
+aeiou/core.py,sha256=wUtAGiN4LgI_YAImVEySHHNwE9s9J1laKWNiaypkAwg,10742
+aeiou/datasets.py,sha256=dKhqv1G4dqs2ROxCrkHGadVhTKkVSiEAK6NCJGwdXPo,36599
+aeiou/hpc.py,sha256=7Povz8f7hC5AEYddECeE0eMxSsN8ZBHp_e2CEJiU5iI,3797
+aeiou/spectrofu.py,sha256=jOrlvMatkRrb2iBiYWS2yCWp2Dzzkxt_6S39e9Xnm6g,3579
+aeiou/viz.py,sha256=KSEihSuqH0qlXvZL0jcmd9bZAQpXmyaHPkU8f0OXE6Y,23372
+aeiou-0.0.18.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aeiou-0.0.18.dist-info/METADATA,sha256=pFo5MZa_IXBqubaj6yRSc9V7qdhywyDCaVzMkhUY62g,3632
+aeiou-0.0.18.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aeiou-0.0.18.dist-info/entry_points.txt,sha256=saaRy95x9fSe1GdhATviSD1h3NHdPHawLPtiPcxTw0k,121
+aeiou-0.0.18.dist-info/top_level.txt,sha256=8c3X28peALEFZArYT2BVPmxL2L2zk4OUrW15GnfC_sA,6
+aeiou-0.0.18.dist-info/RECORD,,

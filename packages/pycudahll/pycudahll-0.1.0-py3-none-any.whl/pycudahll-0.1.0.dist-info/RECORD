@@ -1,0 +1,11 @@
+LICENSE,sha256=c8UMy6xSRRlsGQd1ZIl7BbMO4Kph6L3wI9ve3u85pkY,1096
+pycudahll/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycudahll/CudaHLL.py,sha256=QBjFFf-mNcfeEn9hwguUBOs2P6mJ_uiLH_2sswYvskM,7229
+pycudahll/ExactCardinality.py,sha256=gaccbDBLHaB-l-r74SnKO1cmogGF0DF7MGoJ37ApoSo,290
+pycudahll/helpers.py,sha256=bBX6pzsZzNvNha6DGNKRz_0acwkoVzjc99JnbbfAR1A,73516
+pycudahll/StandardHLL.py,sha256=qwatVbeNyumJvcb9Y-d54MRYyN_M__Uj3USULIa_RR8,233
+pycudahll/tempkernel.cpp,sha256=nL4IoM-iY5ZtnU31BiD1BviLWLMeAFBlZZ_dpj8PN-8,835
+pycudahll-0.1.0.dist-info/LICENSE,sha256=c8UMy6xSRRlsGQd1ZIl7BbMO4Kph6L3wI9ve3u85pkY,1096
+pycudahll-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pycudahll-0.1.0.dist-info/METADATA,sha256=_aW_QHdU-MxFeyf6PNpwNBIgtNispq1C6iDhfVkuG1c,2545
+pycudahll-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: SharkBinary
+Version: 0.1
+Summary: A Python package for saving and loading data to and from custom binary files
+Author: Shark Studios
+Author-email: margetin.michal123@gmail.com
+Project-URL: Documentation, https://github.com/Miskoking800/SharkBinary/blob/main/README.md
+Project-URL: Source, https://github.com/Miskoking800/SharkBinary
+Project-URL: Tracker, https://github.com/Miskoking800/SharkBinary/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: struct
+

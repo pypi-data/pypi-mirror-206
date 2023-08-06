@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+bitkub/__init__.py
+python_bitkub.egg-info/PKG-INFO
+python_bitkub.egg-info/SOURCES.txt
+python_bitkub.egg-info/dependency_links.txt
+python_bitkub.egg-info/top_level.txt

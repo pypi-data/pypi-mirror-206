@@ -1,0 +1,11 @@
+simple_aws_rds/__init__.py,sha256=vh1Jdwa6N9DizlY9aTa59ADnZSL8CpZhXp0f2-7aBn8,406
+simple_aws_rds/_version.py,sha256=3ngZz3_QoERdhI7hz4p3JzJ6Msem0N5631SEIjary1M,93
+simple_aws_rds/api.py,sha256=eTzNT4jtOEWgOR-hHJWRqmMZrOj9ji-uGJcpGD1Ce9M,122
+simple_aws_rds/rds.py,sha256=pnECw_K2qKq72pJMIGXPsh0LmfEddZRIMcfVoqBuXg4,5969
+simple_aws_rds/docs/__init__.py,sha256=f-E2GGaAOnea7U51BKWcRtFHZ6p2iPnvGoXR6VvBtGg,43
+simple_aws_rds-0.1.1.dist-info/AUTHORS.rst,sha256=ROrEuLM7jAJnyn4FKyYG8vfwtw5hcpdBOwWnnBRzWTM,509
+simple_aws_rds-0.1.1.dist-info/LICENSE.txt,sha256=BzokclAu4K6gvVdw4NgB7SmntgTvCbcZsqrfj6WlzH4,1124
+simple_aws_rds-0.1.1.dist-info/METADATA,sha256=g9TuLoQs25XhhmLs_lMUc5qcoO9wrN2_MuRhgiKG1vc,5364
+simple_aws_rds-0.1.1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+simple_aws_rds-0.1.1.dist-info/top_level.txt,sha256=bnNXz8NkOLodgIv9wAkEi9oUq2gW2Ji3yqsO_C-w6xc,15
+simple_aws_rds-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: convert_markmonitor_domain_list_to_mozilla
+Version: 1.0.0
+Summary: Tool to convert a MarkMonitor domain export xls file into a JSON file for use with other Mozilla tools
+Project-URL: Documentation, https://github.com/gene1wood/convert-markmonitor-domain-list-to-mozilla/README.md
+Project-URL: Source code, https://github.com/gene1wood/convert-markmonitor-domain-list-to-mozilla/
+Author-email: Gene Wood <gene_wood@cementhorizon.com>
+License: MPL-2.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: File Formats :: JSON
+Classifier: Topic :: Internet :: Name Service (DNS)
+Requires-Python: >=3.7
+Requires-Dist: xlrd
+Description-Content-Type: text/markdown
+
+# convert-markmonitor-domain-list-to-mozilla
+
+Tool to convert a MarkMonitor domain export xls file into a JSON file for use with other Mozilla tools.
+
+Reads from `myDomains.xls`, a file that MarkMonitor produces when exporting, and
+creates `mozilla-owned-dns-domains.json` which is stored in https://github.com/mozilla/security-private/tree/master/infosec-internal-data/dns-domains

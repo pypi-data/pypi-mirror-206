@@ -1,0 +1,17 @@
+peppercorn
+requests
+beautifulsoup4
+newsapi-python
+pandas
+numpy
+matplotlib
+pika
+sqlalchemy
+pytest
+pytest-cov
+
+[dev]
+check-manifest
+
+[test]
+coverage

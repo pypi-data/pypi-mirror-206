@@ -1,0 +1,4 @@
+{
+  "tests/test_pair.py::test_event_loungeStatus[Nintendo Switch]": true,
+  "tests/test_process_event.py::test_event_loungeStatus[Nintendo Switch]": true
+}

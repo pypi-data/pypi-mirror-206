@@ -1,0 +1,11 @@
+autogon_internal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogon_internal/autoClassification/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogon_internal/autoClassification/base.py,sha256=7XpI_jJjcKPHaE5KBgLAKJwZ7eTRzg6itkqcg15uaO0,3987
+autogon_internal/autoFeatureEngineering/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogon_internal/autoFeatureEngineering/base.py,sha256=8GhYR2mVZ8fe4lmQrIxzG14cJEGXILQ7ogF8uBd5fCw,17242
+autogon_internal/autoRegression/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogon_internal/autoRegression/base.py,sha256=xdgQ0KwFQRZ5lukNI480WDmvIXpArtsatRqpR8MJ75c,2809
+autogonML-1.0.1.dist-info/METADATA,sha256=Px9z9jRL3hylLfhWxnBGHt254Bz-s975Nt-I0M3h7Js,1241
+autogonML-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+autogonML-1.0.1.dist-info/top_level.txt,sha256=qup40vJ4-MQZvFT0sOTF-aHfraZe-f-hL3c-7rNXHJw,17
+autogonML-1.0.1.dist-info/RECORD,,

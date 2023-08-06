@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+cagpaint.egg-info/PKG-INFO
+cagpaint.egg-info/SOURCES.txt
+cagpaint.egg-info/dependency_links.txt
+cagpaint.egg-info/top_level.txt

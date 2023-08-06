@@ -1,0 +1,6 @@
+click==8.0.1
+python-dotenv
+openai
+tiktoken
+cohere
+twine

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ErCore
+Version: 1.5
+Summary: Core for projects
+Home-page: https://github.com/Eragod/ErCore
+Author: Eragod
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Core for projects
+[![PyPi Downloads](https://img.shields.io/pypi/dm/ErCore?style=for-the-badge)](https://pypistats.org/packages/ercore)
+### author: Eragod
+### version: 1.5
+## [Github](https://github.com/Eragod/ErCore)
+## [PyPI](https://pypi.org/project/ErCore/)

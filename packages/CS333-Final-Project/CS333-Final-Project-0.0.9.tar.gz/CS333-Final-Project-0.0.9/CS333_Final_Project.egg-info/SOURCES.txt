@@ -1,0 +1,6 @@
+README.md
+setup.py
+CS333_Final_Project.egg-info/PKG-INFO
+CS333_Final_Project.egg-info/SOURCES.txt
+CS333_Final_Project.egg-info/dependency_links.txt
+CS333_Final_Project.egg-info/top_level.txt

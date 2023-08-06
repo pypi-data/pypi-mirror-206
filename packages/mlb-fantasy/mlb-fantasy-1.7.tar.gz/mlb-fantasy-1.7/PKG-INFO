@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: mlb-fantasy
+Version: 1.7
+Summary: MLB fantasy draft optimizer.  See README.md for more information.
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # mlb-fantasy
+        A MLB fantasy league tracker setup using MLB scores
+        
+        # How To Use
+        This is a python package and can be installed via `pip install mlb-fantasy`
+        
+        After installing you will want to make a `draft_picks.txt` file with formatting as such:
+        
+        
+        Each player needs to be on a new line with the full team name spelled out in the pick, if you have questions on the team names the package in use is [pybaseball](https://pypi.org/project/pybaseball/)
+        ```
+        Player 1: Houston Astros,Philadelphia Phillies,Seattle Mariners,San Francisco Giants,Boston Red Sox,Oakland Athletics
+        Player 2: Tampa Bay Rays,Milwaukee Brewers,Cleveland Guardians,Arizona Diamondbacks,Pittsburgh Pirates,Oakland Athletics
+        
+        ```
+        
+        Now you can run the program via `mlb-fantasy draft_picks.txt` and it should generate a .xlsx file for us.  This file will have 3 tabs along the bottom for the Draft Picks, the actual MLB Standings from the live data, and the actual Player Standings data based on the MLB Standings and their picks.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

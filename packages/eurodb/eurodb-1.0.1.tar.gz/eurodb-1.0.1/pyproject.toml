@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "pyodbc", "SQLAlchemy", "pandas", "typing"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eurodb"
+version = "1.0.1"
+authors = [
+  { name="Ratouney - Maxime de la Fouchardière", email="maxime.fouchardiere@eurodw.eu"},
+]
+description = "A simple PYODBC/SQLAlchemy wrapper for connection handling"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.5"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+#"Homepage" = "https://github.com/pypa/sampleproject"
+#"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"

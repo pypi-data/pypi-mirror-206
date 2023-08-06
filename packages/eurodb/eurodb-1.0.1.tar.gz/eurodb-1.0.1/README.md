@@ -1,0 +1,91 @@
+# EuroDB Lib
+
+## TLDR
+___
+Generate/Fill your config file and use :
+
+```python
+import eurodb
+import pandas as pd
+
+db = connect()
+
+data : pandas.Dataframe = db.query("select stuff from somewhere")
+```
+
+## Setup
+
+Install it with :
+> pip install eurodb
+
+Input your credentials into a JSON file of your choosing with the given format (default name is `dblogs.json`) : 
+```json
+> dblogs.json
+[{
+    "name": "Thefirstone",
+    "server": "tcp:somefunnyurl.windows.net",
+    "username": "johndoofus",
+    "database": "veryprivatedata",
+    "password": "dontsharethisplz"
+},
+{
+    "name": "thecorrectone",
+    "server": "tcp:somefunnyurl.windows.net",
+    "username": "notjohndoofus",
+    "database": "notveryprivatedata",
+    "password": "sharethisplz"
+}]
+```
+
+> Yes it has to be an array even if it's only one entry.
+___
+Now you can connect to the DB and query stuff easily like so :
+
+```python
+import eurodb
+
+db = eurodb.connect()
+
+# If you don't have a file containing the login credentials ready, it will generate one for you
+# else, you can specify it's name
+
+db = eurodb.connect("connectionFile.json")
+
+# By default, it will connect using the first entry but,
+# If you have multiple connections in the file, you can specify which one to use.
+# With the example file displayed above, you could use the second entry as so : 
+
+db = eurodb.connect("dblogs.json", connName="thecorrectone")
+
+# Carefull, the `.query` function will be using the last called/loaded entry :
+
+data = db.query("SELECT * from stuff") #would be using "thecorrectone"
+db.__loadConnection__("Thefirstone")
+data = db.query("SELECT * from stuff") #would be using "Thefirstone"
+```
+
+The return variable will be a pandas dataframe with the desired output.
+
+___
+
+The underlying library used for the SQL results is [PYODBC](https://github.com/mkleehammer/pyodbc/wiki/Getting-started). 
+Running a query will create a new Connection and a Cursor, returning both objects at once.
+
+
+If you wish to collect your results manually, use the engine method : 
+
+```python
+import eurodb
+
+db = connect("dblogs.json", connName="reader")
+
+eg = db.getEngine()
+
+with eg.begin() as conn:
+    cursor = conn.execute(stx("SELECT * from res.allRegions where country = 'FR' and geocode like '10%'"))
+
+    data = cursor.fetchall()
+    print(data)
+```
+
+> conn.execute requires special formatting provided by the `sqlalchemy.text()` function, shortened to `stx()` 

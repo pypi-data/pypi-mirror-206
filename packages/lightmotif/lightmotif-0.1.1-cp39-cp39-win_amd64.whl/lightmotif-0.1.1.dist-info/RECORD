@@ -1,0 +1,14 @@
+lightmotif/__init__.py,sha256=VGCJycB6tBsmOYAn0_8JkLztpWd1v7_KskrOU_sGVqo,421
+lightmotif/arch.cp39-win_amd64.pyd,sha256=M4qFBu1-cOOKHW2RP7YmbGWQWe0DVrPE526Y4TgyqwU,201728
+lightmotif/lib.cp39-win_amd64.pyd,sha256=TkM2px8uarEqRK-4i9mvW0oGYg9EHPEAp_0mjK0c9eo,332800
+lightmotif/avx2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lightmotif/avx2/lib.cp39-win_amd64.pyd,sha256=-9Jh5zx5o3ckkYn_at_H39Aq7MaZ8gI2jMzinEBOgtw,337920
+lightmotif/tests/__init__.py,sha256=o29GuPIN3-OQhnA6rb3OepT4ywPABqt6nUx5Pa9kGZw,145
+lightmotif/tests/test_dna.py,sha256=I2sgkZ1Uia7cWtPDiiEuHKxhwuzNIx3dlFs2LkpDaSU,1535
+lightmotif/tests/unittest.rs,sha256=8V8T6g7O0xg4KLfQK9y_JWLHjnvsg2RQIQmVTpN2rdg,1817
+lightmotif-0.1.1.dist-info/COPYING,sha256=j8FuqRxuy1o_9WHkVsA9gUfwOkwpbIsLXy37GLJRckw,1119
+lightmotif-0.1.1.dist-info/METADATA,sha256=E_wJZsZ24jj4_W7VJfsW65Pw5k5-m2hKIC2wqjzgdlQ,10837
+lightmotif-0.1.1.dist-info/WHEEL,sha256=eep6QWEFiQfg2wcclssb_WY-D33AnLYLnEKGA9Rn-VU,100
+lightmotif-0.1.1.dist-info/top_level.txt,sha256=v_ynh2gr_I4KdZc-5cw0kVx8wHnfySKdMKSl_Bm8Zpk,11
+lightmotif-0.1.1.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+lightmotif-0.1.1.dist-info/RECORD,,

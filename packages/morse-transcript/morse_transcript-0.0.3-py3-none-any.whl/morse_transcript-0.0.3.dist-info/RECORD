@@ -1,0 +1,10 @@
+cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli/morse.py,sha256=B-_MfsBJAHOvW_W5GvmtuMVm7eX2lQm9DoshTo9GeeM,1283
+morsecodetranslator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+morsecodetranslator/morse.py,sha256=YFi6M5zy-G-jj2uE_31w0X8HDUDgLP6XijGf7Q4rwlo,3543
+morse_transcript-0.0.3.dist-info/LICENSE.md,sha256=sOX6qlZyDufe3rCwL0D_QnWDme-yJImkvYLWrSYQr4w,1070
+morse_transcript-0.0.3.dist-info/METADATA,sha256=s85-WQ43lojDVuKmcyHH7wkIE9EXkuuHD0ufR8-IOxc,2608
+morse_transcript-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+morse_transcript-0.0.3.dist-info/entry_points.txt,sha256=rcMgxPs6x_OTOo3PwOqIjQrOfrLTPAeJ3QPdFMazPoQ,41
+morse_transcript-0.0.3.dist-info/top_level.txt,sha256=7Rfw7peotWaif8niN4twP-MtwNNGED-sNnVuCOHPzhc,24
+morse_transcript-0.0.3.dist-info/RECORD,,

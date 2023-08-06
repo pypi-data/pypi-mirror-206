@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+taxomatcher/__init__.py
+taxomatcher/__main__.py
+taxomatcher/entrez_matcher.py
+taxomatcher/gbif_matcher.py
+taxomatcher/gui.py
+taxomatcher/taxomatcher.py
+taxomatcher/trait_matcher.py
+taxomatcher.egg-info/PKG-INFO
+taxomatcher.egg-info/SOURCES.txt
+taxomatcher.egg-info/dependency_links.txt
+taxomatcher.egg-info/entry_points.txt
+taxomatcher.egg-info/requires.txt
+taxomatcher.egg-info/top_level.txt

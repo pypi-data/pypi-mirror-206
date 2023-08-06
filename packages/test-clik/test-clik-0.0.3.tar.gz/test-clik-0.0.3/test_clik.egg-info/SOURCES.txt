@@ -1,0 +1,11 @@
+README.md
+setup.py
+logic/__init__.py
+logic/cli.py
+logic/operaciones.py
+test_clik.egg-info/PKG-INFO
+test_clik.egg-info/SOURCES.txt
+test_clik.egg-info/dependency_links.txt
+test_clik.egg-info/entry_points.txt
+test_clik.egg-info/requires.txt
+test_clik.egg-info/top_level.txt

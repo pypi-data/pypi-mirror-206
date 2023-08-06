@@ -1,0 +1,20 @@
+puresnet/S_parser.py,sha256=Y-pBwMFUVroU2sEf4US992iZEkkTAtRAq4c422t4mzk,13072
+puresnet/__init__.py,sha256=VMM-fXju4YgCJPDKW3MipF92RlZ1sH3tbVz5xlTpP2E,75
+puresnet/atom.py,sha256=4yxRE6GgVIgaqKxjQUZBaWJmu76XCNEVbd0qzER0k5w,2628
+puresnet/dataset.py,sha256=90e_hzhXRen7tJ4PH11izlOYKbhIVbriUQXgh5Mi1Sc,7327
+puresnet/error.py,sha256=lka8QpuEejLQ7t5U-2AClQrHRFOekt8dbiWSfo9oiVg,371
+puresnet/featurizer.py,sha256=O_xcK5gEuULfoWAG9xrHwXPt7Oa3obxq0Y0QG2-itBI,5672
+puresnet/model.py,sha256=3GcHfOhtnNXNkHmyj2OrRHJ8Yj0y0sV2syHI2PiPcTM,6311
+puresnet/predict.py,sha256=UH2sXZzj-eI05bv-PvpF1mMyZw__jU8F7TnXRjd2sEw,5152
+puresnet/residue_h.py,sha256=OMZP9phDM1aQjzBidfnOwGoLPzyDQUYjjyY2qq7_9f8,3301
+puresnet/resnet.py,sha256=ddqgQukgrGso6C_OLF3McmVHZFtySfacEQB2MWIyV0c,4960
+puresnet/sparse.py,sha256=Z6A5E8trqQSGaXjbtZ23mAdPYgpE-zdcvzG70a3YVD8,3451
+puresnet/train.py,sha256=M2Iiwy3GNlHVIvCsOH2ge_Nu4i2WeQQPyVKGAkZjFMs,4199
+puresnet/data/model90 70210.pt,sha256=ylGVMWHWNisPIDWrdMbklRgjY97gavp-m7or3YQJCuU,43585501
+puresnet/data/training_data.npy,sha256=LWHlW3TL18g-g7exzEVyCA6FHY5tGB1aRPtUXuK14pM,11844848
+puresnet/data/validation_data.npy,sha256=RZB-KHBEK2zP1wSPZDsHbErSsgi96nhsvQoH4DjSJjU,2961248
+puresnet-0.1.dist-info/LICENSE.txt,sha256=iK412VwYyXIjI35asVIK5NhOOT8o_FV_BPo5-v4u6cU,1084
+puresnet-0.1.dist-info/METADATA,sha256=T1XHEIUanbUmeQ-1Pu9-kVeBH4q6BelyjhMVefOAMoE,4916
+puresnet-0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+puresnet-0.1.dist-info/top_level.txt,sha256=w851mgJvZvKomm-W89XDbl9i9e0PQtmyBPgfcFKSDJg,9
+puresnet-0.1.dist-info/RECORD,,

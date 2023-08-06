@@ -1,0 +1,11 @@
+LICENSE.txt
+README.txt
+setup.cfg
+setup.py
+src/MSO_WT.egg-info/PKG-INFO
+src/MSO_WT.egg-info/SOURCES.txt
+src/MSO_WT.egg-info/dependency_links.txt
+src/MSO_WT.egg-info/requires.txt
+src/MSO_WT.egg-info/top_level.txt
+src/mso_wt/__init__.py
+src/mso_wt/mso_wt.py

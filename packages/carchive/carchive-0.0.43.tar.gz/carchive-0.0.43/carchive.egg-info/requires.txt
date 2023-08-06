@@ -1,0 +1,6 @@
+PyGithub
+git2net@ git+http://github.com/franceme/git2net
+mystring
+pygit2
+splittr
+waybackpy

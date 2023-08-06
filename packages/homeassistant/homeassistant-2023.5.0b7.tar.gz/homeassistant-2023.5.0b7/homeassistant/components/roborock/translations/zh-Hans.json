@@ -1,0 +1,23 @@
+{
+    "config": {
+        "error": {
+            "invalid_email_format": "\u60a8\u7684\u7535\u5b50\u90ae\u4ef6\u683c\u5f0f\u5b58\u5728\u95ee\u9898 - \u8bf7\u91cd\u8bd5\u3002",
+            "unknown_roborock": "\u51fa\u73b0\u672a\u77e5\u7684 roborock \u5f02\u5e38 - \u8bf7\u68c0\u67e5\u60a8\u7684\u65e5\u5fd7\u3002",
+            "unknown_url": "\u786e\u5b9a\u60a8\u7684 roborock \u5e10\u6237\u7684\u6b63\u786e url \u65f6\u51fa\u73b0\u95ee\u9898 - \u8bf7\u68c0\u67e5\u60a8\u7684\u65e5\u5fd7\u3002"
+        }
+    },
+    "entity": {
+        "select": {
+            "mop_intensity": {
+                "state": {
+                    "off": "\u5173\u95ed"
+                }
+            },
+            "mop_mode": {
+                "state": {
+                    "custom": "\u81ea\u5b9a\u4e49"
+                }
+            }
+        }
+    }
+}

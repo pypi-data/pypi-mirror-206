@@ -1,0 +1,19 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Dispozitivul a fost configurat deja"
+        },
+        "error": {
+            "cannot_connect": "A e\u0219uat conectarea",
+            "invalid_system_id": "ID de sistem Airzone nevalid"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Gazd\u0103 (host)",
+                    "port": "Port"
+                }
+            }
+        }
+    }
+}

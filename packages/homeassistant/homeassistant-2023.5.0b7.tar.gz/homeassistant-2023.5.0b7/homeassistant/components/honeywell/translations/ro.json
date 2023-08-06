@@ -1,0 +1,27 @@
+{
+    "config": {
+        "error": {
+            "invalid_auth": "Autentificare nevalid\u0103"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "password": "Parola",
+                    "username": "Utilizator"
+                },
+                "description": "Te rug\u0103m s\u0103 introduci datele de autentificare pe care le folose\u0219ti pentru a te conecta la mytotalconnectcomfort.com."
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "away_cool_temperature": "Temperatura de r\u0103cire c\u00e2nd e\u0219ti plecat",
+                    "away_heat_temperature": "Temperatura de \u00eenc\u0103lzire c\u00e2nd e\u0219ti plecat"
+                },
+                "description": "Op\u021biuni adi\u021bionale Honeywell. Temperaturile sunt setate in Fahrenheit."
+            }
+        }
+    }
+}

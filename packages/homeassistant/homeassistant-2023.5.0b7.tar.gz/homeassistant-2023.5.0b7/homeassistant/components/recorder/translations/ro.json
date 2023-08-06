@@ -1,0 +1,11 @@
+{
+    "system_health": {
+        "info": {
+            "current_recorder_run": "Ora de \u00eencepere a execu\u021biei curente",
+            "database_engine": "Motor de baze de date",
+            "database_version": "Versiunea bazei de date",
+            "estimated_db_size": "Dimensiunea estimat\u0103 a bazei de date (MiB)",
+            "oldest_recorder_run": "Cea mai veche or\u0103 de \u00eencepere a execu\u021biei"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Dispozitivul a fost configurat deja",
+            "invalid_host": "Nume gazd\u0103 (hostname) sau adres\u0103 IP invalid\u0103"
+        },
+        "error": {
+            "cannot_connect": "A e\u0219uat conectarea",
+            "unknown": "Eroare nea\u0219teptat\u0103"
+        },
+        "flow_title": "{device}",
+        "step": {
+            "confirm_discovery": {
+                "description": "Dore\u0219ti s\u0103 adaugi {device} \u00een Home Assistant?"
+            },
+            "user": {
+                "data": {
+                    "host": "Gazd\u0103 (host)"
+                },
+                "description": "Configureaz\u0103 adresa IP sau hostname-ul local al dispozitivului Fronius.",
+                "title": "Fronius SolarNet"
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "O dispositivo j\u00e1 est\u00e1 configurado",
+            "reauth_successful": "Reautentica\u00e7\u00e3o bem sucedida"
+        },
+        "error": {
+            "cannot_connect": "A liga\u00e7\u00e3o falhou",
+            "invalid_auth": "Autentica\u00e7\u00e3o inv\u00e1lida",
+            "unknown": "Erro inesperado"
+        },
+        "flow_title": "Shelly: {name}",
+        "step": {
+            "confirm_discovery": {
+                "description": "Deseja configurar o {model} em {host} ?"
+            },
+            "credentials": {
+                "data": {
+                    "password": "Palavra-passe",
+                    "username": "Nome de Utilizador"
+                }
+            },
+            "reauth_confirm": {
+                "data": {
+                    "password": "Palavra-passe",
+                    "username": "Nome de Utilizador"
+                }
+            },
+            "user": {
+                "data": {
+                    "host": "Endere\u00e7o"
+                }
+            }
+        }
+    },
+    "device_automation": {
+        "trigger_subtype": {
+            "button": "Bot\u00e3o"
+        }
+    },
+    "options": {
+        "abort": {
+            "ble_unsupported": "O suporte de Bluetooth requer a vers\u00e3o de firmware {ble_min_version} ou mais recente."
+        },
+        "step": {
+            "init": {
+                "data": {
+                    "ble_scanner_mode": "Modo de rastreio Bluetooth"
+                },
+                "description": "O rastreio Bluetooth pode ser ativo ou passivo. Com ativa, o Shelly solicita dados de dispositivos pr\u00f3ximos; com passiva, o Shelly recebe dados n\u00e3o solicitados de dispositivos pr\u00f3ximos."
+            }
+        }
+    },
+    "selector": {
+        "ble_scanner_mode": {
+            "options": {
+                "active": "Ativo",
+                "disabled": "Desativado",
+                "passive": "Passivo"
+            }
+        }
+    }
+}

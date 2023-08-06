@@ -1,0 +1,19 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Ier\u012bce jau pievienota Home Assistant."
+        }
+    },
+    "device_automation": {
+        "trigger_subtype": {
+            "double_press": "Divk\u0101r\u0161s piespiediens",
+            "long_double_press": "Ilgs divk\u0101r\u0161s piespiediens",
+            "long_press": "Ilgs piespiediens",
+            "long_triple_press": "Ilgs tr\u012bsk\u0101r\u0161s piespiediens",
+            "press": "Piespiediens",
+            "rotate_left": "Pagriezt pa kreisi",
+            "rotate_right": "Pagriezt pa labi",
+            "triple_press": "Tr\u012bsk\u0101r\u0161s piespiediens"
+        }
+    }
+}

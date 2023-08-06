@@ -1,0 +1,31 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "A e\u0219uat conectarea",
+            "invalid_auth": "Autentificare nevalid\u0103",
+            "not_supported": "Doar versiunea 2 a API-ului PrusaLink este acceptat\u0103",
+            "unknown": "Eroare nea\u0219teptat\u0103"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "api_key": "Cheie API",
+                    "host": "Gazd\u0103 (host)"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "printer_state": {
+                "state": {
+                    "cancelling": "\u00cen curs de anulare",
+                    "idle": "Inactiv",
+                    "paused": "Pauz\u0103",
+                    "pausing": "\u00cen curs de intrare \u00een pauz\u0103",
+                    "printing": "Imprimare"
+                }
+            }
+        }
+    }
+}

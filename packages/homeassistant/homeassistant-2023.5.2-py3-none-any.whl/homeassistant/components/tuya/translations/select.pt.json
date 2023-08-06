@@ -1,0 +1,27 @@
+{
+    "state": {
+        "tuya__countdown": {
+            "cancel": "Cancelar"
+        },
+        "tuya__humidifier_spray_mode": {
+            "humidity": "Humidade"
+        },
+        "tuya__light_mode": {
+            "none": "Desligado"
+        },
+        "tuya__relay_status": {
+            "off": "Desligado",
+            "on": "Ligado",
+            "power_off": "Desligado",
+            "power_on": "Ligado"
+        },
+        "tuya__vacuum_cistern": {
+            "closed": "Fechado"
+        },
+        "tuya__vacuum_mode": {
+            "pick_zone": "Escolha a Zona",
+            "right_spiral": "Espiral Direita",
+            "spiral": "Espiral"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Ier\u012bce jau pievienota Home Assistant."
+        },
+        "error": {
+            "auth_failed": "Nevar\u0113ja autentific\u0113ties: {error}",
+            "no_onvif_service": "ONVIF pakalpojums nav atrasts. P\u0101rbaudiet, vai porta numurs ir pareizs."
+        }
+    }
+}

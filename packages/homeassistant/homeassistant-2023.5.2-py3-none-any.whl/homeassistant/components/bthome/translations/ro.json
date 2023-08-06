@@ -1,0 +1,38 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Dispozitivul a fost configurat deja",
+            "already_in_progress": "Fluxul de configura\u021bie este deja \u00een desf\u0103\u0219urare",
+            "no_devices_found": "Nu s-au descoperit dispozitive in re\u021bea",
+            "reauth_successful": "Re-autentificarea s-a realizat cu succes"
+        },
+        "error": {
+            "decryption_failed": "Bindkey-ul furnizat nu a func\u021bionat, datele senzorului nu au putut fi decriptate. Te rug\u0103m s\u0103 \u00eel verifici \u0219i s\u0103 \u00eencerci din nou.",
+            "expected_32_characters": "Se a\u0219tepta un bindkey compus din 32 de caractere hexazecimale."
+        },
+        "flow_title": "{name}",
+        "step": {
+            "bluetooth_confirm": {
+                "description": "Dore\u0219ti s\u0103 configurezi {name}?"
+            },
+            "get_encryption_key": {
+                "data": {
+                    "bindkey": "Cheie de leg\u0103tur\u0103 (Bindkey)"
+                },
+                "description": "Datele transmise de senzor sunt criptate. Pentru a le decripta, este nevoie de o cheie de 32 de caractere hexazecimale (bindkey)."
+            },
+            "user": {
+                "data": {
+                    "address": "Dispozitiv"
+                },
+                "description": "Alege\u021bi un dispozitiv de configurat"
+            }
+        }
+    },
+    "device_automation": {
+        "trigger_type": {
+            "button": "Buton \"{subtype}\"",
+            "dimmer": "Dimmer \"{subtype}\""
+        }
+    }
+}

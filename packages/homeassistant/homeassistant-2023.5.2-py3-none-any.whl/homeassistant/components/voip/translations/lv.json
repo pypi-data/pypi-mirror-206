@@ -1,0 +1,18 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "call_in_progress": {
+                "name": "Notiek izsaukums"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "sip_port": "SIP ports"
+                }
+            }
+        }
+    }
+}

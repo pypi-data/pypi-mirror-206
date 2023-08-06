@@ -1,0 +1,36 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Serviciul este deja configurat",
+            "reauth_successful": "Re-autentificarea s-a realizat cu succes"
+        },
+        "error": {
+            "cannot_connect": "A e\u0219uat conectarea",
+            "invalid_auth": "Autentificare nevalid\u0103"
+        },
+        "step": {
+            "api_key": {
+                "data": {
+                    "api_key": "Cheie API"
+                }
+            },
+            "reauth_confirm": {
+                "data": {
+                    "api_key": "Cheie API"
+                },
+                "description": "Te rug\u0103m s\u0103 introduci o nou\u0103 cheie API pentru PI-Hole la {host}/{location}",
+                "title": "Reautentificare Pi-Hole"
+            },
+            "user": {
+                "data": {
+                    "host": "Gazd\u0103 (host)",
+                    "location": "Loca\u021bie",
+                    "name": "Nume",
+                    "port": "Port",
+                    "ssl": "Folose\u0219te un certificat SSL",
+                    "verify_ssl": "Verific\u0103 certificat SSL"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "config": {
+        "error": {
+            "invalid_email_format": "J\u016bsu e-pasta form\u0101t\u0101 ir radu\u0161\u0101s probl\u0113mas - m\u0113\u0123iniet v\u0113lreiz.",
+            "unknown_roborock": "Notika nezin\u0101ms roborock iz\u0146\u0113mums - p\u0101rbaudiet \u017eurn\u0101lus.",
+            "unknown_url": "Rad\u0101s probl\u0113ma, nosakot pareizo url j\u016bsu roborock kontam - p\u0101rbaudiet \u017eurn\u0101lus."
+        }
+    },
+    "entity": {
+        "select": {
+            "mop_intensity": {
+                "name": "Mopa intensit\u0101te",
+                "state": {
+                    "custom": "Izv\u0113les",
+                    "intense": "Intens\u012bvs",
+                    "mild": "Viegls"
+                }
+            }
+        }
+    }
+}

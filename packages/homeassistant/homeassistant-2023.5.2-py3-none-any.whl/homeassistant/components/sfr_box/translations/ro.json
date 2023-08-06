@@ -1,0 +1,54 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Dispozitivul a fost configurat deja",
+            "reauth_successful": "Re-autentificarea s-a realizat cu succes"
+        },
+        "error": {
+            "cannot_connect": "A e\u0219uat conectarea",
+            "invalid_auth": "Autentificare nevalid\u0103"
+        },
+        "step": {
+            "auth": {
+                "data": {
+                    "password": "Parola",
+                    "username": "Utilizator"
+                }
+            },
+            "choose_auth": {
+                "description": "Configurarea datelor de autentificare permite func\u021bionalit\u0103\u021bi suplimentare.",
+                "menu_options": {
+                    "auth": "Seteaz\u0103 date de autentificare (recomandat)",
+                    "skip_auth": "Omite autentificarea"
+                }
+            },
+            "user": {
+                "data": {
+                    "host": "Gazd\u0103 (host)"
+                },
+                "description": "Setarea datelor de autentificare este op\u021bional\u0103, dar permite func\u021bionalit\u0103\u021bi suplimentare."
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "net_infra": {
+                "state": {
+                    "adsl": "ADSL",
+                    "ftth": "FTTH",
+                    "gprs": "GPRS",
+                    "unknown": "Necunoscut"
+                }
+            },
+            "wan_mode": {
+                "state": {
+                    "adsl_ppp": "ADSL (PPP)",
+                    "adsl_routed": "ADSL (rutat)",
+                    "ftth_routed": "FTTH (rutat)",
+                    "grps_ppp": "GPRS (PPP)",
+                    "unknown": "Necunoscut"
+                }
+            }
+        }
+    }
+}

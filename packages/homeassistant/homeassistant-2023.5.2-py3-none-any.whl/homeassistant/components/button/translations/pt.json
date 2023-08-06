@@ -1,0 +1,10 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Bot\u00e3o"
+        },
+        "restart": {
+            "name": "Reiniciar"
+        }
+    }
+}

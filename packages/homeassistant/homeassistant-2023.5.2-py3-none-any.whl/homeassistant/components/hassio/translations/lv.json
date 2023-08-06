@@ -1,0 +1,32 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "state": {
+                "name": "Darbojas"
+            }
+        },
+        "sensor": {
+            "cpu_percent": {
+                "name": "Procesora izmantojums procentos"
+            },
+            "disk_free": {
+                "name": "Br\u012bvs uz diska"
+            },
+            "disk_total": {
+                "name": "Diska kop\u0113jais apjoms"
+            },
+            "disk_used": {
+                "name": "Izmantots uz diska"
+            },
+            "memory_percent": {
+                "name": "Atmi\u0146as izmantojums procentos"
+            },
+            "version": {
+                "name": "Versija"
+            },
+            "version_latest": {
+                "name": "Jaun\u0101k\u0101 versija"
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Intrare boolean\u0103",
+            "state": {
+                "off": "Oprit",
+                "on": "Pornit"
+            }
+        }
+    },
+    "title": "Intrare boolean\u0103"
+}

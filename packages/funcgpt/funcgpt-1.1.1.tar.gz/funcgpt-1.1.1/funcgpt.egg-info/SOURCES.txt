@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+funcgpt/__init__.py
+funcgpt/credentials.py
+funcgpt/decorators.py
+funcgpt/gpt.py
+funcgpt/message.py
+funcgpt/protocols.py
+funcgpt/tokentools.py
+funcgpt/wrapper.py
+funcgpt.egg-info/PKG-INFO
+funcgpt.egg-info/SOURCES.txt
+funcgpt.egg-info/dependency_links.txt
+funcgpt.egg-info/requires.txt
+funcgpt.egg-info/top_level.txt
+funcgpt/data/cl100k_base.tiktoken.bz2

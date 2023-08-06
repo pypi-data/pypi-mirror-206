@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: picoolfx
+Version: 0.1.1
+Summary: A small package that applies nice effects to images
+Author-Email: Nicola Cerutti <nc@nicores.de>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Project-URL: Homepage, https://github.com/ncerutti/picoolfx
+Project-URL: Bug tracker, https://github.com/ncerutti/picoolfx/issues
+Requires-Python: >=3.7
+Requires-Dist: geopandas
+Requires-Dist: matplotlib
+Requires-Dist: noise
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: Pillow
+Requires-Dist: rasterio
+Requires-Dist: Shapely
+Description-Content-Type: text/markdown
+
+Simple package used to apply nice effects to images.
+Can be installed using:
+pip install picoolfx
+"""
+import picoolfx
+
+
+I saw Chris Holmes' repo (https://github.com/cj-holmes/photos-on-spirals) of cool effects on pictures and I thought I would try and make a python version of it.
+
+I just started, so if anybody wants to improve it go ahead, feel free to hit me up and/or open a pull request! I might work on it myself in the near future too.
+
+Also, I definitely want to add some more nice effects. An easy start perhaps would be to just make it out of vertical or horizontal lines. Please, check my github, where there should be a link to a webapp to try them!

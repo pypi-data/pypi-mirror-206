@@ -1,0 +1,4 @@
+[console_scripts]
+gen_supervisor_conf=py3toolkit.gen_supervisor_conf:main
+sshg=py3toolkit.sshg:main
+

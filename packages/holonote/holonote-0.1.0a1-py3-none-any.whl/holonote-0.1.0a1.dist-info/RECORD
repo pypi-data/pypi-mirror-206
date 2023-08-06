@@ -1,0 +1,14 @@
+holonote/__init__.py,sha256=zbGUaFAnPpDdOXk3Bq9lQWO9jF2o0ubPtwIthtjvm9o,44
+holonote/annotate/__init__.py,sha256=yH48HUqVOBgTWrO5SCFF5X-g0d4GalISF2tRw-RfdGs,149
+holonote/annotate/annotator.py,sha256=3cJT60NTEN1resMroqrlp_3i5AgOjorAj75Y-me9nwY,29351
+holonote/annotate/connector.py,sha256=lqF-ByWYEFFcbawVOjm9L-zWoKtgcQlM3y1oFtAsWUQ,17635
+holonote/annotate/table.py,sha256=ifoYhFLYoYGa361HKO2q2FL87qaYszndGCwZ18fXsHQ,14631
+holonote/region/__init__.py,sha256=iaAU7MYhxvGpqRAm9vh1DcH_LA5CsqWXiL-MOFVxk7Y,35
+holonote/region/editors.py,sha256=DDVRyEWzIofjhwO9ZI69kipZhu3H60MxSY_9plzubRc,113
+holonote/tests/annotations.db,sha256=1on90rumXms4QqSwjMPPJ4CW02Lyl9Bj4y4-46zb3sM,12288
+holonote/tests/test_annotation_table.py,sha256=E2gyDP7_y8-TwtO4ctg7cGMb9lg5RHg6MVzBnnMPaEU,1167
+holonote/tests/test_annotators.py,sha256=su5ga55CIUBMxk4ykp387gKguQ34yM5ygbeWeIPyczY,31782
+holonote/tests/test_connectors.py,sha256=_AEgkGxzSDJ1R0TciUBV9BnUcnuqmG23j6f6I6vyGTc,7227
+holonote-0.1.0a1.dist-info/METADATA,sha256=UGN9ijoZfFp_O3CFcqkCnCW6FkGdmtdyEyaG6YXgKfU,3657
+holonote-0.1.0a1.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+holonote-0.1.0a1.dist-info/RECORD,,

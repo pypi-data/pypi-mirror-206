@@ -1,0 +1,11 @@
+pydantic
+toml
+
+[doc]
+sphinx
+sphinx_rtd_theme
+
+[letsencrypt]
+acme>=0.29.0
+certbot>=0.34.0
+zope

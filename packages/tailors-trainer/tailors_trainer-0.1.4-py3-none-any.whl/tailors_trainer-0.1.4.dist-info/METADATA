@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: tailors-trainer
+Version: 0.1.4
+Summary: 
+Home-page: https://github.com/orctom/tailors-trainer
+License: Apache-2.0
+Author: orctom
+Author-email: orctom <orctom@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: tailors
+Requires-Dist: deepspeed
+Requires-Dist: accelerate
+Requires-Dist: torch-optimizer~=0.3.0
+Requires-Dist: tensorboard~=2.10.1
+Requires-Dist: torchinfo~=1.7.2
+Requires-Dist: rocksdb-py
+Requires-Dist: lmdb
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: websockets
+Requires-Dist: ldap3
+Requires-Dist: passlib[bcrypt]
+Requires-Dist: itsdangerous
+Requires-Dist: python-multipart
+Requires-Dist: python-jose[cryptography]
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Project-URL: homepage, https://github.com/orctom/tailors-trainer
+
+# tailors-trainer
+
+utils to train models
+
+## features
+ - [ ] autocast + GradScaler
+ - [ ] multi-sample dropout https://zhuanlan.zhihu.com/p/478589620
+ - [ ] bitsandbytes
+ - [ ] TorchSnooper
+ - [ ] with torch.autograd.profiler.profile(enabled=True, use_cuda=False) as profile:    ...print(profile)# 或者在命令行运行python -m torch.utils.bottleneck main.py
+
+## libs
+- optuna
+- ray
+

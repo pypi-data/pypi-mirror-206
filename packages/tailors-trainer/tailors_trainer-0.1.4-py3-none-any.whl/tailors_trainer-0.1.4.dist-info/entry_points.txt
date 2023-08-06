@@ -1,0 +1,6 @@
+[console_scripts]
+tailors-agent=tailors_trainer.agent.agent:run
+tailors-dataset-from-eb=tailors_trainer.dataset_from_eb:process
+tailors-manager=tailors_trainer.manager.manager:run
+tailors-train=tailors_trainer.train:train
+

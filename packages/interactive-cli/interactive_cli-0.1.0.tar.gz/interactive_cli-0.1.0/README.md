@@ -1,0 +1,74 @@
+# interactive_cli
+
+## interactive_cli usage
+
+This module allows to create programs that show an interactive command line interface. The program waits for the user input and then acts on user interaction.
+
+Example:
+
+```python
+from interactive_cli.blocking_cli_app import BlockingCLIApp
+from interactive_cli.cli_command import CLICommand
+
+
+if __name__ == "__main__":
+    app = BlockingCLIApp("Hello world CLI")
+    app.add_command(
+        CLICommand("say hello world", lambda app, page: app.print("Hello world"))
+    )
+
+    app.start()
+```
+
+results in
+
+```txt
+Hello world CLI
+===============
+
+Use 'help' to get a detailed list of commands.
+
+
+Enter command [h,q,s]:
+```
+
+More examples are included in the [example](example/) directory.
+
+## Installation
+
+### Via `pip`
+
+```bash
+pip install interactive_cli
+```
+
+### From source
+To run this program from the code directly, [`python`](https://www.python.org/) and [`poetry`](https://python-poetry.org/) (`pip install poetry`) are required. Clone or download the repository.
+
+To install all the dependencies, use your command line and navigate to the directory where this `README` file is located in. Then run
+
+```bash
+poetry install
+```
+
+### For development
+
+For development installation perform the [From source](#from-source) installation.
+
+For installing new packages, always run
+```
+poetry add <pip-package-name>
+```
+instead of `pip install <pip-package-name>`.
+
+Launch the program either check out the [Execution](#execution) section or use the *Run and Debug*-side panel of VSCode.
+
+If the interpreter of the virtual environment does not show up in VSCode, add it manually. The virtual environments are located in `{cache-dir}/virtualenvs/<venv-name>/Scripts/python.exe` where the [`{cache-dir}`](https://python-poetry.org/docs/configuration/#cache-dir) depends on the operating system (`~/.cache/pypoetry`, `~/Library/Caches/pypoetry` or `C.\Users\%USERNAME%\AppData\Local\pypoetry\Cache`).
+
+## Execution
+
+To execute the program use
+```bash
+poetry run python -m interactive_cli
+```
+

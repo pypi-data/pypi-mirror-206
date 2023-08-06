@@ -1,0 +1,11 @@
+aqueduct_llm/__init__.py,sha256=KPIp72G0Rffl66bVJlEEDWbhVrt1IuTzP7NaiO4RD5c,206
+aqueduct_llm/dolly_v2_3b.py,sha256=0r76K8hbG0K-AFkIx_sK5LgBTBwWh1L_XoCSPqn661w,3614
+aqueduct_llm/dolly_v2_7b.py,sha256=FYC0iLHWpd3NRxelx3mPzIeIVSwJDopRqChBzeD-dOE,3615
+aqueduct_llm/llama_7b.py,sha256=SL-CgzRIgAkBaRlX6D9UGUCJI_Ozek7lob7NhhbwGfE,2440
+aqueduct_llm/vicuna_7b.py,sha256=0ASydTU1hBDOwANuKOXgukzW8mTnQ22xnGS9cpNRyvk,4720
+aqueduct_llm/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aqueduct_llm/utils/dolly_instruct_pipeline.py,sha256=BXh3zjEvFKC1jym0_kP-gMJnVNCd7jThqNaZeh8FAUI,9463
+aqueduct_llm-0.0.1.dist-info/METADATA,sha256=RQELJI4-9ZDTJq8v2vS-V0Dax2x34Uczq3QFlFEjnEY,585
+aqueduct_llm-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+aqueduct_llm-0.0.1.dist-info/top_level.txt,sha256=IiGg3bS74_XdyjZUrf3hCyxyg8prPcPtVxwzdcSMzGM,13
+aqueduct_llm-0.0.1.dist-info/RECORD,,

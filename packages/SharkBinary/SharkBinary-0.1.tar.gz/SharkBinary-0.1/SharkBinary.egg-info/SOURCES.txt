@@ -1,0 +1,6 @@
+setup.py
+SharkBinary.egg-info/PKG-INFO
+SharkBinary.egg-info/SOURCES.txt
+SharkBinary.egg-info/dependency_links.txt
+SharkBinary.egg-info/requires.txt
+SharkBinary.egg-info/top_level.txt

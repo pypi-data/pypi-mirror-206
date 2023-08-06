@@ -1,0 +1,91 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="visaplan.plone.animations">
+
+    <i18n:registerTranslations directory="locales" />
+
+    <!--
+      Be careful if you use general includeDependencies, it can have sideffects!
+      Better import explicite packages or configurations ;)
+    -->
+    <!--<includeDependencies package="." />-->
+
+    <include
+	file="permissions.zcml"
+	zcml:condition="installed AccessControl.security"
+	/>
+
+    <include file="profiles.zcml" />
+    <include file="upgrades.zcml" />
+    <include package=".metadata"
+	zcml:condition="installed visaplan.plone.industrialsector"
+        />
+
+    <!-- -*- extra stuff goes here -*- -->
+    <browser:resourceDirectory
+	name="visaplan.plone.animations"
+	directory="resource"
+	/>
+
+    <browser:page
+        name="view"
+        for="visaplan.plone.animations.interfaces.IFolderishAnimation"
+        class="visaplan.plone.animations.content.folderish_animation.FolderishAnimationView"
+        template="templates/animation_view.pt"
+        permission="zope2.View"
+        />
+
+    <browser:page
+        name="onlyme"
+        for="visaplan.plone.animations.interfaces.IFolderishAnimation"
+        class="visaplan.plone.animations.content.folderish_animation.FolderishAnimationAjaxView"
+        template="templates/animation_onlyme.pt"
+        permission="zope2.View"
+        />
+
+    <configure
+        zcml:condition="installed visaplan.plone.search">
+
+        <browser:page
+            name="landing_path"
+            for="visaplan.plone.animations.interfaces.IFolderishAnimation"
+            zcml:condition="not-installed visaplan.plone.structures"
+            class=".lapa.LandingPath"
+            permission="zope.Public"
+            /><!-- gf: lapa.py
+                -->
+
+        <configure
+            zcml:condition="installed visaplan.plone.structures">
+
+            <browser:page
+                name="landing_path"
+                for="visaplan.plone.animations.interfaces.IFolderishAnimation"
+                zcml:condition="installed visaplan.plone.menu"
+                class=".lapamenu.LandingPath"
+                permission="zope.Public"
+                /><!-- gf: lapamenu.py
+                    -->
+
+            <browser:page
+                name="landing_path"
+                for="visaplan.plone.animations.interfaces.IFolderishAnimation"
+                zcml:condition="not-installed visaplan.plone.menu"
+                class=".lapainfo.LandingPath"
+                permission="zope.Public"
+                /><!-- gf: lapainfo.py
+                    -->
+
+        </configure>
+    </configure>
+
+    <include package=".thumbnails"
+        zcml:condition="installed visaplan.plone.staticthumbnails"
+        /><!-- gf: thumbnails/configure.zcml
+                   thumbnails/__init__.py
+            -->
+
+</configure>

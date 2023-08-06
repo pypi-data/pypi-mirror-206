@@ -1,0 +1,41 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Dispozitivul a fost configurat deja"
+        },
+        "error": {
+            "cannot_connect": "A e\u0219uat conectarea"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Gazd\u0103 (host)",
+                    "port": "Port"
+                },
+                "title": "Configureaz\u0103 detaliile serverului"
+            }
+        }
+    },
+    "options": {
+        "error": {
+            "device_not_selected": "Selecteaz\u0103 dispozitivele de configurat"
+        },
+        "step": {
+            "configure_device": {
+                "data": {
+                    "precision": "Precizie senzor"
+                },
+                "description": "Selecteaz\u0103 precizia pentru senzorul {sensor_id}",
+                "title": "Precizie senzor OneWire"
+            },
+            "device_selection": {
+                "data": {
+                    "clear_device_options": "\u0218terge toate configura\u021biile dispozitivelor",
+                    "device_selection": "Selecteaz\u0103 dispozitivele de configurat"
+                },
+                "description": "Selecteaz\u0103 pa\u0219ii de configurare de procesat",
+                "title": "Op\u021biuni dispozitiv OneWire"
+            }
+        }
+    }
+}

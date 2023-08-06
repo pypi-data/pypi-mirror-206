@@ -1,0 +1,25 @@
+{
+    "issues": {
+        "historic_currency": {
+            "description": "Moneda {currency} nu se mai folose\u0219te, te rug\u0103m s\u0103 reconfigurezi configura\u021bia monedei.",
+            "title": "Moneda configurat\u0103 nu se mai folose\u0219te"
+        }
+    },
+    "system_health": {
+        "info": {
+            "arch": "Arhitectura CPU",
+            "config_dir": "Director de configurare",
+            "dev": "Dezvoltare",
+            "docker": "Docker",
+            "hassio": "Supervizor",
+            "installation_type": "Tip instalare",
+            "os_name": "Familie sistem de operare",
+            "os_version": "Versiune sistem de operare",
+            "python_version": "Versiune Python",
+            "timezone": "Fus orar",
+            "user": "Utilizator",
+            "version": "Versiune",
+            "virtualenv": "Mediu virtual"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Contul a fost configurat deja",
+            "reauth_successful": "Re-autentificarea s-a realizat cu succes"
+        },
+        "error": {
+            "cannot_connect": "A e\u0219uat conectarea",
+            "invalid_auth": "Autentificare nevalid\u0103",
+            "unknown": "Eroare nea\u0219teptat\u0103"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "password": "Parola"
+                },
+                "description": "Te rug\u0103m s\u0103 actualizezi parola pentru {username}",
+                "title": "Re-autentificare integrare"
+            },
+            "user": {
+                "data": {
+                    "password": "Parola",
+                    "username": "Utilizator"
+                }
+            }
+        }
+    },
+    "issues": {
+        "migrated_attributes": {
+            "description": "Atributele entit\u0103\u021bii de tip aspirator sunt acum disponibile ca senzori de diagnosticare.\n\nTe rug\u0103m s\u0103 modifici orice automatizare sau script care utilizeaz\u0103 aceste atribute.",
+            "title": "Atributele Litter-Robot sunt acum senzori de sine st\u0103t\u0103tori"
+        }
+    }
+}

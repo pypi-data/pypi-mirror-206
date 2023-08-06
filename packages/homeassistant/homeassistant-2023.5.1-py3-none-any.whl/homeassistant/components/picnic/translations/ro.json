@@ -1,0 +1,23 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Dispozitivul a fost configurat deja",
+            "reauth_successful": "Re-autentificarea s-a realizat cu succes"
+        },
+        "error": {
+            "cannot_connect": "A e\u0219uat conectarea",
+            "different_account": "Contul ar trebui s\u0103 fie acela\u0219i cu cel utilizat pentru configurarea integr\u0103rii",
+            "invalid_auth": "Autentificare nevalid\u0103",
+            "unknown": "Eroare nea\u0219teptat\u0103"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "country_code": "Codul \u021b\u0103rii",
+                    "password": "Parola",
+                    "username": "Utilizator"
+                }
+            }
+        }
+    }
+}

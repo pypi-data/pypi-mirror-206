@@ -1,0 +1,14 @@
+numpy
+requests
+pytest-mock
+pytest-html
+pytest-repeat
+pytest-bdd
+pytest
+
+[dev]
+black
+isort
+flake8
+pylint
+pylint-junit

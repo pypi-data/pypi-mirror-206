@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ska-pss-protest
+Version: 0.0.1
+Summary: SKA PSS Product Testing Framework
+Home-page: https://gitlab.com/ska-telescope/pss/ska-pss-protest
+Author: Benjamin Shaw, Lina Levin Preston
+Author-email: benjamin.shaw@manchester.ac.uk, lina.preston@manchester.ac.uk
+License: BSD 2-clause
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: dev

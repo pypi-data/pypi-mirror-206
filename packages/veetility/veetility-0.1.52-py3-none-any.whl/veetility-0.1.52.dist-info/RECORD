@@ -1,0 +1,9 @@
+veetility/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+veetility/point_to_point_regressor.py,sha256=5l8A95eEEF_tlFEh0JeXT8ZOMybT0cLKpRxPsW2OJwA,2465
+veetility/snowflake.py,sha256=lU7rdFAOZK0fhIsixEoYY7THu256h12ctrXe1J2mPJs,7026
+veetility/utility_functions.py,sha256=S-el2mS1K1CJB3ytiltgm2OxVm6tgWce4sQopL-KLlk,52743
+veetility/v_lift.py,sha256=yV7MHrNudGkzT4nh341NPHyZDiCXWla_nxs0nj8gw_A,1892
+veetility-0.1.52.dist-info/METADATA,sha256=NTw5anfon-eHh7FRrSWJD8hF1nLEX2S4Ta9bdPu3cew,3766
+veetility-0.1.52.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+veetility-0.1.52.dist-info/top_level.txt,sha256=lrEeMAtigmYGTlTsSaYX0ywaa1skFw6JJ1siPdWHCqc,10
+veetility-0.1.52.dist-info/RECORD,,

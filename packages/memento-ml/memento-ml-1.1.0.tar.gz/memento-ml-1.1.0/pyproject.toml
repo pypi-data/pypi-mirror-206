@@ -1,0 +1,80 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=67.4.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "memento-ml"
+version = "1.1.0"
+description = "A Python library for running computationally expensive experiments"
+readme = "README.md"
+authors = [
+    { name = "Wickerlab dev team", email = "luke.x.chang@gmail.com" },
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11"
+
+]
+keywords = ["experiment", "parallel", "sklearn", "machine learning"]
+requires-python = ">=3.8"
+dependencies = [
+    "cloudpickle ~= 2.2.1",
+    "networkx ~= 3.1",
+    "pandas ~= 2.0.1",
+    "pandas-stubs",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black", 
+    "pylint",
+    "bumpver", 
+    "isort", 
+    "pip-tools", 
+    "pytest",
+    "Sphinx",
+    "mypy",
+    "aiosmtpd",
+    "scikit-learn",
+]
+
+[project.urls]
+Homepage = "https://github.com/wickerlab/memento"
+
+[tool.setuptools]
+packages = ["memento"]
+py-modules = ["memento"]
+
+[tool.pylint.miscellaneous]
+# Allow TODO notes
+notes = "FIXME,XXX"
+disable = ["too-many-instance-attributes", "too-few-public-methods"]
+
+[tool.pytest.ini_options]
+markers = [
+    "slow"
+]
+log_cli=true
+log_level="NOTSET"
+
+[tool.bumpver]
+current_version = "1.1.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+commit = true
+tag = true
+push = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"',
+]
+"memento/__init__.py" = ["{version}"]

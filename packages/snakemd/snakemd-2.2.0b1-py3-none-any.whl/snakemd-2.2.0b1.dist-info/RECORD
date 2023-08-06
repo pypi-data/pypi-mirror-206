@@ -1,0 +1,8 @@
+snakemd/__init__.py,sha256=faux00hOg5HEzavyyMIsSG8HuMpqZMt7XESzr__ahsU,930
+snakemd/document.py,sha256=DEFyTQu79DAisIDCoD7jUgl8EXpjFgh8KSYLNxES1ms,15776
+snakemd/elements.py,sha256=pCX3IAJi0pQi1fktvQW1qRt2FbObVS9tJ9opChQmyCo,47325
+snakemd/templates.py,sha256=gRvu-ql8Vn8PbCstMZuVGnrwit7kvU7coMdEdrUWiCg,4726
+snakemd-2.2.0b1.dist-info/LICENSE,sha256=7ljVSYfuKwqcNTO4bqFbopNJhfzzIT7fRj78CELG36E,1071
+snakemd-2.2.0b1.dist-info/METADATA,sha256=zwPryBgq5kSyQfyRkrN38S7ecYCDYFfvL5MhkjkTpUI,8113
+snakemd-2.2.0b1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+snakemd-2.2.0b1.dist-info/RECORD,,

@@ -1,0 +1,13 @@
+QuickProject/Commander.py,sha256=k5D6O6lFUrRXM5wQYjjvGdFCJ1kKWY_GbuRpWb7lkZQ,24022
+QuickProject/Qpro.py,sha256=4M6s0UOKlXKJbT69rLsFtWykXutb8VQ77zsNEdpIy20,20965
+QuickProject/QproFigTable.py,sha256=5jsxvice1gSeEqxdY31zXov-XQtCRGgqxuAIZ8W82JQ,136
+QuickProject/QproZshComp.py,sha256=KGgevol58dOluanSzowjbxR8R9SAMLkR25OAhuMy1mk,735
+QuickProject/__config__.py,sha256=kvtjsiE-2cRMJ0VgO797dRG_KRYCq-t17VQ4cBPm_HY,6595
+QuickProject/__init__.py,sha256=1i778EeFwSb71via5IjxmMNeXptsIZbQM5AJ9uzD62s,14913
+QuickProject/lang.json,sha256=jR6I0yEJ8CCWOxpL_pzmLkyN_jZXN-Eq0YZh-Jdk8mk,26483
+QuickProject/qrun.py,sha256=5SCSSQcJO6sRE4VaveyMsOqkwOsRFonds9JZIKbS0m0,4966
+qpro-0.12.3.dist-info/LICENSE,sha256=0ZpcSVWQQkUOzenihpoZ4sXltdOUe871z4FcDC1FdyA,1067
+qpro-0.12.3.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+qpro-0.12.3.dist-info/entry_points.txt,sha256=EKnOkWARlI9ZJgKASq4pNTcYSrC7Zq5eQx82OguRcNQ,75
+qpro-0.12.3.dist-info/METADATA,sha256=K9MyG9Ne-tpvSMMy608_rwCQJ-v96hzfGTSvZRP9EkU,977
+qpro-0.12.3.dist-info/RECORD,,

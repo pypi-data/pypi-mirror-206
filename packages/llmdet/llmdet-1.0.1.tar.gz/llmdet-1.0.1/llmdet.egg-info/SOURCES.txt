@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+llmdet.egg-info/PKG-INFO
+llmdet.egg-info/SOURCES.txt
+llmdet.egg-info/dependency_links.txt
+llmdet.egg-info/top_level.txt

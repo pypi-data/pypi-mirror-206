@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: packagebinbin
+Version: 0.0.3
+Summary: My demo package with my daughter name
+Author: Sophat Chhay
+Author-email: <sophat.chhay@gmail.com>
+Keywords: python
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Testing

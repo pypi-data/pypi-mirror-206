@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+maxeqx_losowanie_liczby.py.egg-info/PKG-INFO
+maxeqx_losowanie_liczby.py.egg-info/SOURCES.txt
+maxeqx_losowanie_liczby.py.egg-info/dependency_links.txt
+maxeqx_losowanie_liczby.py.egg-info/top_level.txt
+maxll/__init__.py

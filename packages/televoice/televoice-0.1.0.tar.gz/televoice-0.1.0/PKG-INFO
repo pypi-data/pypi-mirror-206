@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: televoice
+Version: 0.1.0
+Maintainer: Fernando Perez-Garcia
+Maintainer-email: fepegar@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/fepegar/telegram-gpt-bot
+Platform: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Transcribe WhatsApp voice notes
+
+Transcribe looong voice notes so you can read instead of listening.
+
+## Set environment variables
+
+- `TELEVOICE_BOT_TOKEN`: Telegram token from bot created using [@BotFather](https://t.me/botfather)
+- `TELEGRAM_CLIENT_ID`: Telegram client ID from [@userinfobot](https://t.me/userinfobot)
+- `OPENAI_API_KEY`: OpenAI API key from [OpenAI](https://beta.openai.com/)
+
+## Installation
+
+```shell
+pip install televoice
+```
+
+## Launch the bot
+
+```shell
+televoice
+```
+
+## Caveats
+
+- Currently hard-coded to transcribe Spanish voice notes.

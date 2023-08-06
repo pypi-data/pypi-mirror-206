@@ -1,0 +1,10 @@
+pydantic_settings/__init__.py,sha256=kJl7gH0Ro7DudnzYPMQwvofkBF7Dqw5fDR0aHY5uzHc,436
+pydantic_settings/main.py,sha256=VG86Q0nFolWTq7T-ZNDxbt2fS1mrR8Cc2euE9YungDc,4668
+pydantic_settings/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_settings/sources.py,sha256=fssnq0w6B5cqwoucwE4v4ifCe_aAoaVc4EEO83084qc,20460
+pydantic_settings/utils.py,sha256=nomYSaFO_IegfWSL9KJ8SAtLZgyhcruLgE3dTHwSmgo,557
+pydantic_settings/version.py,sha256=TR125EFLBTo9jaeoZz5lPJv6AXeDv_-6fxTSRlHVtf8,18
+pydantic_settings-2.0a4.dist-info/METADATA,sha256=NaMuGrWYtQ9aOQpK-G4kvqEf7o0ouu5ACt-ipKA6UDM,2853
+pydantic_settings-2.0a4.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+pydantic_settings-2.0a4.dist-info/licenses/LICENSE,sha256=6zVadT4CA0bTPYO_l2kTW4n8YQVorFMaAcKVvO5_2Zg,1103
+pydantic_settings-2.0a4.dist-info/RECORD,,

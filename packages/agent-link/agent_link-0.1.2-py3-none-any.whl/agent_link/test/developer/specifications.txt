@@ -1,0 +1,66 @@
+Create a web portfolio for Jaseunda using React, TypeScript, and Tailwind CSS with the following requirements. Use Figma as a reference for possible design: https://www.figma.com/file/t0kQJwNMh1IApE18tFcWAT/SCode-Ecosystem?node-id=190%3A71426&t=DNxejPlVp7vrx2iz-1
+
+1. The project should consist of the following file structure:
+   - App.tsx
+   - pages/Home.tsx
+   - pages/About.tsx
+   - pages/Contact.tsx
+   - components/Header.tsx
+   - components/Introduction.tsx
+   - components/Projects.tsx
+   - components/ContactForm.tsx
+   - components/Footer.tsx
+
+2. Set up the React project with TypeScript and Tailwind CSS.
+
+3. The index.html file should contain the root div for the React app.
+
+4. The App.tsx file should:
+   - Import and use the Header, Introduction, Projects, Contact, and Footer components.
+
+5. The Header.tsx component should contain:
+   - A full-width header with the name "Jaseunda" and a subtitle "Web Developer".
+   - A sticky design so that it's always visible while scrolling.
+   - Use Tailwind CSS classes for styling.
+
+6. The Introduction.tsx component should contain:
+   - A hero section with a background image and an overlay to improve text readability.
+   - A brief introduction section describing Jaseunda's skills and experience.
+   - Use smooth animations and transitions for a more engaging user experience.
+   - Use Tailwind CSS classes for styling.
+
+7. The Projects.tsx component should contain:
+   - A projects section showcasing Jaseunda's top 3 projects with project titles, descriptions, and images.
+   - Use card-based design with hover effects for a more engaging user experience.
+   - Implement a responsive grid layout that adjusts to different screen sizes.
+   - Use Tailwind CSS classes for styling.
+
+8. The Contact.tsx component should contain:
+   - A contact section with a simple contact form containing fields for name, email, and message.
+   - Use clear visual cues, such as borders or background colors, to differentiate form elements.
+   - Add smooth animations and transitions for form elements on focus.
+   - Use Tailwind CSS classes for styling.
+
+9. The Footer.tsx component should contain:
+   - Footer with social media links (e.g., LinkedIn, GitHub, Twitter).
+   - A visually appealing design with a dark background and a light-colored text for contrast.
+   - Use Tailwind CSS classes for styling.
+
+10. Use Tailwind CSS for styling the components, including:
+   - A gradient color theme for the background, with smooth transitions between colors.
+   - Mobile-friendly and responsive design.
+   - Simple and clean typography with a focus on readability.
+   - Engaging hover effects for buttons and links.
+   - Consistent spacing andpadding for all elements.
+
+11. Implement smooth scrolling effect when navigating through the website using React.
+
+12. The portfolio should have 2-3 pages, including one for sending emails.
+
+13. Ensure a visually appealing design by:
+   - Incorporating high-quality images and media.
+   - Utilizing whitespace effectively to create a clean, uncluttered appearance.
+   - Organizing content into clear, concise sections that are easy to navigate.
+   - Using modern design elements, such as gradients and shadows, to create depth and visual interest.
+   - Employing appropriate color contrast for readability and accessibility.
+   - Note: Please use React, TypeScript, and Tailwind CSS for this project.

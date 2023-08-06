@@ -1,0 +1,6 @@
+[submodule "extension/dbj-api"]
+	path = extension/dbj-api
+	url = https://github.com/Jaseunda/dbj-api.git
+[submodule "agent_link"]
+	path = agent_link
+	url = https://github.com/Jaseunda/agent-link.git

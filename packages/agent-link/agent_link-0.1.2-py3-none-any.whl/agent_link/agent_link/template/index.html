@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Output</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const socket = io();
+            const terminalOutput = document.getElementById("terminal-output");
+
+            socket.on("output", (data) => {
+                terminalOutput.innerHTML += data + "<br>";
+            });
+        });
+    </script>
+</head>
+<body>
+    <pre id="terminal-output"></pre>
+</body>
+</html>

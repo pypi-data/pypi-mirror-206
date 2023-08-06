@@ -1,0 +1,12 @@
+{
+  "name": "Designer by HAI CONVERSE",
+  "id": "1233675196829651540",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "capabilities": [],
+  "enableProposedApi": false,
+  "editorType": [
+    "figma"
+  ],
+  "ui": "dist/ui.html"
+}

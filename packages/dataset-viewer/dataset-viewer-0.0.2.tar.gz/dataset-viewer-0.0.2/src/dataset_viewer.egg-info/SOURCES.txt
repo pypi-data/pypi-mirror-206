@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/dataset-viewer/__init__.py
+src/dataset-viewer/main.py
+src/dataset_viewer.egg-info/PKG-INFO
+src/dataset_viewer.egg-info/SOURCES.txt
+src/dataset_viewer.egg-info/dependency_links.txt
+src/dataset_viewer.egg-info/requires.txt
+src/dataset_viewer.egg-info/top_level.txt

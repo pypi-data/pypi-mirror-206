@@ -1,0 +1,6 @@
+setup.py
+jhLib.egg-info/PKG-INFO
+jhLib.egg-info/SOURCES.txt
+jhLib.egg-info/dependency_links.txt
+jhLib.egg-info/requires.txt
+jhLib.egg-info/top_level.txt

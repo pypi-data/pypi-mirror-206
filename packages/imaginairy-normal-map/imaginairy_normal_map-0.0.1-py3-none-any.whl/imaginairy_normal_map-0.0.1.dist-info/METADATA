@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: imaginairy-normal-map
+Version: 0.0.1
+Summary: Image-to-normal-map 
+Author: Bryce Drennan
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: torch (>=1.7)
+Requires-Dist: torchvision
+Requires-Dist: timm
+Requires-Dist: huggingface-hub
+

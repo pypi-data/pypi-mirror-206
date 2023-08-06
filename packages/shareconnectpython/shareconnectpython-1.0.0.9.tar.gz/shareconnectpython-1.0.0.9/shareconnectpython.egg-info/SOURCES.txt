@@ -1,0 +1,13 @@
+README.md
+setup.py
+SharekhanApi/__init__.py
+SharekhanApi/sharekhanConnect.py
+SharekhanApi/sharekhanExceptions.py
+SharekhanApi/sharekhanWebsocket.py
+shareconnectpython.egg-info/PKG-INFO
+shareconnectpython.egg-info/SOURCES.txt
+shareconnectpython.egg-info/dependency_links.txt
+shareconnectpython.egg-info/requires.txt
+shareconnectpython.egg-info/top_level.txt
+test/__init__.py
+test/test.py

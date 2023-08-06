@@ -1,0 +1,6 @@
+README.rst
+ftdz_from_fyh.egg-info/PKG-INFO
+ftdz_from_fyh.egg-info/SOURCES.txt
+ftdz_from_fyh.egg-info/dependency_links.txt
+ftdz_from_fyh.egg-info/requires.txt
+ftdz_from_fyh.egg-info/top_level.txt

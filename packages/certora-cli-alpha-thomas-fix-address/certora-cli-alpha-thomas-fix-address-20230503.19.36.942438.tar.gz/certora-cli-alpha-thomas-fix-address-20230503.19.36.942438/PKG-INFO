@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: certora-cli-alpha-thomas-fix-address
+Version: 20230503.19.36.942438
+Summary: Runner for the Certora Prover
+Home-page: https://pypi.org/project/certora-cli-alpha-thomas-fix-address
+Author: Certora
+Author-email: support@certora.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.16
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Commit e4880f3. Build and Run scripts for executing the Certora Prover on Solidity smart contracts.
+

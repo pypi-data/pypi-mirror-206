@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ndpoint
+Version: 0.0.1
+Summary: sample plot library
+Home-page: http://github.com/ykozw/ndpoint
+Author: ykozw
+Author-email: yuki.ozawa.1985@gmail.com
+License: MIT License
+Keywords: sampling
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Multimedia :: Graphics :: Presentation
+Classifier: Framework :: Matplotlib
+License-File: LICENSE
+Requires-Dist: matplotlib (>=3.7.1)
+Requires-Dist: numpy (>=1.24.3)
+

@@ -1,0 +1,10 @@
+.DS_Store
+.project
+.idea
+.pydevproject
+*.pyc
+*.swp
+*.swo
+html/*
+dist
+pyisva.egg-info

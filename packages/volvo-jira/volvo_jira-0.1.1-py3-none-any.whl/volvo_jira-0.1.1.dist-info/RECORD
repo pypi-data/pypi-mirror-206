@@ -1,0 +1,16 @@
+vira/__init__.py,sha256=O4DfJwutlXFapEC_8mmci6dsndgnmcgUsRqxp_cmaO8,149
+vira/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vira/vira_add_parent.py,sha256=JkJX0ksw4YLUOCdz6dQvEvisTL7ffgvOl8xe7v_iGrw,2421
+vira/vira_base.py,sha256=0Ub55_TKnr9YLNVp_BhUmflSoLcnk2VqNVspOTmIl0E,1178
+vira/vira_copy.py,sha256=GRg_2VjqnBccPYgnxbgFHehTbz5JUSrYkyaFwgQu5ro,3325
+vira/vira_deep_copy.py,sha256=_Eud3g4fHseTPV7Zq53vVYLrNwuvKKNLQf2kgmha3xk,6709
+vira/vira_error.py,sha256=MyDeHBg2nQhbHxV4CEijhSyzDaw5rOuAfeN1lWZKcUA,559
+vira/vira_issue.py,sha256=ON-106kdtQYU_WBu1Oq8_OKIWWK7w9rEllI4zLPmf-A,3173
+vira/vira_script_utils.py,sha256=zcIZasfFcTQjqYkdqZOctWFFZ7gdeOtfaUJbncWhCfg,1483
+vira/vira_vira.py,sha256=eWdtzHnPRVecKpARp_ATHtHYEGUhV_tZHHOqMfFusL0,18705
+volvo_jira-0.1.1.dist-info/LICENSE,sha256=7A7u4mHTScI1B4ke5kPvpw1cFbGdSDxOktsyqhNVMOQ,1075
+volvo_jira-0.1.1.dist-info/METADATA,sha256=5BwV20oinPozcAznCNveFJJyC8XgMOtKDno7lBM6nl0,1230
+volvo_jira-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+volvo_jira-0.1.1.dist-info/entry_points.txt,sha256=pwdpG9WZALBVQ1vKUciPnSNI8efprsjp53NOciR4Gx0,136
+volvo_jira-0.1.1.dist-info/top_level.txt,sha256=DLCqU8Ouk8IHQ3UTn9k4P7bE4RorJd-FUeL5zxnk0_0,5
+volvo_jira-0.1.1.dist-info/RECORD,,

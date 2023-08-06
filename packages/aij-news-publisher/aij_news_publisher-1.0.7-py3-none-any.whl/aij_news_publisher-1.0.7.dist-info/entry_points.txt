@@ -1,0 +1,2 @@
+[console_scripts]
+aij-news-pub = news_publisher:main

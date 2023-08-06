@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+fuzz_dict/__init__.py
+fuzz_dict/fuzzdict.py
+fuzz_dict.egg-info/PKG-INFO
+fuzz_dict.egg-info/SOURCES.txt
+fuzz_dict.egg-info/dependency_links.txt
+fuzz_dict.egg-info/requires.txt
+fuzz_dict.egg-info/top_level.txt

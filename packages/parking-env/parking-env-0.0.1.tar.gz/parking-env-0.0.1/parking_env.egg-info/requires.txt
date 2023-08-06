@@ -1,0 +1,4 @@
+gymnasium
+numpy
+numba
+pygame

@@ -1,0 +1,8 @@
+table_builder_io/__init__.py,sha256=Gzhu1dph6GSKwFmOin87lD0jfoJ75s1nSIiO3s1PYLk,135
+table_builder_io/parse_metadata.py,sha256=rc0gsvVPKtkExLxV5GSWs4DVu_WWTurwcKsCaWvhRvY,2397
+table_builder_io/reader.py,sha256=yoBThCfeuCl3kZaki-wxsklkJ6IB77xrQP9_qHYSygA,15403
+table_builder_io/regexes.py,sha256=iJHUUVeKj5scaED45I8Fas7k4WXv3PtGWQ9wqrmVh58,3011
+table_builder_io-0.1.1.dist-info/LICENSE,sha256=81sJDdUaRTVPext1JAZszGRRsi2gMiEAFeBSrI1PLx4,1101
+table_builder_io-0.1.1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+table_builder_io-0.1.1.dist-info/METADATA,sha256=rp2kHbbIiYnksffnP8tOs2EfqbdgqN0FSuNhLWtBrSE,7719
+table_builder_io-0.1.1.dist-info/RECORD,,

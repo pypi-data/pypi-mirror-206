@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: gui4pygame
+Version: 0.0.1
+Summary: A Package For Creating UI Elements Easier For Pygame
+Home-page: UNKNOWN
+Author: Shejin Shouckath
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: python,ui,gui,pygame
+Platform: UNKNOWN
+Requires-Dist: pygame
+
+UNKNOWN
+
+

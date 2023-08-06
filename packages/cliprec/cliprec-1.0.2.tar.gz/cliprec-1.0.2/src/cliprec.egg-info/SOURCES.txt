@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+cliprec.exe
+pyproject.toml
+src/cliprec/__init__.py
+src/cliprec/__main__.py
+src/cliprec.egg-info/PKG-INFO
+src/cliprec.egg-info/SOURCES.txt
+src/cliprec.egg-info/dependency_links.txt
+src/cliprec.egg-info/requires.txt
+src/cliprec.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+setup.py
+netpolymigrator.egg-info/PKG-INFO
+netpolymigrator.egg-info/SOURCES.txt
+netpolymigrator.egg-info/dependency_links.txt
+netpolymigrator.egg-info/entry_points.txt
+netpolymigrator.egg-info/requires.txt
+netpolymigrator.egg-info/top_level.txt

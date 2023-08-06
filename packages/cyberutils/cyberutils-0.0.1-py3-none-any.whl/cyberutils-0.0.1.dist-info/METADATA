@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: cyberutils
+Version: 0.0.1
+Summary: The Toolset for cyber protocol
+Home-page: https://github.com/Snedashkovsky/cyberutils
+License: MIT
+Keywords: bostrom,cyber,knowledge-graph,dex,swap,defi,crypto,blockchain
+Author: Snedashkovsky,
+Author-email: sn@cyberdrop.ai
+Requires-Python: >=3.9,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cyber_sdk (>=1.1.2,<2.0.0)
+Requires-Dist: ipython (>=8.0.0,<9.0.0)
+Requires-Dist: multiprocess (>=0.70.14,<0.71.0)
+Requires-Dist: numpy (>=1.0.0,<2.0.0)
+Requires-Dist: pandarallel (>=1.6.0,<2.0.0)
+Requires-Dist: pandas (>=1.0.0,<2.0.0)
+Requires-Dist: python-dotenv (>=0.20.0,<0.21.0)
+Requires-Dist: tqdm (>=4.0.0,<5.0.0)
+Project-URL: Documentation, https://github.com/Snedashkovsky/cyberutils
+Project-URL: Repository, https://github.com/Snedashkovsky/cyberutils.git
+Description-Content-Type: text/markdown
+
+# cyberutils

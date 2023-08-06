@@ -1,0 +1,8 @@
+Pillow
+cryptography
+neurokit
+numpy
+pandas
+python-docx
+pyxid
+statsmodels

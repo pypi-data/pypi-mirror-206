@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: maxeqx-dc-webhook.py
+Version: 1.1.0
+Summary: This is simple webhook sender in discord.
+Home-page: 
+Author: maxeqx
+Author-email: maxeqxmail@gmail.com
+License: MIT
+Keywords: discord webhook sender
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+Long description and usage is on my github: https://github.com/makseksowny/maxeqx-dc-webhook.

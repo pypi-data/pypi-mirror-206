@@ -1,0 +1,7 @@
+FROM python:slim 
+
+RUN pip install grpcio grpcio-tools
+
+WORKDIR /node
+ENV PYTHONUNBUFFERED 1
+CMD python3 node.py

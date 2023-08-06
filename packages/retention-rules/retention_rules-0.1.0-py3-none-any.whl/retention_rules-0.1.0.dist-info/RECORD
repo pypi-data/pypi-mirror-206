@@ -1,0 +1,9 @@
+retention_rules/__init__.py,sha256=53KJBUjlPRD6ncSyYUyABjBHyLdGJuOt8K6AY62T9mo,72
+retention_rules/builder.py,sha256=fX5l8TdYd8j5qZiz5XS-jr-9O6gFbojdYoWnBynCd9A,1958
+retention_rules/periods.py,sha256=f4jZcM_UYTpEuf8wmvcUQCgpTPQXnlL0ZkRyPvO6_LE,5112
+retention_rules/policy.py,sha256=fCU_UqeGtc76F1iuAu-C4ajMRQp7W9a_RdwejpMmsDc,2666
+retention_rules-0.1.0.dist-info/LICENSE,sha256=MvDAXrIpvA5PZsyNS_Ueh7oEG3zTlxZaOyiPei7LFrw,1071
+retention_rules-0.1.0.dist-info/METADATA,sha256=JSdRDK0J6G1jIO-dU3dnUmH-euXpcAgF4-IlPE5p6YM,8055
+retention_rules-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+retention_rules-0.1.0.dist-info/top_level.txt,sha256=JwMyxEtVuDXv75qG-B_HmQa6QfMKdrPOMlyOTjDs1_Q,16
+retention_rules-0.1.0.dist-info/RECORD,,

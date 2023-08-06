@@ -1,0 +1,6 @@
+setup.py
+khruang_lyrics_load_bar.egg-info/PKG-INFO
+khruang_lyrics_load_bar.egg-info/SOURCES.txt
+khruang_lyrics_load_bar.egg-info/dependency_links.txt
+khruang_lyrics_load_bar.egg-info/entry_points.txt
+khruang_lyrics_load_bar.egg-info/top_level.txt

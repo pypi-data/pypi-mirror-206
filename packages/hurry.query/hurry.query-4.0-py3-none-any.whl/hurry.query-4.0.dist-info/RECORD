@@ -1,0 +1,16 @@
+hurry.query-4.0-py3.9-nspkg.pth,sha256=USgFDWowG0hAMblJqy4J8Wjg_WGljd9Hu85dvHJaF0M,534
+hurry/query/__init__.py,sha256=XSl2DhGlS_Sztt8navTIfT-eYRM4AodPFyROrJ2mkA8,1137
+hurry/query/configure.zcml,sha256=cym55tQ7P10RyBlEsQTLoWapAJtusDolC9oISOnsmCg,152
+hurry/query/interfaces.py,sha256=ggDCGTkN5eMaV2OHr4m3giy6iams91NyRZuxIWPlGS4,3049
+hurry/query/query.py,sha256=1FEhi3kO_Fz4yIMFtYOuktaKrE2J8RmBTO2RAzESAoU,17003
+hurry/query/set.py,sha256=J6ufkhBCiy1hMKR04BYeCIdT_0oQsncfZf6XvlfJGZs,2990
+hurry/query/value.py,sha256=VfG08CxaGeEhYuDUGq2d64tXZKsG1191YQpmATryUkA,4043
+hurry/query/tests/__init__.py,sha256=2Urgx-GXzZvO4nLJc0ye0SDGlNOoqq7ej9IFxgOk2IQ,1103
+hurry/query/tests/test_doctests.py,sha256=Z4quS0w6w8qjPB6ZgUNeufkQo8uD33r_vj8xdY6JB1s,83
+hurry/query/tests/test_query.py,sha256=NHG22sDaoGNWQJBhhZZPVEPrYTSYXPHvdnnS4QyAr8Q,13996
+hurry.query-4.0.dist-info/LICENSE.txt,sha256=PmcdsR32h1FswdtbPWXkqjg-rKPCDOo_r1Og9zNdCjw,2070
+hurry.query-4.0.dist-info/METADATA,sha256=5vU9pzTFITNFvfs1k6UxqplY39PqiXGVNDthjIZvYbk,7302
+hurry.query-4.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+hurry.query-4.0.dist-info/namespace_packages.txt,sha256=9f_1Zibynhg1o5BX6EzcsPcvgVM_GjoIzSMqxzPrZ1M,6
+hurry.query-4.0.dist-info/top_level.txt,sha256=9f_1Zibynhg1o5BX6EzcsPcvgVM_GjoIzSMqxzPrZ1M,6
+hurry.query-4.0.dist-info/RECORD,,

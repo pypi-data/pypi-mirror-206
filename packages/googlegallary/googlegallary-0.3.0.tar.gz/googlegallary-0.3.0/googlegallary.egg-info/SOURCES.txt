@@ -1,0 +1,8 @@
+README.md
+setup.py
+googlegallary/__init__.py
+googlegallary.egg-info/PKG-INFO
+googlegallary.egg-info/SOURCES.txt
+googlegallary.egg-info/dependency_links.txt
+googlegallary.egg-info/requires.txt
+googlegallary.egg-info/top_level.txt

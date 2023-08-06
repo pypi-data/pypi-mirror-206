@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: bsd
+Version: 2
+Summary: bsd is not berkely
+Home-page: http://github.com/thatebhj/bsd
+Author: Bart Thate
+Author-email: thatebhj@gmail.com
+License: Public Domain
+Description: README
+        ######
+        
+        
+        **NAME**
+        
+        
+        |
+        
+        ``bsd`` - bsd is not berkely
+        
+        |
+        
+        **SYNOPSIS**
+        
+        ::
+        
+         $ sudo python3 -m pip install bsd
+        
+        
+        **DESCRIPTION**
+        
+        |
+        
+        
+        ``bsd`` is a CLI, intended to be programmable, with a client program (bsd).
+        It provides object persistence, an event handler and some basic code to load
+        modules that can provide additional functionality.
+        
+        ``bsd`` uses object programming, object oriented programming without the
+        oriented. Object programming is programming where the methods are seperated
+        out into functions that use the object as the first argument of that funcion.
+        This gives base class definitions a clean namespace to inherit from and to load
+        json data into the object's __dict__. A clean namespace prevents a json loaded
+        attribute to overwrite any methods.
+        
+        ``bsd`` stores it's data on disk where objects are time versioned and the
+        last version saved on disk is served to the user layer. Files are JSON dumps
+        and paths carry the type in the path name what makes reconstruction from
+        filename easier then reading type from the object.
+        
+        ``bsd`` has some functionality, mostly feeding RSS feeds into a irc
+        channel. It can do some logging of txt and take note of things todo.
+        
+        
+        ``bsd`` is a contribution back to society, it is placed in the Public
+        Domain.
+        
+        |
+        
+        **AUTHOR**
+        
+        |
+        
+        B.H.J. Thate <thatebhj@gmail.com>
+        
+        |
+        
+        **COPYRIGHT**
+        
+        |
+        
+        ``bsd`` is placed in the Public Domain.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: Public Domain
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst

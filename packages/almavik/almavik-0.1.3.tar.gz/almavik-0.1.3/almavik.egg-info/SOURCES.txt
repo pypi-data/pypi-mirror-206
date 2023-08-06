@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+almavik.egg-info/PKG-INFO
+almavik.egg-info/SOURCES.txt
+almavik.egg-info/dependency_links.txt
+almavik.egg-info/requires.txt
+almavik.egg-info/top_level.txt

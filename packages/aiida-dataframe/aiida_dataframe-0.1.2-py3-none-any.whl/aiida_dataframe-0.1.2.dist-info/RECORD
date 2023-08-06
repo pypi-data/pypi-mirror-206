@@ -1,0 +1,9 @@
+aiida_dataframe/__init__.py,sha256=GFjN4oJLysRzJ6PM7CadGbV0J34cG_k94yNV8TLdwQg,95
+aiida_dataframe/cli.py,sha256=3QA6dV8_U3GOqBja16-WC3e1yCUObTliQf8jQ2hBrqc,2171
+aiida_dataframe/data/__init__.py,sha256=YLTSm8B4BW2x538bWuuBGg9mllB0eQScXCfr2md2JDw,182
+aiida_dataframe/data/dataframe.py,sha256=owzoP9oa4hzGTKMiVFKpjIwcGWE7tDbHz1HPVy2v4Sg,4711
+aiida_dataframe-0.1.2.dist-info/entry_points.txt,sha256=xNtHuGU618c0TzFqCsEQuCzwTiJUzZnS0ywOuveQM-Q,138
+aiida_dataframe-0.1.2.dist-info/LICENSE,sha256=3I_Ap2my-fv-qkVfKw09_7pFi4-fy-dG1J7iXfml5Ow,1073
+aiida_dataframe-0.1.2.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+aiida_dataframe-0.1.2.dist-info/METADATA,sha256=AyBSXuCjZcn-uhj7hzxQnkYlWDxCMj-5Q6DrIS5TFyI,4271
+aiida_dataframe-0.1.2.dist-info/RECORD,,

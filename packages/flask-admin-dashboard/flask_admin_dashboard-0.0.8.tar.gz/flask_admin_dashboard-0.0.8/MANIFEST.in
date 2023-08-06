@@ -1,0 +1,2 @@
+include flask_admin_dashboard/templates/*
+include flask_admin_dashboard/static/*

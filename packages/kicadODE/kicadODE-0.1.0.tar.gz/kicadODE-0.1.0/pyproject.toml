@@ -1,0 +1,67 @@
+[project]
+# This is the name of your project. The first time you publish this
+# package, this name will be registered for you. It will determine how
+# users can install this project, e.g.:
+#
+# $ pip install sampleproject
+#
+# And where it will live on PyPI: https://pypi.org/project/sampleproject/
+#
+# There are some restrictions on what makes a valid project name
+# specification here:
+# https://packaging.python.org/specifications/core-metadata/#name
+name = "kicadODE"
+version = "0.1.0"
+description = "Kicad ODE solver"
+readme = "README.md" # Optional
+requires-python = ">=3.7"
+license = {file = "LICENSE.txt"}
+keywords = ["sample", "setuptools", "development"]  # Optional
+authors = [
+  {name = "Okan Demir", email = "okndemir@gmail.com" } # Optional
+]
+maintainers = [
+  {name = "Okan Demir", email = "okndemir@gmail.com" } # Optional
+]
+
+classifiers = [  # Optional
+  "Development Status :: 3 - Alpha",
+
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Build Tools",
+
+  "License :: OSI Approved :: MIT License",
+
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+dependencies = [ # Optional
+]
+
+# List additional groups of dependencies here (e.g. development
+# dependencies). Users will be able to install these using the "extras"
+# syntax, for example:
+#
+#   $ pip install sampleproject[dev]
+#
+# Similar to `dependencies` above, these must be valid existing
+# projects.
+[project.optional-dependencies] # Optional
+dev = [ ]
+test = [ ]
+
+[project.urls]  # Optional
+"Homepage" = "https://github.com/dmrokan/kicadODE/"
+"Source" = "https://github.com/dmrokan/kicadODE/"
+
+[build-system]
+# These are the assumed default build requirements from pip:
+# https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"

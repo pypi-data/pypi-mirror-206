@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+kicadODE/__init__.py
+kicadODE/helpers.py
+kicadODE.egg-info/PKG-INFO
+kicadODE.egg-info/SOURCES.txt
+kicadODE.egg-info/dependency_links.txt
+kicadODE.egg-info/requires.txt
+kicadODE.egg-info/top_level.txt
+tests/test_01.py

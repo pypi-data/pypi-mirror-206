@@ -1,0 +1,14 @@
+bloqs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bloqs/common/QuantumGate.py,sha256=KVr35nBpme_vdwsw6YL77CGJvlwsgMzrW3ZVksLArp8,1158
+bloqs/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bloqs/ext/cirq/__init__.py,sha256=-8aX_PBFUhKjo_nD4SXR1-ZcuZyQwwjT6ICvF_InQGM,92
+bloqs/ext/cirq/gates.py,sha256=fCO4qMo6Yn67h8-RQ6So_QMVW-dWeUPW_9HAV3ANnvs,16675
+bloqs/ext/cirq/utils.py,sha256=MqFNX8H-t4Ap0F0uZLkVEUHQShFrLjqOnazVRuV_8bQ,346
+bloqs/ext/pyquil/__init__.py,sha256=bvQmail9bfoIRKmDi_-yMb-dcXtKRn7Tg0HVG2Nt6G4,124
+bloqs/ext/pyquil/gates.py,sha256=V2dfACWWeSyRK-WTDBdaOPoEW2dIulpED0sM9y01LKA,8099
+bloqs/ext/pyquil/utils.py,sha256=gwn5dxbclxGwmV291j9sgTNAiozhgCm1MYGodGukwBQ,312
+bloqs-0.0.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+bloqs-0.0.2.dist-info/METADATA,sha256=7Q4pTt42w0WywatRdqWm1DNtm1l892tZ5eqYNFsKRck,747
+bloqs-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+bloqs-0.0.2.dist-info/top_level.txt,sha256=GioZ8kCtPD8gjH_oNSM0Oxz--2pVanFN04xXvkp4Mh4,6
+bloqs-0.0.2.dist-info/RECORD,,

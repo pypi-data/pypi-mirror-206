@@ -1,0 +1,134 @@
+Metadata-Version: 2.1
+Name: spotipy_playlists2excel
+Version: 0.0.1
+Summary: A small package that exports spotify playlists to excel xlsx format.
+Author-email: Example Author <bebissig@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Spotify API Script
+
+This script uses the Spotify API to export a user's playlists and convert them into a pandas DataFrame. Additionally, it includes a function to retrieve a user's recently played tracks. 
+
+## Getting Spotify API Credentials
+To use this script, you must have Spotify API credentials. To get them, you will need to create a Spotify Developer Account and register your application to obtain your client_id, client_secret, and redirect_uri. Once you have these credentials, create a new file named "cred.py" and store them in that file as variables with the same names. 
+
+## Dependencies
+This script requires the following packages to be installed: 
+
+- `spotipy`
+- `pandas`
+- `datetime`
+- `time`
+
+To install these packages, run the following command: 
+
+```
+pip install spotipy pandas datetime time
+```
+
+## Functions
+
+### `get_playlist_tracks(sp,username,playlist_id)`
+This function retrieves all tracks from a playlist using the `spotipy` API client. It takes in the following parameters:
+
+- `sp`: spotipy API client instance
+- `username`: Spotify username
+- `playlist_id`: Spotify playlist ID (not the name)
+
+### `get_playlist(sp,username,list_name)`
+This function retrieves a playlist using the `spotipy` API client. It takes in the following parameters:
+
+- `sp`: spotipy API client instance
+- `username`: Spotify username
+- `list_name`: The name of the playlist you want to retrieve
+
+### `test_playlist_tracks(username)`
+This function retrieves the most recent track from a user's playlist and is used to test that the `get_playlist_tracks` function is working properly. It takes in the following parameter:
+
+- `username`: Spotify username
+
+### `create_api_session(scope,client_id,client_secret, redirect_uri)`
+This function creates a new `spotipy` API session with the specified scope and credentials. It takes in the following parameters:
+
+- `scope`: The scope of the API session
+- `client_id`: Spotify API client ID
+- `client_secret`: Spotify API client secret
+- `redirect_uri`: Spotify API redirect URI
+
+### `export_spotify_playlists(username,sp)`
+This function exports all of a user's playlists using the `spotipy` API client and converts them into a dictionary. It takes in the following parameters:
+
+- `username`: Spotify username
+- `sp`: `spotipy` API client instance
+
+### `playlists_to_dataframe(all_playlists,to_clipboard=False,savefile="my_spotify_playlists.xlsx")`
+This function takes a dictionary of playlists and their tracks and converts it into a pandas DataFrame. It takes in the following parameters:
+
+- `all_playlists`: A dictionary of playlists and their tracks
+- `to_clipboard`: Whether to copy the DataFrame to the clipboard (default is `False`)
+- `savefile`: The name of the Excel file to save the DataFrame to (default is `my_spotify_playlists.xlsx`)
+
+### `recently_played(sp)`
+This function retrieves a user's recently played tracks using the `spotipy` API client. Note that only tracks that have been played to the end are on this list. It takes in the following parameter:
+
+- `sp`: `spotipy` API client instance
+
+## Usage
+To use this script, run it from the command line using the following command:
+
+Here's the README content in Markdown format:
+
+```markdown
+# Spotify Playlists to DataFrame
+
+This Python script exports a user's playlists and recently played tracks from the Spotify API and converts them into pandas DataFrames.
+
+## Requirements
+
+- Python 3.6 or later
+- pandas
+- Spotipy
+
+To install the required libraries, run:
+
+```
+pip install pandas spotipy
+```
+
+## Getting Spotify API credentials
+
+1. Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications).
+2. Log in with your Spotify account or create a new one.
+3. Click on "Create an App" and fill in the required information. You can use any values for the fields.
+4. After creating the app, you'll be redirected to the app's page, where you can find your `Client ID` and `Client Secret`. Click "Show Client Secret" to reveal it.
+5. Add a Redirect URI by clicking on "Edit Settings" and entering a valid URL in the "Redirect URIs" field. For example, you can use `http://localhost:8080/callback/`.
+
+## Setting up the credentials file
+
+Create a `cred.py` file in the same directory as the main script with the following content:
+
+```python
+CLIENT_ID = "your_client_id"
+CLIENT_SECRET = "your_client_secret"
+REDIRECT_URI = "your_redirect_uri"
+```
+
+Replace `your_client_id`, `your_client_secret`, and `your_redirect_uri` with the values obtained from the Spotify Developer Dashboard.
+
+## Usage
+
+Run the `spotify_playlists_to_dataframe.py` script, and enter the Spotify username when prompted. The script will display the user's playlists and recently played tracks as pandas DataFrames.
+```
+
+```
+python spotify_script.py
+```
+
+It will retrieve all of the playlists for the specified user and save them to an Excel file named "my_spotify_playlists.xlsx". If you would like to save the file with a different name, simply change the `savefile` parameter in the `playlists_to_dataframe` function call.
+
+To retrieve a user's recently played tracks,

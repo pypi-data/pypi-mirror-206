@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/spotipy_playlists2excel/cred.py
+src/spotipy_playlists2excel/playlists.py
+src/spotipy_playlists2excel.egg-info/PKG-INFO
+src/spotipy_playlists2excel.egg-info/SOURCES.txt
+src/spotipy_playlists2excel.egg-info/dependency_links.txt
+src/spotipy_playlists2excel.egg-info/top_level.txt

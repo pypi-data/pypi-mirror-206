@@ -1,0 +1,7 @@
+tom_hermes/__init__.py,sha256=QS4PCyNGAhq_4xEA05k2Dx0Fr-LHa0hP9h2QCivJBUE,96
+tom_hermes/hermes.py,sha256=9SEk1mfA1XbenaRye86vIPH1R8A3YAS2FS27qaRuwCY,11519
+tom_hermes/templates/tom_hermes/query_result.html,sha256=0KxsGHP2vgqAkv7sf1FZdeuHMyvPM6H0Yu3xDp6pILY,2836
+tom_hermes-0.1.9.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tom_hermes-0.1.9.dist-info/METADATA,sha256=Moxrm1nywh7tDn2kgFAjtA4bqYFS-OH8_g2CS_4ERVk,2253
+tom_hermes-0.1.9.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+tom_hermes-0.1.9.dist-info/RECORD,,

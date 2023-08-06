@@ -1,0 +1,12 @@
+compresso.cpython-311-darwin.so,sha256=y8RkTwU6EF7Gi3zPAK2I-7MZ9Mc0KjWyFqGGDeSFcUc,1688572
+compresso_cli/__init__.py,sha256=b1VfA4Miuu-0YE_wHw-wr3KiXYVsnIfhQy2XCeP4VEs,18
+compresso_cli/cli.py,sha256=Tk_aFILLxV8y3Ykp5ULoZKPeZE-bbKsFtvYdgZFGGtY,4054
+compresso-3.2.1.dist-info/AUTHORS,sha256=k42lDGG_g2HVGOXny3sKWrJ_JYM2U4UiSp57YLdsCrM,169
+compresso-3.2.1.dist-info/COPYING.LESSER,sha256=QY-vetiEQe4Sf_TQTurV8Z2oXnDp9TCfq-RhMtf_D5I,7553
+compresso-3.2.1.dist-info/LICENSE,sha256=nKaEqFRlx8wKp9ElsZVmqu1VzoNC3rIUROw_J8fTX_I,1152
+compresso-3.2.1.dist-info/METADATA,sha256=_6u1Jsp2mOpJWR73nz9cBKIjb26ItAlmGq1-Qsxa6Yo,13495
+compresso-3.2.1.dist-info/WHEEL,sha256=1gGdl8c7V4tzGrOfjA4xbXg5uJOisfAwei4hK84YpXE,115
+compresso-3.2.1.dist-info/entry_points.txt,sha256=nH8T-D4gOact5yibX0upPKlR_HGxUJOk2lUM2wZTCB8,49
+compresso-3.2.1.dist-info/pbr.json,sha256=ueZwUge04ykpU6MtR95pFZbQJDO1GchCbq1n19nB-FY,46
+compresso-3.2.1.dist-info/top_level.txt,sha256=fPvA5iPMKpsUMYb-N471dA14Gp69UC4AWTj9oDoBfew,24
+compresso-3.2.1.dist-info/RECORD,,

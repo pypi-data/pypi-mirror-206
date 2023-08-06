@@ -1,0 +1,3 @@
+[neon.plugin.audio]
+ovos-audio-transformer-plugin-speechbrain-voxlingua107fasterwhisper = ovos_audio_transformer_plugin_speechbrain_voxlingua107:SpeechBrainVoxLingua107LangClassifier
+

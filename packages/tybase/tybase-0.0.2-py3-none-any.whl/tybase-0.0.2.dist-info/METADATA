@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tybase
+Version: 0.0.2
+Summary: 用于存放自己常用的安装包
+Home-page: https://github.com/yourusername/your_package
+Author: Tuya
+Author-email: 353335447@qq.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools
+Requires-Dist: requests
+
+### 测试

@@ -1,0 +1,7 @@
+langchain
+setuptools
+python-dotenv
+tiktoken
+pexpect
+pydantic
+openai

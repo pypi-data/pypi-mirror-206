@@ -1,0 +1,3 @@
+recursive-include flask_admin_dashboard/static *
+recursive-include flask_admin_dashboard/templates */*
+recursive-include flask_admin_dashboard/templates/admin *.*

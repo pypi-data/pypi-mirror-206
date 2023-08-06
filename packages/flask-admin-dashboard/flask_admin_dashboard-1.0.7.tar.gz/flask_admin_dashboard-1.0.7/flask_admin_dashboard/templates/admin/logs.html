@@ -1,0 +1,75 @@
+{% extends "admin/master.html" %}
+{% block head_css %}
+    {{ super() }}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.6/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.47.0/codemirror.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.47.0/mode/python/python.min.js"></script>
+    <script type="module" src="/static/js/codemirror.js"></script>
+{% endblock %}
+
+
+{% block body %}
+    <div class="clock" id="clock"></div>
+
+    <script>
+        var clock = document.getElementById("clock");
+        clock.textContent = moment.utc().format("YYYY[-]MM[-]DD HH:mm:ss")
+
+        function get_time() {
+            clock.textContent = moment.utc().format("YYYY[-]MM[-]DD HH:mm:ss")
+        }
+
+        setInterval(get_time, 1000)
+    </script>
+
+    {% set initial_index = initial_index|default(1) %}
+    <div class="container-fluid border-dark">
+
+
+        <div class="panel panel-default">
+            <div class="panel-heading pull-left">
+                <ul class="nav nav-pills nav-stacked">
+                    {% for file in logs %}
+                        <li {% if file.index == initial_index %} class="active" {% endif %}><a href="#{{ file.index }}"
+                                                                                               data-toggle="tab"
+                                                                                               id={{ file.index }}>{{ file.name }}</a>
+                        </li>
+                        <script>
+
+                            function unEscape(htmlStr) {
+                                htmlStr = htmlStr.replace(/&lt;/g, "<");
+                                htmlStr = htmlStr.replace(/&gt;/g, ">");
+                                htmlStr = htmlStr.replace(/&quot;/g, "\"");
+                                htmlStr = htmlStr.replace(/&#39;/g, "\'");
+                                htmlStr = htmlStr.replace(/&amp;/g, "&");
+                                htmlStr = htmlStr.replace(/&#34;/g, " ");
+                                return htmlStr;
+                            }
+
+                            document.getElementById({{ file.index }}).addEventListener('click', fn);
+
+                            function fn() {
+                                myCodeMirror.setValue(unEscape(`{{ file.content }}`))
+                                myCodeMirror.setSize(null, 650)
+                            }
+                        </script>
+                    {% endfor %}
+
+                </ul>
+            </div>
+            <div class="panel-body">
+                <textarea id="txtScript"></textarea>
+            </div>
+        </div>
+        <label>
+
+        </label>
+
+
+    </div>
+
+
+
+    {{ super() }}
+{% endblock %}

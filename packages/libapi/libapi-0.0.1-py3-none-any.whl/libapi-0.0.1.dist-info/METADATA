@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: libapi
+Version: 0.0.1
+Home-page: https://github.com/mvasilkov/libapi
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# libapi
+
+## Features
+
+- URI Template (Levels 1 and 2), as seen in [RFC 6570](https://datatracker.ietf.org/doc/html/rfc6570)

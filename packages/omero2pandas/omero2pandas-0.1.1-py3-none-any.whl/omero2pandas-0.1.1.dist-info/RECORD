@@ -1,0 +1,10 @@
+omero2pandas/__init__.py,sha256=mXMpy5DYZmgeWd2-8D0JcJzWx42W-ONYP8RyneWH1wk,16439
+omero2pandas/connect.py,sha256=DYZo89EO5UVZ6UVGla0C19JmbpdsKzA_WGbwGTyCkMA,10061
+omero2pandas/upload.py,sha256=U9VNTxOhjg8L_bNosb80yq8yvarZwdRPYyZYRgVGW2U,4620
+omero2pandas/version.py,sha256=yQ7TmTlb7CS-LfmuM9NoNmiT4NJ2aHnpHpbl_VsyJCQ,18
+omero2pandas-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+omero2pandas-0.1.1.dist-info/METADATA,sha256=0Z0QyUrSda5ZJ89vrwGL2J73u_uEb8hIHVYxKTDra7E,6151
+omero2pandas-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+omero2pandas-0.1.1.dist-info/top_level.txt,sha256=YNcwppDTEUDyIOKSx2JbXRUP4J1xO-47hhL_pOkLTx8,13
+omero2pandas-0.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+omero2pandas-0.1.1.dist-info/RECORD,,

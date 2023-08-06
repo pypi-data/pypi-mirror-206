@@ -1,0 +1,13 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+AICreator.egg-info/PKG-INFO
+AICreator.egg-info/SOURCES.txt
+AICreator.egg-info/dependency_links.txt
+AICreator.egg-info/requires.txt
+AICreator.egg-info/top_level.txt
+AICreatorPackage/__init__.py
+AICreatorPackage/functions/AICreatorPackage.py
+AICreatorPackage/functions/__init__.py

@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "oobabot"
+version = "0.1.2"
+description = "A Discord bot which talks to Large Language Model AIs running on oobabooga's text-generation-webui"
+authors = ["Christopher Rude <chris@rudesoftware.net>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/chrisrude/oobabot"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+"discord.py" = "^2.2.2"
+pysbd = "^0.3.4"
+websockets = "^11"
+
+[tool.poetry.scripts]
+oobabot = 'oobabot.oobabot:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.1"

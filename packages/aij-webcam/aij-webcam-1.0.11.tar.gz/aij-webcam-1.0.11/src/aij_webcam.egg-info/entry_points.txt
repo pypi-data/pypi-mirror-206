@@ -1,0 +1,2 @@
+[console_scripts]
+aij-webcam = webcam:main

@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: embedbase-qdrant
+Version: 1.0.0
+Summary: Embedbase + Qdrant - Advanced and high-performant vector similarity search technology in your AI applications.
+Home-page: https://github.com/different-ai/embedbase-qdrant
+License: MIT
+Keywords: embeddings,machine learning,artificial intelligence
+Author: Different AI
+Author-email: louis@embedbase.xyz
+Requires-Python: >=3.8,<3.12
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: embedbase (>=1.1.4,<2.0.0)
+Requires-Dist: qdrant-client (>=1.1.6,<2.0.0)
+Project-URL: Repository, https://github.com/different-ai/embedbase-qdrant
+Description-Content-Type: text/markdown
+
+# embedbase-qdrant
+
+Embedbase + Qdrant - Advanced and high-performant vector similarity search technology in your AI applications
+

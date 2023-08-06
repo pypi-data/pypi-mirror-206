@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: acltldr
+Version: 0.1.1
+Summary: 
+Author: sobamchan
+Author-email: oh.sore.sore.soutarou@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: requests (>=2.29.0,<3.0.0)
+Requires-Dist: schnitsum (>=0.4.6,<0.5.0)
+Requires-Dist: sienna (>=0.2.2,<0.3.0)
+Requires-Dist: tqdm (>=4.65.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# ACLTLDR
+
+This is a python-based CLI tool used to generate summaries for ACL conference papers on [this page](https://sotaro.io/tldrs).
+
+
+## Installation
+
+```
+pip install acltldr
+```
+
+
+## Usage
+
+An example command to generate summaries for the proceedings of EACL 2021.
+Following command will generate a jsonl file with all the data, and a markdown file for the post.
+
+```
+acltldr https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2021.eacl.xml \
+        ./ \
+	--prefix "2021.eacl" \
+	--use-gpu
+```
+

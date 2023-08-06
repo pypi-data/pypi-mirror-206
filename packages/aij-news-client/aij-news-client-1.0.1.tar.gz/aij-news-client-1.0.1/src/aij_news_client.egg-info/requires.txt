@@ -1,0 +1,16 @@
+peppercorn
+opencv-python
+mediapipe
+screeninfo
+cvzone
+pika
+requests
+numpy
+pandas
+matplotlib
+
+[dev]
+check-manifest
+
+[test]
+coverage

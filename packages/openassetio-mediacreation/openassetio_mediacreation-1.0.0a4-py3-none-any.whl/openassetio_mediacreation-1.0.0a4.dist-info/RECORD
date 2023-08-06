@@ -1,0 +1,12 @@
+openassetio_mediacreation/__init__.py,sha256=b36NTLJZmYaj3l4k8veMMRaPokuvK14r8uNPrzQHgDM,188
+openassetio_mediacreation/traits.yml,sha256=pVElMrhNQC-sHZMPbbjTsjzAf9llok7ieTJoZnglovY,6511
+openassetio_mediacreation/traits/__init__.py,sha256=8saXUuM5QygSsob839NLYrMDY95t0GUvkmmecgVFTlM,245
+openassetio_mediacreation/traits/content.py,sha256=iXirrok8GUdDjUJzB_HSYj4wcgpmYv7YmCGzgM_XcfI,1799
+openassetio_mediacreation/traits/identity.py,sha256=SEFLRoVz5EtA1FOQcTbYG4WUug1iFXOHlzyhQuxIVeQ,3695
+openassetio_mediacreation/traits/managementPolicy.py,sha256=L1-2ZQmEjurdK1HqwMQjUZ3tHRaqm4t388a1lw2ejfo,3858
+openassetio_mediacreation/traits/timeline.py,sha256=rBy_oMEjtJGvoLWfoRGPobEHvjxgulp7RDDDn5m2SzY,2266
+openassetio_mediacreation-1.0.0a4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+openassetio_mediacreation-1.0.0a4.dist-info/METADATA,sha256=ZPtwS01GmZpFnXYI3302GrGeiPru1vYhcvKNTu-zF1U,1435
+openassetio_mediacreation-1.0.0a4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+openassetio_mediacreation-1.0.0a4.dist-info/top_level.txt,sha256=6wrwB2f-cI98-MIfAnoKwTFdaYJQv206KEx50rAT7D0,26
+openassetio_mediacreation-1.0.0a4.dist-info/RECORD,,

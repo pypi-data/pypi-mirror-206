@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: astro-elk
+Version: 0.0
+Summary: This python package computes, and corrects ensemble light curves for TESS pixels within a specified aperature, from TESS FFI data.
+Home-page: https://github.com/tobin-wainer/TESS_Cluster_Project/
+Author: Tobin Wainer, Tom Wagg
+Author-email: tobinw@uw.edu
+License: MIT
+Platform: UNKNOWN
+Provides: elk
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pip
+Requires-Dist: matplotlib
+Requires-Dist: astropy
+Requires-Dist: scipy
+Requires-Dist: jupyter
+Requires-Dist: jupyterlab
+Requires-Dist: ipython
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: h5py
+Requires-Dist: lightkurve
+Requires-Dist: tables
+Requires-Dist: statsmodels
+Requires-Dist: imageio
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: matplotlib ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+.. figure:: _static/main-logo.png
+   :figwidth: 40%
+   :alt: logo for package
+   :align: right
+   :class: only-dark
+
+.. figure:: _static/main-logo.png
+   :figwidth: 40%
+   :alt: logo for package
+   :align: right
+   :class: only-light
+
+***
+elk
+***
+
+Welcome to the **E**\ nsemble **L**\ ight\ **K**\ urve Python package, or simply ``elk``!
+
+This package allows you to download, correct, analyze and visualize *ensemble* light curves from TESS FFI data using the methods outlined in `Wainer+2023 <https://ui.adsabs.harvard.edu/>`_. While originally designed for analysis of star clusters, it can be used to create ensemble light curves for any given aperture.
+
+Use the links below to learn how to install ``elk``, explore different features in our detailed tutorials or peruse our exhaustive API documentation. We're excited to see how you will apply ``elk`` to your own work!
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   pages/install
+   pages/getting_started
+   pages/tutorials
+   pages/modules
+   pages/cite
+
+We'd also like to acknowledge the absolutely splendid work of `Samantha-Lynn Martinez <https://www.samanthalynnmartinez.com/>`_ in designing the ``elk`` logo. You can find more of her portfolio `here <https://www.samanthalynnmartinez.com/illustrationdesign>`_ and we encourage you to reach out to her for any design needs you have!
+
+

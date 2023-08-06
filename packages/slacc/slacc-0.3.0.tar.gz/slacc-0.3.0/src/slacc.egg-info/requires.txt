@@ -1,0 +1,6 @@
+
+[dev]
+bumpver
+pip-tools
+build
+twine

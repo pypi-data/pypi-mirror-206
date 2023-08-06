@@ -1,0 +1,3 @@
+[console_scripts]
+sinteract = slacc.__main__:interact
+slaunch = slacc.__main__:launch

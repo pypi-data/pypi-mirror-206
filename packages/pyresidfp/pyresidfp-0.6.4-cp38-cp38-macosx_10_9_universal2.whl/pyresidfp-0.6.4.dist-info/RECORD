@@ -1,0 +1,10 @@
+_pyresidfp.cpython-38-darwin.so,sha256=Zf-VshQ8lEqE4YM5GGjC2TkvXNiFVOun6ad9R4qlDHc,531888
+pyresidfp-0.6.4.dist-info/RECORD,,
+pyresidfp-0.6.4.dist-info/WHEEL,sha256=GIqRYWmt-9ezal2OMdTcVZQ7y41gi0dKN_iN_OAGsDI,116
+pyresidfp-0.6.4.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyresidfp-0.6.4.dist-info/METADATA,sha256=O7UNG_-WL0hGFJkiPstFpScZMPrRDBJEut9EYR9jZXI,3121
+pyresidfp/registers.py,sha256=Isn7NNDI0dgu42Y1Hofk9uMRGvPppHwcjG_TEVVpSsU,3141
+pyresidfp/sound_interface_device.py,sha256=Ko8RQ9ijdWUantTVurSEkVl14DAx45Z7C_kR28dJ3ZI,10774
+pyresidfp/_version.py,sha256=KCffzWR78t4uMI9VIBRjnsgvsp2FnqWOKM-s6f0PrJc,160
+pyresidfp/__init__.py,sha256=uu7HtnOZaLL7UJD7urnEZOr10x8enHXbKXR2MFsCAk4,1110
+pyresidfp/musical_scale.py,sha256=9VB78lS-X3g-YN9vVas3Ry5rBiqYfFX02O2rt0sOhzs,4147

@@ -1,0 +1,3 @@
+[console_scripts]
+check115 = dna_audit_tool.main:dna_enter
+

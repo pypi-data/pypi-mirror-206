@@ -1,0 +1,15 @@
+beautifulsoup4
+openai
+
+[dev]
+wheel
+build
+twine
+
+[lint]
+flake8
+black
+isort
+
+[testing]
+pytest

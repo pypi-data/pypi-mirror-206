@@ -1,0 +1,13 @@
+evenoddsjy/__init__.py,sha256=R0gKZUGS9ZfpMdABBmk1r0Y8ouqVoi6PmkVRU_hlHXg,234
+evenoddsjy/__main__.py,sha256=Z5LPWqp42jE-Cg2mzQUK8MQ3HCkw8k6KHzeQK8LUp_w,196
+evenoddsjy/cli.py,sha256=bCbQ5M7AZ2qqUBzSOlMTEeLE6hXy7FaX0riKCFk2YJg,593
+evenoddsjy/gui.py,sha256=KbQdhfs0dKlBBa8VlW5waVNuLCFmZvyO2OXxSJ4iBY4,3005
+evenoddsjy/tests/__init__.py,sha256=qQU4ngY-Kjcxafa6mWvZmHRl8gR2R0NZiLY35qdSSjs,35
+evenoddsjy/tests/conftest.py,sha256=p5ReQ82mHIclsfNzsOjYxP3RrmOD2BrSw5dUBLt38Mc,278
+evenoddsjy/tests/test_utils.py,sha256=JKcDH2CmEtyZEmeBvHI3Q6voEA_1i_VO4A-yTOS_nOM,410
+evenoddsjy/utils.py,sha256=dk6eWo__Oskff5glNcBQZgovvlJcPvJJkbe0-6qGZgc,395
+evenoddsjy-0.0.dist-info/entry_points.txt,sha256=4slYAa0-do3T38byLQhnDEDamsWAcn2rI2KXoZtp48s,50
+evenoddsjy-0.0.dist-info/LICENSE.md,sha256=vibxS3i93J7i3iXQsQKhWPsNDFb-SzalI16vWqdzReA,1102
+evenoddsjy-0.0.dist-info/METADATA,sha256=01dlgq6CE-WNR8RPuOP72xIF20vpH8sVEWv7hd2Vr3w,2388
+evenoddsjy-0.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+evenoddsjy-0.0.dist-info/RECORD,,

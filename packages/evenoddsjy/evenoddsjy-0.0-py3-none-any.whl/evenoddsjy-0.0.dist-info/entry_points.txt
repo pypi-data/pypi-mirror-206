@@ -1,0 +1,3 @@
+[console_scripts]
+evenoddsjy=evenoddsjy.cli:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+dh = dhuolib.cli:main
+

@@ -1,0 +1,11 @@
+dreamai_dl/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+dreamai_dl/_modidx.py,sha256=Xub5ouCNjNs6MPdymvf2EvxThGUVS4NpEZ_2NxL3Htk,483
+dreamai_dl/core.py,sha256=X0BJjhTQqC1HTFYnaSptWmGFDTrKDNGSsHSFz2DQ38w,165
+dreamai_dl/imports.py,sha256=cZmpP7NWwb7YcmvY7kYEVlGiexyjr6oIImVqnYIM6Rg,643
+dreamai_dl/utils.py,sha256=LNyUR5ihMIonS5IfZrZC5kW3vV-gnHlJEIik5AXx6eU,346
+dreamai_dl-0.0.2.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+dreamai_dl-0.0.2.dist-info/METADATA,sha256=3h2WkLFajj0sG5ZwV6MdINPGgt-MmRIbxg9kOYIGzsc,4059
+dreamai_dl-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dreamai_dl-0.0.2.dist-info/entry_points.txt,sha256=FeinLvcMzmNLS40uaz6FluRdu4T8MiqKp3rtEaCEaeQ,42
+dreamai_dl-0.0.2.dist-info/top_level.txt,sha256=sV_nqvuOTj7PKnkDuHxTgbbRNTTHk-dudJ21rxEdi4M,11
+dreamai_dl-0.0.2.dist-info/RECORD,,

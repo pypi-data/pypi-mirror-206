@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: googlegallary
+Version: 0.2.0
+Summary: UNKNOWN
+Author: Rahul chauhan
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
+UNKNOWN
+

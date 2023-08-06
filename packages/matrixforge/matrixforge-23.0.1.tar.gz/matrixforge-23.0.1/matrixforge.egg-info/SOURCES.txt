@@ -1,0 +1,11 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+matrixforge/__init__.py
+matrixforge/activation.py
+matrixforge.egg-info/PKG-INFO
+matrixforge.egg-info/SOURCES.txt
+matrixforge.egg-info/dependency_links.txt
+matrixforge.egg-info/requires.txt
+matrixforge.egg-info/top_level.txt

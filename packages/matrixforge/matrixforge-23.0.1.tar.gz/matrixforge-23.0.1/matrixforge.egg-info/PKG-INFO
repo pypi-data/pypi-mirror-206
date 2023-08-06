@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: matrixforge
+Version: 23.0.1
+Summary: MatrixForge for neural networks is a set of tools and programming libraries that allow you to quickly and easily create, train and evaluate the effectiveness of ML models.
+Home-page: UNKNOWN
+Author: Kacper Popek
+Author-email: popeqkacper@gmail.com
+License: MIT
+Keywords: machinelearning
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Read README.MD
+

@@ -1,0 +1,7 @@
+LICENCE.txt
+README.txt
+setup.py
+thiennguyen.egg-info/PKG-INFO
+thiennguyen.egg-info/SOURCES.txt
+thiennguyen.egg-info/dependency_links.txt
+thiennguyen.egg-info/top_level.txt

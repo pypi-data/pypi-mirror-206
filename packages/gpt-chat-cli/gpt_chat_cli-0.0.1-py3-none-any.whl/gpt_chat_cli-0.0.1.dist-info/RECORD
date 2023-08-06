@@ -1,0 +1,16 @@
+gpt-chat-cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpt-chat-cli/argparsing.py,sha256=TXKqGmTXg21WqMYUBXYzJkpU7ijOpcd45JafLLm97jY,6013
+gpt-chat-cli/color.py,sha256=Gt_3Vt8l55TxzfHXn6lNGZwg1z8S7vjqe62cD4bh3k0,1979
+gpt-chat-cli/gcli.py,sha256=hmPZbgW_r9jfJFyilR288gIp9YHzthEy517W0EQZAIQ,4241
+gpt-chat-cli/openai_wrappers.py,sha256=BzwE3O9c5tzK0HkTwcZtzPOfGuDt38Y1EQ2Na9dwCTo,1732
+gpt_chat_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpt_chat_cli/argparsing.py,sha256=TXKqGmTXg21WqMYUBXYzJkpU7ijOpcd45JafLLm97jY,6013
+gpt_chat_cli/color.py,sha256=Gt_3Vt8l55TxzfHXn6lNGZwg1z8S7vjqe62cD4bh3k0,1979
+gpt_chat_cli/gcli.py,sha256=-6gENgZMPF-qgvH04aS_ql60KsaQI8dhm19eDfoUVh4,4242
+gpt_chat_cli/openai_wrappers.py,sha256=BzwE3O9c5tzK0HkTwcZtzPOfGuDt38Y1EQ2Na9dwCTo,1732
+gpt_chat_cli-0.0.1.dist-info/LICENSE,sha256=SxarXvTWEFBpG9kl2dm6e616EW2fS4VbrWRZCyfvkKY,1052
+gpt_chat_cli-0.0.1.dist-info/METADATA,sha256=k28ECLO9xc0Z9ku-nKdfYApGKtpQTIBogNZyQWd1_6g,7653
+gpt_chat_cli-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gpt_chat_cli-0.0.1.dist-info/entry_points.txt,sha256=lm4OQB1h-MLqlqQNgBEAxjhZgIEUJz3HhD1TLF7KDl4,56
+gpt_chat_cli-0.0.1.dist-info/top_level.txt,sha256=UGT3c2Mf97D7e3MRGEFchKIoZk0EAKDnUJ1EQuHY2sM,13
+gpt_chat_cli-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: torch4uie
+Version: 2023.5.5.17.21.53
+Summary: Create a Python package.
+Home-page: https://github.com/yuanjie-ai/ChatLLM
+Author: yuanjie
+Author-email: 313303303@qq.com
+License: MIT license
+Keywords: uie
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: all

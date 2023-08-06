@@ -1,0 +1,74 @@
+# Detection of Fake News Using Machine Learning
+## Bachelor's thesis
+### Author: Matej Koreň, 2022
+### Brno University of Technology
+### Faculty of Information Technology
+
+## Installing final product
+
+1. Unzip project package
+2. Open terminal
+3. Install requirements
+> pip3 install -r requirements.txt
+
+note: additional NLP libraries will install automatically with first run.
+
+
+## Running scripts directly
+
+To run the program, input arguments must be used:
+
+- -m / -–model = model selection, options:
+    - SNN = Sequential neural network,
+    - NB = Naive Bayes,
+    - SVM = Support vector machine,
+    - DT = Decision tree,
+- -p / -–pretrained = skips the training, pretrained model is used,
+- -url / -–url [Online article] = article to parse and evaluate,
+- –v / –-verbose = verbose mode, showing graphs and explanations.
+
+## Alternative - installing FakeNewsClassifier package
+
+To use these models in different project, this package can be installed:
+
+> pip3 install FakeNewsClassifier
+
+which checks for dependencies and loads all needed modules. Importing the module
+
+> from FakeNewsClassifier import models
+
+or 
+
+> import FakeNewsClassifier
+(used in code examples)
+
+
+
+1. Object initialization, which takes two arguments
+
+    > classifier = FakeNewsClassifier.models.FakeNewsClassifier(model:str, dataset:str)
+    where **model** is one of [SNN, NB, SVM, DT],
+    and **dataset** is a relative path to dataset in csv format (by default it's Dezinfo SK included in the package).
+
+2. Model training, which has optional "verbose" parameter:
+    > classifier.train(verbose:bool)
+
+3. Article evaluation, also with "verbose" and "url" argument:
+    > classifier.evaluate(verbose:bool, url:str)
+    where **url** is a link to an online article or full-text to evaluate.
+
+## Additional requirements and warnings
+
+### Dataset structure
+
+Datasets to perform training on need to be in a standard *csv* file format and must contain collumns
+- **label** with two values, e.g. "Fake"/"True" or "0/1",
+- **text** or **title** (or both) with article titles and bodies.
+
+Other collumns are neglected.
+
+### Online articles
+
+When provided with url, buiilt-in scraper will try to parse given page and extract the title and body. However,
+many websites are protected against automated scraping and bot attacks, which makes the online evaluation impossible.
+Alternatively, full-text can be used as the article to evaluate.

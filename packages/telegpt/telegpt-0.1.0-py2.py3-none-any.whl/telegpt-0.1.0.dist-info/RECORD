@@ -1,0 +1,14 @@
+telegpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telegpt/bot.py,sha256=HjIQw_H-FqRr-KSHWA9_P8QvamTgi0zgbZlSBGmlWxs,5945
+telegpt/main.py,sha256=YsZqIvFcQgBtIBNC103KtGNjMhTA74RLkH82x3Vtrmk,120
+telegpt/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telegpt/utils.py,sha256=P6qDvzLoS3zewHkcgmowoK4B-ikGaLU_KsjxomzBrS0,451
+telegpt/apis/__init__.py,sha256=dsmr3icv_d4xYZBRxKJccAVus_-HWUHY5ceJuoO0yEQ,133
+telegpt/apis/exchange.py,sha256=vRxgl0g-Eo_DsD2aewA_KBd0FCwqNUHa7N21a3_KK88,404
+telegpt/apis/gpt.py,sha256=4honD2PHJMs0r8IPBOr50m6VC6NgUlRKinvwkTNvfx0,1977
+telegpt/apis/whisper.py,sha256=djCwD1Q1Xx3c3YlqPi1_nx1Eb4_yXR1AwSRdqpN8To8,1156
+telegpt-0.1.0.dist-info/METADATA,sha256=hx8jINt02lAIYggLtXBqmbFa0j1OC5OWkdUejLnOSEU,1822
+telegpt-0.1.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+telegpt-0.1.0.dist-info/entry_points.txt,sha256=2g13Wf4nzGcJXnFlqszJcOaXqzPUOCS7d-SHL4KTnEs,46
+telegpt-0.1.0.dist-info/top_level.txt,sha256=dQ11pAXIQpEfmbHMI5GuyrDTGhbhpEI4ViosIExIZ8M,8
+telegpt-0.1.0.dist-info/RECORD,,

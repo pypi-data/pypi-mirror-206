@@ -1,0 +1,40 @@
+[project]
+name = "np_probe_targets"
+version = "0.0.9"
+description = "Tools for Neuropixels probe insertion: providing suggested targets, recording actual insertions, storing notes."
+authors = [
+    { name = "bjhardcastle", email = "ben.hardcastle@alleninstitute.org" },
+]
+dependencies = [
+    "ipywidgets<8",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Repository = "https://github.com/AllenInstitute/np_probe_targets"
+Issues = "https://github.com/AllenInstitute/np_probe_targets/issues"
+
+[tool.pdm.build]
+includes = [
+    "src/np_probe_targets",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"

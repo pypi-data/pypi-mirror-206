@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+binbinpy/__init__.py
+binbinpy/demo.py
+binbinpy.egg-info/PKG-INFO
+binbinpy.egg-info/SOURCES.txt
+binbinpy.egg-info/dependency_links.txt
+binbinpy.egg-info/top_level.txt

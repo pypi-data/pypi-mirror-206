@@ -1,0 +1,10 @@
+aiot_bootrom/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiot_bootrom/bootrom.py,sha256=eYgBS7AK30n_dhXMjq7xlOH6lZc5sbUOnymiwxRoeuY,488
+aiot_bootrom/bin/bootrom-tool,sha256=y6XAykD9iNyF3xAihJM_Or6QDUwE5ChJ6YrWiIXg2xU,18712
+aiot_bootrom/bin/bootrom-tool.exe,sha256=GTkxBh7Kx_4B0AziDct7Lq80YX6IUnUf6vzTAPEg2mY,29696
+genio_bootrom-1.1.6.dist-info/LICENSE,sha256=6g4Fy_3vs1oHJZ5JlibWDFz78RmsVyAP0-jM9QLPyLw,25160
+genio_bootrom-1.1.6.dist-info/METADATA,sha256=0i01JGVEype7vlAuNrx3rexf7CgIG6SOemsrNrRmZ9I,593
+genio_bootrom-1.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+genio_bootrom-1.1.6.dist-info/entry_points.txt,sha256=c8bNnOARKjd5z16RLz_LicH64BbZSxyTup-j_JJLRkI,102
+genio_bootrom-1.1.6.dist-info/top_level.txt,sha256=GfyLfW5fC5LtqHnID8unKIbDXpDXLx4liUJjk5NRYi0,13
+genio_bootrom-1.1.6.dist-info/RECORD,,

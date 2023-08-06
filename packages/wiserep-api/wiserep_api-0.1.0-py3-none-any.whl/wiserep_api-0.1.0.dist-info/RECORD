@@ -1,0 +1,13 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_classification.py,sha256=yHvnm196h-YCdv62Ux3Xi18pjXjEIGoKYsG0JNTVoMY,309
+tests/test_download_spectra.py,sha256=Bi6H5Xt2g49ckzyIoSJpJARK8oooeObzctrDiuqDmi4,2246
+wiserep_api/__init__.py,sha256=Qe1VqhA-XVvxE6zQ4nPHL23QIpDOkrshYuCUEYpwcrE,180
+wiserep_api/_version.py,sha256=d9WuZcsLV3FW0JEdg8yszme10b8sQ3wopgkq0H6WdvQ,45
+wiserep_api/api.py,sha256=X3Wp1RUqd5sb2VUxi2mTL81l2HicU8YglNaQGxi2FTA,2991
+wiserep_api/classification.py,sha256=jFNcN0y9Js9A7aDbv0PSx2WuHHrMcjYkp_jpGVYGbNU,1763
+wiserep_api/spectra.py,sha256=cxCv2ESfq9xkZo-RHobQSZlkEa-gl-rmCTbl48hH5uE,5884
+wiserep_api-0.1.0.dist-info/LICENSE,sha256=h691I3mSnXHpwTSk21ylpkBYa0zoyJZ_aTeJVjL8_J4,1080
+wiserep_api-0.1.0.dist-info/METADATA,sha256=I5MueEzR4qSsaCxGEBcHf3Ac01Ihg5lPqXMzt-3tdVM,638
+wiserep_api-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+wiserep_api-0.1.0.dist-info/top_level.txt,sha256=ew3VmjN8QagrsaTULHNVoJImxFGywr5ZxNtJnqapQ1g,18
+wiserep_api-0.1.0.dist-info/RECORD,,

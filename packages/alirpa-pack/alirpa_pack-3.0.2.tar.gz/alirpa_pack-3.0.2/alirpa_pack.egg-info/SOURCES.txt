@@ -1,0 +1,6 @@
+alirpa_pack.py
+setup.py
+alirpa_pack.egg-info/PKG-INFO
+alirpa_pack.egg-info/SOURCES.txt
+alirpa_pack.egg-info/dependency_links.txt
+alirpa_pack.egg-info/top_level.txt

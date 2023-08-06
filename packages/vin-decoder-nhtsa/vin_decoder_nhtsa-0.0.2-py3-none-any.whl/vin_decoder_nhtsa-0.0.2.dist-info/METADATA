@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: vin_decoder_nhtsa
+Version: 0.0.2
+Summary: Python module for decoding VIN metadata from NHTSA API
+Project-URL: Homepage, https://github.com/conrey-engineering/python_vin_decoder_nhtsa
+Project-URL: Bug Tracker, https://github.com/conrey-engineering/python_vin_decoder_nhtsa/issues
+Author-email: Alex Conrey <alex@conrey.engineering>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# vin_decoder_nhtsa
+Python library which uses the [NHTSA Vehicle API](https://vpic.nhtsa.dot.gov/api/) to perform lookups. Attributes are dynamically populated based on API query results returned. This, theoretically, keeps this library low maintenance and requires zero updates for handling of new VIN's.
+
+## Usage
+```
+>>> from vin_decoder_nhtsa.decoder import Vin
+>>>
+>>> vin = Vin('WBAGF8324WD*82')
+>>> print(vin.Make)
+BMW
+>>> print(vin.Model)
+740i
+>>> print(vin.ModelYear)
+1998
+```

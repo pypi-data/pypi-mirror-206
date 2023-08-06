@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: open-pyxl-sql
+Version: 1.2
+Summary: A tiny SQL engine for Excel files, moved to excel-sql-engine
+Home-page: https://gitlab.com/fabien.battini/pyxlsql
+Author: Fabien BATTINI
+Author-email: fabien.battini@gmail.com
+Keywords: excel sql
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 7 - Inactive
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Office/Business :: Office Suites
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+moved to excel-sql-engine

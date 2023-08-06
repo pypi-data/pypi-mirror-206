@@ -1,0 +1,4 @@
+numpy
+nltk
+afinn
+gmpy2

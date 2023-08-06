@@ -1,0 +1,3 @@
+[console_scripts]
+chatbilly=chatbilly.cli:cli_wrapper
+

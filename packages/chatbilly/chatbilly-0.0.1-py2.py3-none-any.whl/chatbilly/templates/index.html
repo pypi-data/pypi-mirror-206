@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>uncanny slacky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <style>
+        th {
+            text-align: left;
+            font-weight: 500;
+        }
+
+        table {
+            border-spacing: 0 0.1em;
+        }
+
+        td {
+            padding-top: 0px;
+        }
+
+        .light-green {
+            color: aquamarine;
+        }
+    </style>
+</head>
+
+<body class="w-100 avenir black-80 bg-pink">
+    <div id="app" class="mw7 center pa2 black-80">
+        <div>
+            <h1 class="f-subheadline-ns f1 lh-solid mb4 near-black">
+                <span class="light-green">uncanny</span>
+            </h1>
+            <form @submit="formSubmit" class="mb3">
+
+                <span class="mt3 pr2 pv2 input-reset f4 mb3">what would</span>
+                <select v-model="selectedName"
+                    class="mt3 pointer ph2 pv2 input-reset ba b--black br2 bg-transparent f4 mb3">
+                    <option v-for="name in names" :value="name">{{ name }}</option>
+                </select>
+                <span class="mt3 ph2 pv2 input-reset f4 mb3">say</span>
+                <input id="submit" class="dim mt3 pointer ph3 pv2 input-reset ba b--black br2 bg-transparent f4 mb3"
+                    type="submit" :value="button_text" />
+
+            </form>
+            <span class="mt6 mb2 f4 fw5">{{author_activity}}{{typing_indicator}}</span>
+            <div class="mt0 f4" v-html="impersonation"></div>
+
+        </div>
+    </div>
+
+    <script>
+        const api_stub = "";
+
+        function replaceEmoji(text) {
+            const emojiMap = {
+                ":slightly_smiling_face:": "😃",
+                ":grinning_face:": "😀",
+                ":winking_face:": "😉",
+                ":wink:": "😉",
+                ":joy:": "😂",
+                ":laughing:": "😆",
+                ":tada:": "🎉",
+                ":sweat_smile:": "😅",
+                ":confused:": "😕",
+                ":heart:": "❤️",
+                ":scream:": "😱",
+                ":exploding_head:": "🤯",
+                ":grimacing:": "😬",
+            };
+
+            return text.replace(/:(\w+)_?(\w+)?_?(\w+)?:/g, (match) => {
+                return emojiMap[match] || match;
+            });
+        }
+        // typing indicator
+        let dotCount = 0;
+
+        function updateTypingIndicator() {
+            dotCount = (dotCount + 1) % 4;
+            app.typing_indicator = '.'.repeat(dotCount);
+        }
+
+        var app = new Vue({
+            el: "#app",
+            data: {
+                person: "",
+                names: ['loading names...'],
+                selectedName: "",
+                button_text: "?",
+                impersonation: "",
+                author_activity: "",
+                typing_indicator: "",
+            },
+            methods: {
+                async fetchData() {
+                    try {
+                        const response = await fetch(api_stub + '/api/all_names');
+                        const data = await response.json();
+                        this.names = data.response.names;
+
+                    } catch (error) {
+                        console.error('Error fetching data:', error);
+                    }
+                },
+                formSubmit(e) {
+                    e.preventDefault();
+                    const typingAnimation = setInterval(updateTypingIndicator, 500);
+                    app.button_text = "¿";
+                    app.impersonation = "";
+                    app.author_activity = "@" + app.selectedName + " is typing";
+                    api_url = api_stub + "/api/impersonate?person=" + app.selectedName;
+                    fetch(api_url)
+                        .then(async function (response) {
+                            let json = await response.json();
+                            let resp = json["response"];
+                            impersonation = resp["impersonation"].replace(/\n/g, "<br />");
+                            app.impersonation = replaceEmoji(impersonation);
+                            app.button_text = "?";
+                            app.author_activity = "@" + app.selectedName;
+                            clearInterval(typingAnimation);
+                            app.typing_indicator = "";
+                        })
+                        .catch(function (error) {
+                            console.log(error);
+                        });
+                },
+            },
+            created() {
+                this.fetchData();
+            }
+        });
+    </script>
+</body>
+
+</html>

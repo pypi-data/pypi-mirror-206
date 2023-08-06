@@ -1,0 +1,12 @@
+chatbilly/__init__.py,sha256=bb8_bzGFjQM37If-7Ec9J1YYq7AzitsVN7SQ2ZdFQ9U,58
+chatbilly/api.py,sha256=7pkIsqzDMuAQqBqpLWm2FGi4isobEjfMPnL3hVCFbIo,1345
+chatbilly/cli.py,sha256=BVdevzaFhPlZ-n2cxTck0GMj9jadB9XxodKaDClEz9I,2120
+chatbilly/core.py,sha256=2SPujtS5FZ7qYpWb5ZAm3IKhtJbZ7a0jh84zDZsfQiE,2327
+chatbilly/templates/Dockerfile,sha256=oXHR4JYoBUeuYA0C5IOVp89w_pMf5vjbIZalKPYGcBI,112
+chatbilly/templates/index.html,sha256=XISSOwwEQLfltu01MauwKjln8984DJnZdEdNc5zDRZ0,4837
+chatbilly/templates/prompt.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatbilly-0.0.1.dist-info/entry_points.txt,sha256=pMQt_zxtuBVzP2oTPu5_Fvbnqd4Bz5rb2szpUiXSGsM,55
+chatbilly-0.0.1.dist-info/LICENSE,sha256=jNHJcnq6o2cCpmDLimseqrDGL8FI8c3zfP9oR1okR24,1076
+chatbilly-0.0.1.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+chatbilly-0.0.1.dist-info/METADATA,sha256=QrwC5DDHxbwIKlKKstMZWQ3HFk3WvLmj3YbcX6LRVoA,365
+chatbilly-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question detail</title>
+</head>
+<body>
+
+    <!-- Simple version -->
+    <!-- <h1>{{ question.question_text }}</h1>
+    <ul>
+        {% for choice in question.choice_set.all %}
+        <li>{{ choice.choice_text }}</li>
+        {% endfor %}
+    </ul> -->
+
+    <form action="{% url 'polls:vote' question.id %}" method="post">
+
+        <!-- This template tag is used for CSRF protection -->
+        {% csrf_token %}
+        <fieldset>
+            <legend><h1>{{ question.question_text }}</h1></legend>
+
+            {% if error_message %}
+            <p><strong>{{ error_message }}</strong></p>
+            {% endif %}
+            
+            {% for choice in question.choice_set.all %}
+            <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label>
+            <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}"><br>
+            {% endfor %}
+
+        </fieldset>
+
+        <!-- Upon submitting POST data will be sent as name=value which is choice=#, where # is ID of selected choice  -->
+        <input type="submit" value="Vote">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+README.md
+setup.py
+poequora/__init__.py
+poequora/api.py
+poequora/mail.py
+poequora.egg-info/PKG-INFO
+poequora.egg-info/SOURCES.txt
+poequora.egg-info/dependency_links.txt
+poequora.egg-info/requires.txt
+poequora.egg-info/top_level.txt
+poequora/graphql/__init__.py

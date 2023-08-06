@@ -1,0 +1,6 @@
+pypasser
+fake_useragent
+websocket-client
+tls_client
+pydantic
+selenium

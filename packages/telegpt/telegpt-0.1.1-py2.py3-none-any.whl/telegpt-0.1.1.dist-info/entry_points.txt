@@ -1,0 +1,2 @@
+[console_scripts]
+telegpt = telegpt.main:main

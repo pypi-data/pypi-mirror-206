@@ -1,0 +1,30 @@
+[tool.pdm.dev-dependencies]
+dev = [
+    "ruff>=0.0.264",
+]
+
+[tool.pdm.build]
+package-dir = "src"
+
+[tool.ruff]
+line-length = 120
+
+[project]
+name = "nats-nsc"
+version = "0.1.1"
+description = "Python wrapper for nsc, nats credential manager"
+authors = [
+    { name = "Mikołaj Nowak", email = "12396461+m3nowak@users.noreply.github.com" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"

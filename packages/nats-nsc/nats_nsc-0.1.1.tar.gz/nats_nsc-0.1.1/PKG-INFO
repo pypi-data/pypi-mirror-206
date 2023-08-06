@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nats-nsc
+Version: 0.1.1
+Summary: Python wrapper for nsc, nats credential manager
+Author-Email: Mikołaj Nowak <12396461+m3nowak@users.noreply.github.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# nats-nsc
+
+Python wrapper for nsc, NATS credential manager.
+
+## Requirements
+
+This library requires you to have nsc already installed. [Instructions](https://github.com/nats-io/nsc#install)

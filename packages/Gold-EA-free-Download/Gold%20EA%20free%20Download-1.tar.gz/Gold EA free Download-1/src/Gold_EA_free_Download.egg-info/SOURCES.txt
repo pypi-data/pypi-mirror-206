@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/Gold_EA_free_Download.egg-info/PKG-INFO
+src/Gold_EA_free_Download.egg-info/SOURCES.txt
+src/Gold_EA_free_Download.egg-info/dependency_links.txt
+src/Gold_EA_free_Download.egg-info/requires.txt
+src/Gold_EA_free_Download.egg-info/top_level.txt

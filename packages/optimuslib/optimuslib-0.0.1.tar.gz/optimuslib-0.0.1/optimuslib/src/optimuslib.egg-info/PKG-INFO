@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: optimuslib
+Version: 0.0.1
+Summary: Function Library for mostly used codes
+Author: Shomi Nanwani
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Library which contains a list of functions of mostly & repetitively used codes

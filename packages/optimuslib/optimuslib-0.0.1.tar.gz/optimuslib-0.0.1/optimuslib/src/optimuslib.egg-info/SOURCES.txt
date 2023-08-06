@@ -1,0 +1,12 @@
+setup.py
+optimuslib/src/optimuslib.egg-info/PKG-INFO
+optimuslib/src/optimuslib.egg-info/SOURCES.txt
+optimuslib/src/optimuslib.egg-info/dependency_links.txt
+optimuslib/src/optimuslib.egg-info/requires.txt
+optimuslib/src/optimuslib.egg-info/top_level.txt
+optimuslib/src/optimuslib.py
+optimuslib/src/optimuslib.egg-info/PKG-INFO
+optimuslib/src/optimuslib.egg-info/SOURCES.txt
+optimuslib/src/optimuslib.egg-info/dependency_links.txt
+optimuslib/src/optimuslib.egg-info/requires.txt
+optimuslib/src/optimuslib.egg-info/top_level.txt

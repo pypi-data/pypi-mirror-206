@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dq-test
+Version: 0.2
+Summary: sample poc for DQ framework
+Author: deepak
+Author-email: deepak.pal@tredence.com
+Requires-Dist: numpy
+Requires-Dist: pandas
+

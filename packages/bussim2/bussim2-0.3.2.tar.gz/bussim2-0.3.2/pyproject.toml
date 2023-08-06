@@ -1,0 +1,97 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bussim2"
+description = 'Estimate energy, power and charging infrastructure needs for bus depots.'
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Gideon Weissman", email = "gideon.weissman@nyct.com" },
+  { name = "Joseph Sutton", email = "joseph.sutton@nyct.com" },
+  { name = "Elliot Ward", email = "elliot.ward@nyct.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+#  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "simpy>=3",
+  "requests>=2",
+  "numpy>1",
+  "pandas>=1.5.0",
+  "matplotlib>=3.6",
+  "airium>=0.2.4",
+  "Jinja2>=3"
+]
+dynamic = ["version"]
+
+[project.urls]
+Documentation = "https://gitlab.mtacp.info/Gideon.Weissman/bussim2/-/blob/main/README.md"
+Issues = "https://gitlab.mtacp.info/Gideon.Weissman/bussim2/-/issues"
+Source = "https://gitlab.mtacp.info/Gideon.Weissman/bussim2"
+
+[tool.hatch.version]
+path = "bussim2/__about__.py"
+
+[tool.hatch.envs.default]
+type = "virtual"
+python = "/usr/local/bin/python3"
+dependencies = [
+  "pytest",
+  "pytest-cov",
+  "simpy>=3",
+  "requests>=2",
+  "numpy>1",
+  "pandas>=1.5",
+  "matplotlib>=3.6",
+  "airium>=0.2",
+  "Jinja2>=3"
+]
+
+[tool.hatch.envs.wsl]
+type = "virtual"
+python = "/usr/bin/python3"
+dependencies = [
+  "pytest",
+  "pytest-cov",
+  "simpy>=3",
+  "requests>=2",
+  "numpy>1",
+  "pandas>=1.5",
+  "matplotlib>=3.6",
+  "airium>=0.2",
+  "Jinja2>=3"
+]
+
+
+[tool.hatch.envs.default.scripts]
+cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=bussim2 --cov=tests {args}"
+no-cov = "cov --no-cov {args}"
+
+[[tool.hatch.envs.test.matrix]]
+python = ["37", "38", "39", "310", "311"]
+
+[tool.coverage.run]
+branch = true
+parallel = true
+omit = [
+  "bussim2/__about__.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]

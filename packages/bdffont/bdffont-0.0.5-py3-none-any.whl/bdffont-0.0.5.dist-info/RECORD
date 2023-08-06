@@ -1,0 +1,11 @@
+bdffont/__init__.py,sha256=yBcvoNbB8CeGaDFl9ehtg0OrBhtFPlQoZ0Ms9y_g8Nw,177
+bdffont/error.py,sha256=fO33pY4HMRKbOyfG7Z8fqddkWJMbJOppS-UWzSoAcOk,691
+bdffont/font.py,sha256=4lJqVWD2obWGAMMCfLtjsYdxzQbtRifgMHoeVM_IROk,7112
+bdffont/glyph.py,sha256=VDJ9_n5gmw8ElBbAKQuNe4gN4jjKZdu-Zq5g4zEEnPo,5802
+bdffont/parser.py,sha256=QWJp_uCwucB4_5jfnB-8KzPhVg197UHDli9p4nNGh-w,6010
+bdffont/properties.py,sha256=l_kyT9c7cl1Za-F2oG-O6T6eunyoeHVKONtDgbusQJs,3878
+bdffont-0.0.5.dist-info/LICENSE,sha256=KtEAp6PdkHpy5KNgBAdtRUvP6-KffM4uJ1Smx1GF6S8,1064
+bdffont-0.0.5.dist-info/METADATA,sha256=i8yr00sHVYW2GBxi-niCloxT23rCwWa0ekC7bwzTTtU,2508
+bdffont-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+bdffont-0.0.5.dist-info/top_level.txt,sha256=ZtGOoJxexpoaHtX4CwAuLj6RVD6Qo-QvyvweThLGoSc,8
+bdffont-0.0.5.dist-info/RECORD,,

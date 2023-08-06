@@ -1,0 +1,8 @@
+setup.py
+aiparo/__init__.py
+aiparo/aiparo.py
+aiparo.egg-info/PKG-INFO
+aiparo.egg-info/SOURCES.txt
+aiparo.egg-info/dependency_links.txt
+aiparo.egg-info/requires.txt
+aiparo.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+nyanlang/__init__.py,sha256=u5grqOwycfTAq7fw3xhIvY5jZ6rcTbZr-yxcoJ4P70g,1827
+nyanlang/helper.py,sha256=0qDrIWoLEup2Fs1SOX9qBnKttXY3qLT5rBYQT8kd9po,1228
+nyanlang/nyan.py,sha256=wFN_nSDwrOzCI-X3govk1q5FCkqk5vCeY0eyf-Nva_4,22336
+nyanlang/nyan.pyi,sha256=iCwJvY8mJh_G6IqTl8I4IWyKXk4k8VEfUcaNxsxZQ84,15218
+nyanlang-1.7.0.dist-info/LICENSE,sha256=DU2iB_12Mbo4Hi8K44y9z0IpjNi4B2QdnqoQ04qhqLQ,11342
+nyanlang-1.7.0.dist-info/METADATA,sha256=pAM4umuF1ehHknRxxcSfEOS3N8iC3OdkWBubKDGKKpg,892
+nyanlang-1.7.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+nyanlang-1.7.0.dist-info/entry_points.txt,sha256=h8jNt088-JCxs0YY4n4crYIMrObk3ETjl4koqr2Ny9U,38
+nyanlang-1.7.0.dist-info/RECORD,,

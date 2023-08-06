@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: elbow
+Version: 0.1.0a1
+Summary: Extract data from a bunch of files and load into a table
+Author-email: Connor Lane <connor.lane858@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/clane9/elbow
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+License-File: LICENSE
+
+# Elbow
+
+Elbow is a library for extracting data from a bunch of files and loading into a table (and that's it).
+
+## Examples
+
+```python
+import json
+
+from elbow import load_table, load_parquet
+
+# Extract records from JSON-lines
+def extract(path):
+    with open(path) as f:
+        for line in f:
+            record = json.loads(line)
+            yield record
+
+# Load as a pandas dataframe
+df = load_table(
+    pattern="**/*.json",
+    extract=extract,
+)
+
+# Load as a parquet dataset (in parallel)
+dset = load_parquet(
+    pattern="**/*.json",
+    extract=extract,
+    where="dset.parquet",
+    workers=8,
+)
+```
+
+## Installation
+
+A pre-release version can be installed with
+
+```
+pip install elbow
+```
+
+## Other (better) projects
+
+- [AirByte](https://github.com/airbytehq/airbyte)
+- [Meltano](https://github.com/meltano/meltano)
+- [Singer](https://github.com/singer-io/getting-started)
+- [Mage](https://github.com/mage-ai/mage-ai)
+- [Orchest](https://github.com/orchest/orchest)
+- [Streamz](https://github.com/python-streamz/streamz)

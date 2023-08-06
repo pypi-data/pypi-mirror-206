@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: yolov5-sp
+Version: 1.0.3
+Summary: yolov5-v5.0 general model
+Home-page: https://github.com/Easonshow
+Author: shaop
+Author-email: 13585800607@163.com
+Maintainer: shaop
+Maintainer-email: 13585800607@163.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+License-File: license.txt
+
+UNKNOWN
+

@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: zzlib
+Version: 0.1.1
+Summary: Python utils for structure-based computer-aided drug design
+Project-URL: Homepage, https://github.com/jackzzs-lab/zzlib
+Author-email: Zhesheng Zhou <zhouzzs@zju.edu.cn>
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Requires-Dist: appdirs
+Requires-Dist: click
+Requires-Dist: funcy
+Requires-Dist: loguru
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: rich
+Requires-Dist: typer
+Description-Content-Type: text/markdown
+
+ZZlib
+=====
+
+Python utils for structure-based computer-aided drug design

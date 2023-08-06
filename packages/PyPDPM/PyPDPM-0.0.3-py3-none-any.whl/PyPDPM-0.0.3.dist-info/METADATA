@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: PyPDPM
+Version: 0.0.3
+Summary: A Python library for dealing with PDPM HIPP codes
+Home-page: https://github.com/Scorks/PyPDPM
+Author: Caro Strickland
+Author-email: carostrickland321@gmail.com
+License: MIT
+Keywords: PDPM,HIPPS,ICD-10-CM Codes
+Platform: UNKNOWN
+License-File: LICENSE.txt
+
+PyPDPM
+===
+
+.. image:: https://img.shields.io/pypi/v/icd.svg
+    :target: https://pypi.python.org/pypi/icd
+    :alt: Latest PyPI version
+
+
+

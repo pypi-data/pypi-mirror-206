@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+nsloader/__init__.py
+nsloader/wsj.py
+nsloader.egg-info/PKG-INFO
+nsloader.egg-info/SOURCES.txt
+nsloader.egg-info/dependency_links.txt
+nsloader.egg-info/requires.txt
+nsloader.egg-info/top_level.txt
+test/__init__.py
+test/test_wsj.py

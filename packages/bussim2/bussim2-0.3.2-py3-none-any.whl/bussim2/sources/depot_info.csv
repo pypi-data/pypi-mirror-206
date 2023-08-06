@@ -1,0 +1,29 @@
+depot,name,address,entity,division
+BP,BAISLEY PARK,"114-15 Guy R Brewer Blvd, Queens, NY 11434",mtabus,queens south
+CP,COLLEGE POINT,"128-15 28th Ave, Flushing, NY 11354",mtabus,queens north
+EC,EASTCHESTER,"3320 Tillotson Ave, The Bronx, NY 10475",mtabus,bronx
+FR,FAR ROCKAWAY,"49-19 Rockaway Beach Blvd, Queens, NY 11691",mtabus,queens south
+JK,JFK,"165-25 147th Ave, Queens, NY 11434",mtabus,queens south
+LG,LA GUARDIA,"8501 24th Ave, Flushing, NY 11370",mtabus,queens north
+SC,SPRING CREEK,"12755 Flatlands Ave, Brooklyn, NY 11208",mtabus,queens south
+YO,YONKERS,"60 Babcock Pl, Yonkers, NY 10701",mtabus,bronx
+CA,CASTLETON,1390 Castleton Av. Staten Island. NY 10302,nyct,staten island
+CH,CHARLESTON,"4700 Arthur Kill Rd., Staten Island, NY 10309",nyct,staten island
+CS,CASEY STENGEL,"123-53 Willets Point Blvd, Flushing, NY 11368",nyct,queens north
+EN,EAST NEW YORK,"25 Jamaica Av. Brooklyn, NY 11207",nyct,brooklyn
+FB,FLATBUSH,"4901 Fillmore Av., Brooklyn NY 11234",nyct,brooklyn
+FP,FRESH POND,"6699 Fresh Pond Av. Ridgewood, NY 11385",nyct,brooklyn
+GA,GRAND AV,"48-05 Grand Ave, Maspeth, NY 11378",nyct,brooklyn
+GH,GUN HILL,"1910 Bartow Av, Bronx, NY 10469",nyct,bronx
+JA,JAMAICA,"165-18 South Rd, NY 11433",nyct,queens north
+JG,JACKIE GLEASON,"845 5th Av, Brooklyn, NY 11232",nyct,brooklyn
+KB,KINGSBRIDGE,"4065 10th Av., New York, NY 10034",nyct,bronx
+MA,MEREDITH AV,"336 Meredith Av. Staten Island, NY 10314",nyct,staten island
+MQ,MIKE QUILL,"525 11th Av, New York. NY 10018",nyct,manhattan
+MV,MANHATTANVILLE,666 West 133rd St. New NY 10027,nyct,manhattan
+OF,MOTHER HALE,"721 Lenox Av. New York, NY 10039",nyct,manhattan
+OH,TUSKEGEE AIRMEN,"1552 Lexington Av. New York, NY 10029",nyct,manhattan
+QV,QUEENS VILLAGE,"97-11 222nd St, Queens Village, NY 11428",nyct,queens north
+UP,ULMER PARK,"2449 Harway Av., Brooklyn NY 11214",nyct,brooklyn
+WF,WEST FARMS,"1100 East 177th St. Bronx, NY 10460",nyct,bronx
+YU,YUKON,"40 Yukon Av, Staten Island, NY 10314",nyct,staten island

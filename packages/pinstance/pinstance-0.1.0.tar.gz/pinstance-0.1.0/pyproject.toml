@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pinstance"
+version = "0.1.0"
+description = "Simple singleton class and function decorators with 0 overhead"
+readme = "README.md"
+authors = [
+  { name="Nazarov Pavel", email="unyite8@gmail.com" },
+]
+license = {text = "MIT"}
+keywords = [
+    "singleton",
+    "decorator"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+requires-python = ">=3.7"
+
+[project.urls]
+homepage = "https://github.com/Nyite/Pinstance"

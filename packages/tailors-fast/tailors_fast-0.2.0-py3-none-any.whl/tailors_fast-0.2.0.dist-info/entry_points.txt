@@ -1,0 +1,4 @@
+[console_scripts]
+tailors-fast-dataset-from-eb=tailors_fast.dataset_from_eb:process
+tailors-fast-train=tailors_fast.train:train
+

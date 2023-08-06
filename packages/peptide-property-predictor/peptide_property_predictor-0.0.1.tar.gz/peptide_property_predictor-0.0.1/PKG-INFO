@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: peptide_property_predictor
+Version: 0.0.1
+Summary: A very simple peptide property predictor.
+Author-email: Patrick Garrett <pgarrett@scripps.edu>
+Project-URL: repository, https://github.com/pgarrett-scripps/PeptidePropertyPredictor.git
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Peptide Property Predictor
+
+A very simple peptide property predictor for predicting various properties of peptide sequences.
+
+## Installation
+
+Install the package using pip:
+
+```sh
+pip install peptide_property_predictor
+```

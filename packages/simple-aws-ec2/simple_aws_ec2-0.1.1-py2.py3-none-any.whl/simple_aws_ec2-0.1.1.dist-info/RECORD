@@ -1,0 +1,11 @@
+simple_aws_ec2/__init__.py,sha256=rgn_VQ854SBajqabyeWZQEU8BdofFnkPp9r74ZmnTdM,378
+simple_aws_ec2/_version.py,sha256=3ngZz3_QoERdhI7hz4p3JzJ6Msem0N5631SEIjary1M,93
+simple_aws_ec2/api.py,sha256=FghwaNh41pjrJM2bd7-HV8oNEcmafRdeWHAB_yTRuLU,116
+simple_aws_ec2/ec2.py,sha256=iQf_Af0X3jc5IsMNVLx4AJl16oNfWP1jI85CYCGgo4A,6311
+simple_aws_ec2/docs/__init__.py,sha256=f-E2GGaAOnea7U51BKWcRtFHZ6p2iPnvGoXR6VvBtGg,43
+simple_aws_ec2-0.1.1.dist-info/AUTHORS.rst,sha256=ROrEuLM7jAJnyn4FKyYG8vfwtw5hcpdBOwWnnBRzWTM,509
+simple_aws_ec2-0.1.1.dist-info/LICENSE.txt,sha256=0_f67emPvND2zzFKAyWGfCO75VKuwBve9uIOVMhpAkc,1124
+simple_aws_ec2-0.1.1.dist-info/METADATA,sha256=gS9DS0wkI1e88KulDmMclv4tN3EwYSYYbdlW9YeESXU,5367
+simple_aws_ec2-0.1.1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+simple_aws_ec2-0.1.1.dist-info/top_level.txt,sha256=5XFnFzyC6iNbvyWqGev3HTkVkTm13DKLJKNnCDBaKg0,15
+simple_aws_ec2-0.1.1.dist-info/RECORD,,

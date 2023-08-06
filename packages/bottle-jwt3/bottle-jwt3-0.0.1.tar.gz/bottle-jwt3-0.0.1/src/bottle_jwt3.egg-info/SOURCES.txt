@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/bottle_jwt/__init__.py
+src/bottle_jwt/bottle_jwt.py
+src/bottle_jwt3.egg-info/PKG-INFO
+src/bottle_jwt3.egg-info/SOURCES.txt
+src/bottle_jwt3.egg-info/dependency_links.txt
+src/bottle_jwt3.egg-info/requires.txt
+src/bottle_jwt3.egg-info/top_level.txt
+tests/test_bottle_jwt.py

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: yam
+Version: 0.7.2
+Summary: Yet another monitoring tool using correlations of ambient noise (seismology)
+Home-page: https://github.com/trichter/yam
+Author: Tom Eulenfeld
+License: MIT
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Physics
+License-File: LICENSE
+
+Please look at the project site for tutorials and information.

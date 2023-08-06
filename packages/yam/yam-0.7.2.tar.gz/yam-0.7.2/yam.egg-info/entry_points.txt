@@ -1,0 +1,3 @@
+[console_scripts]
+yam = yam.main:run_cmdline
+yam-runtests = yam.tests:run

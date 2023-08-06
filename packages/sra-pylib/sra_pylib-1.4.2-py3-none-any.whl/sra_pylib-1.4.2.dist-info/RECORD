@@ -1,0 +1,16 @@
+sra/__init__.py,sha256=xD_VqzYXDJ5e7Q18SgUal3Th7KBZ54hQjcbH9kWr88g,768
+sra/animal.py,sha256=_l3thvGE53uGGESlfCbexO2IA8L46LXiuz51jz-b5CU,20792
+sra/animu.py,sha256=H9ARxt6CiOK0F90F5gpnJC7esCgmFzAbJUAeJz1uWHw,9388
+sra/canvas.py,sha256=nqgjCCg8pjNFJV9fqRGCsSjDAXiQlMTb_Fs_021F3Ck,96967
+sra/chatbot.py,sha256=EOjmktD09iiGrLRk3NWdYaJxgjZ2ESrnkwQ4EVFNgg0,968
+sra/exceptions.py,sha256=0OTz3BC8Er6drlMHOXRC-DMBLnacktJE3se0NqzyM3o,2017
+sra/facts.py,sha256=VQuqLlJgX6XDWJnNNt2UHuwnM6lLgWqXlwQhNanFBZI,5756
+sra/image.py,sha256=Ju3m7mS43ksrkmwLnSd7TrL9f122e0nxrPutTfvhMBI,23122
+sra/others.py,sha256=ebVshLVbSUKQFz11O-nhe6bjU7-4wW3Pw6gShLW8qvQ,9347
+sra/pokemon.py,sha256=w54UO4ZlMdCKSaos-aTBQNYF57p9Hmg-YtT66NvtdeA,8589
+sra/welcome.py,sha256=hz3OhWihEZdKvRRLKNwu2CEQ368YEP3YUIvjPV6JGcw,4410
+sra_pylib-1.4.2.dist-info/LICENSE,sha256=Ltk0iKUAkAkh3cdE08zUn3KQTnBRp1mIXIAZwBndk3U,1096
+sra_pylib-1.4.2.dist-info/METADATA,sha256=oHh7U9g7p5wfkFLrNSjo3HQd97ocFMBlq5Zfruw63Ak,4523
+sra_pylib-1.4.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+sra_pylib-1.4.2.dist-info/top_level.txt,sha256=nzQA7q0asLq7ffYhSutxnsJessUICbrY5yvg5mNkDoc,4
+sra_pylib-1.4.2.dist-info/RECORD,,

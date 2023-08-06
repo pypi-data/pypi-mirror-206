@@ -1,0 +1,2 @@
+[console_scripts]
+sphinx-versioned = sphinx_versioned.__main__:app

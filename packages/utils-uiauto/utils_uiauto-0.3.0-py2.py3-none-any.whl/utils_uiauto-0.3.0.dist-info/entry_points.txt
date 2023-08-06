@@ -1,0 +1,2 @@
+[console_scripts]
+install_key_mouse = utils_uiauto.tools.cli:main

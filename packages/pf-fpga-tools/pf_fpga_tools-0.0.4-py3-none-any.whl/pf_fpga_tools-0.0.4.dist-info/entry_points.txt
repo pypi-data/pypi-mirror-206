@@ -1,0 +1,6 @@
+[console_scripts]
+pfBuildCore = pffpgatools.pfBuildCore.__main__:main
+pfCloneCoreTemplate = pffpgatools.pfCloneCoreTemplate.__main__:main
+pfConvertImage = pffpgatools.pfConvertImage.__main__:main
+pfInstallCore = pffpgatools.pfInstallCore.__main__:main
+pfReverseBitstream = pffpgatools.pfReverseBitstream.__main__:main

@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pygame-gameover
+Version: 0.0.4
+Summary: It game gameover module
+Home-page: https://github.com/kurban-hussain-786/MY-CODE
+Author: kurban hussain
+Author-email: kurbanhussain086@gmail.com
+License: MIT
+Keywords: gameover in pygame,pygame gameover,gameover,over game,game over,pygame_gameover,gameover_pygame,pygame game,pygame,pygame GAMEOVER
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.TXT
+
+# first from pygame_gameover import gameover
+from pygame_gameover import gameover
+import pygame
+import sys
+screen=pygame.display.set_mode((1000,500))
+
+# this is a example of gameover
+
+def gameloop():
+    game=True
+    while game:
+        for event in pygame.event.get():
+            if event.type==pygame.QUIT:
+                game=False
+                sys.exit()
+            if event.type==pygame.KEYDOWN:
+                if event.key==pygame.K_s:
+                    # second gameover.gameover() and is module call the gameover function
+                    gameover.gameover()
+
+
+        screen.fill((255,255,0))           
+
+        pygame.display.update()
+
+
+gameloop()

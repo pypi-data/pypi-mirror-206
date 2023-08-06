@@ -1,0 +1,11 @@
+periodogram/__init__.py,sha256=O02iS0hkRbHeRKoZusr-Rw-1kRRmetSEaNgMD_0Z2bU,56
+periodogram/estimator.py,sha256=y5Dnn3srhA42YM0VG0GK2nT5Mx0bSUfH7nuI542REqo,2650
+periodogram/normalization.py,sha256=wHy0R3_76cmoCXwqU-deI39JlxgYVkbP7NxD3B5p8Sk,3079
+periodogram/periodogram.py,sha256=IfexNC3t-RBZiwNC-Ydn35zYnG7hR5nDic9I6Y57UvA,4669
+periodogram/utils.py,sha256=7WiufqES7q1_k1muBKm-q3RVwRvA3HX7LfK2RuSRvZ0,519
+periodogram/version.py,sha256=1SFj-qMOaeO0fOKQaFmYhAKiRwwNda5uWKpYtIcken8,23
+periodogram/window.py,sha256=sqTkF_eojSEe0qzm6Bk2E1Dz6CSQBEby0Ul8ebXDd6s,3215
+periodogram-0.0.13.dist-info/METADATA,sha256=hJgnPnJlGh-peZMhC94p98NAPxgTffaefuOirgcuXdk,1448
+periodogram-0.0.13.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+periodogram-0.0.13.dist-info/top_level.txt,sha256=WlxvPpRN7BuT_tWl-KIxrnqHJ2krBvVL0ys8JFhwkr0,12
+periodogram-0.0.13.dist-info/RECORD,,

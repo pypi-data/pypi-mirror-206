@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ipfs_dict_chain
+Version: 1.0.0
+Summary: A Python package that provides IPFSDict and IPFSDictChain objects, which are dictionary-like data structures that store their state on IPFS and keep track of changes.
+Home-page: https://github.com/ValyrianTech/ipfs_dict_chain
+Author: Wouter Glorieux
+Author-email: info@valyrian.tech
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE

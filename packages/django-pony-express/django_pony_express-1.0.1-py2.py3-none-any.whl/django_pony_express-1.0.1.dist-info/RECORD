@@ -1,0 +1,10 @@
+django_pony_express/__init__.py,sha256=m209K56L3ma2pfWdfcPYpfxtKw8alarHmF72jUxohaI,85
+django_pony_express/errors.py,sha256=LQwFYvO7hzG5QRd3bFfPZyEwiaSMisi99f-wWLFG_bE,120
+django_pony_express/locale/de/LC_MESSAGES/django.po,sha256=vqmCv7Ag3sPJNDWhg-ewCuku6-k05DNxUgO7G4RB910,1607
+django_pony_express/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_pony_express/services/base.py,sha256=cGc9-RrDL8zCoIfjyevJF0FE6PvqnirOWfFHCkrOxPg,11273
+django_pony_express/services/tests.py,sha256=XzBCRiZ0zvYnGVTfdc0DQEqHMsjep3IOMZFLXu7Fi_A,10121
+django_pony_express-1.0.1.dist-info/LICENSE.md,sha256=171LQ2KZd2Cw9dp_2FcrcBrzJN3QVF52BLGtVFablN8,1090
+django_pony_express-1.0.1.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+django_pony_express-1.0.1.dist-info/METADATA,sha256=JW_lTQ2xXKUWF2dppUalewCP5bTs-jr1KrOgUPQqm5c,7134
+django_pony_express-1.0.1.dist-info/RECORD,,

@@ -1,0 +1,13 @@
+setup.py
+autogon_ml/__init__.py
+autogon_ml/autoClassification/__init__.py
+autogon_ml/autoClassification/base.py
+autogon_ml/autoFeatureEngineering/__init__.py
+autogon_ml/autoFeatureEngineering/base.py
+autogon_ml/autoRegression/__init__.py
+autogon_ml/autoRegression/base.py
+eobi.egg-info/PKG-INFO
+eobi.egg-info/SOURCES.txt
+eobi.egg-info/dependency_links.txt
+eobi.egg-info/requires.txt
+eobi.egg-info/top_level.txt

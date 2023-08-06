@@ -1,0 +1,8 @@
+setup.py
+gui4pygame/__init__.py
+gui4pygame/gui4pygame.py
+gui4pygame.egg-info/PKG-INFO
+gui4pygame.egg-info/SOURCES.txt
+gui4pygame.egg-info/dependency_links.txt
+gui4pygame.egg-info/requires.txt
+gui4pygame.egg-info/top_level.txt

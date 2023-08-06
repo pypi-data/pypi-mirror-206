@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+ocm_python_client.egg-info/PKG-INFO
+ocm_python_client.egg-info/SOURCES.txt
+ocm_python_client.egg-info/dependency_links.txt
+ocm_python_client.egg-info/top_level.txt

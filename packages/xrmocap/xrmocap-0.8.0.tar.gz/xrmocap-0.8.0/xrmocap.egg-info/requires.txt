@@ -1,0 +1,8 @@
+filterpy
+numpy==1.23.5
+opencv-python-headless
+pre-commit
+prettytable
+scipy==1.10.0
+smplx
+tqdm

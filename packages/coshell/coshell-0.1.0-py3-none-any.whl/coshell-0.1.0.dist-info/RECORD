@@ -1,0 +1,13 @@
+coshell/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coshell/internal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coshell/internal/chat.py,sha256=ZRPTiYIjU9zIauI3tTiek429SCG06QIXU3CZCFGTyc4,1112
+coshell/internal/cli.py,sha256=_pRz7gpmKsOtCVvcmbC32Au-acpPFW_kFwcn_HgLYx0,245
+coshell/internal/openai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coshell/internal/openai/api.py,sha256=XoVcbSDeUWPvALBSST5ZGdKlqeiw-DTxz6GTCXZD5E0,567
+coshell/internal/openai/chat_completions.py,sha256=dQyISF2MM_Zg1BIMbNmXRwq4Xb3tArN55afXiH6nNag,1125
+coshell/internal/openai/endpoint.py,sha256=6gopsJ9gA_bk3rAoxCZceRGYb892VmAgvSu6rd4FPDY,685
+coshell/main.py,sha256=LMekMemvuaJ8QSkUyn6mTJDbimITfDTxXKT0_qGLsaM,1326
+coshell-0.1.0.dist-info/entry_points.txt,sha256=vMqGafIRWdYV-20iv4DQJXozkm2BPG6cqDX3gh1tK40,47
+coshell-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+coshell-0.1.0.dist-info/METADATA,sha256=W4nT554ffR_TRA58V3VvtitbTcxq6Wc_8SmbXTt_Hts,546
+coshell-0.1.0.dist-info/RECORD,,

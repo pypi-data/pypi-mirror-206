@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: coshell
+Version: 0.1.0
+Summary: 
+Author: Joshua Wycuff
+Author-email: josh.wycuff@gmail.com
+Requires-Python: >=3.8,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=1.10.7,<2)
+Requires-Dist: pyperclip (>=1.8.2,<2)
+Requires-Dist: requests (>=2,<3)
+Description-Content-Type: text/markdown
+
+

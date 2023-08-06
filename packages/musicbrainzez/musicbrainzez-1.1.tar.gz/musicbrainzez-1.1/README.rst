@@ -1,0 +1,89 @@
+Musicbrainz EZ bindings
+########################
+
+This library implements webservice bindings for the Musicbrainz NGS site, also known as /ws/2
+and the `Cover Art Archive <https://coverartarchive.org/>`_.
+
+For more information on the musicbrainz API see `<https://wiki.musicbrainz.org/MusicBrainz_API>`_.
+
+Usage
+*****
+
+.. code:: python
+
+    # Import the module
+    import musicbrainzez
+
+    # Tell musicbrainz what your app is, and how to contact you
+    # (this step is required, as per the webservice access rules
+    # at https://wiki.musicbrainz.org/MusicBrainz_API/Rate_Limiting )
+    musicbrainzez.set_useragent("Example music app", "0.1", "http://example.com/music")
+
+    # If you are connecting to a different server
+    musicbrainzez.set_hostname("beta.musicbrainz.org")
+
+    # If you plan to submit data, authenticate
+    musicbrainzez.submit_barcodes({"e94757ff-2655-4690-b369-4012beba6114": "9421021463277"}, user="user", password="password")
+
+
+See the ``query.py`` file for more examples.
+
+For OAuth2 authentication, create a new application from your musicbrainz
+account and get the client ID and the secret (below as ``client_id`` and
+``client_secret``).
+
+.. code:: python
+
+    import musicbrainzez
+
+    # Create a new handler if needed and get an authorization
+    handler = musicbrainzez.oauth_new_handler("client_id", scope=['profile', 'collection'])
+    url = musicbrainzez.oauth_get_authorization_url(handler)
+
+    # When you have the authorization code, authenticate:
+    token, refresh_token = musicbrainzez.oauth_get_authorization(handler, "client_secret", "code")
+
+    # If you plan to submit data, authenticate with the token
+    musicbrainzez.submit_barcodes({"e94757ff-2655-4690-b369-4012beba6114":
+    "9421021463277"}, client_id="client_id",  access_token="access_token")
+
+See ``oauthtest.py`` for a complete example
+
+Contribute
+**********
+
+If you want to contribute to this repository, please read `the
+contribution guidelines ``CONTRIBUTING.md`` first.
+
+Authors
+*******
+
+These bindings is a fork from the python-musicbrainzez project written by
+`Alastair Porter <http://github.com/alastair>`_.  Contributions had been made
+by:
+
+* `Adrian Sampson <https://github.com/sampsyo>`_
+* `Corey Farwell <https://github.com/frewsxcv>`_
+* `Galen Hazelwood <https://github.com/galenhz>`_
+* `Greg Ward <https://github.com/gward>`_
+* `Ian McEwen <https://github.com/ianmcorvidae>`_
+* `Jérémie Detrey <https://github.com/jdetrey>`_
+* `Johannes Dewender <https://github.com/JonnyJD>`_
+* `Michael Marineau <https://github.com/marineam>`_
+* `Patrick Speiser <https://github.com/doskir>`_
+* `Pavan Chander <https://github.com/navap>`_
+* `Paul Bailey <https://github.com/paulbailey>`_
+* `Rui Gonçalves <https://github.com/ruippeixotog>`_
+* `Ryan Helinski <https://github.com/rlhelinski>`_
+* `Sam Doshi <https://github.com/samdoshi>`_
+* `Shadab Zafar <https://github.com/dufferzafar>`_
+* `Simon Chopin <https://github.com/laarmen>`_
+* `Thomas Vander Stichele <https://github.com/thomasvs>`_
+* `Wieland Hoffmann <https://github.com/mineo>`_
+
+License
+*******
+
+This library is released under the simplified BSD license except for the file
+``musicbrainzez/compat.py`` which is licensed under the ISC license.
+See COPYING for details.

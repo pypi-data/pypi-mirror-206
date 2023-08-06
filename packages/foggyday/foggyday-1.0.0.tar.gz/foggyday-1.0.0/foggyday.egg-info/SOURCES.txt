@@ -1,0 +1,8 @@
+setup.py
+foggyday/__init__.py
+foggyday/foggyday.py
+foggyday.egg-info/PKG-INFO
+foggyday.egg-info/SOURCES.txt
+foggyday.egg-info/dependency_links.txt
+foggyday.egg-info/requires.txt
+foggyday.egg-info/top_level.txt

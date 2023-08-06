@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: CDSupdate
+Version: 1.0.2
+Summary: Auto-updater of data from the Climate Data Store
+Home-page: https://github.com/yrobink/CDSupdate
+Author: Yoann Robin
+Author-email: yoann.robin.k@gmail.com
+License: GNU-GPL3
+Keywords: Climate Data Store,Auto update
+Platform: linux
+Platform: macosx
+Requires: numpy
+Requires: pandas
+Requires: xarray
+Requires: netCDF4
+Requires: cftime
+Requires: cdsapi
+License-File: LICENSE
+
+CDSupdate is a tools to automatically download and update data from the Climate
+Data Store. Currently, only ERA5 is supported.

@@ -1,0 +1,1 @@
+from dash_finance import DashFinance, fig, app

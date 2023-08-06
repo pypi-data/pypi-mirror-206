@@ -1,0 +1,3 @@
+[console_scripts]
+hash-hound = hash:main
+

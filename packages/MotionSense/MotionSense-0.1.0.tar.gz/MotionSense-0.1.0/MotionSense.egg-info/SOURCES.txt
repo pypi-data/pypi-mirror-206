@@ -1,0 +1,8 @@
+setup.py
+MotionSense/MotionDetector.py
+MotionSense/__init__.py
+MotionSense.egg-info/PKG-INFO
+MotionSense.egg-info/SOURCES.txt
+MotionSense.egg-info/dependency_links.txt
+MotionSense.egg-info/requires.txt
+MotionSense.egg-info/top_level.txt

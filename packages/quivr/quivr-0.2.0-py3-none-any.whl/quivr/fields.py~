@@ -1,0 +1,131 @@
+from typing import Optional, Union, TypeAlias
+import pyarrow as pa
+
+Byteslike: TypeAlias = Union[bytes, bytearray, memoryview, str]
+MetadataDict: TypeAlias = dict[Byteslike, Byteslike]
+
+
+class Field:
+    def __init__(self, dtype: pa.DataType, nullable: bool = True, metadata: Optional[MetadataDict] = None):
+        self.dtype = dtype
+
+    def __get__(self, obj: "Table", objtype: type):
+        return obj.table[self.name]
+
+    def __set_name__(self, owner: type, name: str):
+        self.name = name
+
+    def pyarrow_field(self):
+        return pa.field(self.name, self.dtype)
+
+class Int8Field(Field):
+    def __init__(self, nullable: bool = True, metadata: Optional[MetadataDict] = None):
+        super().__init__(pa.int8(), nullable=nullable, metadata=metadata)
+
+    def __get__(self, obj: "Table", objtype: type) -> pa.Int8Array:
+        return obj.table[self.name].combine_chunks()
+
+class Int16Field(Field):
+    def __init__(self, nullable: bool = True, metadata: Optional[MetadataDict] = None):
+        super().__init__(pa.int16(), nullable=nullable, metadata=metadata)
+
+    def __get__(self, obj: "Table", objtype: type) -> pa.Int16Array:
+        return obj.table[self.name].combine_chunks()
+
+class Int32Field(Field):
+    def __init__(self, nullable: bool = True, metadata: Optional[MetadataDict] = None):
+        super().__init__(pa.int32(), nullable=nullable, metadata=metadata)
+
+    def __get__(self, obj: "Table", objtype: type) -> pa.Int32Array:
+        return obj.table[self.name].combine_chunks()
+
+class Int64Field(Field):
+    def __init__(self, nullable: bool = True, metadata: Optional[MetadataDict] = None):
+        super().__init__(pa.int64(), nullable=nullable, metadata=metadata)
+
+    def __get__(self, obj: "Table", objtype: type) -> pa.Int64Array:
+        return obj.table[self.name].combine_chunks()
+
+class UInt8Field(Field):
+    def __init__(self, nullable: bool = True, metadata: Optional[MetadataDict] = None):
+        super().__init__(pa.uint8(), nullable=nullable, metadata=metadata)
+
+    def __get__(self, obj: "Table", objtype: type) -> pa.UInt8Array:
+        return obj.table[self.name].combine_chunks()
+
+class UInt16Field(Field):
+    def __init__(self, nullable: bool = True, metadata: Optional[MetadataDict] = None):
+        super().__init__(pa.uint16(), nullable=nullable, metadata=metadata)
+
+    def __get__(self, obj: "Table", objtype: type) -> pa.UInt16Array:
+        return obj.table[self.name].combine_chunks()
+
+class UInt32Field(Field):
+    def __init__(self, nullable: bool = True, metadata: Optional[MetadataDict] = None):
+        super().__init__(pa.uint32(), nullable=nullable, metadata=metadata)
+
+    def __get__(self, obj: "Table", objtype: type) -> pa.UInt32Array:
+        return obj.table[self.name].combine_chunks()
+
+class UInt64Field(Field):
+    def __init__(self, nullable: bool = True, metadata: Optional[MetadataDict] = None):
+        super().__init__(pa.uint64(), nullable=nullable, metadata=metadata)
+
+    def __get__(self, obj: "Table", objtype: type) -> pa.UInt64Array:
+        return obj.table[self.name].combine_chunks()
+
+class Float16Field(Field):
+    def __init__(self, nullable: bool = True, metadata: Optional[MetadataDict] = None):
+        super().__init__(pa.float16(), nullable=nullable, metadata=metadata)
+
+    def __get__(self, obj: "Table", objtype: type) -> pa.HalfFloatArray:
+        return obj.table[self.name].combine_chunks()
+
+class Float32Field(Field):
+    def __init__(self, nullable: bool = True, metadata: Optional[MetadataDict] = None):
+        super().__init__(pa.float32(), nullable=nullable, metadata=metadata)
+
+    def __get__(self, obj: "Table", objtype: type) -> pa.FloatArray:
+        return obj.table[self.name].combine_chunks()
+
+class Float64Field(Field):
+    def __init__(self, nullable: bool = True, metadata: Optional[MetadataDict] = None):
+        super().__init__(pa.float64(), nullable=nullable, metadata=metadata)
+
+    def __get__(self, obj: "Table", objtype: type) -> pa.DoubleArray:
+        return obj.table[self.name].combine_chunks()
+
+class StringField(Field):
+    def __init__(self, nullable: bool = True, metadata: Optional[MetadataDict] = None):
+        super().__init__(pa.string(), nullable=nullable, metadata=metadata)
+
+    def __get__(self, obj: "Table", objtype: type) -> pa.StringArray:
+        return obj.table[self.name].combine_chunks()
+
+class LargeBinaryField(Field):
+    def __init__(self, nullable: bool = True, metadata: Optional[MetadataDict] = None):
+        super().__init__(pa.large_binary(), nullable=nullable, metadata=metadata)
+
+    def __get__(self, obj: "Table", objtype: type) -> pa.LargeBinaryArray:
+        return obj.table[self.name].combine_chunks()
+
+class LargeStringField(Field):
+    def __init__(self, nullable: bool = True, metadata: Optional[MetadataDict] = None):
+        super().__init__(pa.large_string(), nullable=nullable, metadata=metadata)
+
+    def __get__(self, obj: "Table", objtype: type) -> pa.LargeStringArray:
+        return obj.table[self.name].combine_chunks()
+
+class Decimal128Field(Field):
+    def __init__(self, precision: int, scale: int, nullable: bool = True, metadata: Optional[MetadataDict] = None):
+        super().__init__(pa.decimal128(precision, scale), nullable=nullable, metadata=metadata)
+
+    def __get__(self, obj: "Table", objtype: type) -> pa.Decimal128Array:
+        return obj.table[self.name].combine_chunks()
+
+class Decimal256Field(Field):
+    def __init__(self, precision: int, scale: int, nullable: bool = True, metadata: Optional[MetadataDict] = None):
+        super().__init__(pa.decimal256(precision, scale), nullable=nullable, metadata=metadata)
+
+    def __get__(self, obj: "Table", objtype: type) -> pa.Decimal256Array:
+        return obj.table[self.name].combine_chunks()

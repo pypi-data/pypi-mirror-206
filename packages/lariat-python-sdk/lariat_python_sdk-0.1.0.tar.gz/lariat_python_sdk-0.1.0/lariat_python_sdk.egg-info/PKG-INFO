@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: lariat-python-sdk
+Version: 0.1.0
+Summary: A Python module to interact with Lariat API to access data quality metrics and diagnostics
+Home-page: https://github.com/lariat-data/lariat-python-sdk/
+Author: Lariat Team
+Author-email: info@lariatdata.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+UNKNOWN
+

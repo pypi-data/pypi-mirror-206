@@ -1,0 +1,12 @@
+personio_py/__init__.py,sha256=_gSH9UAOI1swRtgtWkCsOnzgxMjfmRt80KBYMJ-hp4I,618
+personio_py/client.py,sha256=mn8zaevVGMx6BB-6fw_4lQnr-RmpQDsQwKa0LyVbxnU,29926
+personio_py/errors.py,sha256=UgFTWn6JGwXpIVYqehMlGrDz1FNN6rbFJlWPi11qBw0,2820
+personio_py/mapping.py,sha256=g-RoKgwh2NSAgzwot6Pw7rpN5lXHM2rhHQDzDY52lyQ,8128
+personio_py/models.py,sha256=fK8G6Tc_xu-3Dr2hvyUXhQMYYoNVylHURG0LN4di2zs,35025
+personio_py/search.py,sha256=AM4ftTUmE4eIqtcCfQw_7GJ2Rlzxt_GBD2TWYYBPhYk,7418
+personio_py/version.py,sha256=XtWUl6HPylv5jZLd2KkgtPptuzuda93kC2REmOrF-Cs,22
+personio_py-0.2.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+personio_py-0.2.3.dist-info/METADATA,sha256=V37a7z9S-jYE5FgUQfvNZpNUq3GJap1JPsb0SANY7tk,12786
+personio_py-0.2.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+personio_py-0.2.3.dist-info/top_level.txt,sha256=fEuYcVTxEXQr6qK-FDqkf3D0ldenZz5yAWtHdGPp7rk,12
+personio_py-0.2.3.dist-info/RECORD,,

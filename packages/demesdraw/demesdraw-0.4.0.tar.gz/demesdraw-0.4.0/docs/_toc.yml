@@ -1,0 +1,8 @@
+format: jb-article
+root: quickstart
+sections:
+- file: api
+- file: cli
+- file: examples
+- file: layout
+- file: CHANGELOG

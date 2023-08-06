@@ -1,0 +1,53 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: DemesDraw
+author: Graham Gower
+copyright: "2021-2023"
+only_build_toc_files: true
+
+execute:
+  execute_notebooks: cache
+  timeout: 100
+
+repository:
+  url: https://github.com/grahamgower/demesdraw
+  path_to_book: docs
+  branch: main
+
+sphinx:
+  extra_extensions:
+  - sphinx.ext.autodoc
+  - sphinx.ext.viewcode
+  - sphinx.ext.intersphinx
+  - sphinxcontrib.programoutput
+  - sphinx_issues
+
+  local_extensions:
+    # Add version string to the navbar and footer.
+    # Works with sphinx-book-theme, but not with piccolo_theme.
+    #inject_version: _ext
+
+  config:
+    autodoc_typehints: description
+    intersphinx_mapping:
+      python: ["https://docs.python.org/3/", null]
+      demes: ["https://popsim-consortium.github.io/demes-docs/stable/", null]
+      matplotlib: ["https://matplotlib.org/stable/", null]
+    issues_github_path: grahamgower/demesdraw
+
+    html_show_sphinx: false
+    # https://piccolo-theme.readthedocs.io/
+    html_theme: "piccolo_theme"
+    # some custom css to fix piccolo/notebook in dark modes
+    html_static_path: ["_static"]
+    html_css_files: ["custom.css"]
+
+    html_theme_options:
+        globaltoc_collapse: false
+        globaltoc_maxdepth: -1
+        globaltoc_includehidden: true
+
+        ## piccolo_theme options
+        #dark_mode_code_blocks: false
+        source_url: https://github.com/grahamgower/demesdraw

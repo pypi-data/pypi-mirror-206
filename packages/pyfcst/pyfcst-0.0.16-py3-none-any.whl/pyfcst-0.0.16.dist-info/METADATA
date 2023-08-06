@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyfcst
+Version: 0.0.16
+Summary: python library developed for use with OpenFCST
+Author: james
+Author-email: jwoodfor@ualberta.ca
+Requires-Python: >=3.8,<3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: bitarray (>=2.7.3,<2.8.0)
+Requires-Dist: jedi (>=0.17.1,<0.18.0)
+Requires-Dist: libtiff (>=0.4.0,<0.5.0)
+Requires-Dist: mahotas (==1.4.13)
+Requires-Dist: mayavi (==4.8.1)
+Requires-Dist: numpy (>=1.24.1,<1.25.0)
+Requires-Dist: opencv-python (>=4.7.0.72,<4.8.0.0)
+Requires-Dist: parso (>=0.7.0,<0.8.0)
+Requires-Dist: pillow (>=9.3.0,<9.4.0)
+Requires-Dist: pyqt5 (>=5.13,<5.14)
+Requires-Dist: pyqtwebengine (>=5.13,<5.14)
+Requires-Dist: scikit-image (>=0.19.3,<0.20.0)
+Requires-Dist: scipy (==1.10.1)
+Requires-Dist: simpleitk (>=2.0.2,<2.1.0)
+Requires-Dist: sphinx (>=5.0.2,<5.1.0)
+Requires-Dist: vtk (>=9.0.0,<10.0.0)
+Description-Content-Type: text/markdown
+
+# pyFCST
+Microstructure analysis towards PEMFC and PEMWE research. 
+

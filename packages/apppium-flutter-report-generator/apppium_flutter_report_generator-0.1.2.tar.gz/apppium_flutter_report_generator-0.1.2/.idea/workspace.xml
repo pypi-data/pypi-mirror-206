@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d74b248d-601e-4b9e-80fb-5b030921959d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppName_2023_12_30_17_57_55/AppName_2023_12_30_17_57_55.json" beforeDir="false" afterPath="$PROJECT_DIR$/response_sample/AppName_2023_12_30_17_57_55/AppName_2023_12_30_17_57_55.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppName_2023_12_30_17_57_55/files/placeholder" beforeDir="false" afterPath="$PROJECT_DIR$/response_sample/AppName_2023_12_30_17_57_55/files/placeholder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppName_2023_12_30_17_57_55/screenshots/placeholder" beforeDir="false" afterPath="$PROJECT_DIR$/response_sample/AppName_2023_12_30_17_57_55/screenshots/placeholder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppName_2023_12_30_17_57_55/videos/placeholder" beforeDir="false" afterPath="$PROJECT_DIR$/response_sample/AppName_2023_12_30_17_57_55/videos/placeholder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group_and_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/group_and_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/report_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_with_examples/crud/test_crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/crud/test_crud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_with_examples/login/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/login/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_with_examples/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Owqkpc98EjOwKySeiXF9xVrrNv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/AppiumContribution/AppiumFlutterReport/PythonReportGenerator/AppName_2023_12_30_17_57_55/files",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AppiumContribution\AppiumFlutterReport\PythonReportGenerator\AppName_2023_12_30_17_57_55\files" />
+      <recent name="D:\AppiumContribution\AppiumFlutterReport\PythonReportGenerator\AppName_2023_12_30_17_57_55\screenshots" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AppiumContribution\AppiumFlutterReport\PythonReportGenerator\src" />
+      <recent name="D:\AppiumContribution\AppiumFlutterReport\PythonReportGenerator\ReponseSample" />
+      <recent name="D:\AppiumContribution\AppiumFlutterReport\PythonReportGenerator" />
+      <recent name="D:\AppiumContribution\AppiumFlutterReport\PythonReportGenerator\testing_with_examples" />
+      <recent name="D:\AppiumContribution\AppiumFlutterReport\PythonReportGenerator\features" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main (2)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ReportGenerator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing_with_examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testing_with_examples/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ReportGenerator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ReportGenerator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\AppiumContribution\AppiumFlutterReport\PythonReportGenerator\features\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d74b248d-601e-4b9e-80fb-5b030921959d" name="Changes" comment="" />
+      <created>1682482137759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682482137759</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

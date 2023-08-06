@@ -1,0 +1,6 @@
+numpy
+pandas>=1.5.3
+SQLAlchemy>=2.0.0
+hyclib>=0.1.13
+addict
+beautifulsoup4

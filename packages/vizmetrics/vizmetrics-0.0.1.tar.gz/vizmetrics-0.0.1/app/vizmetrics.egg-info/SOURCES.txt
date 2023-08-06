@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+app/vizmetrics/__init__.py
+app/vizmetrics.egg-info/PKG-INFO
+app/vizmetrics.egg-info/SOURCES.txt
+app/vizmetrics.egg-info/dependency_links.txt
+app/vizmetrics.egg-info/requires.txt
+app/vizmetrics.egg-info/top_level.txt
+app/vizmetrics/src/__init__.py
+app/vizmetrics/src/_version.py
+app/vizmetrics/src/utils.py
+app/vizmetrics/src/vizmetrics.py
+app/vizmetrics/test/__init__.py
+app/vizmetrics/test/test_vizmetrics.py

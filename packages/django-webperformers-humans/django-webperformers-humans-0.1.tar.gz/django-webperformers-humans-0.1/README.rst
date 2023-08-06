@@ -1,0 +1,37 @@
+=====
+Django humans
+=====
+
+Humans is a Django app:
+    1. Exposing hunans.txt file
+    2. Exposing project team over /team/ path
+    3. Exposing each project team member over /team/member-name path
+
+Model Humans is created to manage team members and their information
+
+App uses templates:
+    1. teamComponent.html - main component of displaying team members
+    2. teamPage.html - page, including teamComponent.html component, and extending base template. Base template should have humansContent block.
+    3. personPage.html - page, displayng each tem member individually, and extending base template. Base template should have humansContent block.
+
+
+Quick start
+-----------
+
+1. Add "humans" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...,
+        "humans",
+    ]
+
+2. Include the humans URLconf in your project urls.py like this::
+
+    path('', include('humans.urls')),
+
+3. Run ``python manage.py migrate`` to create the polls models.
+
+4. Start the development server and visit http://127.0.0.1:8000/admin/
+   to create a poll (you'll need the Admin app enabled).
+
+5. Visit http://127.0.0.1:8000/polls/ to participate in the poll.

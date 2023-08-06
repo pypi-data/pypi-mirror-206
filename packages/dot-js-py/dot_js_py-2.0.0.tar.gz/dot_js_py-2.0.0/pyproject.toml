@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "dot-js-py"
+version = "2.0.0"
+description = "A python implementation of the famous js template engine. doT.js."
+authors = ["lucemia <lucemia@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "doT", from = "src" }]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.3.1"
+syrupy = "<4.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.3.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+pattern = "default-unprefixed"

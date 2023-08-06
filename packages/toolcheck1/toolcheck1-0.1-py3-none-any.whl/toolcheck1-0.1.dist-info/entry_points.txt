@@ -1,0 +1,3 @@
+[console_scripts]
+toolcheck11 = dna_audit_tool.main:__main__
+

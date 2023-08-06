@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: GenBioX
+Version: 0.3
+Summary: A Comprehensive Bioinformatics Package for Genome Analysis
+Home-page: https://github.com/SayaGarud/GenBioX.git
+Author: Sayali Garud
+Author-email: sayaligrud@gmail.com
+License: MIT
+Keywords: bioinformatics,genomics,genome analysis,quality control,preprocessing,sequencing,annotation,variant analysis,gene expression,comparative genomics
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+License-File: LICENSE.txt
+
+For documentation, please visit http://genbiox.readthedocs.io/

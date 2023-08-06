@@ -1,0 +1,8 @@
+pytest
+smtpdfix
+
+[dev]
+tox
+flake8
+isort
+mypy

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pytest_smtpd/__init__.py
+src/pytest_smtpd.egg-info/PKG-INFO
+src/pytest_smtpd.egg-info/SOURCES.txt
+src/pytest_smtpd.egg-info/dependency_links.txt
+src/pytest_smtpd.egg-info/not-zip-safe
+src/pytest_smtpd.egg-info/requires.txt
+src/pytest_smtpd.egg-info/top_level.txt
+tests/test_fixture.py

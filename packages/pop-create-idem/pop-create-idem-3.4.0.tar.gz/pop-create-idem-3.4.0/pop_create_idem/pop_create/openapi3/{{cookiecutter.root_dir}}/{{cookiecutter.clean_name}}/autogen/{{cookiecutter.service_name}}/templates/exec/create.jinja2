@@ -1,0 +1,25 @@
+{# templates/create.jinja2 #}
+    result = dict(comment=[], ret=[], result=True)
+
+    # TODO: Change request param mapping as necessary
+    payload = {{ function.hardcoded.request_mappings|default("{}", true) }}
+
+    create = await hub.tool.{{ function.hardcoded.service_name }}.session.request(
+        ctx,
+        method="{{ function.hardcoded.method }}",
+        path="{{ function.hardcoded.path }}",
+        query_params={{ parameter.mapping.query|default({}) }},
+        data=payload,
+        headers={{ parameter.mapping.header|default({}) }},
+    )
+
+    if not create["result"]:
+        result["comment"].append(create["comment"])
+        result["result"] = False
+        return result
+
+    result["comment"].append(f"Created {{ function.hardcoded.service_name }}.{{ function.hardcoded.resource_name }} '{name}'",)
+
+    result["ret"] = create["ret"]
+    # TODO: add "resource_id" to returned response by mapping to correct resource identifier
+    return result

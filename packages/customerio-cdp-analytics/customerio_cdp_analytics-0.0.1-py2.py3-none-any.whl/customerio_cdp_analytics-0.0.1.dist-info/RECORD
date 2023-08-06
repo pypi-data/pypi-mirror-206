@@ -1,0 +1,12 @@
+analytics/test/client.py,sha256=iqnVJNzYDy8D_DZYf72b2wXKI61IvAs2OB2WDKhbi84,13008
+customerio/analytics/__init__.py,sha256=DBejkqz9Qf6JDrfcaJMamff5TgbGMAwpGnVBj5UxikA,2036
+customerio/analytics/client.py,sha256=IOkS7g6U0ChA9wgNRMuK-Nns8EveaiTxPs5RPsqAvPQ,11183
+customerio/analytics/consumer.py,sha256=8UU05Gh1zd0G9KQh8_E9IQOzSuZruhmOINosrW_O_5g,4463
+customerio/analytics/request.py,sha256=2c1rYZThzlAk4jn1xuP-wWFxbGMq2yjQiQHLqQkmlB8,2381
+customerio/analytics/utils.py,sha256=IsaGfLCk4ehTVd0qx6WIQt2QZcRvcCUVxQGxrSbHmqg,2471
+customerio/analytics/version.py,sha256=iOlA-aI4jighOHYsJJucEorCcKXuT-GfgrLzUji19bQ,18
+customerio_cdp_analytics-0.0.1.dist-info/LICENSE,sha256=gfybh9qlrqi9z_nWTRx7JFZ9x4Ito-f5NiZX2TFb-DA,1109
+customerio_cdp_analytics-0.0.1.dist-info/METADATA,sha256=3UGUdisKFRiBtnHJmEj1dGfSKnVuLe3PP9--3ld7dJQ,1516
+customerio_cdp_analytics-0.0.1.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+customerio_cdp_analytics-0.0.1.dist-info/top_level.txt,sha256=MJUoThMyohge0QBHPtOfw9CGr1UTwUzf3ZQiSD3kLj4,21
+customerio_cdp_analytics-0.0.1.dist-info/RECORD,,

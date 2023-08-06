@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyfanity/__init__.py
+pyfanity/example.py
+pyfanity.egg-info/PKG-INFO
+pyfanity.egg-info/SOURCES.txt
+pyfanity.egg-info/dependency_links.txt
+pyfanity.egg-info/top_level.txt

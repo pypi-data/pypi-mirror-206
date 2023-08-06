@@ -1,0 +1,10 @@
+class,weapon,base_dmg
+Warrior,dagger,100
+Warrior,sword,220
+Warrior,spear,280
+Warrior,axe,400
+Archer,slingshot,120
+Archer,bow,220
+Archer,crossbow,280
+Mage,magic wand,220
+Mage,staff,350

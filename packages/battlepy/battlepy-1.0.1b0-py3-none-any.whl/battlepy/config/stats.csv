@@ -1,0 +1,4 @@
+class,str,agi,int,con
+Warrior,15,10,5,20
+Archer,10,20,10,10
+Mage,5,10,35,5

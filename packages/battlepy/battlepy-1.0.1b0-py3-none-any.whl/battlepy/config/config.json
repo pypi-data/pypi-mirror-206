@@ -1,0 +1,41 @@
+{
+  "config": {
+    "csv_files": [
+      {
+        "stats": "stats.csv"
+      },
+      {
+        "class": "class.csv"
+      },
+      {
+        "armor": "armor.csv"
+      },
+      {
+        "weapon": "weapon.csv"
+      },
+      {
+        "quality": "quality.csv"
+      }
+    ],
+    "output_dir": "datasets/"
+  },
+  "battle": {
+    "n_battles": 10
+  },
+  "stats": {
+    "column_names": ["class","level", "str", "agi", "int", "con", "hp", "current_hp"]
+  },
+  "armor": {
+    "column_names": ["body_armor", "helmet", "boots", "gloves", "total_armor"]
+  },
+  "weapon": {
+    "column_names": ["weapon", "weapon_mod", "total_damage"]
+  },
+  "class": {
+    "classes": ["Archer", "Mage", "Warrior"]
+  },
+  "characters": {
+    "player": true,
+    "enemy": true
+  }
+}

@@ -1,0 +1,4 @@
+class_id,class_name,class_description
+0,Mage,"Mage class. Focus on elemental damage like fire, water, ice and etc. Low physical defense, high damage."
+1,Warrior,"Warrior class. Focus on physical damage. High physical defense, medium damage, high HP. Weak against elemental damage."
+2,Archer,Archer class. Focus on physical damage. Medium physical and elemental defense. Can dodge attacks and attack fast.

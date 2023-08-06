@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: cloudshell-rest-api
+Version: 9.0.0
+Summary: Python client for the CloudShell REST API
+Home-page: https://github.com/QualiSystems/cloudshell-rest-api
+Author: Boris Modylevsky
+Author-email: borismod@gmail.com
+License: Apache Software License 2.0
+Keywords: cloudshell quali sandbox cloud rest api
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: ~=3.7
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: requests (<3,>=2.23)
+Requires-Dist: attrs (<24,>=21)
+Requires-Dist: typing-extensions (>=4.4)
+Requires-Dist: alive-progress (~=3.0)
+Requires-Dist: requests-toolbelt (~=1.0)
+
+# cloudshell-rest-api
+
+[![Build status](https://github.com/QualiSystems/cloudshell-rest-api/workflows/CI/badge.svg?branch=master)](https://github.com/QualiSystems/cloudshell-rest-api/actions?query=branch%3Amaster)
+[![codecov](https://codecov.io/gh/QualiSystems/cloudshell-rest-api/branch/master/graph/badge.svg)](https://codecov.io/gh/QualiSystems/cloudshell-rest-api)
+[![PyPI version](https://badge.fury.io/py/cloudshell-rest-api.svg)](https://badge.fury.io/py/cloudshell-rest-api)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
+
+## Features
+
+* Add Shell - adds a new Shell Entity (supported from CloudShell 7.2)
+* Update Shell - updates an existing Shell Entity (supported from CloudShell 7.2)
+* Delete Shell - removes an existing Shell Entity (supported from CloudShell 9.2)
+* Get Shell - get Shell's information
+* Get Installed Standards - gets a list of standards and matching versions installed on CloudShell (supported from CloudShell 8.1)
+* Import Package - imports a package to CloudShell
+* Export Package - exports a package from CloudShell
+
+
+## Installation
+
+```bash
+pip install cloudshell-rest-api
+```
+
+## Getting started
+
+```python
+from cloudshell.rest.api import PackagingRestApiClient
+# Loging to CloudShell
+client = PackagingRestApiClient.login("HOST", "USERNAME", "PASSWORD", "DOMAIN")
+# Or connect with a token
+client = PackagingRestApiClient("HOST", "TOKEN")
+# Add a new Shell to CloudShell
+client.add_shell("SHELL_PATH.zip")
+```
+
+## License
+
+* Free software: Apache Software License 2.0
+
+
+=======
+History
+=======
+
+9.0.0 (2023-05-04)
+--------------------
+
+* Added get_shell_as_model, get_installed_standards_as_model
+* Added the ability to connect with an existing token
+* Added progress bar for downloading/uploading files
+* Removed support of Python2
+
+8.2.2.0 (2019-01-08)
+--------------------
+
+* Added delete shell method to rest-api
+
+8.2.0.0 (2017-09-19)
+--------------------
+
+* newest addition to rest-api. please welcome get_shell - returns a requested shell information
+
+8.1.1.0 (2017-08-27)
+--------------------
+
+* remodeling update_shell to also accept shell name
+
+8.1.0.1 (2017-06-12)
+--------------------
+
+* Bug fix
+
+8.1.0.0 (2017-06-04)
+--------------------
+
+* Query installed standards on CloudShell server
+
+7.2.0.6 (2016-09-01)
+--------------------
+
+* First release of with Add Shell and Update Shell features
+

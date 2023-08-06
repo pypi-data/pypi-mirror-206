@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+TSDataProcessing/TSDataProcessing.py
+TSFeatures/TSFeatures.py
+dscustom_libs.egg-info/PKG-INFO
+dscustom_libs.egg-info/SOURCES.txt
+dscustom_libs.egg-info/dependency_links.txt
+dscustom_libs.egg-info/not-zip-safe
+dscustom_libs.egg-info/top_level.txt

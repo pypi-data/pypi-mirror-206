@@ -1,0 +1,11 @@
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/application.py,sha256=MG5wiclvDxXA0lLcZKlC5lOTCFSjaKi5EKD_TmDfmyA,242
+app/handlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/handlers/download_data.py,sha256=ouDozh7prqu6K1ngFLP0SqwxN3wo8oePXMo03EYsANU,946
+app/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/services/data.py,sha256=iFMbIi9aNLA0GkVxvTRSHFWfJlr1TxSmMg2rVMib3ic,819
+mango_cli-0.0.10.dist-info/METADATA,sha256=1jEFKaOPZS739S7qCihVs4agqoHL1X7JIkICcyYoGiI,1716
+mango_cli-0.0.10.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+mango_cli-0.0.10.dist-info/entry_points.txt,sha256=U2UH0lLRbzQ7SNxnJDXOe6JKdFfnw6D4hS3B7poWXPc,65
+mango_cli-0.0.10.dist-info/top_level.txt,sha256=io9g7LCbfmTG1SFKgEOGXmCFB9uMP2H5lerm0HiHWQE,4
+mango_cli-0.0.10.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+Than_lib.egg-info/PKG-INFO
+Than_lib.egg-info/SOURCES.txt
+Than_lib.egg-info/dependency_links.txt
+Than_lib.egg-info/top_level.txt

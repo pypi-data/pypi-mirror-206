@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cmeel-cppadcodegen
+Version: 2.4.3
+Summary: cmeel distribution for CppADCodeGen, Source Code Generation for Automatic Differentiation using Operator Overloading
+Requires-Python: >= 3.7
+License-Expression: EPL-1.0
+Home-page: https://github.com/cmake-wheel/cmeel-cppadcodegen
+Project-URL: Repository, https://github.com/cmake-wheel/cmeel-cppadcodegen.git
+Requires-Dist: cmeel
+Requires-Dist: cmeel-cppad
+Description-Content-Type: text/markdown
+
+# CMeel CppADCodeGen
+
+[![PyPI version](https://badge.fury.io/py/cmeel-cppadcodegen.svg)](https://pypi.org/project/cmeel-cppadcodegen)
+[![Release](https://github.com/cmake-wheel/cmeel-cppadcodegen/actions/workflows/release.yml/badge.svg)](https://github.com/cmake-wheel/cmeel-cppadcodegen/actions/workflows/release.yml)
+[![Build Status](https://api.cirrus-ci.com/github/cmake-wheel/cmeel-cppadcodegen.svg)](https://cirrus-ci.com/github/cmake-wheel/cmeel-cppadcodegen)
+
+[CppADCodeGen](https://github.com/joaoleal/CppADCodeGen) distribution for cmeel packages.

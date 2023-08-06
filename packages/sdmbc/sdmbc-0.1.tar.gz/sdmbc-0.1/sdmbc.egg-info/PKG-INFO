@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sdmbc
+Version: 0.1
+Summary: Sub-Daily Multivariate Bias Correction (SDMBC)
+Author: Youngil Kim
+Author-email: youngil.kim@student.unsw.edu.au
+License: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: documentation
+License-File: LICENSE
+
+# sdmbc
+A novel bias correction alternative, Sub-Daily Multivariate Bias Correction (SDMBC), for correcting RCM input boundary conditions

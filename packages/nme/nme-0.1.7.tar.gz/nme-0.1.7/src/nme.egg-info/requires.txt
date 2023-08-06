@@ -1,0 +1,7 @@
+local_migrator
+
+[cbor]
+local_migrator[cbor]
+
+[test]
+local_migrator[test]

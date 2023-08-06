@@ -1,0 +1,44 @@
+[build-system]
+# Minimum requirements for the build system to execute.
+requires = ["setuptools>=61.0.0", "wheel>=0.37.0", "setuptools_scm[toml]>=6.4"]  # PEP 508 specifications.
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nme"
+description = "Backward compatybility after change project name to `local_migrator"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+keywords = ["migration", "persistance"]
+version = "0.1.7"
+authors = [
+  {email = "g.bokota@uw.edu.pl"},
+  {name = "Grzegorz Bokota"}
+]
+maintainers = []
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python",
+  "Operating System :: OS Independent",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+]
+dependencies = ["local_migrator"]
+
+[project.optional-dependencies]
+test = [
+  "local_migrator[test]",
+]
+cbor = [
+  "local_migrator[cbor]",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/Czaki/nme"
+Repository = "https://github.com/Czaki/nme"

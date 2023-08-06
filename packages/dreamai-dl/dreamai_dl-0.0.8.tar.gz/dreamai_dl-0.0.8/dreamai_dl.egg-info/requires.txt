@@ -1,0 +1,10 @@
+dreamai
+fastai
+lightning
+setuptools
+timm
+torch
+torchmetrics
+torchvision
+
+[dev]

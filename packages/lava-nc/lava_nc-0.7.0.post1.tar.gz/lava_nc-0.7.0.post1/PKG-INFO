@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: lava-nc
+Version: 0.7.0.post1
+Summary: A Software Framework for Neuromorphic Computing
+Home-page: https://lava-nc.org/
+License: (BSD-3-Clause), (LGPL-2.1-or-later)
+Keywords: neuromorphic,ai,artificial intelligence,neural models,spiking neural networks
+Author: Intel's Neuromorphic Computing Lab and the open source community
+Author-email: lava@intel.com
+Requires-Python: >=3.8,<3.11
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: asteval (>=0.9.27,<0.10.0)
+Requires-Dist: networkx (<=2.8.7)
+Requires-Dist: numpy (>=1.22.2,<2.0.0)
+Requires-Dist: scipy (>=1.8.0,<2.0.0)
+Project-URL: Discussions, https://github.com/lava-nc/lava/discussions
+Project-URL: Frequently Asked Questions, https://github.com/lava-nc/lava/wiki/Frequently-Asked-Questions-(FAQ)
+Project-URL: Issue and Bug Tracker, https://github.com/lava-nc/lava/issues
+Project-URL: Questions and Answers, https://github.com/lava-nc/lava/discussions/categories/q-a
+Project-URL: Repository, https://github.com/lava-nc/lava

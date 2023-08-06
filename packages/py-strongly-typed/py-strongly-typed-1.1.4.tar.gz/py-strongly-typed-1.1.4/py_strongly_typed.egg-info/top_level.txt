@@ -1,0 +1,1 @@
+py_strongly_typed

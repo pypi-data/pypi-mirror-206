@@ -1,0 +1,10 @@
+xia_scw_template/__init__.py,sha256=T7tlLqPDcj9xxKSDfCPhvnJO7tghBZa8dRiMN6NRfrs,107
+xia_scw_template/template.cp39-win_amd64.pyd,sha256=e7v6Hs_WQyMU07BNGIc0wIGcOMhCxdW4M8y2pnsWTQg,237568
+xia_scw_template/templates/ScwTemplate/main.tf,sha256=USKe9YPVicChcPSxUbZP_-f-kcFqLY4Ssi3zkPkHS8Q,414
+xia_scw_template/templates/ScwTemplate/output.tf,sha256=sspBJA-LqqXREoDpkvSbRaz923k28qnSTQU6duIpaT4,169
+xia_scw_template/templates/ScwTemplate/variables.tf,sha256=pAAfSiUM-c1lraxWjA7oGPMdY3E-lfdJYF3gqNMJmHg,317
+xia_scw_template-0.0.6.dist-info/LICENSE.txt,sha256=2HzK8y__YhkYAEzI5V38DGwiVGnADL74BLH_dyBEs7I,150
+xia_scw_template-0.0.6.dist-info/METADATA,sha256=KsB0moqOyuWeVkESpouX2YbI0mVVBp5M6a_C9Xhuj90,672
+xia_scw_template-0.0.6.dist-info/WHEEL,sha256=T8VPDjot1YI5-NaRzS6kIMlJNVl0SSGa_dm-8Fprszg,99
+xia_scw_template-0.0.6.dist-info/top_level.txt,sha256=PnzNPYJvb9BCFS0nMLHk3DDKw5vJjkdhUg0gD_vL_cU,17
+xia_scw_template-0.0.6.dist-info/RECORD,,

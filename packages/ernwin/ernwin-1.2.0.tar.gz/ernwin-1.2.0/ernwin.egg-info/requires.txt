@@ -1,0 +1,14 @@
+biopython
+bitarray
+commandline_parsable>=0.2
+contextlib2
+deepdiff
+forgi>=2.2.1
+future
+logging_exceptions
+matplotlib
+networkx
+numpy
+pandas>=0.19
+scikit-learn
+scipy

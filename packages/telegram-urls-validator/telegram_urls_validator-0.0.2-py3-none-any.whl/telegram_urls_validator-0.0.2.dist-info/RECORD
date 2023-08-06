@@ -1,0 +1,10 @@
+telegram_urls_validator/__init__.py,sha256=ZpHbboAk4MPc4q9ZZGYKOc7nlKrHfdDW2SEIaajzRdk,69
+telegram_urls_validator/validator.py,sha256=PnCEbpIRSgNBPdC7FPrdgC6zTw008sc8onJh6YRbYZE,1631
+telegram_urls_validator/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telegram_urls_validator/utils/exceptions.py,sha256=eZ7XnxvjG72V8zh0jXsK1muyNC-BVAuZfe76db1bXOo,948
+telegram_urls_validator/utils/utils.py,sha256=aB9VTDdq3DiuMafLGJ79G3GqwALLFcYSASpme2Mmw8g,541
+telegram_urls_validator-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+telegram_urls_validator-0.0.2.dist-info/METADATA,sha256=YT48aG8Cv316hgCp5NTkQ6epwY2JRKbGpIPHSNLKY2A,461
+telegram_urls_validator-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+telegram_urls_validator-0.0.2.dist-info/top_level.txt,sha256=F1oHlC7GD8El8G2jgGJaVJCt3qX7VJVSqH08HW_TUwE,24
+telegram_urls_validator-0.0.2.dist-info/RECORD,,

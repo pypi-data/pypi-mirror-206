@@ -1,0 +1,4 @@
+tod,hour_start,buffer_time
+morning,0,5
+day,11,15
+night,17,30

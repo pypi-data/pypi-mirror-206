@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: bdffont
+Version: 0.0.1
+Summary: A library for manipulating '.bdf' format fonts.
+Author: TakWolf
+Maintainer: TakWolf
+License: MIT License
+Project-URL: homepage, https://github.com/TakWolf/bdffont
+Project-URL: source, https://github.com/TakWolf/bdffont
+Project-URL: issues, https://github.com/TakWolf/bdffont/issues
+Keywords: bdf,font
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BdfFont
+
+BdfFont is a library for manipulating [`.bdf` format fonts](https://en.wikipedia.org/wiki/Glyph_Bitmap_Distribution_Format), written in Python.
+
+## References
+
+- [X11 - Bitmap Distribution Format - Version 2.1](https://www.x.org/docs/BDF/bdf.pdf)
+- [Adobe - Glyph Bitmap Distribution Format (BDF) Specification - Version 2.2](https://adobe-type-tools.github.io/font-tech-notes/pdfs/5005.BDF_Spec.pdf)
+
+## License
+
+Under the [MIT license](LICENSE).

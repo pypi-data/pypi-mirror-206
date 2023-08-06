@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/bdffont/__init__.py
+src/bdffont/common.py
+src/bdffont/font.py
+src/bdffont/glyph.py
+src/bdffont/parser.py
+src/bdffont/properties.py
+src/bdffont.egg-info/PKG-INFO
+src/bdffont.egg-info/SOURCES.txt
+src/bdffont.egg-info/dependency_links.txt
+src/bdffont.egg-info/top_level.txt
+tests/test_spec.py

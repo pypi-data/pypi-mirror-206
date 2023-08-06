@@ -1,0 +1,5 @@
+requests<3,>=2.23
+attrs<24,>=21
+typing-extensions>=4.4
+alive_progress~=3.0
+requests_toolbelt~=1.0

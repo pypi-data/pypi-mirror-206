@@ -1,0 +1,4 @@
+wagtail>=2.15
+
+[factories]
+wagtail-factories>=4.0.0

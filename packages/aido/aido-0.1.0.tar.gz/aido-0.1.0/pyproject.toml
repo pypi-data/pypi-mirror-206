@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "aido"
+version = "0.1.0"
+description = ""
+authors = ["ericjiang <aido.ai@outlook.com>"]
+readme = "README.md"
+packages = [
+    { include = "aido/" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "*"
+requests = "^2.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

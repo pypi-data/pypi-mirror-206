@@ -1,0 +1,7 @@
+channels:
+  - conda-forge
+dependencies:
+  - pytest
+  - python>=3.8
+  - typing-extensions
+name: module-utilities-env

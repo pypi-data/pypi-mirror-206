@@ -1,0 +1,15 @@
+argcomplete
+
+[devel]
+pytest
+coverage
+prospector[with_everything]
+xenon
+rstcheck
+reuse<1.1.0
+black
+autoflake
+autopep8
+pip-tools
+towncrier
+build

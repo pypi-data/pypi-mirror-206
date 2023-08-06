@@ -1,0 +1,12 @@
+citrusdb/__init__.py,sha256=8i1NvTc1N7UUorFgWKvaUSvUbid8t3hl94EXsxv2x7k,81
+citrusdb/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+citrusdb/api/local.py,sha256=CeJWuMrnlnqoHLnv1Tk_3WpX-R19DzOmNvG86X9Ep5k,4620
+citrusdb/db/index/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+citrusdb/db/index/hnswlib.py,sha256=io3fSyX_IIEywvV6Bix3oyjTU2iINsFVRQnmfXR3678,1478
+citrusdb/embedding/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+citrusdb/embedding/openai.py,sha256=YKM2QPinuff9AWyzmsbbRiXLSwqf2OZThzpAAbvj4Z0,402
+citrusdb-0.2.0.dist-info/LICENSE,sha256=O-vYOk8G5UlGWxJcv7MUzOl2t5s0xTjxFbUh_K9f51M,11346
+citrusdb-0.2.0.dist-info/METADATA,sha256=tNqhajfFZTOsTfnl2Iz_QALt0x8fPpqdAzLe0ehM-PI,784
+citrusdb-0.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+citrusdb-0.2.0.dist-info/top_level.txt,sha256=nsWj5qLKURmc3okupZMh_rL81PiYFciSvKyGdOucq84,9
+citrusdb-0.2.0.dist-info/RECORD,,

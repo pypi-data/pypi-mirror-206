@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/CSV_to_JSON_Python.egg-info/PKG-INFO
+src/CSV_to_JSON_Python.egg-info/SOURCES.txt
+src/CSV_to_JSON_Python.egg-info/dependency_links.txt
+src/CSV_to_JSON_Python.egg-info/top_level.txt
+src/csv_to_json/__init__.py
+src/csv_to_json/csv_to_json.py
+src/csv_to_json/hello_world.py

@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "enalog-cli"
+version = "0.1.1"
+description = "EnaLog CLI"
+authors = ["Sam Newby <sam@enalog.app>", "Joe O'Reilly <joe@enalog.app>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+enalog = "enalog_cli.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+typer = {extras = ["all"], version = "^0.7.0"}
+requests = "^2.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pynetinstall
+Version: 1.0
+Summary: Module to perform Mikrotik Routerboard Netinstall via Etherboot
+Home-page: https://github.com/dvtirol/pynetinstall
+Author: Daten-Verarbeitung-Tirol GmbH
+Author-email: netz@tirol.gv.at
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+License-File: LICENSE
+

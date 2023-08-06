@@ -1,0 +1,31 @@
+dist: jammy
+language: python
+
+stages:
+  - test
+  - deploy
+
+install:
+  - pip install -r dev-requirements.txt --extra-index https://${ART_API_USER}:${ART_API_KEY}@eu.artifactory.swg-devops.com/artifactory/api/pypi/sec-iam-isam-devops-team-pypi-local/simple
+
+script:
+  - sh ./.tests/import_test.sh
+
+jobs:
+  include:
+    - stage: test
+      script: 
+        - sh ./.tests/import_test.sh
+        - sh ./.tests/unit_test.sh
+      python:
+        - "3.8"
+        - "3.9"
+        - "3.10"
+        - "3.11"
+        - "3.12"
+    - stage: deploy
+      script: 
+        - ./.deploy.sh
+      python:
+        - "3.9"
+      if: branch = stable and type != pull_request

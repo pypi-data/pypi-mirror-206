@@ -1,0 +1,10 @@
+pyyaml
+requests
+kubernetes
+pyisva
+wheel
+setuptools
+twine
+sphinx
+sphinx-rtd-theme
+typing

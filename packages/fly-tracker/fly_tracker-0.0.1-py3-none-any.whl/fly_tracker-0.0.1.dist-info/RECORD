@@ -1,0 +1,15 @@
+fly_tracker/.DS_Store,sha256=ya-5Ftbfr7jlGiEoczCaDILXDD_GTAL8w-jOWTfmJaY,6148
+fly_tracker/Scraper.py,sha256=pcY4E2_sND_Yn4KAktMx-WfWR4MPN0pRANWnaNJ17b8,4024
+fly_tracker/__init__.py,sha256=BtadW0txJiDysP39QaMX2mJDIehv3Yj4mKvAYYfNFKs,57
+fly_tracker/__main__.py,sha256=Ke1jLdBeQy3JBWiGaWi6JfZC99GiPoZuJrUA6SCbuME,653
+fly_tracker/testing/.DS_Store,sha256=aF4jhOiSxvHbw58DFYH72vWZmnY4gHXqC-LhdnVS9eo,6148
+fly_tracker/testing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fly_tracker/testing/integration_tests.py,sha256=0xeg0xjWB1eO3VYo_Td_hkoj7iqva27npIRhl0uLJPI,1145
+fly_tracker/testing/test_all.py,sha256=eHXGZF8gAwIl9Yy3Vllb7fMDio3hHRnF06pOhcKgXNM,3961
+fly_tracker/testing/test_data.json,sha256=DvJBHn7ANmfcUmfftpKg_Y0xulhlVC1_t0SC6mYZAGM,28330
+fly_tracker/testing/test_source_page.html,sha256=679Sdltq0DxZqFqFLDMyrr7PzPu0nxqw30IGMfvB0mc,2982029
+fly_tracker-0.0.1.dist-info/LICENSE,sha256=1vZ1dvphtehCK3hemFPciZVdf8pQucZHv--ZZm7hxas,1068
+fly_tracker-0.0.1.dist-info/METADATA,sha256=hVoiJyD6GBm4hj6r3eJOgJvt9Trl-2IvoR2g_RuLM60,4527
+fly_tracker-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+fly_tracker-0.0.1.dist-info/top_level.txt,sha256=FCypc6P7ffcK3mFkFZLBjYsFxx_9Do_-xE7YiQmMpUE,12
+fly_tracker-0.0.1.dist-info/RECORD,,

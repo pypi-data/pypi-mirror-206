@@ -1,0 +1,23 @@
+{
+    "75bfe6ff8c5a1d4af08dadc1f9f9f57c15f2eeaad4d0a4e7019b25fb945237889c3ebb7c48f1eb51296fee54a70d0efd2eb002ed2fbb71d6adc6d522121904d4": {
+        "id": "generate_employee_dataframe_16305",
+        "fn_name": "generate_employee_dataframe"
+    },
+    "15a4a253a8db94466423a17f9076c2d267ccb46f86d437517e97766d33e6c88e4ef88c7a8497d6a1c86417faca99453820c69a4677a07764253f9abcbd80bb7a": {
+        "id": "count_missing_values_57234",
+        "fn_name": "count_missing_values"
+    },
+    "a688a67005bdb6ac1b821ccbc428dd46e7b236342e66a868c9f9e4018d4ff7a8e39f31a7bee00fd00dd2dfcde5ac371bc3fb4eece37aaa0d5cd8a77a86bd1b2f": {
+        "id": "plot_salary_distribution_88606",
+        "fn_name": "plot_salary_distribution"
+    },
+    "d8dc0b755c8a70f0ca0dd9935ad4c6b7399b4e8a93dc78db5d2377f6958f7a123857bf05a84eefaff113e2305a01eae86d356584493755744e2beefcd6ffe675": {
+        "id": "plot_salary_by_department_20090",
+        "fn_name": "plot_salary_by_department"
+    },
+    "3ee7804d7281f534532fbe1a2e1606fb74bac590fec9de4c0cde2f7583f081fa3d92f09583bc999a8f39807820b85a3be6e303088d24811ed825ca8fbef7a918": {
+        "id": "high_earners_26869",
+        "fn_name": "high_earners",
+        "code": "def high_earners(df):\n    high_earners_df = df[df['salary'] > 100000]\n    return high_earners_df.groupby('department').size()"
+    }
+}

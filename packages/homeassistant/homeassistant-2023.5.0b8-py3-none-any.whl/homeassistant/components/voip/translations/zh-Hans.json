@@ -1,0 +1,18 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "call_in_progress": {
+                "name": "\u901a\u8bdd\u4e2d"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "sip_port": "SIP \u7aef\u53e3"
+                }
+            }
+        }
+    }
+}

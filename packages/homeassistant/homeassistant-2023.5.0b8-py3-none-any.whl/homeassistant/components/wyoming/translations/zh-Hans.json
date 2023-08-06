@@ -1,0 +1,12 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "host": "\u4e3b\u673a",
+                    "port": "\u7aef\u53e3"
+                }
+            }
+        }
+    }
+}

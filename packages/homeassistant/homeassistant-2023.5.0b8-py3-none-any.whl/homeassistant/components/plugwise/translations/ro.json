@@ -1,0 +1,23 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Serviciul este deja configurat"
+        },
+        "error": {
+            "cannot_connect": "A e\u0219uat conectarea",
+            "invalid_auth": "Autentificare nevalid\u0103",
+            "invalid_setup": "Adaug\u0103-\u021bi Adamul \u00een locul Anei, vezi documenta\u021bia",
+            "unknown": "Eroare nea\u0219teptat\u0103"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Adresa IP",
+                    "password": "Smile ID",
+                    "port": "Port",
+                    "username": "Nume de utilizator Smile"
+                }
+            }
+        }
+    }
+}

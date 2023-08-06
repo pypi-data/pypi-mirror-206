@@ -1,0 +1,4 @@
+[console_scripts]
+vira_add_parent = vira.vira_add_parent:main
+vira_copy = vira.vira_copy:main
+vira_deep_copy = vira.vira_deep_copy:main

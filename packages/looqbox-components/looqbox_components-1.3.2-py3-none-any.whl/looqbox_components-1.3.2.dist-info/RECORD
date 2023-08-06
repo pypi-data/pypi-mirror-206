@@ -1,0 +1,14 @@
+looqbox_components/__init__.py,sha256=t-xfKsHcJ7n8NfeWb6JLRJeBgdPD86Aqm_nQid_fZxw,231
+looqbox_components/templates/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+looqbox_components/templates/container.py,sha256=vsjreTp40yse1YmdrT3LCO_g2waadDY-dQ7m08HYLh4,6858
+looqbox_components/templates/simple_card.py,sha256=wfL-cG3hWQqDb4ETg_I9tl5PglDJE9hcBajKiqd8590,2350
+looqbox_components/templates/tag.py,sha256=EciZ3VRCIdloOUTC68hF7FHL-_9xtQ2TVi1K60oAKDw,5683
+looqbox_components/templates/toplist.py,sha256=mAlFkUBYXMMqSSIz5MogMascE1OfzVoT5sfGfFiuC5Y,2840
+looqbox_components/templates/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+looqbox_components/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+looqbox_components/tests/test_looqbox_components.py,sha256=8fVRfEvqcxlJDuNp6RlucKwH13JMCrXkeGgSmkdxonU,233
+looqbox_components/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+looqbox_components-1.3.2.dist-info/METADATA,sha256=go2xZEdxyqwkaE9EfDqB2z_LBvmk-xxzix1LlpHtlkQ,989
+looqbox_components-1.3.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+looqbox_components-1.3.2.dist-info/top_level.txt,sha256=Zb_QlF8DlA-rP1wb-5-vbk_U_exlVnC4IXl1bBro5kQ,19
+looqbox_components-1.3.2.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+misura/__init__.py,sha256=UwP3sw4jq-0sPf_sE6G62XoIr67x0fcKWlUmIlwPtUk,151
+misura/exceptions.py,sha256=E1qZN_losH8ncoDKe_HWYKz7JF-Rg2SjDdRf6Zo3I2M,1193
+misura/globals.py,sha256=f7cRnaKA8bl3TyJy30RW6_lxRrt4zrYExYCOa6fSorU,63
+misura/quantities.py,sha256=9y_6nrHUNlqmSuVFQOkpFupZnpO_E4k_SBaLZ6cFBOM,15863
+misura/tables.py,sha256=RVxcBF5wpFRs-2d1ZNoE3i6ldzpD29I64yhaMl1YCZU,11665
+misura/utilities.py,sha256=B3ZH4Pf07q1QpIrOrDHtXsy1YoWsuf3VXHG79G5chXY,1066
+misura-1.3.0.dist-info/METADATA,sha256=gt35m3x72rjHMPWNhrOMwKzj3Rl4-AKEtLh2OezosqY,5534
+misura-1.3.0.dist-info/WHEEL,sha256=9MIigYJ7D5sOqAPqr0-o6tSMY_nQ7c6kvtvyeUB99YQ,87
+misura-1.3.0.dist-info/licenses/LICENSE,sha256=Q4fsJftQDQaJtVtR4uUTHjfaR8o5xrCHHPEFWBMgclk,1074
+misura-1.3.0.dist-info/RECORD,,

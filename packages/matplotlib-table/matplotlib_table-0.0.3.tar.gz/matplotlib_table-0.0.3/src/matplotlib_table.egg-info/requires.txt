@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+
+[dev]
+pytest
+black
+pre-commit
+pylint

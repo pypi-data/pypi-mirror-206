@@ -1,0 +1,17 @@
+mabby/__init__.py,sha256=IKPOO96NZ_aPvIrMg9oHbkANwf8ya21H9tWD4tVi9Ms,901
+mabby/agent.py,sha256=cb2qxYAnILw0UhWyD2lNveTFP1n18w3yKRHZ1BDicYw,4102
+mabby/arms.py,sha256=7XVai2eFhbbruyvHt07EB_Mqs1xyz2kB3SZ7sreSAN4,3820
+mabby/bandit.py,sha256=qrS5-72lkm_2MvrRXnh0m_Kmi5_9GGgu92TlMe1orHg,3317
+mabby/exceptions.py,sha256=ohM_WY-1u014D9zNeGszuPUhd1YydLD6pA2DBx-vTsE,475
+mabby/simulation.py,sha256=GEn75j8N6zR7MbZ2dqkOycBkLW7OuekfNYwWIVwNSMU,4323
+mabby/stats.py,sha256=nrACb4HiPYKQaTKwuKEhYaFlMEMMVeulzD7Sugcrd1k,8566
+mabby/strategies/__init__.py,sha256=hddxwi-F7I4PMaY3HNH85vkCN9g607UNrx2Uy0ZCJfs,743
+mabby/strategies/semi_uniform.py,sha256=CMldphEH5bXqmm0RBd6JChO7ZqDPp4yqw8y9q5eh7KA,4717
+mabby/strategies/strategy.py,sha256=wRzojjh7kgQEKptmenggo-wbw47j5vnEHRpX9KjviV4,2255
+mabby/strategies/thompson.py,sha256=RbaxhKI3d45Ovg990mBWr2WVPPEYnxC0ZRciToNZH2c,2298
+mabby/strategies/ucb.py,sha256=fxVBzVpr4xjl2DAQ7btJjtXl9pptzCWSn10hvQTxhRs,1737
+mabby/utils.py,sha256=cuNNS0IuDejD0lZdbuIyfAARso2H6sVunrJUKZXr7j8,599
+mabby-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mabby-0.1.2.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+mabby-0.1.2.dist-info/METADATA,sha256=3wpd3LvmKH4JPXNChji-C659OoFE0c7Qdtwm_gvU57I,3006
+mabby-0.1.2.dist-info/RECORD,,

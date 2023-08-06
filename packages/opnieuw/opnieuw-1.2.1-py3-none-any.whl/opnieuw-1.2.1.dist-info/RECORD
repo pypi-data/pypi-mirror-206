@@ -1,0 +1,12 @@
+opnieuw/__init__.py,sha256=swiXK28KtXLPmAsW111SYJNZRicdGqUsop54-MkpQhs,281
+opnieuw/clock.py,sha256=Mf6IQVFVuduWd18On5ZQ96JBiA7L0bRHD6xO71fgY9w,802
+opnieuw/exceptions.py,sha256=acY_TIo5U6E0DIn96OCiOUo6rMRphSxy5Z0cJJHsmIs,298
+opnieuw/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opnieuw/retries.py,sha256=oNDasb_9Cpy77bA4D2Kxnn25BBlWiQRUdXNwF3aMVL8,11018
+opnieuw/test_util.py,sha256=FxZmZNtiy60Egnh1HJChi9ExccsuVBhVF2BRth-hW4w,668
+opnieuw/util.py,sha256=jOV_Ex_rVR9RPFDXbPugaSUh6hxNLDQjwoWOIjGt8i0,586
+opnieuw-1.2.1.dist-info/LICENSE,sha256=0uCiWXjgk-M_VaNl6Dm85cRCnG6ud9WlmD237zFxi1Y,1508
+opnieuw-1.2.1.dist-info/METADATA,sha256=9ggjn9IjaAz0j0Hy1EkID3mz4lqNlP8pJ9P98wsumOk,5049
+opnieuw-1.2.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+opnieuw-1.2.1.dist-info/top_level.txt,sha256=mQTEpvMFNP9mhlY7TasLXdVEi7MnOF4KyPy5hDvohng,8
+opnieuw-1.2.1.dist-info/RECORD,,

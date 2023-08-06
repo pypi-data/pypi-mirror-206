@@ -1,0 +1,15 @@
+plex_nfs_watchdog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plex_nfs_watchdog/plex_nfs_watchdog.py,sha256=8KJb1fKIfWsUOgsKbE3btts8ZRiz_bX5YMNYfmATCTk,5335
+plex_nfs_watchdog/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plex_nfs_watchdog/modules/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plex_nfs_watchdog/modules/config/shared.py,sha256=MNbdCx-2FwUuheRa93bU1KunouUAcWqJE5NrOGP3obs,465
+plex_nfs_watchdog/modules/plex/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plex_nfs_watchdog/modules/plex/plex_agent.py,sha256=LeiX8fJsFaTYR9Zd0j1XzPc3v-xzcndOkziI33Ce0Os,8941
+plex_nfs_watchdog/modules/watchdog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plex_nfs_watchdog/modules/watchdog/plex_watchdog_event.py,sha256=Y2DwIdGQiSxJW_dehDvW-LcVUBe2jao05u6wjnigl_M,1003
+plex_nfs_watchdog-0.0.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+plex_nfs_watchdog-0.0.6.dist-info/METADATA,sha256=0D4eACGADl--KoTpak6YNnEVrithzKT25swF2tno44A,9129
+plex_nfs_watchdog-0.0.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+plex_nfs_watchdog-0.0.6.dist-info/entry_points.txt,sha256=OFjQs-L93mJXfbwD6IroJ-R8Q22fEhAhAuEPQ_sqjVo,79
+plex_nfs_watchdog-0.0.6.dist-info/top_level.txt,sha256=z17phaj7AKOTtOy49qdkFTt-_DPR4Vua34oSgPR0MZ4,18
+plex_nfs_watchdog-0.0.6.dist-info/RECORD,,

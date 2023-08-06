@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/levmarq_torch/__init__.py
+src/levmarq_torch.egg-info/PKG-INFO
+src/levmarq_torch.egg-info/SOURCES.txt
+src/levmarq_torch.egg-info/dependency_links.txt
+src/levmarq_torch.egg-info/requires.txt
+src/levmarq_torch.egg-info/top_level.txt

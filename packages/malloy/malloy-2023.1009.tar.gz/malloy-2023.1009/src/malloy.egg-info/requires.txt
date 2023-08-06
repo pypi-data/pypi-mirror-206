@@ -1,0 +1,12 @@
+duckdb
+google-cloud-bigquery
+
+[dev]
+pytest
+pip-tools
+pytest-asyncio
+pandas
+toml
+yapf
+twine
+bumpver

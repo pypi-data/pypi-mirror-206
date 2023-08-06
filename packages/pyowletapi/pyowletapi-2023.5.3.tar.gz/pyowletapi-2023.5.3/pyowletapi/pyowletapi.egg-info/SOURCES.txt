@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pyowletapi/pyowletapi.egg-info/PKG-INFO
+pyowletapi/pyowletapi.egg-info/SOURCES.txt
+pyowletapi/pyowletapi.egg-info/dependency_links.txt
+pyowletapi/pyowletapi.egg-info/requires.txt
+pyowletapi/pyowletapi.egg-info/top_level.txt

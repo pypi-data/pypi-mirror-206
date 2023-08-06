@@ -1,0 +1,8 @@
+pyghostdb/ghost_storage.py,sha256=7jnvEvzoCNR6btahGKE5cb7aDKPnEH8qDmRM0942K5M,1094
+pyghostdb/hnswlib_index.py,sha256=0hgYcRfjnGySZ1mP31blgkCcvd7P6mNflvHLzGICBPE,3072
+pyghostdb/test_hnsw.py,sha256=oywlIOrYK0HLuZiWwlV-e8w6K04gQfrMcROod9dTaws,2020
+pyghostdb/text_storage.py,sha256=5z3dFLwY571fbbAt7opHDOaCtdY1LBaar_C8xomrce4,1572
+pyghostdb-0.0.0.dist-info/METADATA,sha256=88AKhmjNyOwE8stauIKkQxntM6Gnn61lwhA3daGWYeE,54
+pyghostdb-0.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pyghostdb-0.0.0.dist-info/top_level.txt,sha256=KQIxB4ES8r0VOLOLHTimiIjM0BwNfMaP0gvLm1rVdWU,10
+pyghostdb-0.0.0.dist-info/RECORD,,

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: quarter-lib
+Version: 0.0.0
+Summary: TBD
+Home-page: https://github.com/viertel97/quarter-lib
+Author-email: viertel97 <janik.viertel@outlook.com>
+Project-URL: Changelog, https://github.com/viertel97/quarter-lib/releases
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# quarter-lib

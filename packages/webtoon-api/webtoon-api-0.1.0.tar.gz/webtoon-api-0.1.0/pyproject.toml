@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "webtoon-api"
+version = "0.1.0"
+description = "A python library for communicating with non-public Webtoon API."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "webtoon_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.29.0"
+pycryptodome = "^3.17"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+mypy = "^1.2.0"
+isort = "^5.12.0"
+
+[tool.black]
+line-length = 79
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

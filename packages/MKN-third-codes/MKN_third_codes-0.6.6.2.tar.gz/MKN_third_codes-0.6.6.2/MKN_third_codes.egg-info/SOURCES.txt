@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+MKN_third_codes.egg-info/PKG-INFO
+MKN_third_codes.egg-info/SOURCES.txt
+MKN_third_codes.egg-info/dependency_links.txt
+MKN_third_codes.egg-info/top_level.txt
+mfcn/__init__.py
+mfcn/mkn_globals.py
+mfcn/mkn_utils.py
+mfcn/solutions.py

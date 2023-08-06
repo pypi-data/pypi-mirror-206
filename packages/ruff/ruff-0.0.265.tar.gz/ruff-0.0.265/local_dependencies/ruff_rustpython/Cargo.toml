@@ -1,0 +1,14 @@
+[package]
+name = "ruff_rustpython"
+version = "0.0.0"
+publish = false
+edition = "2021"
+rust-version = "1.69"
+
+[lib]
+
+[dependencies]
+anyhow = { version = "1.0.69" }
+once_cell = { version = "1.17.1" }
+rustpython-common = { git = "https://github.com/charliermarsh/RustPython.git", rev = "c3147d2c1524ebd0e90cf1c2938d770314fd5a5a" }
+rustpython-parser = { git = "https://github.com/charliermarsh/RustPython.git", rev = "c3147d2c1524ebd0e90cf1c2938d770314fd5a5a" }

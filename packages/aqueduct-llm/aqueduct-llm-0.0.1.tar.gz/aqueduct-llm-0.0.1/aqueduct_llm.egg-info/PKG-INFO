@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: aqueduct-llm
+Version: 0.0.1
+Summary: Aqueduct LLM Package
+Home-page: https://www.aqueducthq.com/
+Author: Aqueduct, Inc.
+Author-email: hello@aqueducthq.com
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+This package allows you to integrate LLMs into your Aqueduct machine learning pipelines with a single line of code.

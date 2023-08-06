@@ -1,0 +1,15 @@
+MANIFEST.in
+requirements.txt
+setup.py
+aqueduct_llm/__init__.py
+aqueduct_llm/dolly_v2_3b.py
+aqueduct_llm/dolly_v2_7b.py
+aqueduct_llm/llama_7b.py
+aqueduct_llm/vicuna_7b.py
+aqueduct_llm.egg-info/PKG-INFO
+aqueduct_llm.egg-info/SOURCES.txt
+aqueduct_llm.egg-info/dependency_links.txt
+aqueduct_llm.egg-info/requires.txt
+aqueduct_llm.egg-info/top_level.txt
+aqueduct_llm/utils/__init__.py
+aqueduct_llm/utils/dolly_instruct_pipeline.py

@@ -1,0 +1,5 @@
+requests
+pystyle
+replit
+flask
+flask_restful

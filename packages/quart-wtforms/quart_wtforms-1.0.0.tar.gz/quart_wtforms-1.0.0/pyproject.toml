@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "quart-wtforms"
+version = "1.0.0"
+description = "Simple Integration of Quart and WTForms."
+authors = ["Chris Rood <quart.addons@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "quart_wtf"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+quart = "^0.18.3"
+WTForms = "^3.0.1"
+itsdangerous = "^2.1.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.2"
+pytest-asyncio = "^0.21.0"
+Sphinx = ">=3.4 <6.0.0"
+pydata-sphinx-theme = "^0.13.3"
+quart-uploads = "^0.0.1"
+quart-babel = "^1.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

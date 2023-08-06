@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/pybgpasn/__init__.py
+src/pybgpasn/pybgpasn.py
+src/pybgpasn.egg-info/PKG-INFO
+src/pybgpasn.egg-info/SOURCES.txt
+src/pybgpasn.egg-info/dependency_links.txt
+src/pybgpasn.egg-info/top_level.txt

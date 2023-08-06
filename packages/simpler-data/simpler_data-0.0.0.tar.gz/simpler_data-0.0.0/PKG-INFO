@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: simpler-data
+Version: 0.0.0
+Summary: Everything should be a simpler as possible, and no simpler.
+Author: Aaron ("AJ") Steers
+Requires-Python: >=3.10,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: SQLAlchemy (>=1.4,<2.0)
+Requires-Dist: singer-sdk (>=0.26.0,<0.27.0)
+Description-Content-Type: text/markdown
+
+# SimplerData
+"Everything should be made as simple as possible, and no simpler." - Albert Einstein
+

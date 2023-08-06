@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <!--引入layui的样式文件-->
+    <link rel="stylesheet" href="../layui/layui.css">
+    <!--引入layui的js文件-->
+    <script src="../layui/layui.js"></script>
+    <head>
+
+<body>
+
+
+<form class="layui-form layui-form-pane" action="" id="case">
+    <div class="layui-form-item">
+        <div class="layui-collapse">
+            <div class="layui-colla-item">
+                <h2 class="layui-colla-title layui-bg-green">接口信息</h2>
+                <div class="layui-colla-content layui-show">
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label layui-bg-green">用例编号</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="number" autocomplete="off"
+                                   placeholder="请输入Number"
+                                   class="layui-input">
+                        </div>
+                    </div>
+
+                    <div class="layui-form-item">
+
+                        <label class="layui-form-label layui-bg-green">用例标题</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="title" autocomplete="off" placeholder="请输入Title"
+                                   class="layui-input">
+                        </div>
+
+                    </div>
+
+                    <div class="layui-form-item">
+                        <label class="layui-form-label layui-bg-green">请求方式</label>
+                        <div class="layui-input-inline">
+                            <select name="method">
+                                <option value="">请选择请求方式</option>
+                                <option value="post">post</option>
+                                <option value="get">get</option>
+                                <option value="put">put</option>
+                                <option value="delete">delete</option>
+                            </select>
+                        </div>
+
+                        <label class="layui-form-label layui-bg-green">Path</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="path" autocomplete="off" placeholder="请输入Path"
+                                   class="layui-input">
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-collapse">
+            <div class="layui-colla-item">
+                <h2 class="layui-colla-title layui-bg-green">Headers</h2>
+                <div class="layui-colla-content layui-show">
+
+                    <div class="layui-form-item layui-form-text">
+                        <div class="layui-input-block">
+                            <textarea placeholder="请输入Headers" name="headers" class="layui-textarea"></textarea>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-collapse">
+            <div class="layui-colla-item">
+                <h2 class="layui-colla-title layui-bg-green">Params</h2>
+                <div class="layui-colla-content layui-show">
+                    <div class="layui-form-item layui-form-text">
+                        <div class="layui-input-block">
+                            <textarea placeholder="请输入Params" name="params" class="layui-textarea"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-collapse">
+            <div class="layui-colla-item">
+                <h2 class="layui-colla-title layui-bg-green">Json</h2>
+                <div class="layui-colla-content layui-show">
+                    <div class="layui-form-item layui-form-text">
+                        <div class="layui-input-block">
+                            <textarea placeholder="请输入Json" name="json" class="layui-textarea"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-collapse">
+            <div class="layui-colla-item">
+                <h2 class="layui-colla-title layui-bg-green">Data</h2>
+                <div class="layui-colla-content layui-show">
+
+                    <div class="layui-form-item layui-form-text">
+                        <div class="layui-input-block">
+                            <textarea placeholder="请输入Data" name="data" class="layui-textarea"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button type="submit" class="layui-btn" lay-submit="" lay-filter="demo1">立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+
+</form>
+
+
+<script>
+    //注意：折叠面板 依赖 element 模块，否则无法进行功能性操作
+    layui.use('element', function () {
+        var element = layui.element;
+    });
+
+</script>
+
+
+<script>
+
+
+    layui.use('form', function () {
+        var form = layui.form;
+        //监听提交
+        form.on('submit(demo1)', function (data) {
+            // 在这里写表单提交的处理逻辑，data.field获取表单数据
+            fetch("http://localhost:5000/testcase/manage/add", {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data.field)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.code === 0) {
+                        layui.layer.confirm(data.msg, function (index) {
+                            layui.layer.close(index);
+                            window.open("/", "_blank");
+                        })
+
+                    } else {
+                        layui.layer.alert(data.msg, {icon: 5}, function () {
+                        });
+                    }
+                })
+            return false
+        });
+    });
+
+
+</script>
+
+</body>
+</html>

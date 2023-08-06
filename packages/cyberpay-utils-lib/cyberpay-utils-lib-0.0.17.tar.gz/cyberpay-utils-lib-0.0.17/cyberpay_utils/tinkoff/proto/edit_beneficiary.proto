@@ -1,0 +1,10 @@
+syntax = "proto3";
+package tinkoff.proto;
+
+import "cyberpay_utils/tinkoff/proto/beneficiary_info.proto";
+
+// Request
+message EditBeneficiaryRequest {
+  string beneficiary_id = 1;
+  BeneficiaryInfo info = 2;
+}

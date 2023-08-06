@@ -1,0 +1,24 @@
+setuptools
+
+[:platform_python_implementation == "CPython"]
+greenlet
+
+[docs]
+Sphinx
+repoze.sphinx.autointerface
+nti.testing
+Paste
+WebTest
+zope.testrunner
+
+[docs:python_version < "3.6"]
+sphinx_rtd_theme
+
+[docs:python_version >= "3.6"]
+furo
+
+[test]
+nti.testing
+Paste
+WebTest
+zope.testrunner

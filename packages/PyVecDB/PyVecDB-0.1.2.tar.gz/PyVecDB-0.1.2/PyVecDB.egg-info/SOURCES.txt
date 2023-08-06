@@ -1,0 +1,14 @@
+README.md
+setup.py
+PyVecDB.egg-info/PKG-INFO
+PyVecDB.egg-info/SOURCES.txt
+PyVecDB.egg-info/dependency_links.txt
+PyVecDB.egg-info/requires.txt
+PyVecDB.egg-info/top_level.txt
+src/__init__.py
+src/data_object.py
+src/database.py
+src/stress_test.py
+src/vector_db.py
+src/word_generator.py
+tests/__init__.py

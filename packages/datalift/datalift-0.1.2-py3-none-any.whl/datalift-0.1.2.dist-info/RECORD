@@ -1,0 +1,14 @@
+datalift/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datalift/containers.py,sha256=hlaQp29hc2mOpqMMR19cX_jOML7dJuMnnu-4fyfxedw,803
+datalift/datalift.py,sha256=L_R40GdPhlxGewi4Ivhc9c62YgNaN6oWBKyJef_iRN8,2550
+datalift/storages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datalift/storages/base.py,sha256=e_LrBhO_lH_cJkDXqpQXsDuhK19mlkzy7sr0Zu0SkA8,473
+datalift/storages/utils.py,sha256=0jwyTZARinF0mvNFqF4CoL--4qeXwuGZ0acf-zwCDCc,75
+datalift/storages/infra/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datalift/storages/infra/dummy.py,sha256=wprgCcpXNbZBBLhdjLRBBYUDJbxapTTfcC-xxk1_l2Y,570
+datalift/storages/infra/ftp.py,sha256=lPqktytZ7HbTZUcVTKZubZ7D38F_XAzA5sdVDcA1tX8,1159
+datalift-0.1.2.dist-info/METADATA,sha256=VJgVmBxOdXdO83sQKcFgp1sTficxs5bCTmExeqexAF4,2077
+datalift-0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+datalift-0.1.2.dist-info/entry_points.txt,sha256=wMniGJmXC6bNVrxPq32O1mVNtwZ2W3qwUL-ufzcC3MM,53
+datalift-0.1.2.dist-info/top_level.txt,sha256=D8dU7JIIO7idNTplkZHkT4xmjusJwYcn6-CvAFoD-70,9
+datalift-0.1.2.dist-info/RECORD,,

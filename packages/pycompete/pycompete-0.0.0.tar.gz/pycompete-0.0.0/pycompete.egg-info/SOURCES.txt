@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+pycompete.egg-info/PKG-INFO
+pycompete.egg-info/SOURCES.txt
+pycompete.egg-info/dependency_links.txt
+pycompete.egg-info/top_level.txt

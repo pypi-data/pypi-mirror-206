@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pycompete
+Version: 0.0.0
+Summary: Tools to support the training and evalaution of models for the CRUNCHDAO project.
+Home-page: https://github.com/FChmiel/pycompete
+Author: Francis P. Chmiel
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Tools to support the training and evalaution of models for the CRUNCHDAO project.
